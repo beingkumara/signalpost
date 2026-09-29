@@ -1,0 +1,1294 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "915096115",
+  "orgnr_formatted": "915 096 115",
+  "name": "YTTERSIA EIENDOMSUTVIKLING AS",
+  "status": "active",
+  "checked_at": "2026-09-29T10:26:44Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "YTTERSIA EIENDOMSUTVIKLING AS",
+    "founded_date": "2015-02-27",
+    "registered_date": "2015-03-12",
+    "business_register_date": "2015-03-12",
+    "articles_date": "2015-02-27",
+    "latest_annual_accounts_year": "2025",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": true,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "AS",
+      "description": "Aksjeselskap",
+      "description_en": "private limited company"
+    },
+    "business_address": {
+      "text": "C/o Remi André Haugan, Østerbotnveien 42, 9700 LAKSELV, Norge",
+      "street": [
+        "C/o Remi André Haugan",
+        "Østerbotnveien 42"
+      ],
+      "postcode": "9700",
+      "city": "LAKSELV",
+      "municipality": "PORSANGER",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "PORSANGER",
+      "code": "5622"
+    },
+    "industry_codes": [
+      {
+        "code": "41.000",
+        "description": "Oppføring av bygninger"
+      }
+    ],
+    "purpose": "Oppføring av bygninger, utvikling og salg av fast eiendom ellers.",
+    "sector": {
+      "code": "2100",
+      "description": "Private aksjeselskaper mv."
+    },
+    "share_capital": {
+      "amount": 30000.0,
+      "currency": "NOK",
+      "type": "Aksjekapital",
+      "shares": 1000
+    },
+    "audit_opt_out": true,
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Remi André Haugan",
+          "deceased": false
+        },
+        "group_last_changed": "2015-03-12"
+      },
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Remi André Haugan",
+          "deceased": false
+        },
+        "group_last_changed": "2015-03-12"
+      },
+      {
+        "role_code": "REGN",
+        "role": "Regnskapsfører",
+        "group": "Regnskapsfører",
+        "holder": {
+          "type": "organization",
+          "name": "REGNSKAPSHJELP AS",
+          "orgnr": "996012034",
+          "deleted": false
+        },
+        "group_last_changed": "2018-12-17"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Remi André Haugan",
+      "deceased": false
+    },
+    "board_chair": {
+      "type": "person",
+      "name": "Remi André Haugan",
+      "deceased": false
+    },
+    "accountant": {
+      "type": "organization",
+      "name": "REGNSKAPSHJELP AS",
+      "orgnr": "996012034",
+      "deleted": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Remi André Haugan",
+        "deceased": false
+      }
+    ],
+    "accounts_period": {
+      "from": "2025-01-01",
+      "to": "2025-12-31",
+      "year": "2025",
+      "currency": "NOK",
+      "type": "SELSKAP",
+      "audited": true,
+      "audit_opt_out": true
+    },
+    "revenue": {
+      "amount": 1201799.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "operating_expenses": {
+      "amount": 1159114.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "operating_profit": {
+      "amount": 42686.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "net_financial_items": {
+      "amount": 612.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "profit_before_tax": {
+      "amount": 43298.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "net_profit": {
+      "amount": 43298.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "total_assets": {
+      "amount": 184015.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "current_assets": {
+      "amount": 184015.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "equity": {
+      "amount": -4979.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "total_debt": {
+      "amount": 188994.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "short_term_debt": {
+      "amount": 188994.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "915120768",
+        "name": "YTTERSIA EIENDOMSUTVIKLING AS",
+        "address": "C/o Remi André Haugan, Østerbotnveien 42, 9700 LAKSELV, Norge",
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/915096115",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:45Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "name",
+      "value": "YTTERSIA EIENDOMSUTVIKLING AS",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/915096115",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:45Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2015-02-27",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/915096115",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:45Z",
+      "as_of": "2015-02-27",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2015-03-12",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/915096115",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:45Z",
+      "as_of": "2015-03-12",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "2015-03-12",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/915096115",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:45Z",
+      "as_of": "2015-03-12",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "articles_date",
+      "value": "2015-02-27",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/915096115",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:45Z",
+      "as_of": "2015-02-27",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "json_path": "vedtektsdato"
+      },
+      "confidence": "high",
+      "label": "Date of articles of association",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "latest_annual_accounts_year",
+      "value": "2025",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/915096115",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:45Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "json_path": "sisteInnsendteAarsregnskap"
+      },
+      "confidence": "high",
+      "label": "Latest annual accounts submitted",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/915096115",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:45Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/915096115",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:45Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/915096115",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:45Z",
+      "as_of": "2015-03-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/915096115",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:45Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/915096115",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:45Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/915096115",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:45Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/915096115",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:45Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "AS",
+        "description": "Aksjeselskap",
+        "description_en": "private limited company"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/915096115",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:45Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "C/o Remi André Haugan, Østerbotnveien 42, 9700 LAKSELV, Norge",
+        "street": [
+          "C/o Remi André Haugan",
+          "Østerbotnveien 42"
+        ],
+        "postcode": "9700",
+        "city": "LAKSELV",
+        "municipality": "PORSANGER",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/915096115",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:45Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "PORSANGER",
+        "code": "5622"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/915096115",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:45Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "41.000",
+          "description": "Oppføring av bygninger"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/915096115",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:45Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Oppføring av bygninger, utvikling og salg av fast eiendom ellers.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/915096115",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:45Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "json_path": "vedtektsfestetFormaal"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "2100",
+        "description": "Private aksjeselskaper mv."
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/915096115",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:45Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "share_capital",
+      "value": {
+        "amount": 30000.0,
+        "currency": "NOK",
+        "type": "Aksjekapital",
+        "shares": 1000
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/915096115",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:45Z",
+      "as_of": "2015-03-12",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "json_path": "kapital"
+      },
+      "confidence": "high",
+      "label": "Share capital",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "audit_opt_out",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/915096115",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:45Z",
+      "as_of": "2015-03-12",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "json_path": "fravalgRevisjonDato"
+      },
+      "confidence": "high",
+      "label": "Opted out of statutory audit",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/915096115",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:45Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/915096115",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:45Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/915096115",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:45Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Remi André Haugan",
+            "deceased": false
+          },
+          "group_last_changed": "2015-03-12"
+        },
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Remi André Haugan",
+            "deceased": false
+          },
+          "group_last_changed": "2015-03-12"
+        },
+        {
+          "role_code": "REGN",
+          "role": "Regnskapsfører",
+          "group": "Regnskapsfører",
+          "holder": {
+            "type": "organization",
+            "name": "REGNSKAPSHJELP AS",
+            "orgnr": "996012034",
+            "deleted": false
+          },
+          "group_last_changed": "2018-12-17"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/915096115/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:49Z",
+      "as_of": "2018-12-17",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Remi André Haugan",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/915096115/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:49Z",
+      "as_of": "2015-03-12",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Remi André Haugan",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/915096115/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:49Z",
+      "as_of": "2015-03-12",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "accountant",
+      "value": {
+        "type": "organization",
+        "name": "REGNSKAPSHJELP AS",
+        "orgnr": "996012034",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/915096115/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:49Z",
+      "as_of": "2018-12-17",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "json_path": "rollegrupper[type.kode=REGN]"
+      },
+      "confidence": "high",
+      "label": "Accountant",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Remi André Haugan",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/915096115/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:49Z",
+      "as_of": "2018-12-17",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "accounts_period",
+      "value": {
+        "from": "2025-01-01",
+        "to": "2025-12-31",
+        "year": "2025",
+        "currency": "NOK",
+        "type": "SELSKAP",
+        "audited": true,
+        "audit_opt_out": true
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/915096115",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:50Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "journal_number": "2026384154",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "regnskapsperiode"
+      },
+      "confidence": "high",
+      "label": "Accounting period",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "revenue",
+      "value": {
+        "amount": 1201799.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/915096115",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:50Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "journal_number": "2026384154",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftsinntekter.sumDriftsinntekter"
+      },
+      "confidence": "high",
+      "label": "Operating revenue",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "operating_expenses",
+      "value": {
+        "amount": 1159114.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/915096115",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:50Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "journal_number": "2026384154",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftskostnad.sumDriftskostnad"
+      },
+      "confidence": "high",
+      "label": "Operating expenses",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "operating_profit",
+      "value": {
+        "amount": 42686.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/915096115",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:50Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "journal_number": "2026384154",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftsresultat"
+      },
+      "confidence": "high",
+      "label": "Operating profit",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "net_financial_items",
+      "value": {
+        "amount": 612.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/915096115",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:50Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "journal_number": "2026384154",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.finansresultat.nettoFinans"
+      },
+      "confidence": "high",
+      "label": "Net financial items",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "profit_before_tax",
+      "value": {
+        "amount": 43298.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/915096115",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:50Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "journal_number": "2026384154",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.ordinaertResultatFoerSkattekostnad"
+      },
+      "confidence": "high",
+      "label": "Profit before tax",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "net_profit",
+      "value": {
+        "amount": 43298.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/915096115",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:50Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "journal_number": "2026384154",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.aarsresultat"
+      },
+      "confidence": "high",
+      "label": "Net profit (annual result)",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "total_assets",
+      "value": {
+        "amount": 184015.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/915096115",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:50Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "journal_number": "2026384154",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.sumEiendeler"
+      },
+      "confidence": "high",
+      "label": "Total assets",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "current_assets",
+      "value": {
+        "amount": 184015.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/915096115",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:50Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "journal_number": "2026384154",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.omloepsmidler.sumOmloepsmidler"
+      },
+      "confidence": "high",
+      "label": "Current assets",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "equity",
+      "value": {
+        "amount": -4979.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/915096115",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:50Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "journal_number": "2026384154",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.egenkapital.sumEgenkapital"
+      },
+      "confidence": "high",
+      "label": "Equity",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "total_debt",
+      "value": {
+        "amount": 188994.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/915096115",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:50Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "journal_number": "2026384154",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.gjeldOversikt.sumGjeld"
+      },
+      "confidence": "high",
+      "label": "Total debt",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "short_term_debt",
+      "value": {
+        "amount": 188994.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/915096115",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:50Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "journal_number": "2026384154",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.gjeldOversikt.kortsiktigGjeld.sumKortsiktigGjeld"
+      },
+      "confidence": "high",
+      "label": "Short-term debt",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=915096115&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:25:11Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "915120768",
+          "name": "YTTERSIA EIENDOMSUTVIKLING AS",
+          "address": "C/o Remi André Haugan, Østerbotnveien 42, 9700 LAKSELV, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=915096115&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/915096115"
+      },
+      "retrieved_at": "2026-09-29T10:26:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "915096115",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:25:11Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:26:45Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/915096115"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:26:49Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/915096115/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:26:50Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/915096115"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:26:52Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=915096115&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "YTTERSIA EIENDOMSUTVIKLING AS (915 096 115), a private limited company, is an active entity in Enhetsregisteret; founded 2015-02-27; address C/o Remi André Haugan, Østerbotnveien 42, 9700 LAKSELV, Norge. Main industry is 41.000 Oppføring av bygninger; 1 registered sub-unit(s). Daily manager: Remi André Haugan; Board chair: Remi André Haugan. Accounts for 2025 (period ending 2025-12-31): revenue NOK 1.20 m, operating profit NOK 42.69 k, net profit NOK 43.30 k, equity NOK -4.98 k, total assets NOK 184.01 k.",
+    "notes": []
+  },
+  "first_checked_at": "2026-09-29T10:25:11Z",
+  "previous_checked_at": "2026-09-29T10:25:11Z",
+  "last_changed_at": "2026-09-29T10:25:11Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

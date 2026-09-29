@@ -1,0 +1,715 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "958233892",
+  "orgnr_formatted": "958 233 892",
+  "name": "BOGEN EIENDOM OG BOLIGSELSKAP DA",
+  "status": "active",
+  "checked_at": "2026-09-29T10:32:28Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "BOGEN EIENDOM OG BOLIGSELSKAP DA",
+    "founded_date": "1990-06-27",
+    "registered_date": "1995-02-19",
+    "business_register_date": "1990-09-29",
+    "articles_date": "1990-09-09",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "DA",
+      "description": "Ansvarlig selskap med delt ansvar",
+      "description_en": "partnership with shared liability"
+    },
+    "business_address": {
+      "text": "8288 BOGØY, Norge",
+      "street": [],
+      "postcode": "8288",
+      "city": "BOGØY",
+      "municipality": "STEIGEN",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "STEIGEN",
+      "code": "1848"
+    },
+    "postal_address": {
+      "text": "Postboks 13, 8288 BOGØY, Norge",
+      "street": [
+        "Postboks 13"
+      ],
+      "postcode": "8288",
+      "city": "BOGØY",
+      "municipality": "STEIGEN",
+      "country_code": "NO"
+    },
+    "industry_codes": [
+      {
+        "code": "68.320",
+        "description": "Eiendomsforvaltning på oppdrag"
+      }
+    ],
+    "purpose": "Formidling og salg av selveiertomter og feste- tomter til industri-, forretnings-, bolig- og fritidsformål. Utbygging av infrastruktur (eks. veier, kaier) som på sikt kan gi lønnsom drift. Utvikling av aktiviteter som campingplass, båt- utleie, aktivitetstilbud o.l. Utleie av boliger, leiligheter, fritidshus og andre bygninger. Lykt og lysservice for fyrvesenet.",
+    "sector": {
+      "code": "2300",
+      "description": "Personlige foretak"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Roald Bogen",
+          "deceased": true
+        },
+        "group_last_changed": "1990-09-29"
+      },
+      {
+        "role_code": "DTPR",
+        "role": "Deltaker med delt ansvar",
+        "group": "Deltakere",
+        "holder": {
+          "type": "person",
+          "name": "Roald Bogen",
+          "deceased": true
+        },
+        "group_last_changed": "2024-06-22"
+      },
+      {
+        "role_code": "DTPR",
+        "role": "Deltaker med delt ansvar",
+        "group": "Deltakere",
+        "holder": {
+          "type": "person",
+          "name": "Elsa Olea Halfrid Bogen",
+          "deceased": false
+        },
+        "group_last_changed": "2024-06-22"
+      },
+      {
+        "role_code": "DTPR",
+        "role": "Deltaker med delt ansvar",
+        "group": "Deltakere",
+        "holder": {
+          "type": "person",
+          "name": "Asle Roald Bogen",
+          "deceased": false
+        },
+        "group_last_changed": "2024-06-22"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Roald Bogen",
+      "deceased": true
+    }
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/958233892",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/958233892"
+      },
+      "retrieved_at": "2026-09-29T10:32:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "958233892",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:32:28Z"
+    },
+    {
+      "field": "name",
+      "value": "BOGEN EIENDOM OG BOLIGSELSKAP DA",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/958233892",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/958233892"
+      },
+      "retrieved_at": "2026-09-29T10:32:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "958233892",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:32:28Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "1990-06-27",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/958233892",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/958233892"
+      },
+      "retrieved_at": "2026-09-29T10:32:29Z",
+      "as_of": "1990-06-27",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "958233892",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:32:28Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "1995-02-19",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/958233892",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/958233892"
+      },
+      "retrieved_at": "2026-09-29T10:32:29Z",
+      "as_of": "1995-02-19",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "958233892",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:32:28Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "1990-09-29",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/958233892",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/958233892"
+      },
+      "retrieved_at": "2026-09-29T10:32:29Z",
+      "as_of": "1990-09-29",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "958233892",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:32:28Z"
+    },
+    {
+      "field": "articles_date",
+      "value": "1990-09-09",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/958233892",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/958233892"
+      },
+      "retrieved_at": "2026-09-29T10:32:29Z",
+      "as_of": "1990-09-09",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "958233892",
+        "json_path": "vedtektsdato"
+      },
+      "confidence": "high",
+      "label": "Date of articles of association",
+      "first_seen": "2026-09-29T10:32:28Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/958233892",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/958233892"
+      },
+      "retrieved_at": "2026-09-29T10:32:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "958233892",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:32:28Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/958233892",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/958233892"
+      },
+      "retrieved_at": "2026-09-29T10:32:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "958233892",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:32:28Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/958233892",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/958233892"
+      },
+      "retrieved_at": "2026-09-29T10:32:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "958233892",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:32:28Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/958233892",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/958233892"
+      },
+      "retrieved_at": "2026-09-29T10:32:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "958233892",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:32:28Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/958233892",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/958233892"
+      },
+      "retrieved_at": "2026-09-29T10:32:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "958233892",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:32:28Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/958233892",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/958233892"
+      },
+      "retrieved_at": "2026-09-29T10:32:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "958233892",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:32:28Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/958233892",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/958233892"
+      },
+      "retrieved_at": "2026-09-29T10:32:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "958233892",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:32:28Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "DA",
+        "description": "Ansvarlig selskap med delt ansvar",
+        "description_en": "partnership with shared liability"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/958233892",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/958233892"
+      },
+      "retrieved_at": "2026-09-29T10:32:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "958233892",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:32:28Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "8288 BOGØY, Norge",
+        "street": [],
+        "postcode": "8288",
+        "city": "BOGØY",
+        "municipality": "STEIGEN",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/958233892",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/958233892"
+      },
+      "retrieved_at": "2026-09-29T10:32:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "958233892",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:32:28Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "STEIGEN",
+        "code": "1848"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/958233892",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/958233892"
+      },
+      "retrieved_at": "2026-09-29T10:32:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "958233892",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:32:28Z"
+    },
+    {
+      "field": "postal_address",
+      "value": {
+        "text": "Postboks 13, 8288 BOGØY, Norge",
+        "street": [
+          "Postboks 13"
+        ],
+        "postcode": "8288",
+        "city": "BOGØY",
+        "municipality": "STEIGEN",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/958233892",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/958233892"
+      },
+      "retrieved_at": "2026-09-29T10:32:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "958233892",
+        "json_path": "postadresse"
+      },
+      "confidence": "high",
+      "label": "Postal address",
+      "first_seen": "2026-09-29T10:32:28Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "68.320",
+          "description": "Eiendomsforvaltning på oppdrag"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/958233892",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/958233892"
+      },
+      "retrieved_at": "2026-09-29T10:32:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "958233892",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:32:28Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Formidling og salg av selveiertomter og feste- tomter til industri-, forretnings-, bolig- og fritidsformål. Utbygging av infrastruktur (eks. veier, kaier) som på sikt kan gi lønnsom drift. Utvikling av aktiviteter som campingplass, båt- utleie, aktivitetstilbud o.l. Utleie av boliger, leiligheter, fritidshus og andre bygninger. Lykt og lysservice for fyrvesenet.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/958233892",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/958233892"
+      },
+      "retrieved_at": "2026-09-29T10:32:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "958233892",
+        "json_path": "vedtektsfestetFormaal"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:32:28Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "2300",
+        "description": "Personlige foretak"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/958233892",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/958233892"
+      },
+      "retrieved_at": "2026-09-29T10:32:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "958233892",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:32:28Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/958233892",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/958233892"
+      },
+      "retrieved_at": "2026-09-29T10:32:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "958233892",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:32:28Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/958233892",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/958233892"
+      },
+      "retrieved_at": "2026-09-29T10:32:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "958233892",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:32:28Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/958233892",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/958233892"
+      },
+      "retrieved_at": "2026-09-29T10:32:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "958233892",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:32:28Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Roald Bogen",
+            "deceased": true
+          },
+          "group_last_changed": "1990-09-29"
+        },
+        {
+          "role_code": "DTPR",
+          "role": "Deltaker med delt ansvar",
+          "group": "Deltakere",
+          "holder": {
+            "type": "person",
+            "name": "Roald Bogen",
+            "deceased": true
+          },
+          "group_last_changed": "2024-06-22"
+        },
+        {
+          "role_code": "DTPR",
+          "role": "Deltaker med delt ansvar",
+          "group": "Deltakere",
+          "holder": {
+            "type": "person",
+            "name": "Elsa Olea Halfrid Bogen",
+            "deceased": false
+          },
+          "group_last_changed": "2024-06-22"
+        },
+        {
+          "role_code": "DTPR",
+          "role": "Deltaker med delt ansvar",
+          "group": "Deltakere",
+          "holder": {
+            "type": "person",
+            "name": "Asle Roald Bogen",
+            "deceased": false
+          },
+          "group_last_changed": "2024-06-22"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/958233892/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/958233892"
+      },
+      "retrieved_at": "2026-09-29T10:32:30Z",
+      "as_of": "2024-06-22",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "958233892",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:32:28Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Roald Bogen",
+        "deceased": true
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/958233892/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/958233892"
+      },
+      "retrieved_at": "2026-09-29T10:32:30Z",
+      "as_of": "1990-09-29",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "958233892",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:32:28Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:32:29Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/958233892"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:32:30Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/958233892/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:32:32Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/958233892"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:32:33Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=958233892&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "BOGEN EIENDOM OG BOLIGSELSKAP DA (958 233 892), a partnership with shared liability, is an active entity in Enhetsregisteret; founded 1990-06-27; address 8288 BOGØY, Norge. Main industry is 68.320 Eiendomsforvaltning på oppdrag. Daily manager: Roald Bogen.",
+    "notes": [
+      "No annual accounts: organisation form DA is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:32:28Z",
+  "last_changed_at": "2026-09-29T10:32:28Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

@@ -1,0 +1,793 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "922747040",
+  "orgnr_formatted": "922 747 040",
+  "name": "KIILJORDHEIMEN PÅRØRENDEFORENING",
+  "status": "active",
+  "checked_at": "2026-09-29T10:34:16Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "KIILJORDHEIMEN PÅRØRENDEFORENING",
+    "founded_date": "2022-03-31",
+    "registered_date": "2022-04-28",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": true,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "FLI",
+      "description": "Forening/lag/innretning",
+      "description_en": "association"
+    },
+    "business_address": {
+      "text": "c/o Linda Merethe Hansen, Fridtjof Nansensgate 15, 8480 ANDENES, Norge",
+      "street": [
+        "c/o Linda Merethe Hansen",
+        "Fridtjof Nansensgate 15"
+      ],
+      "postcode": "8480",
+      "city": "ANDENES",
+      "municipality": "ANDØY",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "ANDØY",
+      "code": "1871"
+    },
+    "industry_codes": [
+      {
+        "code": "94.992",
+        "description": "Aktiviteter i andre medlemsorganisasjoner ellers"
+      }
+    ],
+    "purpose": "Arrangere aktiviteter og tilstelninger ved Kiiljordheimen sykehjem. Skaffe midler til innkjøp av relevant utstyr. Dugnadsarbeid ved sykehjemmet.",
+    "sector": {
+      "code": "7000",
+      "description": "Ideelle organisasjoner"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Linda Merethe Hansen",
+          "deceased": false
+        },
+        "group_last_changed": "2022-04-28"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Solfrid Kvalvik",
+          "deceased": false
+        },
+        "group_last_changed": "2022-04-28"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Jonn Ottar Karoliussen",
+          "deceased": false
+        },
+        "group_last_changed": "2022-04-28"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Gunnar Karoliussen",
+          "deceased": false
+        },
+        "group_last_changed": "2022-04-28"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Laila Therese Sollie",
+          "deceased": false
+        },
+        "group_last_changed": "2022-04-28"
+      }
+    ],
+    "board_chair": {
+      "type": "person",
+      "name": "Linda Merethe Hansen",
+      "deceased": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Linda Merethe Hansen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Solfrid Kvalvik",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Jonn Ottar Karoliussen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Gunnar Karoliussen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Laila Therese Sollie",
+        "deceased": false
+      }
+    ],
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "929115465",
+        "name": "KIILJORDHEIMEN PÅRØRENDEFORENING",
+        "address": "c/o Linda Merethe Hansen, Fridtjof Nansensgate 15, 8480 ANDENES, Norge",
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/922747040",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/922747040"
+      },
+      "retrieved_at": "2026-09-29T10:34:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "922747040",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:34:16Z"
+    },
+    {
+      "field": "name",
+      "value": "KIILJORDHEIMEN PÅRØRENDEFORENING",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/922747040",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/922747040"
+      },
+      "retrieved_at": "2026-09-29T10:34:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "922747040",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:34:16Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2022-03-31",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/922747040",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/922747040"
+      },
+      "retrieved_at": "2026-09-29T10:34:19Z",
+      "as_of": "2022-03-31",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "922747040",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:34:16Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2022-04-28",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/922747040",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/922747040"
+      },
+      "retrieved_at": "2026-09-29T10:34:19Z",
+      "as_of": "2022-04-28",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "922747040",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:34:16Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/922747040",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/922747040"
+      },
+      "retrieved_at": "2026-09-29T10:34:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "922747040",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:34:16Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/922747040",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/922747040"
+      },
+      "retrieved_at": "2026-09-29T10:34:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "922747040",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:34:16Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/922747040",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/922747040"
+      },
+      "retrieved_at": "2026-09-29T10:34:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "922747040",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:34:16Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/922747040",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/922747040"
+      },
+      "retrieved_at": "2026-09-29T10:34:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "922747040",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:34:16Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/922747040",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/922747040"
+      },
+      "retrieved_at": "2026-09-29T10:34:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "922747040",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:34:16Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/922747040",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/922747040"
+      },
+      "retrieved_at": "2026-09-29T10:34:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "922747040",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:34:16Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/922747040",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/922747040"
+      },
+      "retrieved_at": "2026-09-29T10:34:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "922747040",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:34:16Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "FLI",
+        "description": "Forening/lag/innretning",
+        "description_en": "association"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/922747040",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/922747040"
+      },
+      "retrieved_at": "2026-09-29T10:34:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "922747040",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:34:16Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "c/o Linda Merethe Hansen, Fridtjof Nansensgate 15, 8480 ANDENES, Norge",
+        "street": [
+          "c/o Linda Merethe Hansen",
+          "Fridtjof Nansensgate 15"
+        ],
+        "postcode": "8480",
+        "city": "ANDENES",
+        "municipality": "ANDØY",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/922747040",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/922747040"
+      },
+      "retrieved_at": "2026-09-29T10:34:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "922747040",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:34:16Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "ANDØY",
+        "code": "1871"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/922747040",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/922747040"
+      },
+      "retrieved_at": "2026-09-29T10:34:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "922747040",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:34:16Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "94.992",
+          "description": "Aktiviteter i andre medlemsorganisasjoner ellers"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/922747040",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/922747040"
+      },
+      "retrieved_at": "2026-09-29T10:34:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "922747040",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:34:16Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Arrangere aktiviteter og tilstelninger ved Kiiljordheimen sykehjem. Skaffe midler til innkjøp av relevant utstyr. Dugnadsarbeid ved sykehjemmet.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/922747040",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/922747040"
+      },
+      "retrieved_at": "2026-09-29T10:34:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "922747040",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:34:16Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "7000",
+        "description": "Ideelle organisasjoner"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/922747040",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/922747040"
+      },
+      "retrieved_at": "2026-09-29T10:34:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "922747040",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:34:16Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/922747040",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/922747040"
+      },
+      "retrieved_at": "2026-09-29T10:34:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "922747040",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:34:16Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/922747040",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/922747040"
+      },
+      "retrieved_at": "2026-09-29T10:34:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "922747040",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:34:16Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/922747040",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/922747040"
+      },
+      "retrieved_at": "2026-09-29T10:34:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "922747040",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:34:16Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Linda Merethe Hansen",
+            "deceased": false
+          },
+          "group_last_changed": "2022-04-28"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Solfrid Kvalvik",
+            "deceased": false
+          },
+          "group_last_changed": "2022-04-28"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Jonn Ottar Karoliussen",
+            "deceased": false
+          },
+          "group_last_changed": "2022-04-28"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Gunnar Karoliussen",
+            "deceased": false
+          },
+          "group_last_changed": "2022-04-28"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Laila Therese Sollie",
+            "deceased": false
+          },
+          "group_last_changed": "2022-04-28"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/922747040/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/922747040"
+      },
+      "retrieved_at": "2026-09-29T10:34:20Z",
+      "as_of": "2022-04-28",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "922747040",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:34:16Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Linda Merethe Hansen",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/922747040/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/922747040"
+      },
+      "retrieved_at": "2026-09-29T10:34:20Z",
+      "as_of": "2022-04-28",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "922747040",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:34:16Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Linda Merethe Hansen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Solfrid Kvalvik",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Jonn Ottar Karoliussen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Gunnar Karoliussen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Laila Therese Sollie",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/922747040/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/922747040"
+      },
+      "retrieved_at": "2026-09-29T10:34:20Z",
+      "as_of": "2022-04-28",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "922747040",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:34:16Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=922747040&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/922747040"
+      },
+      "retrieved_at": "2026-09-29T10:34:22Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "922747040",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:34:16Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "929115465",
+          "name": "KIILJORDHEIMEN PÅRØRENDEFORENING",
+          "address": "c/o Linda Merethe Hansen, Fridtjof Nansensgate 15, 8480 ANDENES, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=922747040&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/922747040"
+      },
+      "retrieved_at": "2026-09-29T10:34:22Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "922747040",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:34:16Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:34:19Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/922747040"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:34:20Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/922747040/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:34:21Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/922747040"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:34:22Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=922747040&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "KIILJORDHEIMEN PÅRØRENDEFORENING (922 747 040), an association, is an active entity in Enhetsregisteret; founded 2022-03-31; address c/o Linda Merethe Hansen, Fridtjof Nansensgate 15, 8480 ANDENES, Norge. Main industry is 94.992 Aktiviteter i andre medlemsorganisasjoner ellers; 1 registered sub-unit(s). Board chair: Linda Merethe Hansen.",
+    "notes": [
+      "No annual accounts: organisation form FLI is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:34:16Z",
+  "last_changed_at": "2026-09-29T10:34:16Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

@@ -1,0 +1,703 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "935489954",
+  "orgnr_formatted": "935 489 954",
+  "name": "REALSAMEIET VEILAGET LAGVEIEN 37-45",
+  "status": "active",
+  "checked_at": "2026-09-29T10:27:53Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "REALSAMEIET VEILAGET LAGVEIEN 37-45",
+    "founded_date": "2025-02-27",
+    "registered_date": "2025-06-18",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "SAM",
+      "description": "Tingsrettslig sameie",
+      "description_en": "jointly owned property"
+    },
+    "business_address": {
+      "text": "c/o Jakob Lothe, Lagveien 41, 1450 NESODDTANGEN, Norge",
+      "street": [
+        "c/o Jakob Lothe",
+        "Lagveien 41"
+      ],
+      "postcode": "1450",
+      "city": "NESODDTANGEN",
+      "municipality": "NESODDEN",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "NESODDEN",
+      "code": "3212"
+    },
+    "industry_codes": [
+      {
+        "code": "97.001",
+        "description": "Aktiviteter i borettslag og boligsameier"
+      }
+    ],
+    "purpose": "Gnr 4, bnr 847 i Nesodden kommune.",
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Jakob Lothe",
+          "deceased": false
+        },
+        "group_last_changed": "2025-06-18"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Andrea Ulrika Sofia Lindenger",
+          "deceased": false
+        },
+        "group_last_changed": "2025-06-18"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Jonas Bendiksen",
+          "deceased": false
+        },
+        "group_last_changed": "2025-06-18"
+      }
+    ],
+    "board_chair": {
+      "type": "person",
+      "name": "Jakob Lothe",
+      "deceased": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Jakob Lothe",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Andrea Ulrika Sofia Lindenger",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Jonas Bendiksen",
+        "deceased": false
+      }
+    ],
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "935699657",
+        "name": "REALSAMEIET VEILAGET LAGVEIEN 37-45",
+        "address": "c/o Jakob Lothe, Lagveien 41, 1450 NESODDTANGEN, Norge",
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935489954",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935489954"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935489954",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:27:53Z"
+    },
+    {
+      "field": "name",
+      "value": "REALSAMEIET VEILAGET LAGVEIEN 37-45",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935489954",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935489954"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935489954",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:27:53Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2025-02-27",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935489954",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935489954"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2025-02-27",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "935489954",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:27:53Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2025-06-18",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935489954",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935489954"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2025-06-18",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "935489954",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:27:53Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935489954",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935489954"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935489954",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:27:53Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935489954",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935489954"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935489954",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:27:53Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935489954",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935489954"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935489954",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:27:53Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935489954",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935489954"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935489954",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:27:53Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935489954",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935489954"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935489954",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:27:53Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935489954",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935489954"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935489954",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:27:53Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935489954",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935489954"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935489954",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:27:53Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "SAM",
+        "description": "Tingsrettslig sameie",
+        "description_en": "jointly owned property"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935489954",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935489954"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935489954",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:27:53Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "c/o Jakob Lothe, Lagveien 41, 1450 NESODDTANGEN, Norge",
+        "street": [
+          "c/o Jakob Lothe",
+          "Lagveien 41"
+        ],
+        "postcode": "1450",
+        "city": "NESODDTANGEN",
+        "municipality": "NESODDEN",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935489954",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935489954"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935489954",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:27:53Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "NESODDEN",
+        "code": "3212"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935489954",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935489954"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935489954",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:27:53Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "97.001",
+          "description": "Aktiviteter i borettslag og boligsameier"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935489954",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935489954"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935489954",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:27:53Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Gnr 4, bnr 847 i Nesodden kommune.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935489954",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935489954"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935489954",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:27:53Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935489954",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935489954"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935489954",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:27:53Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935489954",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935489954"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935489954",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:27:53Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935489954",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935489954"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935489954",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:27:53Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Jakob Lothe",
+            "deceased": false
+          },
+          "group_last_changed": "2025-06-18"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Andrea Ulrika Sofia Lindenger",
+            "deceased": false
+          },
+          "group_last_changed": "2025-06-18"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Jonas Bendiksen",
+            "deceased": false
+          },
+          "group_last_changed": "2025-06-18"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935489954/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935489954"
+      },
+      "retrieved_at": "2026-09-29T10:27:56Z",
+      "as_of": "2025-06-18",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "935489954",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:27:53Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Jakob Lothe",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935489954/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935489954"
+      },
+      "retrieved_at": "2026-09-29T10:27:56Z",
+      "as_of": "2025-06-18",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "935489954",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:27:53Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Jakob Lothe",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Andrea Ulrika Sofia Lindenger",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Jonas Bendiksen",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935489954/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935489954"
+      },
+      "retrieved_at": "2026-09-29T10:27:56Z",
+      "as_of": "2025-06-18",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "935489954",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:27:53Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=935489954&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935489954"
+      },
+      "retrieved_at": "2026-09-29T10:27:58Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935489954",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:27:53Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "935699657",
+          "name": "REALSAMEIET VEILAGET LAGVEIEN 37-45",
+          "address": "c/o Jakob Lothe, Lagveien 41, 1450 NESODDTANGEN, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=935489954&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935489954"
+      },
+      "retrieved_at": "2026-09-29T10:27:58Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935489954",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:27:53Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:27:54Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935489954"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:27:56Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935489954/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:27:57Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/935489954"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:27:58Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=935489954&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "REALSAMEIET VEILAGET LAGVEIEN 37-45 (935 489 954), a jointly owned property, is an active entity in Enhetsregisteret; founded 2025-02-27; address c/o Jakob Lothe, Lagveien 41, 1450 NESODDTANGEN, Norge. Main industry is 97.001 Aktiviteter i borettslag og boligsameier; 1 registered sub-unit(s). Board chair: Jakob Lothe.",
+    "notes": [
+      "No annual accounts: organisation form SAM is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:27:53Z",
+  "last_changed_at": "2026-09-29T10:27:53Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

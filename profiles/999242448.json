@@ -1,0 +1,713 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "999242448",
+  "orgnr_formatted": "999 242 448",
+  "name": "INDRE ÅKRAFJORDEN BEITELAG",
+  "status": "active",
+  "checked_at": "2026-09-29T10:30:47Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "INDRE ÅKRAFJORDEN BEITELAG",
+    "founded_date": "2012-11-30",
+    "registered_date": "2013-01-15",
+    "email": "nils.rullestad@odda.kommune.no",
+    "mobile": "90030189",
+    "in_corporate_group": false,
+    "language_form": "Nynorsk",
+    "vat_registered": false,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "FLI",
+      "description": "Forening/lag/innretning",
+      "description_en": "association"
+    },
+    "business_address": {
+      "text": "v Nils Rullestad, Rullestad, 5598 FJÆRA, Norge",
+      "street": [
+        "v Nils Rullestad",
+        "Rullestad"
+      ],
+      "postcode": "5598",
+      "city": "FJÆRA",
+      "municipality": "ETNE",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "ETNE",
+      "code": "4611"
+    },
+    "industry_codes": [
+      {
+        "code": "01.620",
+        "description": "Tjenester tilknyttet husdyrhold"
+      }
+    ],
+    "purpose": "Organisert fjellbeitebruk for sau.",
+    "sector": {
+      "code": "7000",
+      "description": "Ideelle organisasjoner"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Nils Rullestad",
+          "deceased": false
+        },
+        "group_last_changed": "2013-01-15"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Gunnar Severin Løhaugen",
+          "deceased": false
+        },
+        "group_last_changed": "2013-01-15"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Inge Lundervold",
+          "deceased": false
+        },
+        "group_last_changed": "2013-01-15"
+      }
+    ],
+    "board_chair": {
+      "type": "person",
+      "name": "Nils Rullestad",
+      "deceased": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Nils Rullestad",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Gunnar Severin Løhaugen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Inge Lundervold",
+        "deceased": false
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/999242448",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/999242448"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "999242448",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "name",
+      "value": "INDRE ÅKRAFJORDEN BEITELAG",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/999242448",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/999242448"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "999242448",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2012-11-30",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/999242448",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/999242448"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2012-11-30",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "999242448",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2013-01-15",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/999242448",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/999242448"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2013-01-15",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "999242448",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "email",
+      "value": "nils.rullestad@odda.kommune.no",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/999242448",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/999242448"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "999242448",
+        "json_path": "epostadresse"
+      },
+      "confidence": "high",
+      "label": "Email",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "mobile",
+      "value": "90030189",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/999242448",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/999242448"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "999242448",
+        "json_path": "mobil"
+      },
+      "confidence": "high",
+      "label": "Mobile phone",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/999242448",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/999242448"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "999242448",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Nynorsk",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/999242448",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/999242448"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "999242448",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/999242448",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/999242448"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "999242448",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/999242448",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/999242448"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "999242448",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/999242448",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/999242448"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "999242448",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/999242448",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/999242448"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "999242448",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/999242448",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/999242448"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "999242448",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "FLI",
+        "description": "Forening/lag/innretning",
+        "description_en": "association"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/999242448",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/999242448"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "999242448",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "v Nils Rullestad, Rullestad, 5598 FJÆRA, Norge",
+        "street": [
+          "v Nils Rullestad",
+          "Rullestad"
+        ],
+        "postcode": "5598",
+        "city": "FJÆRA",
+        "municipality": "ETNE",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/999242448",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/999242448"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "999242448",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "ETNE",
+        "code": "4611"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/999242448",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/999242448"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "999242448",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "01.620",
+          "description": "Tjenester tilknyttet husdyrhold"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/999242448",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/999242448"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "999242448",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Organisert fjellbeitebruk for sau.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/999242448",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/999242448"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "999242448",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "7000",
+        "description": "Ideelle organisasjoner"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/999242448",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/999242448"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "999242448",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/999242448",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/999242448"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "999242448",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/999242448",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/999242448"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "999242448",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/999242448",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/999242448"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "999242448",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Nils Rullestad",
+            "deceased": false
+          },
+          "group_last_changed": "2013-01-15"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Gunnar Severin Løhaugen",
+            "deceased": false
+          },
+          "group_last_changed": "2013-01-15"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Inge Lundervold",
+            "deceased": false
+          },
+          "group_last_changed": "2013-01-15"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/999242448/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/999242448"
+      },
+      "retrieved_at": "2026-09-29T10:30:49Z",
+      "as_of": "2013-01-15",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "999242448",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Nils Rullestad",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/999242448/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/999242448"
+      },
+      "retrieved_at": "2026-09-29T10:30:49Z",
+      "as_of": "2013-01-15",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "999242448",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Nils Rullestad",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Gunnar Severin Løhaugen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Inge Lundervold",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/999242448/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/999242448"
+      },
+      "retrieved_at": "2026-09-29T10:30:49Z",
+      "as_of": "2013-01-15",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "999242448",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:30:47Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:30:48Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/999242448"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:30:49Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/999242448/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:30:51Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/999242448"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:30:52Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=999242448&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "INDRE ÅKRAFJORDEN BEITELAG (999 242 448), an association, is an active entity in Enhetsregisteret; founded 2012-11-30; address v Nils Rullestad, Rullestad, 5598 FJÆRA, Norge. Main industry is 01.620 Tjenester tilknyttet husdyrhold. Board chair: Nils Rullestad.",
+    "notes": [
+      "No annual accounts: organisation form FLI is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:30:47Z",
+  "last_changed_at": "2026-09-29T10:30:47Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

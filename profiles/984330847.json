@@ -1,0 +1,740 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "984330847",
+  "orgnr_formatted": "984 330 847",
+  "name": "FYSIOTERAPEUT JESPER NILSEN",
+  "status": "active",
+  "checked_at": "2026-09-29T10:30:19Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "FYSIOTERAPEUT JESPER NILSEN",
+    "registered_date": "2002-04-10",
+    "website": "https://www.medi3.no/vi-tilbyr/fysioterapeut-og-kiropraktor/fysioterapeut/?eId=2023",
+    "email": "fysionilsen@gmail.com",
+    "mobile": "920 20 988",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "ENK",
+      "description": "Enkeltpersonforetak",
+      "description_en": "sole proprietorship"
+    },
+    "business_address": {
+      "text": "Sundgata 12, 6003 ÅLESUND, Norge",
+      "street": [
+        "Sundgata 12"
+      ],
+      "postcode": "6003",
+      "city": "ÅLESUND",
+      "municipality": "ÅLESUND",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "ÅLESUND",
+      "code": "1508"
+    },
+    "postal_address": {
+      "text": "Bergvegen 10A, 6003 ÅLESUND, Norge",
+      "street": [
+        "Bergvegen 10A"
+      ],
+      "postcode": "6003",
+      "city": "ÅLESUND",
+      "municipality": "ÅLESUND",
+      "country_code": "NO"
+    },
+    "industry_codes": [
+      {
+        "code": "86.950",
+        "description": "Fysioterapi- og ergoterapitjenester"
+      }
+    ],
+    "purpose": "Fysioterapi, massasje.",
+    "sector": {
+      "code": "8200",
+      "description": "Personlig næringsdrivende"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "INNH",
+        "role": "Innehaver",
+        "group": "Innehaver",
+        "holder": {
+          "type": "person",
+          "name": "Jesper Nilsen",
+          "deceased": false
+        },
+        "group_last_changed": "2002-04-10"
+      }
+    ],
+    "owner": {
+      "type": "person",
+      "name": "Jesper Nilsen",
+      "deceased": false
+    },
+    "website_verification": "name_on_page",
+    "website_title": "Fysioterapeut - Medi3",
+    "website_description": "Medi3 tilbyr fysioterapitjenester ved vårt senter i Ålesund. Vi har to fysioterapeuter. - Medi3"
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/984330847",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/984330847"
+      },
+      "retrieved_at": "2026-09-29T10:30:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "984330847",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:30:19Z"
+    },
+    {
+      "field": "name",
+      "value": "FYSIOTERAPEUT JESPER NILSEN",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/984330847",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/984330847"
+      },
+      "retrieved_at": "2026-09-29T10:30:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "984330847",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:30:19Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2002-04-10",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/984330847",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/984330847"
+      },
+      "retrieved_at": "2026-09-29T10:30:21Z",
+      "as_of": "2002-04-10",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "984330847",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:30:19Z"
+    },
+    {
+      "field": "website",
+      "value": "https://www.medi3.no/vi-tilbyr/fysioterapeut-og-kiropraktor/fysioterapeut/?eId=2023",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/984330847",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/984330847"
+      },
+      "retrieved_at": "2026-09-29T10:30:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "984330847",
+        "json_path": "hjemmeside"
+      },
+      "confidence": "high",
+      "label": "Website",
+      "first_seen": "2026-09-29T10:30:19Z"
+    },
+    {
+      "field": "email",
+      "value": "fysionilsen@gmail.com",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/984330847",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/984330847"
+      },
+      "retrieved_at": "2026-09-29T10:30:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "984330847",
+        "json_path": "epostadresse"
+      },
+      "confidence": "high",
+      "label": "Email",
+      "first_seen": "2026-09-29T10:30:19Z"
+    },
+    {
+      "field": "mobile",
+      "value": "920 20 988",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/984330847",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/984330847"
+      },
+      "retrieved_at": "2026-09-29T10:30:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "984330847",
+        "json_path": "mobil"
+      },
+      "confidence": "high",
+      "label": "Mobile phone",
+      "first_seen": "2026-09-29T10:30:19Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/984330847",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/984330847"
+      },
+      "retrieved_at": "2026-09-29T10:30:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "984330847",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:30:19Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/984330847",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/984330847"
+      },
+      "retrieved_at": "2026-09-29T10:30:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "984330847",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:30:19Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/984330847",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/984330847"
+      },
+      "retrieved_at": "2026-09-29T10:30:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "984330847",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:30:19Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/984330847",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/984330847"
+      },
+      "retrieved_at": "2026-09-29T10:30:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "984330847",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:30:19Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/984330847",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/984330847"
+      },
+      "retrieved_at": "2026-09-29T10:30:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "984330847",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:30:19Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/984330847",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/984330847"
+      },
+      "retrieved_at": "2026-09-29T10:30:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "984330847",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:30:19Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/984330847",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/984330847"
+      },
+      "retrieved_at": "2026-09-29T10:30:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "984330847",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:30:19Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "ENK",
+        "description": "Enkeltpersonforetak",
+        "description_en": "sole proprietorship"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/984330847",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/984330847"
+      },
+      "retrieved_at": "2026-09-29T10:30:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "984330847",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:30:19Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Sundgata 12, 6003 ÅLESUND, Norge",
+        "street": [
+          "Sundgata 12"
+        ],
+        "postcode": "6003",
+        "city": "ÅLESUND",
+        "municipality": "ÅLESUND",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/984330847",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/984330847"
+      },
+      "retrieved_at": "2026-09-29T10:30:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "984330847",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:30:19Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "ÅLESUND",
+        "code": "1508"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/984330847",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/984330847"
+      },
+      "retrieved_at": "2026-09-29T10:30:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "984330847",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:30:19Z"
+    },
+    {
+      "field": "postal_address",
+      "value": {
+        "text": "Bergvegen 10A, 6003 ÅLESUND, Norge",
+        "street": [
+          "Bergvegen 10A"
+        ],
+        "postcode": "6003",
+        "city": "ÅLESUND",
+        "municipality": "ÅLESUND",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/984330847",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/984330847"
+      },
+      "retrieved_at": "2026-09-29T10:30:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "984330847",
+        "json_path": "postadresse"
+      },
+      "confidence": "high",
+      "label": "Postal address",
+      "first_seen": "2026-09-29T10:30:19Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "86.950",
+          "description": "Fysioterapi- og ergoterapitjenester"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/984330847",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/984330847"
+      },
+      "retrieved_at": "2026-09-29T10:30:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "984330847",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:30:19Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Fysioterapi, massasje.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/984330847",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/984330847"
+      },
+      "retrieved_at": "2026-09-29T10:30:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "984330847",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:30:19Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "8200",
+        "description": "Personlig næringsdrivende"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/984330847",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/984330847"
+      },
+      "retrieved_at": "2026-09-29T10:30:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "984330847",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:30:19Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/984330847",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/984330847"
+      },
+      "retrieved_at": "2026-09-29T10:30:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "984330847",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:30:19Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/984330847",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/984330847"
+      },
+      "retrieved_at": "2026-09-29T10:30:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "984330847",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:30:19Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/984330847",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/984330847"
+      },
+      "retrieved_at": "2026-09-29T10:30:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "984330847",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:30:19Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "INNH",
+          "role": "Innehaver",
+          "group": "Innehaver",
+          "holder": {
+            "type": "person",
+            "name": "Jesper Nilsen",
+            "deceased": false
+          },
+          "group_last_changed": "2002-04-10"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/984330847/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/984330847"
+      },
+      "retrieved_at": "2026-09-29T10:30:22Z",
+      "as_of": "2002-04-10",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "984330847",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:30:19Z"
+    },
+    {
+      "field": "owner",
+      "value": {
+        "type": "person",
+        "name": "Jesper Nilsen",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/984330847/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/984330847"
+      },
+      "retrieved_at": "2026-09-29T10:30:22Z",
+      "as_of": "2002-04-10",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "984330847",
+        "json_path": "rollegrupper[type.kode=INNH]"
+      },
+      "confidence": "high",
+      "label": "Proprietor",
+      "first_seen": "2026-09-29T10:30:19Z"
+    },
+    {
+      "field": "website_verification",
+      "value": "name_on_page",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://www.medi3.no/vi-tilbyr/fysioterapeut-og-kiropraktor/fysioterapeut/?eId=2023",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:30:27Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "984330847",
+        "identity": {
+          "level": "name_on_page",
+          "orgnr_found": false,
+          "name_found": true,
+          "name_tested": "FYSIOTERAPEUT JESPER NILSEN"
+        },
+        "registered_url": "https://www.medi3.no/vi-tilbyr/fysioterapeut-og-kiropraktor/fysioterapeut/?eId=2023"
+      },
+      "confidence": "medium",
+      "label": "Website identity check",
+      "first_seen": "2026-09-29T10:30:19Z"
+    },
+    {
+      "field": "website_title",
+      "value": "Fysioterapeut - Medi3",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://www.medi3.no/vi-tilbyr/fysioterapeut-og-kiropraktor/fysioterapeut/?eId=2023",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:30:27Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "984330847",
+        "identity": {
+          "level": "name_on_page",
+          "orgnr_found": false,
+          "name_found": true,
+          "name_tested": "FYSIOTERAPEUT JESPER NILSEN"
+        },
+        "registered_url": "https://www.medi3.no/vi-tilbyr/fysioterapeut-og-kiropraktor/fysioterapeut/?eId=2023",
+        "json_path": "html.title"
+      },
+      "confidence": "medium",
+      "label": "Website title",
+      "first_seen": "2026-09-29T10:30:19Z"
+    },
+    {
+      "field": "website_description",
+      "value": "Medi3 tilbyr fysioterapitjenester ved vårt senter i Ålesund. Vi har to fysioterapeuter. - Medi3",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://www.medi3.no/vi-tilbyr/fysioterapeut-og-kiropraktor/fysioterapeut/?eId=2023",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:30:27Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "984330847",
+        "identity": {
+          "level": "name_on_page",
+          "orgnr_found": false,
+          "name_found": true,
+          "name_tested": "FYSIOTERAPEUT JESPER NILSEN"
+        },
+        "registered_url": "https://www.medi3.no/vi-tilbyr/fysioterapeut-og-kiropraktor/fysioterapeut/?eId=2023",
+        "json_path": "html.meta[description]"
+      },
+      "confidence": "medium",
+      "label": "Self-description on website",
+      "first_seen": "2026-09-29T10:30:19Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:30:21Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/984330847"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:30:22Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/984330847/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:30:24Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/984330847"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:30:25Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=984330847&size=5"
+    },
+    {
+      "source": "Company website",
+      "checked_at": "2026-09-29T10:30:27Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://www.medi3.no/vi-tilbyr/fysioterapeut-og-kiropraktor/fysioterapeut/?eId=2023"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "FYSIOTERAPEUT JESPER NILSEN (984 330 847), a sole proprietorship, is an active entity in Enhetsregisteret; address Sundgata 12, 6003 ÅLESUND, Norge. Main industry is 86.950 Fysioterapi- og ergoterapitjenester. Proprietor: Jesper Nilsen. Website https://www.medi3.no/vi-tilbyr/fysioterapeut-og-kiropraktor/fysioterapeut/?eId=2023 shows the registered name.",
+    "notes": [
+      "No annual accounts: organisation form ENK is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:30:19Z",
+  "last_changed_at": "2026-09-29T10:30:19Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

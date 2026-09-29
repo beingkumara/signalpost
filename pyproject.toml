@@ -1,0 +1,23 @@
+[project]
+name = "signalpost"
+version = "1.0.0"
+description = "Agent that builds evidence-backed profiles of Norwegian companies from permitted public sources."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pytest-cov>=5"]
+
+[project.scripts]
+signalpost = "signalpost.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["signalpost*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

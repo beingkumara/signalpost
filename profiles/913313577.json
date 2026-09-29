@@ -1,0 +1,839 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "913313577",
+  "orgnr_formatted": "913 313 577",
+  "name": "ÅLEN SAU & GEIT",
+  "status": "active",
+  "checked_at": "2026-09-29T10:32:58Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "ÅLEN SAU & GEIT",
+    "founded_date": "1948-07-01",
+    "registered_date": "2014-03-15",
+    "website": "https://www.nsg.no",
+    "email": "jbakaasgj@gmail.com",
+    "mobile": "951 40 120",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "FLI",
+      "description": "Forening/lag/innretning",
+      "description_en": "association"
+    },
+    "business_address": {
+      "text": "c/o Stig Østby, Nørvegen 74, 7380 ÅLEN, Norge",
+      "street": [
+        "c/o Stig Østby",
+        "Nørvegen 74"
+      ],
+      "postcode": "7380",
+      "city": "ÅLEN",
+      "municipality": "HOLTÅLEN",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "HOLTÅLEN",
+      "code": "5026"
+    },
+    "industry_codes": [
+      {
+        "code": "94.110",
+        "description": "Aktiviteter i næringslivs- og arbeidsgiverorganisasjoner"
+      }
+    ],
+    "purpose": "Interesseorganissjon for å fremme et rasjonelt og lønnsomt sau- og geitehold, sikre beiteretten og stimulere til samarbeid i produksjon og omsetning. Videre skal det arbeides for å øke bruk av norske småfeprodukt og fremme småfeholdet.",
+    "sector": {
+      "code": "2500",
+      "description": "Private produsentorienterte organisasjoner uten profittformål"
+    },
+    "former_names": [
+      {
+        "name": "FORENINGA ÅLEN SAU & GEIT",
+        "from": "2014-03-15",
+        "to": "2018-03-12"
+      }
+    ],
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Stig Østby",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-14"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Ole Jacob Sollie",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-14"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Bjørn Tamlag",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-14"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Randi Busk",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-14"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Anders Bakås",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-14"
+      }
+    ],
+    "board_chair": {
+      "type": "person",
+      "name": "Stig Østby",
+      "deceased": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Stig Østby",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Ole Jacob Sollie",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Bjørn Tamlag",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Randi Busk",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Anders Bakås",
+        "deceased": false
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913313577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913313577"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913313577",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "name",
+      "value": "ÅLEN SAU & GEIT",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913313577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913313577"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913313577",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "1948-07-01",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913313577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913313577"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "1948-07-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "913313577",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2014-03-15",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913313577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913313577"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2014-03-15",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "913313577",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "website",
+      "value": "https://www.nsg.no",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913313577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913313577"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913313577",
+        "json_path": "hjemmeside"
+      },
+      "confidence": "high",
+      "label": "Website",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "email",
+      "value": "jbakaasgj@gmail.com",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913313577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913313577"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913313577",
+        "json_path": "epostadresse"
+      },
+      "confidence": "high",
+      "label": "Email",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "mobile",
+      "value": "951 40 120",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913313577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913313577"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913313577",
+        "json_path": "mobil"
+      },
+      "confidence": "high",
+      "label": "Mobile phone",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913313577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913313577"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913313577",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913313577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913313577"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913313577",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913313577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913313577"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913313577",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913313577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913313577"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913313577",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913313577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913313577"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913313577",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913313577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913313577"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913313577",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913313577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913313577"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913313577",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "FLI",
+        "description": "Forening/lag/innretning",
+        "description_en": "association"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913313577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913313577"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913313577",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "c/o Stig Østby, Nørvegen 74, 7380 ÅLEN, Norge",
+        "street": [
+          "c/o Stig Østby",
+          "Nørvegen 74"
+        ],
+        "postcode": "7380",
+        "city": "ÅLEN",
+        "municipality": "HOLTÅLEN",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913313577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913313577"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913313577",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "HOLTÅLEN",
+        "code": "5026"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913313577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913313577"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913313577",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "94.110",
+          "description": "Aktiviteter i næringslivs- og arbeidsgiverorganisasjoner"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913313577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913313577"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913313577",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Interesseorganissjon for å fremme et rasjonelt og lønnsomt sau- og geitehold, sikre beiteretten og stimulere til samarbeid i produksjon og omsetning. Videre skal det arbeides for å øke bruk av norske småfeprodukt og fremme småfeholdet.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913313577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913313577"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913313577",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "2500",
+        "description": "Private produsentorienterte organisasjoner uten profittformål"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913313577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913313577"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913313577",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "former_names",
+      "value": [
+        {
+          "name": "FORENINGA ÅLEN SAU & GEIT",
+          "from": "2014-03-15",
+          "to": "2018-03-12"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913313577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913313577"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913313577",
+        "json_path": "historiskeNavn"
+      },
+      "confidence": "high",
+      "label": "Former names",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913313577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913313577"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913313577",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913313577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913313577"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913313577",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913313577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913313577"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913313577",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Stig Østby",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-14"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Ole Jacob Sollie",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-14"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Bjørn Tamlag",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-14"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Randi Busk",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-14"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Anders Bakås",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-14"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913313577/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913313577"
+      },
+      "retrieved_at": "2026-09-29T10:33:00Z",
+      "as_of": "2026-01-14",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "913313577",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Stig Østby",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913313577/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913313577"
+      },
+      "retrieved_at": "2026-09-29T10:33:00Z",
+      "as_of": "2026-01-14",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "913313577",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Stig Østby",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Ole Jacob Sollie",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Bjørn Tamlag",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Randi Busk",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Anders Bakås",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913313577/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913313577"
+      },
+      "retrieved_at": "2026-09-29T10:33:00Z",
+      "as_of": "2026-01-14",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "913313577",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:32:58Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:32:59Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913313577"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:33:00Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913313577/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:33:01Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/913313577"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:33:03Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=913313577&size=5"
+    },
+    {
+      "source": "Company website",
+      "checked_at": "2026-09-29T10:33:08Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://www.nsg.no"
+    }
+  ],
+  "warnings": [
+    "website https://www.nsg.no did not show the org number or name; content not used"
+  ],
+  "explanation": {
+    "summary": "ÅLEN SAU & GEIT (913 313 577), an association, is an active entity in Enhetsregisteret; founded 1948-07-01; address c/o Stig Østby, Nørvegen 74, 7380 ÅLEN, Norge. Main industry is 94.110 Aktiviteter i næringslivs- og arbeidsgiverorganisasjoner. Board chair: Stig Østby. Registered website: https://www.nsg.no.",
+    "notes": [
+      "No annual accounts: organisation form FLI is generally not required to file with Regnskapsregisteret.",
+      "website https://www.nsg.no did not show the org number or name; content not used"
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:32:58Z",
+  "last_changed_at": "2026-09-29T10:32:58Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

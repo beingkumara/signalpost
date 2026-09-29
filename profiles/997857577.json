@@ -1,0 +1,1507 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "997857577",
+  "orgnr_formatted": "997 857 577",
+  "name": "VSK EIENDOM AS",
+  "status": "active",
+  "checked_at": "2026-09-29T10:27:04Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "VSK EIENDOM AS",
+    "founded_date": "2012-01-11",
+    "registered_date": "2012-01-23",
+    "business_register_date": "2012-01-23",
+    "articles_date": "2015-11-02",
+    "website": "https://www.vskas.no",
+    "email": "post@vskas.no",
+    "phone": "77 74 97 60",
+    "mobile": "995 25 436",
+    "latest_annual_accounts_year": "2025",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": true,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "AS",
+      "description": "Aksjeselskap",
+      "description_en": "private limited company"
+    },
+    "business_address": {
+      "text": "Kokkevollen Næringspark, Torsvågveien 2107, 9136 VANNAREID, Norge",
+      "street": [
+        "Kokkevollen Næringspark",
+        "Torsvågveien 2107"
+      ],
+      "postcode": "9136",
+      "city": "VANNAREID",
+      "municipality": "KARLSØY",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "KARLSØY",
+      "code": "5534"
+    },
+    "industry_codes": [
+      {
+        "code": "68.200",
+        "description": "Utleie av egen eller leid fast eiendom"
+      }
+    ],
+    "purpose": "Utleie av fast eiendom.",
+    "sector": {
+      "code": "2100",
+      "description": "Private aksjeselskaper mv."
+    },
+    "share_capital": {
+      "amount": 1500000.0,
+      "currency": "NOK",
+      "type": "Aksjekapital",
+      "shares": 15000
+    },
+    "former_names": [
+      {
+        "name": "VSK HANDELSGÅRDEN AS",
+        "from": "2012-01-23",
+        "to": "2015-02-23"
+      }
+    ],
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Freddy Gunnar Mikkelsen",
+          "deceased": false
+        },
+        "group_last_changed": "2012-01-23"
+      },
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Freddy Gunnar Mikkelsen",
+          "deceased": false
+        },
+        "group_last_changed": "2024-05-23"
+      },
+      {
+        "role_code": "VARA",
+        "role": "Varamedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Niklas Andre Mikkelsen",
+          "deceased": false
+        },
+        "group_last_changed": "2024-05-23"
+      },
+      {
+        "role_code": "REVI",
+        "role": "Revisor",
+        "group": "Revisor",
+        "holder": {
+          "type": "organization",
+          "name": "REVIGO AS",
+          "orgnr": "972415790",
+          "deleted": false
+        },
+        "group_last_changed": "2014-11-19"
+      },
+      {
+        "role_code": "REGN",
+        "role": "Regnskapsfører",
+        "group": "Regnskapsfører",
+        "holder": {
+          "type": "organization",
+          "name": "VSK REGNSKAP AS",
+          "orgnr": "944225722",
+          "deleted": false
+        },
+        "group_last_changed": "2013-02-04"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Freddy Gunnar Mikkelsen",
+      "deceased": false
+    },
+    "board_chair": {
+      "type": "person",
+      "name": "Freddy Gunnar Mikkelsen",
+      "deceased": false
+    },
+    "auditor": {
+      "type": "organization",
+      "name": "REVIGO AS",
+      "orgnr": "972415790",
+      "deleted": false
+    },
+    "accountant": {
+      "type": "organization",
+      "name": "VSK REGNSKAP AS",
+      "orgnr": "944225722",
+      "deleted": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Freddy Gunnar Mikkelsen",
+        "deceased": false
+      }
+    ],
+    "accounts_period": {
+      "from": "2025-01-01",
+      "to": "2025-12-31",
+      "year": "2025",
+      "currency": "NOK",
+      "type": "SELSKAP",
+      "audited": true,
+      "audit_opt_out": false
+    },
+    "revenue": {
+      "amount": 1596675.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "operating_expenses": {
+      "amount": 975086.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "operating_profit": {
+      "amount": 621589.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "net_financial_items": {
+      "amount": -506300.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "profit_before_tax": {
+      "amount": 115289.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "net_profit": {
+      "amount": 92285.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "total_assets": {
+      "amount": 19320839.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "fixed_assets": {
+      "amount": 18989284.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "current_assets": {
+      "amount": 331555.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "equity": {
+      "amount": 8357760.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "total_debt": {
+      "amount": 10963079.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "short_term_debt": {
+      "amount": 1930391.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "997877985",
+        "name": "VSK EIENDOM AS",
+        "address": "Kokkevollen Næringspark, Torsvågveien 2107, 9136 VANNAREID, Norge",
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "name",
+      "value": "VSK EIENDOM AS",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2012-01-11",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2012-01-11",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2012-01-23",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2012-01-23",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "2012-01-23",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2012-01-23",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "articles_date",
+      "value": "2015-11-02",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2015-11-02",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "json_path": "vedtektsdato"
+      },
+      "confidence": "high",
+      "label": "Date of articles of association",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "website",
+      "value": "https://www.vskas.no",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "json_path": "hjemmeside"
+      },
+      "confidence": "high",
+      "label": "Website",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "email",
+      "value": "post@vskas.no",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "json_path": "epostadresse"
+      },
+      "confidence": "high",
+      "label": "Email",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "phone",
+      "value": "77 74 97 60",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "json_path": "telefon"
+      },
+      "confidence": "high",
+      "label": "Phone",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "mobile",
+      "value": "995 25 436",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "json_path": "mobil"
+      },
+      "confidence": "high",
+      "label": "Mobile phone",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "latest_annual_accounts_year",
+      "value": "2025",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "json_path": "sisteInnsendteAarsregnskap"
+      },
+      "confidence": "high",
+      "label": "Latest annual accounts submitted",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2012-01-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "AS",
+        "description": "Aksjeselskap",
+        "description_en": "private limited company"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Kokkevollen Næringspark, Torsvågveien 2107, 9136 VANNAREID, Norge",
+        "street": [
+          "Kokkevollen Næringspark",
+          "Torsvågveien 2107"
+        ],
+        "postcode": "9136",
+        "city": "VANNAREID",
+        "municipality": "KARLSØY",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "KARLSØY",
+        "code": "5534"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "68.200",
+          "description": "Utleie av egen eller leid fast eiendom"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Utleie av fast eiendom.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "json_path": "vedtektsfestetFormaal"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "2100",
+        "description": "Private aksjeselskaper mv."
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "share_capital",
+      "value": {
+        "amount": 1500000.0,
+        "currency": "NOK",
+        "type": "Aksjekapital",
+        "shares": 15000
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2016-01-13",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "json_path": "kapital"
+      },
+      "confidence": "high",
+      "label": "Share capital",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "former_names",
+      "value": [
+        {
+          "name": "VSK HANDELSGÅRDEN AS",
+          "from": "2012-01-23",
+          "to": "2015-02-23"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "json_path": "historiskeNavn"
+      },
+      "confidence": "high",
+      "label": "Former names",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Freddy Gunnar Mikkelsen",
+            "deceased": false
+          },
+          "group_last_changed": "2012-01-23"
+        },
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Freddy Gunnar Mikkelsen",
+            "deceased": false
+          },
+          "group_last_changed": "2024-05-23"
+        },
+        {
+          "role_code": "VARA",
+          "role": "Varamedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Niklas Andre Mikkelsen",
+            "deceased": false
+          },
+          "group_last_changed": "2024-05-23"
+        },
+        {
+          "role_code": "REVI",
+          "role": "Revisor",
+          "group": "Revisor",
+          "holder": {
+            "type": "organization",
+            "name": "REVIGO AS",
+            "orgnr": "972415790",
+            "deleted": false
+          },
+          "group_last_changed": "2014-11-19"
+        },
+        {
+          "role_code": "REGN",
+          "role": "Regnskapsfører",
+          "group": "Regnskapsfører",
+          "holder": {
+            "type": "organization",
+            "name": "VSK REGNSKAP AS",
+            "orgnr": "944225722",
+            "deleted": false
+          },
+          "group_last_changed": "2013-02-04"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/997857577/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:06Z",
+      "as_of": "2024-05-23",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Freddy Gunnar Mikkelsen",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/997857577/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:06Z",
+      "as_of": "2012-01-23",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Freddy Gunnar Mikkelsen",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/997857577/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:06Z",
+      "as_of": "2024-05-23",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "auditor",
+      "value": {
+        "type": "organization",
+        "name": "REVIGO AS",
+        "orgnr": "972415790",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/997857577/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:06Z",
+      "as_of": "2014-11-19",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "json_path": "rollegrupper[type.kode=REVI]"
+      },
+      "confidence": "high",
+      "label": "Auditor",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "accountant",
+      "value": {
+        "type": "organization",
+        "name": "VSK REGNSKAP AS",
+        "orgnr": "944225722",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/997857577/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:06Z",
+      "as_of": "2013-02-04",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "json_path": "rollegrupper[type.kode=REGN]"
+      },
+      "confidence": "high",
+      "label": "Accountant",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Freddy Gunnar Mikkelsen",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/997857577/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:06Z",
+      "as_of": "2024-05-23",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "accounts_period",
+      "value": {
+        "from": "2025-01-01",
+        "to": "2025-12-31",
+        "year": "2025",
+        "currency": "NOK",
+        "type": "SELSKAP",
+        "audited": true,
+        "audit_opt_out": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:07Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "journal_number": "2026603381",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "regnskapsperiode"
+      },
+      "confidence": "high",
+      "label": "Accounting period",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "revenue",
+      "value": {
+        "amount": 1596675.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:07Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "journal_number": "2026603381",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftsinntekter.sumDriftsinntekter"
+      },
+      "confidence": "high",
+      "label": "Operating revenue",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "operating_expenses",
+      "value": {
+        "amount": 975086.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:07Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "journal_number": "2026603381",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftskostnad.sumDriftskostnad"
+      },
+      "confidence": "high",
+      "label": "Operating expenses",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "operating_profit",
+      "value": {
+        "amount": 621589.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:07Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "journal_number": "2026603381",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftsresultat"
+      },
+      "confidence": "high",
+      "label": "Operating profit",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "net_financial_items",
+      "value": {
+        "amount": -506300.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:07Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "journal_number": "2026603381",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.finansresultat.nettoFinans"
+      },
+      "confidence": "high",
+      "label": "Net financial items",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "profit_before_tax",
+      "value": {
+        "amount": 115289.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:07Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "journal_number": "2026603381",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.ordinaertResultatFoerSkattekostnad"
+      },
+      "confidence": "high",
+      "label": "Profit before tax",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "net_profit",
+      "value": {
+        "amount": 92285.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:07Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "journal_number": "2026603381",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.aarsresultat"
+      },
+      "confidence": "high",
+      "label": "Net profit (annual result)",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "total_assets",
+      "value": {
+        "amount": 19320839.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:07Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "journal_number": "2026603381",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.sumEiendeler"
+      },
+      "confidence": "high",
+      "label": "Total assets",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "fixed_assets",
+      "value": {
+        "amount": 18989284.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:07Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "journal_number": "2026603381",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.anleggsmidler.sumAnleggsmidler"
+      },
+      "confidence": "high",
+      "label": "Fixed assets",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "current_assets",
+      "value": {
+        "amount": 331555.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:07Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "journal_number": "2026603381",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.omloepsmidler.sumOmloepsmidler"
+      },
+      "confidence": "high",
+      "label": "Current assets",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "equity",
+      "value": {
+        "amount": 8357760.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:07Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "journal_number": "2026603381",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.egenkapital.sumEgenkapital"
+      },
+      "confidence": "high",
+      "label": "Equity",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "total_debt",
+      "value": {
+        "amount": 10963079.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:07Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "journal_number": "2026603381",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.gjeldOversikt.sumGjeld"
+      },
+      "confidence": "high",
+      "label": "Total debt",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "short_term_debt",
+      "value": {
+        "amount": 1930391.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/997857577",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:07Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "journal_number": "2026603381",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.gjeldOversikt.kortsiktigGjeld.sumKortsiktigGjeld"
+      },
+      "confidence": "high",
+      "label": "Short-term debt",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=997857577&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:25:42Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "997877985",
+          "name": "VSK EIENDOM AS",
+          "address": "Kokkevollen Næringspark, Torsvågveien 2107, 9136 VANNAREID, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=997857577&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/997857577"
+      },
+      "retrieved_at": "2026-09-29T10:27:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "997857577",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:25:42Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:27:05Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/997857577"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:27:06Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/997857577/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:27:07Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/997857577"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:27:08Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=997857577&size=5"
+    },
+    {
+      "source": "Company website",
+      "checked_at": "2026-09-29T10:27:12Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://www.vskas.no"
+    }
+  ],
+  "warnings": [
+    "website https://vskas.no/ did not show the org number or name; content not used"
+  ],
+  "explanation": {
+    "summary": "VSK EIENDOM AS (997 857 577), a private limited company, is an active entity in Enhetsregisteret; founded 2012-01-11; address Kokkevollen Næringspark, Torsvågveien 2107, 9136 VANNAREID, Norge. Main industry is 68.200 Utleie av egen eller leid fast eiendom; 1 registered sub-unit(s). Daily manager: Freddy Gunnar Mikkelsen; Board chair: Freddy Gunnar Mikkelsen; Auditor: REVIGO AS. Accounts for 2025 (period ending 2025-12-31): revenue NOK 1.60 m, operating profit NOK 621.59 k, net profit NOK 92.28 k, equity NOK 8.36 m, total assets NOK 19.32 m. Registered website: https://www.vskas.no.",
+    "notes": [
+      "website https://vskas.no/ did not show the org number or name; content not used"
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:25:42Z",
+  "previous_checked_at": "2026-09-29T10:25:42Z",
+  "last_changed_at": "2026-09-29T10:25:42Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

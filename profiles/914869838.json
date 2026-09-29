@@ -1,0 +1,761 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "914869838",
+  "orgnr_formatted": "914 869 838",
+  "name": "FJORDBLÆSEN",
+  "status": "active",
+  "checked_at": "2026-09-29T10:29:18Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "FJORDBLÆSEN",
+    "founded_date": "1995-12-31",
+    "registered_date": "2015-02-12",
+    "mobile": "99539743",
+    "in_corporate_group": false,
+    "language_form": "Nynorsk",
+    "vat_registered": false,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": true,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "FLI",
+      "description": "Forening/lag/innretning",
+      "description_en": "association"
+    },
+    "postal_address": {
+      "text": "c/o Aina Elise Stokkenes, 6872 LUSTER, Norge",
+      "street": [
+        "c/o Aina Elise Stokkenes"
+      ],
+      "postcode": "6872",
+      "city": "LUSTER",
+      "municipality": "LUSTER",
+      "country_code": "NO"
+    },
+    "industry_codes": [
+      {
+        "code": "90.201",
+        "description": "Utøvende kunstnerisk virksomhet og underholdningsvirksomhet innenfor musikk"
+      }
+    ],
+    "purpose": "Skule- og ungdomskorps.",
+    "sector": {
+      "code": "7000",
+      "description": "Ideelle organisasjoner"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Liv Marit Heltne",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-14"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Aina-Elise Bolstad Stokkenes",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-14"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Anne Listou",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-14"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Britt Marie Veum Hauge",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-14"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Kjersti Dyrdal Ormberg",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-14"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Kurt Magne Ormberg",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-14"
+      }
+    ],
+    "board_chair": {
+      "type": "person",
+      "name": "Liv Marit Heltne",
+      "deceased": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Liv Marit Heltne",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Aina-Elise Bolstad Stokkenes",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Anne Listou",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Britt Marie Veum Hauge",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Kjersti Dyrdal Ormberg",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Kurt Magne Ormberg",
+        "deceased": false
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/914869838",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/914869838"
+      },
+      "retrieved_at": "2026-09-29T10:29:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "914869838",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:29:18Z"
+    },
+    {
+      "field": "name",
+      "value": "FJORDBLÆSEN",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/914869838",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/914869838"
+      },
+      "retrieved_at": "2026-09-29T10:29:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "914869838",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:29:18Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "1995-12-31",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/914869838",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/914869838"
+      },
+      "retrieved_at": "2026-09-29T10:29:19Z",
+      "as_of": "1995-12-31",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "914869838",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:29:18Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2015-02-12",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/914869838",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/914869838"
+      },
+      "retrieved_at": "2026-09-29T10:29:19Z",
+      "as_of": "2015-02-12",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "914869838",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:29:18Z"
+    },
+    {
+      "field": "mobile",
+      "value": "99539743",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/914869838",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/914869838"
+      },
+      "retrieved_at": "2026-09-29T10:29:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "914869838",
+        "json_path": "mobil"
+      },
+      "confidence": "high",
+      "label": "Mobile phone",
+      "first_seen": "2026-09-29T10:29:18Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/914869838",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/914869838"
+      },
+      "retrieved_at": "2026-09-29T10:29:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "914869838",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:29:18Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Nynorsk",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/914869838",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/914869838"
+      },
+      "retrieved_at": "2026-09-29T10:29:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "914869838",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:29:18Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/914869838",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/914869838"
+      },
+      "retrieved_at": "2026-09-29T10:29:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "914869838",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:29:18Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/914869838",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/914869838"
+      },
+      "retrieved_at": "2026-09-29T10:29:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "914869838",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:29:18Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/914869838",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/914869838"
+      },
+      "retrieved_at": "2026-09-29T10:29:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "914869838",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:29:18Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/914869838",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/914869838"
+      },
+      "retrieved_at": "2026-09-29T10:29:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "914869838",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:29:18Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/914869838",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/914869838"
+      },
+      "retrieved_at": "2026-09-29T10:29:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "914869838",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:29:18Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "FLI",
+        "description": "Forening/lag/innretning",
+        "description_en": "association"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/914869838",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/914869838"
+      },
+      "retrieved_at": "2026-09-29T10:29:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "914869838",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:29:18Z"
+    },
+    {
+      "field": "postal_address",
+      "value": {
+        "text": "c/o Aina Elise Stokkenes, 6872 LUSTER, Norge",
+        "street": [
+          "c/o Aina Elise Stokkenes"
+        ],
+        "postcode": "6872",
+        "city": "LUSTER",
+        "municipality": "LUSTER",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/914869838",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/914869838"
+      },
+      "retrieved_at": "2026-09-29T10:29:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "914869838",
+        "json_path": "postadresse"
+      },
+      "confidence": "high",
+      "label": "Postal address",
+      "first_seen": "2026-09-29T10:29:18Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "90.201",
+          "description": "Utøvende kunstnerisk virksomhet og underholdningsvirksomhet innenfor musikk"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/914869838",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/914869838"
+      },
+      "retrieved_at": "2026-09-29T10:29:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "914869838",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:29:18Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Skule- og ungdomskorps.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/914869838",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/914869838"
+      },
+      "retrieved_at": "2026-09-29T10:29:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "914869838",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:29:18Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "7000",
+        "description": "Ideelle organisasjoner"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/914869838",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/914869838"
+      },
+      "retrieved_at": "2026-09-29T10:29:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "914869838",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:29:18Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/914869838",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/914869838"
+      },
+      "retrieved_at": "2026-09-29T10:29:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "914869838",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:29:18Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/914869838",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/914869838"
+      },
+      "retrieved_at": "2026-09-29T10:29:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "914869838",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:29:18Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/914869838",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/914869838"
+      },
+      "retrieved_at": "2026-09-29T10:29:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "914869838",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:29:18Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Liv Marit Heltne",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-14"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Aina-Elise Bolstad Stokkenes",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-14"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Anne Listou",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-14"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Britt Marie Veum Hauge",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-14"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Kjersti Dyrdal Ormberg",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-14"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Kurt Magne Ormberg",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-14"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/914869838/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/914869838"
+      },
+      "retrieved_at": "2026-09-29T10:29:20Z",
+      "as_of": "2026-01-14",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "914869838",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:29:18Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Liv Marit Heltne",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/914869838/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/914869838"
+      },
+      "retrieved_at": "2026-09-29T10:29:20Z",
+      "as_of": "2026-01-14",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "914869838",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:29:18Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Liv Marit Heltne",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Aina-Elise Bolstad Stokkenes",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Anne Listou",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Britt Marie Veum Hauge",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Kjersti Dyrdal Ormberg",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Kurt Magne Ormberg",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/914869838/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/914869838"
+      },
+      "retrieved_at": "2026-09-29T10:29:20Z",
+      "as_of": "2026-01-14",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "914869838",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:29:18Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:29:19Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/914869838"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:29:20Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/914869838/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:29:21Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/914869838"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:29:22Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=914869838&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "FJORDBLÆSEN (914 869 838), an association, is an active entity in Enhetsregisteret; founded 1995-12-31. Main industry is 90.201 Utøvende kunstnerisk virksomhet og underholdningsvirksomhet innenfor musikk. Board chair: Liv Marit Heltne.",
+    "notes": [
+      "No annual accounts: organisation form FLI is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:29:18Z",
+  "last_changed_at": "2026-09-29T10:29:18Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

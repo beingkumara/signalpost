@@ -1,0 +1,659 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "990357412",
+  "orgnr_formatted": "990 357 412",
+  "name": "AB-TUNING DA",
+  "status": "active",
+  "checked_at": "2026-09-29T10:29:06Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "AB-TUNING DA",
+    "founded_date": "2006-09-12",
+    "registered_date": "2006-11-14",
+    "business_register_date": "2006-11-14",
+    "articles_date": "2006-09-12",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "DA",
+      "description": "Ansvarlig selskap med delt ansvar",
+      "description_en": "partnership with shared liability"
+    },
+    "business_address": {
+      "text": "Vauer, 1684 VESTERØY, Norge",
+      "street": [
+        "Vauer"
+      ],
+      "postcode": "1684",
+      "city": "VESTERØY",
+      "municipality": "HVALER",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "HVALER",
+      "code": "3110"
+    },
+    "industry_codes": [
+      {
+        "code": "95.310",
+        "description": "Reparasjon og vedlikehold av motorvogner"
+      }
+    ],
+    "purpose": "Bilelektronikk og alt som naturlig hører inn under dette.",
+    "sector": {
+      "code": "2300",
+      "description": "Personlige foretak"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Anders Bellmann",
+          "deceased": false
+        },
+        "group_last_changed": "2006-11-14"
+      },
+      {
+        "role_code": "DTPR",
+        "role": "Deltaker med delt ansvar",
+        "group": "Deltakere",
+        "holder": {
+          "type": "person",
+          "name": "Anders Bellmann",
+          "deceased": false
+        },
+        "group_last_changed": "2006-11-14"
+      },
+      {
+        "role_code": "DTPR",
+        "role": "Deltaker med delt ansvar",
+        "group": "Deltakere",
+        "holder": {
+          "type": "person",
+          "name": "Magnus Aarflot Granberg",
+          "deceased": false
+        },
+        "group_last_changed": "2006-11-14"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Anders Bellmann",
+      "deceased": false
+    }
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990357412",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990357412"
+      },
+      "retrieved_at": "2026-09-29T10:29:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990357412",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:29:06Z"
+    },
+    {
+      "field": "name",
+      "value": "AB-TUNING DA",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990357412",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990357412"
+      },
+      "retrieved_at": "2026-09-29T10:29:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990357412",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:29:06Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2006-09-12",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990357412",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990357412"
+      },
+      "retrieved_at": "2026-09-29T10:29:07Z",
+      "as_of": "2006-09-12",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "990357412",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:29:06Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2006-11-14",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990357412",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990357412"
+      },
+      "retrieved_at": "2026-09-29T10:29:07Z",
+      "as_of": "2006-11-14",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "990357412",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:29:06Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "2006-11-14",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990357412",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990357412"
+      },
+      "retrieved_at": "2026-09-29T10:29:07Z",
+      "as_of": "2006-11-14",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "990357412",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:29:06Z"
+    },
+    {
+      "field": "articles_date",
+      "value": "2006-09-12",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990357412",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990357412"
+      },
+      "retrieved_at": "2026-09-29T10:29:07Z",
+      "as_of": "2006-09-12",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "990357412",
+        "json_path": "vedtektsdato"
+      },
+      "confidence": "high",
+      "label": "Date of articles of association",
+      "first_seen": "2026-09-29T10:29:06Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990357412",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990357412"
+      },
+      "retrieved_at": "2026-09-29T10:29:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990357412",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:29:06Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990357412",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990357412"
+      },
+      "retrieved_at": "2026-09-29T10:29:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990357412",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:29:06Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990357412",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990357412"
+      },
+      "retrieved_at": "2026-09-29T10:29:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990357412",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:29:06Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990357412",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990357412"
+      },
+      "retrieved_at": "2026-09-29T10:29:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990357412",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:29:06Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990357412",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990357412"
+      },
+      "retrieved_at": "2026-09-29T10:29:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990357412",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:29:06Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990357412",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990357412"
+      },
+      "retrieved_at": "2026-09-29T10:29:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990357412",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:29:06Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990357412",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990357412"
+      },
+      "retrieved_at": "2026-09-29T10:29:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990357412",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:29:06Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "DA",
+        "description": "Ansvarlig selskap med delt ansvar",
+        "description_en": "partnership with shared liability"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990357412",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990357412"
+      },
+      "retrieved_at": "2026-09-29T10:29:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990357412",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:29:06Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Vauer, 1684 VESTERØY, Norge",
+        "street": [
+          "Vauer"
+        ],
+        "postcode": "1684",
+        "city": "VESTERØY",
+        "municipality": "HVALER",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990357412",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990357412"
+      },
+      "retrieved_at": "2026-09-29T10:29:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990357412",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:29:06Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "HVALER",
+        "code": "3110"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990357412",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990357412"
+      },
+      "retrieved_at": "2026-09-29T10:29:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990357412",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:29:06Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "95.310",
+          "description": "Reparasjon og vedlikehold av motorvogner"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990357412",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990357412"
+      },
+      "retrieved_at": "2026-09-29T10:29:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990357412",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:29:06Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Bilelektronikk og alt som naturlig hører inn under dette.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990357412",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990357412"
+      },
+      "retrieved_at": "2026-09-29T10:29:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990357412",
+        "json_path": "vedtektsfestetFormaal"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:29:06Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "2300",
+        "description": "Personlige foretak"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990357412",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990357412"
+      },
+      "retrieved_at": "2026-09-29T10:29:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990357412",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:29:06Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990357412",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990357412"
+      },
+      "retrieved_at": "2026-09-29T10:29:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990357412",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:29:06Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990357412",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990357412"
+      },
+      "retrieved_at": "2026-09-29T10:29:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990357412",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:29:06Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990357412",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990357412"
+      },
+      "retrieved_at": "2026-09-29T10:29:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990357412",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:29:06Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Anders Bellmann",
+            "deceased": false
+          },
+          "group_last_changed": "2006-11-14"
+        },
+        {
+          "role_code": "DTPR",
+          "role": "Deltaker med delt ansvar",
+          "group": "Deltakere",
+          "holder": {
+            "type": "person",
+            "name": "Anders Bellmann",
+            "deceased": false
+          },
+          "group_last_changed": "2006-11-14"
+        },
+        {
+          "role_code": "DTPR",
+          "role": "Deltaker med delt ansvar",
+          "group": "Deltakere",
+          "holder": {
+            "type": "person",
+            "name": "Magnus Aarflot Granberg",
+            "deceased": false
+          },
+          "group_last_changed": "2006-11-14"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990357412/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990357412"
+      },
+      "retrieved_at": "2026-09-29T10:29:09Z",
+      "as_of": "2006-11-14",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "990357412",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:29:06Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Anders Bellmann",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990357412/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990357412"
+      },
+      "retrieved_at": "2026-09-29T10:29:09Z",
+      "as_of": "2006-11-14",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "990357412",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:29:06Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:29:07Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990357412"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:29:09Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990357412/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:29:10Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/990357412"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:29:11Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=990357412&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "AB-TUNING DA (990 357 412), a partnership with shared liability, is an active entity in Enhetsregisteret; founded 2006-09-12; address Vauer, 1684 VESTERØY, Norge. Main industry is 95.310 Reparasjon og vedlikehold av motorvogner. Daily manager: Anders Bellmann.",
+    "notes": [
+      "No annual accounts: organisation form DA is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:29:06Z",
+  "last_changed_at": "2026-09-29T10:29:06Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

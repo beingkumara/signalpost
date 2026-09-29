@@ -1,0 +1,930 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "937285124",
+  "orgnr_formatted": "937 285 124",
+  "name": "KNOPH LABS AS",
+  "status": "active",
+  "checked_at": "2026-09-29T10:33:37Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "KNOPH LABS AS",
+    "founded_date": "2026-02-20",
+    "registered_date": "2026-03-03",
+    "business_register_date": "2026-03-03",
+    "articles_date": "2026-02-20",
+    "website": "https://knophlabs.no",
+    "email": "support@knophlabs.no",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "AS",
+      "description": "Aksjeselskap",
+      "description_en": "private limited company"
+    },
+    "business_address": {
+      "text": "Solvangen 9, 3420 LIERSKOGEN, Norge",
+      "street": [
+        "Solvangen 9"
+      ],
+      "postcode": "3420",
+      "city": "LIERSKOGEN",
+      "municipality": "LIER",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "LIER",
+      "code": "3312"
+    },
+    "industry_codes": [
+      {
+        "code": "62.100",
+        "description": "Dataprogrammeringstjenester"
+      }
+    ],
+    "purpose": "Teknologisk innovasjonsverksted for utvikling av nyskapende idéer. Selskapets kjerneaktivitet er en kontinuerlig syklus med design, prototyping og markedstesting av tekniske løsninger og programvare. Når et konsept valideres og viser seg funksjonelt i markedet, går virksomheten over i en fase med videreutvikling, teknisk optimalisering og fullskala drift for å realisere løsningens fulle potensial. Dette inkluderer også integrasjon mellom programvare og fysiske komponenter der det er formålstjenlig for konseptet.",
+    "sector": {
+      "code": "2100",
+      "description": "Private aksjeselskaper mv."
+    },
+    "share_capital": {
+      "amount": 30000.0,
+      "currency": "NOK",
+      "type": "Aksjekapital",
+      "shares": 30000
+    },
+    "audit_opt_out": true,
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Marcus Knoph",
+          "deceased": false
+        },
+        "group_last_changed": "2026-03-03"
+      },
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Marcus Knoph",
+          "deceased": false
+        },
+        "group_last_changed": "2026-03-03"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Marcus Knoph",
+      "deceased": false
+    },
+    "board_chair": {
+      "type": "person",
+      "name": "Marcus Knoph",
+      "deceased": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Marcus Knoph",
+        "deceased": false
+      }
+    ],
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "937678223",
+        "name": "KNOPH LABS AS",
+        "address": "Solvangen 9, 3420 LIERSKOGEN, Norge",
+        "employees": null
+      }
+    ],
+    "website_verification": "name_on_page",
+    "website_title": "Knoph Labs AS – Software Development Consultancy in Oslo, Norway",
+    "website_description": "Knoph Labs AS is a software development consultancy in Oslo, Norway. Custom applications, digital content, and technical consulting — from concept to deployment."
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937285124",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937285124"
+      },
+      "retrieved_at": "2026-09-29T10:33:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937285124",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:33:37Z"
+    },
+    {
+      "field": "name",
+      "value": "KNOPH LABS AS",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937285124",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937285124"
+      },
+      "retrieved_at": "2026-09-29T10:33:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937285124",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:33:37Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2026-02-20",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937285124",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937285124"
+      },
+      "retrieved_at": "2026-09-29T10:33:38Z",
+      "as_of": "2026-02-20",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "937285124",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:33:37Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2026-03-03",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937285124",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937285124"
+      },
+      "retrieved_at": "2026-09-29T10:33:38Z",
+      "as_of": "2026-03-03",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "937285124",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:33:37Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "2026-03-03",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937285124",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937285124"
+      },
+      "retrieved_at": "2026-09-29T10:33:38Z",
+      "as_of": "2026-03-03",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "937285124",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:33:37Z"
+    },
+    {
+      "field": "articles_date",
+      "value": "2026-02-20",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937285124",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937285124"
+      },
+      "retrieved_at": "2026-09-29T10:33:38Z",
+      "as_of": "2026-02-20",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "937285124",
+        "json_path": "vedtektsdato"
+      },
+      "confidence": "high",
+      "label": "Date of articles of association",
+      "first_seen": "2026-09-29T10:33:37Z"
+    },
+    {
+      "field": "website",
+      "value": "https://knophlabs.no",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937285124",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937285124"
+      },
+      "retrieved_at": "2026-09-29T10:33:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937285124",
+        "json_path": "hjemmeside"
+      },
+      "confidence": "high",
+      "label": "Website",
+      "first_seen": "2026-09-29T10:33:37Z"
+    },
+    {
+      "field": "email",
+      "value": "support@knophlabs.no",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937285124",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937285124"
+      },
+      "retrieved_at": "2026-09-29T10:33:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937285124",
+        "json_path": "epostadresse"
+      },
+      "confidence": "high",
+      "label": "Email",
+      "first_seen": "2026-09-29T10:33:37Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937285124",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937285124"
+      },
+      "retrieved_at": "2026-09-29T10:33:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937285124",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:33:37Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937285124",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937285124"
+      },
+      "retrieved_at": "2026-09-29T10:33:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937285124",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:33:37Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937285124",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937285124"
+      },
+      "retrieved_at": "2026-09-29T10:33:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937285124",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:33:37Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937285124",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937285124"
+      },
+      "retrieved_at": "2026-09-29T10:33:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937285124",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:33:37Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937285124",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937285124"
+      },
+      "retrieved_at": "2026-09-29T10:33:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937285124",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:33:37Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937285124",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937285124"
+      },
+      "retrieved_at": "2026-09-29T10:33:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937285124",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:33:37Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937285124",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937285124"
+      },
+      "retrieved_at": "2026-09-29T10:33:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937285124",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:33:37Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "AS",
+        "description": "Aksjeselskap",
+        "description_en": "private limited company"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937285124",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937285124"
+      },
+      "retrieved_at": "2026-09-29T10:33:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937285124",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:33:37Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Solvangen 9, 3420 LIERSKOGEN, Norge",
+        "street": [
+          "Solvangen 9"
+        ],
+        "postcode": "3420",
+        "city": "LIERSKOGEN",
+        "municipality": "LIER",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937285124",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937285124"
+      },
+      "retrieved_at": "2026-09-29T10:33:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937285124",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:33:37Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "LIER",
+        "code": "3312"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937285124",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937285124"
+      },
+      "retrieved_at": "2026-09-29T10:33:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937285124",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:33:37Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "62.100",
+          "description": "Dataprogrammeringstjenester"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937285124",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937285124"
+      },
+      "retrieved_at": "2026-09-29T10:33:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937285124",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:33:37Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Teknologisk innovasjonsverksted for utvikling av nyskapende idéer. Selskapets kjerneaktivitet er en kontinuerlig syklus med design, prototyping og markedstesting av tekniske løsninger og programvare. Når et konsept valideres og viser seg funksjonelt i markedet, går virksomheten over i en fase med videreutvikling, teknisk optimalisering og fullskala drift for å realisere løsningens fulle potensial. Dette inkluderer også integrasjon mellom programvare og fysiske komponenter der det er formålstjenlig for konseptet.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937285124",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937285124"
+      },
+      "retrieved_at": "2026-09-29T10:33:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937285124",
+        "json_path": "vedtektsfestetFormaal"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:33:37Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "2100",
+        "description": "Private aksjeselskaper mv."
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937285124",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937285124"
+      },
+      "retrieved_at": "2026-09-29T10:33:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937285124",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:33:37Z"
+    },
+    {
+      "field": "share_capital",
+      "value": {
+        "amount": 30000.0,
+        "currency": "NOK",
+        "type": "Aksjekapital",
+        "shares": 30000
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937285124",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937285124"
+      },
+      "retrieved_at": "2026-09-29T10:33:38Z",
+      "as_of": "2026-03-03",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "937285124",
+        "json_path": "kapital"
+      },
+      "confidence": "high",
+      "label": "Share capital",
+      "first_seen": "2026-09-29T10:33:37Z"
+    },
+    {
+      "field": "audit_opt_out",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937285124",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937285124"
+      },
+      "retrieved_at": "2026-09-29T10:33:38Z",
+      "as_of": "2026-03-03",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "937285124",
+        "json_path": "fravalgRevisjonDato"
+      },
+      "confidence": "high",
+      "label": "Opted out of statutory audit",
+      "first_seen": "2026-09-29T10:33:37Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937285124",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937285124"
+      },
+      "retrieved_at": "2026-09-29T10:33:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937285124",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:33:37Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937285124",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937285124"
+      },
+      "retrieved_at": "2026-09-29T10:33:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937285124",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:33:37Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937285124",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937285124"
+      },
+      "retrieved_at": "2026-09-29T10:33:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937285124",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:33:37Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Marcus Knoph",
+            "deceased": false
+          },
+          "group_last_changed": "2026-03-03"
+        },
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Marcus Knoph",
+            "deceased": false
+          },
+          "group_last_changed": "2026-03-03"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937285124/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937285124"
+      },
+      "retrieved_at": "2026-09-29T10:33:39Z",
+      "as_of": "2026-03-03",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "937285124",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:33:37Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Marcus Knoph",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937285124/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937285124"
+      },
+      "retrieved_at": "2026-09-29T10:33:39Z",
+      "as_of": "2026-03-03",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "937285124",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:33:37Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Marcus Knoph",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937285124/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937285124"
+      },
+      "retrieved_at": "2026-09-29T10:33:39Z",
+      "as_of": "2026-03-03",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "937285124",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:33:37Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Marcus Knoph",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937285124/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937285124"
+      },
+      "retrieved_at": "2026-09-29T10:33:39Z",
+      "as_of": "2026-03-03",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "937285124",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:33:37Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=937285124&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937285124"
+      },
+      "retrieved_at": "2026-09-29T10:33:41Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937285124",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:33:37Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "937678223",
+          "name": "KNOPH LABS AS",
+          "address": "Solvangen 9, 3420 LIERSKOGEN, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=937285124&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937285124"
+      },
+      "retrieved_at": "2026-09-29T10:33:41Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937285124",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:33:37Z"
+    },
+    {
+      "field": "website_verification",
+      "value": "name_on_page",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://knophlabs.no",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:33:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937285124",
+        "identity": {
+          "level": "name_on_page",
+          "orgnr_found": false,
+          "name_found": true,
+          "name_tested": "KNOPH LABS"
+        },
+        "registered_url": "https://knophlabs.no"
+      },
+      "confidence": "medium",
+      "label": "Website identity check",
+      "first_seen": "2026-09-29T10:33:37Z"
+    },
+    {
+      "field": "website_title",
+      "value": "Knoph Labs AS – Software Development Consultancy in Oslo, Norway",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://knophlabs.no",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:33:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937285124",
+        "identity": {
+          "level": "name_on_page",
+          "orgnr_found": false,
+          "name_found": true,
+          "name_tested": "KNOPH LABS"
+        },
+        "registered_url": "https://knophlabs.no",
+        "json_path": "html.title"
+      },
+      "confidence": "medium",
+      "label": "Website title",
+      "first_seen": "2026-09-29T10:33:37Z"
+    },
+    {
+      "field": "website_description",
+      "value": "Knoph Labs AS is a software development consultancy in Oslo, Norway. Custom applications, digital content, and technical consulting — from concept to deployment.",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://knophlabs.no",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:33:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937285124",
+        "identity": {
+          "level": "name_on_page",
+          "orgnr_found": false,
+          "name_found": true,
+          "name_tested": "KNOPH LABS"
+        },
+        "registered_url": "https://knophlabs.no",
+        "json_path": "html.meta[description]"
+      },
+      "confidence": "medium",
+      "label": "Self-description on website",
+      "first_seen": "2026-09-29T10:33:37Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:33:38Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937285124"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:33:39Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937285124/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:33:40Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/937285124"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:33:41Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=937285124&size=5"
+    },
+    {
+      "source": "Company website",
+      "checked_at": "2026-09-29T10:33:42Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://knophlabs.no"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "KNOPH LABS AS (937 285 124), a private limited company, is an active entity in Enhetsregisteret; founded 2026-02-20; address Solvangen 9, 3420 LIERSKOGEN, Norge. Main industry is 62.100 Dataprogrammeringstjenester; 1 registered sub-unit(s). Daily manager: Marcus Knoph; Board chair: Marcus Knoph. Website https://knophlabs.no shows the registered name.",
+    "notes": [
+      "No annual accounts were found in Regnskapsregisteret (new company, late filing, or not obliged to file). No financial figures are shown."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:33:37Z",
+  "last_changed_at": "2026-09-29T10:33:37Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

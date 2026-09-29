@@ -1,0 +1,1049 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "883373022",
+  "orgnr_formatted": "883 373 022",
+  "name": "STEINKJER FRIIDRETTSKLUBB",
+  "status": "active",
+  "checked_at": "2026-09-29T10:30:35Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "STEINKJER FRIIDRETTSKLUBB",
+    "founded_date": "1986-12-04",
+    "registered_date": "2001-08-09",
+    "website": "https://www.steinkjerfik.no",
+    "email": "steinkjerfik@gmail.com",
+    "mobile": "482 19 338",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": true,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "FLI",
+      "description": "Forening/lag/innretning",
+      "description_en": "association"
+    },
+    "business_address": {
+      "text": "c/o Amalie Rodum, Tranavegen 8A, 7713 STEINKJER, Norge",
+      "street": [
+        "c/o Amalie Rodum",
+        "Tranavegen 8A"
+      ],
+      "postcode": "7713",
+      "city": "STEINKJER",
+      "municipality": "STEINKJER",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "STEINKJER",
+      "code": "5006"
+    },
+    "postal_address": {
+      "text": "c/o Rune Fuglestrand, Hundsvotten 3, 7712 STEINKJER, Norge",
+      "street": [
+        "c/o Rune Fuglestrand",
+        "Hundsvotten 3"
+      ],
+      "postcode": "7712",
+      "city": "STEINKJER",
+      "municipality": "STEINKJER",
+      "country_code": "NO"
+    },
+    "industry_codes": [
+      {
+        "code": "93.120",
+        "description": "Aktiviteter i idrettslag og -klubber"
+      }
+    ],
+    "purpose": "Idrettslag - friidrett.",
+    "sector": {
+      "code": "7000",
+      "description": "Ideelle organisasjoner"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Amalie Rodum",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-07"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Torbjørn Aas",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-07"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Eivind Elnan",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-07"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Helle Gynnild",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-07"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Rune Fuglestrand",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-07"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Emily Nyborg",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-07"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Trine Ertsås",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-07"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Tom Kristian Mork",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-07"
+      }
+    ],
+    "board_chair": {
+      "type": "person",
+      "name": "Amalie Rodum",
+      "deceased": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Amalie Rodum",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Torbjørn Aas",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Eivind Elnan",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Helle Gynnild",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Rune Fuglestrand",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Emily Nyborg",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Trine Ertsås",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Tom Kristian Mork",
+        "deceased": false
+      }
+    ],
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "919245298",
+        "name": "STEINKJER FRIIDRETTSKLUBB",
+        "address": "c/o Amalie Rodum, Tranavegen 8A, 7713 STEINKJER, Norge",
+        "employees": null
+      }
+    ],
+    "website_verification": "name_on_page",
+    "website_title": "Steinkjer Friidrettsklubb"
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/883373022",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/883373022"
+      },
+      "retrieved_at": "2026-09-29T10:30:36Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "883373022",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:30:35Z"
+    },
+    {
+      "field": "name",
+      "value": "STEINKJER FRIIDRETTSKLUBB",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/883373022",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/883373022"
+      },
+      "retrieved_at": "2026-09-29T10:30:36Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "883373022",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:30:35Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "1986-12-04",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/883373022",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/883373022"
+      },
+      "retrieved_at": "2026-09-29T10:30:36Z",
+      "as_of": "1986-12-04",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "883373022",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:30:35Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2001-08-09",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/883373022",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/883373022"
+      },
+      "retrieved_at": "2026-09-29T10:30:36Z",
+      "as_of": "2001-08-09",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "883373022",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:30:35Z"
+    },
+    {
+      "field": "website",
+      "value": "https://www.steinkjerfik.no",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/883373022",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/883373022"
+      },
+      "retrieved_at": "2026-09-29T10:30:36Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "883373022",
+        "json_path": "hjemmeside"
+      },
+      "confidence": "high",
+      "label": "Website",
+      "first_seen": "2026-09-29T10:30:35Z"
+    },
+    {
+      "field": "email",
+      "value": "steinkjerfik@gmail.com",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/883373022",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/883373022"
+      },
+      "retrieved_at": "2026-09-29T10:30:36Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "883373022",
+        "json_path": "epostadresse"
+      },
+      "confidence": "high",
+      "label": "Email",
+      "first_seen": "2026-09-29T10:30:35Z"
+    },
+    {
+      "field": "mobile",
+      "value": "482 19 338",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/883373022",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/883373022"
+      },
+      "retrieved_at": "2026-09-29T10:30:36Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "883373022",
+        "json_path": "mobil"
+      },
+      "confidence": "high",
+      "label": "Mobile phone",
+      "first_seen": "2026-09-29T10:30:35Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/883373022",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/883373022"
+      },
+      "retrieved_at": "2026-09-29T10:30:36Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "883373022",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:30:35Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/883373022",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/883373022"
+      },
+      "retrieved_at": "2026-09-29T10:30:36Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "883373022",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:30:35Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/883373022",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/883373022"
+      },
+      "retrieved_at": "2026-09-29T10:30:36Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "883373022",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:30:35Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/883373022",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/883373022"
+      },
+      "retrieved_at": "2026-09-29T10:30:36Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "883373022",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:30:35Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/883373022",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/883373022"
+      },
+      "retrieved_at": "2026-09-29T10:30:36Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "883373022",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:30:35Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/883373022",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/883373022"
+      },
+      "retrieved_at": "2026-09-29T10:30:36Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "883373022",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:30:35Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/883373022",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/883373022"
+      },
+      "retrieved_at": "2026-09-29T10:30:36Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "883373022",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:30:35Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "FLI",
+        "description": "Forening/lag/innretning",
+        "description_en": "association"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/883373022",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/883373022"
+      },
+      "retrieved_at": "2026-09-29T10:30:36Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "883373022",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:30:35Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "c/o Amalie Rodum, Tranavegen 8A, 7713 STEINKJER, Norge",
+        "street": [
+          "c/o Amalie Rodum",
+          "Tranavegen 8A"
+        ],
+        "postcode": "7713",
+        "city": "STEINKJER",
+        "municipality": "STEINKJER",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/883373022",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/883373022"
+      },
+      "retrieved_at": "2026-09-29T10:30:36Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "883373022",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:30:35Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "STEINKJER",
+        "code": "5006"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/883373022",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/883373022"
+      },
+      "retrieved_at": "2026-09-29T10:30:36Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "883373022",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:30:35Z"
+    },
+    {
+      "field": "postal_address",
+      "value": {
+        "text": "c/o Rune Fuglestrand, Hundsvotten 3, 7712 STEINKJER, Norge",
+        "street": [
+          "c/o Rune Fuglestrand",
+          "Hundsvotten 3"
+        ],
+        "postcode": "7712",
+        "city": "STEINKJER",
+        "municipality": "STEINKJER",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/883373022",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/883373022"
+      },
+      "retrieved_at": "2026-09-29T10:30:36Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "883373022",
+        "json_path": "postadresse"
+      },
+      "confidence": "high",
+      "label": "Postal address",
+      "first_seen": "2026-09-29T10:30:35Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "93.120",
+          "description": "Aktiviteter i idrettslag og -klubber"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/883373022",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/883373022"
+      },
+      "retrieved_at": "2026-09-29T10:30:36Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "883373022",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:30:35Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Idrettslag - friidrett.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/883373022",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/883373022"
+      },
+      "retrieved_at": "2026-09-29T10:30:36Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "883373022",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:30:35Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "7000",
+        "description": "Ideelle organisasjoner"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/883373022",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/883373022"
+      },
+      "retrieved_at": "2026-09-29T10:30:36Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "883373022",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:30:35Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/883373022",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/883373022"
+      },
+      "retrieved_at": "2026-09-29T10:30:36Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "883373022",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:30:35Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/883373022",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/883373022"
+      },
+      "retrieved_at": "2026-09-29T10:30:36Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "883373022",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:30:35Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/883373022",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/883373022"
+      },
+      "retrieved_at": "2026-09-29T10:30:36Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "883373022",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:30:35Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Amalie Rodum",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-07"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Torbjørn Aas",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-07"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Eivind Elnan",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-07"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Helle Gynnild",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-07"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Rune Fuglestrand",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-07"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Emily Nyborg",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-07"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Trine Ertsås",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-07"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Tom Kristian Mork",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-07"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/883373022/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/883373022"
+      },
+      "retrieved_at": "2026-09-29T10:30:37Z",
+      "as_of": "2026-01-07",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "883373022",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:30:35Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Amalie Rodum",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/883373022/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/883373022"
+      },
+      "retrieved_at": "2026-09-29T10:30:37Z",
+      "as_of": "2026-01-07",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "883373022",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:30:35Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Amalie Rodum",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Torbjørn Aas",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Eivind Elnan",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Helle Gynnild",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Rune Fuglestrand",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Emily Nyborg",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Trine Ertsås",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Tom Kristian Mork",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/883373022/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/883373022"
+      },
+      "retrieved_at": "2026-09-29T10:30:37Z",
+      "as_of": "2026-01-07",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "883373022",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:30:35Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=883373022&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/883373022"
+      },
+      "retrieved_at": "2026-09-29T10:30:40Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "883373022",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:30:35Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "919245298",
+          "name": "STEINKJER FRIIDRETTSKLUBB",
+          "address": "c/o Amalie Rodum, Tranavegen 8A, 7713 STEINKJER, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=883373022&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/883373022"
+      },
+      "retrieved_at": "2026-09-29T10:30:40Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "883373022",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:30:35Z"
+    },
+    {
+      "field": "website_verification",
+      "value": "name_on_page",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://steinkjerfik.no/",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:30:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "883373022",
+        "identity": {
+          "level": "name_on_page",
+          "orgnr_found": false,
+          "name_found": true,
+          "name_tested": "STEINKJER FRIIDRETTSKLUBB"
+        },
+        "registered_url": "https://www.steinkjerfik.no"
+      },
+      "confidence": "medium",
+      "label": "Website identity check",
+      "first_seen": "2026-09-29T10:30:35Z"
+    },
+    {
+      "field": "website_title",
+      "value": "Steinkjer Friidrettsklubb",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://steinkjerfik.no/",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:30:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "883373022",
+        "identity": {
+          "level": "name_on_page",
+          "orgnr_found": false,
+          "name_found": true,
+          "name_tested": "STEINKJER FRIIDRETTSKLUBB"
+        },
+        "registered_url": "https://www.steinkjerfik.no",
+        "json_path": "html.title"
+      },
+      "confidence": "medium",
+      "label": "Website title",
+      "first_seen": "2026-09-29T10:30:35Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:30:36Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/883373022"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:30:37Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/883373022/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:30:38Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/883373022"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:30:40Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=883373022&size=5"
+    },
+    {
+      "source": "Company website",
+      "checked_at": "2026-09-29T10:30:42Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://www.steinkjerfik.no"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "STEINKJER FRIIDRETTSKLUBB (883 373 022), an association, is an active entity in Enhetsregisteret; founded 1986-12-04; address c/o Amalie Rodum, Tranavegen 8A, 7713 STEINKJER, Norge. Main industry is 93.120 Aktiviteter i idrettslag og -klubber; 1 registered sub-unit(s). Board chair: Amalie Rodum. Website https://www.steinkjerfik.no shows the registered name.",
+    "notes": [
+      "No annual accounts: organisation form FLI is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:30:35Z",
+  "last_changed_at": "2026-09-29T10:30:35Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

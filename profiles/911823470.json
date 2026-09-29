@@ -1,0 +1,827 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "911823470",
+  "orgnr_formatted": "911 823 470",
+  "name": "SAMEIET LINERLEVEIEN 28",
+  "status": "active",
+  "checked_at": "2026-09-29T10:33:07Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "SAMEIET LINERLEVEIEN 28",
+    "founded_date": "2013-01-08",
+    "registered_date": "2013-04-16",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "ESEK",
+      "description": "Eierseksjonssameie",
+      "description_en": "condominium owners' association"
+    },
+    "business_address": {
+      "text": "Linerleveien 28, 8450 STOKMARKNES, Norge",
+      "street": [
+        "Linerleveien 28"
+      ],
+      "postcode": "8450",
+      "city": "STOKMARKNES",
+      "municipality": "HADSEL",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "HADSEL",
+      "code": "1866"
+    },
+    "postal_address": {
+      "text": "c/o Økoråd Hadsel AS, Postboks 84, 8455 STOKMARKNES, Norge",
+      "street": [
+        "c/o Økoråd Hadsel AS",
+        "Postboks 84"
+      ],
+      "postcode": "8455",
+      "city": "STOKMARKNES",
+      "municipality": "HADSEL",
+      "country_code": "NO"
+    },
+    "industry_codes": [
+      {
+        "code": "97.001",
+        "description": "Aktiviteter i borettslag og boligsameier"
+      }
+    ],
+    "purpose": "Eierseksjonssameie.",
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Andreas Riibe-Øien",
+          "deceased": false
+        },
+        "group_last_changed": "2024-07-22"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Gretha Jensine Rist",
+          "deceased": false
+        },
+        "group_last_changed": "2024-07-22"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Sindre Meier Johannessen",
+          "deceased": false
+        },
+        "group_last_changed": "2024-07-22"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Andreas Melchiorsen Buschmann",
+          "deceased": false
+        },
+        "group_last_changed": "2024-07-22"
+      },
+      {
+        "role_code": "REGN",
+        "role": "Regnskapsfører",
+        "group": "Regnskapsfører",
+        "holder": {
+          "type": "organization",
+          "name": "ØKORÅD HADSEL AS",
+          "orgnr": "987447702",
+          "deleted": false
+        },
+        "group_last_changed": "2020-01-21"
+      }
+    ],
+    "board_chair": {
+      "type": "person",
+      "name": "Andreas Riibe-Øien",
+      "deceased": false
+    },
+    "accountant": {
+      "type": "organization",
+      "name": "ØKORÅD HADSEL AS",
+      "orgnr": "987447702",
+      "deleted": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Andreas Riibe-Øien",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Gretha Jensine Rist",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Sindre Meier Johannessen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Andreas Melchiorsen Buschmann",
+        "deceased": false
+      }
+    ],
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "924219246",
+        "name": "SAMEIET LINERLEVEIEN 28",
+        "address": "Linerleveien 28, 8450 STOKMARKNES, Norge",
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/911823470",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/911823470"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "911823470",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "name",
+      "value": "SAMEIET LINERLEVEIEN 28",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/911823470",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/911823470"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "911823470",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2013-01-08",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/911823470",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/911823470"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2013-01-08",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "911823470",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2013-04-16",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/911823470",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/911823470"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2013-04-16",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "911823470",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/911823470",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/911823470"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "911823470",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/911823470",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/911823470"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "911823470",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/911823470",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/911823470"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "911823470",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/911823470",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/911823470"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "911823470",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/911823470",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/911823470"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "911823470",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/911823470",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/911823470"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "911823470",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/911823470",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/911823470"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "911823470",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "ESEK",
+        "description": "Eierseksjonssameie",
+        "description_en": "condominium owners' association"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/911823470",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/911823470"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "911823470",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Linerleveien 28, 8450 STOKMARKNES, Norge",
+        "street": [
+          "Linerleveien 28"
+        ],
+        "postcode": "8450",
+        "city": "STOKMARKNES",
+        "municipality": "HADSEL",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/911823470",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/911823470"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "911823470",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "HADSEL",
+        "code": "1866"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/911823470",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/911823470"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "911823470",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "postal_address",
+      "value": {
+        "text": "c/o Økoråd Hadsel AS, Postboks 84, 8455 STOKMARKNES, Norge",
+        "street": [
+          "c/o Økoråd Hadsel AS",
+          "Postboks 84"
+        ],
+        "postcode": "8455",
+        "city": "STOKMARKNES",
+        "municipality": "HADSEL",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/911823470",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/911823470"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "911823470",
+        "json_path": "postadresse"
+      },
+      "confidence": "high",
+      "label": "Postal address",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "97.001",
+          "description": "Aktiviteter i borettslag og boligsameier"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/911823470",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/911823470"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "911823470",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Eierseksjonssameie.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/911823470",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/911823470"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "911823470",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/911823470",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/911823470"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "911823470",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/911823470",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/911823470"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "911823470",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/911823470",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/911823470"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "911823470",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Andreas Riibe-Øien",
+            "deceased": false
+          },
+          "group_last_changed": "2024-07-22"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Gretha Jensine Rist",
+            "deceased": false
+          },
+          "group_last_changed": "2024-07-22"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Sindre Meier Johannessen",
+            "deceased": false
+          },
+          "group_last_changed": "2024-07-22"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Andreas Melchiorsen Buschmann",
+            "deceased": false
+          },
+          "group_last_changed": "2024-07-22"
+        },
+        {
+          "role_code": "REGN",
+          "role": "Regnskapsfører",
+          "group": "Regnskapsfører",
+          "holder": {
+            "type": "organization",
+            "name": "ØKORÅD HADSEL AS",
+            "orgnr": "987447702",
+            "deleted": false
+          },
+          "group_last_changed": "2020-01-21"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/911823470/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/911823470"
+      },
+      "retrieved_at": "2026-09-29T10:33:09Z",
+      "as_of": "2024-07-22",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "911823470",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Andreas Riibe-Øien",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/911823470/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/911823470"
+      },
+      "retrieved_at": "2026-09-29T10:33:09Z",
+      "as_of": "2024-07-22",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "911823470",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "accountant",
+      "value": {
+        "type": "organization",
+        "name": "ØKORÅD HADSEL AS",
+        "orgnr": "987447702",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/911823470/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/911823470"
+      },
+      "retrieved_at": "2026-09-29T10:33:09Z",
+      "as_of": "2020-01-21",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "911823470",
+        "json_path": "rollegrupper[type.kode=REGN]"
+      },
+      "confidence": "high",
+      "label": "Accountant",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Andreas Riibe-Øien",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Gretha Jensine Rist",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Sindre Meier Johannessen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Andreas Melchiorsen Buschmann",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/911823470/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/911823470"
+      },
+      "retrieved_at": "2026-09-29T10:33:09Z",
+      "as_of": "2024-07-22",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "911823470",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=911823470&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/911823470"
+      },
+      "retrieved_at": "2026-09-29T10:33:12Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "911823470",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "924219246",
+          "name": "SAMEIET LINERLEVEIEN 28",
+          "address": "Linerleveien 28, 8450 STOKMARKNES, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=911823470&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/911823470"
+      },
+      "retrieved_at": "2026-09-29T10:33:12Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "911823470",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:33:07Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:33:08Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/911823470"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:33:09Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/911823470/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:33:10Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/911823470"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:33:12Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=911823470&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "SAMEIET LINERLEVEIEN 28 (911 823 470), a condominium owners' association, is an active entity in Enhetsregisteret; founded 2013-01-08; address Linerleveien 28, 8450 STOKMARKNES, Norge. Main industry is 97.001 Aktiviteter i borettslag og boligsameier; 1 registered sub-unit(s). Board chair: Andreas Riibe-Øien.",
+    "notes": [
+      "No annual accounts: organisation form ESEK is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:33:07Z",
+  "last_changed_at": "2026-09-29T10:33:07Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

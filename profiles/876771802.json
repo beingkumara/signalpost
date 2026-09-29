@@ -1,0 +1,1832 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "876771802",
+  "orgnr_formatted": "876 771 802",
+  "name": "CRUX STIFTELSEN ROSTAD",
+  "status": "active",
+  "checked_at": "2026-09-29T10:31:35Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "CRUX STIFTELSEN ROSTAD",
+    "founded_date": "1926-08-31",
+    "registered_date": "1996-10-01",
+    "website": "https://www.stiftelsencrux.no",
+    "email": "kontor.rostad@stiftelsencrux.no",
+    "phone": "74 12 48 80",
+    "mobile": "468 82 982",
+    "latest_annual_accounts_year": "2025",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": true,
+    "in_business_register": false,
+    "in_foundation_register": true,
+    "in_voluntary_register": true,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "STI",
+      "description": "Stiftelse",
+      "description_en": "foundation"
+    },
+    "business_address": {
+      "text": "Rostadvegen 300, 7670 INDERØY, Norge",
+      "street": [
+        "Rostadvegen 300"
+      ],
+      "postcode": "7670",
+      "city": "INDERØY",
+      "municipality": "INDERØY",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "INDERØY",
+      "code": "5053"
+    },
+    "industry_codes": [
+      {
+        "code": "87.991",
+        "description": "Tjenester i barneverninstitusjoner"
+      },
+      {
+        "code": "85.320",
+        "description": "Videregående opplæring innenfor yrkesfaglige utdanningsprogram"
+      },
+      {
+        "code": "01.110",
+        "description": "Dyrking av korn, unntatt ris, belgvekster og oljeholdige vekster"
+      }
+    ],
+    "employees": 76,
+    "purpose": "Stiftelsens formål er ved forvaltning av stiftelsens midler å støtte den virksomhet som Kirkens Sosialtjeneste driver ved å gi vanskeligstilte barn, unge og voksne mulighet til fellesskap og personligvekst i hjem, kirke og samfunn. Stiftelsen driver landbruksvirksomhet med omsetning av tømmer, utleie av dyrket jord, utleie av lager til poteter, korn og redskaper.",
+    "sector": {
+      "code": "7000",
+      "description": "Ideelle organisasjoner"
+    },
+    "share_capital": {
+      "amount": 620336.0,
+      "currency": "NOK",
+      "type": "Grunnkapital",
+      "shares": null
+    },
+    "former_names": [
+      {
+        "name": "STIFTELSEN ROSTAD",
+        "from": "1996-10-01",
+        "to": "2020-08-04"
+      }
+    ],
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Frank Remy Breivikås",
+          "deceased": false
+        },
+        "group_last_changed": "2017-06-15"
+      },
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Maria Christina Meyer Schefte",
+          "deceased": false
+        },
+        "group_last_changed": "2026-04-21"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Ingfrid Eggen Skogrand",
+          "deceased": false
+        },
+        "group_last_changed": "2026-04-21"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Øyvind Hov",
+          "deceased": false
+        },
+        "group_last_changed": "2026-04-21"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Marthe Lundby Espenes",
+          "deceased": false
+        },
+        "group_last_changed": "2026-04-21"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Kåre Ragnar Hallem",
+          "deceased": false
+        },
+        "group_last_changed": "2026-04-21"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Ingvill Elvestad Meltvedt",
+          "deceased": false
+        },
+        "group_last_changed": "2026-04-21"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Adrian Viken",
+          "deceased": false
+        },
+        "group_last_changed": "2026-04-21"
+      },
+      {
+        "role_code": "VARA",
+        "role": "Varamedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Elisabeth Løland",
+          "deceased": false
+        },
+        "group_last_changed": "2026-04-21"
+      },
+      {
+        "role_code": "REVI",
+        "role": "Revisor",
+        "group": "Revisor",
+        "holder": {
+          "type": "organization",
+          "name": "BDO AS",
+          "orgnr": "993606650",
+          "deleted": false
+        },
+        "group_last_changed": "2013-10-21"
+      },
+      {
+        "role_code": "REGN",
+        "role": "Regnskapsfører",
+        "group": "Regnskapsfører",
+        "holder": {
+          "type": "organization",
+          "name": "SPAREBANK 1 REGNSKAPSHUSET SMN AS",
+          "orgnr": "936285066",
+          "deleted": false
+        },
+        "group_last_changed": "2026-02-25"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Frank Remy Breivikås",
+      "deceased": false
+    },
+    "board_chair": {
+      "type": "person",
+      "name": "Maria Christina Meyer Schefte",
+      "deceased": false
+    },
+    "auditor": {
+      "type": "organization",
+      "name": "BDO AS",
+      "orgnr": "993606650",
+      "deleted": false
+    },
+    "accountant": {
+      "type": "organization",
+      "name": "SPAREBANK 1 REGNSKAPSHUSET SMN AS",
+      "orgnr": "936285066",
+      "deleted": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Maria Christina Meyer Schefte",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Ingfrid Eggen Skogrand",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Øyvind Hov",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Marthe Lundby Espenes",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Kåre Ragnar Hallem",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Ingvill Elvestad Meltvedt",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Adrian Viken",
+        "deceased": false
+      }
+    ],
+    "accounts_period": {
+      "from": "2025-01-01",
+      "to": "2025-12-31",
+      "year": "2025",
+      "currency": "NOK",
+      "type": "SELSKAP",
+      "audited": true,
+      "audit_opt_out": false
+    },
+    "revenue": {
+      "amount": 48332467.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "operating_expenses": {
+      "amount": 51587371.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "operating_profit": {
+      "amount": -3254904.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "net_financial_items": {
+      "amount": 778066.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "profit_before_tax": {
+      "amount": -2476838.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "net_profit": {
+      "amount": -2476838.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "total_assets": {
+      "amount": 73106899.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "fixed_assets": {
+      "amount": 33117564.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "current_assets": {
+      "amount": 39989335.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "equity": {
+      "amount": 65208066.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "total_debt": {
+      "amount": 7898833.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "short_term_debt": {
+      "amount": 7898833.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "973112392",
+        "name": "CRUX STIFTELSEN ROSTAD",
+        "address": "Rostadvegen 300, 7670 INDERØY, Norge",
+        "employees": 76
+      }
+    ],
+    "website_verification": "orgnr_on_page",
+    "website_title": "CRUX - Crux",
+    "website_description": "CRUX er en landsomfattende, diakonal og ideell stiftelse som tilbyr tjenester innen helse- og sosialfeltet i Norge. CRUX støtter mennesker i sårbare livssituasjoner gjennom behandling, omsorg og oppfølging, arbeid og fellesskap. CRUX arbeider med barn, unge, voksne og familier i utfordrende livssituasjoner. Les om våre tjenester og hvordan vi skaper nye muligheter.",
+    "website_emails": [
+      "hovedkontoret@stiftelsencrux.no"
+    ],
+    "social_profiles": {
+      "linkedin": "https://www.linkedin.com/company/stiftelsen-crux-hovedkontor/?follow",
+      "facebook": "https://www.facebook.com/stiftelsencrux/"
+    }
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "name",
+      "value": "CRUX STIFTELSEN ROSTAD",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "1926-08-31",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:37Z",
+      "as_of": "1926-08-31",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "1996-10-01",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:37Z",
+      "as_of": "1996-10-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "website",
+      "value": "https://www.stiftelsencrux.no",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "json_path": "hjemmeside"
+      },
+      "confidence": "high",
+      "label": "Website",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "email",
+      "value": "kontor.rostad@stiftelsencrux.no",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "json_path": "epostadresse"
+      },
+      "confidence": "high",
+      "label": "Email",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "phone",
+      "value": "74 12 48 80",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "json_path": "telefon"
+      },
+      "confidence": "high",
+      "label": "Phone",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "mobile",
+      "value": "468 82 982",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "json_path": "mobil"
+      },
+      "confidence": "high",
+      "label": "Mobile phone",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "latest_annual_accounts_year",
+      "value": "2025",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "json_path": "sisteInnsendteAarsregnskap"
+      },
+      "confidence": "high",
+      "label": "Latest annual accounts submitted",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:37Z",
+      "as_of": "2012-11-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "STI",
+        "description": "Stiftelse",
+        "description_en": "foundation"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Rostadvegen 300, 7670 INDERØY, Norge",
+        "street": [
+          "Rostadvegen 300"
+        ],
+        "postcode": "7670",
+        "city": "INDERØY",
+        "municipality": "INDERØY",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "INDERØY",
+        "code": "5053"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "87.991",
+          "description": "Tjenester i barneverninstitusjoner"
+        },
+        {
+          "code": "85.320",
+          "description": "Videregående opplæring innenfor yrkesfaglige utdanningsprogram"
+        },
+        {
+          "code": "01.110",
+          "description": "Dyrking av korn, unntatt ris, belgvekster og oljeholdige vekster"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "employees",
+      "value": 76,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:37Z",
+      "as_of": "2026-09-10",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "json_path": "antallAnsatte"
+      },
+      "confidence": "high",
+      "label": "Registered employees",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Stiftelsens formål er ved forvaltning av stiftelsens midler å støtte den virksomhet som Kirkens Sosialtjeneste driver ved å gi vanskeligstilte barn, unge og voksne mulighet til fellesskap og personligvekst i hjem, kirke og samfunn. Stiftelsen driver landbruksvirksomhet med omsetning av tømmer, utleie av dyrket jord, utleie av lager til poteter, korn og redskaper.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "7000",
+        "description": "Ideelle organisasjoner"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "share_capital",
+      "value": {
+        "amount": 620336.0,
+        "currency": "NOK",
+        "type": "Grunnkapital",
+        "shares": null
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:37Z",
+      "as_of": "2017-01-28",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "json_path": "kapital"
+      },
+      "confidence": "high",
+      "label": "Share capital",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "former_names",
+      "value": [
+        {
+          "name": "STIFTELSEN ROSTAD",
+          "from": "1996-10-01",
+          "to": "2020-08-04"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "json_path": "historiskeNavn"
+      },
+      "confidence": "high",
+      "label": "Former names",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Frank Remy Breivikås",
+            "deceased": false
+          },
+          "group_last_changed": "2017-06-15"
+        },
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Maria Christina Meyer Schefte",
+            "deceased": false
+          },
+          "group_last_changed": "2026-04-21"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Ingfrid Eggen Skogrand",
+            "deceased": false
+          },
+          "group_last_changed": "2026-04-21"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Øyvind Hov",
+            "deceased": false
+          },
+          "group_last_changed": "2026-04-21"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Marthe Lundby Espenes",
+            "deceased": false
+          },
+          "group_last_changed": "2026-04-21"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Kåre Ragnar Hallem",
+            "deceased": false
+          },
+          "group_last_changed": "2026-04-21"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Ingvill Elvestad Meltvedt",
+            "deceased": false
+          },
+          "group_last_changed": "2026-04-21"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Adrian Viken",
+            "deceased": false
+          },
+          "group_last_changed": "2026-04-21"
+        },
+        {
+          "role_code": "VARA",
+          "role": "Varamedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Elisabeth Løland",
+            "deceased": false
+          },
+          "group_last_changed": "2026-04-21"
+        },
+        {
+          "role_code": "REVI",
+          "role": "Revisor",
+          "group": "Revisor",
+          "holder": {
+            "type": "organization",
+            "name": "BDO AS",
+            "orgnr": "993606650",
+            "deleted": false
+          },
+          "group_last_changed": "2013-10-21"
+        },
+        {
+          "role_code": "REGN",
+          "role": "Regnskapsfører",
+          "group": "Regnskapsfører",
+          "holder": {
+            "type": "organization",
+            "name": "SPAREBANK 1 REGNSKAPSHUSET SMN AS",
+            "orgnr": "936285066",
+            "deleted": false
+          },
+          "group_last_changed": "2026-02-25"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/876771802/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:38Z",
+      "as_of": "2026-04-21",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Frank Remy Breivikås",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/876771802/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:38Z",
+      "as_of": "2017-06-15",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Maria Christina Meyer Schefte",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/876771802/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:38Z",
+      "as_of": "2026-04-21",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "auditor",
+      "value": {
+        "type": "organization",
+        "name": "BDO AS",
+        "orgnr": "993606650",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/876771802/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:38Z",
+      "as_of": "2013-10-21",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "json_path": "rollegrupper[type.kode=REVI]"
+      },
+      "confidence": "high",
+      "label": "Auditor",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "accountant",
+      "value": {
+        "type": "organization",
+        "name": "SPAREBANK 1 REGNSKAPSHUSET SMN AS",
+        "orgnr": "936285066",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/876771802/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:38Z",
+      "as_of": "2026-02-25",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "json_path": "rollegrupper[type.kode=REGN]"
+      },
+      "confidence": "high",
+      "label": "Accountant",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Maria Christina Meyer Schefte",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Ingfrid Eggen Skogrand",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Øyvind Hov",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Marthe Lundby Espenes",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Kåre Ragnar Hallem",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Ingvill Elvestad Meltvedt",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Adrian Viken",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/876771802/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:38Z",
+      "as_of": "2026-04-21",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "accounts_period",
+      "value": {
+        "from": "2025-01-01",
+        "to": "2025-12-31",
+        "year": "2025",
+        "currency": "NOK",
+        "type": "SELSKAP",
+        "audited": true,
+        "audit_opt_out": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:39Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "journal_number": "2026373279",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "regnskapsperiode"
+      },
+      "confidence": "high",
+      "label": "Accounting period",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "revenue",
+      "value": {
+        "amount": 48332467.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:39Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "journal_number": "2026373279",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftsinntekter.sumDriftsinntekter"
+      },
+      "confidence": "high",
+      "label": "Operating revenue",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "operating_expenses",
+      "value": {
+        "amount": 51587371.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:39Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "journal_number": "2026373279",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftskostnad.sumDriftskostnad"
+      },
+      "confidence": "high",
+      "label": "Operating expenses",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "operating_profit",
+      "value": {
+        "amount": -3254904.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:39Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "journal_number": "2026373279",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftsresultat"
+      },
+      "confidence": "high",
+      "label": "Operating profit",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "net_financial_items",
+      "value": {
+        "amount": 778066.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:39Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "journal_number": "2026373279",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.finansresultat.nettoFinans"
+      },
+      "confidence": "high",
+      "label": "Net financial items",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "profit_before_tax",
+      "value": {
+        "amount": -2476838.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:39Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "journal_number": "2026373279",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.ordinaertResultatFoerSkattekostnad"
+      },
+      "confidence": "high",
+      "label": "Profit before tax",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "net_profit",
+      "value": {
+        "amount": -2476838.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:39Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "journal_number": "2026373279",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.aarsresultat"
+      },
+      "confidence": "high",
+      "label": "Net profit (annual result)",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "total_assets",
+      "value": {
+        "amount": 73106899.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:39Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "journal_number": "2026373279",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.sumEiendeler"
+      },
+      "confidence": "high",
+      "label": "Total assets",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "fixed_assets",
+      "value": {
+        "amount": 33117564.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:39Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "journal_number": "2026373279",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.anleggsmidler.sumAnleggsmidler"
+      },
+      "confidence": "high",
+      "label": "Fixed assets",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "current_assets",
+      "value": {
+        "amount": 39989335.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:39Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "journal_number": "2026373279",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.omloepsmidler.sumOmloepsmidler"
+      },
+      "confidence": "high",
+      "label": "Current assets",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "equity",
+      "value": {
+        "amount": 65208066.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:39Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "journal_number": "2026373279",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.egenkapital.sumEgenkapital"
+      },
+      "confidence": "high",
+      "label": "Equity",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "total_debt",
+      "value": {
+        "amount": 7898833.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:39Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "journal_number": "2026373279",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.gjeldOversikt.sumGjeld"
+      },
+      "confidence": "high",
+      "label": "Total debt",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "short_term_debt",
+      "value": {
+        "amount": 7898833.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/876771802",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:39Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "journal_number": "2026373279",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.gjeldOversikt.kortsiktigGjeld.sumKortsiktigGjeld"
+      },
+      "confidence": "high",
+      "label": "Short-term debt",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=876771802&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:40Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "973112392",
+          "name": "CRUX STIFTELSEN ROSTAD",
+          "address": "Rostadvegen 300, 7670 INDERØY, Norge",
+          "employees": 76
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=876771802&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/876771802"
+      },
+      "retrieved_at": "2026-09-29T10:31:40Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "website_verification",
+      "value": "orgnr_on_page",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://stiftelsencrux.no/",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:31:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "identity": {
+          "level": "orgnr_on_page",
+          "orgnr_found": true,
+          "name_found": true,
+          "name_tested": "CRUX STIFTELSEN ROSTAD"
+        },
+        "registered_url": "https://www.stiftelsencrux.no"
+      },
+      "confidence": "high",
+      "label": "Website identity check",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "website_title",
+      "value": "CRUX - Crux",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://stiftelsencrux.no/",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:31:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "identity": {
+          "level": "orgnr_on_page",
+          "orgnr_found": true,
+          "name_found": true,
+          "name_tested": "CRUX STIFTELSEN ROSTAD"
+        },
+        "registered_url": "https://www.stiftelsencrux.no",
+        "json_path": "html.title"
+      },
+      "confidence": "high",
+      "label": "Website title",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "website_description",
+      "value": "CRUX er en landsomfattende, diakonal og ideell stiftelse som tilbyr tjenester innen helse- og sosialfeltet i Norge. CRUX støtter mennesker i sårbare livssituasjoner gjennom behandling, omsorg og oppfølging, arbeid og fellesskap. CRUX arbeider med barn, unge, voksne og familier i utfordrende livssituasjoner. Les om våre tjenester og hvordan vi skaper nye muligheter.",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://stiftelsencrux.no/",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:31:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "identity": {
+          "level": "orgnr_on_page",
+          "orgnr_found": true,
+          "name_found": true,
+          "name_tested": "CRUX STIFTELSEN ROSTAD"
+        },
+        "registered_url": "https://www.stiftelsencrux.no",
+        "json_path": "html.meta[description]"
+      },
+      "confidence": "high",
+      "label": "Self-description on website",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "website_emails",
+      "value": [
+        "hovedkontoret@stiftelsencrux.no"
+      ],
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://stiftelsencrux.no/",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:31:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "identity": {
+          "level": "orgnr_on_page",
+          "orgnr_found": true,
+          "name_found": true,
+          "name_tested": "CRUX STIFTELSEN ROSTAD"
+        },
+        "registered_url": "https://www.stiftelsencrux.no",
+        "json_path": "html.a[mailto]"
+      },
+      "confidence": "high",
+      "label": "Contact emails on website",
+      "first_seen": "2026-09-29T10:31:35Z"
+    },
+    {
+      "field": "social_profiles",
+      "value": {
+        "linkedin": "https://www.linkedin.com/company/stiftelsen-crux-hovedkontor/?follow",
+        "facebook": "https://www.facebook.com/stiftelsencrux/"
+      },
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://stiftelsencrux.no/",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:31:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "876771802",
+        "identity": {
+          "level": "orgnr_on_page",
+          "orgnr_found": true,
+          "name_found": true,
+          "name_tested": "CRUX STIFTELSEN ROSTAD"
+        },
+        "registered_url": "https://www.stiftelsencrux.no",
+        "json_path": "html.a[href]"
+      },
+      "confidence": "medium",
+      "label": "Social media links on website",
+      "first_seen": "2026-09-29T10:31:35Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:31:37Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/876771802"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:31:38Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/876771802/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:31:39Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/876771802"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:31:40Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=876771802&size=5"
+    },
+    {
+      "source": "Company website",
+      "checked_at": "2026-09-29T10:31:46Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://www.stiftelsencrux.no"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "CRUX STIFTELSEN ROSTAD (876 771 802), a foundation, is an active entity in Enhetsregisteret; founded 1926-08-31; address Rostadvegen 300, 7670 INDERØY, Norge. Main industry is 87.991 Tjenester i barneverninstitusjoner; 76 registered employees; 1 registered sub-unit(s). Daily manager: Frank Remy Breivikås; Board chair: Maria Christina Meyer Schefte; Auditor: BDO AS. Accounts for 2025 (period ending 2025-12-31): revenue NOK 48.33 m, operating profit NOK -3.25 m, net profit NOK -2.48 m, equity NOK 65.21 m, total assets NOK 73.11 m. Website https://www.stiftelsencrux.no is verified: the org number appears on the page.",
+    "notes": []
+  },
+  "first_checked_at": "2026-09-29T10:31:35Z",
+  "last_changed_at": "2026-09-29T10:31:35Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

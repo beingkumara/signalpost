@@ -1,0 +1,571 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "979373686",
+  "orgnr_formatted": "979 373 686",
+  "name": "JØRN EVEN RUDBERG",
+  "status": "active",
+  "checked_at": "2026-09-29T10:31:54Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "JØRN EVEN RUDBERG",
+    "registered_date": "1997-11-07",
+    "phone": "62 83 92 26",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "ENK",
+      "description": "Enkeltpersonforetak",
+      "description_en": "sole proprietorship"
+    },
+    "business_address": {
+      "text": "2233 VESTMARKA, Norge",
+      "street": [],
+      "postcode": "2233",
+      "city": "VESTMARKA",
+      "municipality": "EIDSKOG",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "EIDSKOG",
+      "code": "3416"
+    },
+    "industry_codes": [
+      {
+        "code": "02.200",
+        "description": "Avvirkning"
+      }
+    ],
+    "purpose": "Manuelt skogsarbeid.o",
+    "sector": {
+      "code": "8200",
+      "description": "Personlig næringsdrivende"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "INNH",
+        "role": "Innehaver",
+        "group": "Innehaver",
+        "holder": {
+          "type": "person",
+          "name": "Jørn Even Rudberg",
+          "deceased": false
+        },
+        "group_last_changed": "1997-11-07"
+      }
+    ],
+    "owner": {
+      "type": "person",
+      "name": "Jørn Even Rudberg",
+      "deceased": false
+    }
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979373686",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979373686"
+      },
+      "retrieved_at": "2026-09-29T10:31:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979373686",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:31:54Z"
+    },
+    {
+      "field": "name",
+      "value": "JØRN EVEN RUDBERG",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979373686",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979373686"
+      },
+      "retrieved_at": "2026-09-29T10:31:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979373686",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:31:54Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "1997-11-07",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979373686",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979373686"
+      },
+      "retrieved_at": "2026-09-29T10:31:55Z",
+      "as_of": "1997-11-07",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "979373686",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:31:54Z"
+    },
+    {
+      "field": "phone",
+      "value": "62 83 92 26",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979373686",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979373686"
+      },
+      "retrieved_at": "2026-09-29T10:31:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979373686",
+        "json_path": "telefon"
+      },
+      "confidence": "high",
+      "label": "Phone",
+      "first_seen": "2026-09-29T10:31:54Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979373686",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979373686"
+      },
+      "retrieved_at": "2026-09-29T10:31:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979373686",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:31:54Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979373686",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979373686"
+      },
+      "retrieved_at": "2026-09-29T10:31:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979373686",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:31:54Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979373686",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979373686"
+      },
+      "retrieved_at": "2026-09-29T10:31:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979373686",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:31:54Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979373686",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979373686"
+      },
+      "retrieved_at": "2026-09-29T10:31:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979373686",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:31:54Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979373686",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979373686"
+      },
+      "retrieved_at": "2026-09-29T10:31:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979373686",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:31:54Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979373686",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979373686"
+      },
+      "retrieved_at": "2026-09-29T10:31:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979373686",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:31:54Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979373686",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979373686"
+      },
+      "retrieved_at": "2026-09-29T10:31:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979373686",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:31:54Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "ENK",
+        "description": "Enkeltpersonforetak",
+        "description_en": "sole proprietorship"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979373686",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979373686"
+      },
+      "retrieved_at": "2026-09-29T10:31:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979373686",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:31:54Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "2233 VESTMARKA, Norge",
+        "street": [],
+        "postcode": "2233",
+        "city": "VESTMARKA",
+        "municipality": "EIDSKOG",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979373686",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979373686"
+      },
+      "retrieved_at": "2026-09-29T10:31:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979373686",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:31:54Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "EIDSKOG",
+        "code": "3416"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979373686",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979373686"
+      },
+      "retrieved_at": "2026-09-29T10:31:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979373686",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:31:54Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "02.200",
+          "description": "Avvirkning"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979373686",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979373686"
+      },
+      "retrieved_at": "2026-09-29T10:31:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979373686",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:31:54Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Manuelt skogsarbeid.o",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979373686",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979373686"
+      },
+      "retrieved_at": "2026-09-29T10:31:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979373686",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:31:54Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "8200",
+        "description": "Personlig næringsdrivende"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979373686",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979373686"
+      },
+      "retrieved_at": "2026-09-29T10:31:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979373686",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:31:54Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979373686",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979373686"
+      },
+      "retrieved_at": "2026-09-29T10:31:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979373686",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:31:54Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979373686",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979373686"
+      },
+      "retrieved_at": "2026-09-29T10:31:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979373686",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:31:54Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979373686",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979373686"
+      },
+      "retrieved_at": "2026-09-29T10:31:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979373686",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:31:54Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "INNH",
+          "role": "Innehaver",
+          "group": "Innehaver",
+          "holder": {
+            "type": "person",
+            "name": "Jørn Even Rudberg",
+            "deceased": false
+          },
+          "group_last_changed": "1997-11-07"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979373686/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979373686"
+      },
+      "retrieved_at": "2026-09-29T10:31:59Z",
+      "as_of": "1997-11-07",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "979373686",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:31:54Z"
+    },
+    {
+      "field": "owner",
+      "value": {
+        "type": "person",
+        "name": "Jørn Even Rudberg",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979373686/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979373686"
+      },
+      "retrieved_at": "2026-09-29T10:31:59Z",
+      "as_of": "1997-11-07",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "979373686",
+        "json_path": "rollegrupper[type.kode=INNH]"
+      },
+      "confidence": "high",
+      "label": "Proprietor",
+      "first_seen": "2026-09-29T10:31:54Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:31:55Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979373686"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:31:59Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979373686/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:32:00Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/979373686"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:32:01Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=979373686&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "JØRN EVEN RUDBERG (979 373 686), a sole proprietorship, is an active entity in Enhetsregisteret; address 2233 VESTMARKA, Norge. Main industry is 02.200 Avvirkning. Proprietor: Jørn Even Rudberg.",
+    "notes": [
+      "No annual accounts: organisation form ENK is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:31:54Z",
+  "last_changed_at": "2026-09-29T10:31:54Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

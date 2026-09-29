@@ -1,0 +1,699 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "848936782",
+  "orgnr_formatted": "848 936 782",
+  "name": "OPPORTUN EIENDOM ANS",
+  "status": "active",
+  "checked_at": "2026-09-29T10:33:17Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "OPPORTUN EIENDOM ANS",
+    "founded_date": "1988-11-06",
+    "registered_date": "1995-02-19",
+    "business_register_date": "1989-01-12",
+    "articles_date": "2004-10-01",
+    "phone": "63 96 87 40",
+    "mobile": "90541270",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "ANS",
+      "description": "Ansvarlig selskap med solidarisk ansvar",
+      "description_en": "general partnership"
+    },
+    "business_address": {
+      "text": "Habberstad, 2080 EIDSVOLL, Norge",
+      "street": [
+        "Habberstad"
+      ],
+      "postcode": "2080",
+      "city": "EIDSVOLL",
+      "municipality": "EIDSVOLL",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "EIDSVOLL",
+      "code": "3240"
+    },
+    "industry_codes": [
+      {
+        "code": "68.110",
+        "description": "Kjøp og salg av egen fast eiendom"
+      }
+    ],
+    "purpose": "Kjøp og salg av løsøre og fast eiendom, samt konsulent oppdrag.",
+    "sector": {
+      "code": "2300",
+      "description": "Personlige foretak"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Bente Iren Solberg Resaland",
+          "deceased": false
+        },
+        "group_last_changed": "2004-11-01"
+      },
+      {
+        "role_code": "DTSO",
+        "role": "Deltaker med fullt ansvar",
+        "group": "Deltakere",
+        "holder": {
+          "type": "person",
+          "name": "Olav Resaland",
+          "deceased": false
+        },
+        "group_last_changed": "2004-11-01"
+      },
+      {
+        "role_code": "DTSO",
+        "role": "Deltaker med fullt ansvar",
+        "group": "Deltakere",
+        "holder": {
+          "type": "person",
+          "name": "Bente Iren Solberg Resaland",
+          "deceased": false
+        },
+        "group_last_changed": "2004-11-01"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Bente Iren Solberg Resaland",
+      "deceased": false
+    }
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/848936782",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/848936782"
+      },
+      "retrieved_at": "2026-09-29T10:33:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "848936782",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:33:17Z"
+    },
+    {
+      "field": "name",
+      "value": "OPPORTUN EIENDOM ANS",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/848936782",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/848936782"
+      },
+      "retrieved_at": "2026-09-29T10:33:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "848936782",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:33:17Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "1988-11-06",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/848936782",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/848936782"
+      },
+      "retrieved_at": "2026-09-29T10:33:18Z",
+      "as_of": "1988-11-06",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "848936782",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:33:17Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "1995-02-19",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/848936782",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/848936782"
+      },
+      "retrieved_at": "2026-09-29T10:33:18Z",
+      "as_of": "1995-02-19",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "848936782",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:33:17Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "1989-01-12",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/848936782",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/848936782"
+      },
+      "retrieved_at": "2026-09-29T10:33:18Z",
+      "as_of": "1989-01-12",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "848936782",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:33:17Z"
+    },
+    {
+      "field": "articles_date",
+      "value": "2004-10-01",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/848936782",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/848936782"
+      },
+      "retrieved_at": "2026-09-29T10:33:18Z",
+      "as_of": "2004-10-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "848936782",
+        "json_path": "vedtektsdato"
+      },
+      "confidence": "high",
+      "label": "Date of articles of association",
+      "first_seen": "2026-09-29T10:33:17Z"
+    },
+    {
+      "field": "phone",
+      "value": "63 96 87 40",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/848936782",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/848936782"
+      },
+      "retrieved_at": "2026-09-29T10:33:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "848936782",
+        "json_path": "telefon"
+      },
+      "confidence": "high",
+      "label": "Phone",
+      "first_seen": "2026-09-29T10:33:17Z"
+    },
+    {
+      "field": "mobile",
+      "value": "90541270",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/848936782",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/848936782"
+      },
+      "retrieved_at": "2026-09-29T10:33:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "848936782",
+        "json_path": "mobil"
+      },
+      "confidence": "high",
+      "label": "Mobile phone",
+      "first_seen": "2026-09-29T10:33:17Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/848936782",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/848936782"
+      },
+      "retrieved_at": "2026-09-29T10:33:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "848936782",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:33:17Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/848936782",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/848936782"
+      },
+      "retrieved_at": "2026-09-29T10:33:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "848936782",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:33:17Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/848936782",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/848936782"
+      },
+      "retrieved_at": "2026-09-29T10:33:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "848936782",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:33:17Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/848936782",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/848936782"
+      },
+      "retrieved_at": "2026-09-29T10:33:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "848936782",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:33:17Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/848936782",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/848936782"
+      },
+      "retrieved_at": "2026-09-29T10:33:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "848936782",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:33:17Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/848936782",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/848936782"
+      },
+      "retrieved_at": "2026-09-29T10:33:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "848936782",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:33:17Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/848936782",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/848936782"
+      },
+      "retrieved_at": "2026-09-29T10:33:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "848936782",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:33:17Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "ANS",
+        "description": "Ansvarlig selskap med solidarisk ansvar",
+        "description_en": "general partnership"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/848936782",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/848936782"
+      },
+      "retrieved_at": "2026-09-29T10:33:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "848936782",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:33:17Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Habberstad, 2080 EIDSVOLL, Norge",
+        "street": [
+          "Habberstad"
+        ],
+        "postcode": "2080",
+        "city": "EIDSVOLL",
+        "municipality": "EIDSVOLL",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/848936782",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/848936782"
+      },
+      "retrieved_at": "2026-09-29T10:33:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "848936782",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:33:17Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "EIDSVOLL",
+        "code": "3240"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/848936782",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/848936782"
+      },
+      "retrieved_at": "2026-09-29T10:33:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "848936782",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:33:17Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "68.110",
+          "description": "Kjøp og salg av egen fast eiendom"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/848936782",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/848936782"
+      },
+      "retrieved_at": "2026-09-29T10:33:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "848936782",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:33:17Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Kjøp og salg av løsøre og fast eiendom, samt konsulent oppdrag.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/848936782",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/848936782"
+      },
+      "retrieved_at": "2026-09-29T10:33:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "848936782",
+        "json_path": "vedtektsfestetFormaal"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:33:17Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "2300",
+        "description": "Personlige foretak"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/848936782",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/848936782"
+      },
+      "retrieved_at": "2026-09-29T10:33:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "848936782",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:33:17Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/848936782",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/848936782"
+      },
+      "retrieved_at": "2026-09-29T10:33:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "848936782",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:33:17Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/848936782",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/848936782"
+      },
+      "retrieved_at": "2026-09-29T10:33:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "848936782",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:33:17Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/848936782",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/848936782"
+      },
+      "retrieved_at": "2026-09-29T10:33:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "848936782",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:33:17Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Bente Iren Solberg Resaland",
+            "deceased": false
+          },
+          "group_last_changed": "2004-11-01"
+        },
+        {
+          "role_code": "DTSO",
+          "role": "Deltaker med fullt ansvar",
+          "group": "Deltakere",
+          "holder": {
+            "type": "person",
+            "name": "Olav Resaland",
+            "deceased": false
+          },
+          "group_last_changed": "2004-11-01"
+        },
+        {
+          "role_code": "DTSO",
+          "role": "Deltaker med fullt ansvar",
+          "group": "Deltakere",
+          "holder": {
+            "type": "person",
+            "name": "Bente Iren Solberg Resaland",
+            "deceased": false
+          },
+          "group_last_changed": "2004-11-01"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/848936782/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/848936782"
+      },
+      "retrieved_at": "2026-09-29T10:33:20Z",
+      "as_of": "2004-11-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "848936782",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:33:17Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Bente Iren Solberg Resaland",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/848936782/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/848936782"
+      },
+      "retrieved_at": "2026-09-29T10:33:20Z",
+      "as_of": "2004-11-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "848936782",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:33:17Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:33:18Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/848936782"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:33:20Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/848936782/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:33:21Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/848936782"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:33:22Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=848936782&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "OPPORTUN EIENDOM ANS (848 936 782), a general partnership, is an active entity in Enhetsregisteret; founded 1988-11-06; address Habberstad, 2080 EIDSVOLL, Norge. Main industry is 68.110 Kjøp og salg av egen fast eiendom. Daily manager: Bente Iren Solberg Resaland.",
+    "notes": [
+      "No annual accounts: organisation form ANS is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:33:17Z",
+  "last_changed_at": "2026-09-29T10:33:17Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

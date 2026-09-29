@@ -1,0 +1,1107 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "892422222",
+  "orgnr_formatted": "892 422 222",
+  "name": "BRANDVAL/KONGSVINGER ORIENTERINGSKLUBB",
+  "status": "active",
+  "checked_at": "2026-09-29T10:33:49Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "BRANDVAL/KONGSVINGER ORIENTERINGSKLUBB",
+    "founded_date": "1995-03-24",
+    "registered_date": "2008-05-20",
+    "website": "https://www.bkok.no",
+    "email": "trond.digernes@me.com",
+    "phone": "91876553",
+    "mobile": "91872476",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": true,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": true,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "FLI",
+      "description": "Forening/lag/innretning",
+      "description_en": "association"
+    },
+    "business_address": {
+      "text": "Løvetannvegen 6, 2208 KONGSVINGER, Norge",
+      "street": [
+        "Løvetannvegen 6"
+      ],
+      "postcode": "2208",
+      "city": "KONGSVINGER",
+      "municipality": "KONGSVINGER",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "KONGSVINGER",
+      "code": "3401"
+    },
+    "postal_address": {
+      "text": "c/o Anders Hauger, Løvetannvegen 6, 2208 KONGSVINGER, Norge",
+      "street": [
+        "c/o Anders Hauger",
+        "Løvetannvegen 6"
+      ],
+      "postcode": "2208",
+      "city": "KONGSVINGER",
+      "municipality": "KONGSVINGER",
+      "country_code": "NO"
+    },
+    "industry_codes": [
+      {
+        "code": "93.120",
+        "description": "Aktiviteter i idrettslag og -klubber"
+      }
+    ],
+    "purpose": "Organisert idrett, orientering.",
+    "sector": {
+      "code": "7000",
+      "description": "Ideelle organisasjoner"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Ole Petter Vibekken",
+          "deceased": false
+        },
+        "group_last_changed": "2026-05-05"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Peder Gjølstad Røhnebæk",
+          "deceased": false
+        },
+        "group_last_changed": "2026-05-05"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Trond Egil Digernes",
+          "deceased": false
+        },
+        "group_last_changed": "2026-05-05"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Heidi Vestlund",
+          "deceased": false
+        },
+        "group_last_changed": "2026-05-05"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Guro Aasen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-05-05"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Antti Pekka Jokinen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-05-05"
+      },
+      {
+        "role_code": "VARA",
+        "role": "Varamedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Henrik Langbråten",
+          "deceased": false
+        },
+        "group_last_changed": "2026-05-05"
+      },
+      {
+        "role_code": "VARA",
+        "role": "Varamedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Oddgeir Frysjøenden",
+          "deceased": false
+        },
+        "group_last_changed": "2026-05-05"
+      }
+    ],
+    "board_chair": {
+      "type": "person",
+      "name": "Ole Petter Vibekken",
+      "deceased": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Ole Petter Vibekken",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Peder Gjølstad Røhnebæk",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Trond Egil Digernes",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Heidi Vestlund",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Guro Aasen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Antti Pekka Jokinen",
+        "deceased": false
+      }
+    ],
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "932307367",
+        "name": "BRANDVAL/KONGSVINGER ORIENTERINGSKLUBB",
+        "address": "Løvetannvegen 6, 2208 KONGSVINGER, Norge",
+        "employees": null
+      }
+    ],
+    "website_verification": "name_on_page",
+    "website_title": "NYHETER - Brandval & Kongsvinger Orienteringsklubb",
+    "website_description": "Klubbens h&oslash;yeste organ - &aring;rsm&oslash;tet - avholdes onsdag 27.februar, kl. 18 i Arkitektlagets lokaler i Norskogvegen 10.",
+    "social_profiles": {
+      "facebook": "https://www.facebook.com/groups/153532484721845",
+      "instagram": "https://www.instagram.com/bkok1995/"
+    }
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/892422222",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/892422222"
+      },
+      "retrieved_at": "2026-09-29T10:33:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "892422222",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:33:49Z"
+    },
+    {
+      "field": "name",
+      "value": "BRANDVAL/KONGSVINGER ORIENTERINGSKLUBB",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/892422222",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/892422222"
+      },
+      "retrieved_at": "2026-09-29T10:33:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "892422222",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:33:49Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "1995-03-24",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/892422222",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/892422222"
+      },
+      "retrieved_at": "2026-09-29T10:33:50Z",
+      "as_of": "1995-03-24",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "892422222",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:33:49Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2008-05-20",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/892422222",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/892422222"
+      },
+      "retrieved_at": "2026-09-29T10:33:50Z",
+      "as_of": "2008-05-20",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "892422222",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:33:49Z"
+    },
+    {
+      "field": "website",
+      "value": "https://www.bkok.no",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/892422222",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/892422222"
+      },
+      "retrieved_at": "2026-09-29T10:33:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "892422222",
+        "json_path": "hjemmeside"
+      },
+      "confidence": "high",
+      "label": "Website",
+      "first_seen": "2026-09-29T10:33:49Z"
+    },
+    {
+      "field": "email",
+      "value": "trond.digernes@me.com",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/892422222",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/892422222"
+      },
+      "retrieved_at": "2026-09-29T10:33:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "892422222",
+        "json_path": "epostadresse"
+      },
+      "confidence": "high",
+      "label": "Email",
+      "first_seen": "2026-09-29T10:33:49Z"
+    },
+    {
+      "field": "phone",
+      "value": "91876553",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/892422222",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/892422222"
+      },
+      "retrieved_at": "2026-09-29T10:33:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "892422222",
+        "json_path": "telefon"
+      },
+      "confidence": "high",
+      "label": "Phone",
+      "first_seen": "2026-09-29T10:33:49Z"
+    },
+    {
+      "field": "mobile",
+      "value": "91872476",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/892422222",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/892422222"
+      },
+      "retrieved_at": "2026-09-29T10:33:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "892422222",
+        "json_path": "mobil"
+      },
+      "confidence": "high",
+      "label": "Mobile phone",
+      "first_seen": "2026-09-29T10:33:49Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/892422222",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/892422222"
+      },
+      "retrieved_at": "2026-09-29T10:33:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "892422222",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:33:49Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/892422222",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/892422222"
+      },
+      "retrieved_at": "2026-09-29T10:33:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "892422222",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:33:49Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/892422222",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/892422222"
+      },
+      "retrieved_at": "2026-09-29T10:33:50Z",
+      "as_of": "2023-05-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "892422222",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:33:49Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/892422222",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/892422222"
+      },
+      "retrieved_at": "2026-09-29T10:33:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "892422222",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:33:49Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/892422222",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/892422222"
+      },
+      "retrieved_at": "2026-09-29T10:33:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "892422222",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:33:49Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/892422222",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/892422222"
+      },
+      "retrieved_at": "2026-09-29T10:33:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "892422222",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:33:49Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/892422222",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/892422222"
+      },
+      "retrieved_at": "2026-09-29T10:33:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "892422222",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:33:49Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "FLI",
+        "description": "Forening/lag/innretning",
+        "description_en": "association"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/892422222",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/892422222"
+      },
+      "retrieved_at": "2026-09-29T10:33:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "892422222",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:33:49Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Løvetannvegen 6, 2208 KONGSVINGER, Norge",
+        "street": [
+          "Løvetannvegen 6"
+        ],
+        "postcode": "2208",
+        "city": "KONGSVINGER",
+        "municipality": "KONGSVINGER",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/892422222",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/892422222"
+      },
+      "retrieved_at": "2026-09-29T10:33:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "892422222",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:33:49Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "KONGSVINGER",
+        "code": "3401"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/892422222",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/892422222"
+      },
+      "retrieved_at": "2026-09-29T10:33:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "892422222",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:33:49Z"
+    },
+    {
+      "field": "postal_address",
+      "value": {
+        "text": "c/o Anders Hauger, Løvetannvegen 6, 2208 KONGSVINGER, Norge",
+        "street": [
+          "c/o Anders Hauger",
+          "Løvetannvegen 6"
+        ],
+        "postcode": "2208",
+        "city": "KONGSVINGER",
+        "municipality": "KONGSVINGER",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/892422222",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/892422222"
+      },
+      "retrieved_at": "2026-09-29T10:33:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "892422222",
+        "json_path": "postadresse"
+      },
+      "confidence": "high",
+      "label": "Postal address",
+      "first_seen": "2026-09-29T10:33:49Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "93.120",
+          "description": "Aktiviteter i idrettslag og -klubber"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/892422222",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/892422222"
+      },
+      "retrieved_at": "2026-09-29T10:33:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "892422222",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:33:49Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Organisert idrett, orientering.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/892422222",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/892422222"
+      },
+      "retrieved_at": "2026-09-29T10:33:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "892422222",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:33:49Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "7000",
+        "description": "Ideelle organisasjoner"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/892422222",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/892422222"
+      },
+      "retrieved_at": "2026-09-29T10:33:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "892422222",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:33:49Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/892422222",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/892422222"
+      },
+      "retrieved_at": "2026-09-29T10:33:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "892422222",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:33:49Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/892422222",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/892422222"
+      },
+      "retrieved_at": "2026-09-29T10:33:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "892422222",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:33:49Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/892422222",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/892422222"
+      },
+      "retrieved_at": "2026-09-29T10:33:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "892422222",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:33:49Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Ole Petter Vibekken",
+            "deceased": false
+          },
+          "group_last_changed": "2026-05-05"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Peder Gjølstad Røhnebæk",
+            "deceased": false
+          },
+          "group_last_changed": "2026-05-05"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Trond Egil Digernes",
+            "deceased": false
+          },
+          "group_last_changed": "2026-05-05"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Heidi Vestlund",
+            "deceased": false
+          },
+          "group_last_changed": "2026-05-05"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Guro Aasen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-05-05"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Antti Pekka Jokinen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-05-05"
+        },
+        {
+          "role_code": "VARA",
+          "role": "Varamedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Henrik Langbråten",
+            "deceased": false
+          },
+          "group_last_changed": "2026-05-05"
+        },
+        {
+          "role_code": "VARA",
+          "role": "Varamedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Oddgeir Frysjøenden",
+            "deceased": false
+          },
+          "group_last_changed": "2026-05-05"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/892422222/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/892422222"
+      },
+      "retrieved_at": "2026-09-29T10:33:52Z",
+      "as_of": "2026-05-05",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "892422222",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:33:49Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Ole Petter Vibekken",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/892422222/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/892422222"
+      },
+      "retrieved_at": "2026-09-29T10:33:52Z",
+      "as_of": "2026-05-05",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "892422222",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:33:49Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Ole Petter Vibekken",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Peder Gjølstad Røhnebæk",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Trond Egil Digernes",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Heidi Vestlund",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Guro Aasen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Antti Pekka Jokinen",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/892422222/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/892422222"
+      },
+      "retrieved_at": "2026-09-29T10:33:52Z",
+      "as_of": "2026-05-05",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "892422222",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:33:49Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=892422222&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/892422222"
+      },
+      "retrieved_at": "2026-09-29T10:33:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "892422222",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:33:49Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "932307367",
+          "name": "BRANDVAL/KONGSVINGER ORIENTERINGSKLUBB",
+          "address": "Løvetannvegen 6, 2208 KONGSVINGER, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=892422222&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/892422222"
+      },
+      "retrieved_at": "2026-09-29T10:33:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "892422222",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:33:49Z"
+    },
+    {
+      "field": "website_verification",
+      "value": "name_on_page",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://www.yourvismawebsite.com/brandval-og-kongsvinger-orientering",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:34:01Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "892422222",
+        "identity": {
+          "level": "name_on_page",
+          "orgnr_found": false,
+          "name_found": true,
+          "name_tested": "BRANDVAL/KONGSVINGER ORIENTERINGSKLUBB"
+        },
+        "registered_url": "https://www.bkok.no"
+      },
+      "confidence": "medium",
+      "label": "Website identity check",
+      "first_seen": "2026-09-29T10:33:49Z"
+    },
+    {
+      "field": "website_title",
+      "value": "NYHETER - Brandval & Kongsvinger Orienteringsklubb",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://www.yourvismawebsite.com/brandval-og-kongsvinger-orientering",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:34:01Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "892422222",
+        "identity": {
+          "level": "name_on_page",
+          "orgnr_found": false,
+          "name_found": true,
+          "name_tested": "BRANDVAL/KONGSVINGER ORIENTERINGSKLUBB"
+        },
+        "registered_url": "https://www.bkok.no",
+        "json_path": "html.title"
+      },
+      "confidence": "medium",
+      "label": "Website title",
+      "first_seen": "2026-09-29T10:33:49Z"
+    },
+    {
+      "field": "website_description",
+      "value": "Klubbens h&oslash;yeste organ - &aring;rsm&oslash;tet - avholdes onsdag 27.februar, kl. 18 i Arkitektlagets lokaler i Norskogvegen 10.",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://www.yourvismawebsite.com/brandval-og-kongsvinger-orientering",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:34:01Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "892422222",
+        "identity": {
+          "level": "name_on_page",
+          "orgnr_found": false,
+          "name_found": true,
+          "name_tested": "BRANDVAL/KONGSVINGER ORIENTERINGSKLUBB"
+        },
+        "registered_url": "https://www.bkok.no",
+        "json_path": "html.meta[description]"
+      },
+      "confidence": "medium",
+      "label": "Self-description on website",
+      "first_seen": "2026-09-29T10:33:49Z"
+    },
+    {
+      "field": "social_profiles",
+      "value": {
+        "facebook": "https://www.facebook.com/groups/153532484721845",
+        "instagram": "https://www.instagram.com/bkok1995/"
+      },
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://www.yourvismawebsite.com/brandval-og-kongsvinger-orientering",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:34:01Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "892422222",
+        "identity": {
+          "level": "name_on_page",
+          "orgnr_found": false,
+          "name_found": true,
+          "name_tested": "BRANDVAL/KONGSVINGER ORIENTERINGSKLUBB"
+        },
+        "registered_url": "https://www.bkok.no",
+        "json_path": "html.a[href]"
+      },
+      "confidence": "medium",
+      "label": "Social media links on website",
+      "first_seen": "2026-09-29T10:33:49Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:33:50Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/892422222"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:33:52Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/892422222/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:33:53Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/892422222"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:33:54Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=892422222&size=5"
+    },
+    {
+      "source": "Company website",
+      "checked_at": "2026-09-29T10:34:02Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://www.bkok.no"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "BRANDVAL/KONGSVINGER ORIENTERINGSKLUBB (892 422 222), an association, is an active entity in Enhetsregisteret; founded 1995-03-24; address Løvetannvegen 6, 2208 KONGSVINGER, Norge. Main industry is 93.120 Aktiviteter i idrettslag og -klubber; 1 registered sub-unit(s). Board chair: Ole Petter Vibekken. Website https://www.bkok.no shows the registered name.",
+    "notes": [
+      "No annual accounts: organisation form FLI is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:33:49Z",
+  "last_changed_at": "2026-09-29T10:33:49Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

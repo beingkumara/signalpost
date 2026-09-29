@@ -1,0 +1,855 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "983201016",
+  "orgnr_formatted": "983 201 016",
+  "name": "OKSFJORD BÅTFORENING",
+  "status": "active",
+  "checked_at": "2026-09-29T10:29:57Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "OKSFJORD BÅTFORENING",
+    "founded_date": "1998-12-02",
+    "registered_date": "2001-05-28",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": true,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": true,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "FLI",
+      "description": "Forening/lag/innretning",
+      "description_en": "association"
+    },
+    "business_address": {
+      "text": "co/Geir Sagelv, Øvergårdveien 434, 9158 STORSLETT, Norge",
+      "street": [
+        "co/Geir Sagelv",
+        "Øvergårdveien 434"
+      ],
+      "postcode": "9158",
+      "city": "STORSLETT",
+      "municipality": "NORDREISA",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "NORDREISA",
+      "code": "5544"
+    },
+    "industry_codes": [
+      {
+        "code": "94.992",
+        "description": "Aktiviteter i andre medlemsorganisasjoner ellers"
+      },
+      {
+        "code": "55.300",
+        "description": "Drift av campingplasser"
+      }
+    ],
+    "purpose": "Båtforening.",
+    "sector": {
+      "code": "7000",
+      "description": "Ideelle organisasjoner"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Geir Sagelv",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-21"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Øystein Jensen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-21"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Kasper Villiam Johannessen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-21"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Raimond André Thomassen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-21"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Peder Nicolai Andreas Pedersen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-21"
+      },
+      {
+        "role_code": "REGN",
+        "role": "Regnskapsfører",
+        "group": "Regnskapsfører",
+        "holder": {
+          "type": "organization",
+          "name": "KONTOKUNST AS",
+          "orgnr": "981339193",
+          "deleted": false
+        },
+        "group_last_changed": "2020-11-05"
+      }
+    ],
+    "board_chair": {
+      "type": "person",
+      "name": "Geir Sagelv",
+      "deceased": false
+    },
+    "accountant": {
+      "type": "organization",
+      "name": "KONTOKUNST AS",
+      "orgnr": "981339193",
+      "deleted": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Geir Sagelv",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Øystein Jensen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Kasper Villiam Johannessen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Raimond André Thomassen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Peder Nicolai Andreas Pedersen",
+        "deceased": false
+      }
+    ],
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "928107620",
+        "name": "OKSFJORD BÅTFORENING",
+        "address": "co/Geir Sagelv, Øvergårdveien 434, 9158 STORSLETT, Norge",
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/983201016",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/983201016"
+      },
+      "retrieved_at": "2026-09-29T10:29:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "983201016",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:29:57Z"
+    },
+    {
+      "field": "name",
+      "value": "OKSFJORD BÅTFORENING",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/983201016",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/983201016"
+      },
+      "retrieved_at": "2026-09-29T10:29:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "983201016",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:29:57Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "1998-12-02",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/983201016",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/983201016"
+      },
+      "retrieved_at": "2026-09-29T10:29:59Z",
+      "as_of": "1998-12-02",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "983201016",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:29:57Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2001-05-28",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/983201016",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/983201016"
+      },
+      "retrieved_at": "2026-09-29T10:29:59Z",
+      "as_of": "2001-05-28",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "983201016",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:29:57Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/983201016",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/983201016"
+      },
+      "retrieved_at": "2026-09-29T10:29:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "983201016",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:29:57Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/983201016",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/983201016"
+      },
+      "retrieved_at": "2026-09-29T10:29:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "983201016",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:29:57Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/983201016",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/983201016"
+      },
+      "retrieved_at": "2026-09-29T10:29:59Z",
+      "as_of": "2022-08-10",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "983201016",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:29:57Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/983201016",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/983201016"
+      },
+      "retrieved_at": "2026-09-29T10:29:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "983201016",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:29:57Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/983201016",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/983201016"
+      },
+      "retrieved_at": "2026-09-29T10:29:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "983201016",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:29:57Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/983201016",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/983201016"
+      },
+      "retrieved_at": "2026-09-29T10:29:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "983201016",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:29:57Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/983201016",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/983201016"
+      },
+      "retrieved_at": "2026-09-29T10:29:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "983201016",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:29:57Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "FLI",
+        "description": "Forening/lag/innretning",
+        "description_en": "association"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/983201016",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/983201016"
+      },
+      "retrieved_at": "2026-09-29T10:29:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "983201016",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:29:57Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "co/Geir Sagelv, Øvergårdveien 434, 9158 STORSLETT, Norge",
+        "street": [
+          "co/Geir Sagelv",
+          "Øvergårdveien 434"
+        ],
+        "postcode": "9158",
+        "city": "STORSLETT",
+        "municipality": "NORDREISA",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/983201016",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/983201016"
+      },
+      "retrieved_at": "2026-09-29T10:29:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "983201016",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:29:57Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "NORDREISA",
+        "code": "5544"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/983201016",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/983201016"
+      },
+      "retrieved_at": "2026-09-29T10:29:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "983201016",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:29:57Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "94.992",
+          "description": "Aktiviteter i andre medlemsorganisasjoner ellers"
+        },
+        {
+          "code": "55.300",
+          "description": "Drift av campingplasser"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/983201016",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/983201016"
+      },
+      "retrieved_at": "2026-09-29T10:29:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "983201016",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:29:57Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Båtforening.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/983201016",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/983201016"
+      },
+      "retrieved_at": "2026-09-29T10:29:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "983201016",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:29:57Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "7000",
+        "description": "Ideelle organisasjoner"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/983201016",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/983201016"
+      },
+      "retrieved_at": "2026-09-29T10:29:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "983201016",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:29:57Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/983201016",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/983201016"
+      },
+      "retrieved_at": "2026-09-29T10:29:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "983201016",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:29:57Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/983201016",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/983201016"
+      },
+      "retrieved_at": "2026-09-29T10:29:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "983201016",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:29:57Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/983201016",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/983201016"
+      },
+      "retrieved_at": "2026-09-29T10:29:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "983201016",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:29:57Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Geir Sagelv",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-21"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Øystein Jensen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-21"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Kasper Villiam Johannessen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-21"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Raimond André Thomassen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-21"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Peder Nicolai Andreas Pedersen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-21"
+        },
+        {
+          "role_code": "REGN",
+          "role": "Regnskapsfører",
+          "group": "Regnskapsfører",
+          "holder": {
+            "type": "organization",
+            "name": "KONTOKUNST AS",
+            "orgnr": "981339193",
+            "deleted": false
+          },
+          "group_last_changed": "2020-11-05"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/983201016/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/983201016"
+      },
+      "retrieved_at": "2026-09-29T10:30:00Z",
+      "as_of": "2026-01-21",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "983201016",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:29:57Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Geir Sagelv",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/983201016/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/983201016"
+      },
+      "retrieved_at": "2026-09-29T10:30:00Z",
+      "as_of": "2026-01-21",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "983201016",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:29:57Z"
+    },
+    {
+      "field": "accountant",
+      "value": {
+        "type": "organization",
+        "name": "KONTOKUNST AS",
+        "orgnr": "981339193",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/983201016/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/983201016"
+      },
+      "retrieved_at": "2026-09-29T10:30:00Z",
+      "as_of": "2020-11-05",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "983201016",
+        "json_path": "rollegrupper[type.kode=REGN]"
+      },
+      "confidence": "high",
+      "label": "Accountant",
+      "first_seen": "2026-09-29T10:29:57Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Geir Sagelv",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Øystein Jensen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Kasper Villiam Johannessen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Raimond André Thomassen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Peder Nicolai Andreas Pedersen",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/983201016/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/983201016"
+      },
+      "retrieved_at": "2026-09-29T10:30:00Z",
+      "as_of": "2026-01-21",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "983201016",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:29:57Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=983201016&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/983201016"
+      },
+      "retrieved_at": "2026-09-29T10:30:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "983201016",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:29:57Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "928107620",
+          "name": "OKSFJORD BÅTFORENING",
+          "address": "co/Geir Sagelv, Øvergårdveien 434, 9158 STORSLETT, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=983201016&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/983201016"
+      },
+      "retrieved_at": "2026-09-29T10:30:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "983201016",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:29:57Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:29:59Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/983201016"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:30:00Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/983201016/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:30:01Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/983201016"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:30:02Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=983201016&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "OKSFJORD BÅTFORENING (983 201 016), an association, is an active entity in Enhetsregisteret; founded 1998-12-02; address co/Geir Sagelv, Øvergårdveien 434, 9158 STORSLETT, Norge. Main industry is 94.992 Aktiviteter i andre medlemsorganisasjoner ellers; 1 registered sub-unit(s). Board chair: Geir Sagelv.",
+    "notes": [
+      "No annual accounts: organisation form FLI is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:29:57Z",
+  "last_changed_at": "2026-09-29T10:29:57Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

@@ -1,0 +1,1700 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "991320164",
+  "orgnr_formatted": "991 320 164",
+  "name": "RIKELEKTRO AS",
+  "status": "active",
+  "checked_at": "2026-09-29T10:29:21Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "RIKELEKTRO AS",
+    "founded_date": "2007-05-10",
+    "registered_date": "2007-06-13",
+    "business_register_date": "2007-06-13",
+    "articles_date": "2018-02-27",
+    "website": "https://www.rikelektro.no",
+    "email": "post@rikelektro.no",
+    "mobile": "400 05 714",
+    "latest_annual_accounts_year": "2025",
+    "in_corporate_group": true,
+    "language_form": "Bokmål",
+    "vat_registered": true,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "AS",
+      "description": "Aksjeselskap",
+      "description_en": "private limited company"
+    },
+    "business_address": {
+      "text": "Sørlifjellet 4, 1788 HALDEN, Norge",
+      "street": [
+        "Sørlifjellet 4"
+      ],
+      "postcode": "1788",
+      "city": "HALDEN",
+      "municipality": "HALDEN",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "HALDEN",
+      "code": "3101"
+    },
+    "postal_address": {
+      "text": "Postboks 1066 Sørli, 1787 HALDEN, Norge",
+      "street": [
+        "Postboks 1066 Sørli"
+      ],
+      "postcode": "1787",
+      "city": "HALDEN",
+      "municipality": "HALDEN",
+      "country_code": "NO"
+    },
+    "industry_codes": [
+      {
+        "code": "43.210",
+        "description": "Elektrisk installasjonsarbeid"
+      }
+    ],
+    "employees": 58,
+    "purpose": "Salg, utleie, formidling av varer og service innen el, tele, data, alarm, hjem elektronikk, maritimt, fritids, husholdnings og mediasektor, og dertil forenelig virksomhet. Skal også drive med diverse eiendom.",
+    "sector": {
+      "code": "2100",
+      "description": "Private aksjeselskaper mv."
+    },
+    "share_capital": {
+      "amount": 100000.0,
+      "currency": "NOK",
+      "type": "Aksjekapital",
+      "shares": 1000
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Leif Kim André Eriksen",
+          "deceased": false
+        },
+        "group_last_changed": "2020-01-14"
+      },
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Kjetil Bjerkland",
+          "deceased": false
+        },
+        "group_last_changed": "2025-02-14"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Viktor Emil Grette Schaug",
+          "deceased": false
+        },
+        "group_last_changed": "2025-02-14"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Hanne Løvlien",
+          "deceased": false
+        },
+        "group_last_changed": "2025-02-14"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Stine Madelen Solum Eriksen",
+          "deceased": false
+        },
+        "group_last_changed": "2025-02-14"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Glenn Andreas Einestedt",
+          "deceased": false
+        },
+        "group_last_changed": "2025-02-14"
+      },
+      {
+        "role_code": "REVI",
+        "role": "Revisor",
+        "group": "Revisor",
+        "holder": {
+          "type": "organization",
+          "name": "VAAK REVISJON OG RÅDGIVNING AS",
+          "orgnr": "987632380",
+          "deleted": false
+        },
+        "group_last_changed": "2018-11-09"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Leif Kim André Eriksen",
+      "deceased": false
+    },
+    "board_chair": {
+      "type": "person",
+      "name": "Kjetil Bjerkland",
+      "deceased": false
+    },
+    "auditor": {
+      "type": "organization",
+      "name": "VAAK REVISJON OG RÅDGIVNING AS",
+      "orgnr": "987632380",
+      "deleted": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Kjetil Bjerkland",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Viktor Emil Grette Schaug",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Hanne Løvlien",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Stine Madelen Solum Eriksen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Glenn Andreas Einestedt",
+        "deceased": false
+      }
+    ],
+    "accounts_period": {
+      "from": "2025-01-01",
+      "to": "2025-12-31",
+      "year": "2025",
+      "currency": "NOK",
+      "type": "SELSKAP",
+      "audited": true,
+      "audit_opt_out": false
+    },
+    "revenue": {
+      "amount": 121414782.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "operating_expenses": {
+      "amount": 116436624.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "operating_profit": {
+      "amount": 4978158.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "net_financial_items": {
+      "amount": 327867.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "profit_before_tax": {
+      "amount": 5306025.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "net_profit": {
+      "amount": 4124099.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "total_assets": {
+      "amount": 29735420.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "fixed_assets": {
+      "amount": 6276636.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "current_assets": {
+      "amount": 23458784.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "equity": {
+      "amount": 12784908.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "total_debt": {
+      "amount": 16950512.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "short_term_debt": {
+      "amount": 16950512.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "987676906",
+        "name": "RIKELEKTRO AS",
+        "address": "Sørlifjellet 4, 1788 HALDEN, Norge",
+        "employees": 58
+      }
+    ],
+    "website_verification": "orgnr_on_page",
+    "website_title": "RIKELEKTRO - Elektriker i Halden - Retail, Prosjekt, Service",
+    "website_description": "Velkommen til Nordens ledende leverandør av strøm, tele og data til detaljhandel. Men en liten, fleksibel og kompetent organisasjon, leverer vi raskt, nøyaktig og alltid over kundenes forventnigner.",
+    "website_emails": [
+      "post@rikelektro.no"
+    ],
+    "social_profiles": {
+      "facebook": "https://www.facebook.com/RikelektroNorge.Elektriker.Halden"
+    }
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "name",
+      "value": "RIKELEKTRO AS",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2007-05-10",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:23Z",
+      "as_of": "2007-05-10",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2007-06-13",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:23Z",
+      "as_of": "2007-06-13",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "2007-06-13",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:23Z",
+      "as_of": "2007-06-13",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "articles_date",
+      "value": "2018-02-27",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:23Z",
+      "as_of": "2018-02-27",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "json_path": "vedtektsdato"
+      },
+      "confidence": "high",
+      "label": "Date of articles of association",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "website",
+      "value": "https://www.rikelektro.no",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "json_path": "hjemmeside"
+      },
+      "confidence": "high",
+      "label": "Website",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "email",
+      "value": "post@rikelektro.no",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "json_path": "epostadresse"
+      },
+      "confidence": "high",
+      "label": "Email",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "mobile",
+      "value": "400 05 714",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "json_path": "mobil"
+      },
+      "confidence": "high",
+      "label": "Mobile phone",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "latest_annual_accounts_year",
+      "value": "2025",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "json_path": "sisteInnsendteAarsregnskap"
+      },
+      "confidence": "high",
+      "label": "Latest annual accounts submitted",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:23Z",
+      "as_of": "2007-05-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "AS",
+        "description": "Aksjeselskap",
+        "description_en": "private limited company"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Sørlifjellet 4, 1788 HALDEN, Norge",
+        "street": [
+          "Sørlifjellet 4"
+        ],
+        "postcode": "1788",
+        "city": "HALDEN",
+        "municipality": "HALDEN",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "HALDEN",
+        "code": "3101"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "postal_address",
+      "value": {
+        "text": "Postboks 1066 Sørli, 1787 HALDEN, Norge",
+        "street": [
+          "Postboks 1066 Sørli"
+        ],
+        "postcode": "1787",
+        "city": "HALDEN",
+        "municipality": "HALDEN",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "json_path": "postadresse"
+      },
+      "confidence": "high",
+      "label": "Postal address",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "43.210",
+          "description": "Elektrisk installasjonsarbeid"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "employees",
+      "value": 58,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:23Z",
+      "as_of": "2026-09-10",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "json_path": "antallAnsatte"
+      },
+      "confidence": "high",
+      "label": "Registered employees",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Salg, utleie, formidling av varer og service innen el, tele, data, alarm, hjem elektronikk, maritimt, fritids, husholdnings og mediasektor, og dertil forenelig virksomhet. Skal også drive med diverse eiendom.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "json_path": "vedtektsfestetFormaal"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "2100",
+        "description": "Private aksjeselskaper mv."
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "share_capital",
+      "value": {
+        "amount": 100000.0,
+        "currency": "NOK",
+        "type": "Aksjekapital",
+        "shares": 1000
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:23Z",
+      "as_of": "2007-06-13",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "json_path": "kapital"
+      },
+      "confidence": "high",
+      "label": "Share capital",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Leif Kim André Eriksen",
+            "deceased": false
+          },
+          "group_last_changed": "2020-01-14"
+        },
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Kjetil Bjerkland",
+            "deceased": false
+          },
+          "group_last_changed": "2025-02-14"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Viktor Emil Grette Schaug",
+            "deceased": false
+          },
+          "group_last_changed": "2025-02-14"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Hanne Løvlien",
+            "deceased": false
+          },
+          "group_last_changed": "2025-02-14"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Stine Madelen Solum Eriksen",
+            "deceased": false
+          },
+          "group_last_changed": "2025-02-14"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Glenn Andreas Einestedt",
+            "deceased": false
+          },
+          "group_last_changed": "2025-02-14"
+        },
+        {
+          "role_code": "REVI",
+          "role": "Revisor",
+          "group": "Revisor",
+          "holder": {
+            "type": "organization",
+            "name": "VAAK REVISJON OG RÅDGIVNING AS",
+            "orgnr": "987632380",
+            "deleted": false
+          },
+          "group_last_changed": "2018-11-09"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991320164/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:24Z",
+      "as_of": "2025-02-14",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Leif Kim André Eriksen",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991320164/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:24Z",
+      "as_of": "2020-01-14",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Kjetil Bjerkland",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991320164/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:24Z",
+      "as_of": "2025-02-14",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "auditor",
+      "value": {
+        "type": "organization",
+        "name": "VAAK REVISJON OG RÅDGIVNING AS",
+        "orgnr": "987632380",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991320164/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:24Z",
+      "as_of": "2018-11-09",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "json_path": "rollegrupper[type.kode=REVI]"
+      },
+      "confidence": "high",
+      "label": "Auditor",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Kjetil Bjerkland",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Viktor Emil Grette Schaug",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Hanne Løvlien",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Stine Madelen Solum Eriksen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Glenn Andreas Einestedt",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991320164/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:24Z",
+      "as_of": "2025-02-14",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "accounts_period",
+      "value": {
+        "from": "2025-01-01",
+        "to": "2025-12-31",
+        "year": "2025",
+        "currency": "NOK",
+        "type": "SELSKAP",
+        "audited": true,
+        "audit_opt_out": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:25Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "journal_number": "2026356721",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "regnskapsperiode"
+      },
+      "confidence": "high",
+      "label": "Accounting period",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "revenue",
+      "value": {
+        "amount": 121414782.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:25Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "journal_number": "2026356721",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftsinntekter.sumDriftsinntekter"
+      },
+      "confidence": "high",
+      "label": "Operating revenue",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "operating_expenses",
+      "value": {
+        "amount": 116436624.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:25Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "journal_number": "2026356721",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftskostnad.sumDriftskostnad"
+      },
+      "confidence": "high",
+      "label": "Operating expenses",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "operating_profit",
+      "value": {
+        "amount": 4978158.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:25Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "journal_number": "2026356721",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftsresultat"
+      },
+      "confidence": "high",
+      "label": "Operating profit",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "net_financial_items",
+      "value": {
+        "amount": 327867.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:25Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "journal_number": "2026356721",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.finansresultat.nettoFinans"
+      },
+      "confidence": "high",
+      "label": "Net financial items",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "profit_before_tax",
+      "value": {
+        "amount": 5306025.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:25Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "journal_number": "2026356721",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.ordinaertResultatFoerSkattekostnad"
+      },
+      "confidence": "high",
+      "label": "Profit before tax",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "net_profit",
+      "value": {
+        "amount": 4124099.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:25Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "journal_number": "2026356721",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.aarsresultat"
+      },
+      "confidence": "high",
+      "label": "Net profit (annual result)",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "total_assets",
+      "value": {
+        "amount": 29735420.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:25Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "journal_number": "2026356721",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.sumEiendeler"
+      },
+      "confidence": "high",
+      "label": "Total assets",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "fixed_assets",
+      "value": {
+        "amount": 6276636.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:25Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "journal_number": "2026356721",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.anleggsmidler.sumAnleggsmidler"
+      },
+      "confidence": "high",
+      "label": "Fixed assets",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "current_assets",
+      "value": {
+        "amount": 23458784.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:25Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "journal_number": "2026356721",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.omloepsmidler.sumOmloepsmidler"
+      },
+      "confidence": "high",
+      "label": "Current assets",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "equity",
+      "value": {
+        "amount": 12784908.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:25Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "journal_number": "2026356721",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.egenkapital.sumEgenkapital"
+      },
+      "confidence": "high",
+      "label": "Equity",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "total_debt",
+      "value": {
+        "amount": 16950512.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:25Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "journal_number": "2026356721",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.gjeldOversikt.sumGjeld"
+      },
+      "confidence": "high",
+      "label": "Total debt",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "short_term_debt",
+      "value": {
+        "amount": 16950512.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/991320164",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:25Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "journal_number": "2026356721",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.gjeldOversikt.kortsiktigGjeld.sumKortsiktigGjeld"
+      },
+      "confidence": "high",
+      "label": "Short-term debt",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=991320164&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:26Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "987676906",
+          "name": "RIKELEKTRO AS",
+          "address": "Sørlifjellet 4, 1788 HALDEN, Norge",
+          "employees": 58
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=991320164&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991320164"
+      },
+      "retrieved_at": "2026-09-29T10:29:26Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "website_verification",
+      "value": "orgnr_on_page",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://rikelektro.no/",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:29:32Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "identity": {
+          "level": "orgnr_on_page",
+          "orgnr_found": true,
+          "name_found": true,
+          "name_tested": "RIKELEKTRO"
+        },
+        "registered_url": "https://www.rikelektro.no"
+      },
+      "confidence": "high",
+      "label": "Website identity check",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "website_title",
+      "value": "RIKELEKTRO - Elektriker i Halden - Retail, Prosjekt, Service",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://rikelektro.no/",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:29:32Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "identity": {
+          "level": "orgnr_on_page",
+          "orgnr_found": true,
+          "name_found": true,
+          "name_tested": "RIKELEKTRO"
+        },
+        "registered_url": "https://www.rikelektro.no",
+        "json_path": "html.title"
+      },
+      "confidence": "high",
+      "label": "Website title",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "website_description",
+      "value": "Velkommen til Nordens ledende leverandør av strøm, tele og data til detaljhandel. Men en liten, fleksibel og kompetent organisasjon, leverer vi raskt, nøyaktig og alltid over kundenes forventnigner.",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://rikelektro.no/",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:29:32Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "identity": {
+          "level": "orgnr_on_page",
+          "orgnr_found": true,
+          "name_found": true,
+          "name_tested": "RIKELEKTRO"
+        },
+        "registered_url": "https://www.rikelektro.no",
+        "json_path": "html.meta[description]"
+      },
+      "confidence": "high",
+      "label": "Self-description on website",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "website_emails",
+      "value": [
+        "post@rikelektro.no"
+      ],
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://rikelektro.no/",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:29:32Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "identity": {
+          "level": "orgnr_on_page",
+          "orgnr_found": true,
+          "name_found": true,
+          "name_tested": "RIKELEKTRO"
+        },
+        "registered_url": "https://www.rikelektro.no",
+        "json_path": "html.a[mailto]"
+      },
+      "confidence": "high",
+      "label": "Contact emails on website",
+      "first_seen": "2026-09-29T10:29:21Z"
+    },
+    {
+      "field": "social_profiles",
+      "value": {
+        "facebook": "https://www.facebook.com/RikelektroNorge.Elektriker.Halden"
+      },
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://rikelektro.no/",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:29:32Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991320164",
+        "identity": {
+          "level": "orgnr_on_page",
+          "orgnr_found": true,
+          "name_found": true,
+          "name_tested": "RIKELEKTRO"
+        },
+        "registered_url": "https://www.rikelektro.no",
+        "json_path": "html.a[href]"
+      },
+      "confidence": "medium",
+      "label": "Social media links on website",
+      "first_seen": "2026-09-29T10:29:21Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:29:23Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991320164"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:29:24Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991320164/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:29:25Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/991320164"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:29:26Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=991320164&size=5"
+    },
+    {
+      "source": "Company website",
+      "checked_at": "2026-09-29T10:29:32Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://www.rikelektro.no"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "RIKELEKTRO AS (991 320 164), a private limited company, is an active entity in Enhetsregisteret; founded 2007-05-10; address Sørlifjellet 4, 1788 HALDEN, Norge. Main industry is 43.210 Elektrisk installasjonsarbeid; 58 registered employees; 1 registered sub-unit(s). Daily manager: Leif Kim André Eriksen; Board chair: Kjetil Bjerkland; Auditor: VAAK REVISJON OG RÅDGIVNING AS. Accounts for 2025 (period ending 2025-12-31): revenue NOK 121.41 m, operating profit NOK 4.98 m, net profit NOK 4.12 m, equity NOK 12.78 m, total assets NOK 29.74 m. Website https://www.rikelektro.no is verified: the org number appears on the page.",
+    "notes": []
+  },
+  "first_checked_at": "2026-09-29T10:29:21Z",
+  "last_changed_at": "2026-09-29T10:29:21Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

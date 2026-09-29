@@ -1,0 +1,923 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "986436480",
+  "orgnr_formatted": "986 436 480",
+  "name": "FAGFORBUNDET 009 ENGERDAL",
+  "status": "active",
+  "checked_at": "2026-09-29T10:32:44Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "FAGFORBUNDET 009 ENGERDAL",
+    "founded_date": "2003-09-04",
+    "registered_date": "2004-03-29",
+    "website": "https://avd009.fagforbundet.no",
+    "email": "bgr@engerdal.kommune.no",
+    "mobile": "913 85 991",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "FLI",
+      "description": "Forening/lag/innretning",
+      "description_en": "association"
+    },
+    "postal_address": {
+      "text": "c/o Bjarne Granli, Kopparleden 915, 2443 DREVSJØ, Norge",
+      "street": [
+        "c/o Bjarne Granli",
+        "Kopparleden 915"
+      ],
+      "postcode": "2443",
+      "city": "DREVSJØ",
+      "municipality": "ENGERDAL",
+      "country_code": "NO"
+    },
+    "industry_codes": [
+      {
+        "code": "94.200",
+        "description": "Aktiviteter i arbeidstakerorganisasjoner"
+      }
+    ],
+    "purpose": "Lokalt fagforeningsarbeid.",
+    "sector": {
+      "code": "7000",
+      "description": "Ideelle organisasjoner"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Bjarne Granli",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-22"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Ann Christin Jensen Nordvålen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-22"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Trine Sorkmo",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-22"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Åse Rismyr Granberg",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-22"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Mona Granlund",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-22"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Hilde Lystad Myrvold",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-22"
+      },
+      {
+        "role_code": "REGN",
+        "role": "Regnskapsfører",
+        "group": "Regnskapsfører",
+        "holder": {
+          "type": "organization",
+          "name": "ØKORÅD ENGERDAL - TRYSIL SA",
+          "orgnr": "968316559",
+          "deleted": false
+        },
+        "group_last_changed": "2026-01-04"
+      }
+    ],
+    "board_chair": {
+      "type": "person",
+      "name": "Bjarne Granli",
+      "deceased": false
+    },
+    "accountant": {
+      "type": "organization",
+      "name": "ØKORÅD ENGERDAL - TRYSIL SA",
+      "orgnr": "968316559",
+      "deleted": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Bjarne Granli",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Ann Christin Jensen Nordvålen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Trine Sorkmo",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Åse Rismyr Granberg",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Mona Granlund",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Hilde Lystad Myrvold",
+        "deceased": false
+      }
+    ],
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "926380834",
+        "name": "FAGFORBUNDET 009 ENGERDAL",
+        "address": null,
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986436480",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986436480"
+      },
+      "retrieved_at": "2026-09-29T10:32:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986436480",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:32:44Z"
+    },
+    {
+      "field": "name",
+      "value": "FAGFORBUNDET 009 ENGERDAL",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986436480",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986436480"
+      },
+      "retrieved_at": "2026-09-29T10:32:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986436480",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:32:44Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2003-09-04",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986436480",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986436480"
+      },
+      "retrieved_at": "2026-09-29T10:32:46Z",
+      "as_of": "2003-09-04",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "986436480",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:32:44Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2004-03-29",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986436480",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986436480"
+      },
+      "retrieved_at": "2026-09-29T10:32:46Z",
+      "as_of": "2004-03-29",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "986436480",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:32:44Z"
+    },
+    {
+      "field": "website",
+      "value": "https://avd009.fagforbundet.no",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986436480",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986436480"
+      },
+      "retrieved_at": "2026-09-29T10:32:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986436480",
+        "json_path": "hjemmeside"
+      },
+      "confidence": "high",
+      "label": "Website",
+      "first_seen": "2026-09-29T10:32:44Z"
+    },
+    {
+      "field": "email",
+      "value": "bgr@engerdal.kommune.no",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986436480",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986436480"
+      },
+      "retrieved_at": "2026-09-29T10:32:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986436480",
+        "json_path": "epostadresse"
+      },
+      "confidence": "high",
+      "label": "Email",
+      "first_seen": "2026-09-29T10:32:44Z"
+    },
+    {
+      "field": "mobile",
+      "value": "913 85 991",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986436480",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986436480"
+      },
+      "retrieved_at": "2026-09-29T10:32:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986436480",
+        "json_path": "mobil"
+      },
+      "confidence": "high",
+      "label": "Mobile phone",
+      "first_seen": "2026-09-29T10:32:44Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986436480",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986436480"
+      },
+      "retrieved_at": "2026-09-29T10:32:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986436480",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:32:44Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986436480",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986436480"
+      },
+      "retrieved_at": "2026-09-29T10:32:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986436480",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:32:44Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986436480",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986436480"
+      },
+      "retrieved_at": "2026-09-29T10:32:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986436480",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:32:44Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986436480",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986436480"
+      },
+      "retrieved_at": "2026-09-29T10:32:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986436480",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:32:44Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986436480",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986436480"
+      },
+      "retrieved_at": "2026-09-29T10:32:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986436480",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:32:44Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986436480",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986436480"
+      },
+      "retrieved_at": "2026-09-29T10:32:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986436480",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:32:44Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986436480",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986436480"
+      },
+      "retrieved_at": "2026-09-29T10:32:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986436480",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:32:44Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "FLI",
+        "description": "Forening/lag/innretning",
+        "description_en": "association"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986436480",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986436480"
+      },
+      "retrieved_at": "2026-09-29T10:32:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986436480",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:32:44Z"
+    },
+    {
+      "field": "postal_address",
+      "value": {
+        "text": "c/o Bjarne Granli, Kopparleden 915, 2443 DREVSJØ, Norge",
+        "street": [
+          "c/o Bjarne Granli",
+          "Kopparleden 915"
+        ],
+        "postcode": "2443",
+        "city": "DREVSJØ",
+        "municipality": "ENGERDAL",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986436480",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986436480"
+      },
+      "retrieved_at": "2026-09-29T10:32:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986436480",
+        "json_path": "postadresse"
+      },
+      "confidence": "high",
+      "label": "Postal address",
+      "first_seen": "2026-09-29T10:32:44Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "94.200",
+          "description": "Aktiviteter i arbeidstakerorganisasjoner"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986436480",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986436480"
+      },
+      "retrieved_at": "2026-09-29T10:32:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986436480",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:32:44Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Lokalt fagforeningsarbeid.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986436480",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986436480"
+      },
+      "retrieved_at": "2026-09-29T10:32:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986436480",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:32:44Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "7000",
+        "description": "Ideelle organisasjoner"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986436480",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986436480"
+      },
+      "retrieved_at": "2026-09-29T10:32:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986436480",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:32:44Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986436480",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986436480"
+      },
+      "retrieved_at": "2026-09-29T10:32:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986436480",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:32:44Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986436480",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986436480"
+      },
+      "retrieved_at": "2026-09-29T10:32:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986436480",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:32:44Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986436480",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986436480"
+      },
+      "retrieved_at": "2026-09-29T10:32:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986436480",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:32:44Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Bjarne Granli",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-22"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Ann Christin Jensen Nordvålen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-22"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Trine Sorkmo",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-22"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Åse Rismyr Granberg",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-22"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Mona Granlund",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-22"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Hilde Lystad Myrvold",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-22"
+        },
+        {
+          "role_code": "REGN",
+          "role": "Regnskapsfører",
+          "group": "Regnskapsfører",
+          "holder": {
+            "type": "organization",
+            "name": "ØKORÅD ENGERDAL - TRYSIL SA",
+            "orgnr": "968316559",
+            "deleted": false
+          },
+          "group_last_changed": "2026-01-04"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986436480/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986436480"
+      },
+      "retrieved_at": "2026-09-29T10:32:47Z",
+      "as_of": "2026-01-22",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "986436480",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:32:44Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Bjarne Granli",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986436480/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986436480"
+      },
+      "retrieved_at": "2026-09-29T10:32:47Z",
+      "as_of": "2026-01-22",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "986436480",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:32:44Z"
+    },
+    {
+      "field": "accountant",
+      "value": {
+        "type": "organization",
+        "name": "ØKORÅD ENGERDAL - TRYSIL SA",
+        "orgnr": "968316559",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986436480/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986436480"
+      },
+      "retrieved_at": "2026-09-29T10:32:47Z",
+      "as_of": "2026-01-04",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "986436480",
+        "json_path": "rollegrupper[type.kode=REGN]"
+      },
+      "confidence": "high",
+      "label": "Accountant",
+      "first_seen": "2026-09-29T10:32:44Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Bjarne Granli",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Ann Christin Jensen Nordvålen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Trine Sorkmo",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Åse Rismyr Granberg",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Mona Granlund",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Hilde Lystad Myrvold",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986436480/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986436480"
+      },
+      "retrieved_at": "2026-09-29T10:32:47Z",
+      "as_of": "2026-01-22",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "986436480",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:32:44Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=986436480&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986436480"
+      },
+      "retrieved_at": "2026-09-29T10:32:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986436480",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:32:44Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "926380834",
+          "name": "FAGFORBUNDET 009 ENGERDAL",
+          "address": null,
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=986436480&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986436480"
+      },
+      "retrieved_at": "2026-09-29T10:32:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986436480",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:32:44Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:32:46Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986436480"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:32:47Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986436480/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:32:48Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/986436480"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:32:49Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=986436480&size=5"
+    },
+    {
+      "source": "Company website",
+      "checked_at": "2026-09-29T10:32:53Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://avd009.fagforbundet.no"
+    }
+  ],
+  "warnings": [
+    "website https://www.fagforbundet.no/fagforeninger/innlandet/avd009 did not show the org number or name; content not used"
+  ],
+  "explanation": {
+    "summary": "FAGFORBUNDET 009 ENGERDAL (986 436 480), an association, is an active entity in Enhetsregisteret; founded 2003-09-04. Main industry is 94.200 Aktiviteter i arbeidstakerorganisasjoner; 1 registered sub-unit(s). Board chair: Bjarne Granli. Registered website: https://avd009.fagforbundet.no.",
+    "notes": [
+      "No annual accounts: organisation form FLI is generally not required to file with Regnskapsregisteret.",
+      "website https://www.fagforbundet.no/fagforeninger/innlandet/avd009 did not show the org number or name; content not used"
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:32:44Z",
+  "last_changed_at": "2026-09-29T10:32:44Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

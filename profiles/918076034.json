@@ -1,0 +1,883 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "918076034",
+  "orgnr_formatted": "918 076 034",
+  "name": "LIBJÅ MASKINDRIFT DA",
+  "status": "active",
+  "checked_at": "2026-09-29T10:30:04Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "LIBJÅ MASKINDRIFT DA",
+    "founded_date": "2016-10-24",
+    "registered_date": "2016-11-18",
+    "business_register_date": "2016-11-18",
+    "articles_date": "2016-10-24",
+    "in_corporate_group": false,
+    "language_form": "Nynorsk",
+    "vat_registered": true,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "DA",
+      "description": "Ansvarlig selskap med delt ansvar",
+      "description_en": "partnership with shared liability"
+    },
+    "business_address": {
+      "text": "Libjåvegen 161, 3870 FYRESDAL, Norge",
+      "street": [
+        "Libjåvegen 161"
+      ],
+      "postcode": "3870",
+      "city": "FYRESDAL",
+      "municipality": "FYRESDAL",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "FYRESDAL",
+      "code": "4032"
+    },
+    "industry_codes": [
+      {
+        "code": "43.120",
+        "description": "Grunnarbeid"
+      }
+    ],
+    "purpose": "Grunnarbeid med gravemaskin.",
+    "sector": {
+      "code": "2300",
+      "description": "Personlige foretak"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Øystein Libjå",
+          "deceased": false
+        },
+        "group_last_changed": "2016-11-18"
+      },
+      {
+        "role_code": "DTPR",
+        "role": "Deltaker med delt ansvar",
+        "group": "Deltakere",
+        "holder": {
+          "type": "person",
+          "name": "Øystein Libjå",
+          "deceased": false
+        },
+        "group_last_changed": "2016-11-18"
+      },
+      {
+        "role_code": "DTPR",
+        "role": "Deltaker med delt ansvar",
+        "group": "Deltakere",
+        "holder": {
+          "type": "person",
+          "name": "Vegard Libjå",
+          "deceased": false
+        },
+        "group_last_changed": "2016-11-18"
+      },
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Øystein Libjå",
+          "deceased": false
+        },
+        "group_last_changed": "2016-11-18"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Vegard Libjå",
+          "deceased": false
+        },
+        "group_last_changed": "2016-11-18"
+      },
+      {
+        "role_code": "REGN",
+        "role": "Regnskapsfører",
+        "group": "Regnskapsfører",
+        "holder": {
+          "type": "organization",
+          "name": "FYRESDAL REKNESKAPSKONTOR AS",
+          "orgnr": "942203284",
+          "deleted": false
+        },
+        "group_last_changed": "2016-11-18"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Øystein Libjå",
+      "deceased": false
+    },
+    "board_chair": {
+      "type": "person",
+      "name": "Øystein Libjå",
+      "deceased": false
+    },
+    "accountant": {
+      "type": "organization",
+      "name": "FYRESDAL REKNESKAPSKONTOR AS",
+      "orgnr": "942203284",
+      "deleted": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Øystein Libjå",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Vegard Libjå",
+        "deceased": false
+      }
+    ],
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "918473645",
+        "name": "LIBJÅ MASKINDRIFT DA",
+        "address": "Libjåvegen 161, 3870 FYRESDAL, Norge",
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/918076034",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/918076034"
+      },
+      "retrieved_at": "2026-09-29T10:30:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "918076034",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:30:04Z"
+    },
+    {
+      "field": "name",
+      "value": "LIBJÅ MASKINDRIFT DA",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/918076034",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/918076034"
+      },
+      "retrieved_at": "2026-09-29T10:30:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "918076034",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:30:04Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2016-10-24",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/918076034",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/918076034"
+      },
+      "retrieved_at": "2026-09-29T10:30:05Z",
+      "as_of": "2016-10-24",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "918076034",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:30:04Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2016-11-18",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/918076034",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/918076034"
+      },
+      "retrieved_at": "2026-09-29T10:30:05Z",
+      "as_of": "2016-11-18",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "918076034",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:30:04Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "2016-11-18",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/918076034",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/918076034"
+      },
+      "retrieved_at": "2026-09-29T10:30:05Z",
+      "as_of": "2016-11-18",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "918076034",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:30:04Z"
+    },
+    {
+      "field": "articles_date",
+      "value": "2016-10-24",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/918076034",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/918076034"
+      },
+      "retrieved_at": "2026-09-29T10:30:05Z",
+      "as_of": "2016-10-24",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "918076034",
+        "json_path": "vedtektsdato"
+      },
+      "confidence": "high",
+      "label": "Date of articles of association",
+      "first_seen": "2026-09-29T10:30:04Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/918076034",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/918076034"
+      },
+      "retrieved_at": "2026-09-29T10:30:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "918076034",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:30:04Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Nynorsk",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/918076034",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/918076034"
+      },
+      "retrieved_at": "2026-09-29T10:30:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "918076034",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:30:04Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/918076034",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/918076034"
+      },
+      "retrieved_at": "2026-09-29T10:30:05Z",
+      "as_of": "2022-01-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "918076034",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:30:04Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/918076034",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/918076034"
+      },
+      "retrieved_at": "2026-09-29T10:30:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "918076034",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:30:04Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/918076034",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/918076034"
+      },
+      "retrieved_at": "2026-09-29T10:30:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "918076034",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:30:04Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/918076034",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/918076034"
+      },
+      "retrieved_at": "2026-09-29T10:30:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "918076034",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:30:04Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/918076034",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/918076034"
+      },
+      "retrieved_at": "2026-09-29T10:30:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "918076034",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:30:04Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "DA",
+        "description": "Ansvarlig selskap med delt ansvar",
+        "description_en": "partnership with shared liability"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/918076034",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/918076034"
+      },
+      "retrieved_at": "2026-09-29T10:30:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "918076034",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:30:04Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Libjåvegen 161, 3870 FYRESDAL, Norge",
+        "street": [
+          "Libjåvegen 161"
+        ],
+        "postcode": "3870",
+        "city": "FYRESDAL",
+        "municipality": "FYRESDAL",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/918076034",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/918076034"
+      },
+      "retrieved_at": "2026-09-29T10:30:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "918076034",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:30:04Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "FYRESDAL",
+        "code": "4032"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/918076034",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/918076034"
+      },
+      "retrieved_at": "2026-09-29T10:30:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "918076034",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:30:04Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "43.120",
+          "description": "Grunnarbeid"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/918076034",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/918076034"
+      },
+      "retrieved_at": "2026-09-29T10:30:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "918076034",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:30:04Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Grunnarbeid med gravemaskin.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/918076034",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/918076034"
+      },
+      "retrieved_at": "2026-09-29T10:30:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "918076034",
+        "json_path": "vedtektsfestetFormaal"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:30:04Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "2300",
+        "description": "Personlige foretak"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/918076034",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/918076034"
+      },
+      "retrieved_at": "2026-09-29T10:30:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "918076034",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:30:04Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/918076034",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/918076034"
+      },
+      "retrieved_at": "2026-09-29T10:30:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "918076034",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:30:04Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/918076034",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/918076034"
+      },
+      "retrieved_at": "2026-09-29T10:30:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "918076034",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:30:04Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/918076034",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/918076034"
+      },
+      "retrieved_at": "2026-09-29T10:30:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "918076034",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:30:04Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Øystein Libjå",
+            "deceased": false
+          },
+          "group_last_changed": "2016-11-18"
+        },
+        {
+          "role_code": "DTPR",
+          "role": "Deltaker med delt ansvar",
+          "group": "Deltakere",
+          "holder": {
+            "type": "person",
+            "name": "Øystein Libjå",
+            "deceased": false
+          },
+          "group_last_changed": "2016-11-18"
+        },
+        {
+          "role_code": "DTPR",
+          "role": "Deltaker med delt ansvar",
+          "group": "Deltakere",
+          "holder": {
+            "type": "person",
+            "name": "Vegard Libjå",
+            "deceased": false
+          },
+          "group_last_changed": "2016-11-18"
+        },
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Øystein Libjå",
+            "deceased": false
+          },
+          "group_last_changed": "2016-11-18"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Vegard Libjå",
+            "deceased": false
+          },
+          "group_last_changed": "2016-11-18"
+        },
+        {
+          "role_code": "REGN",
+          "role": "Regnskapsfører",
+          "group": "Regnskapsfører",
+          "holder": {
+            "type": "organization",
+            "name": "FYRESDAL REKNESKAPSKONTOR AS",
+            "orgnr": "942203284",
+            "deleted": false
+          },
+          "group_last_changed": "2016-11-18"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/918076034/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/918076034"
+      },
+      "retrieved_at": "2026-09-29T10:30:06Z",
+      "as_of": "2016-11-18",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "918076034",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:30:04Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Øystein Libjå",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/918076034/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/918076034"
+      },
+      "retrieved_at": "2026-09-29T10:30:06Z",
+      "as_of": "2016-11-18",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "918076034",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:30:04Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Øystein Libjå",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/918076034/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/918076034"
+      },
+      "retrieved_at": "2026-09-29T10:30:06Z",
+      "as_of": "2016-11-18",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "918076034",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:30:04Z"
+    },
+    {
+      "field": "accountant",
+      "value": {
+        "type": "organization",
+        "name": "FYRESDAL REKNESKAPSKONTOR AS",
+        "orgnr": "942203284",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/918076034/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/918076034"
+      },
+      "retrieved_at": "2026-09-29T10:30:06Z",
+      "as_of": "2016-11-18",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "918076034",
+        "json_path": "rollegrupper[type.kode=REGN]"
+      },
+      "confidence": "high",
+      "label": "Accountant",
+      "first_seen": "2026-09-29T10:30:04Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Øystein Libjå",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Vegard Libjå",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/918076034/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/918076034"
+      },
+      "retrieved_at": "2026-09-29T10:30:06Z",
+      "as_of": "2016-11-18",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "918076034",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:30:04Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=918076034&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/918076034"
+      },
+      "retrieved_at": "2026-09-29T10:30:09Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "918076034",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:30:04Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "918473645",
+          "name": "LIBJÅ MASKINDRIFT DA",
+          "address": "Libjåvegen 161, 3870 FYRESDAL, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=918076034&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/918076034"
+      },
+      "retrieved_at": "2026-09-29T10:30:09Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "918076034",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:30:04Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:30:05Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/918076034"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:30:06Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/918076034/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:30:07Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/918076034"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:30:09Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=918076034&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "LIBJÅ MASKINDRIFT DA (918 076 034), a partnership with shared liability, is an active entity in Enhetsregisteret; founded 2016-10-24; address Libjåvegen 161, 3870 FYRESDAL, Norge. Main industry is 43.120 Grunnarbeid; 1 registered sub-unit(s). Daily manager: Øystein Libjå; Board chair: Øystein Libjå.",
+    "notes": [
+      "No annual accounts: organisation form DA is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:30:04Z",
+  "last_changed_at": "2026-09-29T10:30:04Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

@@ -1,0 +1,1731 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "977116872",
+  "orgnr_formatted": "977 116 872",
+  "name": "BRANDVALHEIMEN STIFTELSE",
+  "status": "active",
+  "checked_at": "2026-09-29T10:33:48Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "BRANDVALHEIMEN STIFTELSE",
+    "founded_date": "1993-09-21",
+    "registered_date": "1997-02-22",
+    "business_register_date": "2019-09-26",
+    "articles_date": "2019-06-04",
+    "email": "a.austad@icloud.com",
+    "mobile": "90589999",
+    "latest_annual_accounts_year": "2025",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": true,
+    "in_foundation_register": true,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "STI",
+      "description": "Stiftelse",
+      "description_en": "foundation"
+    },
+    "business_address": {
+      "text": "Goggestredet, 2219 BRANDVAL, Norge",
+      "street": [
+        "Goggestredet"
+      ],
+      "postcode": "2219",
+      "city": "BRANDVAL",
+      "municipality": "KONGSVINGER",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "KONGSVINGER",
+      "code": "3401"
+    },
+    "postal_address": {
+      "text": "Vikervegen 120, 2219 BRANDVAL, Norge",
+      "street": [
+        "Vikervegen 120"
+      ],
+      "postcode": "2219",
+      "city": "BRANDVAL",
+      "municipality": "KONGSVINGER",
+      "country_code": "NO"
+    },
+    "industry_codes": [
+      {
+        "code": "68.200",
+        "description": "Utleie av egen eller leid fast eiendom"
+      }
+    ],
+    "purpose": "Stiftelsen skal bygge og stå for drift av trygdeboliger på Brandval.",
+    "sector": {
+      "code": "2100",
+      "description": "Private aksjeselskaper mv."
+    },
+    "share_capital": {
+      "amount": 200000.0,
+      "currency": "NOK",
+      "type": "Grunnkapital",
+      "shares": null
+    },
+    "former_names": [
+      {
+        "name": "BRANDVALHEIMEN STIFTELSE",
+        "from": "1997-02-22",
+        "to": "2019-09-26"
+      }
+    ],
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Solvor Østvold",
+          "deceased": false
+        },
+        "group_last_changed": "2019-09-26"
+      },
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Anne Berit Austad",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-27"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Fred Eugen Moe",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-27"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Unni Margrethe Bråten Høgåsen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-27"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Solvor Østvold",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-27"
+      },
+      {
+        "role_code": "VARA",
+        "role": "Varamedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Per Reidar Jørgensen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-27"
+      },
+      {
+        "role_code": "VARA",
+        "role": "Varamedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Eva Helene Berggren",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-27"
+      },
+      {
+        "role_code": "VARA",
+        "role": "Varamedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Rønnaug Elisabeth Børresen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-27"
+      },
+      {
+        "role_code": "VARA",
+        "role": "Varamedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Ruby Annita Langeland",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-27"
+      },
+      {
+        "role_code": "VARA",
+        "role": "Varamedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Turid Hanestad",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-27"
+      },
+      {
+        "role_code": "VARA",
+        "role": "Varamedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Gunhild Neskvern Solheim",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-27"
+      },
+      {
+        "role_code": "REVI",
+        "role": "Revisor",
+        "group": "Revisor",
+        "holder": {
+          "type": "organization",
+          "name": "BDO AS",
+          "orgnr": "993606650",
+          "deleted": false
+        },
+        "group_last_changed": "2019-09-26"
+      },
+      {
+        "role_code": "REGN",
+        "role": "Regnskapsfører",
+        "group": "Regnskapsfører",
+        "holder": {
+          "type": "organization",
+          "name": "PROGRESSUM KONGSVINGER AS",
+          "orgnr": "936011489",
+          "deleted": false
+        },
+        "group_last_changed": "2011-05-24"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Solvor Østvold",
+      "deceased": false
+    },
+    "board_chair": {
+      "type": "person",
+      "name": "Anne Berit Austad",
+      "deceased": false
+    },
+    "auditor": {
+      "type": "organization",
+      "name": "BDO AS",
+      "orgnr": "993606650",
+      "deleted": false
+    },
+    "accountant": {
+      "type": "organization",
+      "name": "PROGRESSUM KONGSVINGER AS",
+      "orgnr": "936011489",
+      "deleted": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Anne Berit Austad",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Fred Eugen Moe",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Unni Margrethe Bråten Høgåsen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Solvor Østvold",
+        "deceased": false
+      }
+    ],
+    "accounts_period": {
+      "from": "2025-01-01",
+      "to": "2025-12-31",
+      "year": "2025",
+      "currency": "NOK",
+      "type": "SELSKAP",
+      "audited": true,
+      "audit_opt_out": false
+    },
+    "revenue": {
+      "amount": 488599.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "operating_expenses": {
+      "amount": 340423.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "operating_profit": {
+      "amount": 148176.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "net_financial_items": {
+      "amount": 2588.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "profit_before_tax": {
+      "amount": 150764.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "net_profit": {
+      "amount": 150764.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "total_assets": {
+      "amount": 2493902.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "fixed_assets": {
+      "amount": 2177221.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "current_assets": {
+      "amount": 316681.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "equity": {
+      "amount": 2420857.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "total_debt": {
+      "amount": 73044.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "short_term_debt": {
+      "amount": 5621.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "long_term_debt": {
+      "amount": 67423.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "990850755",
+        "name": "BRANDVALHEIMEN STIFTELSE",
+        "address": "Goggestredet, 2219 BRANDVAL, Norge",
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "name",
+      "value": "BRANDVALHEIMEN STIFTELSE",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "1993-09-21",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:49Z",
+      "as_of": "1993-09-21",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "1997-02-22",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:49Z",
+      "as_of": "1997-02-22",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "2019-09-26",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:49Z",
+      "as_of": "2019-09-26",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "articles_date",
+      "value": "2019-06-04",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:49Z",
+      "as_of": "2019-06-04",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "json_path": "vedtektsdato"
+      },
+      "confidence": "high",
+      "label": "Date of articles of association",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "email",
+      "value": "a.austad@icloud.com",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "json_path": "epostadresse"
+      },
+      "confidence": "high",
+      "label": "Email",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "mobile",
+      "value": "90589999",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "json_path": "mobil"
+      },
+      "confidence": "high",
+      "label": "Mobile phone",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "latest_annual_accounts_year",
+      "value": "2025",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "json_path": "sisteInnsendteAarsregnskap"
+      },
+      "confidence": "high",
+      "label": "Latest annual accounts submitted",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "STI",
+        "description": "Stiftelse",
+        "description_en": "foundation"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Goggestredet, 2219 BRANDVAL, Norge",
+        "street": [
+          "Goggestredet"
+        ],
+        "postcode": "2219",
+        "city": "BRANDVAL",
+        "municipality": "KONGSVINGER",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "KONGSVINGER",
+        "code": "3401"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "postal_address",
+      "value": {
+        "text": "Vikervegen 120, 2219 BRANDVAL, Norge",
+        "street": [
+          "Vikervegen 120"
+        ],
+        "postcode": "2219",
+        "city": "BRANDVAL",
+        "municipality": "KONGSVINGER",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "json_path": "postadresse"
+      },
+      "confidence": "high",
+      "label": "Postal address",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "68.200",
+          "description": "Utleie av egen eller leid fast eiendom"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Stiftelsen skal bygge og stå for drift av trygdeboliger på Brandval.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "json_path": "vedtektsfestetFormaal"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "2100",
+        "description": "Private aksjeselskaper mv."
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "share_capital",
+      "value": {
+        "amount": 200000.0,
+        "currency": "NOK",
+        "type": "Grunnkapital",
+        "shares": null
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:49Z",
+      "as_of": "2019-09-26",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "json_path": "kapital"
+      },
+      "confidence": "high",
+      "label": "Share capital",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "former_names",
+      "value": [
+        {
+          "name": "BRANDVALHEIMEN STIFTELSE",
+          "from": "1997-02-22",
+          "to": "2019-09-26"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "json_path": "historiskeNavn"
+      },
+      "confidence": "high",
+      "label": "Former names",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Solvor Østvold",
+            "deceased": false
+          },
+          "group_last_changed": "2019-09-26"
+        },
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Anne Berit Austad",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-27"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Fred Eugen Moe",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-27"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Unni Margrethe Bråten Høgåsen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-27"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Solvor Østvold",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-27"
+        },
+        {
+          "role_code": "VARA",
+          "role": "Varamedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Per Reidar Jørgensen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-27"
+        },
+        {
+          "role_code": "VARA",
+          "role": "Varamedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Eva Helene Berggren",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-27"
+        },
+        {
+          "role_code": "VARA",
+          "role": "Varamedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Rønnaug Elisabeth Børresen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-27"
+        },
+        {
+          "role_code": "VARA",
+          "role": "Varamedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Ruby Annita Langeland",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-27"
+        },
+        {
+          "role_code": "VARA",
+          "role": "Varamedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Turid Hanestad",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-27"
+        },
+        {
+          "role_code": "VARA",
+          "role": "Varamedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Gunhild Neskvern Solheim",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-27"
+        },
+        {
+          "role_code": "REVI",
+          "role": "Revisor",
+          "group": "Revisor",
+          "holder": {
+            "type": "organization",
+            "name": "BDO AS",
+            "orgnr": "993606650",
+            "deleted": false
+          },
+          "group_last_changed": "2019-09-26"
+        },
+        {
+          "role_code": "REGN",
+          "role": "Regnskapsfører",
+          "group": "Regnskapsfører",
+          "holder": {
+            "type": "organization",
+            "name": "PROGRESSUM KONGSVINGER AS",
+            "orgnr": "936011489",
+            "deleted": false
+          },
+          "group_last_changed": "2011-05-24"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977116872/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:51Z",
+      "as_of": "2026-01-27",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Solvor Østvold",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977116872/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:51Z",
+      "as_of": "2019-09-26",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Anne Berit Austad",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977116872/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:51Z",
+      "as_of": "2026-01-27",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "auditor",
+      "value": {
+        "type": "organization",
+        "name": "BDO AS",
+        "orgnr": "993606650",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977116872/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:51Z",
+      "as_of": "2019-09-26",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "json_path": "rollegrupper[type.kode=REVI]"
+      },
+      "confidence": "high",
+      "label": "Auditor",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "accountant",
+      "value": {
+        "type": "organization",
+        "name": "PROGRESSUM KONGSVINGER AS",
+        "orgnr": "936011489",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977116872/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:51Z",
+      "as_of": "2011-05-24",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "json_path": "rollegrupper[type.kode=REGN]"
+      },
+      "confidence": "high",
+      "label": "Accountant",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Anne Berit Austad",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Fred Eugen Moe",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Unni Margrethe Bråten Høgåsen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Solvor Østvold",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977116872/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:51Z",
+      "as_of": "2026-01-27",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "accounts_period",
+      "value": {
+        "from": "2025-01-01",
+        "to": "2025-12-31",
+        "year": "2025",
+        "currency": "NOK",
+        "type": "SELSKAP",
+        "audited": true,
+        "audit_opt_out": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:52Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "journal_number": "2026578666",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "regnskapsperiode"
+      },
+      "confidence": "high",
+      "label": "Accounting period",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "revenue",
+      "value": {
+        "amount": 488599.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:52Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "journal_number": "2026578666",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftsinntekter.sumDriftsinntekter"
+      },
+      "confidence": "high",
+      "label": "Operating revenue",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "operating_expenses",
+      "value": {
+        "amount": 340423.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:52Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "journal_number": "2026578666",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftskostnad.sumDriftskostnad"
+      },
+      "confidence": "high",
+      "label": "Operating expenses",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "operating_profit",
+      "value": {
+        "amount": 148176.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:52Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "journal_number": "2026578666",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftsresultat"
+      },
+      "confidence": "high",
+      "label": "Operating profit",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "net_financial_items",
+      "value": {
+        "amount": 2588.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:52Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "journal_number": "2026578666",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.finansresultat.nettoFinans"
+      },
+      "confidence": "high",
+      "label": "Net financial items",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "profit_before_tax",
+      "value": {
+        "amount": 150764.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:52Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "journal_number": "2026578666",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.ordinaertResultatFoerSkattekostnad"
+      },
+      "confidence": "high",
+      "label": "Profit before tax",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "net_profit",
+      "value": {
+        "amount": 150764.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:52Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "journal_number": "2026578666",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.aarsresultat"
+      },
+      "confidence": "high",
+      "label": "Net profit (annual result)",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "total_assets",
+      "value": {
+        "amount": 2493902.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:52Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "journal_number": "2026578666",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.sumEiendeler"
+      },
+      "confidence": "high",
+      "label": "Total assets",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "fixed_assets",
+      "value": {
+        "amount": 2177221.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:52Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "journal_number": "2026578666",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.anleggsmidler.sumAnleggsmidler"
+      },
+      "confidence": "high",
+      "label": "Fixed assets",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "current_assets",
+      "value": {
+        "amount": 316681.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:52Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "journal_number": "2026578666",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.omloepsmidler.sumOmloepsmidler"
+      },
+      "confidence": "high",
+      "label": "Current assets",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "equity",
+      "value": {
+        "amount": 2420857.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:52Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "journal_number": "2026578666",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.egenkapital.sumEgenkapital"
+      },
+      "confidence": "high",
+      "label": "Equity",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "total_debt",
+      "value": {
+        "amount": 73044.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:52Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "journal_number": "2026578666",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.gjeldOversikt.sumGjeld"
+      },
+      "confidence": "high",
+      "label": "Total debt",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "short_term_debt",
+      "value": {
+        "amount": 5621.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:52Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "journal_number": "2026578666",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.gjeldOversikt.kortsiktigGjeld.sumKortsiktigGjeld"
+      },
+      "confidence": "high",
+      "label": "Short-term debt",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "long_term_debt",
+      "value": {
+        "amount": 67423.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/977116872",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:52Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "journal_number": "2026578666",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.gjeldOversikt.langsiktigGjeld.sumLangsiktigGjeld"
+      },
+      "confidence": "high",
+      "label": "Long-term debt",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=977116872&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:53Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:33:48Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "990850755",
+          "name": "BRANDVALHEIMEN STIFTELSE",
+          "address": "Goggestredet, 2219 BRANDVAL, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=977116872&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977116872"
+      },
+      "retrieved_at": "2026-09-29T10:33:53Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977116872",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:33:48Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:33:49Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977116872"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:33:51Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977116872/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:33:52Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/977116872"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:33:53Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=977116872&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "BRANDVALHEIMEN STIFTELSE (977 116 872), a foundation, is an active entity in Enhetsregisteret; founded 1993-09-21; address Goggestredet, 2219 BRANDVAL, Norge. Main industry is 68.200 Utleie av egen eller leid fast eiendom; 1 registered sub-unit(s). Daily manager: Solvor Østvold; Board chair: Anne Berit Austad; Auditor: BDO AS. Accounts for 2025 (period ending 2025-12-31): revenue NOK 488.60 k, operating profit NOK 148.18 k, net profit NOK 150.76 k, equity NOK 2.42 m, total assets NOK 2.49 m.",
+    "notes": []
+  },
+  "first_checked_at": "2026-09-29T10:33:48Z",
+  "last_changed_at": "2026-09-29T10:33:48Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

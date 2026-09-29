@@ -1,0 +1,964 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "985370001",
+  "orgnr_formatted": "985 370 001",
+  "name": "I L OG U L  HEIMHUG",
+  "status": "active",
+  "checked_at": "2026-09-29T10:27:14Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "I L OG U L  HEIMHUG",
+    "founded_date": "1908-03-29",
+    "registered_date": "2003-04-28",
+    "business_register_date": "2003-04-28",
+    "articles_date": "1908-03-29",
+    "website": "https://heimhug.com",
+    "mobile": "95862408",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": true,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "FLI",
+      "description": "Forening/lag/innretning",
+      "description_en": "association"
+    },
+    "business_address": {
+      "text": "Gammelveien 883, 8255 RØKLAND, Norge",
+      "street": [
+        "Gammelveien 883"
+      ],
+      "postcode": "8255",
+      "city": "RØKLAND",
+      "municipality": "SALTDAL",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "SALTDAL",
+      "code": "1840"
+    },
+    "postal_address": {
+      "text": "Tømmerdalveien 26, 8255 RØKLAND, Norge",
+      "street": [
+        "Tømmerdalveien 26"
+      ],
+      "postcode": "8255",
+      "city": "RØKLAND",
+      "municipality": "SALTDAL",
+      "country_code": "NO"
+    },
+    "industry_codes": [
+      {
+        "code": "93.120",
+        "description": "Aktiviteter i idrettslag og -klubber"
+      }
+    ],
+    "purpose": "Å virke for ungdoms og kulturliv, og utbredelse av all idrett som kan gjøre seg gjeldene innen laget. Å fremme kameratslig samsvær.",
+    "sector": {
+      "code": "7000",
+      "description": "Ideelle organisasjoner"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Lars Erik Dyrnes",
+          "deceased": false
+        },
+        "group_last_changed": "2009-07-15"
+      },
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Lars Erik Dyrnes",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-22"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Åge Justin Kristoffersen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-22"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Guro Nordvik",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-22"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Håvard Alexander Lind",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-22"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Siri Nordvik Rånes",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-22"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Lars Erik Dyrnes",
+      "deceased": false
+    },
+    "board_chair": {
+      "type": "person",
+      "name": "Lars Erik Dyrnes",
+      "deceased": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Lars Erik Dyrnes",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Åge Justin Kristoffersen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Guro Nordvik",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Håvard Alexander Lind",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Siri Nordvik Rånes",
+        "deceased": false
+      }
+    ],
+    "website_verification": "orgnr_on_page",
+    "website_title": "Velkommen til Heimhug IL og UL – Dugnadsånd og samhold"
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/985370001",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/985370001"
+      },
+      "retrieved_at": "2026-09-29T10:27:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "985370001",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:25:59Z"
+    },
+    {
+      "field": "name",
+      "value": "I L OG U L  HEIMHUG",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/985370001",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/985370001"
+      },
+      "retrieved_at": "2026-09-29T10:27:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "985370001",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:25:59Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "1908-03-29",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/985370001",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/985370001"
+      },
+      "retrieved_at": "2026-09-29T10:27:15Z",
+      "as_of": "1908-03-29",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "985370001",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:25:59Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2003-04-28",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/985370001",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/985370001"
+      },
+      "retrieved_at": "2026-09-29T10:27:15Z",
+      "as_of": "2003-04-28",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "985370001",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:25:59Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "2003-04-28",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/985370001",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/985370001"
+      },
+      "retrieved_at": "2026-09-29T10:27:15Z",
+      "as_of": "2003-04-28",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "985370001",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:25:59Z"
+    },
+    {
+      "field": "articles_date",
+      "value": "1908-03-29",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/985370001",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/985370001"
+      },
+      "retrieved_at": "2026-09-29T10:27:15Z",
+      "as_of": "1908-03-29",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "985370001",
+        "json_path": "vedtektsdato"
+      },
+      "confidence": "high",
+      "label": "Date of articles of association",
+      "first_seen": "2026-09-29T10:25:59Z"
+    },
+    {
+      "field": "website",
+      "value": "https://heimhug.com",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/985370001",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/985370001"
+      },
+      "retrieved_at": "2026-09-29T10:27:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "985370001",
+        "json_path": "hjemmeside"
+      },
+      "confidence": "high",
+      "label": "Website",
+      "first_seen": "2026-09-29T10:25:59Z"
+    },
+    {
+      "field": "mobile",
+      "value": "95862408",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/985370001",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/985370001"
+      },
+      "retrieved_at": "2026-09-29T10:27:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "985370001",
+        "json_path": "mobil"
+      },
+      "confidence": "high",
+      "label": "Mobile phone",
+      "first_seen": "2026-09-29T10:25:59Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/985370001",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/985370001"
+      },
+      "retrieved_at": "2026-09-29T10:27:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "985370001",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:25:59Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/985370001",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/985370001"
+      },
+      "retrieved_at": "2026-09-29T10:27:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "985370001",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:25:59Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/985370001",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/985370001"
+      },
+      "retrieved_at": "2026-09-29T10:27:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "985370001",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:25:59Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/985370001",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/985370001"
+      },
+      "retrieved_at": "2026-09-29T10:27:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "985370001",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:25:59Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/985370001",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/985370001"
+      },
+      "retrieved_at": "2026-09-29T10:27:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "985370001",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:25:59Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/985370001",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/985370001"
+      },
+      "retrieved_at": "2026-09-29T10:27:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "985370001",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:25:59Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/985370001",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/985370001"
+      },
+      "retrieved_at": "2026-09-29T10:27:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "985370001",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:25:59Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "FLI",
+        "description": "Forening/lag/innretning",
+        "description_en": "association"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/985370001",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/985370001"
+      },
+      "retrieved_at": "2026-09-29T10:27:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "985370001",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:25:59Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Gammelveien 883, 8255 RØKLAND, Norge",
+        "street": [
+          "Gammelveien 883"
+        ],
+        "postcode": "8255",
+        "city": "RØKLAND",
+        "municipality": "SALTDAL",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/985370001",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/985370001"
+      },
+      "retrieved_at": "2026-09-29T10:27:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "985370001",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:25:59Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "SALTDAL",
+        "code": "1840"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/985370001",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/985370001"
+      },
+      "retrieved_at": "2026-09-29T10:27:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "985370001",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:25:59Z"
+    },
+    {
+      "field": "postal_address",
+      "value": {
+        "text": "Tømmerdalveien 26, 8255 RØKLAND, Norge",
+        "street": [
+          "Tømmerdalveien 26"
+        ],
+        "postcode": "8255",
+        "city": "RØKLAND",
+        "municipality": "SALTDAL",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/985370001",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/985370001"
+      },
+      "retrieved_at": "2026-09-29T10:27:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "985370001",
+        "json_path": "postadresse"
+      },
+      "confidence": "high",
+      "label": "Postal address",
+      "first_seen": "2026-09-29T10:25:59Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "93.120",
+          "description": "Aktiviteter i idrettslag og -klubber"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/985370001",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/985370001"
+      },
+      "retrieved_at": "2026-09-29T10:27:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "985370001",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:25:59Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Å virke for ungdoms og kulturliv, og utbredelse av all idrett som kan gjøre seg gjeldene innen laget. Å fremme kameratslig samsvær.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/985370001",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/985370001"
+      },
+      "retrieved_at": "2026-09-29T10:27:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "985370001",
+        "json_path": "vedtektsfestetFormaal"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:25:59Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "7000",
+        "description": "Ideelle organisasjoner"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/985370001",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/985370001"
+      },
+      "retrieved_at": "2026-09-29T10:27:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "985370001",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:25:59Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/985370001",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/985370001"
+      },
+      "retrieved_at": "2026-09-29T10:27:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "985370001",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:25:59Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/985370001",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/985370001"
+      },
+      "retrieved_at": "2026-09-29T10:27:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "985370001",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:25:59Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/985370001",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/985370001"
+      },
+      "retrieved_at": "2026-09-29T10:27:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "985370001",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:25:59Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Lars Erik Dyrnes",
+            "deceased": false
+          },
+          "group_last_changed": "2009-07-15"
+        },
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Lars Erik Dyrnes",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-22"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Åge Justin Kristoffersen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-22"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Guro Nordvik",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-22"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Håvard Alexander Lind",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-22"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Siri Nordvik Rånes",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-22"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/985370001/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/985370001"
+      },
+      "retrieved_at": "2026-09-29T10:27:16Z",
+      "as_of": "2026-01-22",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "985370001",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:25:59Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Lars Erik Dyrnes",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/985370001/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/985370001"
+      },
+      "retrieved_at": "2026-09-29T10:27:16Z",
+      "as_of": "2009-07-15",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "985370001",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:25:59Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Lars Erik Dyrnes",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/985370001/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/985370001"
+      },
+      "retrieved_at": "2026-09-29T10:27:16Z",
+      "as_of": "2026-01-22",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "985370001",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:25:59Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Lars Erik Dyrnes",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Åge Justin Kristoffersen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Guro Nordvik",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Håvard Alexander Lind",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Siri Nordvik Rånes",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/985370001/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/985370001"
+      },
+      "retrieved_at": "2026-09-29T10:27:16Z",
+      "as_of": "2026-01-22",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "985370001",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:25:59Z"
+    },
+    {
+      "field": "website_verification",
+      "value": "orgnr_on_page",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://www.heimhug.com/",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "985370001",
+        "identity": {
+          "level": "orgnr_on_page",
+          "orgnr_found": true,
+          "name_found": false,
+          "name_tested": "I L OG U L HEIMHUG"
+        },
+        "registered_url": "https://heimhug.com"
+      },
+      "confidence": "high",
+      "label": "Website identity check",
+      "first_seen": "2026-09-29T10:25:59Z"
+    },
+    {
+      "field": "website_title",
+      "value": "Velkommen til Heimhug IL og UL – Dugnadsånd og samhold",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://www.heimhug.com/",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "985370001",
+        "identity": {
+          "level": "orgnr_on_page",
+          "orgnr_found": true,
+          "name_found": false,
+          "name_tested": "I L OG U L HEIMHUG"
+        },
+        "registered_url": "https://heimhug.com",
+        "json_path": "html.title"
+      },
+      "confidence": "high",
+      "label": "Website title",
+      "first_seen": "2026-09-29T10:25:59Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:27:15Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/985370001"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:27:16Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/985370001/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:27:17Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/985370001"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:27:19Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=985370001&size=5"
+    },
+    {
+      "source": "Company website",
+      "checked_at": "2026-09-29T10:27:21Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://heimhug.com"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "I L OG U L  HEIMHUG (985 370 001), an association, is an active entity in Enhetsregisteret; founded 1908-03-29; address Gammelveien 883, 8255 RØKLAND, Norge. Main industry is 93.120 Aktiviteter i idrettslag og -klubber. Daily manager: Lars Erik Dyrnes; Board chair: Lars Erik Dyrnes. Website https://heimhug.com is verified: the org number appears on the page.",
+    "notes": [
+      "No annual accounts: organisation form FLI is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:25:59Z",
+  "previous_checked_at": "2026-09-29T10:25:59Z",
+  "last_changed_at": "2026-09-29T10:25:59Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

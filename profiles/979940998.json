@@ -1,0 +1,1463 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "979940998",
+  "orgnr_formatted": "979 940 998",
+  "name": "WOLD SAMDRIFT DA",
+  "status": "active",
+  "checked_at": "2026-09-29T10:28:51Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "WOLD SAMDRIFT DA",
+    "founded_date": "1998-05-01",
+    "registered_date": "1998-07-20",
+    "business_register_date": "1998-07-20",
+    "articles_date": "2026-01-01",
+    "latest_annual_accounts_year": "2025",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": true,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "DA",
+      "description": "Ansvarlig selskap med delt ansvar",
+      "description_en": "partnership with shared liability"
+    },
+    "business_address": {
+      "text": "Woldsvegen 53, 2890 ETNEDAL, Norge",
+      "street": [
+        "Woldsvegen 53"
+      ],
+      "postcode": "2890",
+      "city": "ETNEDAL",
+      "municipality": "ETNEDAL",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "ETNEDAL",
+      "code": "3450"
+    },
+    "postal_address": {
+      "text": "v/ Asmund Wold, Woldsvegen 53, 2890 ETNEDAL, Norge",
+      "street": [
+        "v/ Asmund Wold",
+        "Woldsvegen 53"
+      ],
+      "postcode": "2890",
+      "city": "ETNEDAL",
+      "municipality": "ETNEDAL",
+      "country_code": "NO"
+    },
+    "industry_codes": [
+      {
+        "code": "01.410",
+        "description": "Melkeproduksjon på storfe og oppdrett av melkekyr"
+      }
+    ],
+    "purpose": "Drive felles melk og kjøttproduksjon for best mulig rasjonell og økonomisk utnyttelse av deltakernes egne eiendommer. Samdrifta skal gi muligheter til ordnede arbeidsforhold, fritid og ferie for deltakerne.",
+    "sector": {
+      "code": "2300",
+      "description": "Personlige foretak"
+    },
+    "former_names": [
+      {
+        "name": "WOLD SAMDRIFT ANS",
+        "from": "1998-07-20",
+        "to": "2010-03-03"
+      }
+    ],
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Asmund Wold",
+          "deceased": false
+        },
+        "group_last_changed": "1998-07-20"
+      },
+      {
+        "role_code": "DTPR",
+        "role": "Deltaker med delt ansvar",
+        "group": "Deltakere",
+        "holder": {
+          "type": "person",
+          "name": "Tor Bjørge Wold",
+          "deceased": false
+        },
+        "group_last_changed": "2026-07-02"
+      },
+      {
+        "role_code": "DTPR",
+        "role": "Deltaker med delt ansvar",
+        "group": "Deltakere",
+        "holder": {
+          "type": "person",
+          "name": "Olav Agnar Wold",
+          "deceased": false
+        },
+        "group_last_changed": "2026-07-02"
+      },
+      {
+        "role_code": "DTPR",
+        "role": "Deltaker med delt ansvar",
+        "group": "Deltakere",
+        "holder": {
+          "type": "person",
+          "name": "Terje Kompen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-07-02"
+      },
+      {
+        "role_code": "DTPR",
+        "role": "Deltaker med delt ansvar",
+        "group": "Deltakere",
+        "holder": {
+          "type": "person",
+          "name": "Jostein Kompen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-07-02"
+      },
+      {
+        "role_code": "DTPR",
+        "role": "Deltaker med delt ansvar",
+        "group": "Deltakere",
+        "holder": {
+          "type": "person",
+          "name": "Øyvind Telstø",
+          "deceased": false
+        },
+        "group_last_changed": "2026-07-02"
+      },
+      {
+        "role_code": "REVI",
+        "role": "Revisor",
+        "group": "Revisor",
+        "holder": {
+          "type": "organization",
+          "name": "VALDRESREVISORENE AS",
+          "orgnr": "992897104",
+          "deleted": false
+        },
+        "group_last_changed": "2016-03-04"
+      },
+      {
+        "role_code": "REGN",
+        "role": "Regnskapsfører",
+        "group": "Regnskapsfører",
+        "holder": {
+          "type": "organization",
+          "name": "SPAREBANK 1 REGNSKAPSHUSET VALHALL AS",
+          "orgnr": "980289648",
+          "deleted": false
+        },
+        "group_last_changed": "2022-09-10"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Asmund Wold",
+      "deceased": false
+    },
+    "auditor": {
+      "type": "organization",
+      "name": "VALDRESREVISORENE AS",
+      "orgnr": "992897104",
+      "deleted": false
+    },
+    "accountant": {
+      "type": "organization",
+      "name": "SPAREBANK 1 REGNSKAPSHUSET VALHALL AS",
+      "orgnr": "980289648",
+      "deleted": false
+    },
+    "accounts_period": {
+      "from": "2025-01-01",
+      "to": "2025-12-31",
+      "year": "2025",
+      "currency": "NOK",
+      "type": "SELSKAP",
+      "audited": true,
+      "audit_opt_out": false
+    },
+    "revenue": {
+      "amount": 12351899.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "operating_expenses": {
+      "amount": 11853324.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "operating_profit": {
+      "amount": 498575.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "net_financial_items": {
+      "amount": 1425.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "profit_before_tax": {
+      "amount": 500000.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "net_profit": {
+      "amount": 500000.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "total_assets": {
+      "amount": 5032055.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "fixed_assets": {
+      "amount": 133476.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "current_assets": {
+      "amount": 4898578.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "equity": {
+      "amount": 1077502.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "total_debt": {
+      "amount": 3954553.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "short_term_debt": {
+      "amount": 3954553.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "long_term_debt": {
+      "amount": 0.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "979997736",
+        "name": "WOLD SAMDRIFT DA",
+        "address": "v/Asmund Wold, Woldsvegen 53, 2890 ETNEDAL, Norge",
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "name",
+      "value": "WOLD SAMDRIFT DA",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "1998-05-01",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "1998-05-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "1998-07-20",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "1998-07-20",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "1998-07-20",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "1998-07-20",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "articles_date",
+      "value": "2026-01-01",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "2026-01-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "json_path": "vedtektsdato"
+      },
+      "confidence": "high",
+      "label": "Date of articles of association",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "latest_annual_accounts_year",
+      "value": "2025",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "json_path": "sisteInnsendteAarsregnskap"
+      },
+      "confidence": "high",
+      "label": "Latest annual accounts submitted",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "1998-01-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "DA",
+        "description": "Ansvarlig selskap med delt ansvar",
+        "description_en": "partnership with shared liability"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Woldsvegen 53, 2890 ETNEDAL, Norge",
+        "street": [
+          "Woldsvegen 53"
+        ],
+        "postcode": "2890",
+        "city": "ETNEDAL",
+        "municipality": "ETNEDAL",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "ETNEDAL",
+        "code": "3450"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "postal_address",
+      "value": {
+        "text": "v/ Asmund Wold, Woldsvegen 53, 2890 ETNEDAL, Norge",
+        "street": [
+          "v/ Asmund Wold",
+          "Woldsvegen 53"
+        ],
+        "postcode": "2890",
+        "city": "ETNEDAL",
+        "municipality": "ETNEDAL",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "json_path": "postadresse"
+      },
+      "confidence": "high",
+      "label": "Postal address",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "01.410",
+          "description": "Melkeproduksjon på storfe og oppdrett av melkekyr"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Drive felles melk og kjøttproduksjon for best mulig rasjonell og økonomisk utnyttelse av deltakernes egne eiendommer. Samdrifta skal gi muligheter til ordnede arbeidsforhold, fritid og ferie for deltakerne.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "json_path": "vedtektsfestetFormaal"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "2300",
+        "description": "Personlige foretak"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "former_names",
+      "value": [
+        {
+          "name": "WOLD SAMDRIFT ANS",
+          "from": "1998-07-20",
+          "to": "2010-03-03"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "json_path": "historiskeNavn"
+      },
+      "confidence": "high",
+      "label": "Former names",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Asmund Wold",
+            "deceased": false
+          },
+          "group_last_changed": "1998-07-20"
+        },
+        {
+          "role_code": "DTPR",
+          "role": "Deltaker med delt ansvar",
+          "group": "Deltakere",
+          "holder": {
+            "type": "person",
+            "name": "Tor Bjørge Wold",
+            "deceased": false
+          },
+          "group_last_changed": "2026-07-02"
+        },
+        {
+          "role_code": "DTPR",
+          "role": "Deltaker med delt ansvar",
+          "group": "Deltakere",
+          "holder": {
+            "type": "person",
+            "name": "Olav Agnar Wold",
+            "deceased": false
+          },
+          "group_last_changed": "2026-07-02"
+        },
+        {
+          "role_code": "DTPR",
+          "role": "Deltaker med delt ansvar",
+          "group": "Deltakere",
+          "holder": {
+            "type": "person",
+            "name": "Terje Kompen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-07-02"
+        },
+        {
+          "role_code": "DTPR",
+          "role": "Deltaker med delt ansvar",
+          "group": "Deltakere",
+          "holder": {
+            "type": "person",
+            "name": "Jostein Kompen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-07-02"
+        },
+        {
+          "role_code": "DTPR",
+          "role": "Deltaker med delt ansvar",
+          "group": "Deltakere",
+          "holder": {
+            "type": "person",
+            "name": "Øyvind Telstø",
+            "deceased": false
+          },
+          "group_last_changed": "2026-07-02"
+        },
+        {
+          "role_code": "REVI",
+          "role": "Revisor",
+          "group": "Revisor",
+          "holder": {
+            "type": "organization",
+            "name": "VALDRESREVISORENE AS",
+            "orgnr": "992897104",
+            "deleted": false
+          },
+          "group_last_changed": "2016-03-04"
+        },
+        {
+          "role_code": "REGN",
+          "role": "Regnskapsfører",
+          "group": "Regnskapsfører",
+          "holder": {
+            "type": "organization",
+            "name": "SPAREBANK 1 REGNSKAPSHUSET VALHALL AS",
+            "orgnr": "980289648",
+            "deleted": false
+          },
+          "group_last_changed": "2022-09-10"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979940998/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:54Z",
+      "as_of": "2026-07-02",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Asmund Wold",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979940998/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:54Z",
+      "as_of": "1998-07-20",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "auditor",
+      "value": {
+        "type": "organization",
+        "name": "VALDRESREVISORENE AS",
+        "orgnr": "992897104",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979940998/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:54Z",
+      "as_of": "2016-03-04",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "json_path": "rollegrupper[type.kode=REVI]"
+      },
+      "confidence": "high",
+      "label": "Auditor",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "accountant",
+      "value": {
+        "type": "organization",
+        "name": "SPAREBANK 1 REGNSKAPSHUSET VALHALL AS",
+        "orgnr": "980289648",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979940998/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:54Z",
+      "as_of": "2022-09-10",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "json_path": "rollegrupper[type.kode=REGN]"
+      },
+      "confidence": "high",
+      "label": "Accountant",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "accounts_period",
+      "value": {
+        "from": "2025-01-01",
+        "to": "2025-12-31",
+        "year": "2025",
+        "currency": "NOK",
+        "type": "SELSKAP",
+        "audited": true,
+        "audit_opt_out": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:55Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "journal_number": "2026513064",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "regnskapsperiode"
+      },
+      "confidence": "high",
+      "label": "Accounting period",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "revenue",
+      "value": {
+        "amount": 12351899.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:55Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "journal_number": "2026513064",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftsinntekter.sumDriftsinntekter"
+      },
+      "confidence": "high",
+      "label": "Operating revenue",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "operating_expenses",
+      "value": {
+        "amount": 11853324.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:55Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "journal_number": "2026513064",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftskostnad.sumDriftskostnad"
+      },
+      "confidence": "high",
+      "label": "Operating expenses",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "operating_profit",
+      "value": {
+        "amount": 498575.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:55Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "journal_number": "2026513064",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftsresultat"
+      },
+      "confidence": "high",
+      "label": "Operating profit",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "net_financial_items",
+      "value": {
+        "amount": 1425.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:55Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "journal_number": "2026513064",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.finansresultat.nettoFinans"
+      },
+      "confidence": "high",
+      "label": "Net financial items",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "profit_before_tax",
+      "value": {
+        "amount": 500000.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:55Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "journal_number": "2026513064",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.ordinaertResultatFoerSkattekostnad"
+      },
+      "confidence": "high",
+      "label": "Profit before tax",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "net_profit",
+      "value": {
+        "amount": 500000.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:55Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "journal_number": "2026513064",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.aarsresultat"
+      },
+      "confidence": "high",
+      "label": "Net profit (annual result)",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "total_assets",
+      "value": {
+        "amount": 5032055.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:55Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "journal_number": "2026513064",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.sumEiendeler"
+      },
+      "confidence": "high",
+      "label": "Total assets",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "fixed_assets",
+      "value": {
+        "amount": 133476.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:55Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "journal_number": "2026513064",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.anleggsmidler.sumAnleggsmidler"
+      },
+      "confidence": "high",
+      "label": "Fixed assets",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "current_assets",
+      "value": {
+        "amount": 4898578.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:55Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "journal_number": "2026513064",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.omloepsmidler.sumOmloepsmidler"
+      },
+      "confidence": "high",
+      "label": "Current assets",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "equity",
+      "value": {
+        "amount": 1077502.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:55Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "journal_number": "2026513064",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.egenkapital.sumEgenkapital"
+      },
+      "confidence": "high",
+      "label": "Equity",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "total_debt",
+      "value": {
+        "amount": 3954553.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:55Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "journal_number": "2026513064",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.gjeldOversikt.sumGjeld"
+      },
+      "confidence": "high",
+      "label": "Total debt",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "short_term_debt",
+      "value": {
+        "amount": 3954553.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:55Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "journal_number": "2026513064",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.gjeldOversikt.kortsiktigGjeld.sumKortsiktigGjeld"
+      },
+      "confidence": "high",
+      "label": "Short-term debt",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "long_term_debt",
+      "value": {
+        "amount": 0.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/979940998",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:55Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "journal_number": "2026513064",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.gjeldOversikt.langsiktigGjeld.sumLangsiktigGjeld"
+      },
+      "confidence": "high",
+      "label": "Long-term debt",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=979940998&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:57Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:28:51Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "979997736",
+          "name": "WOLD SAMDRIFT DA",
+          "address": "v/Asmund Wold, Woldsvegen 53, 2890 ETNEDAL, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=979940998&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/979940998"
+      },
+      "retrieved_at": "2026-09-29T10:28:57Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "979940998",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:28:51Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:28:53Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979940998"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:28:54Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979940998/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:28:55Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/979940998"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:28:57Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=979940998&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "WOLD SAMDRIFT DA (979 940 998), a partnership with shared liability, is an active entity in Enhetsregisteret; founded 1998-05-01; address Woldsvegen 53, 2890 ETNEDAL, Norge. Main industry is 01.410 Melkeproduksjon på storfe og oppdrett av melkekyr; 1 registered sub-unit(s). Daily manager: Asmund Wold; Auditor: VALDRESREVISORENE AS. Accounts for 2025 (period ending 2025-12-31): revenue NOK 12.35 m, operating profit NOK 498.57 k, net profit NOK 500.00 k, equity NOK 1.08 m, total assets NOK 5.03 m.",
+    "notes": []
+  },
+  "first_checked_at": "2026-09-29T10:28:51Z",
+  "last_changed_at": "2026-09-29T10:28:51Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

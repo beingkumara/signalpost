@@ -1,0 +1,1225 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "957801145",
+  "orgnr_formatted": "957 801 145",
+  "name": "SKJERVØY IDRETTSKLUBB",
+  "status": "active",
+  "checked_at": "2026-09-29T10:30:48Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "SKJERVØY IDRETTSKLUBB",
+    "founded_date": "1930-06-06",
+    "registered_date": "1995-03-12",
+    "website": "https://skjervoyik.no",
+    "email": "roywaage@online.no",
+    "phone": "77 77 71 40",
+    "mobile": "91758280",
+    "latest_annual_accounts_year": "2002",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": true,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": true,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "FLI",
+      "description": "Forening/lag/innretning",
+      "description_en": "association"
+    },
+    "business_address": {
+      "text": "9180 SKJERVØY, Norge",
+      "street": [],
+      "postcode": "9180",
+      "city": "SKJERVØY",
+      "municipality": "SKJERVØY",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "SKJERVØY",
+      "code": "5542"
+    },
+    "postal_address": {
+      "text": "Strandveien 40A, 9180 SKJERVØY, Norge",
+      "street": [
+        "Strandveien 40A"
+      ],
+      "postcode": "9180",
+      "city": "SKJERVØY",
+      "municipality": "SKJERVØY",
+      "country_code": "NO"
+    },
+    "industry_codes": [
+      {
+        "code": "93.120",
+        "description": "Aktiviteter i idrettslag og -klubber"
+      }
+    ],
+    "purpose": "Idrettslag.",
+    "sector": {
+      "code": "7000",
+      "description": "Ideelle organisasjoner"
+    },
+    "former_names": [
+      {
+        "name": "SKJERVØY IDRETTSKLUBB",
+        "from": "1995-03-12",
+        "to": "2009-02-16"
+      }
+    ],
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Øystein Skallebø",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-20"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Raymond Fredriksen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-20"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Renate Ingebrigtsen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-20"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Hans Kristian Mikalsen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-20"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Marit Frogum",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-20"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Bengt Inge Simonsen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-20"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Erica Kristel Alba-Hansen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-20"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Cato Johan Stangnes",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-20"
+      },
+      {
+        "role_code": "REGN",
+        "role": "Regnskapsfører",
+        "group": "Regnskapsfører",
+        "holder": {
+          "type": "organization",
+          "name": "AIDER AS",
+          "orgnr": "922633452",
+          "deleted": false
+        },
+        "group_last_changed": "2024-11-28"
+      }
+    ],
+    "board_chair": {
+      "type": "person",
+      "name": "Øystein Skallebø",
+      "deceased": false
+    },
+    "accountant": {
+      "type": "organization",
+      "name": "AIDER AS",
+      "orgnr": "922633452",
+      "deleted": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Øystein Skallebø",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Raymond Fredriksen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Renate Ingebrigtsen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Hans Kristian Mikalsen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Marit Frogum",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Bengt Inge Simonsen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Erica Kristel Alba-Hansen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Cato Johan Stangnes",
+        "deceased": false
+      }
+    ],
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "990190119",
+        "name": "SKJERVØY IDRETTSKLUBB",
+        "address": "9180 SKJERVØY, Norge",
+        "employees": null
+      }
+    ],
+    "website_verification": "orgnr_on_page",
+    "website_title": "SKJERVØY IK - Skjervøy Idrettsklubb",
+    "website_description": "SKJERVØY IK",
+    "social_profiles": {
+      "facebook": "https://www.facebook.com/groups/Skjervoyik/"
+    }
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/957801145",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/957801145"
+      },
+      "retrieved_at": "2026-09-29T10:30:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "957801145",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:30:48Z"
+    },
+    {
+      "field": "name",
+      "value": "SKJERVØY IDRETTSKLUBB",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/957801145",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/957801145"
+      },
+      "retrieved_at": "2026-09-29T10:30:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "957801145",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:30:48Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "1930-06-06",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/957801145",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/957801145"
+      },
+      "retrieved_at": "2026-09-29T10:30:49Z",
+      "as_of": "1930-06-06",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "957801145",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:30:48Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "1995-03-12",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/957801145",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/957801145"
+      },
+      "retrieved_at": "2026-09-29T10:30:49Z",
+      "as_of": "1995-03-12",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "957801145",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:30:48Z"
+    },
+    {
+      "field": "website",
+      "value": "https://skjervoyik.no",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/957801145",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/957801145"
+      },
+      "retrieved_at": "2026-09-29T10:30:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "957801145",
+        "json_path": "hjemmeside"
+      },
+      "confidence": "high",
+      "label": "Website",
+      "first_seen": "2026-09-29T10:30:48Z"
+    },
+    {
+      "field": "email",
+      "value": "roywaage@online.no",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/957801145",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/957801145"
+      },
+      "retrieved_at": "2026-09-29T10:30:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "957801145",
+        "json_path": "epostadresse"
+      },
+      "confidence": "high",
+      "label": "Email",
+      "first_seen": "2026-09-29T10:30:48Z"
+    },
+    {
+      "field": "phone",
+      "value": "77 77 71 40",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/957801145",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/957801145"
+      },
+      "retrieved_at": "2026-09-29T10:30:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "957801145",
+        "json_path": "telefon"
+      },
+      "confidence": "high",
+      "label": "Phone",
+      "first_seen": "2026-09-29T10:30:48Z"
+    },
+    {
+      "field": "mobile",
+      "value": "91758280",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/957801145",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/957801145"
+      },
+      "retrieved_at": "2026-09-29T10:30:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "957801145",
+        "json_path": "mobil"
+      },
+      "confidence": "high",
+      "label": "Mobile phone",
+      "first_seen": "2026-09-29T10:30:48Z"
+    },
+    {
+      "field": "latest_annual_accounts_year",
+      "value": "2002",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/957801145",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/957801145"
+      },
+      "retrieved_at": "2026-09-29T10:30:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "957801145",
+        "json_path": "sisteInnsendteAarsregnskap"
+      },
+      "confidence": "high",
+      "label": "Latest annual accounts submitted",
+      "first_seen": "2026-09-29T10:30:48Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/957801145",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/957801145"
+      },
+      "retrieved_at": "2026-09-29T10:30:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "957801145",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:30:48Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/957801145",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/957801145"
+      },
+      "retrieved_at": "2026-09-29T10:30:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "957801145",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:30:48Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/957801145",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/957801145"
+      },
+      "retrieved_at": "2026-09-29T10:30:49Z",
+      "as_of": "1992-09-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "957801145",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:30:48Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/957801145",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/957801145"
+      },
+      "retrieved_at": "2026-09-29T10:30:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "957801145",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:30:48Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/957801145",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/957801145"
+      },
+      "retrieved_at": "2026-09-29T10:30:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "957801145",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:30:48Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/957801145",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/957801145"
+      },
+      "retrieved_at": "2026-09-29T10:30:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "957801145",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:30:48Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/957801145",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/957801145"
+      },
+      "retrieved_at": "2026-09-29T10:30:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "957801145",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:30:48Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "FLI",
+        "description": "Forening/lag/innretning",
+        "description_en": "association"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/957801145",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/957801145"
+      },
+      "retrieved_at": "2026-09-29T10:30:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "957801145",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:30:48Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "9180 SKJERVØY, Norge",
+        "street": [],
+        "postcode": "9180",
+        "city": "SKJERVØY",
+        "municipality": "SKJERVØY",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/957801145",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/957801145"
+      },
+      "retrieved_at": "2026-09-29T10:30:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "957801145",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:30:48Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "SKJERVØY",
+        "code": "5542"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/957801145",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/957801145"
+      },
+      "retrieved_at": "2026-09-29T10:30:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "957801145",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:30:48Z"
+    },
+    {
+      "field": "postal_address",
+      "value": {
+        "text": "Strandveien 40A, 9180 SKJERVØY, Norge",
+        "street": [
+          "Strandveien 40A"
+        ],
+        "postcode": "9180",
+        "city": "SKJERVØY",
+        "municipality": "SKJERVØY",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/957801145",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/957801145"
+      },
+      "retrieved_at": "2026-09-29T10:30:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "957801145",
+        "json_path": "postadresse"
+      },
+      "confidence": "high",
+      "label": "Postal address",
+      "first_seen": "2026-09-29T10:30:48Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "93.120",
+          "description": "Aktiviteter i idrettslag og -klubber"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/957801145",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/957801145"
+      },
+      "retrieved_at": "2026-09-29T10:30:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "957801145",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:30:48Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Idrettslag.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/957801145",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/957801145"
+      },
+      "retrieved_at": "2026-09-29T10:30:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "957801145",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:30:48Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "7000",
+        "description": "Ideelle organisasjoner"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/957801145",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/957801145"
+      },
+      "retrieved_at": "2026-09-29T10:30:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "957801145",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:30:48Z"
+    },
+    {
+      "field": "former_names",
+      "value": [
+        {
+          "name": "SKJERVØY IDRETTSKLUBB",
+          "from": "1995-03-12",
+          "to": "2009-02-16"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/957801145",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/957801145"
+      },
+      "retrieved_at": "2026-09-29T10:30:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "957801145",
+        "json_path": "historiskeNavn"
+      },
+      "confidence": "high",
+      "label": "Former names",
+      "first_seen": "2026-09-29T10:30:48Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/957801145",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/957801145"
+      },
+      "retrieved_at": "2026-09-29T10:30:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "957801145",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:30:48Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/957801145",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/957801145"
+      },
+      "retrieved_at": "2026-09-29T10:30:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "957801145",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:30:48Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/957801145",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/957801145"
+      },
+      "retrieved_at": "2026-09-29T10:30:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "957801145",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:30:48Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Øystein Skallebø",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-20"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Raymond Fredriksen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-20"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Renate Ingebrigtsen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-20"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Hans Kristian Mikalsen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-20"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Marit Frogum",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-20"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Bengt Inge Simonsen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-20"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Erica Kristel Alba-Hansen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-20"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Cato Johan Stangnes",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-20"
+        },
+        {
+          "role_code": "REGN",
+          "role": "Regnskapsfører",
+          "group": "Regnskapsfører",
+          "holder": {
+            "type": "organization",
+            "name": "AIDER AS",
+            "orgnr": "922633452",
+            "deleted": false
+          },
+          "group_last_changed": "2024-11-28"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/957801145/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/957801145"
+      },
+      "retrieved_at": "2026-09-29T10:30:51Z",
+      "as_of": "2026-01-20",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "957801145",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:30:48Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Øystein Skallebø",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/957801145/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/957801145"
+      },
+      "retrieved_at": "2026-09-29T10:30:51Z",
+      "as_of": "2026-01-20",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "957801145",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:30:48Z"
+    },
+    {
+      "field": "accountant",
+      "value": {
+        "type": "organization",
+        "name": "AIDER AS",
+        "orgnr": "922633452",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/957801145/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/957801145"
+      },
+      "retrieved_at": "2026-09-29T10:30:51Z",
+      "as_of": "2024-11-28",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "957801145",
+        "json_path": "rollegrupper[type.kode=REGN]"
+      },
+      "confidence": "high",
+      "label": "Accountant",
+      "first_seen": "2026-09-29T10:30:48Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Øystein Skallebø",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Raymond Fredriksen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Renate Ingebrigtsen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Hans Kristian Mikalsen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Marit Frogum",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Bengt Inge Simonsen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Erica Kristel Alba-Hansen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Cato Johan Stangnes",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/957801145/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/957801145"
+      },
+      "retrieved_at": "2026-09-29T10:30:51Z",
+      "as_of": "2026-01-20",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "957801145",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:30:48Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=957801145&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/957801145"
+      },
+      "retrieved_at": "2026-09-29T10:30:53Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "957801145",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:30:48Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "990190119",
+          "name": "SKJERVØY IDRETTSKLUBB",
+          "address": "9180 SKJERVØY, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=957801145&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/957801145"
+      },
+      "retrieved_at": "2026-09-29T10:30:53Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "957801145",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:30:48Z"
+    },
+    {
+      "field": "website_verification",
+      "value": "orgnr_on_page",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://www.skjervoyik.no/",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:30:56Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "957801145",
+        "identity": {
+          "level": "orgnr_on_page",
+          "orgnr_found": true,
+          "name_found": true,
+          "name_tested": "SKJERVØY IDRETTSKLUBB"
+        },
+        "registered_url": "https://skjervoyik.no"
+      },
+      "confidence": "high",
+      "label": "Website identity check",
+      "first_seen": "2026-09-29T10:30:48Z"
+    },
+    {
+      "field": "website_title",
+      "value": "SKJERVØY IK - Skjervøy Idrettsklubb",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://www.skjervoyik.no/",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:30:56Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "957801145",
+        "identity": {
+          "level": "orgnr_on_page",
+          "orgnr_found": true,
+          "name_found": true,
+          "name_tested": "SKJERVØY IDRETTSKLUBB"
+        },
+        "registered_url": "https://skjervoyik.no",
+        "json_path": "html.title"
+      },
+      "confidence": "high",
+      "label": "Website title",
+      "first_seen": "2026-09-29T10:30:48Z"
+    },
+    {
+      "field": "website_description",
+      "value": "SKJERVØY IK",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://www.skjervoyik.no/",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:30:56Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "957801145",
+        "identity": {
+          "level": "orgnr_on_page",
+          "orgnr_found": true,
+          "name_found": true,
+          "name_tested": "SKJERVØY IDRETTSKLUBB"
+        },
+        "registered_url": "https://skjervoyik.no",
+        "json_path": "html.meta[description]"
+      },
+      "confidence": "high",
+      "label": "Self-description on website",
+      "first_seen": "2026-09-29T10:30:48Z"
+    },
+    {
+      "field": "social_profiles",
+      "value": {
+        "facebook": "https://www.facebook.com/groups/Skjervoyik/"
+      },
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://www.skjervoyik.no/",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:30:56Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "957801145",
+        "identity": {
+          "level": "orgnr_on_page",
+          "orgnr_found": true,
+          "name_found": true,
+          "name_tested": "SKJERVØY IDRETTSKLUBB"
+        },
+        "registered_url": "https://skjervoyik.no",
+        "json_path": "html.a[href]"
+      },
+      "confidence": "medium",
+      "label": "Social media links on website",
+      "first_seen": "2026-09-29T10:30:48Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:30:49Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/957801145"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:30:51Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/957801145/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:30:52Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/957801145"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:30:53Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=957801145&size=5"
+    },
+    {
+      "source": "Company website",
+      "checked_at": "2026-09-29T10:30:56Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://skjervoyik.no"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "SKJERVØY IDRETTSKLUBB (957 801 145), an association, is an active entity in Enhetsregisteret; founded 1930-06-06; address 9180 SKJERVØY, Norge. Main industry is 93.120 Aktiviteter i idrettslag og -klubber; 1 registered sub-unit(s). Board chair: Øystein Skallebø. Website https://skjervoyik.no is verified: the org number appears on the page.",
+    "notes": [
+      "No annual accounts: organisation form FLI is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:30:48Z",
+  "last_changed_at": "2026-09-29T10:30:48Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

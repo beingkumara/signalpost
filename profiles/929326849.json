@@ -1,0 +1,1221 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "929326849",
+  "orgnr_formatted": "929 326 849",
+  "name": "VESTRE BERGET HOLDING AS",
+  "status": "active",
+  "checked_at": "2026-09-29T10:30:43Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "VESTRE BERGET HOLDING AS",
+    "founded_date": "2022-05-09",
+    "registered_date": "2022-06-10",
+    "business_register_date": "2022-06-10",
+    "articles_date": "2022-09-22",
+    "latest_annual_accounts_year": "2025",
+    "in_corporate_group": true,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "AS",
+      "description": "Aksjeselskap",
+      "description_en": "private limited company"
+    },
+    "business_address": {
+      "text": "c/o Øyvind Berget, Bjøråsvegen 9, 3623 LAMPELAND, Norge",
+      "street": [
+        "c/o Øyvind Berget",
+        "Bjøråsvegen 9"
+      ],
+      "postcode": "3623",
+      "city": "LAMPELAND",
+      "municipality": "FLESBERG",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "FLESBERG",
+      "code": "3334"
+    },
+    "industry_codes": [
+      {
+        "code": "36.000",
+        "description": "Uttak fra kilde, rensing og distribusjon av vann"
+      }
+    ],
+    "purpose": "Eie, kjøpe og selge aksjer og andeler i andre selskap.",
+    "sector": {
+      "code": "2100",
+      "description": "Private aksjeselskaper mv."
+    },
+    "share_capital": {
+      "amount": 192000.0,
+      "currency": "NOK",
+      "type": "Aksjekapital",
+      "shares": 96000
+    },
+    "audit_opt_out": true,
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Øyvind Berget",
+          "deceased": false
+        },
+        "group_last_changed": "2022-06-10"
+      },
+      {
+        "role_code": "REGN",
+        "role": "Regnskapsfører",
+        "group": "Regnskapsfører",
+        "holder": {
+          "type": "organization",
+          "name": "ØKONOMIBISTAND REGNSKAP AS",
+          "orgnr": "929327446",
+          "deleted": false
+        },
+        "group_last_changed": "2024-10-18"
+      }
+    ],
+    "board_chair": {
+      "type": "person",
+      "name": "Øyvind Berget",
+      "deceased": false
+    },
+    "accountant": {
+      "type": "organization",
+      "name": "ØKONOMIBISTAND REGNSKAP AS",
+      "orgnr": "929327446",
+      "deleted": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Øyvind Berget",
+        "deceased": false
+      }
+    ],
+    "accounts_period": {
+      "from": "2025-01-01",
+      "to": "2025-12-31",
+      "year": "2025",
+      "currency": "NOK",
+      "type": "SELSKAP",
+      "audited": true,
+      "audit_opt_out": true
+    },
+    "revenue": {
+      "amount": 0.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "operating_expenses": {
+      "amount": 16407.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "operating_profit": {
+      "amount": -16407.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "net_financial_items": {
+      "amount": 0.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "profit_before_tax": {
+      "amount": -16407.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "net_profit": {
+      "amount": -16407.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "total_assets": {
+      "amount": 3625423.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "fixed_assets": {
+      "amount": 3613455.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "current_assets": {
+      "amount": 11968.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "equity": {
+      "amount": 3174652.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "total_debt": {
+      "amount": 450771.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "short_term_debt": {
+      "amount": 33000.0,
+      "currency": "NOK",
+      "year": "2025"
+    }
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:44Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "name",
+      "value": "VESTRE BERGET HOLDING AS",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:44Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2022-05-09",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:44Z",
+      "as_of": "2022-05-09",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2022-06-10",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:44Z",
+      "as_of": "2022-06-10",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "2022-06-10",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:44Z",
+      "as_of": "2022-06-10",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "articles_date",
+      "value": "2022-09-22",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:44Z",
+      "as_of": "2022-09-22",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "json_path": "vedtektsdato"
+      },
+      "confidence": "high",
+      "label": "Date of articles of association",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "latest_annual_accounts_year",
+      "value": "2025",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:44Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "json_path": "sisteInnsendteAarsregnskap"
+      },
+      "confidence": "high",
+      "label": "Latest annual accounts submitted",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:44Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:44Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:44Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:44Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:44Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:44Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:44Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "AS",
+        "description": "Aksjeselskap",
+        "description_en": "private limited company"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:44Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "c/o Øyvind Berget, Bjøråsvegen 9, 3623 LAMPELAND, Norge",
+        "street": [
+          "c/o Øyvind Berget",
+          "Bjøråsvegen 9"
+        ],
+        "postcode": "3623",
+        "city": "LAMPELAND",
+        "municipality": "FLESBERG",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:44Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "FLESBERG",
+        "code": "3334"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:44Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "36.000",
+          "description": "Uttak fra kilde, rensing og distribusjon av vann"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:44Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Eie, kjøpe og selge aksjer og andeler i andre selskap.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:44Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "json_path": "vedtektsfestetFormaal"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "2100",
+        "description": "Private aksjeselskaper mv."
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:44Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "share_capital",
+      "value": {
+        "amount": 192000.0,
+        "currency": "NOK",
+        "type": "Aksjekapital",
+        "shares": 96000
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:44Z",
+      "as_of": "2022-11-26",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "json_path": "kapital"
+      },
+      "confidence": "high",
+      "label": "Share capital",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "audit_opt_out",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:44Z",
+      "as_of": "2024-09-06",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "json_path": "fravalgRevisjonDato"
+      },
+      "confidence": "high",
+      "label": "Opted out of statutory audit",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:44Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:44Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:44Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Øyvind Berget",
+            "deceased": false
+          },
+          "group_last_changed": "2022-06-10"
+        },
+        {
+          "role_code": "REGN",
+          "role": "Regnskapsfører",
+          "group": "Regnskapsfører",
+          "holder": {
+            "type": "organization",
+            "name": "ØKONOMIBISTAND REGNSKAP AS",
+            "orgnr": "929327446",
+            "deleted": false
+          },
+          "group_last_changed": "2024-10-18"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929326849/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:45Z",
+      "as_of": "2024-10-18",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Øyvind Berget",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929326849/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:45Z",
+      "as_of": "2022-06-10",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "accountant",
+      "value": {
+        "type": "organization",
+        "name": "ØKONOMIBISTAND REGNSKAP AS",
+        "orgnr": "929327446",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929326849/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:45Z",
+      "as_of": "2024-10-18",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "json_path": "rollegrupper[type.kode=REGN]"
+      },
+      "confidence": "high",
+      "label": "Accountant",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Øyvind Berget",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929326849/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:45Z",
+      "as_of": "2024-10-18",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "accounts_period",
+      "value": {
+        "from": "2025-01-01",
+        "to": "2025-12-31",
+        "year": "2025",
+        "currency": "NOK",
+        "type": "SELSKAP",
+        "audited": true,
+        "audit_opt_out": true
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:46Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "journal_number": "2026387449",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "regnskapsperiode"
+      },
+      "confidence": "high",
+      "label": "Accounting period",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "revenue",
+      "value": {
+        "amount": 0.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:46Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "journal_number": "2026387449",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftsinntekter.sumDriftsinntekter"
+      },
+      "confidence": "high",
+      "label": "Operating revenue",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "operating_expenses",
+      "value": {
+        "amount": 16407.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:46Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "journal_number": "2026387449",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftskostnad.sumDriftskostnad"
+      },
+      "confidence": "high",
+      "label": "Operating expenses",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "operating_profit",
+      "value": {
+        "amount": -16407.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:46Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "journal_number": "2026387449",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftsresultat"
+      },
+      "confidence": "high",
+      "label": "Operating profit",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "net_financial_items",
+      "value": {
+        "amount": 0.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:46Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "journal_number": "2026387449",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.finansresultat.nettoFinans"
+      },
+      "confidence": "high",
+      "label": "Net financial items",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "profit_before_tax",
+      "value": {
+        "amount": -16407.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:46Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "journal_number": "2026387449",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.ordinaertResultatFoerSkattekostnad"
+      },
+      "confidence": "high",
+      "label": "Profit before tax",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "net_profit",
+      "value": {
+        "amount": -16407.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:46Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "journal_number": "2026387449",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.aarsresultat"
+      },
+      "confidence": "high",
+      "label": "Net profit (annual result)",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "total_assets",
+      "value": {
+        "amount": 3625423.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:46Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "journal_number": "2026387449",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.sumEiendeler"
+      },
+      "confidence": "high",
+      "label": "Total assets",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "fixed_assets",
+      "value": {
+        "amount": 3613455.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:46Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "journal_number": "2026387449",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.anleggsmidler.sumAnleggsmidler"
+      },
+      "confidence": "high",
+      "label": "Fixed assets",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "current_assets",
+      "value": {
+        "amount": 11968.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:46Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "journal_number": "2026387449",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.omloepsmidler.sumOmloepsmidler"
+      },
+      "confidence": "high",
+      "label": "Current assets",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "equity",
+      "value": {
+        "amount": 3174652.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:46Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "journal_number": "2026387449",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.egenkapital.sumEgenkapital"
+      },
+      "confidence": "high",
+      "label": "Equity",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "total_debt",
+      "value": {
+        "amount": 450771.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:46Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "journal_number": "2026387449",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.gjeldOversikt.sumGjeld"
+      },
+      "confidence": "high",
+      "label": "Total debt",
+      "first_seen": "2026-09-29T10:30:43Z"
+    },
+    {
+      "field": "short_term_debt",
+      "value": {
+        "amount": 33000.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/929326849",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929326849"
+      },
+      "retrieved_at": "2026-09-29T10:30:46Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "929326849",
+        "journal_number": "2026387449",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.gjeldOversikt.kortsiktigGjeld.sumKortsiktigGjeld"
+      },
+      "confidence": "high",
+      "label": "Short-term debt",
+      "first_seen": "2026-09-29T10:30:43Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:30:44Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929326849"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:30:45Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929326849/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:30:46Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/929326849"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:30:48Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=929326849&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "VESTRE BERGET HOLDING AS (929 326 849), a private limited company, is an active entity in Enhetsregisteret; founded 2022-05-09; address c/o Øyvind Berget, Bjøråsvegen 9, 3623 LAMPELAND, Norge. Main industry is 36.000 Uttak fra kilde, rensing og distribusjon av vann. Board chair: Øyvind Berget. Accounts for 2025 (period ending 2025-12-31): revenue NOK 0, operating profit NOK -16.41 k, net profit NOK -16.41 k, equity NOK 3.17 m, total assets NOK 3.63 m.",
+    "notes": []
+  },
+  "first_checked_at": "2026-09-29T10:30:43Z",
+  "last_changed_at": "2026-09-29T10:30:43Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

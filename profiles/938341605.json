@@ -1,0 +1,803 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "938341605",
+  "orgnr_formatted": "938 341 605",
+  "name": "DAHL KOMMUNIKASJON AS",
+  "status": "active",
+  "checked_at": "2026-09-29T10:31:37Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "DAHL KOMMUNIKASJON AS",
+    "founded_date": "2026-08-18",
+    "registered_date": "2026-08-25",
+    "business_register_date": "2026-08-25",
+    "articles_date": "2026-08-18",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "AS",
+      "description": "Aksjeselskap",
+      "description_en": "private limited company"
+    },
+    "business_address": {
+      "text": "Buavegen 16, 7670 INDERØY, Norge",
+      "street": [
+        "Buavegen 16"
+      ],
+      "postcode": "7670",
+      "city": "INDERØY",
+      "municipality": "INDERØY",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "INDERØY",
+      "code": "5053"
+    },
+    "industry_codes": [
+      {
+        "code": "70.200",
+        "description": "Bedriftsrådgivning og annen administrativ rådgivning"
+      }
+    ],
+    "purpose": "Rådgivning innen kommunikasjon, samfunnskontakt, strategi, prosjektledelse, innholdsproduksjon, kurs, foredrag, møte- og konferanseutvikling samt annen tilknyttet konsulentvirksomhet.",
+    "sector": {
+      "code": "2100",
+      "description": "Private aksjeselskaper mv."
+    },
+    "share_capital": {
+      "amount": 30000.0,
+      "currency": "NOK",
+      "type": "Aksjekapital",
+      "shares": 30000
+    },
+    "audit_opt_out": true,
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Erik Dahl",
+          "deceased": false
+        },
+        "group_last_changed": "2026-08-25"
+      },
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Erik Dahl",
+          "deceased": false
+        },
+        "group_last_changed": "2026-08-25"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Erik Dahl",
+      "deceased": false
+    },
+    "board_chair": {
+      "type": "person",
+      "name": "Erik Dahl",
+      "deceased": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Erik Dahl",
+        "deceased": false
+      }
+    ],
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "938374937",
+        "name": "DAHL KOMMUNIKASJON AS",
+        "address": "Buavegen 16, 7670 INDERØY, Norge",
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938341605",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938341605"
+      },
+      "retrieved_at": "2026-09-29T10:31:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938341605",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:31:37Z"
+    },
+    {
+      "field": "name",
+      "value": "DAHL KOMMUNIKASJON AS",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938341605",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938341605"
+      },
+      "retrieved_at": "2026-09-29T10:31:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938341605",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:31:37Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2026-08-18",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938341605",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938341605"
+      },
+      "retrieved_at": "2026-09-29T10:31:38Z",
+      "as_of": "2026-08-18",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "938341605",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:31:37Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2026-08-25",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938341605",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938341605"
+      },
+      "retrieved_at": "2026-09-29T10:31:38Z",
+      "as_of": "2026-08-25",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "938341605",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:31:37Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "2026-08-25",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938341605",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938341605"
+      },
+      "retrieved_at": "2026-09-29T10:31:38Z",
+      "as_of": "2026-08-25",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "938341605",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:31:37Z"
+    },
+    {
+      "field": "articles_date",
+      "value": "2026-08-18",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938341605",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938341605"
+      },
+      "retrieved_at": "2026-09-29T10:31:38Z",
+      "as_of": "2026-08-18",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "938341605",
+        "json_path": "vedtektsdato"
+      },
+      "confidence": "high",
+      "label": "Date of articles of association",
+      "first_seen": "2026-09-29T10:31:37Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938341605",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938341605"
+      },
+      "retrieved_at": "2026-09-29T10:31:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938341605",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:31:37Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938341605",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938341605"
+      },
+      "retrieved_at": "2026-09-29T10:31:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938341605",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:31:37Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938341605",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938341605"
+      },
+      "retrieved_at": "2026-09-29T10:31:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938341605",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:31:37Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938341605",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938341605"
+      },
+      "retrieved_at": "2026-09-29T10:31:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938341605",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:31:37Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938341605",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938341605"
+      },
+      "retrieved_at": "2026-09-29T10:31:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938341605",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:31:37Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938341605",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938341605"
+      },
+      "retrieved_at": "2026-09-29T10:31:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938341605",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:31:37Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938341605",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938341605"
+      },
+      "retrieved_at": "2026-09-29T10:31:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938341605",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:31:37Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "AS",
+        "description": "Aksjeselskap",
+        "description_en": "private limited company"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938341605",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938341605"
+      },
+      "retrieved_at": "2026-09-29T10:31:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938341605",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:31:37Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Buavegen 16, 7670 INDERØY, Norge",
+        "street": [
+          "Buavegen 16"
+        ],
+        "postcode": "7670",
+        "city": "INDERØY",
+        "municipality": "INDERØY",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938341605",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938341605"
+      },
+      "retrieved_at": "2026-09-29T10:31:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938341605",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:31:37Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "INDERØY",
+        "code": "5053"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938341605",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938341605"
+      },
+      "retrieved_at": "2026-09-29T10:31:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938341605",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:31:37Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "70.200",
+          "description": "Bedriftsrådgivning og annen administrativ rådgivning"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938341605",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938341605"
+      },
+      "retrieved_at": "2026-09-29T10:31:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938341605",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:31:37Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Rådgivning innen kommunikasjon, samfunnskontakt, strategi, prosjektledelse, innholdsproduksjon, kurs, foredrag, møte- og konferanseutvikling samt annen tilknyttet konsulentvirksomhet.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938341605",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938341605"
+      },
+      "retrieved_at": "2026-09-29T10:31:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938341605",
+        "json_path": "vedtektsfestetFormaal"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:31:37Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "2100",
+        "description": "Private aksjeselskaper mv."
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938341605",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938341605"
+      },
+      "retrieved_at": "2026-09-29T10:31:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938341605",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:31:37Z"
+    },
+    {
+      "field": "share_capital",
+      "value": {
+        "amount": 30000.0,
+        "currency": "NOK",
+        "type": "Aksjekapital",
+        "shares": 30000
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938341605",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938341605"
+      },
+      "retrieved_at": "2026-09-29T10:31:38Z",
+      "as_of": "2026-08-25",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "938341605",
+        "json_path": "kapital"
+      },
+      "confidence": "high",
+      "label": "Share capital",
+      "first_seen": "2026-09-29T10:31:37Z"
+    },
+    {
+      "field": "audit_opt_out",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938341605",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938341605"
+      },
+      "retrieved_at": "2026-09-29T10:31:38Z",
+      "as_of": "2026-08-25",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "938341605",
+        "json_path": "fravalgRevisjonDato"
+      },
+      "confidence": "high",
+      "label": "Opted out of statutory audit",
+      "first_seen": "2026-09-29T10:31:37Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938341605",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938341605"
+      },
+      "retrieved_at": "2026-09-29T10:31:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938341605",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:31:37Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938341605",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938341605"
+      },
+      "retrieved_at": "2026-09-29T10:31:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938341605",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:31:37Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938341605",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938341605"
+      },
+      "retrieved_at": "2026-09-29T10:31:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938341605",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:31:37Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Erik Dahl",
+            "deceased": false
+          },
+          "group_last_changed": "2026-08-25"
+        },
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Erik Dahl",
+            "deceased": false
+          },
+          "group_last_changed": "2026-08-25"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938341605/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938341605"
+      },
+      "retrieved_at": "2026-09-29T10:31:39Z",
+      "as_of": "2026-08-25",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "938341605",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:31:37Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Erik Dahl",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938341605/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938341605"
+      },
+      "retrieved_at": "2026-09-29T10:31:39Z",
+      "as_of": "2026-08-25",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "938341605",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:31:37Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Erik Dahl",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938341605/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938341605"
+      },
+      "retrieved_at": "2026-09-29T10:31:39Z",
+      "as_of": "2026-08-25",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "938341605",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:31:37Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Erik Dahl",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938341605/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938341605"
+      },
+      "retrieved_at": "2026-09-29T10:31:39Z",
+      "as_of": "2026-08-25",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "938341605",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:31:37Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=938341605&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938341605"
+      },
+      "retrieved_at": "2026-09-29T10:31:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938341605",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:31:37Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "938374937",
+          "name": "DAHL KOMMUNIKASJON AS",
+          "address": "Buavegen 16, 7670 INDERØY, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=938341605&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938341605"
+      },
+      "retrieved_at": "2026-09-29T10:31:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938341605",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:31:37Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:31:38Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938341605"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:31:39Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938341605/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:31:41Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/938341605"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:31:42Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=938341605&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "DAHL KOMMUNIKASJON AS (938 341 605), a private limited company, is an active entity in Enhetsregisteret; founded 2026-08-18; address Buavegen 16, 7670 INDERØY, Norge. Main industry is 70.200 Bedriftsrådgivning og annen administrativ rådgivning; 1 registered sub-unit(s). Daily manager: Erik Dahl; Board chair: Erik Dahl.",
+    "notes": [
+      "No annual accounts were found in Regnskapsregisteret (new company, late filing, or not obliged to file). No financial figures are shown."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:31:37Z",
+  "last_changed_at": "2026-09-29T10:31:37Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

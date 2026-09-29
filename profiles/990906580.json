@@ -1,0 +1,787 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "990906580",
+  "orgnr_formatted": "990 906 580",
+  "name": "FRISKVERN ANNE BERIT ALSBERG",
+  "status": "active",
+  "checked_at": "2026-09-29T10:32:32Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "FRISKVERN ANNE BERIT ALSBERG",
+    "registered_date": "2007-02-17",
+    "email": "ab-alsberg@online.no",
+    "mobile": "908 74 465",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": true,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "ENK",
+      "description": "Enkeltpersonforetak",
+      "description_en": "sole proprietorship"
+    },
+    "business_address": {
+      "text": "c/o Freskus Treningssenter, Tromsnesvegen 34, 2634 FÅVANG, Norge",
+      "street": [
+        "c/o Freskus Treningssenter",
+        "Tromsnesvegen 34"
+      ],
+      "postcode": "2634",
+      "city": "FÅVANG",
+      "municipality": "RINGEBU",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "RINGEBU",
+      "code": "3439"
+    },
+    "postal_address": {
+      "text": "Hundervegen 10Q, 2636 ØYER, Norge",
+      "street": [
+        "Hundervegen 10Q"
+      ],
+      "postcode": "2636",
+      "city": "ØYER",
+      "municipality": "ØYER",
+      "country_code": "NO"
+    },
+    "industry_codes": [
+      {
+        "code": "85.597",
+        "description": "Annen undervisning ellers"
+      }
+    ],
+    "purpose": "Vitamin-, mineral- og kostholdsveiledning. Forebyggende helse og stresshåndtering.",
+    "sector": {
+      "code": "8200",
+      "description": "Personlig næringsdrivende"
+    },
+    "former_names": [
+      {
+        "name": "ANNE BERIT A MELKILD",
+        "from": "2007-02-17",
+        "to": "2008-02-21"
+      },
+      {
+        "name": "13 FRISKVERN Anne Berit A Melkild",
+        "from": "2008-02-21",
+        "to": "2023-10-25"
+      }
+    ],
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "INNH",
+        "role": "Innehaver",
+        "group": "Innehaver",
+        "holder": {
+          "type": "person",
+          "name": "Anne Berit Alsberg",
+          "deceased": false
+        },
+        "group_last_changed": "2007-02-17"
+      },
+      {
+        "role_code": "REGN",
+        "role": "Regnskapsfører",
+        "group": "Regnskapsfører",
+        "holder": {
+          "type": "organization",
+          "name": "REGNSKAP INNLANDET SA",
+          "orgnr": "967282774",
+          "deleted": false
+        },
+        "group_last_changed": "2018-05-28"
+      }
+    ],
+    "accountant": {
+      "type": "organization",
+      "name": "REGNSKAP INNLANDET SA",
+      "orgnr": "967282774",
+      "deleted": false
+    },
+    "owner": {
+      "type": "person",
+      "name": "Anne Berit Alsberg",
+      "deceased": false
+    },
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "999488943",
+        "name": "FRISKVERN ANNE BERIT ALSBERG",
+        "address": "c/o Freskus Treningssenter, Tromsnesvegen 34, 2634 FÅVANG, Norge",
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990906580",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990906580"
+      },
+      "retrieved_at": "2026-09-29T10:32:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990906580",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:32:32Z"
+    },
+    {
+      "field": "name",
+      "value": "FRISKVERN ANNE BERIT ALSBERG",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990906580",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990906580"
+      },
+      "retrieved_at": "2026-09-29T10:32:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990906580",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:32:32Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2007-02-17",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990906580",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990906580"
+      },
+      "retrieved_at": "2026-09-29T10:32:33Z",
+      "as_of": "2007-02-17",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "990906580",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:32:32Z"
+    },
+    {
+      "field": "email",
+      "value": "ab-alsberg@online.no",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990906580",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990906580"
+      },
+      "retrieved_at": "2026-09-29T10:32:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990906580",
+        "json_path": "epostadresse"
+      },
+      "confidence": "high",
+      "label": "Email",
+      "first_seen": "2026-09-29T10:32:32Z"
+    },
+    {
+      "field": "mobile",
+      "value": "908 74 465",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990906580",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990906580"
+      },
+      "retrieved_at": "2026-09-29T10:32:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990906580",
+        "json_path": "mobil"
+      },
+      "confidence": "high",
+      "label": "Mobile phone",
+      "first_seen": "2026-09-29T10:32:32Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990906580",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990906580"
+      },
+      "retrieved_at": "2026-09-29T10:32:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990906580",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:32:32Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990906580",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990906580"
+      },
+      "retrieved_at": "2026-09-29T10:32:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990906580",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:32:32Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990906580",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990906580"
+      },
+      "retrieved_at": "2026-09-29T10:32:33Z",
+      "as_of": "2021-03-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "990906580",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:32:32Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990906580",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990906580"
+      },
+      "retrieved_at": "2026-09-29T10:32:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990906580",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:32:32Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990906580",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990906580"
+      },
+      "retrieved_at": "2026-09-29T10:32:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990906580",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:32:32Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990906580",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990906580"
+      },
+      "retrieved_at": "2026-09-29T10:32:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990906580",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:32:32Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990906580",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990906580"
+      },
+      "retrieved_at": "2026-09-29T10:32:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990906580",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:32:32Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "ENK",
+        "description": "Enkeltpersonforetak",
+        "description_en": "sole proprietorship"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990906580",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990906580"
+      },
+      "retrieved_at": "2026-09-29T10:32:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990906580",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:32:32Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "c/o Freskus Treningssenter, Tromsnesvegen 34, 2634 FÅVANG, Norge",
+        "street": [
+          "c/o Freskus Treningssenter",
+          "Tromsnesvegen 34"
+        ],
+        "postcode": "2634",
+        "city": "FÅVANG",
+        "municipality": "RINGEBU",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990906580",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990906580"
+      },
+      "retrieved_at": "2026-09-29T10:32:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990906580",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:32:32Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "RINGEBU",
+        "code": "3439"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990906580",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990906580"
+      },
+      "retrieved_at": "2026-09-29T10:32:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990906580",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:32:32Z"
+    },
+    {
+      "field": "postal_address",
+      "value": {
+        "text": "Hundervegen 10Q, 2636 ØYER, Norge",
+        "street": [
+          "Hundervegen 10Q"
+        ],
+        "postcode": "2636",
+        "city": "ØYER",
+        "municipality": "ØYER",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990906580",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990906580"
+      },
+      "retrieved_at": "2026-09-29T10:32:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990906580",
+        "json_path": "postadresse"
+      },
+      "confidence": "high",
+      "label": "Postal address",
+      "first_seen": "2026-09-29T10:32:32Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "85.597",
+          "description": "Annen undervisning ellers"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990906580",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990906580"
+      },
+      "retrieved_at": "2026-09-29T10:32:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990906580",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:32:32Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Vitamin-, mineral- og kostholdsveiledning. Forebyggende helse og stresshåndtering.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990906580",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990906580"
+      },
+      "retrieved_at": "2026-09-29T10:32:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990906580",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:32:32Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "8200",
+        "description": "Personlig næringsdrivende"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990906580",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990906580"
+      },
+      "retrieved_at": "2026-09-29T10:32:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990906580",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:32:32Z"
+    },
+    {
+      "field": "former_names",
+      "value": [
+        {
+          "name": "ANNE BERIT A MELKILD",
+          "from": "2007-02-17",
+          "to": "2008-02-21"
+        },
+        {
+          "name": "13 FRISKVERN Anne Berit A Melkild",
+          "from": "2008-02-21",
+          "to": "2023-10-25"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990906580",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990906580"
+      },
+      "retrieved_at": "2026-09-29T10:32:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990906580",
+        "json_path": "historiskeNavn"
+      },
+      "confidence": "high",
+      "label": "Former names",
+      "first_seen": "2026-09-29T10:32:32Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990906580",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990906580"
+      },
+      "retrieved_at": "2026-09-29T10:32:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990906580",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:32:32Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990906580",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990906580"
+      },
+      "retrieved_at": "2026-09-29T10:32:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990906580",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:32:32Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990906580",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990906580"
+      },
+      "retrieved_at": "2026-09-29T10:32:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990906580",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:32:32Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "INNH",
+          "role": "Innehaver",
+          "group": "Innehaver",
+          "holder": {
+            "type": "person",
+            "name": "Anne Berit Alsberg",
+            "deceased": false
+          },
+          "group_last_changed": "2007-02-17"
+        },
+        {
+          "role_code": "REGN",
+          "role": "Regnskapsfører",
+          "group": "Regnskapsfører",
+          "holder": {
+            "type": "organization",
+            "name": "REGNSKAP INNLANDET SA",
+            "orgnr": "967282774",
+            "deleted": false
+          },
+          "group_last_changed": "2018-05-28"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990906580/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990906580"
+      },
+      "retrieved_at": "2026-09-29T10:32:35Z",
+      "as_of": "2018-05-28",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "990906580",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:32:32Z"
+    },
+    {
+      "field": "accountant",
+      "value": {
+        "type": "organization",
+        "name": "REGNSKAP INNLANDET SA",
+        "orgnr": "967282774",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990906580/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990906580"
+      },
+      "retrieved_at": "2026-09-29T10:32:35Z",
+      "as_of": "2018-05-28",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "990906580",
+        "json_path": "rollegrupper[type.kode=REGN]"
+      },
+      "confidence": "high",
+      "label": "Accountant",
+      "first_seen": "2026-09-29T10:32:32Z"
+    },
+    {
+      "field": "owner",
+      "value": {
+        "type": "person",
+        "name": "Anne Berit Alsberg",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990906580/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990906580"
+      },
+      "retrieved_at": "2026-09-29T10:32:35Z",
+      "as_of": "2007-02-17",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "990906580",
+        "json_path": "rollegrupper[type.kode=INNH]"
+      },
+      "confidence": "high",
+      "label": "Proprietor",
+      "first_seen": "2026-09-29T10:32:32Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=990906580&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990906580"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990906580",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:32:32Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "999488943",
+          "name": "FRISKVERN ANNE BERIT ALSBERG",
+          "address": "c/o Freskus Treningssenter, Tromsnesvegen 34, 2634 FÅVANG, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=990906580&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990906580"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990906580",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:32:32Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:32:33Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990906580"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:32:35Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990906580/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:32:36Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/990906580"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:32:37Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=990906580&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "FRISKVERN ANNE BERIT ALSBERG (990 906 580), a sole proprietorship, is an active entity in Enhetsregisteret; address c/o Freskus Treningssenter, Tromsnesvegen 34, 2634 FÅVANG, Norge. Main industry is 85.597 Annen undervisning ellers; 1 registered sub-unit(s). Proprietor: Anne Berit Alsberg.",
+    "notes": [
+      "No annual accounts: organisation form ENK is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:32:32Z",
+  "last_changed_at": "2026-09-29T10:32:32Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

@@ -1,0 +1,891 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "937219148",
+  "orgnr_formatted": "937 219 148",
+  "name": "SØRNES HOLDING AS",
+  "status": "active",
+  "checked_at": "2026-09-29T10:31:20Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "SØRNES HOLDING AS",
+    "founded_date": "2026-01-12",
+    "registered_date": "2026-02-21",
+    "business_register_date": "2026-02-21",
+    "articles_date": "2026-01-12",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "AS",
+      "description": "Aksjeselskap",
+      "description_en": "private limited company"
+    },
+    "business_address": {
+      "text": "J E Abrahamsens veg 34, 9990 BÅTSFJORD, Norge",
+      "street": [
+        "J E Abrahamsens veg 34"
+      ],
+      "postcode": "9990",
+      "city": "BÅTSFJORD",
+      "municipality": "BÅTSFJORD",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "BÅTSFJORD",
+      "code": "5632"
+    },
+    "industry_codes": [
+      {
+        "code": "00.000",
+        "description": "Uoppgitt"
+      }
+    ],
+    "purpose": "Investering i aksjer og andeler i andre selskaper. I tillegg kan selskapet direkte investere og eie eiendom samt drive eiendomsdrift.",
+    "sector": {
+      "code": "2100",
+      "description": "Private aksjeselskaper mv."
+    },
+    "share_capital": {
+      "amount": 60000.0,
+      "currency": "NOK",
+      "type": "Aksjekapital",
+      "shares": 60000
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Torfinn Sørnes",
+          "deceased": false
+        },
+        "group_last_changed": "2026-02-21"
+      },
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Torfinn Sørnes",
+          "deceased": false
+        },
+        "group_last_changed": "2026-02-21"
+      },
+      {
+        "role_code": "REVI",
+        "role": "Revisor",
+        "group": "Revisor",
+        "holder": {
+          "type": "organization",
+          "name": "LOFOTREVISJON AS",
+          "orgnr": "951725005",
+          "deleted": false
+        },
+        "group_last_changed": "2026-02-21"
+      },
+      {
+        "role_code": "REGN",
+        "role": "Regnskapsfører",
+        "group": "Regnskapsfører",
+        "holder": {
+          "type": "organization",
+          "name": "EKSTERN REGNSKAP AS",
+          "orgnr": "966313404",
+          "deleted": false
+        },
+        "group_last_changed": "2026-02-21"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Torfinn Sørnes",
+      "deceased": false
+    },
+    "board_chair": {
+      "type": "person",
+      "name": "Torfinn Sørnes",
+      "deceased": false
+    },
+    "auditor": {
+      "type": "organization",
+      "name": "LOFOTREVISJON AS",
+      "orgnr": "951725005",
+      "deleted": false
+    },
+    "accountant": {
+      "type": "organization",
+      "name": "EKSTERN REGNSKAP AS",
+      "orgnr": "966313404",
+      "deleted": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Torfinn Sørnes",
+        "deceased": false
+      }
+    ],
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "937222041",
+        "name": "SØRNES HOLDING AS",
+        "address": "J E Abrahamsens veg 34, 9990 BÅTSFJORD, Norge",
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937219148",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937219148"
+      },
+      "retrieved_at": "2026-09-29T10:31:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937219148",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:31:20Z"
+    },
+    {
+      "field": "name",
+      "value": "SØRNES HOLDING AS",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937219148",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937219148"
+      },
+      "retrieved_at": "2026-09-29T10:31:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937219148",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:31:20Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2026-01-12",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937219148",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937219148"
+      },
+      "retrieved_at": "2026-09-29T10:31:21Z",
+      "as_of": "2026-01-12",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "937219148",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:31:20Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2026-02-21",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937219148",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937219148"
+      },
+      "retrieved_at": "2026-09-29T10:31:21Z",
+      "as_of": "2026-02-21",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "937219148",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:31:20Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "2026-02-21",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937219148",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937219148"
+      },
+      "retrieved_at": "2026-09-29T10:31:21Z",
+      "as_of": "2026-02-21",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "937219148",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:31:20Z"
+    },
+    {
+      "field": "articles_date",
+      "value": "2026-01-12",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937219148",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937219148"
+      },
+      "retrieved_at": "2026-09-29T10:31:21Z",
+      "as_of": "2026-01-12",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "937219148",
+        "json_path": "vedtektsdato"
+      },
+      "confidence": "high",
+      "label": "Date of articles of association",
+      "first_seen": "2026-09-29T10:31:20Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937219148",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937219148"
+      },
+      "retrieved_at": "2026-09-29T10:31:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937219148",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:31:20Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937219148",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937219148"
+      },
+      "retrieved_at": "2026-09-29T10:31:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937219148",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:31:20Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937219148",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937219148"
+      },
+      "retrieved_at": "2026-09-29T10:31:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937219148",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:31:20Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937219148",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937219148"
+      },
+      "retrieved_at": "2026-09-29T10:31:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937219148",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:31:20Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937219148",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937219148"
+      },
+      "retrieved_at": "2026-09-29T10:31:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937219148",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:31:20Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937219148",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937219148"
+      },
+      "retrieved_at": "2026-09-29T10:31:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937219148",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:31:20Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937219148",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937219148"
+      },
+      "retrieved_at": "2026-09-29T10:31:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937219148",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:31:20Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "AS",
+        "description": "Aksjeselskap",
+        "description_en": "private limited company"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937219148",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937219148"
+      },
+      "retrieved_at": "2026-09-29T10:31:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937219148",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:31:20Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "J E Abrahamsens veg 34, 9990 BÅTSFJORD, Norge",
+        "street": [
+          "J E Abrahamsens veg 34"
+        ],
+        "postcode": "9990",
+        "city": "BÅTSFJORD",
+        "municipality": "BÅTSFJORD",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937219148",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937219148"
+      },
+      "retrieved_at": "2026-09-29T10:31:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937219148",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:31:20Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "BÅTSFJORD",
+        "code": "5632"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937219148",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937219148"
+      },
+      "retrieved_at": "2026-09-29T10:31:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937219148",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:31:20Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "00.000",
+          "description": "Uoppgitt"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937219148",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937219148"
+      },
+      "retrieved_at": "2026-09-29T10:31:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937219148",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:31:20Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Investering i aksjer og andeler i andre selskaper. I tillegg kan selskapet direkte investere og eie eiendom samt drive eiendomsdrift.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937219148",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937219148"
+      },
+      "retrieved_at": "2026-09-29T10:31:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937219148",
+        "json_path": "vedtektsfestetFormaal"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:31:20Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "2100",
+        "description": "Private aksjeselskaper mv."
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937219148",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937219148"
+      },
+      "retrieved_at": "2026-09-29T10:31:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937219148",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:31:20Z"
+    },
+    {
+      "field": "share_capital",
+      "value": {
+        "amount": 60000.0,
+        "currency": "NOK",
+        "type": "Aksjekapital",
+        "shares": 60000
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937219148",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937219148"
+      },
+      "retrieved_at": "2026-09-29T10:31:21Z",
+      "as_of": "2026-02-21",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "937219148",
+        "json_path": "kapital"
+      },
+      "confidence": "high",
+      "label": "Share capital",
+      "first_seen": "2026-09-29T10:31:20Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937219148",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937219148"
+      },
+      "retrieved_at": "2026-09-29T10:31:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937219148",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:31:20Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937219148",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937219148"
+      },
+      "retrieved_at": "2026-09-29T10:31:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937219148",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:31:20Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937219148",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937219148"
+      },
+      "retrieved_at": "2026-09-29T10:31:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937219148",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:31:20Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Torfinn Sørnes",
+            "deceased": false
+          },
+          "group_last_changed": "2026-02-21"
+        },
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Torfinn Sørnes",
+            "deceased": false
+          },
+          "group_last_changed": "2026-02-21"
+        },
+        {
+          "role_code": "REVI",
+          "role": "Revisor",
+          "group": "Revisor",
+          "holder": {
+            "type": "organization",
+            "name": "LOFOTREVISJON AS",
+            "orgnr": "951725005",
+            "deleted": false
+          },
+          "group_last_changed": "2026-02-21"
+        },
+        {
+          "role_code": "REGN",
+          "role": "Regnskapsfører",
+          "group": "Regnskapsfører",
+          "holder": {
+            "type": "organization",
+            "name": "EKSTERN REGNSKAP AS",
+            "orgnr": "966313404",
+            "deleted": false
+          },
+          "group_last_changed": "2026-02-21"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937219148/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937219148"
+      },
+      "retrieved_at": "2026-09-29T10:31:23Z",
+      "as_of": "2026-02-21",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "937219148",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:31:20Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Torfinn Sørnes",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937219148/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937219148"
+      },
+      "retrieved_at": "2026-09-29T10:31:23Z",
+      "as_of": "2026-02-21",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "937219148",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:31:20Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Torfinn Sørnes",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937219148/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937219148"
+      },
+      "retrieved_at": "2026-09-29T10:31:23Z",
+      "as_of": "2026-02-21",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "937219148",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:31:20Z"
+    },
+    {
+      "field": "auditor",
+      "value": {
+        "type": "organization",
+        "name": "LOFOTREVISJON AS",
+        "orgnr": "951725005",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937219148/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937219148"
+      },
+      "retrieved_at": "2026-09-29T10:31:23Z",
+      "as_of": "2026-02-21",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "937219148",
+        "json_path": "rollegrupper[type.kode=REVI]"
+      },
+      "confidence": "high",
+      "label": "Auditor",
+      "first_seen": "2026-09-29T10:31:20Z"
+    },
+    {
+      "field": "accountant",
+      "value": {
+        "type": "organization",
+        "name": "EKSTERN REGNSKAP AS",
+        "orgnr": "966313404",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937219148/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937219148"
+      },
+      "retrieved_at": "2026-09-29T10:31:23Z",
+      "as_of": "2026-02-21",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "937219148",
+        "json_path": "rollegrupper[type.kode=REGN]"
+      },
+      "confidence": "high",
+      "label": "Accountant",
+      "first_seen": "2026-09-29T10:31:20Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Torfinn Sørnes",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937219148/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937219148"
+      },
+      "retrieved_at": "2026-09-29T10:31:23Z",
+      "as_of": "2026-02-21",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "937219148",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:31:20Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=937219148&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937219148"
+      },
+      "retrieved_at": "2026-09-29T10:31:25Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937219148",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:31:20Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "937222041",
+          "name": "SØRNES HOLDING AS",
+          "address": "J E Abrahamsens veg 34, 9990 BÅTSFJORD, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=937219148&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937219148"
+      },
+      "retrieved_at": "2026-09-29T10:31:25Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937219148",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:31:20Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:31:21Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937219148"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:31:23Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937219148/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:31:24Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/937219148"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:31:25Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=937219148&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "SØRNES HOLDING AS (937 219 148), a private limited company, is an active entity in Enhetsregisteret; founded 2026-01-12; address J E Abrahamsens veg 34, 9990 BÅTSFJORD, Norge. Main industry is 00.000 Uoppgitt; 1 registered sub-unit(s). Daily manager: Torfinn Sørnes; Board chair: Torfinn Sørnes; Auditor: LOFOTREVISJON AS.",
+    "notes": [
+      "No annual accounts were found in Regnskapsregisteret (new company, late filing, or not obliged to file). No financial figures are shown."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:31:20Z",
+  "last_changed_at": "2026-09-29T10:31:20Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

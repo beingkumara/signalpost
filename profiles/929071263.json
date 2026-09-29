@@ -1,0 +1,563 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "929071263",
+  "orgnr_formatted": "929 071 263",
+  "name": "BØRGE VANG MADSEN",
+  "status": "active",
+  "checked_at": "2026-09-29T10:31:38Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "BØRGE VANG MADSEN",
+    "registered_date": "2022-04-19",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "ENK",
+      "description": "Enkeltpersonforetak",
+      "description_en": "sole proprietorship"
+    },
+    "business_address": {
+      "text": "Nedre Vangsgrendvegen 11, 7670 INDERØY, Norge",
+      "street": [
+        "Nedre Vangsgrendvegen 11"
+      ],
+      "postcode": "7670",
+      "city": "INDERØY",
+      "municipality": "INDERØY",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "INDERØY",
+      "code": "5053"
+    },
+    "industry_codes": [
+      {
+        "code": "01.610",
+        "description": "Tjenester tilknyttet planteproduksjon"
+      },
+      {
+        "code": "68.200",
+        "description": "Utleie av egen eller leid fast eiendom"
+      }
+    ],
+    "purpose": "Bortforpaktning av jordbruksareal og tjenester tilknyttet jordbruk.",
+    "sector": {
+      "code": "8200",
+      "description": "Personlig næringsdrivende"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "INNH",
+        "role": "Innehaver",
+        "group": "Innehaver",
+        "holder": {
+          "type": "person",
+          "name": "Børge Vang Madsen",
+          "deceased": false
+        },
+        "group_last_changed": "2022-04-19"
+      }
+    ],
+    "owner": {
+      "type": "person",
+      "name": "Børge Vang Madsen",
+      "deceased": false
+    }
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929071263",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929071263"
+      },
+      "retrieved_at": "2026-09-29T10:31:39Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "929071263",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:31:38Z"
+    },
+    {
+      "field": "name",
+      "value": "BØRGE VANG MADSEN",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929071263",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929071263"
+      },
+      "retrieved_at": "2026-09-29T10:31:39Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "929071263",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:31:38Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2022-04-19",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929071263",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929071263"
+      },
+      "retrieved_at": "2026-09-29T10:31:39Z",
+      "as_of": "2022-04-19",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "929071263",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:31:38Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929071263",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929071263"
+      },
+      "retrieved_at": "2026-09-29T10:31:39Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "929071263",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:31:38Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929071263",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929071263"
+      },
+      "retrieved_at": "2026-09-29T10:31:39Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "929071263",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:31:38Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929071263",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929071263"
+      },
+      "retrieved_at": "2026-09-29T10:31:39Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "929071263",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:31:38Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929071263",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929071263"
+      },
+      "retrieved_at": "2026-09-29T10:31:39Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "929071263",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:31:38Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929071263",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929071263"
+      },
+      "retrieved_at": "2026-09-29T10:31:39Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "929071263",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:31:38Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929071263",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929071263"
+      },
+      "retrieved_at": "2026-09-29T10:31:39Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "929071263",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:31:38Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929071263",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929071263"
+      },
+      "retrieved_at": "2026-09-29T10:31:39Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "929071263",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:31:38Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "ENK",
+        "description": "Enkeltpersonforetak",
+        "description_en": "sole proprietorship"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929071263",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929071263"
+      },
+      "retrieved_at": "2026-09-29T10:31:39Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "929071263",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:31:38Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Nedre Vangsgrendvegen 11, 7670 INDERØY, Norge",
+        "street": [
+          "Nedre Vangsgrendvegen 11"
+        ],
+        "postcode": "7670",
+        "city": "INDERØY",
+        "municipality": "INDERØY",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929071263",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929071263"
+      },
+      "retrieved_at": "2026-09-29T10:31:39Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "929071263",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:31:38Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "INDERØY",
+        "code": "5053"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929071263",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929071263"
+      },
+      "retrieved_at": "2026-09-29T10:31:39Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "929071263",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:31:38Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "01.610",
+          "description": "Tjenester tilknyttet planteproduksjon"
+        },
+        {
+          "code": "68.200",
+          "description": "Utleie av egen eller leid fast eiendom"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929071263",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929071263"
+      },
+      "retrieved_at": "2026-09-29T10:31:39Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "929071263",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:31:38Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Bortforpaktning av jordbruksareal og tjenester tilknyttet jordbruk.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929071263",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929071263"
+      },
+      "retrieved_at": "2026-09-29T10:31:39Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "929071263",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:31:38Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "8200",
+        "description": "Personlig næringsdrivende"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929071263",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929071263"
+      },
+      "retrieved_at": "2026-09-29T10:31:39Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "929071263",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:31:38Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929071263",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929071263"
+      },
+      "retrieved_at": "2026-09-29T10:31:39Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "929071263",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:31:38Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929071263",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929071263"
+      },
+      "retrieved_at": "2026-09-29T10:31:39Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "929071263",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:31:38Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929071263",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929071263"
+      },
+      "retrieved_at": "2026-09-29T10:31:39Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "929071263",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:31:38Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "INNH",
+          "role": "Innehaver",
+          "group": "Innehaver",
+          "holder": {
+            "type": "person",
+            "name": "Børge Vang Madsen",
+            "deceased": false
+          },
+          "group_last_changed": "2022-04-19"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929071263/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929071263"
+      },
+      "retrieved_at": "2026-09-29T10:31:41Z",
+      "as_of": "2022-04-19",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "929071263",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:31:38Z"
+    },
+    {
+      "field": "owner",
+      "value": {
+        "type": "person",
+        "name": "Børge Vang Madsen",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929071263/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/929071263"
+      },
+      "retrieved_at": "2026-09-29T10:31:41Z",
+      "as_of": "2022-04-19",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "929071263",
+        "json_path": "rollegrupper[type.kode=INNH]"
+      },
+      "confidence": "high",
+      "label": "Proprietor",
+      "first_seen": "2026-09-29T10:31:38Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:31:39Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929071263"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:31:41Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929071263/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:31:45Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/929071263"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:31:47Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=929071263&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "BØRGE VANG MADSEN (929 071 263), a sole proprietorship, is an active entity in Enhetsregisteret; address Nedre Vangsgrendvegen 11, 7670 INDERØY, Norge. Main industry is 01.610 Tjenester tilknyttet planteproduksjon. Proprietor: Børge Vang Madsen.",
+    "notes": [
+      "No annual accounts: organisation form ENK is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:31:38Z",
+  "last_changed_at": "2026-09-29T10:31:38Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

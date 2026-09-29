@@ -1,0 +1,791 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "933955656",
+  "orgnr_formatted": "933 955 656",
+  "name": "DAMAASEN JAKTLAG",
+  "status": "active",
+  "checked_at": "2026-09-29T10:32:49Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "DAMAASEN JAKTLAG",
+    "founded_date": "2025-08-28",
+    "registered_date": "2025-10-13",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "FLI",
+      "description": "Forening/lag/innretning",
+      "description_en": "association"
+    },
+    "business_address": {
+      "text": "Bjørkavegen 20, 7596 FLAKNAN, Norge",
+      "street": [
+        "Bjørkavegen 20"
+      ],
+      "postcode": "7596",
+      "city": "FLAKNAN",
+      "municipality": "SELBU",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "SELBU",
+      "code": "5032"
+    },
+    "industry_codes": [
+      {
+        "code": "01.700",
+        "description": "Jakt, fangst, viltstell og tilknyttede tjenester"
+      }
+    ],
+    "purpose": "Drift av et jaktlag i Selbu.",
+    "sector": {
+      "code": "7000",
+      "description": "Ideelle organisasjoner"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Per Sølverud",
+          "deceased": false
+        },
+        "group_last_changed": "2025-10-13"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Magnus Langseth",
+          "deceased": false
+        },
+        "group_last_changed": "2025-10-13"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Frode Nesvold",
+          "deceased": false
+        },
+        "group_last_changed": "2025-10-13"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Geir Ove Rønsberg",
+          "deceased": false
+        },
+        "group_last_changed": "2025-10-13"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Johnny Johnsen",
+          "deceased": false
+        },
+        "group_last_changed": "2025-10-13"
+      }
+    ],
+    "board_chair": {
+      "type": "person",
+      "name": "Per Sølverud",
+      "deceased": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Per Sølverud",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Magnus Langseth",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Frode Nesvold",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Geir Ove Rønsberg",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Johnny Johnsen",
+        "deceased": false
+      }
+    ],
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "936370616",
+        "name": "DAMAASEN JAKTLAG",
+        "address": "Bjørkavegen 20, 7596 FLAKNAN, Norge",
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/933955656",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/933955656"
+      },
+      "retrieved_at": "2026-09-29T10:32:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "933955656",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:32:49Z"
+    },
+    {
+      "field": "name",
+      "value": "DAMAASEN JAKTLAG",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/933955656",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/933955656"
+      },
+      "retrieved_at": "2026-09-29T10:32:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "933955656",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:32:49Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2025-08-28",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/933955656",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/933955656"
+      },
+      "retrieved_at": "2026-09-29T10:32:50Z",
+      "as_of": "2025-08-28",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "933955656",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:32:49Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2025-10-13",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/933955656",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/933955656"
+      },
+      "retrieved_at": "2026-09-29T10:32:50Z",
+      "as_of": "2025-10-13",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "933955656",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:32:49Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/933955656",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/933955656"
+      },
+      "retrieved_at": "2026-09-29T10:32:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "933955656",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:32:49Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/933955656",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/933955656"
+      },
+      "retrieved_at": "2026-09-29T10:32:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "933955656",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:32:49Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/933955656",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/933955656"
+      },
+      "retrieved_at": "2026-09-29T10:32:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "933955656",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:32:49Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/933955656",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/933955656"
+      },
+      "retrieved_at": "2026-09-29T10:32:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "933955656",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:32:49Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/933955656",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/933955656"
+      },
+      "retrieved_at": "2026-09-29T10:32:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "933955656",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:32:49Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/933955656",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/933955656"
+      },
+      "retrieved_at": "2026-09-29T10:32:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "933955656",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:32:49Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/933955656",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/933955656"
+      },
+      "retrieved_at": "2026-09-29T10:32:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "933955656",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:32:49Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "FLI",
+        "description": "Forening/lag/innretning",
+        "description_en": "association"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/933955656",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/933955656"
+      },
+      "retrieved_at": "2026-09-29T10:32:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "933955656",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:32:49Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Bjørkavegen 20, 7596 FLAKNAN, Norge",
+        "street": [
+          "Bjørkavegen 20"
+        ],
+        "postcode": "7596",
+        "city": "FLAKNAN",
+        "municipality": "SELBU",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/933955656",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/933955656"
+      },
+      "retrieved_at": "2026-09-29T10:32:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "933955656",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:32:49Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "SELBU",
+        "code": "5032"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/933955656",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/933955656"
+      },
+      "retrieved_at": "2026-09-29T10:32:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "933955656",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:32:49Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "01.700",
+          "description": "Jakt, fangst, viltstell og tilknyttede tjenester"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/933955656",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/933955656"
+      },
+      "retrieved_at": "2026-09-29T10:32:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "933955656",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:32:49Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Drift av et jaktlag i Selbu.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/933955656",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/933955656"
+      },
+      "retrieved_at": "2026-09-29T10:32:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "933955656",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:32:49Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "7000",
+        "description": "Ideelle organisasjoner"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/933955656",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/933955656"
+      },
+      "retrieved_at": "2026-09-29T10:32:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "933955656",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:32:49Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/933955656",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/933955656"
+      },
+      "retrieved_at": "2026-09-29T10:32:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "933955656",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:32:49Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/933955656",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/933955656"
+      },
+      "retrieved_at": "2026-09-29T10:32:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "933955656",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:32:49Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/933955656",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/933955656"
+      },
+      "retrieved_at": "2026-09-29T10:32:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "933955656",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:32:49Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Per Sølverud",
+            "deceased": false
+          },
+          "group_last_changed": "2025-10-13"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Magnus Langseth",
+            "deceased": false
+          },
+          "group_last_changed": "2025-10-13"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Frode Nesvold",
+            "deceased": false
+          },
+          "group_last_changed": "2025-10-13"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Geir Ove Rønsberg",
+            "deceased": false
+          },
+          "group_last_changed": "2025-10-13"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Johnny Johnsen",
+            "deceased": false
+          },
+          "group_last_changed": "2025-10-13"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/933955656/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/933955656"
+      },
+      "retrieved_at": "2026-09-29T10:32:51Z",
+      "as_of": "2025-10-13",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "933955656",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:32:49Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Per Sølverud",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/933955656/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/933955656"
+      },
+      "retrieved_at": "2026-09-29T10:32:51Z",
+      "as_of": "2025-10-13",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "933955656",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:32:49Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Per Sølverud",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Magnus Langseth",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Frode Nesvold",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Geir Ove Rønsberg",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Johnny Johnsen",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/933955656/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/933955656"
+      },
+      "retrieved_at": "2026-09-29T10:32:51Z",
+      "as_of": "2025-10-13",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "933955656",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:32:49Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=933955656&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/933955656"
+      },
+      "retrieved_at": "2026-09-29T10:32:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "933955656",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:32:49Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "936370616",
+          "name": "DAMAASEN JAKTLAG",
+          "address": "Bjørkavegen 20, 7596 FLAKNAN, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=933955656&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/933955656"
+      },
+      "retrieved_at": "2026-09-29T10:32:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "933955656",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:32:49Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:32:50Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/933955656"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:32:51Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/933955656/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:32:52Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/933955656"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:32:54Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=933955656&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "DAMAASEN JAKTLAG (933 955 656), an association, is an active entity in Enhetsregisteret; founded 2025-08-28; address Bjørkavegen 20, 7596 FLAKNAN, Norge. Main industry is 01.700 Jakt, fangst, viltstell og tilknyttede tjenester; 1 registered sub-unit(s). Board chair: Per Sølverud.",
+    "notes": [
+      "No annual accounts: organisation form FLI is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:32:49Z",
+  "last_changed_at": "2026-09-29T10:32:49Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

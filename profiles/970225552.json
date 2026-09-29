@@ -1,0 +1,787 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "970225552",
+  "orgnr_formatted": "970 225 552",
+  "name": "ASLAK ØYNA",
+  "status": "active",
+  "checked_at": "2026-09-29T10:33:57Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "ASLAK ØYNA",
+    "registered_date": "1995-02-20",
+    "business_register_date": "1995-07-06",
+    "phone": "38 15 34 93",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": true,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "ENK",
+      "description": "Enkeltpersonforetak",
+      "description_en": "sole proprietorship"
+    },
+    "business_address": {
+      "text": "Øynaveien 60, 4724 IVELAND, Norge",
+      "street": [
+        "Øynaveien 60"
+      ],
+      "postcode": "4724",
+      "city": "IVELAND",
+      "municipality": "IVELAND",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "IVELAND",
+      "code": "4218"
+    },
+    "industry_codes": [
+      {
+        "code": "43.120",
+        "description": "Grunnarbeid"
+      }
+    ],
+    "purpose": "Avvirkning i egen skog og utleie av jord nær gården.",
+    "sector": {
+      "code": "8200",
+      "description": "Personlig næringsdrivende"
+    },
+    "former_names": [
+      {
+        "name": "ØYNA ASLAK",
+        "from": "1995-02-20",
+        "to": "1995-07-10"
+      }
+    ],
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "INNH",
+        "role": "Innehaver",
+        "group": "Innehaver",
+        "holder": {
+          "type": "person",
+          "name": "Aslak Øyna",
+          "deceased": false
+        },
+        "group_last_changed": "1995-07-06"
+      },
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Aslak Øyna",
+          "deceased": false
+        },
+        "group_last_changed": "1995-07-06"
+      },
+      {
+        "role_code": "REGN",
+        "role": "Regnskapsfører",
+        "group": "Regnskapsfører",
+        "holder": {
+          "type": "organization",
+          "name": "VALUE GROUP AS",
+          "orgnr": "915156975",
+          "deleted": false
+        },
+        "group_last_changed": "2025-06-03"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Aslak Øyna",
+      "deceased": false
+    },
+    "accountant": {
+      "type": "organization",
+      "name": "VALUE GROUP AS",
+      "orgnr": "915156975",
+      "deleted": false
+    },
+    "owner": {
+      "type": "person",
+      "name": "Aslak Øyna",
+      "deceased": false
+    },
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "999383211",
+        "name": "ASLAK ØYNA",
+        "address": "Øynaveien 60, 4724 IVELAND, Norge",
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/970225552",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/970225552"
+      },
+      "retrieved_at": "2026-09-29T10:33:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "970225552",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:33:57Z"
+    },
+    {
+      "field": "name",
+      "value": "ASLAK ØYNA",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/970225552",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/970225552"
+      },
+      "retrieved_at": "2026-09-29T10:33:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "970225552",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:33:57Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "1995-02-20",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/970225552",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/970225552"
+      },
+      "retrieved_at": "2026-09-29T10:33:59Z",
+      "as_of": "1995-02-20",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "970225552",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:33:57Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "1995-07-06",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/970225552",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/970225552"
+      },
+      "retrieved_at": "2026-09-29T10:33:59Z",
+      "as_of": "1995-07-06",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "970225552",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:33:57Z"
+    },
+    {
+      "field": "phone",
+      "value": "38 15 34 93",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/970225552",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/970225552"
+      },
+      "retrieved_at": "2026-09-29T10:33:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "970225552",
+        "json_path": "telefon"
+      },
+      "confidence": "high",
+      "label": "Phone",
+      "first_seen": "2026-09-29T10:33:57Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/970225552",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/970225552"
+      },
+      "retrieved_at": "2026-09-29T10:33:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "970225552",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:33:57Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/970225552",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/970225552"
+      },
+      "retrieved_at": "2026-09-29T10:33:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "970225552",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:33:57Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/970225552",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/970225552"
+      },
+      "retrieved_at": "2026-09-29T10:33:59Z",
+      "as_of": "1976-09-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "970225552",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:33:57Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/970225552",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/970225552"
+      },
+      "retrieved_at": "2026-09-29T10:33:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "970225552",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:33:57Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/970225552",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/970225552"
+      },
+      "retrieved_at": "2026-09-29T10:33:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "970225552",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:33:57Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/970225552",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/970225552"
+      },
+      "retrieved_at": "2026-09-29T10:33:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "970225552",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:33:57Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/970225552",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/970225552"
+      },
+      "retrieved_at": "2026-09-29T10:33:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "970225552",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:33:57Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "ENK",
+        "description": "Enkeltpersonforetak",
+        "description_en": "sole proprietorship"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/970225552",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/970225552"
+      },
+      "retrieved_at": "2026-09-29T10:33:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "970225552",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:33:57Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Øynaveien 60, 4724 IVELAND, Norge",
+        "street": [
+          "Øynaveien 60"
+        ],
+        "postcode": "4724",
+        "city": "IVELAND",
+        "municipality": "IVELAND",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/970225552",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/970225552"
+      },
+      "retrieved_at": "2026-09-29T10:33:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "970225552",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:33:57Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "IVELAND",
+        "code": "4218"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/970225552",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/970225552"
+      },
+      "retrieved_at": "2026-09-29T10:33:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "970225552",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:33:57Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "43.120",
+          "description": "Grunnarbeid"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/970225552",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/970225552"
+      },
+      "retrieved_at": "2026-09-29T10:33:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "970225552",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:33:57Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Avvirkning i egen skog og utleie av jord nær gården.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/970225552",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/970225552"
+      },
+      "retrieved_at": "2026-09-29T10:33:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "970225552",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:33:57Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "8200",
+        "description": "Personlig næringsdrivende"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/970225552",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/970225552"
+      },
+      "retrieved_at": "2026-09-29T10:33:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "970225552",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:33:57Z"
+    },
+    {
+      "field": "former_names",
+      "value": [
+        {
+          "name": "ØYNA ASLAK",
+          "from": "1995-02-20",
+          "to": "1995-07-10"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/970225552",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/970225552"
+      },
+      "retrieved_at": "2026-09-29T10:33:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "970225552",
+        "json_path": "historiskeNavn"
+      },
+      "confidence": "high",
+      "label": "Former names",
+      "first_seen": "2026-09-29T10:33:57Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/970225552",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/970225552"
+      },
+      "retrieved_at": "2026-09-29T10:33:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "970225552",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:33:57Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/970225552",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/970225552"
+      },
+      "retrieved_at": "2026-09-29T10:33:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "970225552",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:33:57Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/970225552",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/970225552"
+      },
+      "retrieved_at": "2026-09-29T10:33:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "970225552",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:33:57Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "INNH",
+          "role": "Innehaver",
+          "group": "Innehaver",
+          "holder": {
+            "type": "person",
+            "name": "Aslak Øyna",
+            "deceased": false
+          },
+          "group_last_changed": "1995-07-06"
+        },
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Aslak Øyna",
+            "deceased": false
+          },
+          "group_last_changed": "1995-07-06"
+        },
+        {
+          "role_code": "REGN",
+          "role": "Regnskapsfører",
+          "group": "Regnskapsfører",
+          "holder": {
+            "type": "organization",
+            "name": "VALUE GROUP AS",
+            "orgnr": "915156975",
+            "deleted": false
+          },
+          "group_last_changed": "2025-06-03"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/970225552/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/970225552"
+      },
+      "retrieved_at": "2026-09-29T10:34:00Z",
+      "as_of": "2025-06-03",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "970225552",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:33:57Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Aslak Øyna",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/970225552/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/970225552"
+      },
+      "retrieved_at": "2026-09-29T10:34:00Z",
+      "as_of": "1995-07-06",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "970225552",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:33:57Z"
+    },
+    {
+      "field": "accountant",
+      "value": {
+        "type": "organization",
+        "name": "VALUE GROUP AS",
+        "orgnr": "915156975",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/970225552/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/970225552"
+      },
+      "retrieved_at": "2026-09-29T10:34:00Z",
+      "as_of": "2025-06-03",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "970225552",
+        "json_path": "rollegrupper[type.kode=REGN]"
+      },
+      "confidence": "high",
+      "label": "Accountant",
+      "first_seen": "2026-09-29T10:33:57Z"
+    },
+    {
+      "field": "owner",
+      "value": {
+        "type": "person",
+        "name": "Aslak Øyna",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/970225552/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/970225552"
+      },
+      "retrieved_at": "2026-09-29T10:34:00Z",
+      "as_of": "1995-07-06",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "970225552",
+        "json_path": "rollegrupper[type.kode=INNH]"
+      },
+      "confidence": "high",
+      "label": "Proprietor",
+      "first_seen": "2026-09-29T10:33:57Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=970225552&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/970225552"
+      },
+      "retrieved_at": "2026-09-29T10:34:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "970225552",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:33:57Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "999383211",
+          "name": "ASLAK ØYNA",
+          "address": "Øynaveien 60, 4724 IVELAND, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=970225552&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/970225552"
+      },
+      "retrieved_at": "2026-09-29T10:34:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "970225552",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:33:57Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:33:59Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/970225552"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:34:00Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/970225552/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:34:01Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/970225552"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:34:02Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=970225552&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "ASLAK ØYNA (970 225 552), a sole proprietorship, is an active entity in Enhetsregisteret; address Øynaveien 60, 4724 IVELAND, Norge. Main industry is 43.120 Grunnarbeid; 1 registered sub-unit(s). Daily manager: Aslak Øyna; Proprietor: Aslak Øyna.",
+    "notes": [
+      "No annual accounts: organisation form ENK is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:33:57Z",
+  "last_changed_at": "2026-09-29T10:33:57Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

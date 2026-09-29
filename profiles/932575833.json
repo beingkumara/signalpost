@@ -1,0 +1,728 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "932575833",
+  "orgnr_formatted": "932 575 833",
+  "name": "FLÅTTANBARNA 4H",
+  "status": "active",
+  "checked_at": "2026-09-29T10:26:59Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "FLÅTTANBARNA 4H",
+    "founded_date": "2023-11-05",
+    "registered_date": "2024-01-25",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": true,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "FLI",
+      "description": "Forening/lag/innretning",
+      "description_en": "association"
+    },
+    "business_address": {
+      "text": "Jelstad 9, 8140 INNDYR, Norge",
+      "street": [
+        "Jelstad 9"
+      ],
+      "postcode": "8140",
+      "city": "INNDYR",
+      "municipality": "GILDESKÅL",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "GILDESKÅL",
+      "code": "1838"
+    },
+    "industry_codes": [
+      {
+        "code": "94.992",
+        "description": "Aktiviteter i andre medlemsorganisasjoner ellers"
+      }
+    ],
+    "purpose": "Å utvikle en aktiv og samfunnsengasjert ungdom med ansvarsfølelse og respekt for natur og mennesker, og 4Hs målsetting uttrykkes gjennom 4H-løftet. Grunnlaget for organisasjonens arbeid finnes i naturbruksnæringene og lokalmiljøet. 4H bygger på en ide om å lære om samspill i naturen.",
+    "sector": {
+      "code": "7000",
+      "description": "Ideelle organisasjoner"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Herborg Elisabeth Jelstad",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-19"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Ingjerd Margrethe Jelstad",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-19"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Enya Aurora Hansen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-19"
+      }
+    ],
+    "board_chair": {
+      "type": "person",
+      "name": "Herborg Elisabeth Jelstad",
+      "deceased": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Herborg Elisabeth Jelstad",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Ingjerd Margrethe Jelstad",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Enya Aurora Hansen",
+        "deceased": false
+      }
+    ],
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "932898942",
+        "name": "FLÅTTANBARNA 4H",
+        "address": "Jelstad 9, 8140 INNDYR, Norge",
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932575833",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932575833"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932575833",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:25:35Z"
+    },
+    {
+      "field": "name",
+      "value": "FLÅTTANBARNA 4H",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932575833",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932575833"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932575833",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:25:35Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2023-11-05",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932575833",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932575833"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2023-11-05",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "932575833",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:25:35Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2024-01-25",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932575833",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932575833"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2024-01-25",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "932575833",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:25:35Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932575833",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932575833"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932575833",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:25:35Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932575833",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932575833"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932575833",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:25:35Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932575833",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932575833"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932575833",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:25:35Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932575833",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932575833"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932575833",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:25:35Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932575833",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932575833"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932575833",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:25:35Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932575833",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932575833"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932575833",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:25:35Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932575833",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932575833"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932575833",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:25:35Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "FLI",
+        "description": "Forening/lag/innretning",
+        "description_en": "association"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932575833",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932575833"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932575833",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:25:35Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Jelstad 9, 8140 INNDYR, Norge",
+        "street": [
+          "Jelstad 9"
+        ],
+        "postcode": "8140",
+        "city": "INNDYR",
+        "municipality": "GILDESKÅL",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932575833",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932575833"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932575833",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:25:35Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "GILDESKÅL",
+        "code": "1838"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932575833",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932575833"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932575833",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:25:35Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "94.992",
+          "description": "Aktiviteter i andre medlemsorganisasjoner ellers"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932575833",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932575833"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932575833",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:25:35Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Å utvikle en aktiv og samfunnsengasjert ungdom med ansvarsfølelse og respekt for natur og mennesker, og 4Hs målsetting uttrykkes gjennom 4H-løftet. Grunnlaget for organisasjonens arbeid finnes i naturbruksnæringene og lokalmiljøet. 4H bygger på en ide om å lære om samspill i naturen.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932575833",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932575833"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932575833",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:25:35Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "7000",
+        "description": "Ideelle organisasjoner"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932575833",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932575833"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932575833",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:25:35Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932575833",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932575833"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932575833",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:25:35Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932575833",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932575833"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932575833",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:25:35Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932575833",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932575833"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932575833",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:25:35Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Herborg Elisabeth Jelstad",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-19"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Ingjerd Margrethe Jelstad",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-19"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Enya Aurora Hansen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-19"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932575833/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932575833"
+      },
+      "retrieved_at": "2026-09-29T10:27:01Z",
+      "as_of": "2026-01-19",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "932575833",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:25:35Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Herborg Elisabeth Jelstad",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932575833/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932575833"
+      },
+      "retrieved_at": "2026-09-29T10:27:01Z",
+      "as_of": "2026-01-19",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "932575833",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:25:35Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Herborg Elisabeth Jelstad",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Ingjerd Margrethe Jelstad",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Enya Aurora Hansen",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932575833/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932575833"
+      },
+      "retrieved_at": "2026-09-29T10:27:01Z",
+      "as_of": "2026-01-19",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "932575833",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:25:35Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=932575833&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932575833"
+      },
+      "retrieved_at": "2026-09-29T10:27:04Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932575833",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:25:35Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "932898942",
+          "name": "FLÅTTANBARNA 4H",
+          "address": "Jelstad 9, 8140 INNDYR, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=932575833&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932575833"
+      },
+      "retrieved_at": "2026-09-29T10:27:04Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932575833",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:25:35Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:27:00Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932575833"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:27:01Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932575833/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:27:02Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/932575833"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:27:04Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=932575833&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "FLÅTTANBARNA 4H (932 575 833), an association, is an active entity in Enhetsregisteret; founded 2023-11-05; address Jelstad 9, 8140 INNDYR, Norge. Main industry is 94.992 Aktiviteter i andre medlemsorganisasjoner ellers; 1 registered sub-unit(s). Board chair: Herborg Elisabeth Jelstad.",
+    "notes": [
+      "No annual accounts: organisation form FLI is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:25:35Z",
+  "previous_checked_at": "2026-09-29T10:25:35Z",
+  "last_changed_at": "2026-09-29T10:25:35Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

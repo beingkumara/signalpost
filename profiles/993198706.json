@@ -1,0 +1,858 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "993198706",
+  "orgnr_formatted": "993 198 706",
+  "name": "SORTLAND JAZZ OG VISEKLUBB",
+  "status": "active",
+  "checked_at": "2026-09-29T10:31:27Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "SORTLAND JAZZ OG VISEKLUBB",
+    "founded_date": "1962-09-21",
+    "registered_date": "2008-10-13",
+    "website": "https://www.sortlandjazz.no",
+    "email": "sortlandjazz@gmail.com",
+    "phone": "76 12 62 04",
+    "mobile": "415 18 521",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": true,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "FLI",
+      "description": "Forening/lag/innretning",
+      "description_en": "association"
+    },
+    "business_address": {
+      "text": "Finnbogveien 26, 8407 SORTLAND, Norge",
+      "street": [
+        "Finnbogveien 26"
+      ],
+      "postcode": "8407",
+      "city": "SORTLAND",
+      "municipality": "SORTLAND",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "SORTLAND",
+      "code": "1870"
+    },
+    "industry_codes": [
+      {
+        "code": "79.121",
+        "description": "Aktiviteter utført av utflukts- og eventarrangører"
+      }
+    ],
+    "purpose": "Arrangere konserter og festival Sortland jazzweekend, hovedsaklig med jazzmusikk.",
+    "sector": {
+      "code": "7000",
+      "description": "Ideelle organisasjoner"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Marius Aleksander Johansen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-05-03"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Julia Mårstad Kramer",
+          "deceased": false
+        },
+        "group_last_changed": "2026-05-03"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Tina Cecilie Grongstad Dishington",
+          "deceased": false
+        },
+        "group_last_changed": "2026-05-03"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Therese Irene Bancel Vik",
+          "deceased": false
+        },
+        "group_last_changed": "2026-05-03"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Ove Aalo",
+          "deceased": false
+        },
+        "group_last_changed": "2026-05-03"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Thea Moe Bjøranger",
+          "deceased": false
+        },
+        "group_last_changed": "2026-05-03"
+      }
+    ],
+    "board_chair": {
+      "type": "person",
+      "name": "Marius Aleksander Johansen",
+      "deceased": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Marius Aleksander Johansen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Julia Mårstad Kramer",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Tina Cecilie Grongstad Dishington",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Therese Irene Bancel Vik",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Ove Aalo",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Thea Moe Bjøranger",
+        "deceased": false
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993198706",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993198706"
+      },
+      "retrieved_at": "2026-09-29T10:31:28Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993198706",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:31:27Z"
+    },
+    {
+      "field": "name",
+      "value": "SORTLAND JAZZ OG VISEKLUBB",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993198706",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993198706"
+      },
+      "retrieved_at": "2026-09-29T10:31:28Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993198706",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:31:27Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "1962-09-21",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993198706",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993198706"
+      },
+      "retrieved_at": "2026-09-29T10:31:28Z",
+      "as_of": "1962-09-21",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "993198706",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:31:27Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2008-10-13",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993198706",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993198706"
+      },
+      "retrieved_at": "2026-09-29T10:31:28Z",
+      "as_of": "2008-10-13",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "993198706",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:31:27Z"
+    },
+    {
+      "field": "website",
+      "value": "https://www.sortlandjazz.no",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993198706",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993198706"
+      },
+      "retrieved_at": "2026-09-29T10:31:28Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993198706",
+        "json_path": "hjemmeside"
+      },
+      "confidence": "high",
+      "label": "Website",
+      "first_seen": "2026-09-29T10:31:27Z"
+    },
+    {
+      "field": "email",
+      "value": "sortlandjazz@gmail.com",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993198706",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993198706"
+      },
+      "retrieved_at": "2026-09-29T10:31:28Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993198706",
+        "json_path": "epostadresse"
+      },
+      "confidence": "high",
+      "label": "Email",
+      "first_seen": "2026-09-29T10:31:27Z"
+    },
+    {
+      "field": "phone",
+      "value": "76 12 62 04",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993198706",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993198706"
+      },
+      "retrieved_at": "2026-09-29T10:31:28Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993198706",
+        "json_path": "telefon"
+      },
+      "confidence": "high",
+      "label": "Phone",
+      "first_seen": "2026-09-29T10:31:27Z"
+    },
+    {
+      "field": "mobile",
+      "value": "415 18 521",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993198706",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993198706"
+      },
+      "retrieved_at": "2026-09-29T10:31:28Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993198706",
+        "json_path": "mobil"
+      },
+      "confidence": "high",
+      "label": "Mobile phone",
+      "first_seen": "2026-09-29T10:31:27Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993198706",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993198706"
+      },
+      "retrieved_at": "2026-09-29T10:31:28Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993198706",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:31:27Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993198706",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993198706"
+      },
+      "retrieved_at": "2026-09-29T10:31:28Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993198706",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:31:27Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993198706",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993198706"
+      },
+      "retrieved_at": "2026-09-29T10:31:28Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993198706",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:31:27Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993198706",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993198706"
+      },
+      "retrieved_at": "2026-09-29T10:31:28Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993198706",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:31:27Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993198706",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993198706"
+      },
+      "retrieved_at": "2026-09-29T10:31:28Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993198706",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:31:27Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993198706",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993198706"
+      },
+      "retrieved_at": "2026-09-29T10:31:28Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993198706",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:31:27Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993198706",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993198706"
+      },
+      "retrieved_at": "2026-09-29T10:31:28Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993198706",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:31:27Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "FLI",
+        "description": "Forening/lag/innretning",
+        "description_en": "association"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993198706",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993198706"
+      },
+      "retrieved_at": "2026-09-29T10:31:28Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993198706",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:31:27Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Finnbogveien 26, 8407 SORTLAND, Norge",
+        "street": [
+          "Finnbogveien 26"
+        ],
+        "postcode": "8407",
+        "city": "SORTLAND",
+        "municipality": "SORTLAND",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993198706",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993198706"
+      },
+      "retrieved_at": "2026-09-29T10:31:28Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993198706",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:31:27Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "SORTLAND",
+        "code": "1870"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993198706",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993198706"
+      },
+      "retrieved_at": "2026-09-29T10:31:28Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993198706",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:31:27Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "79.121",
+          "description": "Aktiviteter utført av utflukts- og eventarrangører"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993198706",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993198706"
+      },
+      "retrieved_at": "2026-09-29T10:31:28Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993198706",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:31:27Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Arrangere konserter og festival Sortland jazzweekend, hovedsaklig med jazzmusikk.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993198706",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993198706"
+      },
+      "retrieved_at": "2026-09-29T10:31:28Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993198706",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:31:27Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "7000",
+        "description": "Ideelle organisasjoner"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993198706",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993198706"
+      },
+      "retrieved_at": "2026-09-29T10:31:28Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993198706",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:31:27Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993198706",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993198706"
+      },
+      "retrieved_at": "2026-09-29T10:31:28Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993198706",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:31:27Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993198706",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993198706"
+      },
+      "retrieved_at": "2026-09-29T10:31:28Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993198706",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:31:27Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993198706",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993198706"
+      },
+      "retrieved_at": "2026-09-29T10:31:28Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993198706",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:31:27Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Marius Aleksander Johansen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-05-03"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Julia Mårstad Kramer",
+            "deceased": false
+          },
+          "group_last_changed": "2026-05-03"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Tina Cecilie Grongstad Dishington",
+            "deceased": false
+          },
+          "group_last_changed": "2026-05-03"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Therese Irene Bancel Vik",
+            "deceased": false
+          },
+          "group_last_changed": "2026-05-03"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Ove Aalo",
+            "deceased": false
+          },
+          "group_last_changed": "2026-05-03"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Thea Moe Bjøranger",
+            "deceased": false
+          },
+          "group_last_changed": "2026-05-03"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993198706/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993198706"
+      },
+      "retrieved_at": "2026-09-29T10:31:29Z",
+      "as_of": "2026-05-03",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "993198706",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:31:27Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Marius Aleksander Johansen",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993198706/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993198706"
+      },
+      "retrieved_at": "2026-09-29T10:31:29Z",
+      "as_of": "2026-05-03",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "993198706",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:31:27Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Marius Aleksander Johansen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Julia Mårstad Kramer",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Tina Cecilie Grongstad Dishington",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Therese Irene Bancel Vik",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Ove Aalo",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Thea Moe Bjøranger",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993198706/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993198706"
+      },
+      "retrieved_at": "2026-09-29T10:31:29Z",
+      "as_of": "2026-05-03",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "993198706",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:31:27Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:31:28Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993198706"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:31:29Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993198706/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:31:30Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/993198706"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:31:31Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=993198706&size=5"
+    },
+    {
+      "source": "Company website",
+      "checked_at": "2026-09-29T10:31:31Z",
+      "http_status": 0,
+      "found_data": true,
+      "url": "https://www.sortlandjazz.no",
+      "error": "GET https://www.sortlandjazz.no failed after 1 attempts: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    }
+  ],
+  "warnings": [
+    "Company website unavailable: GET https://www.sortlandjazz.no failed after 1 attempts: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  ],
+  "explanation": {
+    "summary": "SORTLAND JAZZ OG VISEKLUBB (993 198 706), an association, is an active entity in Enhetsregisteret; founded 1962-09-21; address Finnbogveien 26, 8407 SORTLAND, Norge. Main industry is 79.121 Aktiviteter utført av utflukts- og eventarrangører. Board chair: Marius Aleksander Johansen. Registered website: https://www.sortlandjazz.no.",
+    "notes": [
+      "No annual accounts: organisation form FLI is generally not required to file with Regnskapsregisteret.",
+      "Company website unavailable: GET https://www.sortlandjazz.no failed after 1 attempts: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:31:27Z",
+  "last_changed_at": "2026-09-29T10:31:27Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

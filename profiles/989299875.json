@@ -1,0 +1,685 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "989299875",
+  "orgnr_formatted": "989 299 875",
+  "name": "TROND VEVIK",
+  "status": "active",
+  "checked_at": "2026-09-29T10:31:21Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "TROND VEVIK",
+    "registered_date": "2006-01-18",
+    "mobile": "95742762",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": true,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "ENK",
+      "description": "Enkeltpersonforetak",
+      "description_en": "sole proprietorship"
+    },
+    "business_address": {
+      "text": "Makkaurvegen 2B, 9990 BÅTSFJORD, Norge",
+      "street": [
+        "Makkaurvegen 2B"
+      ],
+      "postcode": "9990",
+      "city": "BÅTSFJORD",
+      "municipality": "BÅTSFJORD",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "BÅTSFJORD",
+      "code": "5632"
+    },
+    "industry_codes": [
+      {
+        "code": "03.110",
+        "description": "Fiske og fangst i sjø"
+      }
+    ],
+    "purpose": "Kystfiske.",
+    "sector": {
+      "code": "8200",
+      "description": "Personlig næringsdrivende"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "INNH",
+        "role": "Innehaver",
+        "group": "Innehaver",
+        "holder": {
+          "type": "person",
+          "name": "Trond Wilhelm Vevik",
+          "deceased": false
+        },
+        "group_last_changed": "2006-01-18"
+      },
+      {
+        "role_code": "REGN",
+        "role": "Regnskapsfører",
+        "group": "Regnskapsfører",
+        "holder": {
+          "type": "organization",
+          "name": "EKSTERN REGNSKAP AS",
+          "orgnr": "966313404",
+          "deleted": false
+        },
+        "group_last_changed": "2026-01-19"
+      }
+    ],
+    "accountant": {
+      "type": "organization",
+      "name": "EKSTERN REGNSKAP AS",
+      "orgnr": "966313404",
+      "deleted": false
+    },
+    "owner": {
+      "type": "person",
+      "name": "Trond Wilhelm Vevik",
+      "deceased": false
+    },
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "989351230",
+        "name": "TROND VEVIK",
+        "address": "Makkaurvegen 2B, 9990 BÅTSFJORD, Norge",
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/989299875",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/989299875"
+      },
+      "retrieved_at": "2026-09-29T10:31:22Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "989299875",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:31:21Z"
+    },
+    {
+      "field": "name",
+      "value": "TROND VEVIK",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/989299875",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/989299875"
+      },
+      "retrieved_at": "2026-09-29T10:31:22Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "989299875",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:31:21Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2006-01-18",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/989299875",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/989299875"
+      },
+      "retrieved_at": "2026-09-29T10:31:22Z",
+      "as_of": "2006-01-18",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "989299875",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:31:21Z"
+    },
+    {
+      "field": "mobile",
+      "value": "95742762",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/989299875",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/989299875"
+      },
+      "retrieved_at": "2026-09-29T10:31:22Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "989299875",
+        "json_path": "mobil"
+      },
+      "confidence": "high",
+      "label": "Mobile phone",
+      "first_seen": "2026-09-29T10:31:21Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/989299875",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/989299875"
+      },
+      "retrieved_at": "2026-09-29T10:31:22Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "989299875",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:31:21Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/989299875",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/989299875"
+      },
+      "retrieved_at": "2026-09-29T10:31:22Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "989299875",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:31:21Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/989299875",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/989299875"
+      },
+      "retrieved_at": "2026-09-29T10:31:22Z",
+      "as_of": "2005-01-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "989299875",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:31:21Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/989299875",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/989299875"
+      },
+      "retrieved_at": "2026-09-29T10:31:22Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "989299875",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:31:21Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/989299875",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/989299875"
+      },
+      "retrieved_at": "2026-09-29T10:31:22Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "989299875",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:31:21Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/989299875",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/989299875"
+      },
+      "retrieved_at": "2026-09-29T10:31:22Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "989299875",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:31:21Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/989299875",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/989299875"
+      },
+      "retrieved_at": "2026-09-29T10:31:22Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "989299875",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:31:21Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "ENK",
+        "description": "Enkeltpersonforetak",
+        "description_en": "sole proprietorship"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/989299875",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/989299875"
+      },
+      "retrieved_at": "2026-09-29T10:31:22Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "989299875",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:31:21Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Makkaurvegen 2B, 9990 BÅTSFJORD, Norge",
+        "street": [
+          "Makkaurvegen 2B"
+        ],
+        "postcode": "9990",
+        "city": "BÅTSFJORD",
+        "municipality": "BÅTSFJORD",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/989299875",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/989299875"
+      },
+      "retrieved_at": "2026-09-29T10:31:22Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "989299875",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:31:21Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "BÅTSFJORD",
+        "code": "5632"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/989299875",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/989299875"
+      },
+      "retrieved_at": "2026-09-29T10:31:22Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "989299875",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:31:21Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "03.110",
+          "description": "Fiske og fangst i sjø"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/989299875",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/989299875"
+      },
+      "retrieved_at": "2026-09-29T10:31:22Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "989299875",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:31:21Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Kystfiske.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/989299875",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/989299875"
+      },
+      "retrieved_at": "2026-09-29T10:31:22Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "989299875",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:31:21Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "8200",
+        "description": "Personlig næringsdrivende"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/989299875",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/989299875"
+      },
+      "retrieved_at": "2026-09-29T10:31:22Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "989299875",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:31:21Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/989299875",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/989299875"
+      },
+      "retrieved_at": "2026-09-29T10:31:22Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "989299875",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:31:21Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/989299875",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/989299875"
+      },
+      "retrieved_at": "2026-09-29T10:31:22Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "989299875",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:31:21Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/989299875",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/989299875"
+      },
+      "retrieved_at": "2026-09-29T10:31:22Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "989299875",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:31:21Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "INNH",
+          "role": "Innehaver",
+          "group": "Innehaver",
+          "holder": {
+            "type": "person",
+            "name": "Trond Wilhelm Vevik",
+            "deceased": false
+          },
+          "group_last_changed": "2006-01-18"
+        },
+        {
+          "role_code": "REGN",
+          "role": "Regnskapsfører",
+          "group": "Regnskapsfører",
+          "holder": {
+            "type": "organization",
+            "name": "EKSTERN REGNSKAP AS",
+            "orgnr": "966313404",
+            "deleted": false
+          },
+          "group_last_changed": "2026-01-19"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/989299875/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/989299875"
+      },
+      "retrieved_at": "2026-09-29T10:31:23Z",
+      "as_of": "2026-01-19",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "989299875",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:31:21Z"
+    },
+    {
+      "field": "accountant",
+      "value": {
+        "type": "organization",
+        "name": "EKSTERN REGNSKAP AS",
+        "orgnr": "966313404",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/989299875/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/989299875"
+      },
+      "retrieved_at": "2026-09-29T10:31:23Z",
+      "as_of": "2026-01-19",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "989299875",
+        "json_path": "rollegrupper[type.kode=REGN]"
+      },
+      "confidence": "high",
+      "label": "Accountant",
+      "first_seen": "2026-09-29T10:31:21Z"
+    },
+    {
+      "field": "owner",
+      "value": {
+        "type": "person",
+        "name": "Trond Wilhelm Vevik",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/989299875/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/989299875"
+      },
+      "retrieved_at": "2026-09-29T10:31:23Z",
+      "as_of": "2006-01-18",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "989299875",
+        "json_path": "rollegrupper[type.kode=INNH]"
+      },
+      "confidence": "high",
+      "label": "Proprietor",
+      "first_seen": "2026-09-29T10:31:21Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=989299875&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/989299875"
+      },
+      "retrieved_at": "2026-09-29T10:31:26Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "989299875",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:31:21Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "989351230",
+          "name": "TROND VEVIK",
+          "address": "Makkaurvegen 2B, 9990 BÅTSFJORD, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=989299875&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/989299875"
+      },
+      "retrieved_at": "2026-09-29T10:31:26Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "989299875",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:31:21Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:31:22Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/989299875"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:31:23Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/989299875/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:31:24Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/989299875"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:31:26Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=989299875&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "TROND VEVIK (989 299 875), a sole proprietorship, is an active entity in Enhetsregisteret; address Makkaurvegen 2B, 9990 BÅTSFJORD, Norge. Main industry is 03.110 Fiske og fangst i sjø; 1 registered sub-unit(s). Proprietor: Trond Wilhelm Vevik.",
+    "notes": [
+      "No annual accounts: organisation form ENK is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:31:21Z",
+  "last_changed_at": "2026-09-29T10:31:21Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

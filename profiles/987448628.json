@@ -1,0 +1,1519 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "987448628",
+  "orgnr_formatted": "987 448 628",
+  "name": "E-LAGET BORETTSLAG",
+  "status": "active",
+  "checked_at": "2026-09-29T10:32:46Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "E-LAGET BORETTSLAG",
+    "founded_date": "2004-11-02",
+    "registered_date": "2004-11-30",
+    "business_register_date": "2004-11-30",
+    "articles_date": "2022-05-30",
+    "phone": "73 81 61 73",
+    "mobile": "90188418",
+    "latest_annual_accounts_year": "2025",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "BRL",
+      "description": "Borettslag",
+      "description_en": "housing cooperative"
+    },
+    "business_address": {
+      "text": "c/o Selbu Økonomi & Regnskap AS, Nestansringen 3, 7580 SELBU, Norge",
+      "street": [
+        "c/o Selbu Økonomi & Regnskap AS",
+        "Nestansringen 3"
+      ],
+      "postcode": "7580",
+      "city": "SELBU",
+      "municipality": "SELBU",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "SELBU",
+      "code": "5032"
+    },
+    "industry_codes": [
+      {
+        "code": "97.001",
+        "description": "Aktiviteter i borettslag og boligsameier"
+      }
+    ],
+    "purpose": "Borettslag.",
+    "sector": {
+      "code": "8300",
+      "description": "Borettslag o.l."
+    },
+    "former_names": [
+      {
+        "name": "COOP SENTRUM BORETTSLAG",
+        "from": "2004-11-30",
+        "to": "2022-07-08"
+      }
+    ],
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "FFØR",
+        "role": "Forretningsfører",
+        "group": "Forretningsfører",
+        "holder": {
+          "type": "organization",
+          "name": "SELBU ØKONOMI & REGNSKAP AS",
+          "orgnr": "986486666",
+          "deleted": false
+        },
+        "group_last_changed": "2015-07-07"
+      },
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Laila Kulseth",
+          "deceased": false
+        },
+        "group_last_changed": "2021-10-01"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "May-Britt Garberg",
+          "deceased": false
+        },
+        "group_last_changed": "2021-10-01"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Gustav Bjarne Fossum",
+          "deceased": false
+        },
+        "group_last_changed": "2021-10-01"
+      },
+      {
+        "role_code": "VARA",
+        "role": "Varamedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Gurina Rolseth Myhr",
+          "deceased": false
+        },
+        "group_last_changed": "2021-10-01"
+      },
+      {
+        "role_code": "VARA",
+        "role": "Varamedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Mali Stokke",
+          "deceased": true
+        },
+        "group_last_changed": "2021-10-01"
+      },
+      {
+        "role_code": "REVI",
+        "role": "Revisor",
+        "group": "Revisor",
+        "holder": {
+          "type": "organization",
+          "name": "BDO AS",
+          "orgnr": "993606650",
+          "deleted": false
+        },
+        "group_last_changed": "2023-06-23"
+      },
+      {
+        "role_code": "REGN",
+        "role": "Regnskapsfører",
+        "group": "Regnskapsfører",
+        "holder": {
+          "type": "organization",
+          "name": "SELBU ØKONOMI & REGNSKAP AS",
+          "orgnr": "986486666",
+          "deleted": false
+        },
+        "group_last_changed": "2009-12-07"
+      }
+    ],
+    "board_chair": {
+      "type": "person",
+      "name": "Laila Kulseth",
+      "deceased": false
+    },
+    "auditor": {
+      "type": "organization",
+      "name": "BDO AS",
+      "orgnr": "993606650",
+      "deleted": false
+    },
+    "accountant": {
+      "type": "organization",
+      "name": "SELBU ØKONOMI & REGNSKAP AS",
+      "orgnr": "986486666",
+      "deleted": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Laila Kulseth",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "May-Britt Garberg",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Gustav Bjarne Fossum",
+        "deceased": false
+      }
+    ],
+    "accounts_period": {
+      "from": "2025-01-01",
+      "to": "2025-12-31",
+      "year": "2025",
+      "currency": "NOK",
+      "type": "SELSKAP",
+      "audited": true,
+      "audit_opt_out": false
+    },
+    "revenue": {
+      "amount": 916440.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "operating_expenses": {
+      "amount": 491397.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "operating_profit": {
+      "amount": 425043.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "net_financial_items": {
+      "amount": -262707.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "profit_before_tax": {
+      "amount": 162336.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "net_profit": {
+      "amount": 162336.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "total_assets": {
+      "amount": 13723316.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "fixed_assets": {
+      "amount": 13445646.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "current_assets": {
+      "amount": 277670.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "equity": {
+      "amount": 287195.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "total_debt": {
+      "amount": 13436121.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "short_term_debt": {
+      "amount": 30264.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "long_term_debt": {
+      "amount": 13405857.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "924001828",
+        "name": "E-LAGET BORETTSLAG",
+        "address": "c/o Selbu Økonomi & Regnskap AS, Nestansringen 3, 7580 SELBU, Norge",
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "name",
+      "value": "E-LAGET BORETTSLAG",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2004-11-02",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:47Z",
+      "as_of": "2004-11-02",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2004-11-30",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:47Z",
+      "as_of": "2004-11-30",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "2004-11-30",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:47Z",
+      "as_of": "2004-11-30",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "articles_date",
+      "value": "2022-05-30",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:47Z",
+      "as_of": "2022-05-30",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "json_path": "vedtektsdato"
+      },
+      "confidence": "high",
+      "label": "Date of articles of association",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "phone",
+      "value": "73 81 61 73",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "json_path": "telefon"
+      },
+      "confidence": "high",
+      "label": "Phone",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "mobile",
+      "value": "90188418",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "json_path": "mobil"
+      },
+      "confidence": "high",
+      "label": "Mobile phone",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "latest_annual_accounts_year",
+      "value": "2025",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "json_path": "sisteInnsendteAarsregnskap"
+      },
+      "confidence": "high",
+      "label": "Latest annual accounts submitted",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "BRL",
+        "description": "Borettslag",
+        "description_en": "housing cooperative"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "c/o Selbu Økonomi & Regnskap AS, Nestansringen 3, 7580 SELBU, Norge",
+        "street": [
+          "c/o Selbu Økonomi & Regnskap AS",
+          "Nestansringen 3"
+        ],
+        "postcode": "7580",
+        "city": "SELBU",
+        "municipality": "SELBU",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "SELBU",
+        "code": "5032"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "97.001",
+          "description": "Aktiviteter i borettslag og boligsameier"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Borettslag.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "json_path": "vedtektsfestetFormaal"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "8300",
+        "description": "Borettslag o.l."
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "former_names",
+      "value": [
+        {
+          "name": "COOP SENTRUM BORETTSLAG",
+          "from": "2004-11-30",
+          "to": "2022-07-08"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "json_path": "historiskeNavn"
+      },
+      "confidence": "high",
+      "label": "Former names",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "FFØR",
+          "role": "Forretningsfører",
+          "group": "Forretningsfører",
+          "holder": {
+            "type": "organization",
+            "name": "SELBU ØKONOMI & REGNSKAP AS",
+            "orgnr": "986486666",
+            "deleted": false
+          },
+          "group_last_changed": "2015-07-07"
+        },
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Laila Kulseth",
+            "deceased": false
+          },
+          "group_last_changed": "2021-10-01"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "May-Britt Garberg",
+            "deceased": false
+          },
+          "group_last_changed": "2021-10-01"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Gustav Bjarne Fossum",
+            "deceased": false
+          },
+          "group_last_changed": "2021-10-01"
+        },
+        {
+          "role_code": "VARA",
+          "role": "Varamedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Gurina Rolseth Myhr",
+            "deceased": false
+          },
+          "group_last_changed": "2021-10-01"
+        },
+        {
+          "role_code": "VARA",
+          "role": "Varamedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Mali Stokke",
+            "deceased": true
+          },
+          "group_last_changed": "2021-10-01"
+        },
+        {
+          "role_code": "REVI",
+          "role": "Revisor",
+          "group": "Revisor",
+          "holder": {
+            "type": "organization",
+            "name": "BDO AS",
+            "orgnr": "993606650",
+            "deleted": false
+          },
+          "group_last_changed": "2023-06-23"
+        },
+        {
+          "role_code": "REGN",
+          "role": "Regnskapsfører",
+          "group": "Regnskapsfører",
+          "holder": {
+            "type": "organization",
+            "name": "SELBU ØKONOMI & REGNSKAP AS",
+            "orgnr": "986486666",
+            "deleted": false
+          },
+          "group_last_changed": "2009-12-07"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987448628/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:48Z",
+      "as_of": "2023-06-23",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Laila Kulseth",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987448628/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:48Z",
+      "as_of": "2021-10-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "auditor",
+      "value": {
+        "type": "organization",
+        "name": "BDO AS",
+        "orgnr": "993606650",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987448628/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:48Z",
+      "as_of": "2023-06-23",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "json_path": "rollegrupper[type.kode=REVI]"
+      },
+      "confidence": "high",
+      "label": "Auditor",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "accountant",
+      "value": {
+        "type": "organization",
+        "name": "SELBU ØKONOMI & REGNSKAP AS",
+        "orgnr": "986486666",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987448628/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:48Z",
+      "as_of": "2009-12-07",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "json_path": "rollegrupper[type.kode=REGN]"
+      },
+      "confidence": "high",
+      "label": "Accountant",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Laila Kulseth",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "May-Britt Garberg",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Gustav Bjarne Fossum",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987448628/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:48Z",
+      "as_of": "2023-06-23",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "accounts_period",
+      "value": {
+        "from": "2025-01-01",
+        "to": "2025-12-31",
+        "year": "2025",
+        "currency": "NOK",
+        "type": "SELSKAP",
+        "audited": true,
+        "audit_opt_out": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:50Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "journal_number": "2026460324",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "regnskapsperiode"
+      },
+      "confidence": "high",
+      "label": "Accounting period",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "revenue",
+      "value": {
+        "amount": 916440.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:50Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "journal_number": "2026460324",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftsinntekter.sumDriftsinntekter"
+      },
+      "confidence": "high",
+      "label": "Operating revenue",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "operating_expenses",
+      "value": {
+        "amount": 491397.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:50Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "journal_number": "2026460324",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftskostnad.sumDriftskostnad"
+      },
+      "confidence": "high",
+      "label": "Operating expenses",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "operating_profit",
+      "value": {
+        "amount": 425043.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:50Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "journal_number": "2026460324",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftsresultat"
+      },
+      "confidence": "high",
+      "label": "Operating profit",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "net_financial_items",
+      "value": {
+        "amount": -262707.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:50Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "journal_number": "2026460324",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.finansresultat.nettoFinans"
+      },
+      "confidence": "high",
+      "label": "Net financial items",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "profit_before_tax",
+      "value": {
+        "amount": 162336.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:50Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "journal_number": "2026460324",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.ordinaertResultatFoerSkattekostnad"
+      },
+      "confidence": "high",
+      "label": "Profit before tax",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "net_profit",
+      "value": {
+        "amount": 162336.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:50Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "journal_number": "2026460324",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.aarsresultat"
+      },
+      "confidence": "high",
+      "label": "Net profit (annual result)",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "total_assets",
+      "value": {
+        "amount": 13723316.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:50Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "journal_number": "2026460324",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.sumEiendeler"
+      },
+      "confidence": "high",
+      "label": "Total assets",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "fixed_assets",
+      "value": {
+        "amount": 13445646.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:50Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "journal_number": "2026460324",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.anleggsmidler.sumAnleggsmidler"
+      },
+      "confidence": "high",
+      "label": "Fixed assets",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "current_assets",
+      "value": {
+        "amount": 277670.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:50Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "journal_number": "2026460324",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.omloepsmidler.sumOmloepsmidler"
+      },
+      "confidence": "high",
+      "label": "Current assets",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "equity",
+      "value": {
+        "amount": 287195.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:50Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "journal_number": "2026460324",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.egenkapital.sumEgenkapital"
+      },
+      "confidence": "high",
+      "label": "Equity",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "total_debt",
+      "value": {
+        "amount": 13436121.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:50Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "journal_number": "2026460324",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.gjeldOversikt.sumGjeld"
+      },
+      "confidence": "high",
+      "label": "Total debt",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "short_term_debt",
+      "value": {
+        "amount": 30264.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:50Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "journal_number": "2026460324",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.gjeldOversikt.kortsiktigGjeld.sumKortsiktigGjeld"
+      },
+      "confidence": "high",
+      "label": "Short-term debt",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "long_term_debt",
+      "value": {
+        "amount": 13405857.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/987448628",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:50Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "journal_number": "2026460324",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.gjeldOversikt.langsiktigGjeld.sumLangsiktigGjeld"
+      },
+      "confidence": "high",
+      "label": "Long-term debt",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=987448628&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:32:46Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "924001828",
+          "name": "E-LAGET BORETTSLAG",
+          "address": "c/o Selbu Økonomi & Regnskap AS, Nestansringen 3, 7580 SELBU, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=987448628&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987448628"
+      },
+      "retrieved_at": "2026-09-29T10:32:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987448628",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:32:46Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:32:47Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987448628"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:32:48Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987448628/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:32:50Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/987448628"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:32:51Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=987448628&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "E-LAGET BORETTSLAG (987 448 628), a housing cooperative, is an active entity in Enhetsregisteret; founded 2004-11-02; address c/o Selbu Økonomi & Regnskap AS, Nestansringen 3, 7580 SELBU, Norge. Main industry is 97.001 Aktiviteter i borettslag og boligsameier; 1 registered sub-unit(s). Board chair: Laila Kulseth; Auditor: BDO AS. Accounts for 2025 (period ending 2025-12-31): revenue NOK 916.44 k, operating profit NOK 425.04 k, net profit NOK 162.34 k, equity NOK 287.19 k, total assets NOK 13.72 m.",
+    "notes": []
+  },
+  "first_checked_at": "2026-09-29T10:32:46Z",
+  "last_changed_at": "2026-09-29T10:32:46Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

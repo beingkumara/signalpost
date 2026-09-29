@@ -1,0 +1,865 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "920541305",
+  "orgnr_formatted": "920 541 305",
+  "name": "NESNA PENSJONISTFORENING",
+  "status": "active",
+  "checked_at": "2026-09-29T10:31:01Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "NESNA PENSJONISTFORENING",
+    "founded_date": "2018-02-08",
+    "registered_date": "2018-06-02",
+    "email": "bjorn.oddvang@gmail.com",
+    "mobile": "900 94 643",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": true,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "FLI",
+      "description": "Forening/lag/innretning",
+      "description_en": "association"
+    },
+    "business_address": {
+      "text": "c/o Bjørn Oddvang, Movegen 17, 8700 NESNA, Norge",
+      "street": [
+        "c/o Bjørn Oddvang",
+        "Movegen 17"
+      ],
+      "postcode": "8700",
+      "city": "NESNA",
+      "municipality": "NESNA",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "NESNA",
+      "code": "1828"
+    },
+    "industry_codes": [
+      {
+        "code": "94.992",
+        "description": "Aktiviteter i andre medlemsorganisasjoner ellers"
+      }
+    ],
+    "purpose": "Foreningen skal arbeide for medlemmenes sosiale, økonomiske, helsepolitiske og kulturelle interesser. Og vi skal arbeide for å skape best mulige forhold for pensjonistene og for at deres stilling i samfunnet skal bli styrket.",
+    "sector": {
+      "code": "7000",
+      "description": "Ideelle organisasjoner"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Bjørn Norvall Oddvang",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-17"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Torbjørn Martinsen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-17"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Johannes Tveita",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-17"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Anne Elise Wold",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-17"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Ronald Jonsen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-17"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Alf Julsrud",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-17"
+      }
+    ],
+    "board_chair": {
+      "type": "person",
+      "name": "Bjørn Norvall Oddvang",
+      "deceased": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Bjørn Norvall Oddvang",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Torbjørn Martinsen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Johannes Tveita",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Anne Elise Wold",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Ronald Jonsen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Alf Julsrud",
+        "deceased": false
+      }
+    ],
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "922472890",
+        "name": "NESNA PENSJONISTFORENING",
+        "address": "c/o Bjørn Oddvang, Movegen 17, 8700 NESNA, Norge",
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/920541305",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/920541305"
+      },
+      "retrieved_at": "2026-09-29T10:31:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "920541305",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:31:01Z"
+    },
+    {
+      "field": "name",
+      "value": "NESNA PENSJONISTFORENING",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/920541305",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/920541305"
+      },
+      "retrieved_at": "2026-09-29T10:31:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "920541305",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:31:01Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2018-02-08",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/920541305",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/920541305"
+      },
+      "retrieved_at": "2026-09-29T10:31:02Z",
+      "as_of": "2018-02-08",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "920541305",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:31:01Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2018-06-02",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/920541305",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/920541305"
+      },
+      "retrieved_at": "2026-09-29T10:31:02Z",
+      "as_of": "2018-06-02",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "920541305",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:31:01Z"
+    },
+    {
+      "field": "email",
+      "value": "bjorn.oddvang@gmail.com",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/920541305",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/920541305"
+      },
+      "retrieved_at": "2026-09-29T10:31:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "920541305",
+        "json_path": "epostadresse"
+      },
+      "confidence": "high",
+      "label": "Email",
+      "first_seen": "2026-09-29T10:31:01Z"
+    },
+    {
+      "field": "mobile",
+      "value": "900 94 643",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/920541305",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/920541305"
+      },
+      "retrieved_at": "2026-09-29T10:31:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "920541305",
+        "json_path": "mobil"
+      },
+      "confidence": "high",
+      "label": "Mobile phone",
+      "first_seen": "2026-09-29T10:31:01Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/920541305",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/920541305"
+      },
+      "retrieved_at": "2026-09-29T10:31:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "920541305",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:31:01Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/920541305",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/920541305"
+      },
+      "retrieved_at": "2026-09-29T10:31:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "920541305",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:31:01Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/920541305",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/920541305"
+      },
+      "retrieved_at": "2026-09-29T10:31:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "920541305",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:31:01Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/920541305",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/920541305"
+      },
+      "retrieved_at": "2026-09-29T10:31:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "920541305",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:31:01Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/920541305",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/920541305"
+      },
+      "retrieved_at": "2026-09-29T10:31:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "920541305",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:31:01Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/920541305",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/920541305"
+      },
+      "retrieved_at": "2026-09-29T10:31:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "920541305",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:31:01Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/920541305",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/920541305"
+      },
+      "retrieved_at": "2026-09-29T10:31:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "920541305",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:31:01Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "FLI",
+        "description": "Forening/lag/innretning",
+        "description_en": "association"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/920541305",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/920541305"
+      },
+      "retrieved_at": "2026-09-29T10:31:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "920541305",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:31:01Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "c/o Bjørn Oddvang, Movegen 17, 8700 NESNA, Norge",
+        "street": [
+          "c/o Bjørn Oddvang",
+          "Movegen 17"
+        ],
+        "postcode": "8700",
+        "city": "NESNA",
+        "municipality": "NESNA",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/920541305",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/920541305"
+      },
+      "retrieved_at": "2026-09-29T10:31:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "920541305",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:31:01Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "NESNA",
+        "code": "1828"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/920541305",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/920541305"
+      },
+      "retrieved_at": "2026-09-29T10:31:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "920541305",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:31:01Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "94.992",
+          "description": "Aktiviteter i andre medlemsorganisasjoner ellers"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/920541305",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/920541305"
+      },
+      "retrieved_at": "2026-09-29T10:31:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "920541305",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:31:01Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Foreningen skal arbeide for medlemmenes sosiale, økonomiske, helsepolitiske og kulturelle interesser. Og vi skal arbeide for å skape best mulige forhold for pensjonistene og for at deres stilling i samfunnet skal bli styrket.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/920541305",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/920541305"
+      },
+      "retrieved_at": "2026-09-29T10:31:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "920541305",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:31:01Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "7000",
+        "description": "Ideelle organisasjoner"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/920541305",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/920541305"
+      },
+      "retrieved_at": "2026-09-29T10:31:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "920541305",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:31:01Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/920541305",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/920541305"
+      },
+      "retrieved_at": "2026-09-29T10:31:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "920541305",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:31:01Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/920541305",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/920541305"
+      },
+      "retrieved_at": "2026-09-29T10:31:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "920541305",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:31:01Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/920541305",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/920541305"
+      },
+      "retrieved_at": "2026-09-29T10:31:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "920541305",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:31:01Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Bjørn Norvall Oddvang",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-17"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Torbjørn Martinsen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-17"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Johannes Tveita",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-17"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Anne Elise Wold",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-17"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Ronald Jonsen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-17"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Alf Julsrud",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-17"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/920541305/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/920541305"
+      },
+      "retrieved_at": "2026-09-29T10:31:04Z",
+      "as_of": "2026-01-17",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "920541305",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:31:01Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Bjørn Norvall Oddvang",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/920541305/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/920541305"
+      },
+      "retrieved_at": "2026-09-29T10:31:04Z",
+      "as_of": "2026-01-17",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "920541305",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:31:01Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Bjørn Norvall Oddvang",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Torbjørn Martinsen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Johannes Tveita",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Anne Elise Wold",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Ronald Jonsen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Alf Julsrud",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/920541305/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/920541305"
+      },
+      "retrieved_at": "2026-09-29T10:31:04Z",
+      "as_of": "2026-01-17",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "920541305",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:31:01Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=920541305&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/920541305"
+      },
+      "retrieved_at": "2026-09-29T10:31:06Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "920541305",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:31:01Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "922472890",
+          "name": "NESNA PENSJONISTFORENING",
+          "address": "c/o Bjørn Oddvang, Movegen 17, 8700 NESNA, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=920541305&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/920541305"
+      },
+      "retrieved_at": "2026-09-29T10:31:06Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "920541305",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:31:01Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:31:02Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/920541305"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:31:04Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/920541305/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:31:05Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/920541305"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:31:06Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=920541305&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "NESNA PENSJONISTFORENING (920 541 305), an association, is an active entity in Enhetsregisteret; founded 2018-02-08; address c/o Bjørn Oddvang, Movegen 17, 8700 NESNA, Norge. Main industry is 94.992 Aktiviteter i andre medlemsorganisasjoner ellers; 1 registered sub-unit(s). Board chair: Bjørn Norvall Oddvang.",
+    "notes": [
+      "No annual accounts: organisation form FLI is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:31:01Z",
+  "last_changed_at": "2026-09-29T10:31:01Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

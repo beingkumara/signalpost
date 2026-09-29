@@ -1,0 +1,829 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "927373467",
+  "orgnr_formatted": "927 373 467",
+  "name": "VOLLSTØLVEGEN SA",
+  "status": "active",
+  "checked_at": "2026-09-29T10:31:31Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "VOLLSTØLVEGEN SA",
+    "founded_date": "1982-03-04",
+    "registered_date": "2021-09-15",
+    "business_register_date": "2021-09-15",
+    "articles_date": "2021-04-15",
+    "email": "endrehk@hotmail.com",
+    "mobile": "951 12 027",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": true,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "SA",
+      "description": "Samvirkeforetak",
+      "description_en": "cooperative"
+    },
+    "business_address": {
+      "text": "Rødvenvegen 528, 6350 EIDSBYGDA, Norge",
+      "street": [
+        "Rødvenvegen 528"
+      ],
+      "postcode": "6350",
+      "city": "EIDSBYGDA",
+      "municipality": "RAUMA",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "RAUMA",
+      "code": "1539"
+    },
+    "industry_codes": [
+      {
+        "code": "68.320",
+        "description": "Eiendomsforvaltning på oppdrag"
+      }
+    ],
+    "purpose": "Vedlikeholde og drifte en eksisterende skogsbilveg fra seterleet/bommen ved Dalset gård og bak til Skreegga og over øvre skogsvegen som går mot Skreegga. Vollstølen I går fra leet ved Dalset og opp til Vollstølen sameie (del I). Vollstølvegen II går fra Vollstølen setersameie til Skreegga og over øvre skogsveg og bakover mot Skreegga. Veglaget har som formål å redusere andelseiernes kostnader til uttransport av tømmer og å gjøre skog i vegens nytteområde tilgjengelig for aktiv skogforvaltning. Et delmål med vegen er også for å ha enklere tilgang til seter/hytte. Foretaket driver ikke ervervsvirksomhet, men til selvkost. Overskudd skal føres tilbake til foretaket.",
+    "sector": {
+      "code": "2100",
+      "description": "Private aksjeselskaper mv."
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Endre Harvold Kvangraven",
+          "deceased": false
+        },
+        "group_last_changed": "2025-10-21"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Kirsti Rødven",
+          "deceased": false
+        },
+        "group_last_changed": "2025-10-21"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Peder Kristian Dønheim",
+          "deceased": false
+        },
+        "group_last_changed": "2025-10-21"
+      },
+      {
+        "role_code": "VARA",
+        "role": "Varamedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Erik Mordal",
+          "deceased": false
+        },
+        "group_last_changed": "2025-10-21"
+      }
+    ],
+    "board_chair": {
+      "type": "person",
+      "name": "Endre Harvold Kvangraven",
+      "deceased": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Endre Harvold Kvangraven",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Kirsti Rødven",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Peder Kristian Dønheim",
+        "deceased": false
+      }
+    ],
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "927770741",
+        "name": "VOLLSTØLVEGEN SA",
+        "address": "Rødvenvegen 528, 6350 EIDSBYGDA, Norge",
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/927373467",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/927373467"
+      },
+      "retrieved_at": "2026-09-29T10:31:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "927373467",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:31:31Z"
+    },
+    {
+      "field": "name",
+      "value": "VOLLSTØLVEGEN SA",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/927373467",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/927373467"
+      },
+      "retrieved_at": "2026-09-29T10:31:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "927373467",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:31:31Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "1982-03-04",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/927373467",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/927373467"
+      },
+      "retrieved_at": "2026-09-29T10:31:33Z",
+      "as_of": "1982-03-04",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "927373467",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:31:31Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2021-09-15",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/927373467",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/927373467"
+      },
+      "retrieved_at": "2026-09-29T10:31:33Z",
+      "as_of": "2021-09-15",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "927373467",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:31:31Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "2021-09-15",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/927373467",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/927373467"
+      },
+      "retrieved_at": "2026-09-29T10:31:33Z",
+      "as_of": "2021-09-15",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "927373467",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:31:31Z"
+    },
+    {
+      "field": "articles_date",
+      "value": "2021-04-15",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/927373467",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/927373467"
+      },
+      "retrieved_at": "2026-09-29T10:31:33Z",
+      "as_of": "2021-04-15",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "927373467",
+        "json_path": "vedtektsdato"
+      },
+      "confidence": "high",
+      "label": "Date of articles of association",
+      "first_seen": "2026-09-29T10:31:31Z"
+    },
+    {
+      "field": "email",
+      "value": "endrehk@hotmail.com",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/927373467",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/927373467"
+      },
+      "retrieved_at": "2026-09-29T10:31:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "927373467",
+        "json_path": "epostadresse"
+      },
+      "confidence": "high",
+      "label": "Email",
+      "first_seen": "2026-09-29T10:31:31Z"
+    },
+    {
+      "field": "mobile",
+      "value": "951 12 027",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/927373467",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/927373467"
+      },
+      "retrieved_at": "2026-09-29T10:31:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "927373467",
+        "json_path": "mobil"
+      },
+      "confidence": "high",
+      "label": "Mobile phone",
+      "first_seen": "2026-09-29T10:31:31Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/927373467",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/927373467"
+      },
+      "retrieved_at": "2026-09-29T10:31:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "927373467",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:31:31Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/927373467",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/927373467"
+      },
+      "retrieved_at": "2026-09-29T10:31:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "927373467",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:31:31Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/927373467",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/927373467"
+      },
+      "retrieved_at": "2026-09-29T10:31:33Z",
+      "as_of": "2022-05-02",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "927373467",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:31:31Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/927373467",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/927373467"
+      },
+      "retrieved_at": "2026-09-29T10:31:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "927373467",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:31:31Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/927373467",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/927373467"
+      },
+      "retrieved_at": "2026-09-29T10:31:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "927373467",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:31:31Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/927373467",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/927373467"
+      },
+      "retrieved_at": "2026-09-29T10:31:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "927373467",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:31:31Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/927373467",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/927373467"
+      },
+      "retrieved_at": "2026-09-29T10:31:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "927373467",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:31:31Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "SA",
+        "description": "Samvirkeforetak",
+        "description_en": "cooperative"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/927373467",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/927373467"
+      },
+      "retrieved_at": "2026-09-29T10:31:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "927373467",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:31:31Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Rødvenvegen 528, 6350 EIDSBYGDA, Norge",
+        "street": [
+          "Rødvenvegen 528"
+        ],
+        "postcode": "6350",
+        "city": "EIDSBYGDA",
+        "municipality": "RAUMA",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/927373467",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/927373467"
+      },
+      "retrieved_at": "2026-09-29T10:31:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "927373467",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:31:31Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "RAUMA",
+        "code": "1539"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/927373467",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/927373467"
+      },
+      "retrieved_at": "2026-09-29T10:31:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "927373467",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:31:31Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "68.320",
+          "description": "Eiendomsforvaltning på oppdrag"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/927373467",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/927373467"
+      },
+      "retrieved_at": "2026-09-29T10:31:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "927373467",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:31:31Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Vedlikeholde og drifte en eksisterende skogsbilveg fra seterleet/bommen ved Dalset gård og bak til Skreegga og over øvre skogsvegen som går mot Skreegga. Vollstølen I går fra leet ved Dalset og opp til Vollstølen sameie (del I). Vollstølvegen II går fra Vollstølen setersameie til Skreegga og over øvre skogsveg og bakover mot Skreegga. Veglaget har som formål å redusere andelseiernes kostnader til uttransport av tømmer og å gjøre skog i vegens nytteområde tilgjengelig for aktiv skogforvaltning. Et delmål med vegen er også for å ha enklere tilgang til seter/hytte. Foretaket driver ikke ervervsvirksomhet, men til selvkost. Overskudd skal føres tilbake til foretaket.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/927373467",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/927373467"
+      },
+      "retrieved_at": "2026-09-29T10:31:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "927373467",
+        "json_path": "vedtektsfestetFormaal"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:31:31Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "2100",
+        "description": "Private aksjeselskaper mv."
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/927373467",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/927373467"
+      },
+      "retrieved_at": "2026-09-29T10:31:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "927373467",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:31:31Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/927373467",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/927373467"
+      },
+      "retrieved_at": "2026-09-29T10:31:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "927373467",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:31:31Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/927373467",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/927373467"
+      },
+      "retrieved_at": "2026-09-29T10:31:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "927373467",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:31:31Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/927373467",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/927373467"
+      },
+      "retrieved_at": "2026-09-29T10:31:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "927373467",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:31:31Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Endre Harvold Kvangraven",
+            "deceased": false
+          },
+          "group_last_changed": "2025-10-21"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Kirsti Rødven",
+            "deceased": false
+          },
+          "group_last_changed": "2025-10-21"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Peder Kristian Dønheim",
+            "deceased": false
+          },
+          "group_last_changed": "2025-10-21"
+        },
+        {
+          "role_code": "VARA",
+          "role": "Varamedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Erik Mordal",
+            "deceased": false
+          },
+          "group_last_changed": "2025-10-21"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/927373467/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/927373467"
+      },
+      "retrieved_at": "2026-09-29T10:31:35Z",
+      "as_of": "2025-10-21",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "927373467",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:31:31Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Endre Harvold Kvangraven",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/927373467/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/927373467"
+      },
+      "retrieved_at": "2026-09-29T10:31:35Z",
+      "as_of": "2025-10-21",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "927373467",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:31:31Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Endre Harvold Kvangraven",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Kirsti Rødven",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Peder Kristian Dønheim",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/927373467/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/927373467"
+      },
+      "retrieved_at": "2026-09-29T10:31:35Z",
+      "as_of": "2025-10-21",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "927373467",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:31:31Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=927373467&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/927373467"
+      },
+      "retrieved_at": "2026-09-29T10:31:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "927373467",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:31:31Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "927770741",
+          "name": "VOLLSTØLVEGEN SA",
+          "address": "Rødvenvegen 528, 6350 EIDSBYGDA, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=927373467&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/927373467"
+      },
+      "retrieved_at": "2026-09-29T10:31:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "927373467",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:31:31Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:31:33Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/927373467"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:31:35Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/927373467/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:31:36Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/927373467"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:31:37Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=927373467&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "VOLLSTØLVEGEN SA (927 373 467), a cooperative, is an active entity in Enhetsregisteret; founded 1982-03-04; address Rødvenvegen 528, 6350 EIDSBYGDA, Norge. Main industry is 68.320 Eiendomsforvaltning på oppdrag; 1 registered sub-unit(s). Board chair: Endre Harvold Kvangraven.",
+    "notes": [
+      "No annual accounts were found in Regnskapsregisteret (new company, late filing, or not obliged to file). No financial figures are shown."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:31:31Z",
+  "last_changed_at": "2026-09-29T10:31:31Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

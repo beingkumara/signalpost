@@ -1,0 +1,859 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "995420414",
+  "orgnr_formatted": "995 420 414",
+  "name": "HYLESTAD BYGDEKVINNELAG",
+  "status": "active",
+  "checked_at": "2026-09-29T10:28:03Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "HYLESTAD BYGDEKVINNELAG",
+    "founded_date": "1957-12-15",
+    "registered_date": "2010-05-05",
+    "email": "kirstenbraatenberg@gmail.com",
+    "mobile": "911 63 450",
+    "in_corporate_group": false,
+    "language_form": "Nynorsk",
+    "vat_registered": false,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": true,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "FLI",
+      "description": "Forening/lag/innretning",
+      "description_en": "association"
+    },
+    "business_address": {
+      "text": "c/o Kirsten Bråten Berg, Nomelandsmone 11, 4748 RYSSTAD, Norge",
+      "street": [
+        "c/o Kirsten Bråten Berg",
+        "Nomelandsmone 11"
+      ],
+      "postcode": "4748",
+      "city": "RYSSTAD",
+      "municipality": "VALLE",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "VALLE",
+      "code": "4221"
+    },
+    "postal_address": {
+      "text": "Nomelandsmone 11, 4748 RYSSTAD, Norge",
+      "street": [
+        "Nomelandsmone 11"
+      ],
+      "postcode": "4748",
+      "city": "RYSSTAD",
+      "municipality": "VALLE",
+      "country_code": "NO"
+    },
+    "industry_codes": [
+      {
+        "code": "94.992",
+        "description": "Aktiviteter i andre medlemsorganisasjoner ellers"
+      }
+    ],
+    "purpose": "Bygdekvinnelag.",
+    "sector": {
+      "code": "7000",
+      "description": "Ideelle organisasjoner"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Kirsten Marie Bråten Berg",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-05"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Laila Bjørgulvsdotter Rysstad",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-05"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Elise Marie Kringen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-05"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Inger Kiland Rysstad",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-05"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Marit Anlaug Werner Berg",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-05"
+      },
+      {
+        "role_code": "VARA",
+        "role": "Varamedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Torbjørg Hovet",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-05"
+      },
+      {
+        "role_code": "VARA",
+        "role": "Varamedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Ingebjørg Elinor Rysstad",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-05"
+      }
+    ],
+    "board_chair": {
+      "type": "person",
+      "name": "Kirsten Marie Bråten Berg",
+      "deceased": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Kirsten Marie Bråten Berg",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Laila Bjørgulvsdotter Rysstad",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Elise Marie Kringen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Inger Kiland Rysstad",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Marit Anlaug Werner Berg",
+        "deceased": false
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995420414",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995420414"
+      },
+      "retrieved_at": "2026-09-29T10:28:04Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995420414",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:28:03Z"
+    },
+    {
+      "field": "name",
+      "value": "HYLESTAD BYGDEKVINNELAG",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995420414",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995420414"
+      },
+      "retrieved_at": "2026-09-29T10:28:04Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995420414",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:28:03Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "1957-12-15",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995420414",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995420414"
+      },
+      "retrieved_at": "2026-09-29T10:28:04Z",
+      "as_of": "1957-12-15",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "995420414",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:28:03Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2010-05-05",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995420414",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995420414"
+      },
+      "retrieved_at": "2026-09-29T10:28:04Z",
+      "as_of": "2010-05-05",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "995420414",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:28:03Z"
+    },
+    {
+      "field": "email",
+      "value": "kirstenbraatenberg@gmail.com",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995420414",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995420414"
+      },
+      "retrieved_at": "2026-09-29T10:28:04Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995420414",
+        "json_path": "epostadresse"
+      },
+      "confidence": "high",
+      "label": "Email",
+      "first_seen": "2026-09-29T10:28:03Z"
+    },
+    {
+      "field": "mobile",
+      "value": "911 63 450",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995420414",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995420414"
+      },
+      "retrieved_at": "2026-09-29T10:28:04Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995420414",
+        "json_path": "mobil"
+      },
+      "confidence": "high",
+      "label": "Mobile phone",
+      "first_seen": "2026-09-29T10:28:03Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995420414",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995420414"
+      },
+      "retrieved_at": "2026-09-29T10:28:04Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995420414",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:28:03Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Nynorsk",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995420414",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995420414"
+      },
+      "retrieved_at": "2026-09-29T10:28:04Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995420414",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:28:03Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995420414",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995420414"
+      },
+      "retrieved_at": "2026-09-29T10:28:04Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995420414",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:28:03Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995420414",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995420414"
+      },
+      "retrieved_at": "2026-09-29T10:28:04Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995420414",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:28:03Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995420414",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995420414"
+      },
+      "retrieved_at": "2026-09-29T10:28:04Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995420414",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:28:03Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995420414",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995420414"
+      },
+      "retrieved_at": "2026-09-29T10:28:04Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995420414",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:28:03Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995420414",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995420414"
+      },
+      "retrieved_at": "2026-09-29T10:28:04Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995420414",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:28:03Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "FLI",
+        "description": "Forening/lag/innretning",
+        "description_en": "association"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995420414",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995420414"
+      },
+      "retrieved_at": "2026-09-29T10:28:04Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995420414",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:28:03Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "c/o Kirsten Bråten Berg, Nomelandsmone 11, 4748 RYSSTAD, Norge",
+        "street": [
+          "c/o Kirsten Bråten Berg",
+          "Nomelandsmone 11"
+        ],
+        "postcode": "4748",
+        "city": "RYSSTAD",
+        "municipality": "VALLE",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995420414",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995420414"
+      },
+      "retrieved_at": "2026-09-29T10:28:04Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995420414",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:28:03Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "VALLE",
+        "code": "4221"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995420414",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995420414"
+      },
+      "retrieved_at": "2026-09-29T10:28:04Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995420414",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:28:03Z"
+    },
+    {
+      "field": "postal_address",
+      "value": {
+        "text": "Nomelandsmone 11, 4748 RYSSTAD, Norge",
+        "street": [
+          "Nomelandsmone 11"
+        ],
+        "postcode": "4748",
+        "city": "RYSSTAD",
+        "municipality": "VALLE",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995420414",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995420414"
+      },
+      "retrieved_at": "2026-09-29T10:28:04Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995420414",
+        "json_path": "postadresse"
+      },
+      "confidence": "high",
+      "label": "Postal address",
+      "first_seen": "2026-09-29T10:28:03Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "94.992",
+          "description": "Aktiviteter i andre medlemsorganisasjoner ellers"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995420414",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995420414"
+      },
+      "retrieved_at": "2026-09-29T10:28:04Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995420414",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:28:03Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Bygdekvinnelag.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995420414",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995420414"
+      },
+      "retrieved_at": "2026-09-29T10:28:04Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995420414",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:28:03Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "7000",
+        "description": "Ideelle organisasjoner"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995420414",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995420414"
+      },
+      "retrieved_at": "2026-09-29T10:28:04Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995420414",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:28:03Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995420414",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995420414"
+      },
+      "retrieved_at": "2026-09-29T10:28:04Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995420414",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:28:03Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995420414",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995420414"
+      },
+      "retrieved_at": "2026-09-29T10:28:04Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995420414",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:28:03Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995420414",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995420414"
+      },
+      "retrieved_at": "2026-09-29T10:28:04Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995420414",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:28:03Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Kirsten Marie Bråten Berg",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-05"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Laila Bjørgulvsdotter Rysstad",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-05"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Elise Marie Kringen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-05"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Inger Kiland Rysstad",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-05"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Marit Anlaug Werner Berg",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-05"
+        },
+        {
+          "role_code": "VARA",
+          "role": "Varamedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Torbjørg Hovet",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-05"
+        },
+        {
+          "role_code": "VARA",
+          "role": "Varamedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Ingebjørg Elinor Rysstad",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-05"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995420414/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995420414"
+      },
+      "retrieved_at": "2026-09-29T10:28:06Z",
+      "as_of": "2026-01-05",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "995420414",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:28:03Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Kirsten Marie Bråten Berg",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995420414/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995420414"
+      },
+      "retrieved_at": "2026-09-29T10:28:06Z",
+      "as_of": "2026-01-05",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "995420414",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:28:03Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Kirsten Marie Bråten Berg",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Laila Bjørgulvsdotter Rysstad",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Elise Marie Kringen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Inger Kiland Rysstad",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Marit Anlaug Werner Berg",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995420414/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995420414"
+      },
+      "retrieved_at": "2026-09-29T10:28:06Z",
+      "as_of": "2026-01-05",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "995420414",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:28:03Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:28:04Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995420414"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:28:06Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995420414/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:28:07Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/995420414"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:28:08Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=995420414&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "HYLESTAD BYGDEKVINNELAG (995 420 414), an association, is an active entity in Enhetsregisteret; founded 1957-12-15; address c/o Kirsten Bråten Berg, Nomelandsmone 11, 4748 RYSSTAD, Norge. Main industry is 94.992 Aktiviteter i andre medlemsorganisasjoner ellers. Board chair: Kirsten Marie Bråten Berg.",
+    "notes": [
+      "No annual accounts: organisation form FLI is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:28:03Z",
+  "last_changed_at": "2026-09-29T10:28:03Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

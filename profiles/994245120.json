@@ -1,0 +1,816 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "994245120",
+  "orgnr_formatted": "994 245 120",
+  "name": "NES UNGDOMSLAG",
+  "status": "active",
+  "checked_at": "2026-09-29T10:27:20Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "NES UNGDOMSLAG",
+    "founded_date": "1909-01-01",
+    "registered_date": "2011-03-14",
+    "email": "h_schanke@hotmail.com",
+    "mobile": "990 12 533",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": true,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "FLI",
+      "description": "Forening/lag/innretning",
+      "description_en": "association"
+    },
+    "business_address": {
+      "text": "Hellemsveien 609, 7165 OKSVOLL, Norge",
+      "street": [
+        "Hellemsveien 609"
+      ],
+      "postcode": "7165",
+      "city": "OKSVOLL",
+      "municipality": "ØRLAND",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "ØRLAND",
+      "code": "5057"
+    },
+    "postal_address": {
+      "text": "c/o Pål Wigdahl, Osveien 22, 7165 OKSVOLL, Norge",
+      "street": [
+        "c/o Pål Wigdahl",
+        "Osveien 22"
+      ],
+      "postcode": "7165",
+      "city": "OKSVOLL",
+      "municipality": "ØRLAND",
+      "country_code": "NO"
+    },
+    "industry_codes": [
+      {
+        "code": "94.992",
+        "description": "Aktiviteter i andre medlemsorganisasjoner ellers"
+      }
+    ],
+    "purpose": "Nes ungdomslag er selveiende og frittstående med utelukkende personlige medlemmer. Laget har som formål å drive forsamlingshuset Nesheim og tilby fritidsaktiviteter til innbyggere på Nes m/omegn.",
+    "sector": {
+      "code": "7000",
+      "description": "Ideelle organisasjoner"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Hilde Schanke-Rønning",
+          "deceased": false
+        },
+        "group_last_changed": "2026-03-18"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Pål Karlseng Wigdahl",
+          "deceased": false
+        },
+        "group_last_changed": "2026-03-18"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "June Lund",
+          "deceased": false
+        },
+        "group_last_changed": "2026-03-18"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Kine Irina Arntzen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-03-18"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Kamilla Kveim Hellem",
+          "deceased": false
+        },
+        "group_last_changed": "2026-03-18"
+      }
+    ],
+    "board_chair": {
+      "type": "person",
+      "name": "Hilde Schanke-Rønning",
+      "deceased": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Hilde Schanke-Rønning",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Pål Karlseng Wigdahl",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "June Lund",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Kine Irina Arntzen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Kamilla Kveim Hellem",
+        "deceased": false
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994245120",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994245120"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994245120",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "name",
+      "value": "NES UNGDOMSLAG",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994245120",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994245120"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994245120",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "1909-01-01",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994245120",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994245120"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "1909-01-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "994245120",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2011-03-14",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994245120",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994245120"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2011-03-14",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "994245120",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "email",
+      "value": "h_schanke@hotmail.com",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994245120",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994245120"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994245120",
+        "json_path": "epostadresse"
+      },
+      "confidence": "high",
+      "label": "Email",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "mobile",
+      "value": "990 12 533",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994245120",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994245120"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994245120",
+        "json_path": "mobil"
+      },
+      "confidence": "high",
+      "label": "Mobile phone",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994245120",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994245120"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994245120",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994245120",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994245120"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994245120",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994245120",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994245120"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994245120",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994245120",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994245120"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994245120",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994245120",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994245120"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994245120",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994245120",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994245120"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994245120",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994245120",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994245120"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994245120",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "FLI",
+        "description": "Forening/lag/innretning",
+        "description_en": "association"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994245120",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994245120"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994245120",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Hellemsveien 609, 7165 OKSVOLL, Norge",
+        "street": [
+          "Hellemsveien 609"
+        ],
+        "postcode": "7165",
+        "city": "OKSVOLL",
+        "municipality": "ØRLAND",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994245120",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994245120"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994245120",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "ØRLAND",
+        "code": "5057"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994245120",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994245120"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994245120",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "postal_address",
+      "value": {
+        "text": "c/o Pål Wigdahl, Osveien 22, 7165 OKSVOLL, Norge",
+        "street": [
+          "c/o Pål Wigdahl",
+          "Osveien 22"
+        ],
+        "postcode": "7165",
+        "city": "OKSVOLL",
+        "municipality": "ØRLAND",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994245120",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994245120"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994245120",
+        "json_path": "postadresse"
+      },
+      "confidence": "high",
+      "label": "Postal address",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "94.992",
+          "description": "Aktiviteter i andre medlemsorganisasjoner ellers"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994245120",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994245120"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994245120",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Nes ungdomslag er selveiende og frittstående med utelukkende personlige medlemmer. Laget har som formål å drive forsamlingshuset Nesheim og tilby fritidsaktiviteter til innbyggere på Nes m/omegn.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994245120",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994245120"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994245120",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "7000",
+        "description": "Ideelle organisasjoner"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994245120",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994245120"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994245120",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994245120",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994245120"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994245120",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994245120",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994245120"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994245120",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994245120",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994245120"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994245120",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Hilde Schanke-Rønning",
+            "deceased": false
+          },
+          "group_last_changed": "2026-03-18"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Pål Karlseng Wigdahl",
+            "deceased": false
+          },
+          "group_last_changed": "2026-03-18"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "June Lund",
+            "deceased": false
+          },
+          "group_last_changed": "2026-03-18"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Kine Irina Arntzen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-03-18"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Kamilla Kveim Hellem",
+            "deceased": false
+          },
+          "group_last_changed": "2026-03-18"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994245120/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994245120"
+      },
+      "retrieved_at": "2026-09-29T10:27:22Z",
+      "as_of": "2026-03-18",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "994245120",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Hilde Schanke-Rønning",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994245120/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994245120"
+      },
+      "retrieved_at": "2026-09-29T10:27:22Z",
+      "as_of": "2026-03-18",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "994245120",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Hilde Schanke-Rønning",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Pål Karlseng Wigdahl",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "June Lund",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Kine Irina Arntzen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Kamilla Kveim Hellem",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994245120/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994245120"
+      },
+      "retrieved_at": "2026-09-29T10:27:22Z",
+      "as_of": "2026-03-18",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "994245120",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:26:09Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:27:21Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994245120"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:27:22Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994245120/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:27:25Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/994245120"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:27:26Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=994245120&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "NES UNGDOMSLAG (994 245 120), an association, is an active entity in Enhetsregisteret; founded 1909-01-01; address Hellemsveien 609, 7165 OKSVOLL, Norge. Main industry is 94.992 Aktiviteter i andre medlemsorganisasjoner ellers. Board chair: Hilde Schanke-Rønning.",
+    "notes": [
+      "No annual accounts: organisation form FLI is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:26:09Z",
+  "previous_checked_at": "2026-09-29T10:26:09Z",
+  "last_changed_at": "2026-09-29T10:26:09Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

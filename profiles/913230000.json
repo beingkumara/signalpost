@@ -1,0 +1,1452 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "913230000",
+  "orgnr_formatted": "913 230 000",
+  "name": "ØYRIKET AS",
+  "status": "active",
+  "checked_at": "2026-09-29T10:26:59Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "ØYRIKET AS",
+    "founded_date": "2014-01-10",
+    "registered_date": "2014-02-20",
+    "business_register_date": "2014-02-20",
+    "articles_date": "2016-04-06",
+    "website": "https://www.arctic-islands.com",
+    "email": "kjelloddvar@arctic-islands.com",
+    "mobile": "414 90 049",
+    "latest_annual_accounts_year": "2025",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": true,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "AS",
+      "description": "Aksjeselskap",
+      "description_en": "private limited company"
+    },
+    "business_address": {
+      "text": "Langsundveien 1063, 9130 HANSNES, Norge",
+      "street": [
+        "Langsundveien 1063"
+      ],
+      "postcode": "9130",
+      "city": "HANSNES",
+      "municipality": "KARLSØY",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "KARLSØY",
+      "code": "5534"
+    },
+    "industry_codes": [
+      {
+        "code": "79.121",
+        "description": "Aktiviteter utført av utflukts- og eventarrangører"
+      }
+    ],
+    "purpose": "Hotell overnatting og romutleie. Leverandør av ferie, natur og fritidsopplevelser. Kunder og kundegrupper vil være enkeltpersoner, turister og grupper innenfor næringsliv, kurs og konferanser. Levere kurs og konferanser og andre produkter som naturlig faller sammen med dette til enkeltpersoner, grupper, turister, lag og foreninger, privat næringsliv, så vel som det offentlige. Selskapet skal være leverandør/underleverandør av overnattingskapasitet til selskaper med tilsvarende konsepter/virksomhet.Selskapet skal også være leverandør av transporttjenester med båt, buss og minibuss til egen virksomhet og til eksterne foretak. Selskapet skal også tilby transporttjenester med båt ,buss og minibusser til eksterne foretak. Utleie av eiendom til næringsformål. Kjøp og salg av aksjer, og på annen måte gjøre seg interessert i andre foretagender. Kjøp, salg og utvikling av eiendomsprosjekter til utleieformål. Selskapet skal under merkenavn Sea Air Rescue and Safety Support tilby arbeidskraft, konsulentbistand innen sikkerhet og beredskapsopplæring, herunder undervisning og instruktørvirksomhet. Selskapet skal tilby utleie av arbeidskraft til beredskaps og redningstjeneste.",
+    "sector": {
+      "code": "2100",
+      "description": "Private aksjeselskaper mv."
+    },
+    "share_capital": {
+      "amount": 30000.0,
+      "currency": "NOK",
+      "type": "Aksjekapital",
+      "shares": 30
+    },
+    "audit_opt_out": true,
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Kjell Oddvar Inderby",
+          "deceased": false
+        },
+        "group_last_changed": "2014-02-20"
+      },
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Kjell Oddvar Inderby",
+          "deceased": false
+        },
+        "group_last_changed": "2014-02-20"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Tord-André Stokka Kåven",
+          "deceased": false
+        },
+        "group_last_changed": "2014-02-20"
+      },
+      {
+        "role_code": "VARA",
+        "role": "Varamedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Jim Herulf Johansen Møllnes",
+          "deceased": false
+        },
+        "group_last_changed": "2014-02-20"
+      },
+      {
+        "role_code": "REGN",
+        "role": "Regnskapsfører",
+        "group": "Regnskapsfører",
+        "holder": {
+          "type": "organization",
+          "name": "LTST AS",
+          "orgnr": "915898262",
+          "deleted": false
+        },
+        "group_last_changed": "2022-01-27"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Kjell Oddvar Inderby",
+      "deceased": false
+    },
+    "board_chair": {
+      "type": "person",
+      "name": "Kjell Oddvar Inderby",
+      "deceased": false
+    },
+    "accountant": {
+      "type": "organization",
+      "name": "LTST AS",
+      "orgnr": "915898262",
+      "deleted": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Kjell Oddvar Inderby",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Tord-André Stokka Kåven",
+        "deceased": false
+      }
+    ],
+    "accounts_period": {
+      "from": "2025-01-01",
+      "to": "2025-12-31",
+      "year": "2025",
+      "currency": "NOK",
+      "type": "SELSKAP",
+      "audited": true,
+      "audit_opt_out": true
+    },
+    "revenue": {
+      "amount": 1318716.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "operating_expenses": {
+      "amount": 995578.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "operating_profit": {
+      "amount": 323138.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "net_financial_items": {
+      "amount": 1856.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "profit_before_tax": {
+      "amount": 324994.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "net_profit": {
+      "amount": 253663.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "total_assets": {
+      "amount": 3249940.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "fixed_assets": {
+      "amount": 1010226.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "current_assets": {
+      "amount": 2239714.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "equity": {
+      "amount": 2946415.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "total_debt": {
+      "amount": 303523.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "short_term_debt": {
+      "amount": 239590.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "813274582",
+        "name": "ØYRIKET/THE ARCTIC ISLANDS",
+        "address": "Langsundveien 1063, 9130 HANSNES, Norge",
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "name",
+      "value": "ØYRIKET AS",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2014-01-10",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2014-01-10",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2014-02-20",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2014-02-20",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "2014-02-20",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2014-02-20",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "articles_date",
+      "value": "2016-04-06",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2016-04-06",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "json_path": "vedtektsdato"
+      },
+      "confidence": "high",
+      "label": "Date of articles of association",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "website",
+      "value": "https://www.arctic-islands.com",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "json_path": "hjemmeside"
+      },
+      "confidence": "high",
+      "label": "Website",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "email",
+      "value": "kjelloddvar@arctic-islands.com",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "json_path": "epostadresse"
+      },
+      "confidence": "high",
+      "label": "Email",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "mobile",
+      "value": "414 90 049",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "json_path": "mobil"
+      },
+      "confidence": "high",
+      "label": "Mobile phone",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "latest_annual_accounts_year",
+      "value": "2025",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "json_path": "sisteInnsendteAarsregnskap"
+      },
+      "confidence": "high",
+      "label": "Latest annual accounts submitted",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2016-01-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "AS",
+        "description": "Aksjeselskap",
+        "description_en": "private limited company"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Langsundveien 1063, 9130 HANSNES, Norge",
+        "street": [
+          "Langsundveien 1063"
+        ],
+        "postcode": "9130",
+        "city": "HANSNES",
+        "municipality": "KARLSØY",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "KARLSØY",
+        "code": "5534"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "79.121",
+          "description": "Aktiviteter utført av utflukts- og eventarrangører"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Hotell overnatting og romutleie. Leverandør av ferie, natur og fritidsopplevelser. Kunder og kundegrupper vil være enkeltpersoner, turister og grupper innenfor næringsliv, kurs og konferanser. Levere kurs og konferanser og andre produkter som naturlig faller sammen med dette til enkeltpersoner, grupper, turister, lag og foreninger, privat næringsliv, så vel som det offentlige. Selskapet skal være leverandør/underleverandør av overnattingskapasitet til selskaper med tilsvarende konsepter/virksomhet.Selskapet skal også være leverandør av transporttjenester med båt, buss og minibuss til egen virksomhet og til eksterne foretak. Selskapet skal også tilby transporttjenester med båt ,buss og minibusser til eksterne foretak. Utleie av eiendom til næringsformål. Kjøp og salg av aksjer, og på annen måte gjøre seg interessert i andre foretagender. Kjøp, salg og utvikling av eiendomsprosjekter til utleieformål. Selskapet skal under merkenavn Sea Air Rescue and Safety Support tilby arbeidskraft, konsulentbistand innen sikkerhet og beredskapsopplæring, herunder undervisning og instruktørvirksomhet. Selskapet skal tilby utleie av arbeidskraft til beredskaps og redningstjeneste.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "json_path": "vedtektsfestetFormaal"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "2100",
+        "description": "Private aksjeselskaper mv."
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "share_capital",
+      "value": {
+        "amount": 30000.0,
+        "currency": "NOK",
+        "type": "Aksjekapital",
+        "shares": 30
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2014-02-20",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "json_path": "kapital"
+      },
+      "confidence": "high",
+      "label": "Share capital",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "audit_opt_out",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2014-02-20",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "json_path": "fravalgRevisjonDato"
+      },
+      "confidence": "high",
+      "label": "Opted out of statutory audit",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Kjell Oddvar Inderby",
+            "deceased": false
+          },
+          "group_last_changed": "2014-02-20"
+        },
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Kjell Oddvar Inderby",
+            "deceased": false
+          },
+          "group_last_changed": "2014-02-20"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Tord-André Stokka Kåven",
+            "deceased": false
+          },
+          "group_last_changed": "2014-02-20"
+        },
+        {
+          "role_code": "VARA",
+          "role": "Varamedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Jim Herulf Johansen Møllnes",
+            "deceased": false
+          },
+          "group_last_changed": "2014-02-20"
+        },
+        {
+          "role_code": "REGN",
+          "role": "Regnskapsfører",
+          "group": "Regnskapsfører",
+          "holder": {
+            "type": "organization",
+            "name": "LTST AS",
+            "orgnr": "915898262",
+            "deleted": false
+          },
+          "group_last_changed": "2022-01-27"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913230000/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:01Z",
+      "as_of": "2022-01-27",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Kjell Oddvar Inderby",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913230000/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:01Z",
+      "as_of": "2014-02-20",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Kjell Oddvar Inderby",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913230000/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:01Z",
+      "as_of": "2014-02-20",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "accountant",
+      "value": {
+        "type": "organization",
+        "name": "LTST AS",
+        "orgnr": "915898262",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913230000/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:01Z",
+      "as_of": "2022-01-27",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "json_path": "rollegrupper[type.kode=REGN]"
+      },
+      "confidence": "high",
+      "label": "Accountant",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Kjell Oddvar Inderby",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Tord-André Stokka Kåven",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913230000/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:01Z",
+      "as_of": "2022-01-27",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "accounts_period",
+      "value": {
+        "from": "2025-01-01",
+        "to": "2025-12-31",
+        "year": "2025",
+        "currency": "NOK",
+        "type": "SELSKAP",
+        "audited": true,
+        "audit_opt_out": true
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:03Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "journal_number": "2026384702",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "regnskapsperiode"
+      },
+      "confidence": "high",
+      "label": "Accounting period",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "revenue",
+      "value": {
+        "amount": 1318716.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:03Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "journal_number": "2026384702",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftsinntekter.sumDriftsinntekter"
+      },
+      "confidence": "high",
+      "label": "Operating revenue",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "operating_expenses",
+      "value": {
+        "amount": 995578.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:03Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "journal_number": "2026384702",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftskostnad.sumDriftskostnad"
+      },
+      "confidence": "high",
+      "label": "Operating expenses",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "operating_profit",
+      "value": {
+        "amount": 323138.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:03Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "journal_number": "2026384702",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftsresultat"
+      },
+      "confidence": "high",
+      "label": "Operating profit",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "net_financial_items",
+      "value": {
+        "amount": 1856.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:03Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "journal_number": "2026384702",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.finansresultat.nettoFinans"
+      },
+      "confidence": "high",
+      "label": "Net financial items",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "profit_before_tax",
+      "value": {
+        "amount": 324994.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:03Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "journal_number": "2026384702",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.ordinaertResultatFoerSkattekostnad"
+      },
+      "confidence": "high",
+      "label": "Profit before tax",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "net_profit",
+      "value": {
+        "amount": 253663.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:03Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "journal_number": "2026384702",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.aarsresultat"
+      },
+      "confidence": "high",
+      "label": "Net profit (annual result)",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "total_assets",
+      "value": {
+        "amount": 3249940.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:03Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "journal_number": "2026384702",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.sumEiendeler"
+      },
+      "confidence": "high",
+      "label": "Total assets",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "fixed_assets",
+      "value": {
+        "amount": 1010226.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:03Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "journal_number": "2026384702",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.anleggsmidler.sumAnleggsmidler"
+      },
+      "confidence": "high",
+      "label": "Fixed assets",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "current_assets",
+      "value": {
+        "amount": 2239714.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:03Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "journal_number": "2026384702",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.omloepsmidler.sumOmloepsmidler"
+      },
+      "confidence": "high",
+      "label": "Current assets",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "equity",
+      "value": {
+        "amount": 2946415.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:03Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "journal_number": "2026384702",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.egenkapital.sumEgenkapital"
+      },
+      "confidence": "high",
+      "label": "Equity",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "total_debt",
+      "value": {
+        "amount": 303523.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:03Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "journal_number": "2026384702",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.gjeldOversikt.sumGjeld"
+      },
+      "confidence": "high",
+      "label": "Total debt",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "short_term_debt",
+      "value": {
+        "amount": 239590.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/913230000",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:03Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "journal_number": "2026384702",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.gjeldOversikt.kortsiktigGjeld.sumKortsiktigGjeld"
+      },
+      "confidence": "high",
+      "label": "Short-term debt",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=913230000&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:04Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:25:36Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "813274582",
+          "name": "ØYRIKET/THE ARCTIC ISLANDS",
+          "address": "Langsundveien 1063, 9130 HANSNES, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=913230000&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913230000"
+      },
+      "retrieved_at": "2026-09-29T10:27:04Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913230000",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:25:36Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:27:00Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913230000"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:27:01Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913230000/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:27:03Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/913230000"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:27:04Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=913230000&size=5"
+    },
+    {
+      "source": "Company website",
+      "checked_at": "2026-09-29T10:27:05Z",
+      "http_status": 0,
+      "found_data": true,
+      "url": "https://www.arctic-islands.com",
+      "error": "GET https://www.arctic-islands.com failed after 1 attempts: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1077)>"
+    }
+  ],
+  "warnings": [
+    "Company website unavailable: GET https://www.arctic-islands.com failed after 1 attempts: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1077)>"
+  ],
+  "explanation": {
+    "summary": "ØYRIKET AS (913 230 000), a private limited company, is an active entity in Enhetsregisteret; founded 2014-01-10; address Langsundveien 1063, 9130 HANSNES, Norge. Main industry is 79.121 Aktiviteter utført av utflukts- og eventarrangører; 1 registered sub-unit(s). Daily manager: Kjell Oddvar Inderby; Board chair: Kjell Oddvar Inderby. Accounts for 2025 (period ending 2025-12-31): revenue NOK 1.32 m, operating profit NOK 323.14 k, net profit NOK 253.66 k, equity NOK 2.95 m, total assets NOK 3.25 m. Registered website: https://www.arctic-islands.com.",
+    "notes": [
+      "Company website unavailable: GET https://www.arctic-islands.com failed after 1 attempts: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1077)>"
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:25:36Z",
+  "previous_checked_at": "2026-09-29T10:25:36Z",
+  "last_changed_at": "2026-09-29T10:25:36Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

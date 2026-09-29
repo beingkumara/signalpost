@@ -1,0 +1,1147 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "926674773",
+  "orgnr_formatted": "926 674 773",
+  "name": "BLH HOLDING AS",
+  "status": "active",
+  "checked_at": "2026-09-29T10:32:25Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "BLH HOLDING AS",
+    "founded_date": "2021-02-11",
+    "registered_date": "2021-02-24",
+    "business_register_date": "2021-02-24",
+    "articles_date": "2021-07-23",
+    "latest_annual_accounts_year": "2025",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "AS",
+      "description": "Aksjeselskap",
+      "description_en": "private limited company"
+    },
+    "business_address": {
+      "text": "Vikranveien 14, 8283 LEINESFJORD, Norge",
+      "street": [
+        "Vikranveien 14"
+      ],
+      "postcode": "8283",
+      "city": "LEINESFJORD",
+      "municipality": "STEIGEN",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "STEIGEN",
+      "code": "1848"
+    },
+    "industry_codes": [
+      {
+        "code": "00.000",
+        "description": "Uoppgitt"
+      }
+    ],
+    "purpose": "Forvaltning av eierinteresser, og annet som naturlig faller sammen med dette.",
+    "sector": {
+      "code": "2100",
+      "description": "Private aksjeselskaper mv."
+    },
+    "share_capital": {
+      "amount": 2115000.0,
+      "currency": "NOK",
+      "type": "Aksjekapital",
+      "shares": 30
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Bengt Kristian Hansen",
+          "deceased": false
+        },
+        "group_last_changed": "2021-02-24"
+      },
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Bengt Kristian Hansen",
+          "deceased": false
+        },
+        "group_last_changed": "2021-02-24"
+      },
+      {
+        "role_code": "REVI",
+        "role": "Revisor",
+        "group": "Revisor",
+        "holder": {
+          "type": "organization",
+          "name": "FAUSKE REVISJON AS",
+          "orgnr": "975898946",
+          "deleted": false
+        },
+        "group_last_changed": "2024-09-10"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Bengt Kristian Hansen",
+      "deceased": false
+    },
+    "board_chair": {
+      "type": "person",
+      "name": "Bengt Kristian Hansen",
+      "deceased": false
+    },
+    "auditor": {
+      "type": "organization",
+      "name": "FAUSKE REVISJON AS",
+      "orgnr": "975898946",
+      "deleted": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Bengt Kristian Hansen",
+        "deceased": false
+      }
+    ],
+    "accounts_period": {
+      "from": "2025-01-01",
+      "to": "2025-12-31",
+      "year": "2025",
+      "currency": "NOK",
+      "type": "SELSKAP",
+      "audited": true,
+      "audit_opt_out": false
+    },
+    "operating_expenses": {
+      "amount": 155599.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "operating_profit": {
+      "amount": -155599.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "net_financial_items": {
+      "amount": 248407.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "profit_before_tax": {
+      "amount": 92808.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "net_profit": {
+      "amount": 92808.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "total_assets": {
+      "amount": 30447569.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "fixed_assets": {
+      "amount": 14709879.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "current_assets": {
+      "amount": 15737690.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "equity": {
+      "amount": 30447569.0,
+      "currency": "NOK",
+      "year": "2025"
+    }
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/926674773",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:26Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "name",
+      "value": "BLH HOLDING AS",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/926674773",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:26Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2021-02-11",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/926674773",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:26Z",
+      "as_of": "2021-02-11",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2021-02-24",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/926674773",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:26Z",
+      "as_of": "2021-02-24",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "2021-02-24",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/926674773",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:26Z",
+      "as_of": "2021-02-24",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "articles_date",
+      "value": "2021-07-23",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/926674773",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:26Z",
+      "as_of": "2021-07-23",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "json_path": "vedtektsdato"
+      },
+      "confidence": "high",
+      "label": "Date of articles of association",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "latest_annual_accounts_year",
+      "value": "2025",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/926674773",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:26Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "json_path": "sisteInnsendteAarsregnskap"
+      },
+      "confidence": "high",
+      "label": "Latest annual accounts submitted",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/926674773",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:26Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/926674773",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:26Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/926674773",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:26Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/926674773",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:26Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/926674773",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:26Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/926674773",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:26Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/926674773",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:26Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "AS",
+        "description": "Aksjeselskap",
+        "description_en": "private limited company"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/926674773",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:26Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Vikranveien 14, 8283 LEINESFJORD, Norge",
+        "street": [
+          "Vikranveien 14"
+        ],
+        "postcode": "8283",
+        "city": "LEINESFJORD",
+        "municipality": "STEIGEN",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/926674773",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:26Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "STEIGEN",
+        "code": "1848"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/926674773",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:26Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "00.000",
+          "description": "Uoppgitt"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/926674773",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:26Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Forvaltning av eierinteresser, og annet som naturlig faller sammen med dette.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/926674773",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:26Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "json_path": "vedtektsfestetFormaal"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "2100",
+        "description": "Private aksjeselskaper mv."
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/926674773",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:26Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "share_capital",
+      "value": {
+        "amount": 2115000.0,
+        "currency": "NOK",
+        "type": "Aksjekapital",
+        "shares": 30
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/926674773",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:26Z",
+      "as_of": "2021-10-27",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "json_path": "kapital"
+      },
+      "confidence": "high",
+      "label": "Share capital",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/926674773",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:26Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/926674773",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:26Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/926674773",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:26Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Bengt Kristian Hansen",
+            "deceased": false
+          },
+          "group_last_changed": "2021-02-24"
+        },
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Bengt Kristian Hansen",
+            "deceased": false
+          },
+          "group_last_changed": "2021-02-24"
+        },
+        {
+          "role_code": "REVI",
+          "role": "Revisor",
+          "group": "Revisor",
+          "holder": {
+            "type": "organization",
+            "name": "FAUSKE REVISJON AS",
+            "orgnr": "975898946",
+            "deleted": false
+          },
+          "group_last_changed": "2024-09-10"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/926674773/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:27Z",
+      "as_of": "2024-09-10",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Bengt Kristian Hansen",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/926674773/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:27Z",
+      "as_of": "2021-02-24",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Bengt Kristian Hansen",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/926674773/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:27Z",
+      "as_of": "2021-02-24",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "auditor",
+      "value": {
+        "type": "organization",
+        "name": "FAUSKE REVISJON AS",
+        "orgnr": "975898946",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/926674773/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:27Z",
+      "as_of": "2024-09-10",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "json_path": "rollegrupper[type.kode=REVI]"
+      },
+      "confidence": "high",
+      "label": "Auditor",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Bengt Kristian Hansen",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/926674773/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:27Z",
+      "as_of": "2024-09-10",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "accounts_period",
+      "value": {
+        "from": "2025-01-01",
+        "to": "2025-12-31",
+        "year": "2025",
+        "currency": "NOK",
+        "type": "SELSKAP",
+        "audited": true,
+        "audit_opt_out": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/926674773",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:28Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "journal_number": "2026558786",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "regnskapsperiode"
+      },
+      "confidence": "high",
+      "label": "Accounting period",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "operating_expenses",
+      "value": {
+        "amount": 155599.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/926674773",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:28Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "journal_number": "2026558786",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftskostnad.sumDriftskostnad"
+      },
+      "confidence": "high",
+      "label": "Operating expenses",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "operating_profit",
+      "value": {
+        "amount": -155599.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/926674773",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:28Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "journal_number": "2026558786",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftsresultat"
+      },
+      "confidence": "high",
+      "label": "Operating profit",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "net_financial_items",
+      "value": {
+        "amount": 248407.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/926674773",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:28Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "journal_number": "2026558786",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.finansresultat.nettoFinans"
+      },
+      "confidence": "high",
+      "label": "Net financial items",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "profit_before_tax",
+      "value": {
+        "amount": 92808.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/926674773",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:28Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "journal_number": "2026558786",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.ordinaertResultatFoerSkattekostnad"
+      },
+      "confidence": "high",
+      "label": "Profit before tax",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "net_profit",
+      "value": {
+        "amount": 92808.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/926674773",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:28Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "journal_number": "2026558786",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.aarsresultat"
+      },
+      "confidence": "high",
+      "label": "Net profit (annual result)",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "total_assets",
+      "value": {
+        "amount": 30447569.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/926674773",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:28Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "journal_number": "2026558786",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.sumEiendeler"
+      },
+      "confidence": "high",
+      "label": "Total assets",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "fixed_assets",
+      "value": {
+        "amount": 14709879.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/926674773",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:28Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "journal_number": "2026558786",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.anleggsmidler.sumAnleggsmidler"
+      },
+      "confidence": "high",
+      "label": "Fixed assets",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "current_assets",
+      "value": {
+        "amount": 15737690.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/926674773",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:28Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "journal_number": "2026558786",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.omloepsmidler.sumOmloepsmidler"
+      },
+      "confidence": "high",
+      "label": "Current assets",
+      "first_seen": "2026-09-29T10:32:25Z"
+    },
+    {
+      "field": "equity",
+      "value": {
+        "amount": 30447569.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/926674773",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/926674773"
+      },
+      "retrieved_at": "2026-09-29T10:32:28Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "926674773",
+        "journal_number": "2026558786",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.egenkapital.sumEgenkapital"
+      },
+      "confidence": "high",
+      "label": "Equity",
+      "first_seen": "2026-09-29T10:32:25Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:32:26Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/926674773"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:32:27Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/926674773/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:32:28Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/926674773"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:32:30Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=926674773&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "BLH HOLDING AS (926 674 773), a private limited company, is an active entity in Enhetsregisteret; founded 2021-02-11; address Vikranveien 14, 8283 LEINESFJORD, Norge. Main industry is 00.000 Uoppgitt. Daily manager: Bengt Kristian Hansen; Board chair: Bengt Kristian Hansen; Auditor: FAUSKE REVISJON AS. Accounts for 2025 (period ending 2025-12-31): operating profit NOK -155.60 k, net profit NOK 92.81 k, equity NOK 30.45 m, total assets NOK 30.45 m.",
+    "notes": []
+  },
+  "first_checked_at": "2026-09-29T10:32:25Z",
+  "last_changed_at": "2026-09-29T10:32:25Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

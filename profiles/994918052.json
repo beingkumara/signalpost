@@ -1,0 +1,811 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "994918052",
+  "orgnr_formatted": "994 918 052",
+  "name": "MÆL VEL / I.F. ROLL",
+  "status": "active",
+  "checked_at": "2026-09-29T10:28:49Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "MÆL VEL / I.F. ROLL",
+    "founded_date": "1985-02-01",
+    "registered_date": "2010-03-02",
+    "mobile": "948 01 939",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": true,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "FLI",
+      "description": "Forening/lag/innretning",
+      "description_en": "association"
+    },
+    "business_address": {
+      "text": "Mæl, 3658 MILAND, Norge",
+      "street": [
+        "Mæl"
+      ],
+      "postcode": "3658",
+      "city": "MILAND",
+      "municipality": "TINN",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "TINN",
+      "code": "4026"
+    },
+    "postal_address": {
+      "text": "c/o Ronny Abrahamsen, 3658 MILAND, Norge",
+      "street": [
+        "c/o Ronny Abrahamsen"
+      ],
+      "postcode": "3658",
+      "city": "MILAND",
+      "municipality": "TINN",
+      "country_code": "NO"
+    },
+    "industry_codes": [
+      {
+        "code": "94.992",
+        "description": "Aktiviteter i andre medlemsorganisasjoner ellers"
+      }
+    ],
+    "purpose": "Fremme medlemmenes felles interesse slik at Mæl blir et triveligere sted å bo.",
+    "sector": {
+      "code": "7000",
+      "description": "Ideelle organisasjoner"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Ronny Abrahamsen",
+          "deceased": false
+        },
+        "group_last_changed": "2010-03-02"
+      },
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Ronny Abrahamsen",
+          "deceased": false
+        },
+        "group_last_changed": "2022-11-01"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Magnar Teigen",
+          "deceased": false
+        },
+        "group_last_changed": "2022-11-01"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Hege Bugge",
+          "deceased": false
+        },
+        "group_last_changed": "2022-11-01"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Lene Fåne",
+          "deceased": false
+        },
+        "group_last_changed": "2022-11-01"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Ronny Abrahamsen",
+      "deceased": false
+    },
+    "board_chair": {
+      "type": "person",
+      "name": "Ronny Abrahamsen",
+      "deceased": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Ronny Abrahamsen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Magnar Teigen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Hege Bugge",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Lene Fåne",
+        "deceased": false
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994918052",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994918052"
+      },
+      "retrieved_at": "2026-09-29T10:28:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994918052",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "name",
+      "value": "MÆL VEL / I.F. ROLL",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994918052",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994918052"
+      },
+      "retrieved_at": "2026-09-29T10:28:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994918052",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "1985-02-01",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994918052",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994918052"
+      },
+      "retrieved_at": "2026-09-29T10:28:50Z",
+      "as_of": "1985-02-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "994918052",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2010-03-02",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994918052",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994918052"
+      },
+      "retrieved_at": "2026-09-29T10:28:50Z",
+      "as_of": "2010-03-02",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "994918052",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "mobile",
+      "value": "948 01 939",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994918052",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994918052"
+      },
+      "retrieved_at": "2026-09-29T10:28:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994918052",
+        "json_path": "mobil"
+      },
+      "confidence": "high",
+      "label": "Mobile phone",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994918052",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994918052"
+      },
+      "retrieved_at": "2026-09-29T10:28:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994918052",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994918052",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994918052"
+      },
+      "retrieved_at": "2026-09-29T10:28:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994918052",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994918052",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994918052"
+      },
+      "retrieved_at": "2026-09-29T10:28:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994918052",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994918052",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994918052"
+      },
+      "retrieved_at": "2026-09-29T10:28:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994918052",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994918052",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994918052"
+      },
+      "retrieved_at": "2026-09-29T10:28:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994918052",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994918052",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994918052"
+      },
+      "retrieved_at": "2026-09-29T10:28:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994918052",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994918052",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994918052"
+      },
+      "retrieved_at": "2026-09-29T10:28:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994918052",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "FLI",
+        "description": "Forening/lag/innretning",
+        "description_en": "association"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994918052",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994918052"
+      },
+      "retrieved_at": "2026-09-29T10:28:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994918052",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Mæl, 3658 MILAND, Norge",
+        "street": [
+          "Mæl"
+        ],
+        "postcode": "3658",
+        "city": "MILAND",
+        "municipality": "TINN",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994918052",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994918052"
+      },
+      "retrieved_at": "2026-09-29T10:28:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994918052",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "TINN",
+        "code": "4026"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994918052",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994918052"
+      },
+      "retrieved_at": "2026-09-29T10:28:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994918052",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "postal_address",
+      "value": {
+        "text": "c/o Ronny Abrahamsen, 3658 MILAND, Norge",
+        "street": [
+          "c/o Ronny Abrahamsen"
+        ],
+        "postcode": "3658",
+        "city": "MILAND",
+        "municipality": "TINN",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994918052",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994918052"
+      },
+      "retrieved_at": "2026-09-29T10:28:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994918052",
+        "json_path": "postadresse"
+      },
+      "confidence": "high",
+      "label": "Postal address",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "94.992",
+          "description": "Aktiviteter i andre medlemsorganisasjoner ellers"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994918052",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994918052"
+      },
+      "retrieved_at": "2026-09-29T10:28:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994918052",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Fremme medlemmenes felles interesse slik at Mæl blir et triveligere sted å bo.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994918052",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994918052"
+      },
+      "retrieved_at": "2026-09-29T10:28:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994918052",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "7000",
+        "description": "Ideelle organisasjoner"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994918052",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994918052"
+      },
+      "retrieved_at": "2026-09-29T10:28:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994918052",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994918052",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994918052"
+      },
+      "retrieved_at": "2026-09-29T10:28:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994918052",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994918052",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994918052"
+      },
+      "retrieved_at": "2026-09-29T10:28:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994918052",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994918052",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994918052"
+      },
+      "retrieved_at": "2026-09-29T10:28:50Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994918052",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Ronny Abrahamsen",
+            "deceased": false
+          },
+          "group_last_changed": "2010-03-02"
+        },
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Ronny Abrahamsen",
+            "deceased": false
+          },
+          "group_last_changed": "2022-11-01"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Magnar Teigen",
+            "deceased": false
+          },
+          "group_last_changed": "2022-11-01"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Hege Bugge",
+            "deceased": false
+          },
+          "group_last_changed": "2022-11-01"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Lene Fåne",
+            "deceased": false
+          },
+          "group_last_changed": "2022-11-01"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994918052/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994918052"
+      },
+      "retrieved_at": "2026-09-29T10:28:52Z",
+      "as_of": "2022-11-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "994918052",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Ronny Abrahamsen",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994918052/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994918052"
+      },
+      "retrieved_at": "2026-09-29T10:28:52Z",
+      "as_of": "2010-03-02",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "994918052",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Ronny Abrahamsen",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994918052/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994918052"
+      },
+      "retrieved_at": "2026-09-29T10:28:52Z",
+      "as_of": "2022-11-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "994918052",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Ronny Abrahamsen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Magnar Teigen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Hege Bugge",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Lene Fåne",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994918052/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994918052"
+      },
+      "retrieved_at": "2026-09-29T10:28:52Z",
+      "as_of": "2022-11-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "994918052",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:28:49Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:28:50Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994918052"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:28:52Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994918052/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:28:53Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/994918052"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:28:54Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=994918052&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "MÆL VEL / I.F. ROLL (994 918 052), an association, is an active entity in Enhetsregisteret; founded 1985-02-01; address Mæl, 3658 MILAND, Norge. Main industry is 94.992 Aktiviteter i andre medlemsorganisasjoner ellers. Daily manager: Ronny Abrahamsen; Board chair: Ronny Abrahamsen.",
+    "notes": [
+      "No annual accounts: organisation form FLI is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:28:49Z",
+  "last_changed_at": "2026-09-29T10:28:49Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

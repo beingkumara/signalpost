@@ -1,0 +1,907 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "935865999",
+  "orgnr_formatted": "935 865 999",
+  "name": "TTV AS",
+  "status": "active",
+  "checked_at": "2026-09-29T10:28:42Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "TTV AS",
+    "founded_date": "2025-07-10",
+    "registered_date": "2025-07-18",
+    "business_register_date": "2025-07-18",
+    "articles_date": "2025-12-17",
+    "email": "terjev@live.no",
+    "mobile": "918 12 702",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "AS",
+      "description": "Aksjeselskap",
+      "description_en": "private limited company"
+    },
+    "business_address": {
+      "text": "Søndre Vestsidaveg 20, 3677 NOTODDEN, Norge",
+      "street": [
+        "Søndre Vestsidaveg 20"
+      ],
+      "postcode": "3677",
+      "city": "NOTODDEN",
+      "municipality": "NOTODDEN",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "NOTODDEN",
+      "code": "4005"
+    },
+    "industry_codes": [
+      {
+        "code": "95.310",
+        "description": "Reparasjon og vedlikehold av motorvogner"
+      }
+    ],
+    "purpose": "Relatert i hovedsak til næringskode 95.31, reparasjon og vedlikehold av motorvogner. Og det som faller seg naturlig sammen med denne næringskoden.",
+    "sector": {
+      "code": "2100",
+      "description": "Private aksjeselskaper mv."
+    },
+    "share_capital": {
+      "amount": 30000.0,
+      "currency": "NOK",
+      "type": "Aksjekapital",
+      "shares": 30000
+    },
+    "former_names": [
+      {
+        "name": "LIPS N BEAUTY AS",
+        "from": "2025-07-18",
+        "to": "2025-12-22"
+      }
+    ],
+    "audit_opt_out": true,
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Terje Vinje",
+          "deceased": false
+        },
+        "group_last_changed": "2025-12-22"
+      },
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Terje Vinje",
+          "deceased": false
+        },
+        "group_last_changed": "2025-12-22"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Tommy Vinje Bergstig",
+          "deceased": false
+        },
+        "group_last_changed": "2025-12-22"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Terje Vinje",
+      "deceased": false
+    },
+    "board_chair": {
+      "type": "person",
+      "name": "Terje Vinje",
+      "deceased": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Terje Vinje",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Tommy Vinje Bergstig",
+        "deceased": false
+      }
+    ],
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "935884802",
+        "name": "TTV AS",
+        "address": "Søndre Vestsidaveg 20, 3677 NOTODDEN, Norge",
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935865999",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935865999"
+      },
+      "retrieved_at": "2026-09-29T10:28:43Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935865999",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:28:42Z"
+    },
+    {
+      "field": "name",
+      "value": "TTV AS",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935865999",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935865999"
+      },
+      "retrieved_at": "2026-09-29T10:28:43Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935865999",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:28:42Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2025-07-10",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935865999",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935865999"
+      },
+      "retrieved_at": "2026-09-29T10:28:43Z",
+      "as_of": "2025-07-10",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "935865999",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:28:42Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2025-07-18",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935865999",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935865999"
+      },
+      "retrieved_at": "2026-09-29T10:28:43Z",
+      "as_of": "2025-07-18",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "935865999",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:28:42Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "2025-07-18",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935865999",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935865999"
+      },
+      "retrieved_at": "2026-09-29T10:28:43Z",
+      "as_of": "2025-07-18",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "935865999",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:28:42Z"
+    },
+    {
+      "field": "articles_date",
+      "value": "2025-12-17",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935865999",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935865999"
+      },
+      "retrieved_at": "2026-09-29T10:28:43Z",
+      "as_of": "2025-12-17",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "935865999",
+        "json_path": "vedtektsdato"
+      },
+      "confidence": "high",
+      "label": "Date of articles of association",
+      "first_seen": "2026-09-29T10:28:42Z"
+    },
+    {
+      "field": "email",
+      "value": "terjev@live.no",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935865999",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935865999"
+      },
+      "retrieved_at": "2026-09-29T10:28:43Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935865999",
+        "json_path": "epostadresse"
+      },
+      "confidence": "high",
+      "label": "Email",
+      "first_seen": "2026-09-29T10:28:42Z"
+    },
+    {
+      "field": "mobile",
+      "value": "918 12 702",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935865999",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935865999"
+      },
+      "retrieved_at": "2026-09-29T10:28:43Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935865999",
+        "json_path": "mobil"
+      },
+      "confidence": "high",
+      "label": "Mobile phone",
+      "first_seen": "2026-09-29T10:28:42Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935865999",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935865999"
+      },
+      "retrieved_at": "2026-09-29T10:28:43Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935865999",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:28:42Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935865999",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935865999"
+      },
+      "retrieved_at": "2026-09-29T10:28:43Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935865999",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:28:42Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935865999",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935865999"
+      },
+      "retrieved_at": "2026-09-29T10:28:43Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935865999",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:28:42Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935865999",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935865999"
+      },
+      "retrieved_at": "2026-09-29T10:28:43Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935865999",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:28:42Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935865999",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935865999"
+      },
+      "retrieved_at": "2026-09-29T10:28:43Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935865999",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:28:42Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935865999",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935865999"
+      },
+      "retrieved_at": "2026-09-29T10:28:43Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935865999",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:28:42Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935865999",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935865999"
+      },
+      "retrieved_at": "2026-09-29T10:28:43Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935865999",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:28:42Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "AS",
+        "description": "Aksjeselskap",
+        "description_en": "private limited company"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935865999",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935865999"
+      },
+      "retrieved_at": "2026-09-29T10:28:43Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935865999",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:28:42Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Søndre Vestsidaveg 20, 3677 NOTODDEN, Norge",
+        "street": [
+          "Søndre Vestsidaveg 20"
+        ],
+        "postcode": "3677",
+        "city": "NOTODDEN",
+        "municipality": "NOTODDEN",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935865999",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935865999"
+      },
+      "retrieved_at": "2026-09-29T10:28:43Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935865999",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:28:42Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "NOTODDEN",
+        "code": "4005"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935865999",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935865999"
+      },
+      "retrieved_at": "2026-09-29T10:28:43Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935865999",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:28:42Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "95.310",
+          "description": "Reparasjon og vedlikehold av motorvogner"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935865999",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935865999"
+      },
+      "retrieved_at": "2026-09-29T10:28:43Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935865999",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:28:42Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Relatert i hovedsak til næringskode 95.31, reparasjon og vedlikehold av motorvogner. Og det som faller seg naturlig sammen med denne næringskoden.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935865999",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935865999"
+      },
+      "retrieved_at": "2026-09-29T10:28:43Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935865999",
+        "json_path": "vedtektsfestetFormaal"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:28:42Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "2100",
+        "description": "Private aksjeselskaper mv."
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935865999",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935865999"
+      },
+      "retrieved_at": "2026-09-29T10:28:43Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935865999",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:28:42Z"
+    },
+    {
+      "field": "share_capital",
+      "value": {
+        "amount": 30000.0,
+        "currency": "NOK",
+        "type": "Aksjekapital",
+        "shares": 30000
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935865999",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935865999"
+      },
+      "retrieved_at": "2026-09-29T10:28:43Z",
+      "as_of": "2025-07-18",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "935865999",
+        "json_path": "kapital"
+      },
+      "confidence": "high",
+      "label": "Share capital",
+      "first_seen": "2026-09-29T10:28:42Z"
+    },
+    {
+      "field": "former_names",
+      "value": [
+        {
+          "name": "LIPS N BEAUTY AS",
+          "from": "2025-07-18",
+          "to": "2025-12-22"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935865999",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935865999"
+      },
+      "retrieved_at": "2026-09-29T10:28:43Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935865999",
+        "json_path": "historiskeNavn"
+      },
+      "confidence": "high",
+      "label": "Former names",
+      "first_seen": "2026-09-29T10:28:42Z"
+    },
+    {
+      "field": "audit_opt_out",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935865999",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935865999"
+      },
+      "retrieved_at": "2026-09-29T10:28:43Z",
+      "as_of": "2025-07-18",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "935865999",
+        "json_path": "fravalgRevisjonDato"
+      },
+      "confidence": "high",
+      "label": "Opted out of statutory audit",
+      "first_seen": "2026-09-29T10:28:42Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935865999",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935865999"
+      },
+      "retrieved_at": "2026-09-29T10:28:43Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935865999",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:28:42Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935865999",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935865999"
+      },
+      "retrieved_at": "2026-09-29T10:28:43Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935865999",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:28:42Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935865999",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935865999"
+      },
+      "retrieved_at": "2026-09-29T10:28:43Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935865999",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:28:42Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Terje Vinje",
+            "deceased": false
+          },
+          "group_last_changed": "2025-12-22"
+        },
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Terje Vinje",
+            "deceased": false
+          },
+          "group_last_changed": "2025-12-22"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Tommy Vinje Bergstig",
+            "deceased": false
+          },
+          "group_last_changed": "2025-12-22"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935865999/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935865999"
+      },
+      "retrieved_at": "2026-09-29T10:28:44Z",
+      "as_of": "2025-12-22",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "935865999",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:28:42Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Terje Vinje",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935865999/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935865999"
+      },
+      "retrieved_at": "2026-09-29T10:28:44Z",
+      "as_of": "2025-12-22",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "935865999",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:28:42Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Terje Vinje",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935865999/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935865999"
+      },
+      "retrieved_at": "2026-09-29T10:28:44Z",
+      "as_of": "2025-12-22",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "935865999",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:28:42Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Terje Vinje",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Tommy Vinje Bergstig",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935865999/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935865999"
+      },
+      "retrieved_at": "2026-09-29T10:28:44Z",
+      "as_of": "2025-12-22",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "935865999",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:28:42Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=935865999&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935865999"
+      },
+      "retrieved_at": "2026-09-29T10:28:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935865999",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:28:42Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "935884802",
+          "name": "TTV AS",
+          "address": "Søndre Vestsidaveg 20, 3677 NOTODDEN, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=935865999&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/935865999"
+      },
+      "retrieved_at": "2026-09-29T10:28:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "935865999",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:28:42Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:28:43Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935865999"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:28:44Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935865999/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:28:45Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/935865999"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:28:46Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=935865999&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "TTV AS (935 865 999), a private limited company, is an active entity in Enhetsregisteret; founded 2025-07-10; address Søndre Vestsidaveg 20, 3677 NOTODDEN, Norge. Main industry is 95.310 Reparasjon og vedlikehold av motorvogner; 1 registered sub-unit(s). Daily manager: Terje Vinje; Board chair: Terje Vinje.",
+    "notes": [
+      "No annual accounts were found in Regnskapsregisteret (new company, late filing, or not obliged to file). No financial figures are shown."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:28:42Z",
+  "last_changed_at": "2026-09-29T10:28:42Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

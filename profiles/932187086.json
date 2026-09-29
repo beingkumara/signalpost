@@ -1,0 +1,881 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "932187086",
+  "orgnr_formatted": "932 187 086",
+  "name": "SAMEIET MÅKEVEIEN 13",
+  "status": "active",
+  "checked_at": "2026-09-29T10:33:07Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "SAMEIET MÅKEVEIEN 13",
+    "founded_date": "2023-07-17",
+    "registered_date": "2023-11-06",
+    "business_register_date": "2023-11-06",
+    "articles_date": "2023-09-13",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "ESEK",
+      "description": "Eierseksjonssameie",
+      "description_en": "condominium owners' association"
+    },
+    "business_address": {
+      "text": "Måkeveien 13A, 8450 STOKMARKNES, Norge",
+      "street": [
+        "Måkeveien 13A"
+      ],
+      "postcode": "8450",
+      "city": "STOKMARKNES",
+      "municipality": "HADSEL",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "HADSEL",
+      "code": "1866"
+    },
+    "postal_address": {
+      "text": "c/o Kjeldsberg Boligforvaltning AS, Postboks 4284 Torgarden, 7436 TRONDHEIM, Norge",
+      "street": [
+        "c/o Kjeldsberg Boligforvaltning AS",
+        "Postboks 4284 Torgarden"
+      ],
+      "postcode": "7436",
+      "city": "TRONDHEIM",
+      "municipality": "TRONDHEIM",
+      "country_code": "NO"
+    },
+    "industry_codes": [
+      {
+        "code": "97.001",
+        "description": "Aktiviteter i borettslag og boligsameier"
+      }
+    ],
+    "purpose": "Eierseksjonssameie",
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "FFØR",
+        "role": "Forretningsfører",
+        "group": "Forretningsfører",
+        "holder": {
+          "type": "organization",
+          "name": "KJELDSBERG BOLIGFORVALTNING AS",
+          "orgnr": "991711066",
+          "deleted": false
+        },
+        "group_last_changed": "2025-09-30"
+      },
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Ingvild Ingebrigtsen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-03-02"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Andrine Ellen Susanne Nyvold",
+          "deceased": false
+        },
+        "group_last_changed": "2026-03-02"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Jørn Tore Andreassen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-03-02"
+      },
+      {
+        "role_code": "VARA",
+        "role": "Varamedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Stig Tommy Robertsen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-03-02"
+      },
+      {
+        "role_code": "REGN",
+        "role": "Regnskapsfører",
+        "group": "Regnskapsfører",
+        "holder": {
+          "type": "organization",
+          "name": "KJELDSBERG BOLIGFORVALTNING AS",
+          "orgnr": "991711066",
+          "deleted": false
+        },
+        "group_last_changed": "2025-09-30"
+      }
+    ],
+    "board_chair": {
+      "type": "person",
+      "name": "Ingvild Ingebrigtsen",
+      "deceased": false
+    },
+    "accountant": {
+      "type": "organization",
+      "name": "KJELDSBERG BOLIGFORVALTNING AS",
+      "orgnr": "991711066",
+      "deleted": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Ingvild Ingebrigtsen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Andrine Ellen Susanne Nyvold",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Jørn Tore Andreassen",
+        "deceased": false
+      }
+    ],
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "832407852",
+        "name": "SAMEIET MÅKEVEIEN 13",
+        "address": "Måkeveien 13A, 8450 STOKMARKNES, Norge",
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932187086",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932187086"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932187086",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "name",
+      "value": "SAMEIET MÅKEVEIEN 13",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932187086",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932187086"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932187086",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2023-07-17",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932187086",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932187086"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2023-07-17",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "932187086",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2023-11-06",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932187086",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932187086"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2023-11-06",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "932187086",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "2023-11-06",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932187086",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932187086"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2023-11-06",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "932187086",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "articles_date",
+      "value": "2023-09-13",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932187086",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932187086"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2023-09-13",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "932187086",
+        "json_path": "vedtektsdato"
+      },
+      "confidence": "high",
+      "label": "Date of articles of association",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932187086",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932187086"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932187086",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932187086",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932187086"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932187086",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932187086",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932187086"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932187086",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932187086",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932187086"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932187086",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932187086",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932187086"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932187086",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932187086",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932187086"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932187086",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932187086",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932187086"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932187086",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "ESEK",
+        "description": "Eierseksjonssameie",
+        "description_en": "condominium owners' association"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932187086",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932187086"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932187086",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Måkeveien 13A, 8450 STOKMARKNES, Norge",
+        "street": [
+          "Måkeveien 13A"
+        ],
+        "postcode": "8450",
+        "city": "STOKMARKNES",
+        "municipality": "HADSEL",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932187086",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932187086"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932187086",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "HADSEL",
+        "code": "1866"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932187086",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932187086"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932187086",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "postal_address",
+      "value": {
+        "text": "c/o Kjeldsberg Boligforvaltning AS, Postboks 4284 Torgarden, 7436 TRONDHEIM, Norge",
+        "street": [
+          "c/o Kjeldsberg Boligforvaltning AS",
+          "Postboks 4284 Torgarden"
+        ],
+        "postcode": "7436",
+        "city": "TRONDHEIM",
+        "municipality": "TRONDHEIM",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932187086",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932187086"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932187086",
+        "json_path": "postadresse"
+      },
+      "confidence": "high",
+      "label": "Postal address",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "97.001",
+          "description": "Aktiviteter i borettslag og boligsameier"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932187086",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932187086"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932187086",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Eierseksjonssameie",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932187086",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932187086"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932187086",
+        "json_path": "vedtektsfestetFormaal"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932187086",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932187086"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932187086",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932187086",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932187086"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932187086",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932187086",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932187086"
+      },
+      "retrieved_at": "2026-09-29T10:33:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932187086",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "FFØR",
+          "role": "Forretningsfører",
+          "group": "Forretningsfører",
+          "holder": {
+            "type": "organization",
+            "name": "KJELDSBERG BOLIGFORVALTNING AS",
+            "orgnr": "991711066",
+            "deleted": false
+          },
+          "group_last_changed": "2025-09-30"
+        },
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Ingvild Ingebrigtsen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-03-02"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Andrine Ellen Susanne Nyvold",
+            "deceased": false
+          },
+          "group_last_changed": "2026-03-02"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Jørn Tore Andreassen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-03-02"
+        },
+        {
+          "role_code": "VARA",
+          "role": "Varamedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Stig Tommy Robertsen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-03-02"
+        },
+        {
+          "role_code": "REGN",
+          "role": "Regnskapsfører",
+          "group": "Regnskapsfører",
+          "holder": {
+            "type": "organization",
+            "name": "KJELDSBERG BOLIGFORVALTNING AS",
+            "orgnr": "991711066",
+            "deleted": false
+          },
+          "group_last_changed": "2025-09-30"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932187086/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932187086"
+      },
+      "retrieved_at": "2026-09-29T10:33:09Z",
+      "as_of": "2026-03-02",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "932187086",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Ingvild Ingebrigtsen",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932187086/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932187086"
+      },
+      "retrieved_at": "2026-09-29T10:33:09Z",
+      "as_of": "2026-03-02",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "932187086",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "accountant",
+      "value": {
+        "type": "organization",
+        "name": "KJELDSBERG BOLIGFORVALTNING AS",
+        "orgnr": "991711066",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932187086/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932187086"
+      },
+      "retrieved_at": "2026-09-29T10:33:09Z",
+      "as_of": "2025-09-30",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "932187086",
+        "json_path": "rollegrupper[type.kode=REGN]"
+      },
+      "confidence": "high",
+      "label": "Accountant",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Ingvild Ingebrigtsen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Andrine Ellen Susanne Nyvold",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Jørn Tore Andreassen",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932187086/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932187086"
+      },
+      "retrieved_at": "2026-09-29T10:33:09Z",
+      "as_of": "2026-03-02",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "932187086",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=932187086&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932187086"
+      },
+      "retrieved_at": "2026-09-29T10:33:12Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932187086",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:33:07Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "832407852",
+          "name": "SAMEIET MÅKEVEIEN 13",
+          "address": "Måkeveien 13A, 8450 STOKMARKNES, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=932187086&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932187086"
+      },
+      "retrieved_at": "2026-09-29T10:33:12Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932187086",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:33:07Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:33:08Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932187086"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:33:09Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932187086/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:33:10Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/932187086"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:33:12Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=932187086&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "SAMEIET MÅKEVEIEN 13 (932 187 086), a condominium owners' association, is an active entity in Enhetsregisteret; founded 2023-07-17; address Måkeveien 13A, 8450 STOKMARKNES, Norge. Main industry is 97.001 Aktiviteter i borettslag og boligsameier; 1 registered sub-unit(s). Board chair: Ingvild Ingebrigtsen.",
+    "notes": [
+      "No annual accounts: organisation form ESEK is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:33:07Z",
+  "last_changed_at": "2026-09-29T10:33:07Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

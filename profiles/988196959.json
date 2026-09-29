@@ -1,0 +1,847 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "988196959",
+  "orgnr_formatted": "988 196 959",
+  "name": "INGVILD SVENDSEN",
+  "status": "active",
+  "checked_at": "2026-09-29T10:30:46Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "INGVILD SVENDSEN",
+    "registered_date": "2005-05-19",
+    "business_register_date": "2015-01-06",
+    "email": "ingvild_svendsen@hotmail.com",
+    "phone": "53 75 66 97",
+    "mobile": "977 65 729",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": true,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "ENK",
+      "description": "Enkeltpersonforetak",
+      "description_en": "sole proprietorship"
+    },
+    "business_address": {
+      "text": "Stødlevegen 123, 5590 ETNE, Norge",
+      "street": [
+        "Stødlevegen 123"
+      ],
+      "postcode": "5590",
+      "city": "ETNE",
+      "municipality": "ETNE",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "ETNE",
+      "code": "4611"
+    },
+    "industry_codes": [
+      {
+        "code": "01.190",
+        "description": "Dyrking av ettårige vekster ellers"
+      }
+    ],
+    "purpose": "Jordbruk. I tillegg til jordbruksdrift drives det med kjøp og salg av maskiner i tillegg til utleie av maskiner.",
+    "sector": {
+      "code": "8200",
+      "description": "Personlig næringsdrivende"
+    },
+    "former_names": [
+      {
+        "name": "ARNE BJØRN SVENDSEN",
+        "from": "2005-05-19",
+        "to": "2015-01-06"
+      },
+      {
+        "name": "ARNE BJØRN SVENDSEN",
+        "from": "2015-01-06",
+        "to": "2017-12-13"
+      },
+      {
+        "name": "ARNE BJØRN SVENDSEN DØDSBO",
+        "from": "2017-12-13",
+        "to": "2018-01-23"
+      }
+    ],
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "INNH",
+        "role": "Innehaver",
+        "group": "Innehaver",
+        "holder": {
+          "type": "person",
+          "name": "Ingvild Svendsen",
+          "deceased": false
+        },
+        "group_last_changed": "2018-01-23"
+      },
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Ingvild Svendsen",
+          "deceased": false
+        },
+        "group_last_changed": "2018-01-23"
+      },
+      {
+        "role_code": "REGN",
+        "role": "Regnskapsfører",
+        "group": "Regnskapsfører",
+        "holder": {
+          "type": "organization",
+          "name": "GRINDHEIM REKNESKAPSKONTOR Åge Grindheim",
+          "orgnr": "970054219",
+          "deleted": false
+        },
+        "group_last_changed": "2005-05-19"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Ingvild Svendsen",
+      "deceased": false
+    },
+    "accountant": {
+      "type": "organization",
+      "name": "GRINDHEIM REKNESKAPSKONTOR Åge Grindheim",
+      "orgnr": "970054219",
+      "deleted": false
+    },
+    "owner": {
+      "type": "person",
+      "name": "Ingvild Svendsen",
+      "deceased": false
+    },
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "978205607",
+        "name": "INGVILD SVENDSEN",
+        "address": "Stødlevegen 123, 5590 ETNE, Norge",
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/988196959",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/988196959"
+      },
+      "retrieved_at": "2026-09-29T10:30:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "988196959",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:30:46Z"
+    },
+    {
+      "field": "name",
+      "value": "INGVILD SVENDSEN",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/988196959",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/988196959"
+      },
+      "retrieved_at": "2026-09-29T10:30:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "988196959",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:30:46Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2005-05-19",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/988196959",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/988196959"
+      },
+      "retrieved_at": "2026-09-29T10:30:47Z",
+      "as_of": "2005-05-19",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "988196959",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:30:46Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "2015-01-06",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/988196959",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/988196959"
+      },
+      "retrieved_at": "2026-09-29T10:30:47Z",
+      "as_of": "2015-01-06",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "988196959",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:30:46Z"
+    },
+    {
+      "field": "email",
+      "value": "ingvild_svendsen@hotmail.com",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/988196959",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/988196959"
+      },
+      "retrieved_at": "2026-09-29T10:30:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "988196959",
+        "json_path": "epostadresse"
+      },
+      "confidence": "high",
+      "label": "Email",
+      "first_seen": "2026-09-29T10:30:46Z"
+    },
+    {
+      "field": "phone",
+      "value": "53 75 66 97",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/988196959",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/988196959"
+      },
+      "retrieved_at": "2026-09-29T10:30:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "988196959",
+        "json_path": "telefon"
+      },
+      "confidence": "high",
+      "label": "Phone",
+      "first_seen": "2026-09-29T10:30:46Z"
+    },
+    {
+      "field": "mobile",
+      "value": "977 65 729",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/988196959",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/988196959"
+      },
+      "retrieved_at": "2026-09-29T10:30:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "988196959",
+        "json_path": "mobil"
+      },
+      "confidence": "high",
+      "label": "Mobile phone",
+      "first_seen": "2026-09-29T10:30:46Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/988196959",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/988196959"
+      },
+      "retrieved_at": "2026-09-29T10:30:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "988196959",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:30:46Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/988196959",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/988196959"
+      },
+      "retrieved_at": "2026-09-29T10:30:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "988196959",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:30:46Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/988196959",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/988196959"
+      },
+      "retrieved_at": "2026-09-29T10:30:47Z",
+      "as_of": "2005-01-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "988196959",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:30:46Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/988196959",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/988196959"
+      },
+      "retrieved_at": "2026-09-29T10:30:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "988196959",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:30:46Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/988196959",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/988196959"
+      },
+      "retrieved_at": "2026-09-29T10:30:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "988196959",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:30:46Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/988196959",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/988196959"
+      },
+      "retrieved_at": "2026-09-29T10:30:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "988196959",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:30:46Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/988196959",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/988196959"
+      },
+      "retrieved_at": "2026-09-29T10:30:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "988196959",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:30:46Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "ENK",
+        "description": "Enkeltpersonforetak",
+        "description_en": "sole proprietorship"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/988196959",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/988196959"
+      },
+      "retrieved_at": "2026-09-29T10:30:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "988196959",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:30:46Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Stødlevegen 123, 5590 ETNE, Norge",
+        "street": [
+          "Stødlevegen 123"
+        ],
+        "postcode": "5590",
+        "city": "ETNE",
+        "municipality": "ETNE",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/988196959",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/988196959"
+      },
+      "retrieved_at": "2026-09-29T10:30:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "988196959",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:30:46Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "ETNE",
+        "code": "4611"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/988196959",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/988196959"
+      },
+      "retrieved_at": "2026-09-29T10:30:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "988196959",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:30:46Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "01.190",
+          "description": "Dyrking av ettårige vekster ellers"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/988196959",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/988196959"
+      },
+      "retrieved_at": "2026-09-29T10:30:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "988196959",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:30:46Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Jordbruk. I tillegg til jordbruksdrift drives det med kjøp og salg av maskiner i tillegg til utleie av maskiner.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/988196959",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/988196959"
+      },
+      "retrieved_at": "2026-09-29T10:30:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "988196959",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:30:46Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "8200",
+        "description": "Personlig næringsdrivende"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/988196959",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/988196959"
+      },
+      "retrieved_at": "2026-09-29T10:30:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "988196959",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:30:46Z"
+    },
+    {
+      "field": "former_names",
+      "value": [
+        {
+          "name": "ARNE BJØRN SVENDSEN",
+          "from": "2005-05-19",
+          "to": "2015-01-06"
+        },
+        {
+          "name": "ARNE BJØRN SVENDSEN",
+          "from": "2015-01-06",
+          "to": "2017-12-13"
+        },
+        {
+          "name": "ARNE BJØRN SVENDSEN DØDSBO",
+          "from": "2017-12-13",
+          "to": "2018-01-23"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/988196959",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/988196959"
+      },
+      "retrieved_at": "2026-09-29T10:30:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "988196959",
+        "json_path": "historiskeNavn"
+      },
+      "confidence": "high",
+      "label": "Former names",
+      "first_seen": "2026-09-29T10:30:46Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/988196959",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/988196959"
+      },
+      "retrieved_at": "2026-09-29T10:30:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "988196959",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:30:46Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/988196959",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/988196959"
+      },
+      "retrieved_at": "2026-09-29T10:30:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "988196959",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:30:46Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/988196959",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/988196959"
+      },
+      "retrieved_at": "2026-09-29T10:30:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "988196959",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:30:46Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "INNH",
+          "role": "Innehaver",
+          "group": "Innehaver",
+          "holder": {
+            "type": "person",
+            "name": "Ingvild Svendsen",
+            "deceased": false
+          },
+          "group_last_changed": "2018-01-23"
+        },
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Ingvild Svendsen",
+            "deceased": false
+          },
+          "group_last_changed": "2018-01-23"
+        },
+        {
+          "role_code": "REGN",
+          "role": "Regnskapsfører",
+          "group": "Regnskapsfører",
+          "holder": {
+            "type": "organization",
+            "name": "GRINDHEIM REKNESKAPSKONTOR Åge Grindheim",
+            "orgnr": "970054219",
+            "deleted": false
+          },
+          "group_last_changed": "2005-05-19"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/988196959/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/988196959"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2018-01-23",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "988196959",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:30:46Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Ingvild Svendsen",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/988196959/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/988196959"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2018-01-23",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "988196959",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:30:46Z"
+    },
+    {
+      "field": "accountant",
+      "value": {
+        "type": "organization",
+        "name": "GRINDHEIM REKNESKAPSKONTOR Åge Grindheim",
+        "orgnr": "970054219",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/988196959/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/988196959"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2005-05-19",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "988196959",
+        "json_path": "rollegrupper[type.kode=REGN]"
+      },
+      "confidence": "high",
+      "label": "Accountant",
+      "first_seen": "2026-09-29T10:30:46Z"
+    },
+    {
+      "field": "owner",
+      "value": {
+        "type": "person",
+        "name": "Ingvild Svendsen",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/988196959/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/988196959"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2018-01-23",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "988196959",
+        "json_path": "rollegrupper[type.kode=INNH]"
+      },
+      "confidence": "high",
+      "label": "Proprietor",
+      "first_seen": "2026-09-29T10:30:46Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=988196959&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/988196959"
+      },
+      "retrieved_at": "2026-09-29T10:30:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "988196959",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:30:46Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "978205607",
+          "name": "INGVILD SVENDSEN",
+          "address": "Stødlevegen 123, 5590 ETNE, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=988196959&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/988196959"
+      },
+      "retrieved_at": "2026-09-29T10:30:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "988196959",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:30:46Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:30:47Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/988196959"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:30:48Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/988196959/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:30:50Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/988196959"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:30:51Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=988196959&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "INGVILD SVENDSEN (988 196 959), a sole proprietorship, is an active entity in Enhetsregisteret; address Stødlevegen 123, 5590 ETNE, Norge. Main industry is 01.190 Dyrking av ettårige vekster ellers; 1 registered sub-unit(s). Daily manager: Ingvild Svendsen; Proprietor: Ingvild Svendsen.",
+    "notes": [
+      "No annual accounts: organisation form ENK is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:30:46Z",
+  "last_changed_at": "2026-09-29T10:30:46Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

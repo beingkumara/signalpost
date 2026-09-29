@@ -1,0 +1,1489 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "937018967",
+  "orgnr_formatted": "937 018 967",
+  "name": "STATUS AS",
+  "status": "active",
+  "checked_at": "2026-09-29T10:32:06Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "STATUS AS",
+    "founded_date": "1984-12-31",
+    "registered_date": "1995-02-19",
+    "business_register_date": "1989-12-13",
+    "articles_date": "2011-10-05",
+    "website": "https://www.status-as.no",
+    "email": "karin.lomeland@status-as.no",
+    "phone": "51 42 20 10",
+    "latest_annual_accounts_year": "2025",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": true,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "AS",
+      "description": "Aksjeselskap",
+      "description_en": "private limited company"
+    },
+    "business_address": {
+      "text": "Solavegen 21, 4351 KLEPPE, Norge",
+      "street": [
+        "Solavegen 21"
+      ],
+      "postcode": "4351",
+      "city": "KLEPPE",
+      "municipality": "KLEPP",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "KLEPP",
+      "code": "1120"
+    },
+    "postal_address": {
+      "text": "c/o Karin Lomeland, Vassledvegen 34, 4355 KVERNALAND, Norge",
+      "street": [
+        "c/o Karin Lomeland",
+        "Vassledvegen 34"
+      ],
+      "postcode": "4355",
+      "city": "KVERNALAND",
+      "municipality": "TIME",
+      "country_code": "NO"
+    },
+    "industry_codes": [
+      {
+        "code": "69.202",
+        "description": "Regnskapsføring og bokføring"
+      }
+    ],
+    "purpose": "Regnskapsvirksomhet, samt hva dermed står i forbindelse.",
+    "sector": {
+      "code": "2100",
+      "description": "Private aksjeselskaper mv."
+    },
+    "share_capital": {
+      "amount": 120000.0,
+      "currency": "NOK",
+      "type": "Aksjekapital",
+      "shares": 300
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Karin Lomeland",
+          "deceased": false
+        },
+        "group_last_changed": "2015-09-04"
+      },
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Karin Lomeland",
+          "deceased": false
+        },
+        "group_last_changed": "2015-09-04"
+      },
+      {
+        "role_code": "REVI",
+        "role": "Revisor",
+        "group": "Revisor",
+        "holder": {
+          "type": "organization",
+          "name": "AVEN REVISJON AS",
+          "orgnr": "992121696",
+          "deleted": false
+        },
+        "group_last_changed": "2009-11-23"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Karin Lomeland",
+      "deceased": false
+    },
+    "board_chair": {
+      "type": "person",
+      "name": "Karin Lomeland",
+      "deceased": false
+    },
+    "auditor": {
+      "type": "organization",
+      "name": "AVEN REVISJON AS",
+      "orgnr": "992121696",
+      "deleted": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Karin Lomeland",
+        "deceased": false
+      }
+    ],
+    "accounts_period": {
+      "from": "2025-01-01",
+      "to": "2025-12-31",
+      "year": "2025",
+      "currency": "NOK",
+      "type": "SELSKAP",
+      "audited": true,
+      "audit_opt_out": false
+    },
+    "revenue": {
+      "amount": 5000411.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "operating_expenses": {
+      "amount": 4287278.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "operating_profit": {
+      "amount": 713133.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "net_financial_items": {
+      "amount": 12159.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "profit_before_tax": {
+      "amount": 725292.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "net_profit": {
+      "amount": 565869.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "total_assets": {
+      "amount": 1461467.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "current_assets": {
+      "amount": 1461467.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "equity": {
+      "amount": 686325.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "total_debt": {
+      "amount": 775142.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "short_term_debt": {
+      "amount": 775142.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "871873712",
+        "name": "STATUS AS",
+        "address": "Solavegen 21, 4351 KLEPPE, Norge",
+        "employees": null
+      }
+    ],
+    "website_verification": "name_on_page",
+    "website_title": "Status as - Regnskap slik du vil ha det",
+    "website_description": "Vi i status regnskap utfører tjenester innen regnskap, remittering, lønn, fakturering, årsoppgjør, skattemelding og skanning elektronisk arkivering mm....",
+    "website_emails": [
+      "karin.lomeland@status-as.no"
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "name",
+      "value": "STATUS AS",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "1984-12-31",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:07Z",
+      "as_of": "1984-12-31",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "1995-02-19",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:07Z",
+      "as_of": "1995-02-19",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "1989-12-13",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:07Z",
+      "as_of": "1989-12-13",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "articles_date",
+      "value": "2011-10-05",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:07Z",
+      "as_of": "2011-10-05",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "json_path": "vedtektsdato"
+      },
+      "confidence": "high",
+      "label": "Date of articles of association",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "website",
+      "value": "https://www.status-as.no",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "json_path": "hjemmeside"
+      },
+      "confidence": "high",
+      "label": "Website",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "email",
+      "value": "karin.lomeland@status-as.no",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "json_path": "epostadresse"
+      },
+      "confidence": "high",
+      "label": "Email",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "phone",
+      "value": "51 42 20 10",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "json_path": "telefon"
+      },
+      "confidence": "high",
+      "label": "Phone",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "latest_annual_accounts_year",
+      "value": "2025",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "json_path": "sisteInnsendteAarsregnskap"
+      },
+      "confidence": "high",
+      "label": "Latest annual accounts submitted",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:07Z",
+      "as_of": "1985-05-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "AS",
+        "description": "Aksjeselskap",
+        "description_en": "private limited company"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Solavegen 21, 4351 KLEPPE, Norge",
+        "street": [
+          "Solavegen 21"
+        ],
+        "postcode": "4351",
+        "city": "KLEPPE",
+        "municipality": "KLEPP",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "KLEPP",
+        "code": "1120"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "postal_address",
+      "value": {
+        "text": "c/o Karin Lomeland, Vassledvegen 34, 4355 KVERNALAND, Norge",
+        "street": [
+          "c/o Karin Lomeland",
+          "Vassledvegen 34"
+        ],
+        "postcode": "4355",
+        "city": "KVERNALAND",
+        "municipality": "TIME",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "json_path": "postadresse"
+      },
+      "confidence": "high",
+      "label": "Postal address",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "69.202",
+          "description": "Regnskapsføring og bokføring"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Regnskapsvirksomhet, samt hva dermed står i forbindelse.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "json_path": "vedtektsfestetFormaal"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "2100",
+        "description": "Private aksjeselskaper mv."
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "share_capital",
+      "value": {
+        "amount": 120000.0,
+        "currency": "NOK",
+        "type": "Aksjekapital",
+        "shares": 300
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:07Z",
+      "as_of": "2003-05-19",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "json_path": "kapital"
+      },
+      "confidence": "high",
+      "label": "Share capital",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:07Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Karin Lomeland",
+            "deceased": false
+          },
+          "group_last_changed": "2015-09-04"
+        },
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Karin Lomeland",
+            "deceased": false
+          },
+          "group_last_changed": "2015-09-04"
+        },
+        {
+          "role_code": "REVI",
+          "role": "Revisor",
+          "group": "Revisor",
+          "holder": {
+            "type": "organization",
+            "name": "AVEN REVISJON AS",
+            "orgnr": "992121696",
+            "deleted": false
+          },
+          "group_last_changed": "2009-11-23"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937018967/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:09Z",
+      "as_of": "2015-09-04",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Karin Lomeland",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937018967/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:09Z",
+      "as_of": "2015-09-04",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Karin Lomeland",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937018967/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:09Z",
+      "as_of": "2015-09-04",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "auditor",
+      "value": {
+        "type": "organization",
+        "name": "AVEN REVISJON AS",
+        "orgnr": "992121696",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937018967/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:09Z",
+      "as_of": "2009-11-23",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "json_path": "rollegrupper[type.kode=REVI]"
+      },
+      "confidence": "high",
+      "label": "Auditor",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Karin Lomeland",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937018967/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:09Z",
+      "as_of": "2015-09-04",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "accounts_period",
+      "value": {
+        "from": "2025-01-01",
+        "to": "2025-12-31",
+        "year": "2025",
+        "currency": "NOK",
+        "type": "SELSKAP",
+        "audited": true,
+        "audit_opt_out": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:10Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "journal_number": "2026708954",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "regnskapsperiode"
+      },
+      "confidence": "high",
+      "label": "Accounting period",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "revenue",
+      "value": {
+        "amount": 5000411.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:10Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "journal_number": "2026708954",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftsinntekter.sumDriftsinntekter"
+      },
+      "confidence": "high",
+      "label": "Operating revenue",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "operating_expenses",
+      "value": {
+        "amount": 4287278.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:10Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "journal_number": "2026708954",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftskostnad.sumDriftskostnad"
+      },
+      "confidence": "high",
+      "label": "Operating expenses",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "operating_profit",
+      "value": {
+        "amount": 713133.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:10Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "journal_number": "2026708954",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftsresultat"
+      },
+      "confidence": "high",
+      "label": "Operating profit",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "net_financial_items",
+      "value": {
+        "amount": 12159.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:10Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "journal_number": "2026708954",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.finansresultat.nettoFinans"
+      },
+      "confidence": "high",
+      "label": "Net financial items",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "profit_before_tax",
+      "value": {
+        "amount": 725292.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:10Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "journal_number": "2026708954",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.ordinaertResultatFoerSkattekostnad"
+      },
+      "confidence": "high",
+      "label": "Profit before tax",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "net_profit",
+      "value": {
+        "amount": 565869.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:10Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "journal_number": "2026708954",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.aarsresultat"
+      },
+      "confidence": "high",
+      "label": "Net profit (annual result)",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "total_assets",
+      "value": {
+        "amount": 1461467.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:10Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "journal_number": "2026708954",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.sumEiendeler"
+      },
+      "confidence": "high",
+      "label": "Total assets",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "current_assets",
+      "value": {
+        "amount": 1461467.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:10Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "journal_number": "2026708954",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.omloepsmidler.sumOmloepsmidler"
+      },
+      "confidence": "high",
+      "label": "Current assets",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "equity",
+      "value": {
+        "amount": 686325.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:10Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "journal_number": "2026708954",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.egenkapital.sumEgenkapital"
+      },
+      "confidence": "high",
+      "label": "Equity",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "total_debt",
+      "value": {
+        "amount": 775142.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:10Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "journal_number": "2026708954",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.gjeldOversikt.sumGjeld"
+      },
+      "confidence": "high",
+      "label": "Total debt",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "short_term_debt",
+      "value": {
+        "amount": 775142.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/937018967",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:10Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "journal_number": "2026708954",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.gjeldOversikt.kortsiktigGjeld.sumKortsiktigGjeld"
+      },
+      "confidence": "high",
+      "label": "Short-term debt",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=937018967&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:11Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "871873712",
+          "name": "STATUS AS",
+          "address": "Solavegen 21, 4351 KLEPPE, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=937018967&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/937018967"
+      },
+      "retrieved_at": "2026-09-29T10:32:11Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "website_verification",
+      "value": "name_on_page",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://status-as.no/",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:32:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "identity": {
+          "level": "name_on_page",
+          "orgnr_found": false,
+          "name_found": true,
+          "name_tested": "STATUS"
+        },
+        "registered_url": "https://www.status-as.no"
+      },
+      "confidence": "medium",
+      "label": "Website identity check",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "website_title",
+      "value": "Status as - Regnskap slik du vil ha det",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://status-as.no/",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:32:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "identity": {
+          "level": "name_on_page",
+          "orgnr_found": false,
+          "name_found": true,
+          "name_tested": "STATUS"
+        },
+        "registered_url": "https://www.status-as.no",
+        "json_path": "html.title"
+      },
+      "confidence": "medium",
+      "label": "Website title",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "website_description",
+      "value": "Vi i status regnskap utfører tjenester innen regnskap, remittering, lønn, fakturering, årsoppgjør, skattemelding og skanning elektronisk arkivering mm....",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://status-as.no/",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:32:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "identity": {
+          "level": "name_on_page",
+          "orgnr_found": false,
+          "name_found": true,
+          "name_tested": "STATUS"
+        },
+        "registered_url": "https://www.status-as.no",
+        "json_path": "html.meta[description]"
+      },
+      "confidence": "medium",
+      "label": "Self-description on website",
+      "first_seen": "2026-09-29T10:32:06Z"
+    },
+    {
+      "field": "website_emails",
+      "value": [
+        "karin.lomeland@status-as.no"
+      ],
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://status-as.no/",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:32:19Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "937018967",
+        "identity": {
+          "level": "name_on_page",
+          "orgnr_found": false,
+          "name_found": true,
+          "name_tested": "STATUS"
+        },
+        "registered_url": "https://www.status-as.no",
+        "json_path": "html.a[mailto]"
+      },
+      "confidence": "medium",
+      "label": "Contact emails on website",
+      "first_seen": "2026-09-29T10:32:06Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:32:07Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937018967"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:32:09Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/937018967/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:32:10Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/937018967"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:32:11Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=937018967&size=5"
+    },
+    {
+      "source": "Company website",
+      "checked_at": "2026-09-29T10:32:19Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://www.status-as.no"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "STATUS AS (937 018 967), a private limited company, is an active entity in Enhetsregisteret; founded 1984-12-31; address Solavegen 21, 4351 KLEPPE, Norge. Main industry is 69.202 Regnskapsføring og bokføring; 1 registered sub-unit(s). Daily manager: Karin Lomeland; Board chair: Karin Lomeland; Auditor: AVEN REVISJON AS. Accounts for 2025 (period ending 2025-12-31): revenue NOK 5.00 m, operating profit NOK 713.13 k, net profit NOK 565.87 k, equity NOK 686.33 k, total assets NOK 1.46 m. Website https://www.status-as.no shows the registered name.",
+    "notes": []
+  },
+  "first_checked_at": "2026-09-29T10:32:06Z",
+  "last_changed_at": "2026-09-29T10:32:06Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

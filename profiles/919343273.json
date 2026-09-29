@@ -1,0 +1,663 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "919343273",
+  "orgnr_formatted": "919 343 273",
+  "name": "KARLSEN, US AUTOTECH",
+  "status": "active",
+  "checked_at": "2026-09-29T10:27:55Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "KARLSEN, US AUTOTECH",
+    "registered_date": "2017-07-27",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": true,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "ENK",
+      "description": "Enkeltpersonforetak",
+      "description_en": "sole proprietorship"
+    },
+    "business_address": {
+      "text": "Per Ove Karlsen, Sjøliveien 2810, 2450 RENA, Norge",
+      "street": [
+        "Per Ove Karlsen",
+        "Sjøliveien 2810"
+      ],
+      "postcode": "2450",
+      "city": "RENA",
+      "municipality": "ÅMOT",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "ÅMOT",
+      "code": "3422"
+    },
+    "industry_codes": [
+      {
+        "code": "47.810",
+        "description": "Detaljhandel med motorvogner"
+      }
+    ],
+    "purpose": "Verksted for automatgear/motorer.",
+    "sector": {
+      "code": "8200",
+      "description": "Personlig næringsdrivende"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "INNH",
+        "role": "Innehaver",
+        "group": "Innehaver",
+        "holder": {
+          "type": "person",
+          "name": "Marina Karlsen",
+          "deceased": false
+        },
+        "group_last_changed": "2017-07-27"
+      },
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Per Ove Karlsen",
+          "deceased": false
+        },
+        "group_last_changed": "2017-07-27"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Per Ove Karlsen",
+      "deceased": false
+    },
+    "owner": {
+      "type": "person",
+      "name": "Marina Karlsen",
+      "deceased": false
+    },
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "919434554",
+        "name": "KARLSEN, US AUTOTECH",
+        "address": "Borgeskogen 13, 3160 STOKKE, Norge",
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/919343273",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/919343273"
+      },
+      "retrieved_at": "2026-09-29T10:27:56Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "919343273",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:27:55Z"
+    },
+    {
+      "field": "name",
+      "value": "KARLSEN, US AUTOTECH",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/919343273",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/919343273"
+      },
+      "retrieved_at": "2026-09-29T10:27:56Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "919343273",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:27:55Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2017-07-27",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/919343273",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/919343273"
+      },
+      "retrieved_at": "2026-09-29T10:27:56Z",
+      "as_of": "2017-07-27",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "919343273",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:27:55Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/919343273",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/919343273"
+      },
+      "retrieved_at": "2026-09-29T10:27:56Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "919343273",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:27:55Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/919343273",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/919343273"
+      },
+      "retrieved_at": "2026-09-29T10:27:56Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "919343273",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:27:55Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/919343273",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/919343273"
+      },
+      "retrieved_at": "2026-09-29T10:27:56Z",
+      "as_of": "2025-05-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "919343273",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:27:55Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/919343273",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/919343273"
+      },
+      "retrieved_at": "2026-09-29T10:27:56Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "919343273",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:27:55Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/919343273",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/919343273"
+      },
+      "retrieved_at": "2026-09-29T10:27:56Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "919343273",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:27:55Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/919343273",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/919343273"
+      },
+      "retrieved_at": "2026-09-29T10:27:56Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "919343273",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:27:55Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/919343273",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/919343273"
+      },
+      "retrieved_at": "2026-09-29T10:27:56Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "919343273",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:27:55Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "ENK",
+        "description": "Enkeltpersonforetak",
+        "description_en": "sole proprietorship"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/919343273",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/919343273"
+      },
+      "retrieved_at": "2026-09-29T10:27:56Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "919343273",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:27:55Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Per Ove Karlsen, Sjøliveien 2810, 2450 RENA, Norge",
+        "street": [
+          "Per Ove Karlsen",
+          "Sjøliveien 2810"
+        ],
+        "postcode": "2450",
+        "city": "RENA",
+        "municipality": "ÅMOT",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/919343273",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/919343273"
+      },
+      "retrieved_at": "2026-09-29T10:27:56Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "919343273",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:27:55Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "ÅMOT",
+        "code": "3422"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/919343273",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/919343273"
+      },
+      "retrieved_at": "2026-09-29T10:27:56Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "919343273",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:27:55Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "47.810",
+          "description": "Detaljhandel med motorvogner"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/919343273",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/919343273"
+      },
+      "retrieved_at": "2026-09-29T10:27:56Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "919343273",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:27:55Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Verksted for automatgear/motorer.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/919343273",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/919343273"
+      },
+      "retrieved_at": "2026-09-29T10:27:56Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "919343273",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:27:55Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "8200",
+        "description": "Personlig næringsdrivende"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/919343273",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/919343273"
+      },
+      "retrieved_at": "2026-09-29T10:27:56Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "919343273",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:27:55Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/919343273",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/919343273"
+      },
+      "retrieved_at": "2026-09-29T10:27:56Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "919343273",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:27:55Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/919343273",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/919343273"
+      },
+      "retrieved_at": "2026-09-29T10:27:56Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "919343273",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:27:55Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/919343273",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/919343273"
+      },
+      "retrieved_at": "2026-09-29T10:27:56Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "919343273",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:27:55Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "INNH",
+          "role": "Innehaver",
+          "group": "Innehaver",
+          "holder": {
+            "type": "person",
+            "name": "Marina Karlsen",
+            "deceased": false
+          },
+          "group_last_changed": "2017-07-27"
+        },
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Per Ove Karlsen",
+            "deceased": false
+          },
+          "group_last_changed": "2017-07-27"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/919343273/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/919343273"
+      },
+      "retrieved_at": "2026-09-29T10:27:57Z",
+      "as_of": "2017-07-27",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "919343273",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:27:55Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Per Ove Karlsen",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/919343273/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/919343273"
+      },
+      "retrieved_at": "2026-09-29T10:27:57Z",
+      "as_of": "2017-07-27",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "919343273",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:27:55Z"
+    },
+    {
+      "field": "owner",
+      "value": {
+        "type": "person",
+        "name": "Marina Karlsen",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/919343273/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/919343273"
+      },
+      "retrieved_at": "2026-09-29T10:27:57Z",
+      "as_of": "2017-07-27",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "919343273",
+        "json_path": "rollegrupper[type.kode=INNH]"
+      },
+      "confidence": "high",
+      "label": "Proprietor",
+      "first_seen": "2026-09-29T10:27:55Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=919343273&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/919343273"
+      },
+      "retrieved_at": "2026-09-29T10:28:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "919343273",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:27:55Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "919434554",
+          "name": "KARLSEN, US AUTOTECH",
+          "address": "Borgeskogen 13, 3160 STOKKE, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=919343273&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/919343273"
+      },
+      "retrieved_at": "2026-09-29T10:28:00Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "919343273",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:27:55Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:27:56Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/919343273"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:27:57Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/919343273/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:27:59Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/919343273"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:28:00Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=919343273&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "KARLSEN, US AUTOTECH (919 343 273), a sole proprietorship, is an active entity in Enhetsregisteret; address Per Ove Karlsen, Sjøliveien 2810, 2450 RENA, Norge. Main industry is 47.810 Detaljhandel med motorvogner; 1 registered sub-unit(s). Daily manager: Per Ove Karlsen; Proprietor: Marina Karlsen.",
+    "notes": [
+      "No annual accounts: organisation form ENK is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:27:55Z",
+  "last_changed_at": "2026-09-29T10:27:55Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

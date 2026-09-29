@@ -1,0 +1,681 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "994629166",
+  "orgnr_formatted": "994 629 166",
+  "name": "REDVALL ILLUSTRATION OCH DESIGN",
+  "status": "active",
+  "checked_at": "2026-09-29T10:27:52Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "REDVALL ILLUSTRATION OCH DESIGN",
+    "registered_date": "2009-10-12",
+    "website": "https://www.reddesign.se",
+    "email": "malin@reddesign.se",
+    "mobile": "97 19 94 55",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": true,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "ENK",
+      "description": "Enkeltpersonforetak",
+      "description_en": "sole proprietorship"
+    },
+    "business_address": {
+      "text": "Blomsterveien 3A, 1450 NESODDTANGEN, Norge",
+      "street": [
+        "Blomsterveien 3A"
+      ],
+      "postcode": "1450",
+      "city": "NESODDTANGEN",
+      "municipality": "NESODDEN",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "NESODDEN",
+      "code": "3212"
+    },
+    "industry_codes": [
+      {
+        "code": "74.120",
+        "description": "Grafisk design og visuell kommunikasjonsdesign"
+      }
+    ],
+    "purpose": "Grafisk design, illustrasjon og animasjon.",
+    "sector": {
+      "code": "8200",
+      "description": "Personlig næringsdrivende"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "INNH",
+        "role": "Innehaver",
+        "group": "Innehaver",
+        "holder": {
+          "type": "person",
+          "name": "Malin Johanna Kristina Redvall",
+          "deceased": false
+        },
+        "group_last_changed": "2009-10-12"
+      }
+    ],
+    "owner": {
+      "type": "person",
+      "name": "Malin Johanna Kristina Redvall",
+      "deceased": false
+    },
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "994645625",
+        "name": "REDDESIGN",
+        "address": "Blomsterveien 3A, 1450 NESODDTANGEN, Norge",
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994629166",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994629166"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994629166",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:27:52Z"
+    },
+    {
+      "field": "name",
+      "value": "REDVALL ILLUSTRATION OCH DESIGN",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994629166",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994629166"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994629166",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:27:52Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2009-10-12",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994629166",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994629166"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2009-10-12",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "994629166",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:27:52Z"
+    },
+    {
+      "field": "website",
+      "value": "https://www.reddesign.se",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994629166",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994629166"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994629166",
+        "json_path": "hjemmeside"
+      },
+      "confidence": "high",
+      "label": "Website",
+      "first_seen": "2026-09-29T10:27:52Z"
+    },
+    {
+      "field": "email",
+      "value": "malin@reddesign.se",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994629166",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994629166"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994629166",
+        "json_path": "epostadresse"
+      },
+      "confidence": "high",
+      "label": "Email",
+      "first_seen": "2026-09-29T10:27:52Z"
+    },
+    {
+      "field": "mobile",
+      "value": "97 19 94 55",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994629166",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994629166"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994629166",
+        "json_path": "mobil"
+      },
+      "confidence": "high",
+      "label": "Mobile phone",
+      "first_seen": "2026-09-29T10:27:52Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994629166",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994629166"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994629166",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:27:52Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994629166",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994629166"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994629166",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:27:52Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994629166",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994629166"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2011-01-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "994629166",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:27:52Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994629166",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994629166"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994629166",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:27:52Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994629166",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994629166"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994629166",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:27:52Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994629166",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994629166"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994629166",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:27:52Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994629166",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994629166"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994629166",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:27:52Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "ENK",
+        "description": "Enkeltpersonforetak",
+        "description_en": "sole proprietorship"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994629166",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994629166"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994629166",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:27:52Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Blomsterveien 3A, 1450 NESODDTANGEN, Norge",
+        "street": [
+          "Blomsterveien 3A"
+        ],
+        "postcode": "1450",
+        "city": "NESODDTANGEN",
+        "municipality": "NESODDEN",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994629166",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994629166"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994629166",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:27:52Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "NESODDEN",
+        "code": "3212"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994629166",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994629166"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994629166",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:27:52Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "74.120",
+          "description": "Grafisk design og visuell kommunikasjonsdesign"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994629166",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994629166"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994629166",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:27:52Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Grafisk design, illustrasjon og animasjon.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994629166",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994629166"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994629166",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:27:52Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "8200",
+        "description": "Personlig næringsdrivende"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994629166",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994629166"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994629166",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:27:52Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994629166",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994629166"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994629166",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:27:52Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994629166",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994629166"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994629166",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:27:52Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994629166",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994629166"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994629166",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:27:52Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "INNH",
+          "role": "Innehaver",
+          "group": "Innehaver",
+          "holder": {
+            "type": "person",
+            "name": "Malin Johanna Kristina Redvall",
+            "deceased": false
+          },
+          "group_last_changed": "2009-10-12"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994629166/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994629166"
+      },
+      "retrieved_at": "2026-09-29T10:27:56Z",
+      "as_of": "2009-10-12",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "994629166",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:27:52Z"
+    },
+    {
+      "field": "owner",
+      "value": {
+        "type": "person",
+        "name": "Malin Johanna Kristina Redvall",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994629166/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994629166"
+      },
+      "retrieved_at": "2026-09-29T10:27:56Z",
+      "as_of": "2009-10-12",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "994629166",
+        "json_path": "rollegrupper[type.kode=INNH]"
+      },
+      "confidence": "high",
+      "label": "Proprietor",
+      "first_seen": "2026-09-29T10:27:52Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=994629166&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994629166"
+      },
+      "retrieved_at": "2026-09-29T10:27:58Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994629166",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:27:52Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "994645625",
+          "name": "REDDESIGN",
+          "address": "Blomsterveien 3A, 1450 NESODDTANGEN, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=994629166&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/994629166"
+      },
+      "retrieved_at": "2026-09-29T10:27:58Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "994629166",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:27:52Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:27:54Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994629166"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:27:56Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/994629166/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:27:57Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/994629166"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:27:58Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=994629166&size=5"
+    },
+    {
+      "source": "Company website",
+      "checked_at": "2026-09-29T10:28:02Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://www.reddesign.se"
+    }
+  ],
+  "warnings": [
+    "website https://www.redvall.se/ did not show the org number or name; content not used"
+  ],
+  "explanation": {
+    "summary": "REDVALL ILLUSTRATION OCH DESIGN (994 629 166), a sole proprietorship, is an active entity in Enhetsregisteret; address Blomsterveien 3A, 1450 NESODDTANGEN, Norge. Main industry is 74.120 Grafisk design og visuell kommunikasjonsdesign; 1 registered sub-unit(s). Proprietor: Malin Johanna Kristina Redvall. Registered website: https://www.reddesign.se.",
+    "notes": [
+      "No annual accounts: organisation form ENK is generally not required to file with Regnskapsregisteret.",
+      "website https://www.redvall.se/ did not show the org number or name; content not used"
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:27:52Z",
+  "last_changed_at": "2026-09-29T10:27:52Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

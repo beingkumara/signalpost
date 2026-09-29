@@ -1,0 +1,619 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "938156107",
+  "orgnr_formatted": "938 156 107",
+  "name": "DYRSKUVEGEN 4 AS KONKURSBO",
+  "status": "active",
+  "checked_at": "2026-09-29T10:34:07Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "DYRSKUVEGEN 4 AS KONKURSBO",
+    "founded_date": "2026-07-24",
+    "registered_date": "2026-07-24",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": true,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "KBO",
+      "description": "Konkursbo",
+      "description_en": "estate in bankruptcy"
+    },
+    "business_address": {
+      "text": "Dyrskuvegen 4, 3840 SELJORD, Norge",
+      "street": [
+        "Dyrskuvegen 4"
+      ],
+      "postcode": "3840",
+      "city": "SELJORD",
+      "municipality": "SELJORD",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "SELJORD",
+      "code": "4022"
+    },
+    "postal_address": {
+      "text": "v/Adv. Hans V. Haug, Postboks 294 Bragernes, 3001 DRAMMEN, Norge",
+      "street": [
+        "v/Adv. Hans V. Haug",
+        "Postboks 294 Bragernes"
+      ],
+      "postcode": "3001",
+      "city": "DRAMMEN",
+      "municipality": "DRAMMEN",
+      "country_code": "NO"
+    },
+    "industry_codes": [
+      {
+        "code": "68.200",
+        "description": "Utleie av egen eller leid fast eiendom"
+      }
+    ],
+    "purpose": "Konkursbo.",
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "KDEB",
+        "role": "Konkursdebitor",
+        "group": "Konkursdebitor",
+        "holder": {
+          "type": "organization",
+          "name": "DYRSKUVEGEN 4 AS",
+          "orgnr": "927982846",
+          "deleted": false
+        },
+        "group_last_changed": "2026-07-24"
+      }
+    ],
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "938156123",
+        "name": "DYRSKUVEGEN 4 AS KONKURSBO",
+        "address": "Dyrskuvegen 4, 3840 SELJORD, Norge",
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938156107",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938156107"
+      },
+      "retrieved_at": "2026-09-29T10:34:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938156107",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "name",
+      "value": "DYRSKUVEGEN 4 AS KONKURSBO",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938156107",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938156107"
+      },
+      "retrieved_at": "2026-09-29T10:34:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938156107",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2026-07-24",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938156107",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938156107"
+      },
+      "retrieved_at": "2026-09-29T10:34:08Z",
+      "as_of": "2026-07-24",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "938156107",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2026-07-24",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938156107",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938156107"
+      },
+      "retrieved_at": "2026-09-29T10:34:08Z",
+      "as_of": "2026-07-24",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "938156107",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938156107",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938156107"
+      },
+      "retrieved_at": "2026-09-29T10:34:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938156107",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938156107",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938156107"
+      },
+      "retrieved_at": "2026-09-29T10:34:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938156107",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938156107",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938156107"
+      },
+      "retrieved_at": "2026-09-29T10:34:08Z",
+      "as_of": "2026-07-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "938156107",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938156107",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938156107"
+      },
+      "retrieved_at": "2026-09-29T10:34:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938156107",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938156107",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938156107"
+      },
+      "retrieved_at": "2026-09-29T10:34:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938156107",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938156107",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938156107"
+      },
+      "retrieved_at": "2026-09-29T10:34:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938156107",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938156107",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938156107"
+      },
+      "retrieved_at": "2026-09-29T10:34:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938156107",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "KBO",
+        "description": "Konkursbo",
+        "description_en": "estate in bankruptcy"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938156107",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938156107"
+      },
+      "retrieved_at": "2026-09-29T10:34:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938156107",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Dyrskuvegen 4, 3840 SELJORD, Norge",
+        "street": [
+          "Dyrskuvegen 4"
+        ],
+        "postcode": "3840",
+        "city": "SELJORD",
+        "municipality": "SELJORD",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938156107",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938156107"
+      },
+      "retrieved_at": "2026-09-29T10:34:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938156107",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "SELJORD",
+        "code": "4022"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938156107",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938156107"
+      },
+      "retrieved_at": "2026-09-29T10:34:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938156107",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "postal_address",
+      "value": {
+        "text": "v/Adv. Hans V. Haug, Postboks 294 Bragernes, 3001 DRAMMEN, Norge",
+        "street": [
+          "v/Adv. Hans V. Haug",
+          "Postboks 294 Bragernes"
+        ],
+        "postcode": "3001",
+        "city": "DRAMMEN",
+        "municipality": "DRAMMEN",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938156107",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938156107"
+      },
+      "retrieved_at": "2026-09-29T10:34:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938156107",
+        "json_path": "postadresse"
+      },
+      "confidence": "high",
+      "label": "Postal address",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "68.200",
+          "description": "Utleie av egen eller leid fast eiendom"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938156107",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938156107"
+      },
+      "retrieved_at": "2026-09-29T10:34:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938156107",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Konkursbo.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938156107",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938156107"
+      },
+      "retrieved_at": "2026-09-29T10:34:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938156107",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938156107",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938156107"
+      },
+      "retrieved_at": "2026-09-29T10:34:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938156107",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938156107",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938156107"
+      },
+      "retrieved_at": "2026-09-29T10:34:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938156107",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938156107",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938156107"
+      },
+      "retrieved_at": "2026-09-29T10:34:08Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938156107",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "KDEB",
+          "role": "Konkursdebitor",
+          "group": "Konkursdebitor",
+          "holder": {
+            "type": "organization",
+            "name": "DYRSKUVEGEN 4 AS",
+            "orgnr": "927982846",
+            "deleted": false
+          },
+          "group_last_changed": "2026-07-24"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938156107/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938156107"
+      },
+      "retrieved_at": "2026-09-29T10:34:09Z",
+      "as_of": "2026-07-24",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "938156107",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=938156107&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938156107"
+      },
+      "retrieved_at": "2026-09-29T10:34:12Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938156107",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "938156123",
+          "name": "DYRSKUVEGEN 4 AS KONKURSBO",
+          "address": "Dyrskuvegen 4, 3840 SELJORD, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=938156107&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/938156107"
+      },
+      "retrieved_at": "2026-09-29T10:34:12Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "938156107",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:34:07Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:34:08Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938156107"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:34:09Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/938156107/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:34:11Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/938156107"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:34:12Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=938156107&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "DYRSKUVEGEN 4 AS KONKURSBO (938 156 107), an estate in bankruptcy, is an active entity in Enhetsregisteret; founded 2026-07-24; address Dyrskuvegen 4, 3840 SELJORD, Norge. Main industry is 68.200 Utleie av egen eller leid fast eiendom; 1 registered sub-unit(s).",
+    "notes": [
+      "No annual accounts were found in Regnskapsregisteret (new company, late filing, or not obliged to file). No financial figures are shown."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:34:07Z",
+  "last_changed_at": "2026-09-29T10:34:07Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

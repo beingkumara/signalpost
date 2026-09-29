@@ -1,0 +1,881 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "875735632",
+  "orgnr_formatted": "875 735 632",
+  "name": "ÅLEN RØDE KORS",
+  "status": "active",
+  "checked_at": "2026-09-29T10:32:58Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "ÅLEN RØDE KORS",
+    "founded_date": "1949-02-02",
+    "registered_date": "1996-03-07",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": true,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "FLI",
+      "description": "Forening/lag/innretning",
+      "description_en": "association"
+    },
+    "business_address": {
+      "text": "7380 ÅLEN, Norge",
+      "street": [],
+      "postcode": "7380",
+      "city": "ÅLEN",
+      "municipality": "HOLTÅLEN",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "HOLTÅLEN",
+      "code": "5026"
+    },
+    "industry_codes": [
+      {
+        "code": "88.996",
+        "description": "Andre sosialtjenester uten botilbud ellers"
+      }
+    ],
+    "purpose": "Hjelpekorpsarbeid. Drive med kurs og øvelser med fokus på ungdomsgruppa.",
+    "sector": {
+      "code": "7000",
+      "description": "Ideelle organisasjoner"
+    },
+    "former_names": [
+      {
+        "name": "ÅLEN RØDE KORS V/ÅLEN REGNSKAPSKONTOR",
+        "from": "1996-03-07",
+        "to": "2009-01-15"
+      }
+    ],
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Ole Martin Aspås",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-07"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Per Mikkel Aspås",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-07"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Marit Kirkhus",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-07"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Margot Kjerrengvoll",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-07"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Jens Grytbakk",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-07"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Jon Erik Brattås",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-07"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Kjell Thore Magnussen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-07"
+      },
+      {
+        "role_code": "REGN",
+        "role": "Regnskapsfører",
+        "group": "Regnskapsfører",
+        "holder": {
+          "type": "organization",
+          "name": "MONITOR REGNSKAP AS",
+          "orgnr": "917553440",
+          "deleted": false
+        },
+        "group_last_changed": "2016-10-26"
+      }
+    ],
+    "board_chair": {
+      "type": "person",
+      "name": "Ole Martin Aspås",
+      "deceased": false
+    },
+    "accountant": {
+      "type": "organization",
+      "name": "MONITOR REGNSKAP AS",
+      "orgnr": "917553440",
+      "deleted": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Ole Martin Aspås",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Per Mikkel Aspås",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Marit Kirkhus",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Margot Kjerrengvoll",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Jens Grytbakk",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Jon Erik Brattås",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Kjell Thore Magnussen",
+        "deceased": false
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/875735632",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/875735632"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "875735632",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "name",
+      "value": "ÅLEN RØDE KORS",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/875735632",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/875735632"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "875735632",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "1949-02-02",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/875735632",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/875735632"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "1949-02-02",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "875735632",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "1996-03-07",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/875735632",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/875735632"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "1996-03-07",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "875735632",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/875735632",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/875735632"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "875735632",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/875735632",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/875735632"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "875735632",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/875735632",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/875735632"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "875735632",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/875735632",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/875735632"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "875735632",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/875735632",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/875735632"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "875735632",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/875735632",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/875735632"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "875735632",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/875735632",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/875735632"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "875735632",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "FLI",
+        "description": "Forening/lag/innretning",
+        "description_en": "association"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/875735632",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/875735632"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "875735632",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "7380 ÅLEN, Norge",
+        "street": [],
+        "postcode": "7380",
+        "city": "ÅLEN",
+        "municipality": "HOLTÅLEN",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/875735632",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/875735632"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "875735632",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "HOLTÅLEN",
+        "code": "5026"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/875735632",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/875735632"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "875735632",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "88.996",
+          "description": "Andre sosialtjenester uten botilbud ellers"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/875735632",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/875735632"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "875735632",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Hjelpekorpsarbeid. Drive med kurs og øvelser med fokus på ungdomsgruppa.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/875735632",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/875735632"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "875735632",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "7000",
+        "description": "Ideelle organisasjoner"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/875735632",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/875735632"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "875735632",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "former_names",
+      "value": [
+        {
+          "name": "ÅLEN RØDE KORS V/ÅLEN REGNSKAPSKONTOR",
+          "from": "1996-03-07",
+          "to": "2009-01-15"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/875735632",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/875735632"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "875735632",
+        "json_path": "historiskeNavn"
+      },
+      "confidence": "high",
+      "label": "Former names",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/875735632",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/875735632"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "875735632",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/875735632",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/875735632"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "875735632",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/875735632",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/875735632"
+      },
+      "retrieved_at": "2026-09-29T10:32:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "875735632",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Ole Martin Aspås",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-07"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Per Mikkel Aspås",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-07"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Marit Kirkhus",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-07"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Margot Kjerrengvoll",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-07"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Jens Grytbakk",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-07"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Jon Erik Brattås",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-07"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Kjell Thore Magnussen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-07"
+        },
+        {
+          "role_code": "REGN",
+          "role": "Regnskapsfører",
+          "group": "Regnskapsfører",
+          "holder": {
+            "type": "organization",
+            "name": "MONITOR REGNSKAP AS",
+            "orgnr": "917553440",
+            "deleted": false
+          },
+          "group_last_changed": "2016-10-26"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/875735632/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/875735632"
+      },
+      "retrieved_at": "2026-09-29T10:33:00Z",
+      "as_of": "2026-01-07",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "875735632",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Ole Martin Aspås",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/875735632/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/875735632"
+      },
+      "retrieved_at": "2026-09-29T10:33:00Z",
+      "as_of": "2026-01-07",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "875735632",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "accountant",
+      "value": {
+        "type": "organization",
+        "name": "MONITOR REGNSKAP AS",
+        "orgnr": "917553440",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/875735632/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/875735632"
+      },
+      "retrieved_at": "2026-09-29T10:33:00Z",
+      "as_of": "2016-10-26",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "875735632",
+        "json_path": "rollegrupper[type.kode=REGN]"
+      },
+      "confidence": "high",
+      "label": "Accountant",
+      "first_seen": "2026-09-29T10:32:58Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Ole Martin Aspås",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Per Mikkel Aspås",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Marit Kirkhus",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Margot Kjerrengvoll",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Jens Grytbakk",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Jon Erik Brattås",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Kjell Thore Magnussen",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/875735632/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/875735632"
+      },
+      "retrieved_at": "2026-09-29T10:33:00Z",
+      "as_of": "2026-01-07",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "875735632",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:32:58Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:32:59Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/875735632"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:33:00Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/875735632/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:33:01Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/875735632"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:33:03Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=875735632&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "ÅLEN RØDE KORS (875 735 632), an association, is an active entity in Enhetsregisteret; founded 1949-02-02; address 7380 ÅLEN, Norge. Main industry is 88.996 Andre sosialtjenester uten botilbud ellers. Board chair: Ole Martin Aspås.",
+    "notes": [
+      "No annual accounts: organisation form FLI is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:32:58Z",
+  "last_changed_at": "2026-09-29T10:32:58Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

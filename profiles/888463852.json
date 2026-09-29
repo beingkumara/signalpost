@@ -1,0 +1,795 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "888463852",
+  "orgnr_formatted": "888 463 852",
+  "name": "TINDEMAT BA",
+  "status": "active",
+  "checked_at": "2026-09-29T10:29:36Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "TINDEMAT BA",
+    "founded_date": "2005-07-15",
+    "registered_date": "2005-08-20",
+    "business_register_date": "2005-08-20",
+    "articles_date": "2005-07-15",
+    "email": "k.drotninghaug@xi.no",
+    "phone": "70 25 07 83",
+    "in_corporate_group": false,
+    "language_form": "Nynorsk",
+    "vat_registered": false,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "BA",
+      "description": "Selskap med begrenset ansvar",
+      "description_en": "company with limited liability"
+    },
+    "business_address": {
+      "text": "c/o Kjell Drotninghaug, 6220 STRAUMGJERDE, Norge",
+      "street": [
+        "c/o Kjell Drotninghaug"
+      ],
+      "postcode": "6220",
+      "city": "STRAUMGJERDE",
+      "municipality": "SYKKYLVEN",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "SYKKYLVEN",
+      "code": "1528"
+    },
+    "industry_codes": [
+      {
+        "code": "10.110",
+        "description": "Bearbeiding og konservering av kjøtt unntatt fjørfekjøtt"
+      }
+    ],
+    "purpose": "Tene dei yrkesmessige interessene, først og fremst til eigarane og drivarane av økologidk jordbruk i Sykkylven. Dette gjennom lønsam utvikling, foredling, marknadsføring og sal av lokalproduserte matvarer.",
+    "sector": {
+      "code": "2100",
+      "description": "Private aksjeselskaper mv."
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Petter Norvald Velle",
+          "deceased": false
+        },
+        "group_last_changed": "2005-08-20"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Nils Sigurd Drabløs",
+          "deceased": false
+        },
+        "group_last_changed": "2005-08-20"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Kjell Perry Drotninghaug",
+          "deceased": false
+        },
+        "group_last_changed": "2005-08-20"
+      },
+      {
+        "role_code": "VARA",
+        "role": "Varamedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Svein Helge Hjorthol",
+          "deceased": false
+        },
+        "group_last_changed": "2005-08-20"
+      },
+      {
+        "role_code": "VARA",
+        "role": "Varamedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Svein Arne Midtgård",
+          "deceased": true
+        },
+        "group_last_changed": "2005-08-20"
+      }
+    ],
+    "board_chair": {
+      "type": "person",
+      "name": "Petter Norvald Velle",
+      "deceased": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Petter Norvald Velle",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Nils Sigurd Drabløs",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Kjell Perry Drotninghaug",
+        "deceased": false
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/888463852",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/888463852"
+      },
+      "retrieved_at": "2026-09-29T10:29:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "888463852",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:29:36Z"
+    },
+    {
+      "field": "name",
+      "value": "TINDEMAT BA",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/888463852",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/888463852"
+      },
+      "retrieved_at": "2026-09-29T10:29:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "888463852",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:29:36Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2005-07-15",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/888463852",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/888463852"
+      },
+      "retrieved_at": "2026-09-29T10:29:38Z",
+      "as_of": "2005-07-15",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "888463852",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:29:36Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2005-08-20",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/888463852",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/888463852"
+      },
+      "retrieved_at": "2026-09-29T10:29:38Z",
+      "as_of": "2005-08-20",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "888463852",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:29:36Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "2005-08-20",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/888463852",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/888463852"
+      },
+      "retrieved_at": "2026-09-29T10:29:38Z",
+      "as_of": "2005-08-20",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "888463852",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:29:36Z"
+    },
+    {
+      "field": "articles_date",
+      "value": "2005-07-15",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/888463852",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/888463852"
+      },
+      "retrieved_at": "2026-09-29T10:29:38Z",
+      "as_of": "2005-07-15",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "888463852",
+        "json_path": "vedtektsdato"
+      },
+      "confidence": "high",
+      "label": "Date of articles of association",
+      "first_seen": "2026-09-29T10:29:36Z"
+    },
+    {
+      "field": "email",
+      "value": "k.drotninghaug@xi.no",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/888463852",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/888463852"
+      },
+      "retrieved_at": "2026-09-29T10:29:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "888463852",
+        "json_path": "epostadresse"
+      },
+      "confidence": "high",
+      "label": "Email",
+      "first_seen": "2026-09-29T10:29:36Z"
+    },
+    {
+      "field": "phone",
+      "value": "70 25 07 83",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/888463852",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/888463852"
+      },
+      "retrieved_at": "2026-09-29T10:29:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "888463852",
+        "json_path": "telefon"
+      },
+      "confidence": "high",
+      "label": "Phone",
+      "first_seen": "2026-09-29T10:29:36Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/888463852",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/888463852"
+      },
+      "retrieved_at": "2026-09-29T10:29:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "888463852",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:29:36Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Nynorsk",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/888463852",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/888463852"
+      },
+      "retrieved_at": "2026-09-29T10:29:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "888463852",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:29:36Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/888463852",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/888463852"
+      },
+      "retrieved_at": "2026-09-29T10:29:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "888463852",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:29:36Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/888463852",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/888463852"
+      },
+      "retrieved_at": "2026-09-29T10:29:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "888463852",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:29:36Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/888463852",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/888463852"
+      },
+      "retrieved_at": "2026-09-29T10:29:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "888463852",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:29:36Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/888463852",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/888463852"
+      },
+      "retrieved_at": "2026-09-29T10:29:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "888463852",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:29:36Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/888463852",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/888463852"
+      },
+      "retrieved_at": "2026-09-29T10:29:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "888463852",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:29:36Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "BA",
+        "description": "Selskap med begrenset ansvar",
+        "description_en": "company with limited liability"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/888463852",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/888463852"
+      },
+      "retrieved_at": "2026-09-29T10:29:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "888463852",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:29:36Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "c/o Kjell Drotninghaug, 6220 STRAUMGJERDE, Norge",
+        "street": [
+          "c/o Kjell Drotninghaug"
+        ],
+        "postcode": "6220",
+        "city": "STRAUMGJERDE",
+        "municipality": "SYKKYLVEN",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/888463852",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/888463852"
+      },
+      "retrieved_at": "2026-09-29T10:29:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "888463852",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:29:36Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "SYKKYLVEN",
+        "code": "1528"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/888463852",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/888463852"
+      },
+      "retrieved_at": "2026-09-29T10:29:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "888463852",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:29:36Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "10.110",
+          "description": "Bearbeiding og konservering av kjøtt unntatt fjørfekjøtt"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/888463852",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/888463852"
+      },
+      "retrieved_at": "2026-09-29T10:29:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "888463852",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:29:36Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Tene dei yrkesmessige interessene, først og fremst til eigarane og drivarane av økologidk jordbruk i Sykkylven. Dette gjennom lønsam utvikling, foredling, marknadsføring og sal av lokalproduserte matvarer.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/888463852",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/888463852"
+      },
+      "retrieved_at": "2026-09-29T10:29:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "888463852",
+        "json_path": "vedtektsfestetFormaal"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:29:36Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "2100",
+        "description": "Private aksjeselskaper mv."
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/888463852",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/888463852"
+      },
+      "retrieved_at": "2026-09-29T10:29:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "888463852",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:29:36Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/888463852",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/888463852"
+      },
+      "retrieved_at": "2026-09-29T10:29:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "888463852",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:29:36Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/888463852",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/888463852"
+      },
+      "retrieved_at": "2026-09-29T10:29:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "888463852",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:29:36Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/888463852",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/888463852"
+      },
+      "retrieved_at": "2026-09-29T10:29:38Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "888463852",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:29:36Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Petter Norvald Velle",
+            "deceased": false
+          },
+          "group_last_changed": "2005-08-20"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Nils Sigurd Drabløs",
+            "deceased": false
+          },
+          "group_last_changed": "2005-08-20"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Kjell Perry Drotninghaug",
+            "deceased": false
+          },
+          "group_last_changed": "2005-08-20"
+        },
+        {
+          "role_code": "VARA",
+          "role": "Varamedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Svein Helge Hjorthol",
+            "deceased": false
+          },
+          "group_last_changed": "2005-08-20"
+        },
+        {
+          "role_code": "VARA",
+          "role": "Varamedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Svein Arne Midtgård",
+            "deceased": true
+          },
+          "group_last_changed": "2005-08-20"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/888463852/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/888463852"
+      },
+      "retrieved_at": "2026-09-29T10:29:39Z",
+      "as_of": "2005-08-20",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "888463852",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:29:36Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Petter Norvald Velle",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/888463852/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/888463852"
+      },
+      "retrieved_at": "2026-09-29T10:29:39Z",
+      "as_of": "2005-08-20",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "888463852",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:29:36Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Petter Norvald Velle",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Nils Sigurd Drabløs",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Kjell Perry Drotninghaug",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/888463852/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/888463852"
+      },
+      "retrieved_at": "2026-09-29T10:29:39Z",
+      "as_of": "2005-08-20",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "888463852",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:29:36Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:29:38Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/888463852"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:29:39Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/888463852/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:29:40Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/888463852"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:29:43Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=888463852&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "TINDEMAT BA (888 463 852), a company with limited liability, is an active entity in Enhetsregisteret; founded 2005-07-15; address c/o Kjell Drotninghaug, 6220 STRAUMGJERDE, Norge. Main industry is 10.110 Bearbeiding og konservering av kjøtt unntatt fjørfekjøtt. Board chair: Petter Norvald Velle.",
+    "notes": [
+      "No annual accounts were found in Regnskapsregisteret (new company, late filing, or not obliged to file). No financial figures are shown."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:29:36Z",
+  "last_changed_at": "2026-09-29T10:29:36Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

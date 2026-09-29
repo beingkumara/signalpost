@@ -1,0 +1,717 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "980436225",
+  "orgnr_formatted": "980 436 225",
+  "name": "BR NESKVERN EIENDOM DA",
+  "status": "active",
+  "checked_at": "2026-09-29T10:33:46Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "BR NESKVERN EIENDOM DA",
+    "founded_date": "1999-01-10",
+    "registered_date": "1999-02-02",
+    "business_register_date": "1999-02-02",
+    "articles_date": "1999-01-10",
+    "phone": "62 82 57 09",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "DA",
+      "description": "Ansvarlig selskap med delt ansvar",
+      "description_en": "partnership with shared liability"
+    },
+    "business_address": {
+      "text": "Goggestredet, 2219 BRANDVAL, Norge",
+      "street": [
+        "Goggestredet"
+      ],
+      "postcode": "2219",
+      "city": "BRANDVAL",
+      "municipality": "KONGSVINGER",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "KONGSVINGER",
+      "code": "3401"
+    },
+    "postal_address": {
+      "text": "Storsjøvegen 200, 2100 SKARNES, Norge",
+      "street": [
+        "Storsjøvegen 200"
+      ],
+      "postcode": "2100",
+      "city": "SKARNES",
+      "municipality": "SØR-ODAL",
+      "country_code": "NO"
+    },
+    "industry_codes": [
+      {
+        "code": "68.200",
+        "description": "Utleie av egen eller leid fast eiendom"
+      }
+    ],
+    "purpose": "Å eie og leie ut lokaler i bolig- og forretningsformål.",
+    "sector": {
+      "code": "2300",
+      "description": "Personlige foretak"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Bernt Olav Neskvern",
+          "deceased": false
+        },
+        "group_last_changed": "1999-02-02"
+      },
+      {
+        "role_code": "DTPR",
+        "role": "Deltaker med delt ansvar",
+        "group": "Deltakere",
+        "holder": {
+          "type": "person",
+          "name": "Kjetil Neskvern",
+          "deceased": false
+        },
+        "group_last_changed": "1999-02-02"
+      },
+      {
+        "role_code": "DTPR",
+        "role": "Deltaker med delt ansvar",
+        "group": "Deltakere",
+        "holder": {
+          "type": "person",
+          "name": "Bernt Olav Neskvern",
+          "deceased": false
+        },
+        "group_last_changed": "1999-02-02"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Bernt Olav Neskvern",
+      "deceased": false
+    }
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/980436225",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/980436225"
+      },
+      "retrieved_at": "2026-09-29T10:33:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "980436225",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:33:46Z"
+    },
+    {
+      "field": "name",
+      "value": "BR NESKVERN EIENDOM DA",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/980436225",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/980436225"
+      },
+      "retrieved_at": "2026-09-29T10:33:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "980436225",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:33:46Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "1999-01-10",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/980436225",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/980436225"
+      },
+      "retrieved_at": "2026-09-29T10:33:47Z",
+      "as_of": "1999-01-10",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "980436225",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:33:46Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "1999-02-02",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/980436225",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/980436225"
+      },
+      "retrieved_at": "2026-09-29T10:33:47Z",
+      "as_of": "1999-02-02",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "980436225",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:33:46Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "1999-02-02",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/980436225",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/980436225"
+      },
+      "retrieved_at": "2026-09-29T10:33:47Z",
+      "as_of": "1999-02-02",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "980436225",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:33:46Z"
+    },
+    {
+      "field": "articles_date",
+      "value": "1999-01-10",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/980436225",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/980436225"
+      },
+      "retrieved_at": "2026-09-29T10:33:47Z",
+      "as_of": "1999-01-10",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "980436225",
+        "json_path": "vedtektsdato"
+      },
+      "confidence": "high",
+      "label": "Date of articles of association",
+      "first_seen": "2026-09-29T10:33:46Z"
+    },
+    {
+      "field": "phone",
+      "value": "62 82 57 09",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/980436225",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/980436225"
+      },
+      "retrieved_at": "2026-09-29T10:33:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "980436225",
+        "json_path": "telefon"
+      },
+      "confidence": "high",
+      "label": "Phone",
+      "first_seen": "2026-09-29T10:33:46Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/980436225",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/980436225"
+      },
+      "retrieved_at": "2026-09-29T10:33:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "980436225",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:33:46Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/980436225",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/980436225"
+      },
+      "retrieved_at": "2026-09-29T10:33:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "980436225",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:33:46Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/980436225",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/980436225"
+      },
+      "retrieved_at": "2026-09-29T10:33:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "980436225",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:33:46Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/980436225",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/980436225"
+      },
+      "retrieved_at": "2026-09-29T10:33:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "980436225",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:33:46Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/980436225",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/980436225"
+      },
+      "retrieved_at": "2026-09-29T10:33:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "980436225",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:33:46Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/980436225",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/980436225"
+      },
+      "retrieved_at": "2026-09-29T10:33:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "980436225",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:33:46Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/980436225",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/980436225"
+      },
+      "retrieved_at": "2026-09-29T10:33:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "980436225",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:33:46Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "DA",
+        "description": "Ansvarlig selskap med delt ansvar",
+        "description_en": "partnership with shared liability"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/980436225",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/980436225"
+      },
+      "retrieved_at": "2026-09-29T10:33:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "980436225",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:33:46Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Goggestredet, 2219 BRANDVAL, Norge",
+        "street": [
+          "Goggestredet"
+        ],
+        "postcode": "2219",
+        "city": "BRANDVAL",
+        "municipality": "KONGSVINGER",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/980436225",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/980436225"
+      },
+      "retrieved_at": "2026-09-29T10:33:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "980436225",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:33:46Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "KONGSVINGER",
+        "code": "3401"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/980436225",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/980436225"
+      },
+      "retrieved_at": "2026-09-29T10:33:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "980436225",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:33:46Z"
+    },
+    {
+      "field": "postal_address",
+      "value": {
+        "text": "Storsjøvegen 200, 2100 SKARNES, Norge",
+        "street": [
+          "Storsjøvegen 200"
+        ],
+        "postcode": "2100",
+        "city": "SKARNES",
+        "municipality": "SØR-ODAL",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/980436225",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/980436225"
+      },
+      "retrieved_at": "2026-09-29T10:33:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "980436225",
+        "json_path": "postadresse"
+      },
+      "confidence": "high",
+      "label": "Postal address",
+      "first_seen": "2026-09-29T10:33:46Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "68.200",
+          "description": "Utleie av egen eller leid fast eiendom"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/980436225",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/980436225"
+      },
+      "retrieved_at": "2026-09-29T10:33:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "980436225",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:33:46Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Å eie og leie ut lokaler i bolig- og forretningsformål.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/980436225",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/980436225"
+      },
+      "retrieved_at": "2026-09-29T10:33:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "980436225",
+        "json_path": "vedtektsfestetFormaal"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:33:46Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "2300",
+        "description": "Personlige foretak"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/980436225",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/980436225"
+      },
+      "retrieved_at": "2026-09-29T10:33:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "980436225",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:33:46Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/980436225",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/980436225"
+      },
+      "retrieved_at": "2026-09-29T10:33:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "980436225",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:33:46Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/980436225",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/980436225"
+      },
+      "retrieved_at": "2026-09-29T10:33:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "980436225",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:33:46Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/980436225",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/980436225"
+      },
+      "retrieved_at": "2026-09-29T10:33:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "980436225",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:33:46Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Bernt Olav Neskvern",
+            "deceased": false
+          },
+          "group_last_changed": "1999-02-02"
+        },
+        {
+          "role_code": "DTPR",
+          "role": "Deltaker med delt ansvar",
+          "group": "Deltakere",
+          "holder": {
+            "type": "person",
+            "name": "Kjetil Neskvern",
+            "deceased": false
+          },
+          "group_last_changed": "1999-02-02"
+        },
+        {
+          "role_code": "DTPR",
+          "role": "Deltaker med delt ansvar",
+          "group": "Deltakere",
+          "holder": {
+            "type": "person",
+            "name": "Bernt Olav Neskvern",
+            "deceased": false
+          },
+          "group_last_changed": "1999-02-02"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/980436225/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/980436225"
+      },
+      "retrieved_at": "2026-09-29T10:33:50Z",
+      "as_of": "1999-02-02",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "980436225",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:33:46Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Bernt Olav Neskvern",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/980436225/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/980436225"
+      },
+      "retrieved_at": "2026-09-29T10:33:50Z",
+      "as_of": "1999-02-02",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "980436225",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:33:46Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:33:47Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/980436225"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:33:50Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/980436225/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:33:51Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/980436225"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:33:52Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=980436225&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "BR NESKVERN EIENDOM DA (980 436 225), a partnership with shared liability, is an active entity in Enhetsregisteret; founded 1999-01-10; address Goggestredet, 2219 BRANDVAL, Norge. Main industry is 68.200 Utleie av egen eller leid fast eiendom. Daily manager: Bernt Olav Neskvern.",
+    "notes": [
+      "No annual accounts: organisation form DA is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:33:46Z",
+  "last_changed_at": "2026-09-29T10:33:46Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

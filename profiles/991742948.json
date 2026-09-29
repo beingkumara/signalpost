@@ -1,0 +1,747 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "991742948",
+  "orgnr_formatted": "991 742 948",
+  "name": "VIDAR RUSTAND TRANSPORT ANS",
+  "status": "active",
+  "checked_at": "2026-09-29T10:30:41Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "VIDAR RUSTAND TRANSPORT ANS",
+    "founded_date": "2007-09-20",
+    "registered_date": "2007-10-11",
+    "business_register_date": "2007-10-11",
+    "articles_date": "2007-09-20",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "ANS",
+      "description": "Ansvarlig selskap med solidarisk ansvar",
+      "description_en": "general partnership"
+    },
+    "business_address": {
+      "text": "3622 SVENE, Norge",
+      "street": [],
+      "postcode": "3622",
+      "city": "SVENE",
+      "municipality": "FLESBERG",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "FLESBERG",
+      "code": "3334"
+    },
+    "postal_address": {
+      "text": "Grettevegen 1, 3622 SVENE, Norge",
+      "street": [
+        "Grettevegen 1"
+      ],
+      "postcode": "3622",
+      "city": "SVENE",
+      "municipality": "FLESBERG",
+      "country_code": "NO"
+    },
+    "industry_codes": [
+      {
+        "code": "43.120",
+        "description": "Grunnarbeid"
+      }
+    ],
+    "purpose": "Massetransprort med lastebil. Anleggsvirksomhet med gravemaskin. Samt annet som naturlig hører til.",
+    "sector": {
+      "code": "2300",
+      "description": "Personlige foretak"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Arvid Øystein Rustand",
+          "deceased": false
+        },
+        "group_last_changed": "2007-10-11"
+      },
+      {
+        "role_code": "DTSO",
+        "role": "Deltaker med fullt ansvar",
+        "group": "Deltakere",
+        "holder": {
+          "type": "person",
+          "name": "Arvid Øystein Rustand",
+          "deceased": false
+        },
+        "group_last_changed": "2007-10-11"
+      },
+      {
+        "role_code": "DTSO",
+        "role": "Deltaker med fullt ansvar",
+        "group": "Deltakere",
+        "holder": {
+          "type": "person",
+          "name": "Vidar Rustand",
+          "deceased": false
+        },
+        "group_last_changed": "2007-10-11"
+      },
+      {
+        "role_code": "REGN",
+        "role": "Regnskapsfører",
+        "group": "Regnskapsfører",
+        "holder": {
+          "type": "organization",
+          "name": "FLESBERG REGNSKAPSKONTOR SA",
+          "orgnr": "971454946",
+          "deleted": false
+        },
+        "group_last_changed": "2007-10-11"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Arvid Øystein Rustand",
+      "deceased": false
+    },
+    "accountant": {
+      "type": "organization",
+      "name": "FLESBERG REGNSKAPSKONTOR SA",
+      "orgnr": "971454946",
+      "deleted": false
+    }
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991742948",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991742948"
+      },
+      "retrieved_at": "2026-09-29T10:30:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991742948",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:30:41Z"
+    },
+    {
+      "field": "name",
+      "value": "VIDAR RUSTAND TRANSPORT ANS",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991742948",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991742948"
+      },
+      "retrieved_at": "2026-09-29T10:30:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991742948",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:30:41Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2007-09-20",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991742948",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991742948"
+      },
+      "retrieved_at": "2026-09-29T10:30:42Z",
+      "as_of": "2007-09-20",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "991742948",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:30:41Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2007-10-11",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991742948",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991742948"
+      },
+      "retrieved_at": "2026-09-29T10:30:42Z",
+      "as_of": "2007-10-11",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "991742948",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:30:41Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "2007-10-11",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991742948",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991742948"
+      },
+      "retrieved_at": "2026-09-29T10:30:42Z",
+      "as_of": "2007-10-11",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "991742948",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:30:41Z"
+    },
+    {
+      "field": "articles_date",
+      "value": "2007-09-20",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991742948",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991742948"
+      },
+      "retrieved_at": "2026-09-29T10:30:42Z",
+      "as_of": "2007-09-20",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "991742948",
+        "json_path": "vedtektsdato"
+      },
+      "confidence": "high",
+      "label": "Date of articles of association",
+      "first_seen": "2026-09-29T10:30:41Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991742948",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991742948"
+      },
+      "retrieved_at": "2026-09-29T10:30:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991742948",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:30:41Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991742948",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991742948"
+      },
+      "retrieved_at": "2026-09-29T10:30:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991742948",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:30:41Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991742948",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991742948"
+      },
+      "retrieved_at": "2026-09-29T10:30:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991742948",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:30:41Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991742948",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991742948"
+      },
+      "retrieved_at": "2026-09-29T10:30:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991742948",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:30:41Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991742948",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991742948"
+      },
+      "retrieved_at": "2026-09-29T10:30:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991742948",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:30:41Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991742948",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991742948"
+      },
+      "retrieved_at": "2026-09-29T10:30:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991742948",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:30:41Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991742948",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991742948"
+      },
+      "retrieved_at": "2026-09-29T10:30:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991742948",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:30:41Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "ANS",
+        "description": "Ansvarlig selskap med solidarisk ansvar",
+        "description_en": "general partnership"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991742948",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991742948"
+      },
+      "retrieved_at": "2026-09-29T10:30:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991742948",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:30:41Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "3622 SVENE, Norge",
+        "street": [],
+        "postcode": "3622",
+        "city": "SVENE",
+        "municipality": "FLESBERG",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991742948",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991742948"
+      },
+      "retrieved_at": "2026-09-29T10:30:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991742948",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:30:41Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "FLESBERG",
+        "code": "3334"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991742948",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991742948"
+      },
+      "retrieved_at": "2026-09-29T10:30:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991742948",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:30:41Z"
+    },
+    {
+      "field": "postal_address",
+      "value": {
+        "text": "Grettevegen 1, 3622 SVENE, Norge",
+        "street": [
+          "Grettevegen 1"
+        ],
+        "postcode": "3622",
+        "city": "SVENE",
+        "municipality": "FLESBERG",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991742948",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991742948"
+      },
+      "retrieved_at": "2026-09-29T10:30:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991742948",
+        "json_path": "postadresse"
+      },
+      "confidence": "high",
+      "label": "Postal address",
+      "first_seen": "2026-09-29T10:30:41Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "43.120",
+          "description": "Grunnarbeid"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991742948",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991742948"
+      },
+      "retrieved_at": "2026-09-29T10:30:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991742948",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:30:41Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Massetransprort med lastebil. Anleggsvirksomhet med gravemaskin. Samt annet som naturlig hører til.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991742948",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991742948"
+      },
+      "retrieved_at": "2026-09-29T10:30:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991742948",
+        "json_path": "vedtektsfestetFormaal"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:30:41Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "2300",
+        "description": "Personlige foretak"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991742948",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991742948"
+      },
+      "retrieved_at": "2026-09-29T10:30:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991742948",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:30:41Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991742948",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991742948"
+      },
+      "retrieved_at": "2026-09-29T10:30:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991742948",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:30:41Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991742948",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991742948"
+      },
+      "retrieved_at": "2026-09-29T10:30:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991742948",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:30:41Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991742948",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991742948"
+      },
+      "retrieved_at": "2026-09-29T10:30:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991742948",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:30:41Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Arvid Øystein Rustand",
+            "deceased": false
+          },
+          "group_last_changed": "2007-10-11"
+        },
+        {
+          "role_code": "DTSO",
+          "role": "Deltaker med fullt ansvar",
+          "group": "Deltakere",
+          "holder": {
+            "type": "person",
+            "name": "Arvid Øystein Rustand",
+            "deceased": false
+          },
+          "group_last_changed": "2007-10-11"
+        },
+        {
+          "role_code": "DTSO",
+          "role": "Deltaker med fullt ansvar",
+          "group": "Deltakere",
+          "holder": {
+            "type": "person",
+            "name": "Vidar Rustand",
+            "deceased": false
+          },
+          "group_last_changed": "2007-10-11"
+        },
+        {
+          "role_code": "REGN",
+          "role": "Regnskapsfører",
+          "group": "Regnskapsfører",
+          "holder": {
+            "type": "organization",
+            "name": "FLESBERG REGNSKAPSKONTOR SA",
+            "orgnr": "971454946",
+            "deleted": false
+          },
+          "group_last_changed": "2007-10-11"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991742948/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991742948"
+      },
+      "retrieved_at": "2026-09-29T10:30:43Z",
+      "as_of": "2007-10-11",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "991742948",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:30:41Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Arvid Øystein Rustand",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991742948/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991742948"
+      },
+      "retrieved_at": "2026-09-29T10:30:43Z",
+      "as_of": "2007-10-11",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "991742948",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:30:41Z"
+    },
+    {
+      "field": "accountant",
+      "value": {
+        "type": "organization",
+        "name": "FLESBERG REGNSKAPSKONTOR SA",
+        "orgnr": "971454946",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991742948/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991742948"
+      },
+      "retrieved_at": "2026-09-29T10:30:43Z",
+      "as_of": "2007-10-11",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "991742948",
+        "json_path": "rollegrupper[type.kode=REGN]"
+      },
+      "confidence": "high",
+      "label": "Accountant",
+      "first_seen": "2026-09-29T10:30:41Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:30:42Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991742948"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:30:43Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991742948/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:30:44Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/991742948"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:30:46Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=991742948&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "VIDAR RUSTAND TRANSPORT ANS (991 742 948), a general partnership, is an active entity in Enhetsregisteret; founded 2007-09-20; address 3622 SVENE, Norge. Main industry is 43.120 Grunnarbeid. Daily manager: Arvid Øystein Rustand.",
+    "notes": [
+      "No annual accounts: organisation form ANS is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:30:41Z",
+  "last_changed_at": "2026-09-29T10:30:41Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

@@ -1,0 +1,1487 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "990632391",
+  "orgnr_formatted": "990 632 391",
+  "name": "A. JENSEN BLOMSTER AS",
+  "status": "active",
+  "checked_at": "2026-09-29T10:29:13Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "A. JENSEN BLOMSTER AS",
+    "founded_date": "2006-11-30",
+    "registered_date": "2007-01-03",
+    "business_register_date": "2007-01-03",
+    "articles_date": "2006-11-30",
+    "phone": "55 29 99 97",
+    "latest_annual_accounts_year": "2025",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": true,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "AS",
+      "description": "Aksjeselskap",
+      "description_en": "private limited company"
+    },
+    "business_address": {
+      "text": "Haukelandsveien 1, 5009 BERGEN, Norge",
+      "street": [
+        "Haukelandsveien 1"
+      ],
+      "postcode": "5009",
+      "city": "BERGEN",
+      "municipality": "BERGEN",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "BERGEN",
+      "code": "4601"
+    },
+    "industry_codes": [
+      {
+        "code": "47.761",
+        "description": "Detaljhandel med blomster, planter, gjødsel og plantevernmidler"
+      }
+    ],
+    "employees": 8,
+    "purpose": "Detaljhandel med blomster og tilhørende virksomhet.",
+    "sector": {
+      "code": "2100",
+      "description": "Private aksjeselskaper mv."
+    },
+    "share_capital": {
+      "amount": 100000.0,
+      "currency": "NOK",
+      "type": "Aksjekapital",
+      "shares": 100
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Hege Olsen",
+          "deceased": false
+        },
+        "group_last_changed": "2007-01-03"
+      },
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Hege Olsen",
+          "deceased": false
+        },
+        "group_last_changed": "2007-01-03"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Jan-Helge Rysjedal",
+          "deceased": false
+        },
+        "group_last_changed": "2007-01-03"
+      },
+      {
+        "role_code": "VARA",
+        "role": "Varamedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Helge Johan Olsen",
+          "deceased": false
+        },
+        "group_last_changed": "2007-01-03"
+      },
+      {
+        "role_code": "REVI",
+        "role": "Revisor",
+        "group": "Revisor",
+        "holder": {
+          "type": "organization",
+          "name": "TORVUND REVISJON AS",
+          "orgnr": "993550914",
+          "deleted": false
+        },
+        "group_last_changed": "2009-03-12"
+      },
+      {
+        "role_code": "REGN",
+        "role": "Regnskapsfører",
+        "group": "Regnskapsfører",
+        "holder": {
+          "type": "organization",
+          "name": "ELTO REGNSKAP AS",
+          "orgnr": "991599460",
+          "deleted": false
+        },
+        "group_last_changed": "2009-09-26"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Hege Olsen",
+      "deceased": false
+    },
+    "board_chair": {
+      "type": "person",
+      "name": "Hege Olsen",
+      "deceased": false
+    },
+    "auditor": {
+      "type": "organization",
+      "name": "TORVUND REVISJON AS",
+      "orgnr": "993550914",
+      "deleted": false
+    },
+    "accountant": {
+      "type": "organization",
+      "name": "ELTO REGNSKAP AS",
+      "orgnr": "991599460",
+      "deleted": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Hege Olsen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Jan-Helge Rysjedal",
+        "deceased": false
+      }
+    ],
+    "accounts_period": {
+      "from": "2025-01-01",
+      "to": "2025-12-31",
+      "year": "2025",
+      "currency": "NOK",
+      "type": "SELSKAP",
+      "audited": true,
+      "audit_opt_out": false
+    },
+    "revenue": {
+      "amount": 5773274.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "operating_expenses": {
+      "amount": 5400487.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "operating_profit": {
+      "amount": 372787.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "net_financial_items": {
+      "amount": -24183.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "profit_before_tax": {
+      "amount": 348604.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "net_profit": {
+      "amount": 285168.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "total_assets": {
+      "amount": 1740232.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "fixed_assets": {
+      "amount": 550650.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "current_assets": {
+      "amount": 1189582.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "equity": {
+      "amount": 293820.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "total_debt": {
+      "amount": 1446413.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "short_term_debt": {
+      "amount": 959741.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "long_term_debt": {
+      "amount": 486672.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "971714182",
+        "name": "A. JENSEN BLOMSTER AS",
+        "address": "Haukelandsveien 1, 5009 BERGEN, Norge",
+        "employees": 8
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "name",
+      "value": "A. JENSEN BLOMSTER AS",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2006-11-30",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:14Z",
+      "as_of": "2006-11-30",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2007-01-03",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:14Z",
+      "as_of": "2007-01-03",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "2007-01-03",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:14Z",
+      "as_of": "2007-01-03",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "articles_date",
+      "value": "2006-11-30",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:14Z",
+      "as_of": "2006-11-30",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "json_path": "vedtektsdato"
+      },
+      "confidence": "high",
+      "label": "Date of articles of association",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "phone",
+      "value": "55 29 99 97",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "json_path": "telefon"
+      },
+      "confidence": "high",
+      "label": "Phone",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "latest_annual_accounts_year",
+      "value": "2025",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "json_path": "sisteInnsendteAarsregnskap"
+      },
+      "confidence": "high",
+      "label": "Latest annual accounts submitted",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:14Z",
+      "as_of": "2007-01-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "AS",
+        "description": "Aksjeselskap",
+        "description_en": "private limited company"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Haukelandsveien 1, 5009 BERGEN, Norge",
+        "street": [
+          "Haukelandsveien 1"
+        ],
+        "postcode": "5009",
+        "city": "BERGEN",
+        "municipality": "BERGEN",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "BERGEN",
+        "code": "4601"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "47.761",
+          "description": "Detaljhandel med blomster, planter, gjødsel og plantevernmidler"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "employees",
+      "value": 8,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:14Z",
+      "as_of": "2026-09-10",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "json_path": "antallAnsatte"
+      },
+      "confidence": "high",
+      "label": "Registered employees",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Detaljhandel med blomster og tilhørende virksomhet.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "json_path": "vedtektsfestetFormaal"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "2100",
+        "description": "Private aksjeselskaper mv."
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "share_capital",
+      "value": {
+        "amount": 100000.0,
+        "currency": "NOK",
+        "type": "Aksjekapital",
+        "shares": 100
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:14Z",
+      "as_of": "2007-01-03",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "json_path": "kapital"
+      },
+      "confidence": "high",
+      "label": "Share capital",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Hege Olsen",
+            "deceased": false
+          },
+          "group_last_changed": "2007-01-03"
+        },
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Hege Olsen",
+            "deceased": false
+          },
+          "group_last_changed": "2007-01-03"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Jan-Helge Rysjedal",
+            "deceased": false
+          },
+          "group_last_changed": "2007-01-03"
+        },
+        {
+          "role_code": "VARA",
+          "role": "Varamedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Helge Johan Olsen",
+            "deceased": false
+          },
+          "group_last_changed": "2007-01-03"
+        },
+        {
+          "role_code": "REVI",
+          "role": "Revisor",
+          "group": "Revisor",
+          "holder": {
+            "type": "organization",
+            "name": "TORVUND REVISJON AS",
+            "orgnr": "993550914",
+            "deleted": false
+          },
+          "group_last_changed": "2009-03-12"
+        },
+        {
+          "role_code": "REGN",
+          "role": "Regnskapsfører",
+          "group": "Regnskapsfører",
+          "holder": {
+            "type": "organization",
+            "name": "ELTO REGNSKAP AS",
+            "orgnr": "991599460",
+            "deleted": false
+          },
+          "group_last_changed": "2009-09-26"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990632391/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:15Z",
+      "as_of": "2009-09-26",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Hege Olsen",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990632391/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:15Z",
+      "as_of": "2007-01-03",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Hege Olsen",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990632391/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:15Z",
+      "as_of": "2007-01-03",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "auditor",
+      "value": {
+        "type": "organization",
+        "name": "TORVUND REVISJON AS",
+        "orgnr": "993550914",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990632391/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:15Z",
+      "as_of": "2009-03-12",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "json_path": "rollegrupper[type.kode=REVI]"
+      },
+      "confidence": "high",
+      "label": "Auditor",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "accountant",
+      "value": {
+        "type": "organization",
+        "name": "ELTO REGNSKAP AS",
+        "orgnr": "991599460",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990632391/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:15Z",
+      "as_of": "2009-09-26",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "json_path": "rollegrupper[type.kode=REGN]"
+      },
+      "confidence": "high",
+      "label": "Accountant",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Hege Olsen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Jan-Helge Rysjedal",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990632391/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:15Z",
+      "as_of": "2009-09-26",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "accounts_period",
+      "value": {
+        "from": "2025-01-01",
+        "to": "2025-12-31",
+        "year": "2025",
+        "currency": "NOK",
+        "type": "SELSKAP",
+        "audited": true,
+        "audit_opt_out": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:16Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "journal_number": "2026394640",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "regnskapsperiode"
+      },
+      "confidence": "high",
+      "label": "Accounting period",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "revenue",
+      "value": {
+        "amount": 5773274.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:16Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "journal_number": "2026394640",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftsinntekter.sumDriftsinntekter"
+      },
+      "confidence": "high",
+      "label": "Operating revenue",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "operating_expenses",
+      "value": {
+        "amount": 5400487.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:16Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "journal_number": "2026394640",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftskostnad.sumDriftskostnad"
+      },
+      "confidence": "high",
+      "label": "Operating expenses",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "operating_profit",
+      "value": {
+        "amount": 372787.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:16Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "journal_number": "2026394640",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftsresultat"
+      },
+      "confidence": "high",
+      "label": "Operating profit",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "net_financial_items",
+      "value": {
+        "amount": -24183.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:16Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "journal_number": "2026394640",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.finansresultat.nettoFinans"
+      },
+      "confidence": "high",
+      "label": "Net financial items",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "profit_before_tax",
+      "value": {
+        "amount": 348604.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:16Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "journal_number": "2026394640",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.ordinaertResultatFoerSkattekostnad"
+      },
+      "confidence": "high",
+      "label": "Profit before tax",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "net_profit",
+      "value": {
+        "amount": 285168.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:16Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "journal_number": "2026394640",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.aarsresultat"
+      },
+      "confidence": "high",
+      "label": "Net profit (annual result)",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "total_assets",
+      "value": {
+        "amount": 1740232.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:16Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "journal_number": "2026394640",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.sumEiendeler"
+      },
+      "confidence": "high",
+      "label": "Total assets",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "fixed_assets",
+      "value": {
+        "amount": 550650.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:16Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "journal_number": "2026394640",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.anleggsmidler.sumAnleggsmidler"
+      },
+      "confidence": "high",
+      "label": "Fixed assets",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "current_assets",
+      "value": {
+        "amount": 1189582.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:16Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "journal_number": "2026394640",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.omloepsmidler.sumOmloepsmidler"
+      },
+      "confidence": "high",
+      "label": "Current assets",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "equity",
+      "value": {
+        "amount": 293820.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:16Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "journal_number": "2026394640",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.egenkapital.sumEgenkapital"
+      },
+      "confidence": "high",
+      "label": "Equity",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "total_debt",
+      "value": {
+        "amount": 1446413.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:16Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "journal_number": "2026394640",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.gjeldOversikt.sumGjeld"
+      },
+      "confidence": "high",
+      "label": "Total debt",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "short_term_debt",
+      "value": {
+        "amount": 959741.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:16Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "journal_number": "2026394640",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.gjeldOversikt.kortsiktigGjeld.sumKortsiktigGjeld"
+      },
+      "confidence": "high",
+      "label": "Short-term debt",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "long_term_debt",
+      "value": {
+        "amount": 486672.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/990632391",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:16Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "journal_number": "2026394640",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.gjeldOversikt.langsiktigGjeld.sumLangsiktigGjeld"
+      },
+      "confidence": "high",
+      "label": "Long-term debt",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=990632391&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:17Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:29:13Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "971714182",
+          "name": "A. JENSEN BLOMSTER AS",
+          "address": "Haukelandsveien 1, 5009 BERGEN, Norge",
+          "employees": 8
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=990632391&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/990632391"
+      },
+      "retrieved_at": "2026-09-29T10:29:17Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "990632391",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:29:13Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:29:14Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990632391"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:29:15Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/990632391/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:29:16Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/990632391"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:29:17Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=990632391&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "A. JENSEN BLOMSTER AS (990 632 391), a private limited company, is an active entity in Enhetsregisteret; founded 2006-11-30; address Haukelandsveien 1, 5009 BERGEN, Norge. Main industry is 47.761 Detaljhandel med blomster, planter, gjødsel og plantevernmidler; 8 registered employees; 1 registered sub-unit(s). Daily manager: Hege Olsen; Board chair: Hege Olsen; Auditor: TORVUND REVISJON AS. Accounts for 2025 (period ending 2025-12-31): revenue NOK 5.77 m, operating profit NOK 372.79 k, net profit NOK 285.17 k, equity NOK 293.82 k, total assets NOK 1.74 m.",
+    "notes": []
+  },
+  "first_checked_at": "2026-09-29T10:29:13Z",
+  "last_changed_at": "2026-09-29T10:29:13Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

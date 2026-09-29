@@ -1,0 +1,555 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "827196142",
+  "orgnr_formatted": "827 196 142",
+  "name": "KASPER TUHUS SERVICE",
+  "status": "active",
+  "checked_at": "2026-09-29T10:31:51Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "KASPER TUHUS SERVICE",
+    "registered_date": "2021-06-03",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "ENK",
+      "description": "Enkeltpersonforetak",
+      "description_en": "sole proprietorship"
+    },
+    "business_address": {
+      "text": "Grensevegen 603, 2240 MAGNOR, Norge",
+      "street": [
+        "Grensevegen 603"
+      ],
+      "postcode": "2240",
+      "city": "MAGNOR",
+      "municipality": "EIDSKOG",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "EIDSKOG",
+      "code": "3416"
+    },
+    "industry_codes": [
+      {
+        "code": "02.100",
+        "description": "Skogskjøtsel og andre skogbruksaktiviteter"
+      }
+    ],
+    "purpose": "Trefelling og skogsarbeid. Vaktmester og utleie av vedlikeholdstjenester innen jord, skog og bygg.",
+    "sector": {
+      "code": "8200",
+      "description": "Personlig næringsdrivende"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "INNH",
+        "role": "Innehaver",
+        "group": "Innehaver",
+        "holder": {
+          "type": "person",
+          "name": "Kasper Thonander Tuhus",
+          "deceased": false
+        },
+        "group_last_changed": "2021-06-03"
+      }
+    ],
+    "owner": {
+      "type": "person",
+      "name": "Kasper Thonander Tuhus",
+      "deceased": false
+    }
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/827196142",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/827196142"
+      },
+      "retrieved_at": "2026-09-29T10:31:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "827196142",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:31:51Z"
+    },
+    {
+      "field": "name",
+      "value": "KASPER TUHUS SERVICE",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/827196142",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/827196142"
+      },
+      "retrieved_at": "2026-09-29T10:31:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "827196142",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:31:51Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2021-06-03",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/827196142",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/827196142"
+      },
+      "retrieved_at": "2026-09-29T10:31:52Z",
+      "as_of": "2021-06-03",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "827196142",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:31:51Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/827196142",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/827196142"
+      },
+      "retrieved_at": "2026-09-29T10:31:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "827196142",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:31:51Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/827196142",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/827196142"
+      },
+      "retrieved_at": "2026-09-29T10:31:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "827196142",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:31:51Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/827196142",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/827196142"
+      },
+      "retrieved_at": "2026-09-29T10:31:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "827196142",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:31:51Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/827196142",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/827196142"
+      },
+      "retrieved_at": "2026-09-29T10:31:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "827196142",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:31:51Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/827196142",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/827196142"
+      },
+      "retrieved_at": "2026-09-29T10:31:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "827196142",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:31:51Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/827196142",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/827196142"
+      },
+      "retrieved_at": "2026-09-29T10:31:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "827196142",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:31:51Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/827196142",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/827196142"
+      },
+      "retrieved_at": "2026-09-29T10:31:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "827196142",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:31:51Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "ENK",
+        "description": "Enkeltpersonforetak",
+        "description_en": "sole proprietorship"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/827196142",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/827196142"
+      },
+      "retrieved_at": "2026-09-29T10:31:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "827196142",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:31:51Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Grensevegen 603, 2240 MAGNOR, Norge",
+        "street": [
+          "Grensevegen 603"
+        ],
+        "postcode": "2240",
+        "city": "MAGNOR",
+        "municipality": "EIDSKOG",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/827196142",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/827196142"
+      },
+      "retrieved_at": "2026-09-29T10:31:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "827196142",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:31:51Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "EIDSKOG",
+        "code": "3416"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/827196142",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/827196142"
+      },
+      "retrieved_at": "2026-09-29T10:31:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "827196142",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:31:51Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "02.100",
+          "description": "Skogskjøtsel og andre skogbruksaktiviteter"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/827196142",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/827196142"
+      },
+      "retrieved_at": "2026-09-29T10:31:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "827196142",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:31:51Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Trefelling og skogsarbeid. Vaktmester og utleie av vedlikeholdstjenester innen jord, skog og bygg.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/827196142",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/827196142"
+      },
+      "retrieved_at": "2026-09-29T10:31:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "827196142",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:31:51Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "8200",
+        "description": "Personlig næringsdrivende"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/827196142",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/827196142"
+      },
+      "retrieved_at": "2026-09-29T10:31:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "827196142",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:31:51Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/827196142",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/827196142"
+      },
+      "retrieved_at": "2026-09-29T10:31:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "827196142",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:31:51Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/827196142",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/827196142"
+      },
+      "retrieved_at": "2026-09-29T10:31:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "827196142",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:31:51Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/827196142",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/827196142"
+      },
+      "retrieved_at": "2026-09-29T10:31:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "827196142",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:31:51Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "INNH",
+          "role": "Innehaver",
+          "group": "Innehaver",
+          "holder": {
+            "type": "person",
+            "name": "Kasper Thonander Tuhus",
+            "deceased": false
+          },
+          "group_last_changed": "2021-06-03"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/827196142/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/827196142"
+      },
+      "retrieved_at": "2026-09-29T10:31:54Z",
+      "as_of": "2021-06-03",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "827196142",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:31:51Z"
+    },
+    {
+      "field": "owner",
+      "value": {
+        "type": "person",
+        "name": "Kasper Thonander Tuhus",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/827196142/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/827196142"
+      },
+      "retrieved_at": "2026-09-29T10:31:54Z",
+      "as_of": "2021-06-03",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "827196142",
+        "json_path": "rollegrupper[type.kode=INNH]"
+      },
+      "confidence": "high",
+      "label": "Proprietor",
+      "first_seen": "2026-09-29T10:31:51Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:31:52Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/827196142"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:31:54Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/827196142/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:31:55Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/827196142"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:31:56Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=827196142&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "KASPER TUHUS SERVICE (827 196 142), a sole proprietorship, is an active entity in Enhetsregisteret; address Grensevegen 603, 2240 MAGNOR, Norge. Main industry is 02.100 Skogskjøtsel og andre skogbruksaktiviteter. Proprietor: Kasper Thonander Tuhus.",
+    "notes": [
+      "No annual accounts: organisation form ENK is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:31:51Z",
+  "last_changed_at": "2026-09-29T10:31:51Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

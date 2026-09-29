@@ -1,0 +1,769 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "932345471",
+  "orgnr_formatted": "932 345 471",
+  "name": "BRØDRENE HOLTEN ANS",
+  "status": "active",
+  "checked_at": "2026-09-29T10:27:32Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "BRØDRENE HOLTEN ANS",
+    "founded_date": "1980-01-01",
+    "registered_date": "1995-02-20",
+    "business_register_date": "1998-09-14",
+    "articles_date": "1980-01-01",
+    "phone": "75 03 17 16",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "ANS",
+      "description": "Ansvarlig selskap med solidarisk ansvar",
+      "description_en": "general partnership"
+    },
+    "business_address": {
+      "text": "c/o Svein Eirik Holten, Fosseveien 1, 7980 TERRÅK, Norge",
+      "street": [
+        "c/o Svein Eirik Holten",
+        "Fosseveien 1"
+      ],
+      "postcode": "7980",
+      "city": "TERRÅK",
+      "municipality": "BINDAL",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "BINDAL",
+      "code": "1811"
+    },
+    "industry_codes": [
+      {
+        "code": "43.990",
+        "description": "Annen spesialisert bygge- og anleggsvirksomhet ikke nevnt annet sted"
+      }
+    ],
+    "purpose": "Drive maskinentreprenørvirksomhet innen vei, vann og avløpsanlegg, samt utleie av maskiner.  ",
+    "sector": {
+      "code": "2300",
+      "description": "Personlige foretak"
+    },
+    "former_names": [
+      {
+        "name": "HOLTEN BRØDRENE",
+        "from": "1995-02-20",
+        "to": "1998-09-14"
+      }
+    ],
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Svein Eirik Holten",
+          "deceased": false
+        },
+        "group_last_changed": "1998-09-14"
+      },
+      {
+        "role_code": "DTSO",
+        "role": "Deltaker med fullt ansvar",
+        "group": "Deltakere",
+        "holder": {
+          "type": "person",
+          "name": "Svein Eirik Holten",
+          "deceased": false
+        },
+        "group_last_changed": "1998-09-14"
+      },
+      {
+        "role_code": "DTSO",
+        "role": "Deltaker med fullt ansvar",
+        "group": "Deltakere",
+        "holder": {
+          "type": "person",
+          "name": "Geir Arne Holten",
+          "deceased": false
+        },
+        "group_last_changed": "1998-09-14"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Svein Eirik Holten",
+      "deceased": false
+    },
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "919485043",
+        "name": "HOLTEN BRØDRENE ANS",
+        "address": "c/o Svein Eirik Holten, Fosseveien 1, 7980 TERRÅK, Norge",
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932345471",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932345471"
+      },
+      "retrieved_at": "2026-09-29T10:27:34Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932345471",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:27:32Z"
+    },
+    {
+      "field": "name",
+      "value": "BRØDRENE HOLTEN ANS",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932345471",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932345471"
+      },
+      "retrieved_at": "2026-09-29T10:27:34Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932345471",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:27:32Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "1980-01-01",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932345471",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932345471"
+      },
+      "retrieved_at": "2026-09-29T10:27:34Z",
+      "as_of": "1980-01-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "932345471",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:27:32Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "1995-02-20",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932345471",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932345471"
+      },
+      "retrieved_at": "2026-09-29T10:27:34Z",
+      "as_of": "1995-02-20",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "932345471",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:27:32Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "1998-09-14",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932345471",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932345471"
+      },
+      "retrieved_at": "2026-09-29T10:27:34Z",
+      "as_of": "1998-09-14",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "932345471",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:27:32Z"
+    },
+    {
+      "field": "articles_date",
+      "value": "1980-01-01",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932345471",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932345471"
+      },
+      "retrieved_at": "2026-09-29T10:27:34Z",
+      "as_of": "1980-01-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "932345471",
+        "json_path": "vedtektsdato"
+      },
+      "confidence": "high",
+      "label": "Date of articles of association",
+      "first_seen": "2026-09-29T10:27:32Z"
+    },
+    {
+      "field": "phone",
+      "value": "75 03 17 16",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932345471",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932345471"
+      },
+      "retrieved_at": "2026-09-29T10:27:34Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932345471",
+        "json_path": "telefon"
+      },
+      "confidence": "high",
+      "label": "Phone",
+      "first_seen": "2026-09-29T10:27:32Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932345471",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932345471"
+      },
+      "retrieved_at": "2026-09-29T10:27:34Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932345471",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:27:32Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932345471",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932345471"
+      },
+      "retrieved_at": "2026-09-29T10:27:34Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932345471",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:27:32Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932345471",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932345471"
+      },
+      "retrieved_at": "2026-09-29T10:27:34Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932345471",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:27:32Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932345471",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932345471"
+      },
+      "retrieved_at": "2026-09-29T10:27:34Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932345471",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:27:32Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932345471",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932345471"
+      },
+      "retrieved_at": "2026-09-29T10:27:34Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932345471",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:27:32Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932345471",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932345471"
+      },
+      "retrieved_at": "2026-09-29T10:27:34Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932345471",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:27:32Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932345471",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932345471"
+      },
+      "retrieved_at": "2026-09-29T10:27:34Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932345471",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:27:32Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "ANS",
+        "description": "Ansvarlig selskap med solidarisk ansvar",
+        "description_en": "general partnership"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932345471",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932345471"
+      },
+      "retrieved_at": "2026-09-29T10:27:34Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932345471",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:27:32Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "c/o Svein Eirik Holten, Fosseveien 1, 7980 TERRÅK, Norge",
+        "street": [
+          "c/o Svein Eirik Holten",
+          "Fosseveien 1"
+        ],
+        "postcode": "7980",
+        "city": "TERRÅK",
+        "municipality": "BINDAL",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932345471",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932345471"
+      },
+      "retrieved_at": "2026-09-29T10:27:34Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932345471",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:27:32Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "BINDAL",
+        "code": "1811"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932345471",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932345471"
+      },
+      "retrieved_at": "2026-09-29T10:27:34Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932345471",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:27:32Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "43.990",
+          "description": "Annen spesialisert bygge- og anleggsvirksomhet ikke nevnt annet sted"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932345471",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932345471"
+      },
+      "retrieved_at": "2026-09-29T10:27:34Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932345471",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:27:32Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Drive maskinentreprenørvirksomhet innen vei, vann og avløpsanlegg, samt utleie av maskiner.  ",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932345471",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932345471"
+      },
+      "retrieved_at": "2026-09-29T10:27:34Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932345471",
+        "json_path": "vedtektsfestetFormaal"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:27:32Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "2300",
+        "description": "Personlige foretak"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932345471",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932345471"
+      },
+      "retrieved_at": "2026-09-29T10:27:34Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932345471",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:27:32Z"
+    },
+    {
+      "field": "former_names",
+      "value": [
+        {
+          "name": "HOLTEN BRØDRENE",
+          "from": "1995-02-20",
+          "to": "1998-09-14"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932345471",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932345471"
+      },
+      "retrieved_at": "2026-09-29T10:27:34Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932345471",
+        "json_path": "historiskeNavn"
+      },
+      "confidence": "high",
+      "label": "Former names",
+      "first_seen": "2026-09-29T10:27:32Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932345471",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932345471"
+      },
+      "retrieved_at": "2026-09-29T10:27:34Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932345471",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:27:32Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932345471",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932345471"
+      },
+      "retrieved_at": "2026-09-29T10:27:34Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932345471",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:27:32Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932345471",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932345471"
+      },
+      "retrieved_at": "2026-09-29T10:27:34Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932345471",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:27:32Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Svein Eirik Holten",
+            "deceased": false
+          },
+          "group_last_changed": "1998-09-14"
+        },
+        {
+          "role_code": "DTSO",
+          "role": "Deltaker med fullt ansvar",
+          "group": "Deltakere",
+          "holder": {
+            "type": "person",
+            "name": "Svein Eirik Holten",
+            "deceased": false
+          },
+          "group_last_changed": "1998-09-14"
+        },
+        {
+          "role_code": "DTSO",
+          "role": "Deltaker med fullt ansvar",
+          "group": "Deltakere",
+          "holder": {
+            "type": "person",
+            "name": "Geir Arne Holten",
+            "deceased": false
+          },
+          "group_last_changed": "1998-09-14"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932345471/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932345471"
+      },
+      "retrieved_at": "2026-09-29T10:27:35Z",
+      "as_of": "1998-09-14",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "932345471",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:27:32Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Svein Eirik Holten",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932345471/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932345471"
+      },
+      "retrieved_at": "2026-09-29T10:27:35Z",
+      "as_of": "1998-09-14",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "932345471",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:27:32Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=932345471&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932345471"
+      },
+      "retrieved_at": "2026-09-29T10:27:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932345471",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:27:32Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "919485043",
+          "name": "HOLTEN BRØDRENE ANS",
+          "address": "c/o Svein Eirik Holten, Fosseveien 1, 7980 TERRÅK, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=932345471&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/932345471"
+      },
+      "retrieved_at": "2026-09-29T10:27:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "932345471",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:27:32Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:27:34Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932345471"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:27:35Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932345471/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:27:36Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/932345471"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:27:37Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=932345471&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "BRØDRENE HOLTEN ANS (932 345 471), a general partnership, is an active entity in Enhetsregisteret; founded 1980-01-01; address c/o Svein Eirik Holten, Fosseveien 1, 7980 TERRÅK, Norge. Main industry is 43.990 Annen spesialisert bygge- og anleggsvirksomhet ikke nevnt annet sted; 1 registered sub-unit(s). Daily manager: Svein Eirik Holten.",
+    "notes": [
+      "No annual accounts: organisation form ANS is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:27:32Z",
+  "last_changed_at": "2026-09-29T10:27:32Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

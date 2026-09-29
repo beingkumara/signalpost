@@ -1,0 +1,1427 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "931533193",
+  "orgnr_formatted": "931 533 193",
+  "name": "LAPPONIA EIENDOM AS",
+  "status": "active",
+  "checked_at": "2026-09-29T10:28:30Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "LAPPONIA EIENDOM AS",
+    "founded_date": "2023-05-07",
+    "registered_date": "2023-06-07",
+    "business_register_date": "2023-06-07",
+    "articles_date": "2023-05-07",
+    "latest_annual_accounts_year": "2025",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "AS",
+      "description": "Aksjeselskap",
+      "description_en": "private limited company"
+    },
+    "business_address": {
+      "text": "Álttáluodda 2703, 9523 KAUTOKEINO, Norge",
+      "street": [
+        "Álttáluodda 2703"
+      ],
+      "postcode": "9523",
+      "city": "KAUTOKEINO",
+      "municipality": "KAUTOKEINO",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "KAUTOKEINO",
+      "code": "5612"
+    },
+    "postal_address": {
+      "text": "Askimveien 508, 1816 SKIPTVET, Norge",
+      "street": [
+        "Askimveien 508"
+      ],
+      "postcode": "1816",
+      "city": "SKIPTVET",
+      "municipality": "SKIPTVET",
+      "country_code": "NO"
+    },
+    "industry_codes": [
+      {
+        "code": "68.200",
+        "description": "Utleie av egen eller leid fast eiendom"
+      }
+    ],
+    "purpose": "Investere i eiendom for utleie, etc.",
+    "sector": {
+      "code": "2100",
+      "description": "Private aksjeselskaper mv."
+    },
+    "share_capital": {
+      "amount": 30000.0,
+      "currency": "NOK",
+      "type": "Aksjekapital",
+      "shares": 30000
+    },
+    "audit_opt_out": true,
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Sten Helge Himberg",
+          "deceased": false
+        },
+        "group_last_changed": "2026-06-26"
+      },
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Nils Atle Smerthu",
+          "deceased": false
+        },
+        "group_last_changed": "2026-06-26"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Arve Bjerknes",
+          "deceased": false
+        },
+        "group_last_changed": "2026-06-26"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Sten Helge Himberg",
+          "deceased": false
+        },
+        "group_last_changed": "2026-06-26"
+      },
+      {
+        "role_code": "REGN",
+        "role": "Regnskapsfører",
+        "group": "Regnskapsfører",
+        "holder": {
+          "type": "organization",
+          "name": "ØKONOMISERVICE AS",
+          "orgnr": "976597613",
+          "deleted": false
+        },
+        "group_last_changed": "2023-06-07"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Sten Helge Himberg",
+      "deceased": false
+    },
+    "board_chair": {
+      "type": "person",
+      "name": "Nils Atle Smerthu",
+      "deceased": false
+    },
+    "accountant": {
+      "type": "organization",
+      "name": "ØKONOMISERVICE AS",
+      "orgnr": "976597613",
+      "deleted": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Nils Atle Smerthu",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Arve Bjerknes",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Sten Helge Himberg",
+        "deceased": false
+      }
+    ],
+    "accounts_period": {
+      "from": "2025-01-01",
+      "to": "2025-12-31",
+      "year": "2025",
+      "currency": "NOK",
+      "type": "SELSKAP",
+      "audited": true,
+      "audit_opt_out": true
+    },
+    "revenue": {
+      "amount": 505915.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "operating_expenses": {
+      "amount": 66966.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "operating_profit": {
+      "amount": 438949.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "net_financial_items": {
+      "amount": -75504.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "profit_before_tax": {
+      "amount": 363445.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "net_profit": {
+      "amount": 283409.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "total_assets": {
+      "amount": 2164359.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "fixed_assets": {
+      "amount": 2044870.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "current_assets": {
+      "amount": 119489.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "equity": {
+      "amount": 594860.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "total_debt": {
+      "amount": 1569499.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "short_term_debt": {
+      "amount": 204076.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "931561405",
+        "name": "LAPPONIA EIENDOM AS",
+        "address": "Álttáluodda 2703, 9523 KAUTOKEINO, Norge",
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:32Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "name",
+      "value": "LAPPONIA EIENDOM AS",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:32Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2023-05-07",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:32Z",
+      "as_of": "2023-05-07",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2023-06-07",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:32Z",
+      "as_of": "2023-06-07",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "2023-06-07",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:32Z",
+      "as_of": "2023-06-07",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "articles_date",
+      "value": "2023-05-07",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:32Z",
+      "as_of": "2023-05-07",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "json_path": "vedtektsdato"
+      },
+      "confidence": "high",
+      "label": "Date of articles of association",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "latest_annual_accounts_year",
+      "value": "2025",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:32Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "json_path": "sisteInnsendteAarsregnskap"
+      },
+      "confidence": "high",
+      "label": "Latest annual accounts submitted",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:32Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:32Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:32Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:32Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:32Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:32Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:32Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "AS",
+        "description": "Aksjeselskap",
+        "description_en": "private limited company"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:32Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Álttáluodda 2703, 9523 KAUTOKEINO, Norge",
+        "street": [
+          "Álttáluodda 2703"
+        ],
+        "postcode": "9523",
+        "city": "KAUTOKEINO",
+        "municipality": "KAUTOKEINO",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:32Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "KAUTOKEINO",
+        "code": "5612"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:32Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "postal_address",
+      "value": {
+        "text": "Askimveien 508, 1816 SKIPTVET, Norge",
+        "street": [
+          "Askimveien 508"
+        ],
+        "postcode": "1816",
+        "city": "SKIPTVET",
+        "municipality": "SKIPTVET",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:32Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "json_path": "postadresse"
+      },
+      "confidence": "high",
+      "label": "Postal address",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "68.200",
+          "description": "Utleie av egen eller leid fast eiendom"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:32Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Investere i eiendom for utleie, etc.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:32Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "json_path": "vedtektsfestetFormaal"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "2100",
+        "description": "Private aksjeselskaper mv."
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:32Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "share_capital",
+      "value": {
+        "amount": 30000.0,
+        "currency": "NOK",
+        "type": "Aksjekapital",
+        "shares": 30000
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:32Z",
+      "as_of": "2023-06-07",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "json_path": "kapital"
+      },
+      "confidence": "high",
+      "label": "Share capital",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "audit_opt_out",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:32Z",
+      "as_of": "2023-06-07",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "json_path": "fravalgRevisjonDato"
+      },
+      "confidence": "high",
+      "label": "Opted out of statutory audit",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:32Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:32Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:32Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Sten Helge Himberg",
+            "deceased": false
+          },
+          "group_last_changed": "2026-06-26"
+        },
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Nils Atle Smerthu",
+            "deceased": false
+          },
+          "group_last_changed": "2026-06-26"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Arve Bjerknes",
+            "deceased": false
+          },
+          "group_last_changed": "2026-06-26"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Sten Helge Himberg",
+            "deceased": false
+          },
+          "group_last_changed": "2026-06-26"
+        },
+        {
+          "role_code": "REGN",
+          "role": "Regnskapsfører",
+          "group": "Regnskapsfører",
+          "holder": {
+            "type": "organization",
+            "name": "ØKONOMISERVICE AS",
+            "orgnr": "976597613",
+            "deleted": false
+          },
+          "group_last_changed": "2023-06-07"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/931533193/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:33Z",
+      "as_of": "2026-06-26",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Sten Helge Himberg",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/931533193/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:33Z",
+      "as_of": "2026-06-26",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Nils Atle Smerthu",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/931533193/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:33Z",
+      "as_of": "2026-06-26",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "accountant",
+      "value": {
+        "type": "organization",
+        "name": "ØKONOMISERVICE AS",
+        "orgnr": "976597613",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/931533193/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:33Z",
+      "as_of": "2023-06-07",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "json_path": "rollegrupper[type.kode=REGN]"
+      },
+      "confidence": "high",
+      "label": "Accountant",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Nils Atle Smerthu",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Arve Bjerknes",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Sten Helge Himberg",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/931533193/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:33Z",
+      "as_of": "2026-06-26",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "accounts_period",
+      "value": {
+        "from": "2025-01-01",
+        "to": "2025-12-31",
+        "year": "2025",
+        "currency": "NOK",
+        "type": "SELSKAP",
+        "audited": true,
+        "audit_opt_out": true
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:34Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "journal_number": "2026705597",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "regnskapsperiode"
+      },
+      "confidence": "high",
+      "label": "Accounting period",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "revenue",
+      "value": {
+        "amount": 505915.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:34Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "journal_number": "2026705597",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftsinntekter.sumDriftsinntekter"
+      },
+      "confidence": "high",
+      "label": "Operating revenue",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "operating_expenses",
+      "value": {
+        "amount": 66966.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:34Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "journal_number": "2026705597",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftskostnad.sumDriftskostnad"
+      },
+      "confidence": "high",
+      "label": "Operating expenses",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "operating_profit",
+      "value": {
+        "amount": 438949.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:34Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "journal_number": "2026705597",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftsresultat"
+      },
+      "confidence": "high",
+      "label": "Operating profit",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "net_financial_items",
+      "value": {
+        "amount": -75504.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:34Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "journal_number": "2026705597",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.finansresultat.nettoFinans"
+      },
+      "confidence": "high",
+      "label": "Net financial items",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "profit_before_tax",
+      "value": {
+        "amount": 363445.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:34Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "journal_number": "2026705597",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.ordinaertResultatFoerSkattekostnad"
+      },
+      "confidence": "high",
+      "label": "Profit before tax",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "net_profit",
+      "value": {
+        "amount": 283409.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:34Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "journal_number": "2026705597",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.aarsresultat"
+      },
+      "confidence": "high",
+      "label": "Net profit (annual result)",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "total_assets",
+      "value": {
+        "amount": 2164359.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:34Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "journal_number": "2026705597",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.sumEiendeler"
+      },
+      "confidence": "high",
+      "label": "Total assets",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "fixed_assets",
+      "value": {
+        "amount": 2044870.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:34Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "journal_number": "2026705597",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.anleggsmidler.sumAnleggsmidler"
+      },
+      "confidence": "high",
+      "label": "Fixed assets",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "current_assets",
+      "value": {
+        "amount": 119489.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:34Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "journal_number": "2026705597",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.omloepsmidler.sumOmloepsmidler"
+      },
+      "confidence": "high",
+      "label": "Current assets",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "equity",
+      "value": {
+        "amount": 594860.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:34Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "journal_number": "2026705597",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.egenkapital.sumEgenkapital"
+      },
+      "confidence": "high",
+      "label": "Equity",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "total_debt",
+      "value": {
+        "amount": 1569499.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:34Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "journal_number": "2026705597",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.gjeldOversikt.sumGjeld"
+      },
+      "confidence": "high",
+      "label": "Total debt",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "short_term_debt",
+      "value": {
+        "amount": 204076.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/931533193",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:34Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "journal_number": "2026705597",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.gjeldOversikt.kortsiktigGjeld.sumKortsiktigGjeld"
+      },
+      "confidence": "high",
+      "label": "Short-term debt",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=931533193&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:35Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:28:30Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "931561405",
+          "name": "LAPPONIA EIENDOM AS",
+          "address": "Álttáluodda 2703, 9523 KAUTOKEINO, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=931533193&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/931533193"
+      },
+      "retrieved_at": "2026-09-29T10:28:35Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "931533193",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:28:30Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:28:32Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/931533193"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:28:33Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/931533193/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:28:34Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/931533193"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:28:35Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=931533193&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "LAPPONIA EIENDOM AS (931 533 193), a private limited company, is an active entity in Enhetsregisteret; founded 2023-05-07; address Álttáluodda 2703, 9523 KAUTOKEINO, Norge. Main industry is 68.200 Utleie av egen eller leid fast eiendom; 1 registered sub-unit(s). Daily manager: Sten Helge Himberg; Board chair: Nils Atle Smerthu. Accounts for 2025 (period ending 2025-12-31): revenue NOK 505.92 k, operating profit NOK 438.95 k, net profit NOK 283.41 k, equity NOK 594.86 k, total assets NOK 2.16 m.",
+    "notes": []
+  },
+  "first_checked_at": "2026-09-29T10:28:30Z",
+  "last_changed_at": "2026-09-29T10:28:30Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

@@ -1,0 +1,825 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "928319679",
+  "orgnr_formatted": "928 319 679",
+  "name": "TYNDELSRUDTUNET",
+  "status": "active",
+  "checked_at": "2026-09-29T10:28:19Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "TYNDELSRUDTUNET",
+    "founded_date": "2021-11-22",
+    "registered_date": "2022-01-07",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": true,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "FLI",
+      "description": "Forening/lag/innretning",
+      "description_en": "association"
+    },
+    "business_address": {
+      "text": "c/o Inger Marie Jaavall, Lilleveien 10, 1870 ØRJE, Norge",
+      "street": [
+        "c/o Inger Marie Jaavall",
+        "Lilleveien 10"
+      ],
+      "postcode": "1870",
+      "city": "ØRJE",
+      "municipality": "MARKER",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "MARKER",
+      "code": "3122"
+    },
+    "industry_codes": [
+      {
+        "code": "91.220",
+        "description": "Drift av historiske steder og monumenter"
+      }
+    ],
+    "purpose": "Istandsetting, drift og vedlikehold av Tyndelsrudtunet med grunn og bygninger i henhold til vernemyndighetenes bestemmelser og anbefalinger. Skal å gjøre tunet tilgjengelig for allmennheten.",
+    "sector": {
+      "code": "7000",
+      "description": "Ideelle organisasjoner"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Inger Marie Halvorsrud Jaavall",
+          "deceased": false
+        },
+        "group_last_changed": "2026-05-08"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Thorer Krosby",
+          "deceased": false
+        },
+        "group_last_changed": "2026-05-08"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Lars Kristian Ruud",
+          "deceased": false
+        },
+        "group_last_changed": "2026-05-08"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Roy Erling Heyerdahl",
+          "deceased": false
+        },
+        "group_last_changed": "2026-05-08"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Runo Johannes Lilleaasen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-05-08"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Kristine Bergqvist",
+          "deceased": false
+        },
+        "group_last_changed": "2026-05-08"
+      }
+    ],
+    "board_chair": {
+      "type": "person",
+      "name": "Inger Marie Halvorsrud Jaavall",
+      "deceased": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Inger Marie Halvorsrud Jaavall",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Thorer Krosby",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Lars Kristian Ruud",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Roy Erling Heyerdahl",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Runo Johannes Lilleaasen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Kristine Bergqvist",
+        "deceased": false
+      }
+    ],
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "928509346",
+        "name": "TYNDELSRUDTUNET",
+        "address": "c/o Inger Marie Jaavall, Lilleveien 10, 1870 ØRJE, Norge",
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/928319679",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/928319679"
+      },
+      "retrieved_at": "2026-09-29T10:28:20Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "928319679",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:28:19Z"
+    },
+    {
+      "field": "name",
+      "value": "TYNDELSRUDTUNET",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/928319679",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/928319679"
+      },
+      "retrieved_at": "2026-09-29T10:28:20Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "928319679",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:28:19Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2021-11-22",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/928319679",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/928319679"
+      },
+      "retrieved_at": "2026-09-29T10:28:20Z",
+      "as_of": "2021-11-22",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "928319679",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:28:19Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2022-01-07",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/928319679",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/928319679"
+      },
+      "retrieved_at": "2026-09-29T10:28:20Z",
+      "as_of": "2022-01-07",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "928319679",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:28:19Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/928319679",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/928319679"
+      },
+      "retrieved_at": "2026-09-29T10:28:20Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "928319679",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:28:19Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/928319679",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/928319679"
+      },
+      "retrieved_at": "2026-09-29T10:28:20Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "928319679",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:28:19Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/928319679",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/928319679"
+      },
+      "retrieved_at": "2026-09-29T10:28:20Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "928319679",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:28:19Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/928319679",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/928319679"
+      },
+      "retrieved_at": "2026-09-29T10:28:20Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "928319679",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:28:19Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/928319679",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/928319679"
+      },
+      "retrieved_at": "2026-09-29T10:28:20Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "928319679",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:28:19Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/928319679",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/928319679"
+      },
+      "retrieved_at": "2026-09-29T10:28:20Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "928319679",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:28:19Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/928319679",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/928319679"
+      },
+      "retrieved_at": "2026-09-29T10:28:20Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "928319679",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:28:19Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "FLI",
+        "description": "Forening/lag/innretning",
+        "description_en": "association"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/928319679",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/928319679"
+      },
+      "retrieved_at": "2026-09-29T10:28:20Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "928319679",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:28:19Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "c/o Inger Marie Jaavall, Lilleveien 10, 1870 ØRJE, Norge",
+        "street": [
+          "c/o Inger Marie Jaavall",
+          "Lilleveien 10"
+        ],
+        "postcode": "1870",
+        "city": "ØRJE",
+        "municipality": "MARKER",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/928319679",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/928319679"
+      },
+      "retrieved_at": "2026-09-29T10:28:20Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "928319679",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:28:19Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "MARKER",
+        "code": "3122"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/928319679",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/928319679"
+      },
+      "retrieved_at": "2026-09-29T10:28:20Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "928319679",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:28:19Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "91.220",
+          "description": "Drift av historiske steder og monumenter"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/928319679",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/928319679"
+      },
+      "retrieved_at": "2026-09-29T10:28:20Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "928319679",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:28:19Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Istandsetting, drift og vedlikehold av Tyndelsrudtunet med grunn og bygninger i henhold til vernemyndighetenes bestemmelser og anbefalinger. Skal å gjøre tunet tilgjengelig for allmennheten.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/928319679",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/928319679"
+      },
+      "retrieved_at": "2026-09-29T10:28:20Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "928319679",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:28:19Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "7000",
+        "description": "Ideelle organisasjoner"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/928319679",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/928319679"
+      },
+      "retrieved_at": "2026-09-29T10:28:20Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "928319679",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:28:19Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/928319679",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/928319679"
+      },
+      "retrieved_at": "2026-09-29T10:28:20Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "928319679",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:28:19Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/928319679",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/928319679"
+      },
+      "retrieved_at": "2026-09-29T10:28:20Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "928319679",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:28:19Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/928319679",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/928319679"
+      },
+      "retrieved_at": "2026-09-29T10:28:20Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "928319679",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:28:19Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Inger Marie Halvorsrud Jaavall",
+            "deceased": false
+          },
+          "group_last_changed": "2026-05-08"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Thorer Krosby",
+            "deceased": false
+          },
+          "group_last_changed": "2026-05-08"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Lars Kristian Ruud",
+            "deceased": false
+          },
+          "group_last_changed": "2026-05-08"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Roy Erling Heyerdahl",
+            "deceased": false
+          },
+          "group_last_changed": "2026-05-08"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Runo Johannes Lilleaasen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-05-08"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Kristine Bergqvist",
+            "deceased": false
+          },
+          "group_last_changed": "2026-05-08"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/928319679/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/928319679"
+      },
+      "retrieved_at": "2026-09-29T10:28:21Z",
+      "as_of": "2026-05-08",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "928319679",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:28:19Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Inger Marie Halvorsrud Jaavall",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/928319679/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/928319679"
+      },
+      "retrieved_at": "2026-09-29T10:28:21Z",
+      "as_of": "2026-05-08",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "928319679",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:28:19Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Inger Marie Halvorsrud Jaavall",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Thorer Krosby",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Lars Kristian Ruud",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Roy Erling Heyerdahl",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Runo Johannes Lilleaasen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Kristine Bergqvist",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/928319679/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/928319679"
+      },
+      "retrieved_at": "2026-09-29T10:28:21Z",
+      "as_of": "2026-05-08",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "928319679",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:28:19Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=928319679&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/928319679"
+      },
+      "retrieved_at": "2026-09-29T10:28:24Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "928319679",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:28:19Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "928509346",
+          "name": "TYNDELSRUDTUNET",
+          "address": "c/o Inger Marie Jaavall, Lilleveien 10, 1870 ØRJE, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=928319679&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/928319679"
+      },
+      "retrieved_at": "2026-09-29T10:28:24Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "928319679",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:28:19Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:28:20Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/928319679"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:28:21Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/928319679/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:28:22Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/928319679"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:28:24Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=928319679&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "TYNDELSRUDTUNET (928 319 679), an association, is an active entity in Enhetsregisteret; founded 2021-11-22; address c/o Inger Marie Jaavall, Lilleveien 10, 1870 ØRJE, Norge. Main industry is 91.220 Drift av historiske steder og monumenter; 1 registered sub-unit(s). Board chair: Inger Marie Halvorsrud Jaavall.",
+    "notes": [
+      "No annual accounts: organisation form FLI is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:28:19Z",
+  "last_changed_at": "2026-09-29T10:28:19Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

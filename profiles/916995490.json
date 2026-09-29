@@ -1,0 +1,651 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "916995490",
+  "orgnr_formatted": "916 995 490",
+  "name": "NORDHORDLAND ETTERSØKSLAG",
+  "status": "active",
+  "checked_at": "2026-09-29T10:32:36Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "NORDHORDLAND ETTERSØKSLAG",
+    "founded_date": "2016-04-04",
+    "registered_date": "2016-04-11",
+    "in_corporate_group": false,
+    "language_form": "Nynorsk",
+    "vat_registered": false,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": true,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "FLI",
+      "description": "Forening/lag/innretning",
+      "description_en": "association"
+    },
+    "business_address": {
+      "text": "c/o Lars Øyvind Hillestad, Alvervegen 37B, 5911 ALVERSUND, Norge",
+      "street": [
+        "c/o Lars Øyvind Hillestad",
+        "Alvervegen 37B"
+      ],
+      "postcode": "5911",
+      "city": "ALVERSUND",
+      "municipality": "ALVER",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "ALVER",
+      "code": "4631"
+    },
+    "postal_address": {
+      "text": "Nordhordland Ettersøkslag, c/o Karsten Korneliussen, Holmåsvegen 73, 5955 LINDÅS, Norge",
+      "street": [
+        "Nordhordland Ettersøkslag",
+        "c/o Karsten Korneliussen",
+        "Holmåsvegen 73"
+      ],
+      "postcode": "5955",
+      "city": "LINDÅS",
+      "municipality": "ALVER",
+      "country_code": "NO"
+    },
+    "industry_codes": [
+      {
+        "code": "93.292",
+        "description": "Fritidsvirksomhet ellers"
+      }
+    ],
+    "purpose": "Nordhordland Ettersøkslag har som formål å tilby jegere/jaktlag og kommuner i nordhordland godkjente ettersøksekvipasjer for bruk under jakt og offentlege ettersøk.",
+    "sector": {
+      "code": "7000",
+      "description": "Ideelle organisasjoner"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Karsten André Korneliussen",
+          "deceased": false
+        },
+        "group_last_changed": "2018-05-14"
+      }
+    ],
+    "board_chair": {
+      "type": "person",
+      "name": "Karsten André Korneliussen",
+      "deceased": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Karsten André Korneliussen",
+        "deceased": false
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/916995490",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/916995490"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "916995490",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "name",
+      "value": "NORDHORDLAND ETTERSØKSLAG",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/916995490",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/916995490"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "916995490",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2016-04-04",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/916995490",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/916995490"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2016-04-04",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "916995490",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2016-04-11",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/916995490",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/916995490"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2016-04-11",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "916995490",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/916995490",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/916995490"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "916995490",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Nynorsk",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/916995490",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/916995490"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "916995490",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/916995490",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/916995490"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "916995490",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/916995490",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/916995490"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "916995490",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/916995490",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/916995490"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "916995490",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/916995490",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/916995490"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "916995490",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/916995490",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/916995490"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "916995490",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "FLI",
+        "description": "Forening/lag/innretning",
+        "description_en": "association"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/916995490",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/916995490"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "916995490",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "c/o Lars Øyvind Hillestad, Alvervegen 37B, 5911 ALVERSUND, Norge",
+        "street": [
+          "c/o Lars Øyvind Hillestad",
+          "Alvervegen 37B"
+        ],
+        "postcode": "5911",
+        "city": "ALVERSUND",
+        "municipality": "ALVER",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/916995490",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/916995490"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "916995490",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "ALVER",
+        "code": "4631"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/916995490",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/916995490"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "916995490",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "postal_address",
+      "value": {
+        "text": "Nordhordland Ettersøkslag, c/o Karsten Korneliussen, Holmåsvegen 73, 5955 LINDÅS, Norge",
+        "street": [
+          "Nordhordland Ettersøkslag",
+          "c/o Karsten Korneliussen",
+          "Holmåsvegen 73"
+        ],
+        "postcode": "5955",
+        "city": "LINDÅS",
+        "municipality": "ALVER",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/916995490",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/916995490"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "916995490",
+        "json_path": "postadresse"
+      },
+      "confidence": "high",
+      "label": "Postal address",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "93.292",
+          "description": "Fritidsvirksomhet ellers"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/916995490",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/916995490"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "916995490",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Nordhordland Ettersøkslag har som formål å tilby jegere/jaktlag og kommuner i nordhordland godkjente ettersøksekvipasjer for bruk under jakt og offentlege ettersøk.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/916995490",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/916995490"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "916995490",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "7000",
+        "description": "Ideelle organisasjoner"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/916995490",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/916995490"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "916995490",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/916995490",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/916995490"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "916995490",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/916995490",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/916995490"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "916995490",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/916995490",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/916995490"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "916995490",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Karsten André Korneliussen",
+            "deceased": false
+          },
+          "group_last_changed": "2018-05-14"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/916995490/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/916995490"
+      },
+      "retrieved_at": "2026-09-29T10:32:38Z",
+      "as_of": "2018-05-14",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "916995490",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Karsten André Korneliussen",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/916995490/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/916995490"
+      },
+      "retrieved_at": "2026-09-29T10:32:38Z",
+      "as_of": "2018-05-14",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "916995490",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Karsten André Korneliussen",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/916995490/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/916995490"
+      },
+      "retrieved_at": "2026-09-29T10:32:38Z",
+      "as_of": "2018-05-14",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "916995490",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:32:36Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:32:37Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/916995490"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:32:38Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/916995490/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:32:40Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/916995490"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:32:41Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=916995490&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "NORDHORDLAND ETTERSØKSLAG (916 995 490), an association, is an active entity in Enhetsregisteret; founded 2016-04-04; address c/o Lars Øyvind Hillestad, Alvervegen 37B, 5911 ALVERSUND, Norge. Main industry is 93.292 Fritidsvirksomhet ellers. Board chair: Karsten André Korneliussen.",
+    "notes": [
+      "No annual accounts: organisation form FLI is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:32:36Z",
+  "last_changed_at": "2026-09-29T10:32:36Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

@@ -1,0 +1,697 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "976299337",
+  "orgnr_formatted": "976 299 337",
+  "name": "SAMFUNNSPARTIET",
+  "status": "active",
+  "checked_at": "2026-09-29T10:27:48Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "SAMFUNNSPARTIET",
+    "founded_date": "1984-11-10",
+    "registered_date": "1996-04-24",
+    "articles_date": "1985-03-30",
+    "mobile": "414 17 625",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "ANNA",
+      "description": "Annen juridisk person",
+      "description_en": null
+    },
+    "business_address": {
+      "text": "Kirkevegen 13, 8640 HEMNESBERGET, Norge",
+      "street": [
+        "Kirkevegen 13"
+      ],
+      "postcode": "8640",
+      "city": "HEMNESBERGET",
+      "municipality": "HEMNES",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "HEMNES",
+      "code": "1832"
+    },
+    "industry_codes": [
+      {
+        "code": "94.920",
+        "description": "Aktiviteter i partipolitiske organisasjoner"
+      }
+    ],
+    "purpose": "Samfunnsparti er eit registrert politisk parti.",
+    "sector": {
+      "code": "7000",
+      "description": "Ideelle organisasjoner"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Øystein Johannessen",
+          "deceased": false
+        },
+        "group_last_changed": "2019-06-14"
+      },
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Øystein Johannessen",
+          "deceased": false
+        },
+        "group_last_changed": "2019-06-14"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Øystein Johannessen",
+      "deceased": false
+    },
+    "board_chair": {
+      "type": "person",
+      "name": "Øystein Johannessen",
+      "deceased": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Øystein Johannessen",
+        "deceased": false
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976299337",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976299337"
+      },
+      "retrieved_at": "2026-09-29T10:27:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976299337",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:27:48Z"
+    },
+    {
+      "field": "name",
+      "value": "SAMFUNNSPARTIET",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976299337",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976299337"
+      },
+      "retrieved_at": "2026-09-29T10:27:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976299337",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:27:48Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "1984-11-10",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976299337",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976299337"
+      },
+      "retrieved_at": "2026-09-29T10:27:49Z",
+      "as_of": "1984-11-10",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "976299337",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:27:48Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "1996-04-24",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976299337",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976299337"
+      },
+      "retrieved_at": "2026-09-29T10:27:49Z",
+      "as_of": "1996-04-24",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "976299337",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:27:48Z"
+    },
+    {
+      "field": "articles_date",
+      "value": "1985-03-30",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976299337",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976299337"
+      },
+      "retrieved_at": "2026-09-29T10:27:49Z",
+      "as_of": "1985-03-30",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "976299337",
+        "json_path": "vedtektsdato"
+      },
+      "confidence": "high",
+      "label": "Date of articles of association",
+      "first_seen": "2026-09-29T10:27:48Z"
+    },
+    {
+      "field": "mobile",
+      "value": "414 17 625",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976299337",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976299337"
+      },
+      "retrieved_at": "2026-09-29T10:27:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976299337",
+        "json_path": "mobil"
+      },
+      "confidence": "high",
+      "label": "Mobile phone",
+      "first_seen": "2026-09-29T10:27:48Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976299337",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976299337"
+      },
+      "retrieved_at": "2026-09-29T10:27:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976299337",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:27:48Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976299337",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976299337"
+      },
+      "retrieved_at": "2026-09-29T10:27:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976299337",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:27:48Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976299337",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976299337"
+      },
+      "retrieved_at": "2026-09-29T10:27:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976299337",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:27:48Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976299337",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976299337"
+      },
+      "retrieved_at": "2026-09-29T10:27:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976299337",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:27:48Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976299337",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976299337"
+      },
+      "retrieved_at": "2026-09-29T10:27:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976299337",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:27:48Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976299337",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976299337"
+      },
+      "retrieved_at": "2026-09-29T10:27:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976299337",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:27:48Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976299337",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976299337"
+      },
+      "retrieved_at": "2026-09-29T10:27:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976299337",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:27:48Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "ANNA",
+        "description": "Annen juridisk person",
+        "description_en": null
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976299337",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976299337"
+      },
+      "retrieved_at": "2026-09-29T10:27:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976299337",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:27:48Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Kirkevegen 13, 8640 HEMNESBERGET, Norge",
+        "street": [
+          "Kirkevegen 13"
+        ],
+        "postcode": "8640",
+        "city": "HEMNESBERGET",
+        "municipality": "HEMNES",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976299337",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976299337"
+      },
+      "retrieved_at": "2026-09-29T10:27:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976299337",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:27:48Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "HEMNES",
+        "code": "1832"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976299337",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976299337"
+      },
+      "retrieved_at": "2026-09-29T10:27:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976299337",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:27:48Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "94.920",
+          "description": "Aktiviteter i partipolitiske organisasjoner"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976299337",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976299337"
+      },
+      "retrieved_at": "2026-09-29T10:27:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976299337",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:27:48Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Samfunnsparti er eit registrert politisk parti.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976299337",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976299337"
+      },
+      "retrieved_at": "2026-09-29T10:27:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976299337",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:27:48Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "7000",
+        "description": "Ideelle organisasjoner"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976299337",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976299337"
+      },
+      "retrieved_at": "2026-09-29T10:27:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976299337",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:27:48Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976299337",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976299337"
+      },
+      "retrieved_at": "2026-09-29T10:27:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976299337",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:27:48Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976299337",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976299337"
+      },
+      "retrieved_at": "2026-09-29T10:27:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976299337",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:27:48Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976299337",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976299337"
+      },
+      "retrieved_at": "2026-09-29T10:27:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976299337",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:27:48Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Øystein Johannessen",
+            "deceased": false
+          },
+          "group_last_changed": "2019-06-14"
+        },
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Øystein Johannessen",
+            "deceased": false
+          },
+          "group_last_changed": "2019-06-14"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976299337/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976299337"
+      },
+      "retrieved_at": "2026-09-29T10:27:50Z",
+      "as_of": "2019-06-14",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "976299337",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:27:48Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Øystein Johannessen",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976299337/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976299337"
+      },
+      "retrieved_at": "2026-09-29T10:27:50Z",
+      "as_of": "2019-06-14",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "976299337",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:27:48Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Øystein Johannessen",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976299337/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976299337"
+      },
+      "retrieved_at": "2026-09-29T10:27:50Z",
+      "as_of": "2019-06-14",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "976299337",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:27:48Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Øystein Johannessen",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976299337/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976299337"
+      },
+      "retrieved_at": "2026-09-29T10:27:50Z",
+      "as_of": "2019-06-14",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "976299337",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:27:48Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:27:49Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976299337"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:27:50Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976299337/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:27:51Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/976299337"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:27:52Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=976299337&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "SAMFUNNSPARTIET (976 299 337), an annen juridisk person, is an active entity in Enhetsregisteret; founded 1984-11-10; address Kirkevegen 13, 8640 HEMNESBERGET, Norge. Main industry is 94.920 Aktiviteter i partipolitiske organisasjoner. Daily manager: Øystein Johannessen; Board chair: Øystein Johannessen.",
+    "notes": [
+      "No annual accounts were found in Regnskapsregisteret (new company, late filing, or not obliged to file). No financial figures are shown."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:27:48Z",
+  "last_changed_at": "2026-09-29T10:27:48Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

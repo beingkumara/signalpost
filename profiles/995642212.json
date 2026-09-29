@@ -1,0 +1,745 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "995642212",
+  "orgnr_formatted": "995 642 212",
+  "name": "RAGNA BLEY",
+  "status": "active",
+  "checked_at": "2026-09-29T10:27:49Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "RAGNA BLEY",
+    "registered_date": "2010-06-19",
+    "email": "ragna.bley@gmail.com",
+    "mobile": "96 67 65 08",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "ENK",
+      "description": "Enkeltpersonforetak",
+      "description_en": "sole proprietorship"
+    },
+    "business_address": {
+      "text": "Østre Aker vei 90, 0596 OSLO, Norge",
+      "street": [
+        "Østre Aker vei 90"
+      ],
+      "postcode": "0596",
+      "city": "OSLO",
+      "municipality": "OSLO",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "OSLO",
+      "code": "0301"
+    },
+    "postal_address": {
+      "text": "c/o Ragna Bley, Tangen terrasse 43C, 1450 NESODDTANGEN, Norge",
+      "street": [
+        "c/o Ragna Bley",
+        "Tangen terrasse 43C"
+      ],
+      "postcode": "1450",
+      "city": "NESODDTANGEN",
+      "municipality": "NESODDEN",
+      "country_code": "NO"
+    },
+    "industry_codes": [
+      {
+        "code": "90.120",
+        "description": "Skapende kunstnerisk virksomhet innenfor visuell kunst"
+      }
+    ],
+    "purpose": "Selvstendig kunstnerisk virksomhet innen visuell kunst.",
+    "sector": {
+      "code": "8200",
+      "description": "Personlig næringsdrivende"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "INNH",
+        "role": "Innehaver",
+        "group": "Innehaver",
+        "holder": {
+          "type": "person",
+          "name": "Ragna Benedikte Bley",
+          "deceased": false
+        },
+        "group_last_changed": "2010-06-19"
+      },
+      {
+        "role_code": "REGN",
+        "role": "Regnskapsfører",
+        "group": "Regnskapsfører",
+        "holder": {
+          "type": "organization",
+          "name": "KUNST & KULTUR REGNSKAP AS",
+          "orgnr": "991908501",
+          "deleted": false
+        },
+        "group_last_changed": "2022-05-24"
+      }
+    ],
+    "accountant": {
+      "type": "organization",
+      "name": "KUNST & KULTUR REGNSKAP AS",
+      "orgnr": "991908501",
+      "deleted": false
+    },
+    "owner": {
+      "type": "person",
+      "name": "Ragna Benedikte Bley",
+      "deceased": false
+    },
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "929246519",
+        "name": "RAGNA BLEY",
+        "address": "Østre Aker vei 90, 0596 OSLO, Norge",
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995642212",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995642212"
+      },
+      "retrieved_at": "2026-09-29T10:27:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995642212",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:27:49Z"
+    },
+    {
+      "field": "name",
+      "value": "RAGNA BLEY",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995642212",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995642212"
+      },
+      "retrieved_at": "2026-09-29T10:27:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995642212",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:27:49Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2010-06-19",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995642212",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995642212"
+      },
+      "retrieved_at": "2026-09-29T10:27:51Z",
+      "as_of": "2010-06-19",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "995642212",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:27:49Z"
+    },
+    {
+      "field": "email",
+      "value": "ragna.bley@gmail.com",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995642212",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995642212"
+      },
+      "retrieved_at": "2026-09-29T10:27:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995642212",
+        "json_path": "epostadresse"
+      },
+      "confidence": "high",
+      "label": "Email",
+      "first_seen": "2026-09-29T10:27:49Z"
+    },
+    {
+      "field": "mobile",
+      "value": "96 67 65 08",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995642212",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995642212"
+      },
+      "retrieved_at": "2026-09-29T10:27:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995642212",
+        "json_path": "mobil"
+      },
+      "confidence": "high",
+      "label": "Mobile phone",
+      "first_seen": "2026-09-29T10:27:49Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995642212",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995642212"
+      },
+      "retrieved_at": "2026-09-29T10:27:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995642212",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:27:49Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995642212",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995642212"
+      },
+      "retrieved_at": "2026-09-29T10:27:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995642212",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:27:49Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995642212",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995642212"
+      },
+      "retrieved_at": "2026-09-29T10:27:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995642212",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:27:49Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995642212",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995642212"
+      },
+      "retrieved_at": "2026-09-29T10:27:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995642212",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:27:49Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995642212",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995642212"
+      },
+      "retrieved_at": "2026-09-29T10:27:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995642212",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:27:49Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995642212",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995642212"
+      },
+      "retrieved_at": "2026-09-29T10:27:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995642212",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:27:49Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995642212",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995642212"
+      },
+      "retrieved_at": "2026-09-29T10:27:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995642212",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:27:49Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "ENK",
+        "description": "Enkeltpersonforetak",
+        "description_en": "sole proprietorship"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995642212",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995642212"
+      },
+      "retrieved_at": "2026-09-29T10:27:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995642212",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:27:49Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Østre Aker vei 90, 0596 OSLO, Norge",
+        "street": [
+          "Østre Aker vei 90"
+        ],
+        "postcode": "0596",
+        "city": "OSLO",
+        "municipality": "OSLO",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995642212",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995642212"
+      },
+      "retrieved_at": "2026-09-29T10:27:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995642212",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:27:49Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "OSLO",
+        "code": "0301"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995642212",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995642212"
+      },
+      "retrieved_at": "2026-09-29T10:27:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995642212",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:27:49Z"
+    },
+    {
+      "field": "postal_address",
+      "value": {
+        "text": "c/o Ragna Bley, Tangen terrasse 43C, 1450 NESODDTANGEN, Norge",
+        "street": [
+          "c/o Ragna Bley",
+          "Tangen terrasse 43C"
+        ],
+        "postcode": "1450",
+        "city": "NESODDTANGEN",
+        "municipality": "NESODDEN",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995642212",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995642212"
+      },
+      "retrieved_at": "2026-09-29T10:27:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995642212",
+        "json_path": "postadresse"
+      },
+      "confidence": "high",
+      "label": "Postal address",
+      "first_seen": "2026-09-29T10:27:49Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "90.120",
+          "description": "Skapende kunstnerisk virksomhet innenfor visuell kunst"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995642212",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995642212"
+      },
+      "retrieved_at": "2026-09-29T10:27:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995642212",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:27:49Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Selvstendig kunstnerisk virksomhet innen visuell kunst.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995642212",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995642212"
+      },
+      "retrieved_at": "2026-09-29T10:27:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995642212",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:27:49Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "8200",
+        "description": "Personlig næringsdrivende"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995642212",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995642212"
+      },
+      "retrieved_at": "2026-09-29T10:27:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995642212",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:27:49Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995642212",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995642212"
+      },
+      "retrieved_at": "2026-09-29T10:27:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995642212",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:27:49Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995642212",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995642212"
+      },
+      "retrieved_at": "2026-09-29T10:27:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995642212",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:27:49Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995642212",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995642212"
+      },
+      "retrieved_at": "2026-09-29T10:27:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995642212",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:27:49Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "INNH",
+          "role": "Innehaver",
+          "group": "Innehaver",
+          "holder": {
+            "type": "person",
+            "name": "Ragna Benedikte Bley",
+            "deceased": false
+          },
+          "group_last_changed": "2010-06-19"
+        },
+        {
+          "role_code": "REGN",
+          "role": "Regnskapsfører",
+          "group": "Regnskapsfører",
+          "holder": {
+            "type": "organization",
+            "name": "KUNST & KULTUR REGNSKAP AS",
+            "orgnr": "991908501",
+            "deleted": false
+          },
+          "group_last_changed": "2022-05-24"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995642212/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995642212"
+      },
+      "retrieved_at": "2026-09-29T10:27:52Z",
+      "as_of": "2022-05-24",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "995642212",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:27:49Z"
+    },
+    {
+      "field": "accountant",
+      "value": {
+        "type": "organization",
+        "name": "KUNST & KULTUR REGNSKAP AS",
+        "orgnr": "991908501",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995642212/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995642212"
+      },
+      "retrieved_at": "2026-09-29T10:27:52Z",
+      "as_of": "2022-05-24",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "995642212",
+        "json_path": "rollegrupper[type.kode=REGN]"
+      },
+      "confidence": "high",
+      "label": "Accountant",
+      "first_seen": "2026-09-29T10:27:49Z"
+    },
+    {
+      "field": "owner",
+      "value": {
+        "type": "person",
+        "name": "Ragna Benedikte Bley",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995642212/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995642212"
+      },
+      "retrieved_at": "2026-09-29T10:27:52Z",
+      "as_of": "2010-06-19",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "995642212",
+        "json_path": "rollegrupper[type.kode=INNH]"
+      },
+      "confidence": "high",
+      "label": "Proprietor",
+      "first_seen": "2026-09-29T10:27:49Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=995642212&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995642212"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995642212",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:27:49Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "929246519",
+          "name": "RAGNA BLEY",
+          "address": "Østre Aker vei 90, 0596 OSLO, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=995642212&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995642212"
+      },
+      "retrieved_at": "2026-09-29T10:27:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995642212",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:27:49Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:27:51Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995642212"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:27:52Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995642212/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:27:53Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/995642212"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:27:54Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=995642212&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "RAGNA BLEY (995 642 212), a sole proprietorship, is an active entity in Enhetsregisteret; address Østre Aker vei 90, 0596 OSLO, Norge. Main industry is 90.120 Skapende kunstnerisk virksomhet innenfor visuell kunst; 1 registered sub-unit(s). Proprietor: Ragna Benedikte Bley.",
+    "notes": [
+      "No annual accounts: organisation form ENK is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:27:49Z",
+  "last_changed_at": "2026-09-29T10:27:49Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

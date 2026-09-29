@@ -1,0 +1,1604 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "822184642",
+  "orgnr_formatted": "822 184 642",
+  "name": "IMODALEN AS",
+  "status": "active",
+  "checked_at": "2026-09-29T10:30:28Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "IMODALEN AS",
+    "founded_date": "2018-11-28",
+    "registered_date": "2019-02-22",
+    "business_register_date": "2019-02-22",
+    "articles_date": "2018-11-28",
+    "website": "https://www.imodalen.no",
+    "email": "post@imodalen.no",
+    "latest_annual_accounts_year": "2025",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "AS",
+      "description": "Aksjeselskap",
+      "description_en": "private limited company"
+    },
+    "business_address": {
+      "text": "Modalsvegen 1464, 5729 MODALEN, Norge",
+      "street": [
+        "Modalsvegen 1464"
+      ],
+      "postcode": "5729",
+      "city": "MODALEN",
+      "municipality": "MODALEN",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "MODALEN",
+      "code": "4629"
+    },
+    "postal_address": {
+      "text": "Postboks 96, 5732 MODALEN, Norge",
+      "street": [
+        "Postboks 96"
+      ],
+      "postcode": "5732",
+      "city": "MODALEN",
+      "municipality": "MODALEN",
+      "country_code": "NO"
+    },
+    "industry_codes": [
+      {
+        "code": "79.901",
+        "description": "Aktiviteter utført av turistkontorer og destinasjonsselskaper"
+      }
+    ],
+    "purpose": "Salg av utvikling av tjenester og produkter innen reiselivs- og besøksnæringen, samt andre tjenester som naturlig hører sammen med dette.",
+    "sector": {
+      "code": "2100",
+      "description": "Private aksjeselskaper mv."
+    },
+    "share_capital": {
+      "amount": 61500.0,
+      "currency": "NOK",
+      "type": "Aksjekapital",
+      "shares": 123
+    },
+    "audit_opt_out": true,
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Simiona Lukaseviciute-Arnesen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-04-24"
+      },
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Lars Patterson",
+          "deceased": false
+        },
+        "group_last_changed": "2024-01-30"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Simiona Lukaseviciute-Arnesen",
+          "deceased": false
+        },
+        "group_last_changed": "2024-01-30"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Liv Anne Aanesen",
+          "deceased": false
+        },
+        "group_last_changed": "2024-01-30"
+      },
+      {
+        "role_code": "VARA",
+        "role": "Varamedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Laila Mette Bolstad",
+          "deceased": false
+        },
+        "group_last_changed": "2024-01-30"
+      },
+      {
+        "role_code": "VARA",
+        "role": "Varamedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Bjørn Eikefet",
+          "deceased": false
+        },
+        "group_last_changed": "2024-01-30"
+      },
+      {
+        "role_code": "REGN",
+        "role": "Regnskapsfører",
+        "group": "Regnskapsfører",
+        "holder": {
+          "type": "organization",
+          "name": "FREKHAUG REGNSKAP Øyvind Vaksvik",
+          "orgnr": "992036397",
+          "deleted": false
+        },
+        "group_last_changed": "2020-06-15"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Simiona Lukaseviciute-Arnesen",
+      "deceased": false
+    },
+    "board_chair": {
+      "type": "person",
+      "name": "Lars Patterson",
+      "deceased": false
+    },
+    "accountant": {
+      "type": "organization",
+      "name": "FREKHAUG REGNSKAP Øyvind Vaksvik",
+      "orgnr": "992036397",
+      "deleted": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Lars Patterson",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Simiona Lukaseviciute-Arnesen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Liv Anne Aanesen",
+        "deceased": false
+      }
+    ],
+    "accounts_period": {
+      "from": "2025-01-01",
+      "to": "2025-12-31",
+      "year": "2025",
+      "currency": "NOK",
+      "type": "SELSKAP",
+      "audited": true,
+      "audit_opt_out": true
+    },
+    "revenue": {
+      "amount": 0.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "operating_expenses": {
+      "amount": 34602.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "operating_profit": {
+      "amount": -34602.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "net_financial_items": {
+      "amount": 0.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "profit_before_tax": {
+      "amount": -34602.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "net_profit": {
+      "amount": -34602.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "total_assets": {
+      "amount": 21082.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "fixed_assets": {
+      "amount": 0.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "current_assets": {
+      "amount": 21082.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "equity": {
+      "amount": 21082.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "total_debt": {
+      "amount": 0.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "short_term_debt": {
+      "amount": 0.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "922288798",
+        "name": "IMODALEN AS",
+        "address": "Modalsvegen 1464, 5729 MODALEN, Norge",
+        "employees": null
+      }
+    ],
+    "website_verification": "name_on_page",
+    "website_title": "iModalen",
+    "social_profiles": {
+      "facebook": "https://www.facebook.com/imodalen",
+      "instagram": "https://www.instagram.com/i_modalen"
+    }
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "name",
+      "value": "IMODALEN AS",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2018-11-28",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:29Z",
+      "as_of": "2018-11-28",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2019-02-22",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:29Z",
+      "as_of": "2019-02-22",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "2019-02-22",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:29Z",
+      "as_of": "2019-02-22",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "articles_date",
+      "value": "2018-11-28",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:29Z",
+      "as_of": "2018-11-28",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "json_path": "vedtektsdato"
+      },
+      "confidence": "high",
+      "label": "Date of articles of association",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "website",
+      "value": "https://www.imodalen.no",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "json_path": "hjemmeside"
+      },
+      "confidence": "high",
+      "label": "Website",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "email",
+      "value": "post@imodalen.no",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "json_path": "epostadresse"
+      },
+      "confidence": "high",
+      "label": "Email",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "latest_annual_accounts_year",
+      "value": "2025",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "json_path": "sisteInnsendteAarsregnskap"
+      },
+      "confidence": "high",
+      "label": "Latest annual accounts submitted",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "AS",
+        "description": "Aksjeselskap",
+        "description_en": "private limited company"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Modalsvegen 1464, 5729 MODALEN, Norge",
+        "street": [
+          "Modalsvegen 1464"
+        ],
+        "postcode": "5729",
+        "city": "MODALEN",
+        "municipality": "MODALEN",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "MODALEN",
+        "code": "4629"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "postal_address",
+      "value": {
+        "text": "Postboks 96, 5732 MODALEN, Norge",
+        "street": [
+          "Postboks 96"
+        ],
+        "postcode": "5732",
+        "city": "MODALEN",
+        "municipality": "MODALEN",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "json_path": "postadresse"
+      },
+      "confidence": "high",
+      "label": "Postal address",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "79.901",
+          "description": "Aktiviteter utført av turistkontorer og destinasjonsselskaper"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Salg av utvikling av tjenester og produkter innen reiselivs- og besøksnæringen, samt andre tjenester som naturlig hører sammen med dette.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "json_path": "vedtektsfestetFormaal"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "2100",
+        "description": "Private aksjeselskaper mv."
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "share_capital",
+      "value": {
+        "amount": 61500.0,
+        "currency": "NOK",
+        "type": "Aksjekapital",
+        "shares": 123
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:29Z",
+      "as_of": "2019-02-22",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "json_path": "kapital"
+      },
+      "confidence": "high",
+      "label": "Share capital",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "audit_opt_out",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:29Z",
+      "as_of": "2019-02-22",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "json_path": "fravalgRevisjonDato"
+      },
+      "confidence": "high",
+      "label": "Opted out of statutory audit",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:29Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Simiona Lukaseviciute-Arnesen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-04-24"
+        },
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Lars Patterson",
+            "deceased": false
+          },
+          "group_last_changed": "2024-01-30"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Simiona Lukaseviciute-Arnesen",
+            "deceased": false
+          },
+          "group_last_changed": "2024-01-30"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Liv Anne Aanesen",
+            "deceased": false
+          },
+          "group_last_changed": "2024-01-30"
+        },
+        {
+          "role_code": "VARA",
+          "role": "Varamedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Laila Mette Bolstad",
+            "deceased": false
+          },
+          "group_last_changed": "2024-01-30"
+        },
+        {
+          "role_code": "VARA",
+          "role": "Varamedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Bjørn Eikefet",
+            "deceased": false
+          },
+          "group_last_changed": "2024-01-30"
+        },
+        {
+          "role_code": "REGN",
+          "role": "Regnskapsfører",
+          "group": "Regnskapsfører",
+          "holder": {
+            "type": "organization",
+            "name": "FREKHAUG REGNSKAP Øyvind Vaksvik",
+            "orgnr": "992036397",
+            "deleted": false
+          },
+          "group_last_changed": "2020-06-15"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/822184642/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:31Z",
+      "as_of": "2026-04-24",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Simiona Lukaseviciute-Arnesen",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/822184642/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:31Z",
+      "as_of": "2026-04-24",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Lars Patterson",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/822184642/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:31Z",
+      "as_of": "2024-01-30",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "accountant",
+      "value": {
+        "type": "organization",
+        "name": "FREKHAUG REGNSKAP Øyvind Vaksvik",
+        "orgnr": "992036397",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/822184642/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:31Z",
+      "as_of": "2020-06-15",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "json_path": "rollegrupper[type.kode=REGN]"
+      },
+      "confidence": "high",
+      "label": "Accountant",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Lars Patterson",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Simiona Lukaseviciute-Arnesen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Liv Anne Aanesen",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/822184642/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:31Z",
+      "as_of": "2026-04-24",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "accounts_period",
+      "value": {
+        "from": "2025-01-01",
+        "to": "2025-12-31",
+        "year": "2025",
+        "currency": "NOK",
+        "type": "SELSKAP",
+        "audited": true,
+        "audit_opt_out": true
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:32Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "journal_number": "2026714263",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "regnskapsperiode"
+      },
+      "confidence": "high",
+      "label": "Accounting period",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "revenue",
+      "value": {
+        "amount": 0.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:32Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "journal_number": "2026714263",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftsinntekter.sumDriftsinntekter"
+      },
+      "confidence": "high",
+      "label": "Operating revenue",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "operating_expenses",
+      "value": {
+        "amount": 34602.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:32Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "journal_number": "2026714263",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftskostnad.sumDriftskostnad"
+      },
+      "confidence": "high",
+      "label": "Operating expenses",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "operating_profit",
+      "value": {
+        "amount": -34602.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:32Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "journal_number": "2026714263",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftsresultat"
+      },
+      "confidence": "high",
+      "label": "Operating profit",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "net_financial_items",
+      "value": {
+        "amount": 0.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:32Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "journal_number": "2026714263",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.finansresultat.nettoFinans"
+      },
+      "confidence": "high",
+      "label": "Net financial items",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "profit_before_tax",
+      "value": {
+        "amount": -34602.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:32Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "journal_number": "2026714263",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.ordinaertResultatFoerSkattekostnad"
+      },
+      "confidence": "high",
+      "label": "Profit before tax",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "net_profit",
+      "value": {
+        "amount": -34602.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:32Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "journal_number": "2026714263",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.aarsresultat"
+      },
+      "confidence": "high",
+      "label": "Net profit (annual result)",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "total_assets",
+      "value": {
+        "amount": 21082.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:32Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "journal_number": "2026714263",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.sumEiendeler"
+      },
+      "confidence": "high",
+      "label": "Total assets",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "fixed_assets",
+      "value": {
+        "amount": 0.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:32Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "journal_number": "2026714263",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.anleggsmidler.sumAnleggsmidler"
+      },
+      "confidence": "high",
+      "label": "Fixed assets",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "current_assets",
+      "value": {
+        "amount": 21082.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:32Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "journal_number": "2026714263",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.omloepsmidler.sumOmloepsmidler"
+      },
+      "confidence": "high",
+      "label": "Current assets",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "equity",
+      "value": {
+        "amount": 21082.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:32Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "journal_number": "2026714263",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.egenkapital.sumEgenkapital"
+      },
+      "confidence": "high",
+      "label": "Equity",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "total_debt",
+      "value": {
+        "amount": 0.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:32Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "journal_number": "2026714263",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.gjeldOversikt.sumGjeld"
+      },
+      "confidence": "high",
+      "label": "Total debt",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "short_term_debt",
+      "value": {
+        "amount": 0.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/822184642",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:32Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "journal_number": "2026714263",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.gjeldOversikt.kortsiktigGjeld.sumKortsiktigGjeld"
+      },
+      "confidence": "high",
+      "label": "Short-term debt",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=822184642&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "922288798",
+          "name": "IMODALEN AS",
+          "address": "Modalsvegen 1464, 5729 MODALEN, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=822184642&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/822184642"
+      },
+      "retrieved_at": "2026-09-29T10:30:33Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "website_verification",
+      "value": "name_on_page",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://www.imodalen.no",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:30:34Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "identity": {
+          "level": "name_on_page",
+          "orgnr_found": false,
+          "name_found": true,
+          "name_tested": "IMODALEN"
+        },
+        "registered_url": "https://www.imodalen.no"
+      },
+      "confidence": "medium",
+      "label": "Website identity check",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "website_title",
+      "value": "iModalen",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://www.imodalen.no",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:30:34Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "identity": {
+          "level": "name_on_page",
+          "orgnr_found": false,
+          "name_found": true,
+          "name_tested": "IMODALEN"
+        },
+        "registered_url": "https://www.imodalen.no",
+        "json_path": "html.title"
+      },
+      "confidence": "medium",
+      "label": "Website title",
+      "first_seen": "2026-09-29T10:30:28Z"
+    },
+    {
+      "field": "social_profiles",
+      "value": {
+        "facebook": "https://www.facebook.com/imodalen",
+        "instagram": "https://www.instagram.com/i_modalen"
+      },
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://www.imodalen.no",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:30:34Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "822184642",
+        "identity": {
+          "level": "name_on_page",
+          "orgnr_found": false,
+          "name_found": true,
+          "name_tested": "IMODALEN"
+        },
+        "registered_url": "https://www.imodalen.no",
+        "json_path": "html.a[href]"
+      },
+      "confidence": "medium",
+      "label": "Social media links on website",
+      "first_seen": "2026-09-29T10:30:28Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:30:29Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/822184642"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:30:31Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/822184642/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:30:32Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/822184642"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:30:33Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=822184642&size=5"
+    },
+    {
+      "source": "Company website",
+      "checked_at": "2026-09-29T10:30:34Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://www.imodalen.no"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "IMODALEN AS (822 184 642), a private limited company, is an active entity in Enhetsregisteret; founded 2018-11-28; address Modalsvegen 1464, 5729 MODALEN, Norge. Main industry is 79.901 Aktiviteter utført av turistkontorer og destinasjonsselskaper; 1 registered sub-unit(s). Daily manager: Simiona Lukaseviciute-Arnesen; Board chair: Lars Patterson. Accounts for 2025 (period ending 2025-12-31): revenue NOK 0, operating profit NOK -34.60 k, net profit NOK -34.60 k, equity NOK 21.08 k, total assets NOK 21.08 k. Website https://www.imodalen.no shows the registered name.",
+    "notes": []
+  },
+  "first_checked_at": "2026-09-29T10:30:28Z",
+  "last_changed_at": "2026-09-29T10:30:28Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

@@ -1,0 +1,753 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "995484161",
+  "orgnr_formatted": "995 484 161",
+  "name": "TIPPTOPPTILLER HELHETSTERAPI/TIPSY PIERCING & LASHES TORIL TILLER",
+  "status": "active",
+  "checked_at": "2026-09-29T10:31:14Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "TIPPTOPPTILLER HELHETSTERAPI/TIPSY PIERCING & LASHES TORIL TILLER",
+    "registered_date": "2010-05-22",
+    "business_register_date": "2010-05-22",
+    "email": "t.tipsy@hotmail.com",
+    "phone": "99 37 07 37",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "ENK",
+      "description": "Enkeltpersonforetak",
+      "description_en": "sole proprietorship"
+    },
+    "business_address": {
+      "text": "Leklemsåsen 76D, 7655 VERDAL, Norge",
+      "street": [
+        "Leklemsåsen 76D"
+      ],
+      "postcode": "7655",
+      "city": "VERDAL",
+      "municipality": "VERDAL",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "VERDAL",
+      "code": "5038"
+    },
+    "industry_codes": [
+      {
+        "code": "86.950",
+        "description": "Fysioterapi- og ergoterapitjenester"
+      }
+    ],
+    "purpose": "Fysiopatmassasje, aromaterapi, massasje, øreakkupunktur, kopping, piercing.",
+    "sector": {
+      "code": "8200",
+      "description": "Personlig næringsdrivende"
+    },
+    "former_names": [
+      {
+        "name": "TILLER TIPP TOPP MASSASJE & PIERCING",
+        "from": "2010-05-29",
+        "to": "2017-06-20"
+      }
+    ],
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "INNH",
+        "role": "Innehaver",
+        "group": "Innehaver",
+        "holder": {
+          "type": "person",
+          "name": "Toril Tiller",
+          "deceased": false
+        },
+        "group_last_changed": "2010-05-22"
+      },
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Toril Tiller",
+          "deceased": false
+        },
+        "group_last_changed": "2010-05-22"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Toril Tiller",
+      "deceased": false
+    },
+    "owner": {
+      "type": "person",
+      "name": "Toril Tiller",
+      "deceased": false
+    },
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "926262076",
+        "name": "TIPPTOPPTILLER HELHETSTERAPI/TIPSY PIERCING & LASHES TORIL TILLER",
+        "address": "Leklemsåsen 76D, 7655 VERDAL, Norge",
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995484161",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995484161"
+      },
+      "retrieved_at": "2026-09-29T10:31:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995484161",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:31:14Z"
+    },
+    {
+      "field": "name",
+      "value": "TIPPTOPPTILLER HELHETSTERAPI/TIPSY PIERCING & LASHES TORIL TILLER",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995484161",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995484161"
+      },
+      "retrieved_at": "2026-09-29T10:31:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995484161",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:31:14Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2010-05-22",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995484161",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995484161"
+      },
+      "retrieved_at": "2026-09-29T10:31:15Z",
+      "as_of": "2010-05-22",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "995484161",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:31:14Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "2010-05-22",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995484161",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995484161"
+      },
+      "retrieved_at": "2026-09-29T10:31:15Z",
+      "as_of": "2010-05-22",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "995484161",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:31:14Z"
+    },
+    {
+      "field": "email",
+      "value": "t.tipsy@hotmail.com",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995484161",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995484161"
+      },
+      "retrieved_at": "2026-09-29T10:31:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995484161",
+        "json_path": "epostadresse"
+      },
+      "confidence": "high",
+      "label": "Email",
+      "first_seen": "2026-09-29T10:31:14Z"
+    },
+    {
+      "field": "phone",
+      "value": "99 37 07 37",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995484161",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995484161"
+      },
+      "retrieved_at": "2026-09-29T10:31:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995484161",
+        "json_path": "telefon"
+      },
+      "confidence": "high",
+      "label": "Phone",
+      "first_seen": "2026-09-29T10:31:14Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995484161",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995484161"
+      },
+      "retrieved_at": "2026-09-29T10:31:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995484161",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:31:14Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995484161",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995484161"
+      },
+      "retrieved_at": "2026-09-29T10:31:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995484161",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:31:14Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995484161",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995484161"
+      },
+      "retrieved_at": "2026-09-29T10:31:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995484161",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:31:14Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995484161",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995484161"
+      },
+      "retrieved_at": "2026-09-29T10:31:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995484161",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:31:14Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995484161",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995484161"
+      },
+      "retrieved_at": "2026-09-29T10:31:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995484161",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:31:14Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995484161",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995484161"
+      },
+      "retrieved_at": "2026-09-29T10:31:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995484161",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:31:14Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995484161",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995484161"
+      },
+      "retrieved_at": "2026-09-29T10:31:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995484161",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:31:14Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "ENK",
+        "description": "Enkeltpersonforetak",
+        "description_en": "sole proprietorship"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995484161",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995484161"
+      },
+      "retrieved_at": "2026-09-29T10:31:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995484161",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:31:14Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Leklemsåsen 76D, 7655 VERDAL, Norge",
+        "street": [
+          "Leklemsåsen 76D"
+        ],
+        "postcode": "7655",
+        "city": "VERDAL",
+        "municipality": "VERDAL",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995484161",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995484161"
+      },
+      "retrieved_at": "2026-09-29T10:31:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995484161",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:31:14Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "VERDAL",
+        "code": "5038"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995484161",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995484161"
+      },
+      "retrieved_at": "2026-09-29T10:31:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995484161",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:31:14Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "86.950",
+          "description": "Fysioterapi- og ergoterapitjenester"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995484161",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995484161"
+      },
+      "retrieved_at": "2026-09-29T10:31:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995484161",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:31:14Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Fysiopatmassasje, aromaterapi, massasje, øreakkupunktur, kopping, piercing.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995484161",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995484161"
+      },
+      "retrieved_at": "2026-09-29T10:31:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995484161",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:31:14Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "8200",
+        "description": "Personlig næringsdrivende"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995484161",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995484161"
+      },
+      "retrieved_at": "2026-09-29T10:31:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995484161",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:31:14Z"
+    },
+    {
+      "field": "former_names",
+      "value": [
+        {
+          "name": "TILLER TIPP TOPP MASSASJE & PIERCING",
+          "from": "2010-05-29",
+          "to": "2017-06-20"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995484161",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995484161"
+      },
+      "retrieved_at": "2026-09-29T10:31:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995484161",
+        "json_path": "historiskeNavn"
+      },
+      "confidence": "high",
+      "label": "Former names",
+      "first_seen": "2026-09-29T10:31:14Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995484161",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995484161"
+      },
+      "retrieved_at": "2026-09-29T10:31:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995484161",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:31:14Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995484161",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995484161"
+      },
+      "retrieved_at": "2026-09-29T10:31:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995484161",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:31:14Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995484161",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995484161"
+      },
+      "retrieved_at": "2026-09-29T10:31:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995484161",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:31:14Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "INNH",
+          "role": "Innehaver",
+          "group": "Innehaver",
+          "holder": {
+            "type": "person",
+            "name": "Toril Tiller",
+            "deceased": false
+          },
+          "group_last_changed": "2010-05-22"
+        },
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Toril Tiller",
+            "deceased": false
+          },
+          "group_last_changed": "2010-05-22"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995484161/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995484161"
+      },
+      "retrieved_at": "2026-09-29T10:31:18Z",
+      "as_of": "2010-05-22",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "995484161",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:31:14Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Toril Tiller",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995484161/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995484161"
+      },
+      "retrieved_at": "2026-09-29T10:31:18Z",
+      "as_of": "2010-05-22",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "995484161",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:31:14Z"
+    },
+    {
+      "field": "owner",
+      "value": {
+        "type": "person",
+        "name": "Toril Tiller",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995484161/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995484161"
+      },
+      "retrieved_at": "2026-09-29T10:31:18Z",
+      "as_of": "2010-05-22",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "995484161",
+        "json_path": "rollegrupper[type.kode=INNH]"
+      },
+      "confidence": "high",
+      "label": "Proprietor",
+      "first_seen": "2026-09-29T10:31:14Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=995484161&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995484161"
+      },
+      "retrieved_at": "2026-09-29T10:31:20Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995484161",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:31:14Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "926262076",
+          "name": "TIPPTOPPTILLER HELHETSTERAPI/TIPSY PIERCING & LASHES TORIL TILLER",
+          "address": "Leklemsåsen 76D, 7655 VERDAL, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=995484161&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/995484161"
+      },
+      "retrieved_at": "2026-09-29T10:31:20Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "995484161",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:31:14Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:31:15Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995484161"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:31:18Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/995484161/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:31:19Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/995484161"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:31:20Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=995484161&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "TIPPTOPPTILLER HELHETSTERAPI/TIPSY PIERCING & LASHES TORIL TILLER (995 484 161), a sole proprietorship, is an active entity in Enhetsregisteret; address Leklemsåsen 76D, 7655 VERDAL, Norge. Main industry is 86.950 Fysioterapi- og ergoterapitjenester; 1 registered sub-unit(s). Daily manager: Toril Tiller; Proprietor: Toril Tiller.",
+    "notes": [
+      "No annual accounts: organisation form ENK is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:31:14Z",
+  "last_changed_at": "2026-09-29T10:31:14Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

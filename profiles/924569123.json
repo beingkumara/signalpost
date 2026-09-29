@@ -1,0 +1,555 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "924569123",
+  "orgnr_formatted": "924 569 123",
+  "name": "NATALIE CHRISTIANE THOUMIEUX",
+  "status": "active",
+  "checked_at": "2026-09-29T10:28:44Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "NATALIE CHRISTIANE THOUMIEUX",
+    "registered_date": "2020-02-07",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "ENK",
+      "description": "Enkeltpersonforetak",
+      "description_en": "sole proprietorship"
+    },
+    "business_address": {
+      "text": "Vestfjorddalsgata 3C, 3660 RJUKAN, Norge",
+      "street": [
+        "Vestfjorddalsgata 3C"
+      ],
+      "postcode": "3660",
+      "city": "RJUKAN",
+      "municipality": "TINN",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "TINN",
+      "code": "4026"
+    },
+    "industry_codes": [
+      {
+        "code": "73.110",
+        "description": "Reklamebyråvirksomhet"
+      }
+    ],
+    "purpose": "Å gjennomføre demonstrasjon av lakseprodukter i butikker, hotell- og restaurantdrift, og guidede turer, reisearrangementer som planlegging og dermed kompatible operasjoner.",
+    "sector": {
+      "code": "8200",
+      "description": "Personlig næringsdrivende"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "INNH",
+        "role": "Innehaver",
+        "group": "Innehaver",
+        "holder": {
+          "type": "person",
+          "name": "Natalie Christiane Thoumieux",
+          "deceased": false
+        },
+        "group_last_changed": "2020-02-07"
+      }
+    ],
+    "owner": {
+      "type": "person",
+      "name": "Natalie Christiane Thoumieux",
+      "deceased": false
+    }
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924569123",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924569123"
+      },
+      "retrieved_at": "2026-09-29T10:28:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924569123",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:28:44Z"
+    },
+    {
+      "field": "name",
+      "value": "NATALIE CHRISTIANE THOUMIEUX",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924569123",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924569123"
+      },
+      "retrieved_at": "2026-09-29T10:28:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924569123",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:28:44Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2020-02-07",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924569123",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924569123"
+      },
+      "retrieved_at": "2026-09-29T10:28:46Z",
+      "as_of": "2020-02-07",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "924569123",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:28:44Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924569123",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924569123"
+      },
+      "retrieved_at": "2026-09-29T10:28:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924569123",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:28:44Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924569123",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924569123"
+      },
+      "retrieved_at": "2026-09-29T10:28:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924569123",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:28:44Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924569123",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924569123"
+      },
+      "retrieved_at": "2026-09-29T10:28:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924569123",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:28:44Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924569123",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924569123"
+      },
+      "retrieved_at": "2026-09-29T10:28:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924569123",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:28:44Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924569123",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924569123"
+      },
+      "retrieved_at": "2026-09-29T10:28:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924569123",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:28:44Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924569123",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924569123"
+      },
+      "retrieved_at": "2026-09-29T10:28:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924569123",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:28:44Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924569123",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924569123"
+      },
+      "retrieved_at": "2026-09-29T10:28:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924569123",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:28:44Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "ENK",
+        "description": "Enkeltpersonforetak",
+        "description_en": "sole proprietorship"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924569123",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924569123"
+      },
+      "retrieved_at": "2026-09-29T10:28:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924569123",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:28:44Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Vestfjorddalsgata 3C, 3660 RJUKAN, Norge",
+        "street": [
+          "Vestfjorddalsgata 3C"
+        ],
+        "postcode": "3660",
+        "city": "RJUKAN",
+        "municipality": "TINN",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924569123",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924569123"
+      },
+      "retrieved_at": "2026-09-29T10:28:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924569123",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:28:44Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "TINN",
+        "code": "4026"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924569123",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924569123"
+      },
+      "retrieved_at": "2026-09-29T10:28:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924569123",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:28:44Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "73.110",
+          "description": "Reklamebyråvirksomhet"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924569123",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924569123"
+      },
+      "retrieved_at": "2026-09-29T10:28:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924569123",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:28:44Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Å gjennomføre demonstrasjon av lakseprodukter i butikker, hotell- og restaurantdrift, og guidede turer, reisearrangementer som planlegging og dermed kompatible operasjoner.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924569123",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924569123"
+      },
+      "retrieved_at": "2026-09-29T10:28:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924569123",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:28:44Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "8200",
+        "description": "Personlig næringsdrivende"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924569123",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924569123"
+      },
+      "retrieved_at": "2026-09-29T10:28:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924569123",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:28:44Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924569123",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924569123"
+      },
+      "retrieved_at": "2026-09-29T10:28:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924569123",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:28:44Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924569123",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924569123"
+      },
+      "retrieved_at": "2026-09-29T10:28:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924569123",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:28:44Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924569123",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924569123"
+      },
+      "retrieved_at": "2026-09-29T10:28:46Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924569123",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:28:44Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "INNH",
+          "role": "Innehaver",
+          "group": "Innehaver",
+          "holder": {
+            "type": "person",
+            "name": "Natalie Christiane Thoumieux",
+            "deceased": false
+          },
+          "group_last_changed": "2020-02-07"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924569123/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924569123"
+      },
+      "retrieved_at": "2026-09-29T10:28:47Z",
+      "as_of": "2020-02-07",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "924569123",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:28:44Z"
+    },
+    {
+      "field": "owner",
+      "value": {
+        "type": "person",
+        "name": "Natalie Christiane Thoumieux",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924569123/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924569123"
+      },
+      "retrieved_at": "2026-09-29T10:28:47Z",
+      "as_of": "2020-02-07",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "924569123",
+        "json_path": "rollegrupper[type.kode=INNH]"
+      },
+      "confidence": "high",
+      "label": "Proprietor",
+      "first_seen": "2026-09-29T10:28:44Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:28:46Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924569123"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:28:47Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924569123/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:28:48Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/924569123"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:28:49Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=924569123&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "NATALIE CHRISTIANE THOUMIEUX (924 569 123), a sole proprietorship, is an active entity in Enhetsregisteret; address Vestfjorddalsgata 3C, 3660 RJUKAN, Norge. Main industry is 73.110 Reklamebyråvirksomhet. Proprietor: Natalie Christiane Thoumieux.",
+    "notes": [
+      "No annual accounts: organisation form ENK is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:28:44Z",
+  "last_changed_at": "2026-09-29T10:28:44Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

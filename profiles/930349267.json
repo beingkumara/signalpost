@@ -1,0 +1,735 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "930349267",
+  "orgnr_formatted": "930 349 267",
+  "name": "LINDTJENN SAMEIE",
+  "status": "active",
+  "checked_at": "2026-09-29T10:32:22Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "LINDTJENN SAMEIE",
+    "founded_date": "2003-12-10",
+    "registered_date": "2022-12-02",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "ESEK",
+      "description": "Eierseksjonssameie",
+      "description_en": "condominium owners' association"
+    },
+    "business_address": {
+      "text": "c/o Signe Ellinor Hasdal, Lindtjenn 13, 4993 SUNDEBRU, Norge",
+      "street": [
+        "c/o Signe Ellinor Hasdal",
+        "Lindtjenn 13"
+      ],
+      "postcode": "4993",
+      "city": "SUNDEBRU",
+      "municipality": "GJERSTAD",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "GJERSTAD",
+      "code": "4211"
+    },
+    "industry_codes": [
+      {
+        "code": "97.001",
+        "description": "Aktiviteter i borettslag og boligsameier"
+      }
+    ],
+    "purpose": "Eierseksjonssameie.",
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Ellen Våle",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-28"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Brit Sjåvåg Moland",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-28"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Signe Ellinor Hasdal",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-28"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Anne Kristin Sola",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-28"
+      }
+    ],
+    "board_chair": {
+      "type": "person",
+      "name": "Ellen Våle",
+      "deceased": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Ellen Våle",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Brit Sjåvåg Moland",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Signe Ellinor Hasdal",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Anne Kristin Sola",
+        "deceased": false
+      }
+    ],
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "930351008",
+        "name": "LINDTJENN SAMEIE",
+        "address": "c/o Signe Ellinor Hasdal, Lindtjenn 13, 4993 SUNDEBRU, Norge",
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930349267",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930349267"
+      },
+      "retrieved_at": "2026-09-29T10:32:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930349267",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:32:22Z"
+    },
+    {
+      "field": "name",
+      "value": "LINDTJENN SAMEIE",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930349267",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930349267"
+      },
+      "retrieved_at": "2026-09-29T10:32:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930349267",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:32:22Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2003-12-10",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930349267",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930349267"
+      },
+      "retrieved_at": "2026-09-29T10:32:23Z",
+      "as_of": "2003-12-10",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "930349267",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:32:22Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2022-12-02",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930349267",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930349267"
+      },
+      "retrieved_at": "2026-09-29T10:32:23Z",
+      "as_of": "2022-12-02",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "930349267",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:32:22Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930349267",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930349267"
+      },
+      "retrieved_at": "2026-09-29T10:32:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930349267",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:32:22Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930349267",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930349267"
+      },
+      "retrieved_at": "2026-09-29T10:32:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930349267",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:32:22Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930349267",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930349267"
+      },
+      "retrieved_at": "2026-09-29T10:32:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930349267",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:32:22Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930349267",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930349267"
+      },
+      "retrieved_at": "2026-09-29T10:32:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930349267",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:32:22Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930349267",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930349267"
+      },
+      "retrieved_at": "2026-09-29T10:32:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930349267",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:32:22Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930349267",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930349267"
+      },
+      "retrieved_at": "2026-09-29T10:32:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930349267",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:32:22Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930349267",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930349267"
+      },
+      "retrieved_at": "2026-09-29T10:32:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930349267",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:32:22Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "ESEK",
+        "description": "Eierseksjonssameie",
+        "description_en": "condominium owners' association"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930349267",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930349267"
+      },
+      "retrieved_at": "2026-09-29T10:32:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930349267",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:32:22Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "c/o Signe Ellinor Hasdal, Lindtjenn 13, 4993 SUNDEBRU, Norge",
+        "street": [
+          "c/o Signe Ellinor Hasdal",
+          "Lindtjenn 13"
+        ],
+        "postcode": "4993",
+        "city": "SUNDEBRU",
+        "municipality": "GJERSTAD",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930349267",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930349267"
+      },
+      "retrieved_at": "2026-09-29T10:32:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930349267",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:32:22Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "GJERSTAD",
+        "code": "4211"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930349267",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930349267"
+      },
+      "retrieved_at": "2026-09-29T10:32:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930349267",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:32:22Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "97.001",
+          "description": "Aktiviteter i borettslag og boligsameier"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930349267",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930349267"
+      },
+      "retrieved_at": "2026-09-29T10:32:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930349267",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:32:22Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Eierseksjonssameie.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930349267",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930349267"
+      },
+      "retrieved_at": "2026-09-29T10:32:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930349267",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:32:22Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930349267",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930349267"
+      },
+      "retrieved_at": "2026-09-29T10:32:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930349267",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:32:22Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930349267",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930349267"
+      },
+      "retrieved_at": "2026-09-29T10:32:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930349267",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:32:22Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930349267",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930349267"
+      },
+      "retrieved_at": "2026-09-29T10:32:23Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930349267",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:32:22Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Ellen Våle",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-28"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Brit Sjåvåg Moland",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-28"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Signe Ellinor Hasdal",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-28"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Anne Kristin Sola",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-28"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930349267/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930349267"
+      },
+      "retrieved_at": "2026-09-29T10:32:24Z",
+      "as_of": "2026-01-28",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "930349267",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:32:22Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Ellen Våle",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930349267/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930349267"
+      },
+      "retrieved_at": "2026-09-29T10:32:24Z",
+      "as_of": "2026-01-28",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "930349267",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:32:22Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Ellen Våle",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Brit Sjåvåg Moland",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Signe Ellinor Hasdal",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Anne Kristin Sola",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930349267/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930349267"
+      },
+      "retrieved_at": "2026-09-29T10:32:24Z",
+      "as_of": "2026-01-28",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "930349267",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:32:22Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=930349267&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930349267"
+      },
+      "retrieved_at": "2026-09-29T10:32:26Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930349267",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:32:22Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "930351008",
+          "name": "LINDTJENN SAMEIE",
+          "address": "c/o Signe Ellinor Hasdal, Lindtjenn 13, 4993 SUNDEBRU, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=930349267&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930349267"
+      },
+      "retrieved_at": "2026-09-29T10:32:26Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930349267",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:32:22Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:32:23Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930349267"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:32:24Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930349267/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:32:25Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/930349267"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:32:26Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=930349267&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "LINDTJENN SAMEIE (930 349 267), a condominium owners' association, is an active entity in Enhetsregisteret; founded 2003-12-10; address c/o Signe Ellinor Hasdal, Lindtjenn 13, 4993 SUNDEBRU, Norge. Main industry is 97.001 Aktiviteter i borettslag og boligsameier; 1 registered sub-unit(s). Board chair: Ellen Våle.",
+    "notes": [
+      "No annual accounts: organisation form ESEK is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:32:22Z",
+  "last_changed_at": "2026-09-29T10:32:22Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

@@ -1,0 +1,700 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "954364984",
+  "orgnr_formatted": "954 364 984",
+  "name": "VARESENTRET Kari Andersen",
+  "status": "active",
+  "checked_at": "2026-09-29T10:27:03Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "VARESENTRET Kari Andersen",
+    "registered_date": "1995-02-19",
+    "business_register_date": "1990-02-02",
+    "phone": "77749798",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "ENK",
+      "description": "Enkeltpersonforetak",
+      "description_en": "sole proprietorship"
+    },
+    "business_address": {
+      "text": "Torsvågveien 2170, 9136 VANNAREID, Norge",
+      "street": [
+        "Torsvågveien 2170"
+      ],
+      "postcode": "9136",
+      "city": "VANNAREID",
+      "municipality": "KARLSØY",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "KARLSØY",
+      "code": "5534"
+    },
+    "industry_codes": [
+      {
+        "code": "47.110",
+        "description": "Detaljhandel med bredt vareutvalg med hovedvekt på nærings- og nytelsesmidler"
+      }
+    ],
+    "purpose": "Dagligvareforretning.",
+    "sector": {
+      "code": "8200",
+      "description": "Personlig næringsdrivende"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "INNH",
+        "role": "Innehaver",
+        "group": "Innehaver",
+        "holder": {
+          "type": "person",
+          "name": "Kari Andersen",
+          "deceased": false
+        },
+        "group_last_changed": "1990-02-02"
+      },
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Kari Andersen",
+          "deceased": false
+        },
+        "group_last_changed": "1990-02-02"
+      },
+      {
+        "role_code": "REGN",
+        "role": "Regnskapsfører",
+        "group": "Regnskapsfører",
+        "holder": {
+          "type": "organization",
+          "name": "VSK REGNSKAP AS",
+          "orgnr": "944225722",
+          "deleted": false
+        },
+        "group_last_changed": "2026-03-08"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Kari Andersen",
+      "deceased": false
+    },
+    "accountant": {
+      "type": "organization",
+      "name": "VSK REGNSKAP AS",
+      "orgnr": "944225722",
+      "deleted": false
+    },
+    "owner": {
+      "type": "person",
+      "name": "Kari Andersen",
+      "deceased": false
+    }
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/954364984",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/954364984"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "954364984",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:25:40Z"
+    },
+    {
+      "field": "name",
+      "value": "VARESENTRET Kari Andersen",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/954364984",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/954364984"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "954364984",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:25:40Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "1995-02-19",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/954364984",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/954364984"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "1995-02-19",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "954364984",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:25:40Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "1990-02-02",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/954364984",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/954364984"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "1990-02-02",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "954364984",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:25:40Z"
+    },
+    {
+      "field": "phone",
+      "value": "77749798",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/954364984",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/954364984"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "954364984",
+        "json_path": "telefon"
+      },
+      "confidence": "high",
+      "label": "Phone",
+      "first_seen": "2026-09-29T10:25:40Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/954364984",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/954364984"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "954364984",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:25:40Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/954364984",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/954364984"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "954364984",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:25:40Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/954364984",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/954364984"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "954364984",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:25:40Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/954364984",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/954364984"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "954364984",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:25:40Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/954364984",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/954364984"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "954364984",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:25:40Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/954364984",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/954364984"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "954364984",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:25:40Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/954364984",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/954364984"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "954364984",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:25:40Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "ENK",
+        "description": "Enkeltpersonforetak",
+        "description_en": "sole proprietorship"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/954364984",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/954364984"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "954364984",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:25:40Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Torsvågveien 2170, 9136 VANNAREID, Norge",
+        "street": [
+          "Torsvågveien 2170"
+        ],
+        "postcode": "9136",
+        "city": "VANNAREID",
+        "municipality": "KARLSØY",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/954364984",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/954364984"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "954364984",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:25:40Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "KARLSØY",
+        "code": "5534"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/954364984",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/954364984"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "954364984",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:25:40Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "47.110",
+          "description": "Detaljhandel med bredt vareutvalg med hovedvekt på nærings- og nytelsesmidler"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/954364984",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/954364984"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "954364984",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:25:40Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Dagligvareforretning.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/954364984",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/954364984"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "954364984",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:25:40Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "8200",
+        "description": "Personlig næringsdrivende"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/954364984",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/954364984"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "954364984",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:25:40Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/954364984",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/954364984"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "954364984",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:25:40Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/954364984",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/954364984"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "954364984",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:25:40Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/954364984",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/954364984"
+      },
+      "retrieved_at": "2026-09-29T10:27:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "954364984",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:25:40Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "INNH",
+          "role": "Innehaver",
+          "group": "Innehaver",
+          "holder": {
+            "type": "person",
+            "name": "Kari Andersen",
+            "deceased": false
+          },
+          "group_last_changed": "1990-02-02"
+        },
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Kari Andersen",
+            "deceased": false
+          },
+          "group_last_changed": "1990-02-02"
+        },
+        {
+          "role_code": "REGN",
+          "role": "Regnskapsfører",
+          "group": "Regnskapsfører",
+          "holder": {
+            "type": "organization",
+            "name": "VSK REGNSKAP AS",
+            "orgnr": "944225722",
+            "deleted": false
+          },
+          "group_last_changed": "2026-03-08"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/954364984/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/954364984"
+      },
+      "retrieved_at": "2026-09-29T10:27:06Z",
+      "as_of": "2026-03-08",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "954364984",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:25:40Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Kari Andersen",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/954364984/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/954364984"
+      },
+      "retrieved_at": "2026-09-29T10:27:06Z",
+      "as_of": "1990-02-02",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "954364984",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:25:40Z"
+    },
+    {
+      "field": "accountant",
+      "value": {
+        "type": "organization",
+        "name": "VSK REGNSKAP AS",
+        "orgnr": "944225722",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/954364984/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/954364984"
+      },
+      "retrieved_at": "2026-09-29T10:27:06Z",
+      "as_of": "2026-03-08",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "954364984",
+        "json_path": "rollegrupper[type.kode=REGN]"
+      },
+      "confidence": "high",
+      "label": "Accountant",
+      "first_seen": "2026-09-29T10:25:40Z"
+    },
+    {
+      "field": "owner",
+      "value": {
+        "type": "person",
+        "name": "Kari Andersen",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/954364984/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/954364984"
+      },
+      "retrieved_at": "2026-09-29T10:27:06Z",
+      "as_of": "1990-02-02",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "954364984",
+        "json_path": "rollegrupper[type.kode=INNH]"
+      },
+      "confidence": "high",
+      "label": "Proprietor",
+      "first_seen": "2026-09-29T10:25:40Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:27:05Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/954364984"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:27:06Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/954364984/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:27:07Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/954364984"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:27:08Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=954364984&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "VARESENTRET Kari Andersen (954 364 984), a sole proprietorship, is an active entity in Enhetsregisteret; address Torsvågveien 2170, 9136 VANNAREID, Norge. Main industry is 47.110 Detaljhandel med bredt vareutvalg med hovedvekt på nærings- og nytelsesmidler. Daily manager: Kari Andersen; Proprietor: Kari Andersen.",
+    "notes": [
+      "No annual accounts: organisation form ENK is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:25:40Z",
+  "previous_checked_at": "2026-09-29T10:25:40Z",
+  "last_changed_at": "2026-09-29T10:25:40Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

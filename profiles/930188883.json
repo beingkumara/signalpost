@@ -1,0 +1,730 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "930188883",
+  "orgnr_formatted": "930 188 883",
+  "name": "NESSAVEIEN VEILAG",
+  "status": "active",
+  "checked_at": "2026-09-29T10:27:20Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "NESSAVEIEN VEILAG",
+    "founded_date": "2008-07-18",
+    "registered_date": "2022-11-08",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "FLI",
+      "description": "Forening/lag/innretning",
+      "description_en": "association"
+    },
+    "business_address": {
+      "text": "c/o Svein Erik Morseth, Nessaveien 65, 7142 UTHAUG, Norge",
+      "street": [
+        "c/o Svein Erik Morseth",
+        "Nessaveien 65"
+      ],
+      "postcode": "7142",
+      "city": "UTHAUG",
+      "municipality": "ØRLAND",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "ØRLAND",
+      "code": "5057"
+    },
+    "industry_codes": [
+      {
+        "code": "68.320",
+        "description": "Eiendomsforvaltning på oppdrag"
+      }
+    ],
+    "purpose": "Vedlikehold av privat vei.",
+    "sector": {
+      "code": "7000",
+      "description": "Ideelle organisasjoner"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Svein Erik Morseth",
+          "deceased": false
+        },
+        "group_last_changed": "2022-11-08"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Tor Næsset",
+          "deceased": true
+        },
+        "group_last_changed": "2022-11-08"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Hans Aage Næsset",
+          "deceased": false
+        },
+        "group_last_changed": "2022-11-08"
+      }
+    ],
+    "board_chair": {
+      "type": "person",
+      "name": "Svein Erik Morseth",
+      "deceased": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Svein Erik Morseth",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Tor Næsset",
+        "deceased": true
+      },
+      {
+        "type": "person",
+        "name": "Hans Aage Næsset",
+        "deceased": false
+      }
+    ],
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "930192805",
+        "name": "NESSAVEIEN VEILAG",
+        "address": "c/o Svein Erik Morseth, Nessaveien 65, 7142 UTHAUG, Norge",
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930188883",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930188883"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930188883",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "name",
+      "value": "NESSAVEIEN VEILAG",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930188883",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930188883"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930188883",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2008-07-18",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930188883",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930188883"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2008-07-18",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "930188883",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2022-11-08",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930188883",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930188883"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2022-11-08",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "930188883",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930188883",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930188883"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930188883",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930188883",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930188883"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930188883",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930188883",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930188883"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930188883",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930188883",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930188883"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930188883",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930188883",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930188883"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930188883",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930188883",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930188883"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930188883",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930188883",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930188883"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930188883",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "FLI",
+        "description": "Forening/lag/innretning",
+        "description_en": "association"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930188883",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930188883"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930188883",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "c/o Svein Erik Morseth, Nessaveien 65, 7142 UTHAUG, Norge",
+        "street": [
+          "c/o Svein Erik Morseth",
+          "Nessaveien 65"
+        ],
+        "postcode": "7142",
+        "city": "UTHAUG",
+        "municipality": "ØRLAND",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930188883",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930188883"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930188883",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "ØRLAND",
+        "code": "5057"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930188883",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930188883"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930188883",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "68.320",
+          "description": "Eiendomsforvaltning på oppdrag"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930188883",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930188883"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930188883",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Vedlikehold av privat vei.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930188883",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930188883"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930188883",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "7000",
+        "description": "Ideelle organisasjoner"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930188883",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930188883"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930188883",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930188883",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930188883"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930188883",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930188883",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930188883"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930188883",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930188883",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930188883"
+      },
+      "retrieved_at": "2026-09-29T10:27:21Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930188883",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Svein Erik Morseth",
+            "deceased": false
+          },
+          "group_last_changed": "2022-11-08"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Tor Næsset",
+            "deceased": true
+          },
+          "group_last_changed": "2022-11-08"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Hans Aage Næsset",
+            "deceased": false
+          },
+          "group_last_changed": "2022-11-08"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930188883/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930188883"
+      },
+      "retrieved_at": "2026-09-29T10:27:22Z",
+      "as_of": "2022-11-08",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "930188883",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Svein Erik Morseth",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930188883/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930188883"
+      },
+      "retrieved_at": "2026-09-29T10:27:22Z",
+      "as_of": "2022-11-08",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "930188883",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Svein Erik Morseth",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Tor Næsset",
+          "deceased": true
+        },
+        {
+          "type": "person",
+          "name": "Hans Aage Næsset",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930188883/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930188883"
+      },
+      "retrieved_at": "2026-09-29T10:27:22Z",
+      "as_of": "2022-11-08",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "930188883",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=930188883&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930188883"
+      },
+      "retrieved_at": "2026-09-29T10:27:25Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930188883",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:26:09Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "930192805",
+          "name": "NESSAVEIEN VEILAG",
+          "address": "c/o Svein Erik Morseth, Nessaveien 65, 7142 UTHAUG, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=930188883&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930188883"
+      },
+      "retrieved_at": "2026-09-29T10:27:25Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930188883",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:26:09Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:27:21Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930188883"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:27:22Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930188883/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:27:23Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/930188883"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:27:25Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=930188883&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "NESSAVEIEN VEILAG (930 188 883), an association, is an active entity in Enhetsregisteret; founded 2008-07-18; address c/o Svein Erik Morseth, Nessaveien 65, 7142 UTHAUG, Norge. Main industry is 68.320 Eiendomsforvaltning på oppdrag; 1 registered sub-unit(s). Board chair: Svein Erik Morseth.",
+    "notes": [
+      "No annual accounts: organisation form FLI is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:26:09Z",
+  "previous_checked_at": "2026-09-29T10:26:09Z",
+  "last_changed_at": "2026-09-29T10:26:09Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

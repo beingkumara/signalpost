@@ -1,0 +1,1780 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "976466365",
+  "orgnr_formatted": "976 466 365",
+  "name": "DYRSKU'N ARRANGEMENT AS",
+  "status": "active",
+  "checked_at": "2026-09-29T10:34:07Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "DYRSKU'N ARRANGEMENT AS",
+    "founded_date": "1996-04-23",
+    "registered_date": "1996-05-20",
+    "business_register_date": "1996-06-08",
+    "articles_date": "2008-06-19",
+    "website": "https://www.dyrskun.no",
+    "email": "post@dyrskun.no",
+    "phone": "35 06 57 70",
+    "latest_annual_accounts_year": "2025",
+    "in_corporate_group": false,
+    "language_form": "Nynorsk",
+    "vat_registered": true,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "AS",
+      "description": "Aksjeselskap",
+      "description_en": "private limited company"
+    },
+    "business_address": {
+      "text": "Nordbygdivegen 60, 3840 SELJORD, Norge",
+      "street": [
+        "Nordbygdivegen 60"
+      ],
+      "postcode": "3840",
+      "city": "SELJORD",
+      "municipality": "SELJORD",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "SELJORD",
+      "code": "4022"
+    },
+    "industry_codes": [
+      {
+        "code": "82.300",
+        "description": "Kongress-, messe- og utstillingsvirksomhet"
+      },
+      {
+        "code": "55.900",
+        "description": "Annen overnattingsvirksomhet"
+      },
+      {
+        "code": "55.300",
+        "description": "Drift av campingplasser"
+      }
+    ],
+    "employees": 18,
+    "purpose": "Ha ansvar for den årlege Dyrsku'n og for heilårsdrift av plassen. Målet er at drifta skal vera basert på lønsemd. Den samfunnsmessige verdiskapinga ligg i dei ringverknader drifta på plassen kan gje for lokalsamfunn, næringsliv og landbruk. Drift av plassen skal byggje på bygdetradisjonar og det beste i Telemarkskulturen. Dyrsku'n skal være tufta på tradisjonar og bygdemiljø. Dyrsku'n skal arrangerast med ein nasjonal landbruksutstilling som i tida framover skal vera av den største og kvalitativt beste årleg landbruksutstillinga i landet og skal presentere eit moderne og tidsmessig landbruk. Det skal arbeidast for at det er aktivitetar på plassen det meste av året - heilårsdrift. Utanom Dyrsku'n skal plassen nyttast til stemne, messer, sportsarrangement og til kulturformål og særutstillingar.",
+    "sector": {
+      "code": "2100",
+      "description": "Private aksjeselskaper mv."
+    },
+    "share_capital": {
+      "amount": 140000.0,
+      "currency": "NOK",
+      "type": "Aksjekapital",
+      "shares": null
+    },
+    "former_names": [
+      {
+        "name": "DYRSKUN ARRANGEMENT AS",
+        "from": "1996-05-20",
+        "to": "1996-06-11"
+      }
+    ],
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Geir Helge Espedalen",
+          "deceased": false
+        },
+        "group_last_changed": "2014-02-19"
+      },
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Trude Flatland",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-22"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Einar Skaarseth Enger",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-22"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Hilde Hagen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-22"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Eivind Skogheim",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-22"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Kjell Sverre Thoresen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-22"
+      },
+      {
+        "role_code": "VARA",
+        "role": "Varamedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Christian Anton Smedshaug",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-22"
+      },
+      {
+        "role_code": "VARA",
+        "role": "Varamedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Mogens Hougaard Iversen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-22"
+      },
+      {
+        "role_code": "VARA",
+        "role": "Varamedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Regina Anna Maria Van Der Werf Brajkovic",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-22"
+      },
+      {
+        "role_code": "REVI",
+        "role": "Revisor",
+        "group": "Revisor",
+        "holder": {
+          "type": "organization",
+          "name": "CEDRA NORGE BOREALIS AS",
+          "orgnr": "936295800",
+          "deleted": false
+        },
+        "group_last_changed": "2026-07-21"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Geir Helge Espedalen",
+      "deceased": false
+    },
+    "board_chair": {
+      "type": "person",
+      "name": "Trude Flatland",
+      "deceased": false
+    },
+    "auditor": {
+      "type": "organization",
+      "name": "CEDRA NORGE BOREALIS AS",
+      "orgnr": "936295800",
+      "deleted": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Trude Flatland",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Einar Skaarseth Enger",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Hilde Hagen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Eivind Skogheim",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Kjell Sverre Thoresen",
+        "deceased": false
+      }
+    ],
+    "accounts_period": {
+      "from": "2025-01-01",
+      "to": "2025-12-31",
+      "year": "2025",
+      "currency": "NOK",
+      "type": "SELSKAP",
+      "audited": true,
+      "audit_opt_out": false
+    },
+    "revenue": {
+      "amount": 44412889.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "operating_expenses": {
+      "amount": 45685074.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "operating_profit": {
+      "amount": -1272185.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "net_financial_items": {
+      "amount": 1837936.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "profit_before_tax": {
+      "amount": 565751.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "net_profit": {
+      "amount": 565751.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "total_assets": {
+      "amount": 25517997.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "fixed_assets": {
+      "amount": 14381832.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "current_assets": {
+      "amount": 11136165.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "equity": {
+      "amount": 21057937.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "total_debt": {
+      "amount": 4460059.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "short_term_debt": {
+      "amount": 4460059.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "876467992",
+        "name": "DYRSKU'N ARRANGEMENT AS",
+        "address": "Nordbygdivegen 60, 3840 SELJORD, Norge",
+        "employees": 18
+      }
+    ],
+    "website_verification": "orgnr_on_page",
+    "website_title": "Forside - Dyrsku'n",
+    "website_description": "Dyrsku'n er Noregs viktigaste møteplass for mat og landbruk, handel, politiske debatter, foredrag og rotekte opplevingar.",
+    "website_emails": [
+      "post@dyrskun.no"
+    ],
+    "social_profiles": {
+      "facebook": "https://www.facebook.com/dyrskun",
+      "instagram": "https://www.instagram.com/dyrskun",
+      "youtube": "https://www.youtube.com/user/Dyrskun"
+    }
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:09Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "name",
+      "value": "DYRSKU'N ARRANGEMENT AS",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:09Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "1996-04-23",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:09Z",
+      "as_of": "1996-04-23",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "1996-05-20",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:09Z",
+      "as_of": "1996-05-20",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "1996-06-08",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:09Z",
+      "as_of": "1996-06-08",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "articles_date",
+      "value": "2008-06-19",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:09Z",
+      "as_of": "2008-06-19",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "json_path": "vedtektsdato"
+      },
+      "confidence": "high",
+      "label": "Date of articles of association",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "website",
+      "value": "https://www.dyrskun.no",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:09Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "json_path": "hjemmeside"
+      },
+      "confidence": "high",
+      "label": "Website",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "email",
+      "value": "post@dyrskun.no",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:09Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "json_path": "epostadresse"
+      },
+      "confidence": "high",
+      "label": "Email",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "phone",
+      "value": "35 06 57 70",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:09Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "json_path": "telefon"
+      },
+      "confidence": "high",
+      "label": "Phone",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "latest_annual_accounts_year",
+      "value": "2025",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:09Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "json_path": "sisteInnsendteAarsregnskap"
+      },
+      "confidence": "high",
+      "label": "Latest annual accounts submitted",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:09Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Nynorsk",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:09Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:09Z",
+      "as_of": "1996-07-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:09Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:09Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:09Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:09Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "AS",
+        "description": "Aksjeselskap",
+        "description_en": "private limited company"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:09Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Nordbygdivegen 60, 3840 SELJORD, Norge",
+        "street": [
+          "Nordbygdivegen 60"
+        ],
+        "postcode": "3840",
+        "city": "SELJORD",
+        "municipality": "SELJORD",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:09Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "SELJORD",
+        "code": "4022"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:09Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "82.300",
+          "description": "Kongress-, messe- og utstillingsvirksomhet"
+        },
+        {
+          "code": "55.900",
+          "description": "Annen overnattingsvirksomhet"
+        },
+        {
+          "code": "55.300",
+          "description": "Drift av campingplasser"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:09Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "employees",
+      "value": 18,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:09Z",
+      "as_of": "2026-09-10",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "json_path": "antallAnsatte"
+      },
+      "confidence": "high",
+      "label": "Registered employees",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Ha ansvar for den årlege Dyrsku'n og for heilårsdrift av plassen. Målet er at drifta skal vera basert på lønsemd. Den samfunnsmessige verdiskapinga ligg i dei ringverknader drifta på plassen kan gje for lokalsamfunn, næringsliv og landbruk. Drift av plassen skal byggje på bygdetradisjonar og det beste i Telemarkskulturen. Dyrsku'n skal være tufta på tradisjonar og bygdemiljø. Dyrsku'n skal arrangerast med ein nasjonal landbruksutstilling som i tida framover skal vera av den største og kvalitativt beste årleg landbruksutstillinga i landet og skal presentere eit moderne og tidsmessig landbruk. Det skal arbeidast for at det er aktivitetar på plassen det meste av året - heilårsdrift. Utanom Dyrsku'n skal plassen nyttast til stemne, messer, sportsarrangement og til kulturformål og særutstillingar.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:09Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "json_path": "vedtektsfestetFormaal"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "2100",
+        "description": "Private aksjeselskaper mv."
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:09Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "share_capital",
+      "value": {
+        "amount": 140000.0,
+        "currency": "NOK",
+        "type": "Aksjekapital",
+        "shares": null
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:09Z",
+      "as_of": "1996-06-08",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "json_path": "kapital"
+      },
+      "confidence": "high",
+      "label": "Share capital",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "former_names",
+      "value": [
+        {
+          "name": "DYRSKUN ARRANGEMENT AS",
+          "from": "1996-05-20",
+          "to": "1996-06-11"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:09Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "json_path": "historiskeNavn"
+      },
+      "confidence": "high",
+      "label": "Former names",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:09Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:09Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:09Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Geir Helge Espedalen",
+            "deceased": false
+          },
+          "group_last_changed": "2014-02-19"
+        },
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Trude Flatland",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-22"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Einar Skaarseth Enger",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-22"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Hilde Hagen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-22"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Eivind Skogheim",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-22"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Kjell Sverre Thoresen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-22"
+        },
+        {
+          "role_code": "VARA",
+          "role": "Varamedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Christian Anton Smedshaug",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-22"
+        },
+        {
+          "role_code": "VARA",
+          "role": "Varamedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Mogens Hougaard Iversen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-22"
+        },
+        {
+          "role_code": "VARA",
+          "role": "Varamedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Regina Anna Maria Van Der Werf Brajkovic",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-22"
+        },
+        {
+          "role_code": "REVI",
+          "role": "Revisor",
+          "group": "Revisor",
+          "holder": {
+            "type": "organization",
+            "name": "CEDRA NORGE BOREALIS AS",
+            "orgnr": "936295800",
+            "deleted": false
+          },
+          "group_last_changed": "2026-07-21"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976466365/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:10Z",
+      "as_of": "2026-07-21",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Geir Helge Espedalen",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976466365/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:10Z",
+      "as_of": "2014-02-19",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Trude Flatland",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976466365/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:10Z",
+      "as_of": "2026-01-22",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "auditor",
+      "value": {
+        "type": "organization",
+        "name": "CEDRA NORGE BOREALIS AS",
+        "orgnr": "936295800",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976466365/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:10Z",
+      "as_of": "2026-07-21",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "json_path": "rollegrupper[type.kode=REVI]"
+      },
+      "confidence": "high",
+      "label": "Auditor",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Trude Flatland",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Einar Skaarseth Enger",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Hilde Hagen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Eivind Skogheim",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Kjell Sverre Thoresen",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976466365/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:10Z",
+      "as_of": "2026-07-21",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "accounts_period",
+      "value": {
+        "from": "2025-01-01",
+        "to": "2025-12-31",
+        "year": "2025",
+        "currency": "NOK",
+        "type": "SELSKAP",
+        "audited": true,
+        "audit_opt_out": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:12Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "journal_number": "2026692826",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "regnskapsperiode"
+      },
+      "confidence": "high",
+      "label": "Accounting period",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "revenue",
+      "value": {
+        "amount": 44412889.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:12Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "journal_number": "2026692826",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftsinntekter.sumDriftsinntekter"
+      },
+      "confidence": "high",
+      "label": "Operating revenue",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "operating_expenses",
+      "value": {
+        "amount": 45685074.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:12Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "journal_number": "2026692826",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftskostnad.sumDriftskostnad"
+      },
+      "confidence": "high",
+      "label": "Operating expenses",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "operating_profit",
+      "value": {
+        "amount": -1272185.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:12Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "journal_number": "2026692826",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftsresultat"
+      },
+      "confidence": "high",
+      "label": "Operating profit",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "net_financial_items",
+      "value": {
+        "amount": 1837936.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:12Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "journal_number": "2026692826",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.finansresultat.nettoFinans"
+      },
+      "confidence": "high",
+      "label": "Net financial items",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "profit_before_tax",
+      "value": {
+        "amount": 565751.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:12Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "journal_number": "2026692826",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.ordinaertResultatFoerSkattekostnad"
+      },
+      "confidence": "high",
+      "label": "Profit before tax",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "net_profit",
+      "value": {
+        "amount": 565751.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:12Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "journal_number": "2026692826",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.aarsresultat"
+      },
+      "confidence": "high",
+      "label": "Net profit (annual result)",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "total_assets",
+      "value": {
+        "amount": 25517997.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:12Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "journal_number": "2026692826",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.sumEiendeler"
+      },
+      "confidence": "high",
+      "label": "Total assets",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "fixed_assets",
+      "value": {
+        "amount": 14381832.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:12Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "journal_number": "2026692826",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.anleggsmidler.sumAnleggsmidler"
+      },
+      "confidence": "high",
+      "label": "Fixed assets",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "current_assets",
+      "value": {
+        "amount": 11136165.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:12Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "journal_number": "2026692826",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.omloepsmidler.sumOmloepsmidler"
+      },
+      "confidence": "high",
+      "label": "Current assets",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "equity",
+      "value": {
+        "amount": 21057937.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:12Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "journal_number": "2026692826",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.egenkapital.sumEgenkapital"
+      },
+      "confidence": "high",
+      "label": "Equity",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "total_debt",
+      "value": {
+        "amount": 4460059.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:12Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "journal_number": "2026692826",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.gjeldOversikt.sumGjeld"
+      },
+      "confidence": "high",
+      "label": "Total debt",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "short_term_debt",
+      "value": {
+        "amount": 4460059.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/976466365",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:12Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "journal_number": "2026692826",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.gjeldOversikt.kortsiktigGjeld.sumKortsiktigGjeld"
+      },
+      "confidence": "high",
+      "label": "Short-term debt",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=976466365&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:13Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "876467992",
+          "name": "DYRSKU'N ARRANGEMENT AS",
+          "address": "Nordbygdivegen 60, 3840 SELJORD, Norge",
+          "employees": 18
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=976466365&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/976466365"
+      },
+      "retrieved_at": "2026-09-29T10:34:13Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "website_verification",
+      "value": "orgnr_on_page",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://www.dyrskun.no",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:34:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "identity": {
+          "level": "orgnr_on_page",
+          "orgnr_found": true,
+          "name_found": true,
+          "name_tested": "DYRSKU'N ARRANGEMENT"
+        },
+        "registered_url": "https://www.dyrskun.no"
+      },
+      "confidence": "high",
+      "label": "Website identity check",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "website_title",
+      "value": "Forside - Dyrsku'n",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://www.dyrskun.no",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:34:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "identity": {
+          "level": "orgnr_on_page",
+          "orgnr_found": true,
+          "name_found": true,
+          "name_tested": "DYRSKU'N ARRANGEMENT"
+        },
+        "registered_url": "https://www.dyrskun.no",
+        "json_path": "html.title"
+      },
+      "confidence": "high",
+      "label": "Website title",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "website_description",
+      "value": "Dyrsku'n er Noregs viktigaste møteplass for mat og landbruk, handel, politiske debatter, foredrag og rotekte opplevingar.",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://www.dyrskun.no",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:34:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "identity": {
+          "level": "orgnr_on_page",
+          "orgnr_found": true,
+          "name_found": true,
+          "name_tested": "DYRSKU'N ARRANGEMENT"
+        },
+        "registered_url": "https://www.dyrskun.no",
+        "json_path": "html.meta[description]"
+      },
+      "confidence": "high",
+      "label": "Self-description on website",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "website_emails",
+      "value": [
+        "post@dyrskun.no"
+      ],
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://www.dyrskun.no",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:34:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "identity": {
+          "level": "orgnr_on_page",
+          "orgnr_found": true,
+          "name_found": true,
+          "name_tested": "DYRSKU'N ARRANGEMENT"
+        },
+        "registered_url": "https://www.dyrskun.no",
+        "json_path": "html.a[mailto]"
+      },
+      "confidence": "high",
+      "label": "Contact emails on website",
+      "first_seen": "2026-09-29T10:34:07Z"
+    },
+    {
+      "field": "social_profiles",
+      "value": {
+        "facebook": "https://www.facebook.com/dyrskun",
+        "instagram": "https://www.instagram.com/dyrskun",
+        "youtube": "https://www.youtube.com/user/Dyrskun"
+      },
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://www.dyrskun.no",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:34:15Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "976466365",
+        "identity": {
+          "level": "orgnr_on_page",
+          "orgnr_found": true,
+          "name_found": true,
+          "name_tested": "DYRSKU'N ARRANGEMENT"
+        },
+        "registered_url": "https://www.dyrskun.no",
+        "json_path": "html.a[href]"
+      },
+      "confidence": "medium",
+      "label": "Social media links on website",
+      "first_seen": "2026-09-29T10:34:07Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:34:09Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976466365"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:34:10Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976466365/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:34:12Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/976466365"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:34:13Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=976466365&size=5"
+    },
+    {
+      "source": "Company website",
+      "checked_at": "2026-09-29T10:34:15Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://www.dyrskun.no"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "DYRSKU'N ARRANGEMENT AS (976 466 365), a private limited company, is an active entity in Enhetsregisteret; founded 1996-04-23; address Nordbygdivegen 60, 3840 SELJORD, Norge. Main industry is 82.300 Kongress-, messe- og utstillingsvirksomhet; 18 registered employees; 1 registered sub-unit(s). Daily manager: Geir Helge Espedalen; Board chair: Trude Flatland; Auditor: CEDRA NORGE BOREALIS AS. Accounts for 2025 (period ending 2025-12-31): revenue NOK 44.41 m, operating profit NOK -1.27 m, net profit NOK 565.75 k, equity NOK 21.06 m, total assets NOK 25.52 m. Website https://www.dyrskun.no is verified: the org number appears on the page.",
+    "notes": []
+  },
+  "first_checked_at": "2026-09-29T10:34:07Z",
+  "last_changed_at": "2026-09-29T10:34:07Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

@@ -1,0 +1,681 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "820183002",
+  "orgnr_formatted": "820 183 002",
+  "name": "FYSIOTERAPEUT LINE STENSTAD",
+  "status": "active",
+  "checked_at": "2026-09-29T10:30:12Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "FYSIOTERAPEUT LINE STENSTAD",
+    "registered_date": "2018-01-03",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "ENK",
+      "description": "Enkeltpersonforetak",
+      "description_en": "sole proprietorship"
+    },
+    "business_address": {
+      "text": "Sjømannsvegen 14, 6008 ÅLESUND, Norge",
+      "street": [
+        "Sjømannsvegen 14"
+      ],
+      "postcode": "6008",
+      "city": "ÅLESUND",
+      "municipality": "ÅLESUND",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "ÅLESUND",
+      "code": "1508"
+    },
+    "postal_address": {
+      "text": "Johnny Peviks veg 13, 7022 TRONDHEIM, Norge",
+      "street": [
+        "Johnny Peviks veg 13"
+      ],
+      "postcode": "7022",
+      "city": "TRONDHEIM",
+      "municipality": "TRONDHEIM",
+      "country_code": "NO"
+    },
+    "industry_codes": [
+      {
+        "code": "86.950",
+        "description": "Fysioterapi- og ergoterapitjenester"
+      }
+    ],
+    "purpose": "Fysioterapitjenester.",
+    "sector": {
+      "code": "8200",
+      "description": "Personlig næringsdrivende"
+    },
+    "former_names": [
+      {
+        "name": "STENSTAD FYSIOTERAPI OG TRENING",
+        "from": "2018-01-03",
+        "to": "2018-03-21"
+      }
+    ],
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "INNH",
+        "role": "Innehaver",
+        "group": "Innehaver",
+        "holder": {
+          "type": "person",
+          "name": "Line Hangerhagen Stenstad",
+          "deceased": false
+        },
+        "group_last_changed": "2018-01-03"
+      }
+    ],
+    "owner": {
+      "type": "person",
+      "name": "Line Hangerhagen Stenstad",
+      "deceased": false
+    },
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "932620561",
+        "name": "FYSIOTERAPEUT LINE STENSTAD",
+        "address": "Sjømannsvegen 14, 6008 ÅLESUND, Norge",
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/820183002",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/820183002"
+      },
+      "retrieved_at": "2026-09-29T10:30:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "820183002",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:30:12Z"
+    },
+    {
+      "field": "name",
+      "value": "FYSIOTERAPEUT LINE STENSTAD",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/820183002",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/820183002"
+      },
+      "retrieved_at": "2026-09-29T10:30:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "820183002",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:30:12Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2018-01-03",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/820183002",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/820183002"
+      },
+      "retrieved_at": "2026-09-29T10:30:14Z",
+      "as_of": "2018-01-03",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "820183002",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:30:12Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/820183002",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/820183002"
+      },
+      "retrieved_at": "2026-09-29T10:30:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "820183002",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:30:12Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/820183002",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/820183002"
+      },
+      "retrieved_at": "2026-09-29T10:30:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "820183002",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:30:12Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/820183002",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/820183002"
+      },
+      "retrieved_at": "2026-09-29T10:30:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "820183002",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:30:12Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/820183002",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/820183002"
+      },
+      "retrieved_at": "2026-09-29T10:30:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "820183002",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:30:12Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/820183002",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/820183002"
+      },
+      "retrieved_at": "2026-09-29T10:30:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "820183002",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:30:12Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/820183002",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/820183002"
+      },
+      "retrieved_at": "2026-09-29T10:30:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "820183002",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:30:12Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/820183002",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/820183002"
+      },
+      "retrieved_at": "2026-09-29T10:30:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "820183002",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:30:12Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "ENK",
+        "description": "Enkeltpersonforetak",
+        "description_en": "sole proprietorship"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/820183002",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/820183002"
+      },
+      "retrieved_at": "2026-09-29T10:30:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "820183002",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:30:12Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Sjømannsvegen 14, 6008 ÅLESUND, Norge",
+        "street": [
+          "Sjømannsvegen 14"
+        ],
+        "postcode": "6008",
+        "city": "ÅLESUND",
+        "municipality": "ÅLESUND",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/820183002",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/820183002"
+      },
+      "retrieved_at": "2026-09-29T10:30:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "820183002",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:30:12Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "ÅLESUND",
+        "code": "1508"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/820183002",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/820183002"
+      },
+      "retrieved_at": "2026-09-29T10:30:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "820183002",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:30:12Z"
+    },
+    {
+      "field": "postal_address",
+      "value": {
+        "text": "Johnny Peviks veg 13, 7022 TRONDHEIM, Norge",
+        "street": [
+          "Johnny Peviks veg 13"
+        ],
+        "postcode": "7022",
+        "city": "TRONDHEIM",
+        "municipality": "TRONDHEIM",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/820183002",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/820183002"
+      },
+      "retrieved_at": "2026-09-29T10:30:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "820183002",
+        "json_path": "postadresse"
+      },
+      "confidence": "high",
+      "label": "Postal address",
+      "first_seen": "2026-09-29T10:30:12Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "86.950",
+          "description": "Fysioterapi- og ergoterapitjenester"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/820183002",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/820183002"
+      },
+      "retrieved_at": "2026-09-29T10:30:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "820183002",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:30:12Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Fysioterapitjenester.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/820183002",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/820183002"
+      },
+      "retrieved_at": "2026-09-29T10:30:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "820183002",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:30:12Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "8200",
+        "description": "Personlig næringsdrivende"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/820183002",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/820183002"
+      },
+      "retrieved_at": "2026-09-29T10:30:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "820183002",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:30:12Z"
+    },
+    {
+      "field": "former_names",
+      "value": [
+        {
+          "name": "STENSTAD FYSIOTERAPI OG TRENING",
+          "from": "2018-01-03",
+          "to": "2018-03-21"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/820183002",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/820183002"
+      },
+      "retrieved_at": "2026-09-29T10:30:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "820183002",
+        "json_path": "historiskeNavn"
+      },
+      "confidence": "high",
+      "label": "Former names",
+      "first_seen": "2026-09-29T10:30:12Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/820183002",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/820183002"
+      },
+      "retrieved_at": "2026-09-29T10:30:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "820183002",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:30:12Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/820183002",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/820183002"
+      },
+      "retrieved_at": "2026-09-29T10:30:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "820183002",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:30:12Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/820183002",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/820183002"
+      },
+      "retrieved_at": "2026-09-29T10:30:14Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "820183002",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:30:12Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "INNH",
+          "role": "Innehaver",
+          "group": "Innehaver",
+          "holder": {
+            "type": "person",
+            "name": "Line Hangerhagen Stenstad",
+            "deceased": false
+          },
+          "group_last_changed": "2018-01-03"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/820183002/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/820183002"
+      },
+      "retrieved_at": "2026-09-29T10:30:15Z",
+      "as_of": "2018-01-03",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "820183002",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:30:12Z"
+    },
+    {
+      "field": "owner",
+      "value": {
+        "type": "person",
+        "name": "Line Hangerhagen Stenstad",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/820183002/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/820183002"
+      },
+      "retrieved_at": "2026-09-29T10:30:15Z",
+      "as_of": "2018-01-03",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "820183002",
+        "json_path": "rollegrupper[type.kode=INNH]"
+      },
+      "confidence": "high",
+      "label": "Proprietor",
+      "first_seen": "2026-09-29T10:30:12Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=820183002&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/820183002"
+      },
+      "retrieved_at": "2026-09-29T10:30:17Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "820183002",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:30:12Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "932620561",
+          "name": "FYSIOTERAPEUT LINE STENSTAD",
+          "address": "Sjømannsvegen 14, 6008 ÅLESUND, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=820183002&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/820183002"
+      },
+      "retrieved_at": "2026-09-29T10:30:17Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "820183002",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:30:12Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:30:14Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/820183002"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:30:15Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/820183002/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:30:16Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/820183002"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:30:17Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=820183002&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "FYSIOTERAPEUT LINE STENSTAD (820 183 002), a sole proprietorship, is an active entity in Enhetsregisteret; address Sjømannsvegen 14, 6008 ÅLESUND, Norge. Main industry is 86.950 Fysioterapi- og ergoterapitjenester; 1 registered sub-unit(s). Proprietor: Line Hangerhagen Stenstad.",
+    "notes": [
+      "No annual accounts: organisation form ENK is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:30:12Z",
+  "last_changed_at": "2026-09-29T10:30:12Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

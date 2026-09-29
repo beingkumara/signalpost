@@ -1,0 +1,909 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "986931465",
+  "orgnr_formatted": "986 931 465",
+  "name": "NORDHORDLAND JAKT OG FISKELAG",
+  "status": "active",
+  "checked_at": "2026-09-29T10:32:39Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "NORDHORDLAND JAKT OG FISKELAG",
+    "founded_date": "1985-12-31",
+    "registered_date": "2004-07-28",
+    "website": "https://www.njff.no/hordaland/nordhordland",
+    "email": "arildsteen7@gmail.com",
+    "mobile": "982 69 870",
+    "in_corporate_group": false,
+    "language_form": "Nynorsk",
+    "vat_registered": false,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": true,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "FLI",
+      "description": "Forening/lag/innretning",
+      "description_en": "association"
+    },
+    "business_address": {
+      "text": "c/o Arild Steen, Nedre Mjøs 50, 5939 SLETTA, Norge",
+      "street": [
+        "c/o Arild Steen",
+        "Nedre Mjøs 50"
+      ],
+      "postcode": "5939",
+      "city": "SLETTA",
+      "municipality": "ALVER",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "ALVER",
+      "code": "4631"
+    },
+    "postal_address": {
+      "text": "Postboks 156, 5903 ISDALSTØ, Norge",
+      "street": [
+        "Postboks 156"
+      ],
+      "postcode": "5903",
+      "city": "ISDALSTØ",
+      "municipality": "ALVER",
+      "country_code": "NO"
+    },
+    "industry_codes": [
+      {
+        "code": "93.292",
+        "description": "Fritidsvirksomhet ellers"
+      }
+    ],
+    "purpose": "Knytte jegarar og fiskarar saman i felles arbeid for å auke vilt- og fiske-bestanden ved positive tiltak på vilt- og fiske-stellets område. Arbeide for human jakt og ansvarsbevisst ferdsel i skog og mark. Arbeide for riktig bruk av våpen og sportsfiskeredskap.",
+    "sector": {
+      "code": "7000",
+      "description": "Ideelle organisasjoner"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Arild Steen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-06-26"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Eivind Myrtveit",
+          "deceased": false
+        },
+        "group_last_changed": "2026-06-26"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Jørn Karlsen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-06-26"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Julianne Myking Frotaule",
+          "deceased": false
+        },
+        "group_last_changed": "2026-06-26"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Terje Rath",
+          "deceased": false
+        },
+        "group_last_changed": "2026-06-26"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Øystein Skårnes Vågenes",
+          "deceased": false
+        },
+        "group_last_changed": "2026-06-26"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Ørjan Storsæt",
+          "deceased": false
+        },
+        "group_last_changed": "2026-06-26"
+      }
+    ],
+    "board_chair": {
+      "type": "person",
+      "name": "Arild Steen",
+      "deceased": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Arild Steen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Eivind Myrtveit",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Jørn Karlsen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Julianne Myking Frotaule",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Terje Rath",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Øystein Skårnes Vågenes",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Ørjan Storsæt",
+        "deceased": false
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986931465",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986931465"
+      },
+      "retrieved_at": "2026-09-29T10:32:40Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986931465",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:32:39Z"
+    },
+    {
+      "field": "name",
+      "value": "NORDHORDLAND JAKT OG FISKELAG",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986931465",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986931465"
+      },
+      "retrieved_at": "2026-09-29T10:32:40Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986931465",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:32:39Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "1985-12-31",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986931465",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986931465"
+      },
+      "retrieved_at": "2026-09-29T10:32:40Z",
+      "as_of": "1985-12-31",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "986931465",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:32:39Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2004-07-28",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986931465",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986931465"
+      },
+      "retrieved_at": "2026-09-29T10:32:40Z",
+      "as_of": "2004-07-28",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "986931465",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:32:39Z"
+    },
+    {
+      "field": "website",
+      "value": "https://www.njff.no/hordaland/nordhordland",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986931465",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986931465"
+      },
+      "retrieved_at": "2026-09-29T10:32:40Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986931465",
+        "json_path": "hjemmeside"
+      },
+      "confidence": "high",
+      "label": "Website",
+      "first_seen": "2026-09-29T10:32:39Z"
+    },
+    {
+      "field": "email",
+      "value": "arildsteen7@gmail.com",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986931465",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986931465"
+      },
+      "retrieved_at": "2026-09-29T10:32:40Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986931465",
+        "json_path": "epostadresse"
+      },
+      "confidence": "high",
+      "label": "Email",
+      "first_seen": "2026-09-29T10:32:39Z"
+    },
+    {
+      "field": "mobile",
+      "value": "982 69 870",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986931465",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986931465"
+      },
+      "retrieved_at": "2026-09-29T10:32:40Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986931465",
+        "json_path": "mobil"
+      },
+      "confidence": "high",
+      "label": "Mobile phone",
+      "first_seen": "2026-09-29T10:32:39Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986931465",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986931465"
+      },
+      "retrieved_at": "2026-09-29T10:32:40Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986931465",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:32:39Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Nynorsk",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986931465",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986931465"
+      },
+      "retrieved_at": "2026-09-29T10:32:40Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986931465",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:32:39Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986931465",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986931465"
+      },
+      "retrieved_at": "2026-09-29T10:32:40Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986931465",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:32:39Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986931465",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986931465"
+      },
+      "retrieved_at": "2026-09-29T10:32:40Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986931465",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:32:39Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986931465",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986931465"
+      },
+      "retrieved_at": "2026-09-29T10:32:40Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986931465",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:32:39Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986931465",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986931465"
+      },
+      "retrieved_at": "2026-09-29T10:32:40Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986931465",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:32:39Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986931465",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986931465"
+      },
+      "retrieved_at": "2026-09-29T10:32:40Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986931465",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:32:39Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "FLI",
+        "description": "Forening/lag/innretning",
+        "description_en": "association"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986931465",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986931465"
+      },
+      "retrieved_at": "2026-09-29T10:32:40Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986931465",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:32:39Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "c/o Arild Steen, Nedre Mjøs 50, 5939 SLETTA, Norge",
+        "street": [
+          "c/o Arild Steen",
+          "Nedre Mjøs 50"
+        ],
+        "postcode": "5939",
+        "city": "SLETTA",
+        "municipality": "ALVER",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986931465",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986931465"
+      },
+      "retrieved_at": "2026-09-29T10:32:40Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986931465",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:32:39Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "ALVER",
+        "code": "4631"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986931465",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986931465"
+      },
+      "retrieved_at": "2026-09-29T10:32:40Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986931465",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:32:39Z"
+    },
+    {
+      "field": "postal_address",
+      "value": {
+        "text": "Postboks 156, 5903 ISDALSTØ, Norge",
+        "street": [
+          "Postboks 156"
+        ],
+        "postcode": "5903",
+        "city": "ISDALSTØ",
+        "municipality": "ALVER",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986931465",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986931465"
+      },
+      "retrieved_at": "2026-09-29T10:32:40Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986931465",
+        "json_path": "postadresse"
+      },
+      "confidence": "high",
+      "label": "Postal address",
+      "first_seen": "2026-09-29T10:32:39Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "93.292",
+          "description": "Fritidsvirksomhet ellers"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986931465",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986931465"
+      },
+      "retrieved_at": "2026-09-29T10:32:40Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986931465",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:32:39Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Knytte jegarar og fiskarar saman i felles arbeid for å auke vilt- og fiske-bestanden ved positive tiltak på vilt- og fiske-stellets område. Arbeide for human jakt og ansvarsbevisst ferdsel i skog og mark. Arbeide for riktig bruk av våpen og sportsfiskeredskap.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986931465",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986931465"
+      },
+      "retrieved_at": "2026-09-29T10:32:40Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986931465",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:32:39Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "7000",
+        "description": "Ideelle organisasjoner"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986931465",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986931465"
+      },
+      "retrieved_at": "2026-09-29T10:32:40Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986931465",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:32:39Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986931465",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986931465"
+      },
+      "retrieved_at": "2026-09-29T10:32:40Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986931465",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:32:39Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986931465",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986931465"
+      },
+      "retrieved_at": "2026-09-29T10:32:40Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986931465",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:32:39Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986931465",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986931465"
+      },
+      "retrieved_at": "2026-09-29T10:32:40Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "986931465",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:32:39Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Arild Steen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-06-26"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Eivind Myrtveit",
+            "deceased": false
+          },
+          "group_last_changed": "2026-06-26"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Jørn Karlsen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-06-26"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Julianne Myking Frotaule",
+            "deceased": false
+          },
+          "group_last_changed": "2026-06-26"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Terje Rath",
+            "deceased": false
+          },
+          "group_last_changed": "2026-06-26"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Øystein Skårnes Vågenes",
+            "deceased": false
+          },
+          "group_last_changed": "2026-06-26"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Ørjan Storsæt",
+            "deceased": false
+          },
+          "group_last_changed": "2026-06-26"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986931465/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986931465"
+      },
+      "retrieved_at": "2026-09-29T10:32:41Z",
+      "as_of": "2026-06-26",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "986931465",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:32:39Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Arild Steen",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986931465/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986931465"
+      },
+      "retrieved_at": "2026-09-29T10:32:41Z",
+      "as_of": "2026-06-26",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "986931465",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:32:39Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Arild Steen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Eivind Myrtveit",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Jørn Karlsen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Julianne Myking Frotaule",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Terje Rath",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Øystein Skårnes Vågenes",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Ørjan Storsæt",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986931465/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/986931465"
+      },
+      "retrieved_at": "2026-09-29T10:32:41Z",
+      "as_of": "2026-06-26",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "986931465",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:32:39Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:32:40Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986931465"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:32:41Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986931465/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:32:43Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/986931465"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:32:44Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=986931465&size=5"
+    },
+    {
+      "source": "Company website",
+      "checked_at": "2026-09-29T10:32:46Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://www.njff.no/hordaland/nordhordland"
+    }
+  ],
+  "warnings": [
+    "website https://www.njff.no/hordaland/nordhordland did not show the org number or name; content not used"
+  ],
+  "explanation": {
+    "summary": "NORDHORDLAND JAKT OG FISKELAG (986 931 465), an association, is an active entity in Enhetsregisteret; founded 1985-12-31; address c/o Arild Steen, Nedre Mjøs 50, 5939 SLETTA, Norge. Main industry is 93.292 Fritidsvirksomhet ellers. Board chair: Arild Steen. Registered website: https://www.njff.no/hordaland/nordhordland.",
+    "notes": [
+      "No annual accounts: organisation form FLI is generally not required to file with Regnskapsregisteret.",
+      "website https://www.njff.no/hordaland/nordhordland did not show the org number or name; content not used"
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:32:39Z",
+  "last_changed_at": "2026-09-29T10:32:39Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

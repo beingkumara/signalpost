@@ -1,0 +1,733 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "934245466",
+  "orgnr_formatted": "934 245 466",
+  "name": "BØRSJØEN JAKTLAG",
+  "status": "active",
+  "checked_at": "2026-09-29T10:32:48Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "BØRSJØEN JAKTLAG",
+    "founded_date": "1983-07-01",
+    "registered_date": "2024-10-23",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": true,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "FLI",
+      "description": "Forening/lag/innretning",
+      "description_en": "association"
+    },
+    "business_address": {
+      "text": "Børsjøvegen 220, 7580 SELBU, Norge",
+      "street": [
+        "Børsjøvegen 220"
+      ],
+      "postcode": "7580",
+      "city": "SELBU",
+      "municipality": "SELBU",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "SELBU",
+      "code": "5032"
+    },
+    "postal_address": {
+      "text": "Ner Innbygdvegen 136, 7580 SELBU, Norge",
+      "street": [
+        "Ner Innbygdvegen 136"
+      ],
+      "postcode": "7580",
+      "city": "SELBU",
+      "municipality": "SELBU",
+      "country_code": "NO"
+    },
+    "industry_codes": [
+      {
+        "code": "94.992",
+        "description": "Aktiviteter i andre medlemsorganisasjoner ellers"
+      }
+    ],
+    "purpose": "Hjortevilt jakt i valdet for Børsjøen Jaktlag for lagets medlemmer.",
+    "sector": {
+      "code": "7000",
+      "description": "Ideelle organisasjoner"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Lars Langseth",
+          "deceased": false
+        },
+        "group_last_changed": "2024-10-23"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Steinar Eidem",
+          "deceased": false
+        },
+        "group_last_changed": "2024-10-23"
+      }
+    ],
+    "board_chair": {
+      "type": "person",
+      "name": "Lars Langseth",
+      "deceased": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Lars Langseth",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Steinar Eidem",
+        "deceased": false
+      }
+    ],
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "934329104",
+        "name": "BØRSJØEN JAKTLAG",
+        "address": "Børsjøvegen 220, 7580 SELBU, Norge",
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/934245466",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/934245466"
+      },
+      "retrieved_at": "2026-09-29T10:32:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "934245466",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:32:48Z"
+    },
+    {
+      "field": "name",
+      "value": "BØRSJØEN JAKTLAG",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/934245466",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/934245466"
+      },
+      "retrieved_at": "2026-09-29T10:32:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "934245466",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:32:48Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "1983-07-01",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/934245466",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/934245466"
+      },
+      "retrieved_at": "2026-09-29T10:32:49Z",
+      "as_of": "1983-07-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "934245466",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:32:48Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2024-10-23",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/934245466",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/934245466"
+      },
+      "retrieved_at": "2026-09-29T10:32:49Z",
+      "as_of": "2024-10-23",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "934245466",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:32:48Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/934245466",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/934245466"
+      },
+      "retrieved_at": "2026-09-29T10:32:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "934245466",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:32:48Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/934245466",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/934245466"
+      },
+      "retrieved_at": "2026-09-29T10:32:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "934245466",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:32:48Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/934245466",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/934245466"
+      },
+      "retrieved_at": "2026-09-29T10:32:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "934245466",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:32:48Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/934245466",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/934245466"
+      },
+      "retrieved_at": "2026-09-29T10:32:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "934245466",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:32:48Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/934245466",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/934245466"
+      },
+      "retrieved_at": "2026-09-29T10:32:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "934245466",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:32:48Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/934245466",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/934245466"
+      },
+      "retrieved_at": "2026-09-29T10:32:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "934245466",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:32:48Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/934245466",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/934245466"
+      },
+      "retrieved_at": "2026-09-29T10:32:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "934245466",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:32:48Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "FLI",
+        "description": "Forening/lag/innretning",
+        "description_en": "association"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/934245466",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/934245466"
+      },
+      "retrieved_at": "2026-09-29T10:32:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "934245466",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:32:48Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Børsjøvegen 220, 7580 SELBU, Norge",
+        "street": [
+          "Børsjøvegen 220"
+        ],
+        "postcode": "7580",
+        "city": "SELBU",
+        "municipality": "SELBU",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/934245466",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/934245466"
+      },
+      "retrieved_at": "2026-09-29T10:32:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "934245466",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:32:48Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "SELBU",
+        "code": "5032"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/934245466",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/934245466"
+      },
+      "retrieved_at": "2026-09-29T10:32:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "934245466",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:32:48Z"
+    },
+    {
+      "field": "postal_address",
+      "value": {
+        "text": "Ner Innbygdvegen 136, 7580 SELBU, Norge",
+        "street": [
+          "Ner Innbygdvegen 136"
+        ],
+        "postcode": "7580",
+        "city": "SELBU",
+        "municipality": "SELBU",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/934245466",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/934245466"
+      },
+      "retrieved_at": "2026-09-29T10:32:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "934245466",
+        "json_path": "postadresse"
+      },
+      "confidence": "high",
+      "label": "Postal address",
+      "first_seen": "2026-09-29T10:32:48Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "94.992",
+          "description": "Aktiviteter i andre medlemsorganisasjoner ellers"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/934245466",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/934245466"
+      },
+      "retrieved_at": "2026-09-29T10:32:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "934245466",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:32:48Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Hjortevilt jakt i valdet for Børsjøen Jaktlag for lagets medlemmer.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/934245466",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/934245466"
+      },
+      "retrieved_at": "2026-09-29T10:32:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "934245466",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:32:48Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "7000",
+        "description": "Ideelle organisasjoner"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/934245466",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/934245466"
+      },
+      "retrieved_at": "2026-09-29T10:32:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "934245466",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:32:48Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/934245466",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/934245466"
+      },
+      "retrieved_at": "2026-09-29T10:32:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "934245466",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:32:48Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/934245466",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/934245466"
+      },
+      "retrieved_at": "2026-09-29T10:32:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "934245466",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:32:48Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/934245466",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/934245466"
+      },
+      "retrieved_at": "2026-09-29T10:32:49Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "934245466",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:32:48Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Lars Langseth",
+            "deceased": false
+          },
+          "group_last_changed": "2024-10-23"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Steinar Eidem",
+            "deceased": false
+          },
+          "group_last_changed": "2024-10-23"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/934245466/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/934245466"
+      },
+      "retrieved_at": "2026-09-29T10:32:51Z",
+      "as_of": "2024-10-23",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "934245466",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:32:48Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Lars Langseth",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/934245466/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/934245466"
+      },
+      "retrieved_at": "2026-09-29T10:32:51Z",
+      "as_of": "2024-10-23",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "934245466",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:32:48Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Lars Langseth",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Steinar Eidem",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/934245466/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/934245466"
+      },
+      "retrieved_at": "2026-09-29T10:32:51Z",
+      "as_of": "2024-10-23",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "934245466",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:32:48Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=934245466&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/934245466"
+      },
+      "retrieved_at": "2026-09-29T10:32:53Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "934245466",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:32:48Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "934329104",
+          "name": "BØRSJØEN JAKTLAG",
+          "address": "Børsjøvegen 220, 7580 SELBU, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=934245466&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/934245466"
+      },
+      "retrieved_at": "2026-09-29T10:32:53Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "934245466",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:32:48Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:32:49Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/934245466"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:32:51Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/934245466/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:32:52Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/934245466"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:32:53Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=934245466&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "BØRSJØEN JAKTLAG (934 245 466), an association, is an active entity in Enhetsregisteret; founded 1983-07-01; address Børsjøvegen 220, 7580 SELBU, Norge. Main industry is 94.992 Aktiviteter i andre medlemsorganisasjoner ellers; 1 registered sub-unit(s). Board chair: Lars Langseth.",
+    "notes": [
+      "No annual accounts: organisation form FLI is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:32:48Z",
+  "last_changed_at": "2026-09-29T10:32:48Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

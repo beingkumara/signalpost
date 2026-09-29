@@ -1,0 +1,937 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "924062800",
+  "orgnr_formatted": "924 062 800",
+  "name": "SKJERVØY HISTORIELAG",
+  "status": "active",
+  "checked_at": "2026-09-29T10:30:49Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "SKJERVØY HISTORIELAG",
+    "founded_date": "2019-04-11",
+    "registered_date": "2020-01-21",
+    "email": "johangunvor@gmail.com",
+    "mobile": "976 77 430",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "FLI",
+      "description": "Forening/lag/innretning",
+      "description_en": "association"
+    },
+    "postal_address": {
+      "text": "c/o Johan Pedersen, Skoleveien 2, 9180 SKJERVØY, Norge",
+      "street": [
+        "c/o Johan Pedersen",
+        "Skoleveien 2"
+      ],
+      "postcode": "9180",
+      "city": "SKJERVØY",
+      "municipality": "SKJERVØY",
+      "country_code": "NO"
+    },
+    "industry_codes": [
+      {
+        "code": "94.992",
+        "description": "Aktiviteter i andre medlemsorganisasjoner ellers"
+      }
+    ],
+    "purpose": "Spre lokalhistorisk kunnskap gjennom ulike aktiviteter.",
+    "sector": {
+      "code": "7000",
+      "description": "Ideelle organisasjoner"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Johan Kristoffer Pedersen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-02-22"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Arnulf Steffensen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-02-22"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Helge Guttormsen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-02-22"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Nina Einevoll Strøm",
+          "deceased": false
+        },
+        "group_last_changed": "2026-02-22"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Kari Mette Iversen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-02-22"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Nils Harald Alm",
+          "deceased": false
+        },
+        "group_last_changed": "2026-02-22"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Jon-Ivar Johansen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-02-22"
+      },
+      {
+        "role_code": "VARA",
+        "role": "Varamedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Margrete Nikoline Bentsen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-02-22"
+      },
+      {
+        "role_code": "VARA",
+        "role": "Varamedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Gøril Nilsen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-02-22"
+      },
+      {
+        "role_code": "VARA",
+        "role": "Varamedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Svein Fredrik Iversen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-02-22"
+      }
+    ],
+    "board_chair": {
+      "type": "person",
+      "name": "Johan Kristoffer Pedersen",
+      "deceased": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Johan Kristoffer Pedersen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Arnulf Steffensen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Helge Guttormsen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Nina Einevoll Strøm",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Kari Mette Iversen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Nils Harald Alm",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Jon-Ivar Johansen",
+        "deceased": false
+      }
+    ],
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "924456884",
+        "name": "SKJERVØY HISTORIELAG",
+        "address": null,
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924062800",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924062800"
+      },
+      "retrieved_at": "2026-09-29T10:30:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924062800",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:30:49Z"
+    },
+    {
+      "field": "name",
+      "value": "SKJERVØY HISTORIELAG",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924062800",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924062800"
+      },
+      "retrieved_at": "2026-09-29T10:30:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924062800",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:30:49Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2019-04-11",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924062800",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924062800"
+      },
+      "retrieved_at": "2026-09-29T10:30:51Z",
+      "as_of": "2019-04-11",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "924062800",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:30:49Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2020-01-21",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924062800",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924062800"
+      },
+      "retrieved_at": "2026-09-29T10:30:51Z",
+      "as_of": "2020-01-21",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "924062800",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:30:49Z"
+    },
+    {
+      "field": "email",
+      "value": "johangunvor@gmail.com",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924062800",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924062800"
+      },
+      "retrieved_at": "2026-09-29T10:30:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924062800",
+        "json_path": "epostadresse"
+      },
+      "confidence": "high",
+      "label": "Email",
+      "first_seen": "2026-09-29T10:30:49Z"
+    },
+    {
+      "field": "mobile",
+      "value": "976 77 430",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924062800",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924062800"
+      },
+      "retrieved_at": "2026-09-29T10:30:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924062800",
+        "json_path": "mobil"
+      },
+      "confidence": "high",
+      "label": "Mobile phone",
+      "first_seen": "2026-09-29T10:30:49Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924062800",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924062800"
+      },
+      "retrieved_at": "2026-09-29T10:30:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924062800",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:30:49Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924062800",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924062800"
+      },
+      "retrieved_at": "2026-09-29T10:30:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924062800",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:30:49Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924062800",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924062800"
+      },
+      "retrieved_at": "2026-09-29T10:30:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924062800",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:30:49Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924062800",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924062800"
+      },
+      "retrieved_at": "2026-09-29T10:30:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924062800",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:30:49Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924062800",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924062800"
+      },
+      "retrieved_at": "2026-09-29T10:30:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924062800",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:30:49Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924062800",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924062800"
+      },
+      "retrieved_at": "2026-09-29T10:30:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924062800",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:30:49Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924062800",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924062800"
+      },
+      "retrieved_at": "2026-09-29T10:30:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924062800",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:30:49Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "FLI",
+        "description": "Forening/lag/innretning",
+        "description_en": "association"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924062800",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924062800"
+      },
+      "retrieved_at": "2026-09-29T10:30:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924062800",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:30:49Z"
+    },
+    {
+      "field": "postal_address",
+      "value": {
+        "text": "c/o Johan Pedersen, Skoleveien 2, 9180 SKJERVØY, Norge",
+        "street": [
+          "c/o Johan Pedersen",
+          "Skoleveien 2"
+        ],
+        "postcode": "9180",
+        "city": "SKJERVØY",
+        "municipality": "SKJERVØY",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924062800",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924062800"
+      },
+      "retrieved_at": "2026-09-29T10:30:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924062800",
+        "json_path": "postadresse"
+      },
+      "confidence": "high",
+      "label": "Postal address",
+      "first_seen": "2026-09-29T10:30:49Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "94.992",
+          "description": "Aktiviteter i andre medlemsorganisasjoner ellers"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924062800",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924062800"
+      },
+      "retrieved_at": "2026-09-29T10:30:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924062800",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:30:49Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Spre lokalhistorisk kunnskap gjennom ulike aktiviteter.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924062800",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924062800"
+      },
+      "retrieved_at": "2026-09-29T10:30:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924062800",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:30:49Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "7000",
+        "description": "Ideelle organisasjoner"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924062800",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924062800"
+      },
+      "retrieved_at": "2026-09-29T10:30:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924062800",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:30:49Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924062800",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924062800"
+      },
+      "retrieved_at": "2026-09-29T10:30:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924062800",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:30:49Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924062800",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924062800"
+      },
+      "retrieved_at": "2026-09-29T10:30:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924062800",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:30:49Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924062800",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924062800"
+      },
+      "retrieved_at": "2026-09-29T10:30:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924062800",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:30:49Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Johan Kristoffer Pedersen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-02-22"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Arnulf Steffensen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-02-22"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Helge Guttormsen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-02-22"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Nina Einevoll Strøm",
+            "deceased": false
+          },
+          "group_last_changed": "2026-02-22"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Kari Mette Iversen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-02-22"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Nils Harald Alm",
+            "deceased": false
+          },
+          "group_last_changed": "2026-02-22"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Jon-Ivar Johansen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-02-22"
+        },
+        {
+          "role_code": "VARA",
+          "role": "Varamedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Margrete Nikoline Bentsen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-02-22"
+        },
+        {
+          "role_code": "VARA",
+          "role": "Varamedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Gøril Nilsen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-02-22"
+        },
+        {
+          "role_code": "VARA",
+          "role": "Varamedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Svein Fredrik Iversen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-02-22"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924062800/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924062800"
+      },
+      "retrieved_at": "2026-09-29T10:30:52Z",
+      "as_of": "2026-02-22",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "924062800",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:30:49Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Johan Kristoffer Pedersen",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924062800/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924062800"
+      },
+      "retrieved_at": "2026-09-29T10:30:52Z",
+      "as_of": "2026-02-22",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "924062800",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:30:49Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Johan Kristoffer Pedersen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Arnulf Steffensen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Helge Guttormsen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Nina Einevoll Strøm",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Kari Mette Iversen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Nils Harald Alm",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Jon-Ivar Johansen",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924062800/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924062800"
+      },
+      "retrieved_at": "2026-09-29T10:30:52Z",
+      "as_of": "2026-02-22",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "924062800",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:30:49Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=924062800&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924062800"
+      },
+      "retrieved_at": "2026-09-29T10:30:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924062800",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:30:49Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "924456884",
+          "name": "SKJERVØY HISTORIELAG",
+          "address": null,
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=924062800&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924062800"
+      },
+      "retrieved_at": "2026-09-29T10:30:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "924062800",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:30:49Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:30:51Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924062800"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:30:52Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/924062800/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:30:53Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/924062800"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:30:54Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=924062800&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "SKJERVØY HISTORIELAG (924 062 800), an association, is an active entity in Enhetsregisteret; founded 2019-04-11. Main industry is 94.992 Aktiviteter i andre medlemsorganisasjoner ellers; 1 registered sub-unit(s). Board chair: Johan Kristoffer Pedersen.",
+    "notes": [
+      "No annual accounts: organisation form FLI is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:30:49Z",
+  "last_changed_at": "2026-09-29T10:30:49Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

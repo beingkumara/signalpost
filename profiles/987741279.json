@@ -1,0 +1,699 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "987741279",
+  "orgnr_formatted": "987 741 279",
+  "name": "SJØSIDEN BAR & DISCO DA",
+  "status": "active",
+  "checked_at": "2026-09-29T10:31:17Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "SJØSIDEN BAR & DISCO DA",
+    "founded_date": "2005-01-01",
+    "registered_date": "2005-02-02",
+    "business_register_date": "2005-02-02",
+    "articles_date": "2005-01-01",
+    "phone": "95 80 05 29",
+    "mobile": "958 00 529",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "DA",
+      "description": "Ansvarlig selskap med delt ansvar",
+      "description_en": "partnership with shared liability"
+    },
+    "business_address": {
+      "text": "Solheimvegen 32, 9990 BÅTSFJORD, Norge",
+      "street": [
+        "Solheimvegen 32"
+      ],
+      "postcode": "9990",
+      "city": "BÅTSFJORD",
+      "municipality": "BÅTSFJORD",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "BÅTSFJORD",
+      "code": "5632"
+    },
+    "industry_codes": [
+      {
+        "code": "56.300",
+        "description": "Drift av barer"
+      }
+    ],
+    "purpose": "Handel med mat, drikke, servering og produkter som naturlig hører sammen med dette.  ",
+    "sector": {
+      "code": "2300",
+      "description": "Personlige foretak"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Evy Myhre Berge",
+          "deceased": false
+        },
+        "group_last_changed": "2005-02-02"
+      },
+      {
+        "role_code": "DTPR",
+        "role": "Deltaker med delt ansvar",
+        "group": "Deltakere",
+        "holder": {
+          "type": "person",
+          "name": "Robert Berge",
+          "deceased": true
+        },
+        "group_last_changed": "2024-06-24"
+      },
+      {
+        "role_code": "DTPR",
+        "role": "Deltaker med delt ansvar",
+        "group": "Deltakere",
+        "holder": {
+          "type": "person",
+          "name": "Evy Myhre Berge",
+          "deceased": false
+        },
+        "group_last_changed": "2024-06-24"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Evy Myhre Berge",
+      "deceased": false
+    }
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987741279",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987741279"
+      },
+      "retrieved_at": "2026-09-29T10:31:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987741279",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:31:17Z"
+    },
+    {
+      "field": "name",
+      "value": "SJØSIDEN BAR & DISCO DA",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987741279",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987741279"
+      },
+      "retrieved_at": "2026-09-29T10:31:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987741279",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:31:17Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2005-01-01",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987741279",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987741279"
+      },
+      "retrieved_at": "2026-09-29T10:31:18Z",
+      "as_of": "2005-01-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "987741279",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:31:17Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2005-02-02",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987741279",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987741279"
+      },
+      "retrieved_at": "2026-09-29T10:31:18Z",
+      "as_of": "2005-02-02",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "987741279",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:31:17Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "2005-02-02",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987741279",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987741279"
+      },
+      "retrieved_at": "2026-09-29T10:31:18Z",
+      "as_of": "2005-02-02",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "987741279",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:31:17Z"
+    },
+    {
+      "field": "articles_date",
+      "value": "2005-01-01",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987741279",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987741279"
+      },
+      "retrieved_at": "2026-09-29T10:31:18Z",
+      "as_of": "2005-01-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "987741279",
+        "json_path": "vedtektsdato"
+      },
+      "confidence": "high",
+      "label": "Date of articles of association",
+      "first_seen": "2026-09-29T10:31:17Z"
+    },
+    {
+      "field": "phone",
+      "value": "95 80 05 29",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987741279",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987741279"
+      },
+      "retrieved_at": "2026-09-29T10:31:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987741279",
+        "json_path": "telefon"
+      },
+      "confidence": "high",
+      "label": "Phone",
+      "first_seen": "2026-09-29T10:31:17Z"
+    },
+    {
+      "field": "mobile",
+      "value": "958 00 529",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987741279",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987741279"
+      },
+      "retrieved_at": "2026-09-29T10:31:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987741279",
+        "json_path": "mobil"
+      },
+      "confidence": "high",
+      "label": "Mobile phone",
+      "first_seen": "2026-09-29T10:31:17Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987741279",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987741279"
+      },
+      "retrieved_at": "2026-09-29T10:31:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987741279",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:31:17Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987741279",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987741279"
+      },
+      "retrieved_at": "2026-09-29T10:31:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987741279",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:31:17Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987741279",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987741279"
+      },
+      "retrieved_at": "2026-09-29T10:31:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987741279",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:31:17Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987741279",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987741279"
+      },
+      "retrieved_at": "2026-09-29T10:31:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987741279",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:31:17Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987741279",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987741279"
+      },
+      "retrieved_at": "2026-09-29T10:31:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987741279",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:31:17Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987741279",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987741279"
+      },
+      "retrieved_at": "2026-09-29T10:31:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987741279",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:31:17Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987741279",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987741279"
+      },
+      "retrieved_at": "2026-09-29T10:31:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987741279",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:31:17Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "DA",
+        "description": "Ansvarlig selskap med delt ansvar",
+        "description_en": "partnership with shared liability"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987741279",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987741279"
+      },
+      "retrieved_at": "2026-09-29T10:31:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987741279",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:31:17Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Solheimvegen 32, 9990 BÅTSFJORD, Norge",
+        "street": [
+          "Solheimvegen 32"
+        ],
+        "postcode": "9990",
+        "city": "BÅTSFJORD",
+        "municipality": "BÅTSFJORD",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987741279",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987741279"
+      },
+      "retrieved_at": "2026-09-29T10:31:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987741279",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:31:17Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "BÅTSFJORD",
+        "code": "5632"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987741279",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987741279"
+      },
+      "retrieved_at": "2026-09-29T10:31:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987741279",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:31:17Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "56.300",
+          "description": "Drift av barer"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987741279",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987741279"
+      },
+      "retrieved_at": "2026-09-29T10:31:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987741279",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:31:17Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Handel med mat, drikke, servering og produkter som naturlig hører sammen med dette.  ",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987741279",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987741279"
+      },
+      "retrieved_at": "2026-09-29T10:31:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987741279",
+        "json_path": "vedtektsfestetFormaal"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:31:17Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "2300",
+        "description": "Personlige foretak"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987741279",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987741279"
+      },
+      "retrieved_at": "2026-09-29T10:31:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987741279",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:31:17Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987741279",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987741279"
+      },
+      "retrieved_at": "2026-09-29T10:31:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987741279",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:31:17Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987741279",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987741279"
+      },
+      "retrieved_at": "2026-09-29T10:31:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987741279",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:31:17Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987741279",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987741279"
+      },
+      "retrieved_at": "2026-09-29T10:31:18Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "987741279",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:31:17Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Evy Myhre Berge",
+            "deceased": false
+          },
+          "group_last_changed": "2005-02-02"
+        },
+        {
+          "role_code": "DTPR",
+          "role": "Deltaker med delt ansvar",
+          "group": "Deltakere",
+          "holder": {
+            "type": "person",
+            "name": "Robert Berge",
+            "deceased": true
+          },
+          "group_last_changed": "2024-06-24"
+        },
+        {
+          "role_code": "DTPR",
+          "role": "Deltaker med delt ansvar",
+          "group": "Deltakere",
+          "holder": {
+            "type": "person",
+            "name": "Evy Myhre Berge",
+            "deceased": false
+          },
+          "group_last_changed": "2024-06-24"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987741279/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987741279"
+      },
+      "retrieved_at": "2026-09-29T10:31:21Z",
+      "as_of": "2024-06-24",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "987741279",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:31:17Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Evy Myhre Berge",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987741279/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/987741279"
+      },
+      "retrieved_at": "2026-09-29T10:31:21Z",
+      "as_of": "2005-02-02",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "987741279",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:31:17Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:31:18Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987741279"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:31:21Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987741279/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:31:22Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/987741279"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:31:24Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=987741279&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "SJØSIDEN BAR & DISCO DA (987 741 279), a partnership with shared liability, is an active entity in Enhetsregisteret; founded 2005-01-01; address Solheimvegen 32, 9990 BÅTSFJORD, Norge. Main industry is 56.300 Drift av barer. Daily manager: Evy Myhre Berge.",
+    "notes": [
+      "No annual accounts: organisation form DA is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:31:17Z",
+  "last_changed_at": "2026-09-29T10:31:17Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

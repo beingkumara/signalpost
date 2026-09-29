@@ -1,0 +1,621 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "930190918",
+  "orgnr_formatted": "930 190 918",
+  "name": "MJUKEN GRUNNEIERSAMARBEID AS KONKURSBO",
+  "status": "active",
+  "checked_at": "2026-09-29T10:33:40Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "MJUKEN GRUNNEIERSAMARBEID AS KONKURSBO",
+    "founded_date": "2022-11-08",
+    "registered_date": "2022-11-08",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "KBO",
+      "description": "Konkursbo",
+      "description_en": "estate in bankruptcy"
+    },
+    "business_address": {
+      "text": "c/o Heidi Anita Berntsen Kosberg, Kosbergveien 73, 7391 RENNEBU, Norge",
+      "street": [
+        "c/o Heidi Anita Berntsen Kosberg",
+        "Kosbergveien 73"
+      ],
+      "postcode": "7391",
+      "city": "RENNEBU",
+      "municipality": "RENNEBU",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "RENNEBU",
+      "code": "5022"
+    },
+    "postal_address": {
+      "text": "v/Adv. Frode Kvernrød, Postboks 125, 7291 STØREN, Norge",
+      "street": [
+        "v/Adv. Frode Kvernrød",
+        "Postboks 125"
+      ],
+      "postcode": "7291",
+      "city": "STØREN",
+      "municipality": "MIDTRE GAULDAL",
+      "country_code": "NO"
+    },
+    "industry_codes": [
+      {
+        "code": "68.120",
+        "description": "Utvikling og salg av byggeprosjekter"
+      }
+    ],
+    "purpose": "Konkursbo.",
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "KDEB",
+        "role": "Konkursdebitor",
+        "group": "Konkursdebitor",
+        "holder": {
+          "type": "organization",
+          "name": "MJUKEN GRUNNEIERSAMARBEID AS",
+          "orgnr": "994344145",
+          "deleted": false
+        },
+        "group_last_changed": "2022-11-08"
+      }
+    ],
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "930190934",
+        "name": "MJUKEN GRUNNEIERSAMARBEID AS KONKURSBO",
+        "address": "c/o Heidi Anita Berntsen Kosberg, Kosbergveien 73, 7391 RENNEBU, Norge",
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930190918",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930190918"
+      },
+      "retrieved_at": "2026-09-29T10:33:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930190918",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:33:40Z"
+    },
+    {
+      "field": "name",
+      "value": "MJUKEN GRUNNEIERSAMARBEID AS KONKURSBO",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930190918",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930190918"
+      },
+      "retrieved_at": "2026-09-29T10:33:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930190918",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:33:40Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2022-11-08",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930190918",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930190918"
+      },
+      "retrieved_at": "2026-09-29T10:33:42Z",
+      "as_of": "2022-11-08",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "930190918",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:33:40Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2022-11-08",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930190918",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930190918"
+      },
+      "retrieved_at": "2026-09-29T10:33:42Z",
+      "as_of": "2022-11-08",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "930190918",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:33:40Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930190918",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930190918"
+      },
+      "retrieved_at": "2026-09-29T10:33:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930190918",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:33:40Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930190918",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930190918"
+      },
+      "retrieved_at": "2026-09-29T10:33:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930190918",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:33:40Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930190918",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930190918"
+      },
+      "retrieved_at": "2026-09-29T10:33:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930190918",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:33:40Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930190918",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930190918"
+      },
+      "retrieved_at": "2026-09-29T10:33:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930190918",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:33:40Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930190918",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930190918"
+      },
+      "retrieved_at": "2026-09-29T10:33:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930190918",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:33:40Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930190918",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930190918"
+      },
+      "retrieved_at": "2026-09-29T10:33:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930190918",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:33:40Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930190918",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930190918"
+      },
+      "retrieved_at": "2026-09-29T10:33:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930190918",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:33:40Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "KBO",
+        "description": "Konkursbo",
+        "description_en": "estate in bankruptcy"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930190918",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930190918"
+      },
+      "retrieved_at": "2026-09-29T10:33:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930190918",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:33:40Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "c/o Heidi Anita Berntsen Kosberg, Kosbergveien 73, 7391 RENNEBU, Norge",
+        "street": [
+          "c/o Heidi Anita Berntsen Kosberg",
+          "Kosbergveien 73"
+        ],
+        "postcode": "7391",
+        "city": "RENNEBU",
+        "municipality": "RENNEBU",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930190918",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930190918"
+      },
+      "retrieved_at": "2026-09-29T10:33:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930190918",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:33:40Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "RENNEBU",
+        "code": "5022"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930190918",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930190918"
+      },
+      "retrieved_at": "2026-09-29T10:33:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930190918",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:33:40Z"
+    },
+    {
+      "field": "postal_address",
+      "value": {
+        "text": "v/Adv. Frode Kvernrød, Postboks 125, 7291 STØREN, Norge",
+        "street": [
+          "v/Adv. Frode Kvernrød",
+          "Postboks 125"
+        ],
+        "postcode": "7291",
+        "city": "STØREN",
+        "municipality": "MIDTRE GAULDAL",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930190918",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930190918"
+      },
+      "retrieved_at": "2026-09-29T10:33:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930190918",
+        "json_path": "postadresse"
+      },
+      "confidence": "high",
+      "label": "Postal address",
+      "first_seen": "2026-09-29T10:33:40Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "68.120",
+          "description": "Utvikling og salg av byggeprosjekter"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930190918",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930190918"
+      },
+      "retrieved_at": "2026-09-29T10:33:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930190918",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:33:40Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Konkursbo.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930190918",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930190918"
+      },
+      "retrieved_at": "2026-09-29T10:33:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930190918",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:33:40Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930190918",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930190918"
+      },
+      "retrieved_at": "2026-09-29T10:33:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930190918",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:33:40Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930190918",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930190918"
+      },
+      "retrieved_at": "2026-09-29T10:33:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930190918",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:33:40Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930190918",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930190918"
+      },
+      "retrieved_at": "2026-09-29T10:33:42Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930190918",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:33:40Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "KDEB",
+          "role": "Konkursdebitor",
+          "group": "Konkursdebitor",
+          "holder": {
+            "type": "organization",
+            "name": "MJUKEN GRUNNEIERSAMARBEID AS",
+            "orgnr": "994344145",
+            "deleted": false
+          },
+          "group_last_changed": "2022-11-08"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930190918/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930190918"
+      },
+      "retrieved_at": "2026-09-29T10:33:43Z",
+      "as_of": "2022-11-08",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "930190918",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:33:40Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=930190918&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930190918"
+      },
+      "retrieved_at": "2026-09-29T10:33:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930190918",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:33:40Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "930190934",
+          "name": "MJUKEN GRUNNEIERSAMARBEID AS KONKURSBO",
+          "address": "c/o Heidi Anita Berntsen Kosberg, Kosbergveien 73, 7391 RENNEBU, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=930190918&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/930190918"
+      },
+      "retrieved_at": "2026-09-29T10:33:47Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "930190918",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:33:40Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:33:42Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930190918"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:33:43Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930190918/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:33:45Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/930190918"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:33:47Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=930190918&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "MJUKEN GRUNNEIERSAMARBEID AS KONKURSBO (930 190 918), an estate in bankruptcy, is an active entity in Enhetsregisteret; founded 2022-11-08; address c/o Heidi Anita Berntsen Kosberg, Kosbergveien 73, 7391 RENNEBU, Norge. Main industry is 68.120 Utvikling og salg av byggeprosjekter; 1 registered sub-unit(s).",
+    "notes": [
+      "No annual accounts were found in Regnskapsregisteret (new company, late filing, or not obliged to file). No financial figures are shown."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:33:40Z",
+  "last_changed_at": "2026-09-29T10:33:40Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

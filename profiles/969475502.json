@@ -1,0 +1,555 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "969475502",
+  "orgnr_formatted": "969 475 502",
+  "name": "HØYLAND JAKOB",
+  "status": "active",
+  "checked_at": "2026-09-29T10:30:47Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "HØYLAND JAKOB",
+    "registered_date": "1995-02-20",
+    "in_corporate_group": false,
+    "language_form": "Nynorsk",
+    "vat_registered": false,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "ENK",
+      "description": "Enkeltpersonforetak",
+      "description_en": "sole proprietorship"
+    },
+    "business_address": {
+      "text": "Fossavegen 330, 5590 ETNE, Norge",
+      "street": [
+        "Fossavegen 330"
+      ],
+      "postcode": "5590",
+      "city": "ETNE",
+      "municipality": "ETNE",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "ETNE",
+      "code": "4611"
+    },
+    "industry_codes": [
+      {
+        "code": "68.200",
+        "description": "Utleie av egen eller leid fast eiendom"
+      }
+    ],
+    "purpose": "Planlegger ny avtale for utleige av melkekvote og landbruksareale frå 2021.",
+    "sector": {
+      "code": "8200",
+      "description": "Personlig næringsdrivende"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "INNH",
+        "role": "Innehaver",
+        "group": "Innehaver",
+        "holder": {
+          "type": "person",
+          "name": "Jakob Gerhard Høyland",
+          "deceased": false
+        },
+        "group_last_changed": "1995-02-20"
+      }
+    ],
+    "owner": {
+      "type": "person",
+      "name": "Jakob Gerhard Høyland",
+      "deceased": false
+    }
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/969475502",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/969475502"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "969475502",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "name",
+      "value": "HØYLAND JAKOB",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/969475502",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/969475502"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "969475502",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "1995-02-20",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/969475502",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/969475502"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "1995-02-20",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "969475502",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/969475502",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/969475502"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "969475502",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Nynorsk",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/969475502",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/969475502"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "969475502",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/969475502",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/969475502"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "969475502",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/969475502",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/969475502"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "969475502",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/969475502",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/969475502"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "969475502",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/969475502",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/969475502"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "969475502",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/969475502",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/969475502"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "969475502",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "ENK",
+        "description": "Enkeltpersonforetak",
+        "description_en": "sole proprietorship"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/969475502",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/969475502"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "969475502",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Fossavegen 330, 5590 ETNE, Norge",
+        "street": [
+          "Fossavegen 330"
+        ],
+        "postcode": "5590",
+        "city": "ETNE",
+        "municipality": "ETNE",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/969475502",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/969475502"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "969475502",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "ETNE",
+        "code": "4611"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/969475502",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/969475502"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "969475502",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "68.200",
+          "description": "Utleie av egen eller leid fast eiendom"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/969475502",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/969475502"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "969475502",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Planlegger ny avtale for utleige av melkekvote og landbruksareale frå 2021.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/969475502",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/969475502"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "969475502",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "8200",
+        "description": "Personlig næringsdrivende"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/969475502",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/969475502"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "969475502",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/969475502",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/969475502"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "969475502",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/969475502",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/969475502"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "969475502",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/969475502",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/969475502"
+      },
+      "retrieved_at": "2026-09-29T10:30:48Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "969475502",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "INNH",
+          "role": "Innehaver",
+          "group": "Innehaver",
+          "holder": {
+            "type": "person",
+            "name": "Jakob Gerhard Høyland",
+            "deceased": false
+          },
+          "group_last_changed": "1995-02-20"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/969475502/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/969475502"
+      },
+      "retrieved_at": "2026-09-29T10:30:51Z",
+      "as_of": "1995-02-20",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "969475502",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:30:47Z"
+    },
+    {
+      "field": "owner",
+      "value": {
+        "type": "person",
+        "name": "Jakob Gerhard Høyland",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/969475502/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/969475502"
+      },
+      "retrieved_at": "2026-09-29T10:30:51Z",
+      "as_of": "1995-02-20",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "969475502",
+        "json_path": "rollegrupper[type.kode=INNH]"
+      },
+      "confidence": "high",
+      "label": "Proprietor",
+      "first_seen": "2026-09-29T10:30:47Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:30:48Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/969475502"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:30:51Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/969475502/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:30:52Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/969475502"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:30:53Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=969475502&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "HØYLAND JAKOB (969 475 502), a sole proprietorship, is an active entity in Enhetsregisteret; address Fossavegen 330, 5590 ETNE, Norge. Main industry is 68.200 Utleie av egen eller leid fast eiendom. Proprietor: Jakob Gerhard Høyland.",
+    "notes": [
+      "No annual accounts: organisation form ENK is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:30:47Z",
+  "last_changed_at": "2026-09-29T10:30:47Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

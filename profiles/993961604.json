@@ -1,0 +1,656 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "993961604",
+  "orgnr_formatted": "993 961 604",
+  "name": "HOTELLDRIFT 2009 DA",
+  "status": "active",
+  "checked_at": "2026-09-29T10:27:10Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "HOTELLDRIFT 2009 DA",
+    "founded_date": "2009-03-09",
+    "registered_date": "2009-04-15",
+    "business_register_date": "2009-04-15",
+    "articles_date": "2009-03-09",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "DA",
+      "description": "Ansvarlig selskap med delt ansvar",
+      "description_en": "partnership with shared liability"
+    },
+    "business_address": {
+      "text": "8255 RØKLAND, Norge",
+      "street": [],
+      "postcode": "8255",
+      "city": "RØKLAND",
+      "municipality": "SALTDAL",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "SALTDAL",
+      "code": "1840"
+    },
+    "industry_codes": [
+      {
+        "code": "55.100",
+        "description": "Drift av hoteller"
+      }
+    ],
+    "purpose": "Hotell og restaurantdrift og det som naturlig hører til dette.",
+    "sector": {
+      "code": "2300",
+      "description": "Personlige foretak"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Lillian Helene Naji",
+          "deceased": false
+        },
+        "group_last_changed": "2009-04-15"
+      },
+      {
+        "role_code": "DTPR",
+        "role": "Deltaker med delt ansvar",
+        "group": "Deltakere",
+        "holder": {
+          "type": "person",
+          "name": "Lillian Helene Naji",
+          "deceased": false
+        },
+        "group_last_changed": "2009-04-15"
+      },
+      {
+        "role_code": "DTPR",
+        "role": "Deltaker med delt ansvar",
+        "group": "Deltakere",
+        "holder": {
+          "type": "person",
+          "name": "Kurt Thomassen",
+          "deceased": false
+        },
+        "group_last_changed": "2009-04-15"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Lillian Helene Naji",
+      "deceased": false
+    }
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993961604",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993961604"
+      },
+      "retrieved_at": "2026-09-29T10:27:11Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993961604",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:25:53Z"
+    },
+    {
+      "field": "name",
+      "value": "HOTELLDRIFT 2009 DA",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993961604",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993961604"
+      },
+      "retrieved_at": "2026-09-29T10:27:11Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993961604",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:25:53Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2009-03-09",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993961604",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993961604"
+      },
+      "retrieved_at": "2026-09-29T10:27:11Z",
+      "as_of": "2009-03-09",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "993961604",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:25:53Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2009-04-15",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993961604",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993961604"
+      },
+      "retrieved_at": "2026-09-29T10:27:11Z",
+      "as_of": "2009-04-15",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "993961604",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:25:53Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "2009-04-15",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993961604",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993961604"
+      },
+      "retrieved_at": "2026-09-29T10:27:11Z",
+      "as_of": "2009-04-15",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "993961604",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:25:53Z"
+    },
+    {
+      "field": "articles_date",
+      "value": "2009-03-09",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993961604",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993961604"
+      },
+      "retrieved_at": "2026-09-29T10:27:11Z",
+      "as_of": "2009-03-09",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "993961604",
+        "json_path": "vedtektsdato"
+      },
+      "confidence": "high",
+      "label": "Date of articles of association",
+      "first_seen": "2026-09-29T10:25:53Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993961604",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993961604"
+      },
+      "retrieved_at": "2026-09-29T10:27:11Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993961604",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:25:53Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993961604",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993961604"
+      },
+      "retrieved_at": "2026-09-29T10:27:11Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993961604",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:25:53Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993961604",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993961604"
+      },
+      "retrieved_at": "2026-09-29T10:27:11Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993961604",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:25:53Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993961604",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993961604"
+      },
+      "retrieved_at": "2026-09-29T10:27:11Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993961604",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:25:53Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993961604",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993961604"
+      },
+      "retrieved_at": "2026-09-29T10:27:11Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993961604",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:25:53Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993961604",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993961604"
+      },
+      "retrieved_at": "2026-09-29T10:27:11Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993961604",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:25:53Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993961604",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993961604"
+      },
+      "retrieved_at": "2026-09-29T10:27:11Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993961604",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:25:53Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "DA",
+        "description": "Ansvarlig selskap med delt ansvar",
+        "description_en": "partnership with shared liability"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993961604",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993961604"
+      },
+      "retrieved_at": "2026-09-29T10:27:11Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993961604",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:25:53Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "8255 RØKLAND, Norge",
+        "street": [],
+        "postcode": "8255",
+        "city": "RØKLAND",
+        "municipality": "SALTDAL",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993961604",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993961604"
+      },
+      "retrieved_at": "2026-09-29T10:27:11Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993961604",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:25:53Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "SALTDAL",
+        "code": "1840"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993961604",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993961604"
+      },
+      "retrieved_at": "2026-09-29T10:27:11Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993961604",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:25:53Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "55.100",
+          "description": "Drift av hoteller"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993961604",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993961604"
+      },
+      "retrieved_at": "2026-09-29T10:27:11Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993961604",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:25:53Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Hotell og restaurantdrift og det som naturlig hører til dette.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993961604",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993961604"
+      },
+      "retrieved_at": "2026-09-29T10:27:11Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993961604",
+        "json_path": "vedtektsfestetFormaal"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:25:53Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "2300",
+        "description": "Personlige foretak"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993961604",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993961604"
+      },
+      "retrieved_at": "2026-09-29T10:27:11Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993961604",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:25:53Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993961604",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993961604"
+      },
+      "retrieved_at": "2026-09-29T10:27:11Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993961604",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:25:53Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993961604",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993961604"
+      },
+      "retrieved_at": "2026-09-29T10:27:11Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993961604",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:25:53Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993961604",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993961604"
+      },
+      "retrieved_at": "2026-09-29T10:27:11Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "993961604",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:25:53Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Lillian Helene Naji",
+            "deceased": false
+          },
+          "group_last_changed": "2009-04-15"
+        },
+        {
+          "role_code": "DTPR",
+          "role": "Deltaker med delt ansvar",
+          "group": "Deltakere",
+          "holder": {
+            "type": "person",
+            "name": "Lillian Helene Naji",
+            "deceased": false
+          },
+          "group_last_changed": "2009-04-15"
+        },
+        {
+          "role_code": "DTPR",
+          "role": "Deltaker med delt ansvar",
+          "group": "Deltakere",
+          "holder": {
+            "type": "person",
+            "name": "Kurt Thomassen",
+            "deceased": false
+          },
+          "group_last_changed": "2009-04-15"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993961604/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993961604"
+      },
+      "retrieved_at": "2026-09-29T10:27:12Z",
+      "as_of": "2009-04-15",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "993961604",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:25:53Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Lillian Helene Naji",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993961604/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/993961604"
+      },
+      "retrieved_at": "2026-09-29T10:27:12Z",
+      "as_of": "2009-04-15",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "993961604",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:25:53Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:27:11Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993961604"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:27:12Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993961604/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:27:13Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/993961604"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:27:15Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=993961604&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "HOTELLDRIFT 2009 DA (993 961 604), a partnership with shared liability, is an active entity in Enhetsregisteret; founded 2009-03-09; address 8255 RØKLAND, Norge. Main industry is 55.100 Drift av hoteller. Daily manager: Lillian Helene Naji.",
+    "notes": [
+      "No annual accounts: organisation form DA is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:25:53Z",
+  "previous_checked_at": "2026-09-29T10:25:53Z",
+  "last_changed_at": "2026-09-29T10:25:53Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

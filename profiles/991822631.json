@@ -1,0 +1,859 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "991822631",
+  "orgnr_formatted": "991 822 631",
+  "name": "SKJERVØY FRP",
+  "status": "active",
+  "checked_at": "2026-09-29T10:30:54Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "SKJERVØY FRP",
+    "founded_date": "2003-05-06",
+    "registered_date": "2008-05-21",
+    "mobile": "932 27 341",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "FLI",
+      "description": "Forening/lag/innretning",
+      "description_en": "association"
+    },
+    "postal_address": {
+      "text": "v/ Vidar Langeland, Nedre Ringvei 2, 9180 SKJERVØY, Norge",
+      "street": [
+        "v/ Vidar Langeland",
+        "Nedre Ringvei 2"
+      ],
+      "postcode": "9180",
+      "city": "SKJERVØY",
+      "municipality": "SKJERVØY",
+      "country_code": "NO"
+    },
+    "industry_codes": [
+      {
+        "code": "94.920",
+        "description": "Aktiviteter i partipolitiske organisasjoner"
+      }
+    ],
+    "purpose": "Partipolitisk organisasjon.",
+    "sector": {
+      "code": "7000",
+      "description": "Ideelle organisasjoner"
+    },
+    "former_names": [
+      {
+        "name": "SKJERVØY FREMSKRITTSPARTI",
+        "from": "2008-05-21",
+        "to": "2009-11-17"
+      }
+    ],
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Vidar Langeland",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-24"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Stein Harald Johansen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-24"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Finn Konst",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-24"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Jan Aimar Larsen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-24"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Kim Andre Michalsen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-24"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Leif Håkon Pedersen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-24"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Jørn Cato Angell",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-24"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Sissel Sørvang",
+          "deceased": false
+        },
+        "group_last_changed": "2026-01-24"
+      }
+    ],
+    "board_chair": {
+      "type": "person",
+      "name": "Vidar Langeland",
+      "deceased": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Vidar Langeland",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Stein Harald Johansen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Finn Konst",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Jan Aimar Larsen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Kim Andre Michalsen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Leif Håkon Pedersen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Jørn Cato Angell",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Sissel Sørvang",
+        "deceased": false
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991822631",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991822631"
+      },
+      "retrieved_at": "2026-09-29T10:30:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991822631",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:30:54Z"
+    },
+    {
+      "field": "name",
+      "value": "SKJERVØY FRP",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991822631",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991822631"
+      },
+      "retrieved_at": "2026-09-29T10:30:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991822631",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:30:54Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2003-05-06",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991822631",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991822631"
+      },
+      "retrieved_at": "2026-09-29T10:30:55Z",
+      "as_of": "2003-05-06",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "991822631",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:30:54Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2008-05-21",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991822631",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991822631"
+      },
+      "retrieved_at": "2026-09-29T10:30:55Z",
+      "as_of": "2008-05-21",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "991822631",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:30:54Z"
+    },
+    {
+      "field": "mobile",
+      "value": "932 27 341",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991822631",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991822631"
+      },
+      "retrieved_at": "2026-09-29T10:30:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991822631",
+        "json_path": "mobil"
+      },
+      "confidence": "high",
+      "label": "Mobile phone",
+      "first_seen": "2026-09-29T10:30:54Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991822631",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991822631"
+      },
+      "retrieved_at": "2026-09-29T10:30:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991822631",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:30:54Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991822631",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991822631"
+      },
+      "retrieved_at": "2026-09-29T10:30:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991822631",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:30:54Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991822631",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991822631"
+      },
+      "retrieved_at": "2026-09-29T10:30:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991822631",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:30:54Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991822631",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991822631"
+      },
+      "retrieved_at": "2026-09-29T10:30:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991822631",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:30:54Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991822631",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991822631"
+      },
+      "retrieved_at": "2026-09-29T10:30:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991822631",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:30:54Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991822631",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991822631"
+      },
+      "retrieved_at": "2026-09-29T10:30:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991822631",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:30:54Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991822631",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991822631"
+      },
+      "retrieved_at": "2026-09-29T10:30:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991822631",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:30:54Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "FLI",
+        "description": "Forening/lag/innretning",
+        "description_en": "association"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991822631",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991822631"
+      },
+      "retrieved_at": "2026-09-29T10:30:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991822631",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:30:54Z"
+    },
+    {
+      "field": "postal_address",
+      "value": {
+        "text": "v/ Vidar Langeland, Nedre Ringvei 2, 9180 SKJERVØY, Norge",
+        "street": [
+          "v/ Vidar Langeland",
+          "Nedre Ringvei 2"
+        ],
+        "postcode": "9180",
+        "city": "SKJERVØY",
+        "municipality": "SKJERVØY",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991822631",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991822631"
+      },
+      "retrieved_at": "2026-09-29T10:30:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991822631",
+        "json_path": "postadresse"
+      },
+      "confidence": "high",
+      "label": "Postal address",
+      "first_seen": "2026-09-29T10:30:54Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "94.920",
+          "description": "Aktiviteter i partipolitiske organisasjoner"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991822631",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991822631"
+      },
+      "retrieved_at": "2026-09-29T10:30:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991822631",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:30:54Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Partipolitisk organisasjon.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991822631",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991822631"
+      },
+      "retrieved_at": "2026-09-29T10:30:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991822631",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:30:54Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "7000",
+        "description": "Ideelle organisasjoner"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991822631",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991822631"
+      },
+      "retrieved_at": "2026-09-29T10:30:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991822631",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:30:54Z"
+    },
+    {
+      "field": "former_names",
+      "value": [
+        {
+          "name": "SKJERVØY FREMSKRITTSPARTI",
+          "from": "2008-05-21",
+          "to": "2009-11-17"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991822631",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991822631"
+      },
+      "retrieved_at": "2026-09-29T10:30:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991822631",
+        "json_path": "historiskeNavn"
+      },
+      "confidence": "high",
+      "label": "Former names",
+      "first_seen": "2026-09-29T10:30:54Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991822631",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991822631"
+      },
+      "retrieved_at": "2026-09-29T10:30:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991822631",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:30:54Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991822631",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991822631"
+      },
+      "retrieved_at": "2026-09-29T10:30:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991822631",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:30:54Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991822631",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991822631"
+      },
+      "retrieved_at": "2026-09-29T10:30:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "991822631",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:30:54Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Vidar Langeland",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-24"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Stein Harald Johansen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-24"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Finn Konst",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-24"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Jan Aimar Larsen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-24"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Kim Andre Michalsen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-24"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Leif Håkon Pedersen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-24"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Jørn Cato Angell",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-24"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Sissel Sørvang",
+            "deceased": false
+          },
+          "group_last_changed": "2026-01-24"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991822631/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991822631"
+      },
+      "retrieved_at": "2026-09-29T10:30:56Z",
+      "as_of": "2026-01-24",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "991822631",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:30:54Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Vidar Langeland",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991822631/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991822631"
+      },
+      "retrieved_at": "2026-09-29T10:30:56Z",
+      "as_of": "2026-01-24",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "991822631",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:30:54Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Vidar Langeland",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Stein Harald Johansen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Finn Konst",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Jan Aimar Larsen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Kim Andre Michalsen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Leif Håkon Pedersen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Jørn Cato Angell",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Sissel Sørvang",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991822631/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/991822631"
+      },
+      "retrieved_at": "2026-09-29T10:30:56Z",
+      "as_of": "2026-01-24",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "991822631",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:30:54Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:30:55Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991822631"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:30:56Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991822631/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:30:57Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/991822631"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:30:59Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=991822631&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "SKJERVØY FRP (991 822 631), an association, is an active entity in Enhetsregisteret; founded 2003-05-06. Main industry is 94.920 Aktiviteter i partipolitiske organisasjoner. Board chair: Vidar Langeland.",
+    "notes": [
+      "No annual accounts: organisation form FLI is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:30:54Z",
+  "last_changed_at": "2026-09-29T10:30:54Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

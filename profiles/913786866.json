@@ -1,0 +1,1605 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "913786866",
+  "orgnr_formatted": "913 786 866",
+  "name": "VALDRES HYTTE OG BYGGSERVICE AS",
+  "status": "active",
+  "checked_at": "2026-09-29T10:28:49Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "VALDRES HYTTE OG BYGGSERVICE AS",
+    "founded_date": "2014-05-25",
+    "registered_date": "2014-07-01",
+    "business_register_date": "2014-07-01",
+    "articles_date": "2015-08-15",
+    "website": "https://www.vhbs.no",
+    "email": "post@vhbs.no",
+    "phone": "48 13 84 50",
+    "latest_annual_accounts_year": "2025",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": true,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "AS",
+      "description": "Aksjeselskap",
+      "description_en": "private limited company"
+    },
+    "business_address": {
+      "text": "Espelibygde 447, 2890 ETNEDAL, Norge",
+      "street": [
+        "Espelibygde 447"
+      ],
+      "postcode": "2890",
+      "city": "ETNEDAL",
+      "municipality": "ETNEDAL",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "ETNEDAL",
+      "code": "3450"
+    },
+    "postal_address": {
+      "text": "Kyrkjevegen 26, 2890 ETNEDAL, Norge",
+      "street": [
+        "Kyrkjevegen 26"
+      ],
+      "postcode": "2890",
+      "city": "ETNEDAL",
+      "municipality": "ETNEDAL",
+      "country_code": "NO"
+    },
+    "industry_codes": [
+      {
+        "code": "41.000",
+        "description": "Oppføring av bygninger"
+      }
+    ],
+    "employees": 13,
+    "purpose": "Oppføring/vedlikehold av bygg og andre produkter/tjenester som naturlig hører sammen med dette.",
+    "sector": {
+      "code": "2100",
+      "description": "Private aksjeselskaper mv."
+    },
+    "share_capital": {
+      "amount": 45000.0,
+      "currency": "NOK",
+      "type": "Aksjekapital",
+      "shares": 150
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Bjørn Mikael Småladen Espelien",
+          "deceased": false
+        },
+        "group_last_changed": "2014-07-01"
+      },
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Joachim Sveen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-06-27"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Bjørn Mikael Småladen Espelien",
+          "deceased": false
+        },
+        "group_last_changed": "2026-06-27"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Erland Tidemandsen Espelien",
+          "deceased": false
+        },
+        "group_last_changed": "2026-06-27"
+      },
+      {
+        "role_code": "REVI",
+        "role": "Revisor",
+        "group": "Revisor",
+        "holder": {
+          "type": "organization",
+          "name": "RRO AS",
+          "orgnr": "919086688",
+          "deleted": false
+        },
+        "group_last_changed": "2019-10-23"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Bjørn Mikael Småladen Espelien",
+      "deceased": false
+    },
+    "board_chair": {
+      "type": "person",
+      "name": "Joachim Sveen",
+      "deceased": false
+    },
+    "auditor": {
+      "type": "organization",
+      "name": "RRO AS",
+      "orgnr": "919086688",
+      "deleted": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Joachim Sveen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Bjørn Mikael Småladen Espelien",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Erland Tidemandsen Espelien",
+        "deceased": false
+      }
+    ],
+    "accounts_period": {
+      "from": "2025-01-01",
+      "to": "2025-12-31",
+      "year": "2025",
+      "currency": "NOK",
+      "type": "SELSKAP",
+      "audited": true,
+      "audit_opt_out": false
+    },
+    "revenue": {
+      "amount": 12097289.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "operating_expenses": {
+      "amount": 11835870.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "operating_profit": {
+      "amount": 261419.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "net_financial_items": {
+      "amount": 5092.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "profit_before_tax": {
+      "amount": 266511.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "net_profit": {
+      "amount": 207969.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "total_assets": {
+      "amount": 4352115.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "fixed_assets": {
+      "amount": 2012278.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "current_assets": {
+      "amount": 2339836.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "equity": {
+      "amount": 2296943.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "total_debt": {
+      "amount": 2055172.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "short_term_debt": {
+      "amount": 1983691.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "913882245",
+        "name": "VALDRES HYTTE OG BYGGSERVICE AS",
+        "address": "Espelibygde 447, 2890 ETNEDAL, Norge",
+        "employees": 13
+      }
+    ],
+    "website_verification": "name_on_page",
+    "website_title": "Valdres Hytte og Byggservice - Valdres Hytte og Byggservicechevron-rightangle-downcrossmenu",
+    "website_description": "- nybygg, rehabilitering og vedlikehold",
+    "website_emails": [
+      "post@vhbs.no"
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "name",
+      "value": "VALDRES HYTTE OG BYGGSERVICE AS",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2014-05-25",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:51Z",
+      "as_of": "2014-05-25",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2014-07-01",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:51Z",
+      "as_of": "2014-07-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "2014-07-01",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:51Z",
+      "as_of": "2014-07-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "articles_date",
+      "value": "2015-08-15",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:51Z",
+      "as_of": "2015-08-15",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "json_path": "vedtektsdato"
+      },
+      "confidence": "high",
+      "label": "Date of articles of association",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "website",
+      "value": "https://www.vhbs.no",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "json_path": "hjemmeside"
+      },
+      "confidence": "high",
+      "label": "Website",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "email",
+      "value": "post@vhbs.no",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "json_path": "epostadresse"
+      },
+      "confidence": "high",
+      "label": "Email",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "phone",
+      "value": "48 13 84 50",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "json_path": "telefon"
+      },
+      "confidence": "high",
+      "label": "Phone",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "latest_annual_accounts_year",
+      "value": "2025",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "json_path": "sisteInnsendteAarsregnskap"
+      },
+      "confidence": "high",
+      "label": "Latest annual accounts submitted",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:51Z",
+      "as_of": "2014-01-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "AS",
+        "description": "Aksjeselskap",
+        "description_en": "private limited company"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Espelibygde 447, 2890 ETNEDAL, Norge",
+        "street": [
+          "Espelibygde 447"
+        ],
+        "postcode": "2890",
+        "city": "ETNEDAL",
+        "municipality": "ETNEDAL",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "ETNEDAL",
+        "code": "3450"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "postal_address",
+      "value": {
+        "text": "Kyrkjevegen 26, 2890 ETNEDAL, Norge",
+        "street": [
+          "Kyrkjevegen 26"
+        ],
+        "postcode": "2890",
+        "city": "ETNEDAL",
+        "municipality": "ETNEDAL",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "json_path": "postadresse"
+      },
+      "confidence": "high",
+      "label": "Postal address",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "41.000",
+          "description": "Oppføring av bygninger"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "employees",
+      "value": 13,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:51Z",
+      "as_of": "2026-08-10",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "json_path": "antallAnsatte"
+      },
+      "confidence": "high",
+      "label": "Registered employees",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Oppføring/vedlikehold av bygg og andre produkter/tjenester som naturlig hører sammen med dette.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "json_path": "vedtektsfestetFormaal"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "2100",
+        "description": "Private aksjeselskaper mv."
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "share_capital",
+      "value": {
+        "amount": 45000.0,
+        "currency": "NOK",
+        "type": "Aksjekapital",
+        "shares": 150
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:51Z",
+      "as_of": "2015-09-18",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "json_path": "kapital"
+      },
+      "confidence": "high",
+      "label": "Share capital",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:51Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Bjørn Mikael Småladen Espelien",
+            "deceased": false
+          },
+          "group_last_changed": "2014-07-01"
+        },
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Joachim Sveen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-06-27"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Bjørn Mikael Småladen Espelien",
+            "deceased": false
+          },
+          "group_last_changed": "2026-06-27"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Erland Tidemandsen Espelien",
+            "deceased": false
+          },
+          "group_last_changed": "2026-06-27"
+        },
+        {
+          "role_code": "REVI",
+          "role": "Revisor",
+          "group": "Revisor",
+          "holder": {
+            "type": "organization",
+            "name": "RRO AS",
+            "orgnr": "919086688",
+            "deleted": false
+          },
+          "group_last_changed": "2019-10-23"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913786866/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:52Z",
+      "as_of": "2026-06-27",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Bjørn Mikael Småladen Espelien",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913786866/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:52Z",
+      "as_of": "2014-07-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Joachim Sveen",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913786866/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:52Z",
+      "as_of": "2026-06-27",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "auditor",
+      "value": {
+        "type": "organization",
+        "name": "RRO AS",
+        "orgnr": "919086688",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913786866/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:52Z",
+      "as_of": "2019-10-23",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "json_path": "rollegrupper[type.kode=REVI]"
+      },
+      "confidence": "high",
+      "label": "Auditor",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Joachim Sveen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Bjørn Mikael Småladen Espelien",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Erland Tidemandsen Espelien",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913786866/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:52Z",
+      "as_of": "2026-06-27",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "accounts_period",
+      "value": {
+        "from": "2025-01-01",
+        "to": "2025-12-31",
+        "year": "2025",
+        "currency": "NOK",
+        "type": "SELSKAP",
+        "audited": true,
+        "audit_opt_out": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "journal_number": "2026738462",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "regnskapsperiode"
+      },
+      "confidence": "high",
+      "label": "Accounting period",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "revenue",
+      "value": {
+        "amount": 12097289.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "journal_number": "2026738462",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftsinntekter.sumDriftsinntekter"
+      },
+      "confidence": "high",
+      "label": "Operating revenue",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "operating_expenses",
+      "value": {
+        "amount": 11835870.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "journal_number": "2026738462",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftskostnad.sumDriftskostnad"
+      },
+      "confidence": "high",
+      "label": "Operating expenses",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "operating_profit",
+      "value": {
+        "amount": 261419.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "journal_number": "2026738462",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftsresultat"
+      },
+      "confidence": "high",
+      "label": "Operating profit",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "net_financial_items",
+      "value": {
+        "amount": 5092.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "journal_number": "2026738462",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.finansresultat.nettoFinans"
+      },
+      "confidence": "high",
+      "label": "Net financial items",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "profit_before_tax",
+      "value": {
+        "amount": 266511.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "journal_number": "2026738462",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.ordinaertResultatFoerSkattekostnad"
+      },
+      "confidence": "high",
+      "label": "Profit before tax",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "net_profit",
+      "value": {
+        "amount": 207969.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "journal_number": "2026738462",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.aarsresultat"
+      },
+      "confidence": "high",
+      "label": "Net profit (annual result)",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "total_assets",
+      "value": {
+        "amount": 4352115.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "journal_number": "2026738462",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.sumEiendeler"
+      },
+      "confidence": "high",
+      "label": "Total assets",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "fixed_assets",
+      "value": {
+        "amount": 2012278.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "journal_number": "2026738462",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.anleggsmidler.sumAnleggsmidler"
+      },
+      "confidence": "high",
+      "label": "Fixed assets",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "current_assets",
+      "value": {
+        "amount": 2339836.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "journal_number": "2026738462",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.omloepsmidler.sumOmloepsmidler"
+      },
+      "confidence": "high",
+      "label": "Current assets",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "equity",
+      "value": {
+        "amount": 2296943.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "journal_number": "2026738462",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.egenkapital.sumEgenkapital"
+      },
+      "confidence": "high",
+      "label": "Equity",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "total_debt",
+      "value": {
+        "amount": 2055172.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "journal_number": "2026738462",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.gjeldOversikt.sumGjeld"
+      },
+      "confidence": "high",
+      "label": "Total debt",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "short_term_debt",
+      "value": {
+        "amount": 1983691.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/913786866",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:53Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "journal_number": "2026738462",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.gjeldOversikt.kortsiktigGjeld.sumKortsiktigGjeld"
+      },
+      "confidence": "high",
+      "label": "Short-term debt",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=913786866&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "913882245",
+          "name": "VALDRES HYTTE OG BYGGSERVICE AS",
+          "address": "Espelibygde 447, 2890 ETNEDAL, Norge",
+          "employees": 13
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=913786866&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/913786866"
+      },
+      "retrieved_at": "2026-09-29T10:28:54Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "website_verification",
+      "value": "name_on_page",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://vhbs.no/",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:29:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "identity": {
+          "level": "name_on_page",
+          "orgnr_found": false,
+          "name_found": true,
+          "name_tested": "VALDRES HYTTE OG BYGGSERVICE"
+        },
+        "registered_url": "https://www.vhbs.no"
+      },
+      "confidence": "medium",
+      "label": "Website identity check",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "website_title",
+      "value": "Valdres Hytte og Byggservice - Valdres Hytte og Byggservicechevron-rightangle-downcrossmenu",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://vhbs.no/",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:29:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "identity": {
+          "level": "name_on_page",
+          "orgnr_found": false,
+          "name_found": true,
+          "name_tested": "VALDRES HYTTE OG BYGGSERVICE"
+        },
+        "registered_url": "https://www.vhbs.no",
+        "json_path": "html.title"
+      },
+      "confidence": "medium",
+      "label": "Website title",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "website_description",
+      "value": "- nybygg, rehabilitering og vedlikehold",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://vhbs.no/",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:29:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "identity": {
+          "level": "name_on_page",
+          "orgnr_found": false,
+          "name_found": true,
+          "name_tested": "VALDRES HYTTE OG BYGGSERVICE"
+        },
+        "registered_url": "https://www.vhbs.no",
+        "json_path": "html.meta[description]"
+      },
+      "confidence": "medium",
+      "label": "Self-description on website",
+      "first_seen": "2026-09-29T10:28:49Z"
+    },
+    {
+      "field": "website_emails",
+      "value": [
+        "post@vhbs.no"
+      ],
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://vhbs.no/",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:29:05Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "913786866",
+        "identity": {
+          "level": "name_on_page",
+          "orgnr_found": false,
+          "name_found": true,
+          "name_tested": "VALDRES HYTTE OG BYGGSERVICE"
+        },
+        "registered_url": "https://www.vhbs.no",
+        "json_path": "html.a[mailto]"
+      },
+      "confidence": "medium",
+      "label": "Contact emails on website",
+      "first_seen": "2026-09-29T10:28:49Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:28:51Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913786866"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:28:52Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913786866/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:28:53Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/913786866"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:28:54Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=913786866&size=5"
+    },
+    {
+      "source": "Company website",
+      "checked_at": "2026-09-29T10:29:05Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://www.vhbs.no"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "VALDRES HYTTE OG BYGGSERVICE AS (913 786 866), a private limited company, is an active entity in Enhetsregisteret; founded 2014-05-25; address Espelibygde 447, 2890 ETNEDAL, Norge. Main industry is 41.000 Oppføring av bygninger; 13 registered employees; 1 registered sub-unit(s). Daily manager: Bjørn Mikael Småladen Espelien; Board chair: Joachim Sveen; Auditor: RRO AS. Accounts for 2025 (period ending 2025-12-31): revenue NOK 12.10 m, operating profit NOK 261.42 k, net profit NOK 207.97 k, equity NOK 2.30 m, total assets NOK 4.35 m. Website https://www.vhbs.no shows the registered name.",
+    "notes": []
+  },
+  "first_checked_at": "2026-09-29T10:28:49Z",
+  "last_changed_at": "2026-09-29T10:28:49Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

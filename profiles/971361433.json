@@ -1,0 +1,1144 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "971361433",
+  "orgnr_formatted": "971 361 433",
+  "name": "NORDHORDLAND REVISJON IKS",
+  "status": "active",
+  "checked_at": "2026-09-29T10:32:36Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "NORDHORDLAND REVISJON IKS",
+    "founded_date": "2004-12-15",
+    "registered_date": "1995-02-20",
+    "business_register_date": "2005-09-01",
+    "articles_date": "2020-12-10",
+    "website": "https://www.nhr.no",
+    "email": "nhr@nhr.no",
+    "mobile": "47039826",
+    "latest_annual_accounts_year": "2005",
+    "in_corporate_group": false,
+    "language_form": "Nynorsk",
+    "vat_registered": false,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "IKS",
+      "description": "Interkommunalt selskap",
+      "description_en": "inter-municipal company"
+    },
+    "business_address": {
+      "text": "Kvassnesvegen 23, 5914 ISDALSTØ, Norge",
+      "street": [
+        "Kvassnesvegen 23"
+      ],
+      "postcode": "5914",
+      "city": "ISDALSTØ",
+      "municipality": "ALVER",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "ALVER",
+      "code": "4631"
+    },
+    "industry_codes": [
+      {
+        "code": "84.110",
+        "description": "Generell offentlig administrasjon"
+      }
+    ],
+    "purpose": "Nordhordland Revisjon IKS har som oppgåve å utføre revisjon i kommunar i høve til Lov om kommunar og fylkeskommunar av 22.juni 2018 nr 83 kapittel 24.   Nordhordland Revisjon IKS skal på vegne av kommunestyret og kontrollutvalet stå for jamleg kontroll med forvaltninga i kommunar i høve til forskrift om kontrollutval og revisjon.   Nordhordland Revisjon IKS skal vidare ha som føremål å kunna tilby sine revisjons- og rådgjevingstenester ovanfor ulike verksemder som kommunar er økonomisk involvert i , eller har andre interesser i. Selskapet kan også tilby sine tenester til private selskap med og utan revisjonsplikt.   Alle eksterne oppdrag som ikkje er ein del av kommunen si forvaltningsverksemd skal vera sjølvfinansierande. Avtale om revisjon vert inngått mellom oppdragsgjevarane og Nordhordland Revisjon IKS ved dagleg leiar/revisjonssjef.",
+    "sector": {
+      "code": "6500",
+      "description": "Kommuneforvaltningen"
+    },
+    "former_names": [
+      {
+        "name": "NORDHORDLAND REVISJONSDIST",
+        "from": "1995-02-20",
+        "to": "1995-10-02"
+      },
+      {
+        "name": "NORDHORDLAND REVISJONSDISTRIKT",
+        "from": "1995-10-02",
+        "to": "2005-09-01"
+      }
+    ],
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Janne Eraker",
+          "deceased": false
+        },
+        "group_last_changed": "2019-02-04"
+      },
+      {
+        "role_code": "DTPR",
+        "role": "Deltaker med delt ansvar",
+        "group": "Deltakere",
+        "holder": {
+          "type": "organization",
+          "name": "AUSTRHEIM KOMMUNE",
+          "orgnr": "948350823",
+          "deleted": false
+        },
+        "group_last_changed": "2020-12-22"
+      },
+      {
+        "role_code": "DTPR",
+        "role": "Deltaker med delt ansvar",
+        "group": "Deltakere",
+        "holder": {
+          "type": "organization",
+          "name": "FEDJE KOMMUNE",
+          "orgnr": "944041036",
+          "deleted": false
+        },
+        "group_last_changed": "2020-12-22"
+      },
+      {
+        "role_code": "DTPR",
+        "role": "Deltaker med delt ansvar",
+        "group": "Deltakere",
+        "holder": {
+          "type": "organization",
+          "name": "MASFJORDEN KOMMUNE",
+          "orgnr": "945627913",
+          "deleted": false
+        },
+        "group_last_changed": "2020-12-22"
+      },
+      {
+        "role_code": "DTPR",
+        "role": "Deltaker med delt ansvar",
+        "group": "Deltakere",
+        "holder": {
+          "type": "organization",
+          "name": "MODALEN KOMMUNE",
+          "orgnr": "964969302",
+          "deleted": false
+        },
+        "group_last_changed": "2020-12-22"
+      },
+      {
+        "role_code": "DTPR",
+        "role": "Deltaker med delt ansvar",
+        "group": "Deltakere",
+        "holder": {
+          "type": "organization",
+          "name": "OSTERØY KOMMUNE",
+          "orgnr": "864338712",
+          "deleted": false
+        },
+        "group_last_changed": "2020-12-22"
+      },
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Lovisa Oddny Midtbø",
+          "deceased": false
+        },
+        "group_last_changed": "2015-12-28"
+      },
+      {
+        "role_code": "NEST",
+        "role": "Nestleder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Magne Fredrik Rifsgård",
+          "deceased": false
+        },
+        "group_last_changed": "2015-12-28"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Olav Steinar Namtvedt",
+          "deceased": false
+        },
+        "group_last_changed": "2015-12-28"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Astri Margrethe Marta Riple Ådland",
+          "deceased": false
+        },
+        "group_last_changed": "2015-12-28"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Vilgerd Storset Husa",
+          "deceased": false
+        },
+        "group_last_changed": "2015-12-28"
+      },
+      {
+        "role_code": "VARA",
+        "role": "Varamedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Reidar Kristian Hjertås",
+          "deceased": false
+        },
+        "group_last_changed": "2015-12-28"
+      },
+      {
+        "role_code": "VARA",
+        "role": "Varamedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Ivar Harald Bergsvik",
+          "deceased": false
+        },
+        "group_last_changed": "2015-12-28"
+      },
+      {
+        "role_code": "VARA",
+        "role": "Varamedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Kjersti Haugland",
+          "deceased": false
+        },
+        "group_last_changed": "2015-12-28"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Janne Eraker",
+      "deceased": false
+    },
+    "board_chair": {
+      "type": "person",
+      "name": "Lovisa Oddny Midtbø",
+      "deceased": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Lovisa Oddny Midtbø",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Magne Fredrik Rifsgård",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Olav Steinar Namtvedt",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Astri Margrethe Marta Riple Ådland",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Vilgerd Storset Husa",
+        "deceased": false
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/971361433",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/971361433"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "971361433",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "name",
+      "value": "NORDHORDLAND REVISJON IKS",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/971361433",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/971361433"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "971361433",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2004-12-15",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/971361433",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/971361433"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2004-12-15",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "971361433",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "1995-02-20",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/971361433",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/971361433"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "1995-02-20",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "971361433",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "2005-09-01",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/971361433",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/971361433"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2005-09-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "971361433",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "articles_date",
+      "value": "2020-12-10",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/971361433",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/971361433"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2020-12-10",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "971361433",
+        "json_path": "vedtektsdato"
+      },
+      "confidence": "high",
+      "label": "Date of articles of association",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "website",
+      "value": "https://www.nhr.no",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/971361433",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/971361433"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "971361433",
+        "json_path": "hjemmeside"
+      },
+      "confidence": "high",
+      "label": "Website",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "email",
+      "value": "nhr@nhr.no",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/971361433",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/971361433"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "971361433",
+        "json_path": "epostadresse"
+      },
+      "confidence": "high",
+      "label": "Email",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "mobile",
+      "value": "47039826",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/971361433",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/971361433"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "971361433",
+        "json_path": "mobil"
+      },
+      "confidence": "high",
+      "label": "Mobile phone",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "latest_annual_accounts_year",
+      "value": "2005",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/971361433",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/971361433"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "971361433",
+        "json_path": "sisteInnsendteAarsregnskap"
+      },
+      "confidence": "high",
+      "label": "Latest annual accounts submitted",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/971361433",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/971361433"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "971361433",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Nynorsk",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/971361433",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/971361433"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "971361433",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/971361433",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/971361433"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "971361433",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/971361433",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/971361433"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "971361433",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/971361433",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/971361433"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "971361433",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/971361433",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/971361433"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "971361433",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/971361433",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/971361433"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "971361433",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "IKS",
+        "description": "Interkommunalt selskap",
+        "description_en": "inter-municipal company"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/971361433",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/971361433"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "971361433",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Kvassnesvegen 23, 5914 ISDALSTØ, Norge",
+        "street": [
+          "Kvassnesvegen 23"
+        ],
+        "postcode": "5914",
+        "city": "ISDALSTØ",
+        "municipality": "ALVER",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/971361433",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/971361433"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "971361433",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "ALVER",
+        "code": "4631"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/971361433",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/971361433"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "971361433",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "84.110",
+          "description": "Generell offentlig administrasjon"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/971361433",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/971361433"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "971361433",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Nordhordland Revisjon IKS har som oppgåve å utføre revisjon i kommunar i høve til Lov om kommunar og fylkeskommunar av 22.juni 2018 nr 83 kapittel 24.   Nordhordland Revisjon IKS skal på vegne av kommunestyret og kontrollutvalet stå for jamleg kontroll med forvaltninga i kommunar i høve til forskrift om kontrollutval og revisjon.   Nordhordland Revisjon IKS skal vidare ha som føremål å kunna tilby sine revisjons- og rådgjevingstenester ovanfor ulike verksemder som kommunar er økonomisk involvert i , eller har andre interesser i. Selskapet kan også tilby sine tenester til private selskap med og utan revisjonsplikt.   Alle eksterne oppdrag som ikkje er ein del av kommunen si forvaltningsverksemd skal vera sjølvfinansierande. Avtale om revisjon vert inngått mellom oppdragsgjevarane og Nordhordland Revisjon IKS ved dagleg leiar/revisjonssjef.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/971361433",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/971361433"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "971361433",
+        "json_path": "vedtektsfestetFormaal"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "6500",
+        "description": "Kommuneforvaltningen"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/971361433",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/971361433"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "971361433",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "former_names",
+      "value": [
+        {
+          "name": "NORDHORDLAND REVISJONSDIST",
+          "from": "1995-02-20",
+          "to": "1995-10-02"
+        },
+        {
+          "name": "NORDHORDLAND REVISJONSDISTRIKT",
+          "from": "1995-10-02",
+          "to": "2005-09-01"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/971361433",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/971361433"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "971361433",
+        "json_path": "historiskeNavn"
+      },
+      "confidence": "high",
+      "label": "Former names",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/971361433",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/971361433"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "971361433",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/971361433",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/971361433"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "971361433",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/971361433",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/971361433"
+      },
+      "retrieved_at": "2026-09-29T10:32:37Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "971361433",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Janne Eraker",
+            "deceased": false
+          },
+          "group_last_changed": "2019-02-04"
+        },
+        {
+          "role_code": "DTPR",
+          "role": "Deltaker med delt ansvar",
+          "group": "Deltakere",
+          "holder": {
+            "type": "organization",
+            "name": "AUSTRHEIM KOMMUNE",
+            "orgnr": "948350823",
+            "deleted": false
+          },
+          "group_last_changed": "2020-12-22"
+        },
+        {
+          "role_code": "DTPR",
+          "role": "Deltaker med delt ansvar",
+          "group": "Deltakere",
+          "holder": {
+            "type": "organization",
+            "name": "FEDJE KOMMUNE",
+            "orgnr": "944041036",
+            "deleted": false
+          },
+          "group_last_changed": "2020-12-22"
+        },
+        {
+          "role_code": "DTPR",
+          "role": "Deltaker med delt ansvar",
+          "group": "Deltakere",
+          "holder": {
+            "type": "organization",
+            "name": "MASFJORDEN KOMMUNE",
+            "orgnr": "945627913",
+            "deleted": false
+          },
+          "group_last_changed": "2020-12-22"
+        },
+        {
+          "role_code": "DTPR",
+          "role": "Deltaker med delt ansvar",
+          "group": "Deltakere",
+          "holder": {
+            "type": "organization",
+            "name": "MODALEN KOMMUNE",
+            "orgnr": "964969302",
+            "deleted": false
+          },
+          "group_last_changed": "2020-12-22"
+        },
+        {
+          "role_code": "DTPR",
+          "role": "Deltaker med delt ansvar",
+          "group": "Deltakere",
+          "holder": {
+            "type": "organization",
+            "name": "OSTERØY KOMMUNE",
+            "orgnr": "864338712",
+            "deleted": false
+          },
+          "group_last_changed": "2020-12-22"
+        },
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Lovisa Oddny Midtbø",
+            "deceased": false
+          },
+          "group_last_changed": "2015-12-28"
+        },
+        {
+          "role_code": "NEST",
+          "role": "Nestleder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Magne Fredrik Rifsgård",
+            "deceased": false
+          },
+          "group_last_changed": "2015-12-28"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Olav Steinar Namtvedt",
+            "deceased": false
+          },
+          "group_last_changed": "2015-12-28"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Astri Margrethe Marta Riple Ådland",
+            "deceased": false
+          },
+          "group_last_changed": "2015-12-28"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Vilgerd Storset Husa",
+            "deceased": false
+          },
+          "group_last_changed": "2015-12-28"
+        },
+        {
+          "role_code": "VARA",
+          "role": "Varamedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Reidar Kristian Hjertås",
+            "deceased": false
+          },
+          "group_last_changed": "2015-12-28"
+        },
+        {
+          "role_code": "VARA",
+          "role": "Varamedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Ivar Harald Bergsvik",
+            "deceased": false
+          },
+          "group_last_changed": "2015-12-28"
+        },
+        {
+          "role_code": "VARA",
+          "role": "Varamedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Kjersti Haugland",
+            "deceased": false
+          },
+          "group_last_changed": "2015-12-28"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/971361433/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/971361433"
+      },
+      "retrieved_at": "2026-09-29T10:32:39Z",
+      "as_of": "2020-12-22",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "971361433",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Janne Eraker",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/971361433/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/971361433"
+      },
+      "retrieved_at": "2026-09-29T10:32:39Z",
+      "as_of": "2019-02-04",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "971361433",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Lovisa Oddny Midtbø",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/971361433/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/971361433"
+      },
+      "retrieved_at": "2026-09-29T10:32:39Z",
+      "as_of": "2015-12-28",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "971361433",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:32:36Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Lovisa Oddny Midtbø",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Magne Fredrik Rifsgård",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Olav Steinar Namtvedt",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Astri Margrethe Marta Riple Ådland",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Vilgerd Storset Husa",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/971361433/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/971361433"
+      },
+      "retrieved_at": "2026-09-29T10:32:39Z",
+      "as_of": "2020-12-22",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "971361433",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:32:36Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:32:37Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/971361433"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:32:39Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/971361433/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:32:40Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/971361433"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:32:41Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=971361433&size=5"
+    },
+    {
+      "source": "Company website",
+      "checked_at": "2026-09-29T10:32:43Z",
+      "http_status": 0,
+      "found_data": true,
+      "url": "https://www.nhr.no",
+      "error": "GET https://www.nhr.no failed after 1 attempts: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1077)>"
+    }
+  ],
+  "warnings": [
+    "Company website unavailable: GET https://www.nhr.no failed after 1 attempts: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1077)>"
+  ],
+  "explanation": {
+    "summary": "NORDHORDLAND REVISJON IKS (971 361 433), an inter-municipal company, is an active entity in Enhetsregisteret; founded 2004-12-15; address Kvassnesvegen 23, 5914 ISDALSTØ, Norge. Main industry is 84.110 Generell offentlig administrasjon. Daily manager: Janne Eraker; Board chair: Lovisa Oddny Midtbø. Registered website: https://www.nhr.no.",
+    "notes": [
+      "No annual accounts were found in Regnskapsregisteret (new company, late filing, or not obliged to file). No financial figures are shown.",
+      "Company website unavailable: GET https://www.nhr.no failed after 1 attempts: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1077)>"
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:32:36Z",
+  "last_changed_at": "2026-09-29T10:32:36Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

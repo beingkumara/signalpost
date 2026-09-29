@@ -1,0 +1,1462 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "890027652",
+  "orgnr_formatted": "890 027 652",
+  "name": "KRUMTAPP AS",
+  "status": "active",
+  "checked_at": "2026-09-29T10:26:51Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "KRUMTAPP AS",
+    "founded_date": "2006-06-27",
+    "registered_date": "2006-07-24",
+    "business_register_date": "2006-07-24",
+    "articles_date": "2017-01-02",
+    "website": "https://www.krumtapp.no",
+    "latest_annual_accounts_year": "2025",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": true,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "AS",
+      "description": "Aksjeselskap",
+      "description_en": "private limited company"
+    },
+    "business_address": {
+      "text": "c/o Janniken Høybakk, Austerfjordveien 860, 9475 BORKENES, Norge",
+      "street": [
+        "c/o Janniken Høybakk",
+        "Austerfjordveien 860"
+      ],
+      "postcode": "9475",
+      "city": "BORKENES",
+      "municipality": "KVÆFJORD",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "KVÆFJORD",
+      "code": "5510"
+    },
+    "industry_codes": [
+      {
+        "code": "70.200",
+        "description": "Bedriftsrådgivning og annen administrativ rådgivning"
+      }
+    ],
+    "purpose": "Rådgivning innen bedriftsutvikling og annen konsulentvirksomhet.",
+    "sector": {
+      "code": "2100",
+      "description": "Private aksjeselskaper mv."
+    },
+    "share_capital": {
+      "amount": 100000.0,
+      "currency": "NOK",
+      "type": "Aksjekapital",
+      "shares": 100
+    },
+    "former_names": [
+      {
+        "name": "HARSTAD 3D PRINTING AS",
+        "from": "2006-07-24",
+        "to": "2014-05-27"
+      }
+    ],
+    "audit_opt_out": true,
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Janniken Høybakk",
+          "deceased": false
+        },
+        "group_last_changed": "2012-05-30"
+      },
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Janniken Høybakk",
+          "deceased": false
+        },
+        "group_last_changed": "2022-05-20"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Sigve Ranheim Andersen",
+          "deceased": false
+        },
+        "group_last_changed": "2022-05-20"
+      },
+      {
+        "role_code": "REGN",
+        "role": "Regnskapsfører",
+        "group": "Regnskapsfører",
+        "holder": {
+          "type": "organization",
+          "name": "SPAREBANK 1 REGNSKAPSHUSET NORD-NORGE AS",
+          "orgnr": "851987142",
+          "deleted": false
+        },
+        "group_last_changed": "2018-06-13"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Janniken Høybakk",
+      "deceased": false
+    },
+    "board_chair": {
+      "type": "person",
+      "name": "Janniken Høybakk",
+      "deceased": false
+    },
+    "accountant": {
+      "type": "organization",
+      "name": "SPAREBANK 1 REGNSKAPSHUSET NORD-NORGE AS",
+      "orgnr": "851987142",
+      "deleted": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Janniken Høybakk",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Sigve Ranheim Andersen",
+        "deceased": false
+      }
+    ],
+    "accounts_period": {
+      "from": "2025-01-01",
+      "to": "2025-12-31",
+      "year": "2025",
+      "currency": "NOK",
+      "type": "SELSKAP",
+      "audited": true,
+      "audit_opt_out": true
+    },
+    "revenue": {
+      "amount": 279738.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "operating_expenses": {
+      "amount": 248604.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "operating_profit": {
+      "amount": 31133.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "profit_before_tax": {
+      "amount": 31133.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "net_profit": {
+      "amount": 31133.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "total_assets": {
+      "amount": 98994.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "current_assets": {
+      "amount": 98994.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "equity": {
+      "amount": 24560.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "total_debt": {
+      "amount": 74434.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "short_term_debt": {
+      "amount": 74434.0,
+      "currency": "NOK",
+      "year": "2025"
+    },
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "988057487",
+        "name": "KRUMTAPP AS",
+        "address": "c/o Janniken Høybakk, Austerfjordveien 860, 9475 BORKENES, Norge",
+        "employees": null
+      }
+    ],
+    "website_verification": "name_on_page",
+    "website_title": "Krumtapp.no - Vi tilbyr tjenester innen FOU-virksomhet",
+    "website_description": "Krumtapp AS. Vi tilbyr tjenester innen FOU-virksomhet for alle type bedrifter og næringer. Bedriften har utviklet spesialkompetanse på utforming av søknader",
+    "website_emails": [
+      "post@krumtapp.no"
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "name",
+      "value": "KRUMTAPP AS",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "2006-06-27",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:55Z",
+      "as_of": "2006-06-27",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2006-07-24",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:55Z",
+      "as_of": "2006-07-24",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "2006-07-24",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:55Z",
+      "as_of": "2006-07-24",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "articles_date",
+      "value": "2017-01-02",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:55Z",
+      "as_of": "2017-01-02",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "json_path": "vedtektsdato"
+      },
+      "confidence": "high",
+      "label": "Date of articles of association",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "website",
+      "value": "https://www.krumtapp.no",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "json_path": "hjemmeside"
+      },
+      "confidence": "high",
+      "label": "Website",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "latest_annual_accounts_year",
+      "value": "2025",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "json_path": "sisteInnsendteAarsregnskap"
+      },
+      "confidence": "high",
+      "label": "Latest annual accounts submitted",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:55Z",
+      "as_of": "2006-09-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "AS",
+        "description": "Aksjeselskap",
+        "description_en": "private limited company"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "c/o Janniken Høybakk, Austerfjordveien 860, 9475 BORKENES, Norge",
+        "street": [
+          "c/o Janniken Høybakk",
+          "Austerfjordveien 860"
+        ],
+        "postcode": "9475",
+        "city": "BORKENES",
+        "municipality": "KVÆFJORD",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "KVÆFJORD",
+        "code": "5510"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "70.200",
+          "description": "Bedriftsrådgivning og annen administrativ rådgivning"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Rådgivning innen bedriftsutvikling og annen konsulentvirksomhet.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "json_path": "vedtektsfestetFormaal"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "2100",
+        "description": "Private aksjeselskaper mv."
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "share_capital",
+      "value": {
+        "amount": 100000.0,
+        "currency": "NOK",
+        "type": "Aksjekapital",
+        "shares": 100
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:55Z",
+      "as_of": "2006-07-24",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "json_path": "kapital"
+      },
+      "confidence": "high",
+      "label": "Share capital",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "former_names",
+      "value": [
+        {
+          "name": "HARSTAD 3D PRINTING AS",
+          "from": "2006-07-24",
+          "to": "2014-05-27"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "json_path": "historiskeNavn"
+      },
+      "confidence": "high",
+      "label": "Former names",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "audit_opt_out",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:55Z",
+      "as_of": "2012-10-24",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "json_path": "fravalgRevisjonDato"
+      },
+      "confidence": "high",
+      "label": "Opted out of statutory audit",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:55Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Janniken Høybakk",
+            "deceased": false
+          },
+          "group_last_changed": "2012-05-30"
+        },
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Janniken Høybakk",
+            "deceased": false
+          },
+          "group_last_changed": "2022-05-20"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Sigve Ranheim Andersen",
+            "deceased": false
+          },
+          "group_last_changed": "2022-05-20"
+        },
+        {
+          "role_code": "REGN",
+          "role": "Regnskapsfører",
+          "group": "Regnskapsfører",
+          "holder": {
+            "type": "organization",
+            "name": "SPAREBANK 1 REGNSKAPSHUSET NORD-NORGE AS",
+            "orgnr": "851987142",
+            "deleted": false
+          },
+          "group_last_changed": "2018-06-13"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/890027652/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:57Z",
+      "as_of": "2022-05-20",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Janniken Høybakk",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/890027652/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:57Z",
+      "as_of": "2012-05-30",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Janniken Høybakk",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/890027652/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:57Z",
+      "as_of": "2022-05-20",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "accountant",
+      "value": {
+        "type": "organization",
+        "name": "SPAREBANK 1 REGNSKAPSHUSET NORD-NORGE AS",
+        "orgnr": "851987142",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/890027652/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:57Z",
+      "as_of": "2018-06-13",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "json_path": "rollegrupper[type.kode=REGN]"
+      },
+      "confidence": "high",
+      "label": "Accountant",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Janniken Høybakk",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Sigve Ranheim Andersen",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/890027652/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:57Z",
+      "as_of": "2022-05-20",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "accounts_period",
+      "value": {
+        "from": "2025-01-01",
+        "to": "2025-12-31",
+        "year": "2025",
+        "currency": "NOK",
+        "type": "SELSKAP",
+        "audited": true,
+        "audit_opt_out": true
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:58Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "journal_number": "2026395737",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "regnskapsperiode"
+      },
+      "confidence": "high",
+      "label": "Accounting period",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "revenue",
+      "value": {
+        "amount": 279738.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:58Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "journal_number": "2026395737",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftsinntekter.sumDriftsinntekter"
+      },
+      "confidence": "high",
+      "label": "Operating revenue",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "operating_expenses",
+      "value": {
+        "amount": 248604.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:58Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "journal_number": "2026395737",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftskostnad.sumDriftskostnad"
+      },
+      "confidence": "high",
+      "label": "Operating expenses",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "operating_profit",
+      "value": {
+        "amount": 31133.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:58Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "journal_number": "2026395737",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.driftsresultat.driftsresultat"
+      },
+      "confidence": "high",
+      "label": "Operating profit",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "profit_before_tax",
+      "value": {
+        "amount": 31133.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:58Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "journal_number": "2026395737",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.ordinaertResultatFoerSkattekostnad"
+      },
+      "confidence": "high",
+      "label": "Profit before tax",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "net_profit",
+      "value": {
+        "amount": 31133.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:58Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "journal_number": "2026395737",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "resultatregnskapResultat.aarsresultat"
+      },
+      "confidence": "high",
+      "label": "Net profit (annual result)",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "total_assets",
+      "value": {
+        "amount": 98994.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:58Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "journal_number": "2026395737",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.sumEiendeler"
+      },
+      "confidence": "high",
+      "label": "Total assets",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "current_assets",
+      "value": {
+        "amount": 98994.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:58Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "journal_number": "2026395737",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "eiendeler.omloepsmidler.sumOmloepsmidler"
+      },
+      "confidence": "high",
+      "label": "Current assets",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "equity",
+      "value": {
+        "amount": 24560.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:58Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "journal_number": "2026395737",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.egenkapital.sumEgenkapital"
+      },
+      "confidence": "high",
+      "label": "Equity",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "total_debt",
+      "value": {
+        "amount": 74434.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:58Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "journal_number": "2026395737",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.gjeldOversikt.sumGjeld"
+      },
+      "confidence": "high",
+      "label": "Total debt",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "short_term_debt",
+      "value": {
+        "amount": 74434.0,
+        "currency": "NOK",
+        "year": "2025"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Regnskapsregisteret",
+        "url": "https://data.brreg.no/regnskapsregisteret/regnskap/890027652",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:58Z",
+      "as_of": "2025-12-31",
+      "as_of_basis": "accounting_period_end",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "journal_number": "2026395737",
+        "accounts_type": "SELSKAP",
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "json_path": "egenkapitalGjeld.gjeldOversikt.kortsiktigGjeld.sumKortsiktigGjeld"
+      },
+      "confidence": "high",
+      "label": "Short-term debt",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=890027652&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "988057487",
+          "name": "KRUMTAPP AS",
+          "address": "c/o Janniken Høybakk, Austerfjordveien 860, 9475 BORKENES, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=890027652&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/890027652"
+      },
+      "retrieved_at": "2026-09-29T10:26:59Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "website_verification",
+      "value": "name_on_page",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://krumtapp.no/",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:27:04Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "identity": {
+          "level": "name_on_page",
+          "orgnr_found": false,
+          "name_found": true,
+          "name_tested": "KRUMTAPP"
+        },
+        "registered_url": "https://www.krumtapp.no"
+      },
+      "confidence": "medium",
+      "label": "Website identity check",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "website_title",
+      "value": "Krumtapp.no - Vi tilbyr tjenester innen FOU-virksomhet",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://krumtapp.no/",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:27:04Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "identity": {
+          "level": "name_on_page",
+          "orgnr_found": false,
+          "name_found": true,
+          "name_tested": "KRUMTAPP"
+        },
+        "registered_url": "https://www.krumtapp.no",
+        "json_path": "html.title"
+      },
+      "confidence": "medium",
+      "label": "Website title",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "website_description",
+      "value": "Krumtapp AS. Vi tilbyr tjenester innen FOU-virksomhet for alle type bedrifter og næringer. Bedriften har utviklet spesialkompetanse på utforming av søknader",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://krumtapp.no/",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:27:04Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "identity": {
+          "level": "name_on_page",
+          "orgnr_found": false,
+          "name_found": true,
+          "name_tested": "KRUMTAPP"
+        },
+        "registered_url": "https://www.krumtapp.no",
+        "json_path": "html.meta[description]"
+      },
+      "confidence": "medium",
+      "label": "Self-description on website",
+      "first_seen": "2026-09-29T10:25:22Z"
+    },
+    {
+      "field": "website_emails",
+      "value": [
+        "post@krumtapp.no"
+      ],
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://krumtapp.no/",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:27:04Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "890027652",
+        "identity": {
+          "level": "name_on_page",
+          "orgnr_found": false,
+          "name_found": true,
+          "name_tested": "KRUMTAPP"
+        },
+        "registered_url": "https://www.krumtapp.no",
+        "json_path": "html.a[mailto]"
+      },
+      "confidence": "medium",
+      "label": "Contact emails on website",
+      "first_seen": "2026-09-29T10:25:22Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:26:55Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/890027652"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:26:57Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/890027652/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:26:58Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/890027652"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:26:59Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=890027652&size=5"
+    },
+    {
+      "source": "Company website",
+      "checked_at": "2026-09-29T10:27:04Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://www.krumtapp.no"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "KRUMTAPP AS (890 027 652), a private limited company, is an active entity in Enhetsregisteret; founded 2006-06-27; address c/o Janniken Høybakk, Austerfjordveien 860, 9475 BORKENES, Norge. Main industry is 70.200 Bedriftsrådgivning og annen administrativ rådgivning; 1 registered sub-unit(s). Daily manager: Janniken Høybakk; Board chair: Janniken Høybakk. Accounts for 2025 (period ending 2025-12-31): revenue NOK 279.74 k, operating profit NOK 31.13 k, net profit NOK 31.13 k, equity NOK 24.56 k, total assets NOK 98.99 k. Website https://www.krumtapp.no shows the registered name.",
+    "notes": []
+  },
+  "first_checked_at": "2026-09-29T10:25:22Z",
+  "previous_checked_at": "2026-09-29T10:25:22Z",
+  "last_changed_at": "2026-09-29T10:25:22Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

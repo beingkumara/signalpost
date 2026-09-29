@@ -1,0 +1,1123 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "992678054",
+  "orgnr_formatted": "992 678 054",
+  "name": "SKJERVØYKORET",
+  "status": "active",
+  "checked_at": "2026-09-29T10:30:51Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "SKJERVØYKORET",
+    "founded_date": "1982-10-20",
+    "registered_date": "2008-05-31",
+    "website": "https://Www.skjervoykoret.com",
+    "email": "skjervoykoret@gmail.com",
+    "phone": "77 76 05 13",
+    "mobile": "915 64 645",
+    "in_corporate_group": false,
+    "language_form": "Bokmål",
+    "vat_registered": false,
+    "in_business_register": false,
+    "in_foundation_register": false,
+    "in_voluntary_register": true,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "FLI",
+      "description": "Forening/lag/innretning",
+      "description_en": "association"
+    },
+    "business_address": {
+      "text": "Strandveien 39, 9180 SKJERVØY, Norge",
+      "street": [
+        "Strandveien 39"
+      ],
+      "postcode": "9180",
+      "city": "SKJERVØY",
+      "municipality": "SKJERVØY",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "SKJERVØY",
+      "code": "5542"
+    },
+    "postal_address": {
+      "text": "postboks 269, 9189 SKJERVØY, Norge",
+      "street": [
+        "postboks 269"
+      ],
+      "postcode": "9189",
+      "city": "SKJERVØY",
+      "municipality": "SKJERVØY",
+      "country_code": "NO"
+    },
+    "industry_codes": [
+      {
+        "code": "94.992",
+        "description": "Aktiviteter i andre medlemsorganisasjoner ellers"
+      }
+    ],
+    "purpose": "Korvirksomhet.",
+    "sector": {
+      "code": "7000",
+      "description": "Ideelle organisasjoner"
+    },
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "holder": {
+          "type": "person",
+          "name": "Karin Hennie Meilandstind",
+          "deceased": false
+        },
+        "group_last_changed": "2022-01-10"
+      },
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Mailen Sørensen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-04-14"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Anita Beate Skallebø Olsen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-04-14"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Kjetil Martesønn Skog",
+          "deceased": false
+        },
+        "group_last_changed": "2026-04-14"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Silja Karlsen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-04-14"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Einar Andrè Edvardsen",
+          "deceased": false
+        },
+        "group_last_changed": "2026-04-14"
+      },
+      {
+        "role_code": "VARA",
+        "role": "Varamedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Sissel Nordin Sumstad",
+          "deceased": false
+        },
+        "group_last_changed": "2026-04-14"
+      },
+      {
+        "role_code": "VARA",
+        "role": "Varamedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Synne Bygdnes",
+          "deceased": false
+        },
+        "group_last_changed": "2026-04-14"
+      },
+      {
+        "role_code": "REGN",
+        "role": "Regnskapsfører",
+        "group": "Regnskapsfører",
+        "holder": {
+          "type": "organization",
+          "name": "AIDER AS",
+          "orgnr": "922633452",
+          "deleted": false
+        },
+        "group_last_changed": "2024-11-28"
+      }
+    ],
+    "ceo": {
+      "type": "person",
+      "name": "Karin Hennie Meilandstind",
+      "deceased": false
+    },
+    "board_chair": {
+      "type": "person",
+      "name": "Mailen Sørensen",
+      "deceased": false
+    },
+    "accountant": {
+      "type": "organization",
+      "name": "AIDER AS",
+      "orgnr": "922633452",
+      "deleted": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Mailen Sørensen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Anita Beate Skallebø Olsen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Kjetil Martesønn Skog",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Silja Karlsen",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Einar Andrè Edvardsen",
+        "deceased": false
+      }
+    ],
+    "website_verification": "orgnr_on_page",
+    "website_title": "Skjervøykoret",
+    "website_description": "Skjervøykoret er opptatt av at sang skal være lystbetont, og at alle skal føle seg inkludert i kor-fellesskapet.",
+    "social_profiles": {
+      "facebook": "https://www.facebook.com/Skjervoykoret/",
+      "instagram": "https://www.instagram.com/skjervoykoret",
+      "youtube": "https://www.youtube.com/channel/UC3k9FutboV4B2fSvw3I2-rw"
+    }
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/992678054",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/992678054"
+      },
+      "retrieved_at": "2026-09-29T10:30:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "992678054",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:30:51Z"
+    },
+    {
+      "field": "name",
+      "value": "SKJERVØYKORET",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/992678054",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/992678054"
+      },
+      "retrieved_at": "2026-09-29T10:30:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "992678054",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:30:51Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "1982-10-20",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/992678054",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/992678054"
+      },
+      "retrieved_at": "2026-09-29T10:30:52Z",
+      "as_of": "1982-10-20",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "992678054",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:30:51Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "2008-05-31",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/992678054",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/992678054"
+      },
+      "retrieved_at": "2026-09-29T10:30:52Z",
+      "as_of": "2008-05-31",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "992678054",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:30:51Z"
+    },
+    {
+      "field": "website",
+      "value": "https://Www.skjervoykoret.com",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/992678054",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/992678054"
+      },
+      "retrieved_at": "2026-09-29T10:30:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "992678054",
+        "json_path": "hjemmeside"
+      },
+      "confidence": "high",
+      "label": "Website",
+      "first_seen": "2026-09-29T10:30:51Z"
+    },
+    {
+      "field": "email",
+      "value": "skjervoykoret@gmail.com",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/992678054",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/992678054"
+      },
+      "retrieved_at": "2026-09-29T10:30:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "992678054",
+        "json_path": "epostadresse"
+      },
+      "confidence": "high",
+      "label": "Email",
+      "first_seen": "2026-09-29T10:30:51Z"
+    },
+    {
+      "field": "phone",
+      "value": "77 76 05 13",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/992678054",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/992678054"
+      },
+      "retrieved_at": "2026-09-29T10:30:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "992678054",
+        "json_path": "telefon"
+      },
+      "confidence": "high",
+      "label": "Phone",
+      "first_seen": "2026-09-29T10:30:51Z"
+    },
+    {
+      "field": "mobile",
+      "value": "915 64 645",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/992678054",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/992678054"
+      },
+      "retrieved_at": "2026-09-29T10:30:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "992678054",
+        "json_path": "mobil"
+      },
+      "confidence": "high",
+      "label": "Mobile phone",
+      "first_seen": "2026-09-29T10:30:51Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/992678054",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/992678054"
+      },
+      "retrieved_at": "2026-09-29T10:30:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "992678054",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:30:51Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Bokmål",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/992678054",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/992678054"
+      },
+      "retrieved_at": "2026-09-29T10:30:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "992678054",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:30:51Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/992678054",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/992678054"
+      },
+      "retrieved_at": "2026-09-29T10:30:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "992678054",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:30:51Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/992678054",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/992678054"
+      },
+      "retrieved_at": "2026-09-29T10:30:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "992678054",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:30:51Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/992678054",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/992678054"
+      },
+      "retrieved_at": "2026-09-29T10:30:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "992678054",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:30:51Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/992678054",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/992678054"
+      },
+      "retrieved_at": "2026-09-29T10:30:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "992678054",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:30:51Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/992678054",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/992678054"
+      },
+      "retrieved_at": "2026-09-29T10:30:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "992678054",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:30:51Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "FLI",
+        "description": "Forening/lag/innretning",
+        "description_en": "association"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/992678054",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/992678054"
+      },
+      "retrieved_at": "2026-09-29T10:30:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "992678054",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:30:51Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "Strandveien 39, 9180 SKJERVØY, Norge",
+        "street": [
+          "Strandveien 39"
+        ],
+        "postcode": "9180",
+        "city": "SKJERVØY",
+        "municipality": "SKJERVØY",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/992678054",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/992678054"
+      },
+      "retrieved_at": "2026-09-29T10:30:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "992678054",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:30:51Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "SKJERVØY",
+        "code": "5542"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/992678054",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/992678054"
+      },
+      "retrieved_at": "2026-09-29T10:30:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "992678054",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:30:51Z"
+    },
+    {
+      "field": "postal_address",
+      "value": {
+        "text": "postboks 269, 9189 SKJERVØY, Norge",
+        "street": [
+          "postboks 269"
+        ],
+        "postcode": "9189",
+        "city": "SKJERVØY",
+        "municipality": "SKJERVØY",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/992678054",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/992678054"
+      },
+      "retrieved_at": "2026-09-29T10:30:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "992678054",
+        "json_path": "postadresse"
+      },
+      "confidence": "high",
+      "label": "Postal address",
+      "first_seen": "2026-09-29T10:30:51Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "94.992",
+          "description": "Aktiviteter i andre medlemsorganisasjoner ellers"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/992678054",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/992678054"
+      },
+      "retrieved_at": "2026-09-29T10:30:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "992678054",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:30:51Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Korvirksomhet.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/992678054",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/992678054"
+      },
+      "retrieved_at": "2026-09-29T10:30:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "992678054",
+        "json_path": "aktivitet"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:30:51Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "7000",
+        "description": "Ideelle organisasjoner"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/992678054",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/992678054"
+      },
+      "retrieved_at": "2026-09-29T10:30:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "992678054",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:30:51Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/992678054",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/992678054"
+      },
+      "retrieved_at": "2026-09-29T10:30:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "992678054",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:30:51Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/992678054",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/992678054"
+      },
+      "retrieved_at": "2026-09-29T10:30:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "992678054",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:30:51Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/992678054",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/992678054"
+      },
+      "retrieved_at": "2026-09-29T10:30:52Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "992678054",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:30:51Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "DAGL",
+          "role": "Daglig leder",
+          "group": "Daglig leder",
+          "holder": {
+            "type": "person",
+            "name": "Karin Hennie Meilandstind",
+            "deceased": false
+          },
+          "group_last_changed": "2022-01-10"
+        },
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Mailen Sørensen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-04-14"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Anita Beate Skallebø Olsen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-04-14"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Kjetil Martesønn Skog",
+            "deceased": false
+          },
+          "group_last_changed": "2026-04-14"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Silja Karlsen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-04-14"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Einar Andrè Edvardsen",
+            "deceased": false
+          },
+          "group_last_changed": "2026-04-14"
+        },
+        {
+          "role_code": "VARA",
+          "role": "Varamedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Sissel Nordin Sumstad",
+            "deceased": false
+          },
+          "group_last_changed": "2026-04-14"
+        },
+        {
+          "role_code": "VARA",
+          "role": "Varamedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Synne Bygdnes",
+            "deceased": false
+          },
+          "group_last_changed": "2026-04-14"
+        },
+        {
+          "role_code": "REGN",
+          "role": "Regnskapsfører",
+          "group": "Regnskapsfører",
+          "holder": {
+            "type": "organization",
+            "name": "AIDER AS",
+            "orgnr": "922633452",
+            "deleted": false
+          },
+          "group_last_changed": "2024-11-28"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/992678054/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/992678054"
+      },
+      "retrieved_at": "2026-09-29T10:30:53Z",
+      "as_of": "2026-04-14",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "992678054",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:30:51Z"
+    },
+    {
+      "field": "ceo",
+      "value": {
+        "type": "person",
+        "name": "Karin Hennie Meilandstind",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/992678054/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/992678054"
+      },
+      "retrieved_at": "2026-09-29T10:30:53Z",
+      "as_of": "2022-01-10",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "992678054",
+        "json_path": "rollegrupper[type.kode=DAGL]"
+      },
+      "confidence": "high",
+      "label": "Daily manager (CEO)",
+      "first_seen": "2026-09-29T10:30:51Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Mailen Sørensen",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/992678054/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/992678054"
+      },
+      "retrieved_at": "2026-09-29T10:30:53Z",
+      "as_of": "2026-04-14",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "992678054",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:30:51Z"
+    },
+    {
+      "field": "accountant",
+      "value": {
+        "type": "organization",
+        "name": "AIDER AS",
+        "orgnr": "922633452",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/992678054/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/992678054"
+      },
+      "retrieved_at": "2026-09-29T10:30:53Z",
+      "as_of": "2024-11-28",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "992678054",
+        "json_path": "rollegrupper[type.kode=REGN]"
+      },
+      "confidence": "high",
+      "label": "Accountant",
+      "first_seen": "2026-09-29T10:30:51Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Mailen Sørensen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Anita Beate Skallebø Olsen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Kjetil Martesønn Skog",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Silja Karlsen",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Einar Andrè Edvardsen",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/992678054/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/992678054"
+      },
+      "retrieved_at": "2026-09-29T10:30:53Z",
+      "as_of": "2026-04-14",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "992678054",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:30:51Z"
+    },
+    {
+      "field": "website_verification",
+      "value": "orgnr_on_page",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://Www.skjervoykoret.com",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:30:57Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "992678054",
+        "identity": {
+          "level": "orgnr_on_page",
+          "orgnr_found": true,
+          "name_found": true,
+          "name_tested": "SKJERVØYKORET"
+        },
+        "registered_url": "https://Www.skjervoykoret.com"
+      },
+      "confidence": "high",
+      "label": "Website identity check",
+      "first_seen": "2026-09-29T10:30:51Z"
+    },
+    {
+      "field": "website_title",
+      "value": "Skjervøykoret",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://Www.skjervoykoret.com",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:30:57Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "992678054",
+        "identity": {
+          "level": "orgnr_on_page",
+          "orgnr_found": true,
+          "name_found": true,
+          "name_tested": "SKJERVØYKORET"
+        },
+        "registered_url": "https://Www.skjervoykoret.com",
+        "json_path": "html.title"
+      },
+      "confidence": "high",
+      "label": "Website title",
+      "first_seen": "2026-09-29T10:30:51Z"
+    },
+    {
+      "field": "website_description",
+      "value": "Skjervøykoret er opptatt av at sang skal være lystbetont, og at alle skal føle seg inkludert i kor-fellesskapet.",
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://Www.skjervoykoret.com",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:30:57Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "992678054",
+        "identity": {
+          "level": "orgnr_on_page",
+          "orgnr_found": true,
+          "name_found": true,
+          "name_tested": "SKJERVØYKORET"
+        },
+        "registered_url": "https://Www.skjervoykoret.com",
+        "json_path": "html.meta[description]"
+      },
+      "confidence": "high",
+      "label": "Self-description on website",
+      "first_seen": "2026-09-29T10:30:51Z"
+    },
+    {
+      "field": "social_profiles",
+      "value": {
+        "facebook": "https://www.facebook.com/Skjervoykoret/",
+        "instagram": "https://www.instagram.com/skjervoykoret",
+        "youtube": "https://www.youtube.com/channel/UC3k9FutboV4B2fSvw3I2-rw"
+      },
+      "source": {
+        "name": "Company website (listed in Enhetsregisteret)",
+        "url": "https://Www.skjervoykoret.com",
+        "human_url": null
+      },
+      "retrieved_at": "2026-09-29T10:30:57Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "992678054",
+        "identity": {
+          "level": "orgnr_on_page",
+          "orgnr_found": true,
+          "name_found": true,
+          "name_tested": "SKJERVØYKORET"
+        },
+        "registered_url": "https://Www.skjervoykoret.com",
+        "json_path": "html.a[href]"
+      },
+      "confidence": "medium",
+      "label": "Social media links on website",
+      "first_seen": "2026-09-29T10:30:51Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:30:52Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/992678054"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:30:53Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/992678054/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:30:54Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/992678054"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:30:56Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=992678054&size=5"
+    },
+    {
+      "source": "Company website",
+      "checked_at": "2026-09-29T10:30:57Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://Www.skjervoykoret.com"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "SKJERVØYKORET (992 678 054), an association, is an active entity in Enhetsregisteret; founded 1982-10-20; address Strandveien 39, 9180 SKJERVØY, Norge. Main industry is 94.992 Aktiviteter i andre medlemsorganisasjoner ellers. Daily manager: Karin Hennie Meilandstind; Board chair: Mailen Sørensen. Website https://Www.skjervoykoret.com is verified: the org number appears on the page.",
+    "notes": [
+      "No annual accounts: organisation form FLI is generally not required to file with Regnskapsregisteret."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:30:51Z",
+  "last_changed_at": "2026-09-29T10:30:51Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}

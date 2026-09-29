@@ -1,0 +1,981 @@
+{
+  "schema_version": "1.0",
+  "agent_version": "1.0.0",
+  "orgnr": "977032660",
+  "orgnr_formatted": "977 032 660",
+  "name": "TAKLE VASSVERK SA",
+  "status": "active",
+  "checked_at": "2026-09-29T10:32:01Z",
+  "fields": {
+    "entity_type": "enhet",
+    "name": "TAKLE VASSVERK SA",
+    "founded_date": "1993-10-01",
+    "registered_date": "1996-12-17",
+    "business_register_date": "2017-02-06",
+    "articles_date": "2016-12-15",
+    "email": "siss-kv@online.no",
+    "mobile": "900 24 805",
+    "in_corporate_group": false,
+    "language_form": "Nynorsk",
+    "vat_registered": true,
+    "in_business_register": true,
+    "in_foundation_register": false,
+    "in_voluntary_register": false,
+    "in_party_register": false,
+    "organization_form": {
+      "code": "SA",
+      "description": "Samvirkeforetak",
+      "description_en": "cooperative"
+    },
+    "business_address": {
+      "text": "c/o Sissel Anita Kvame, Sognefjordvegen 1104, 5961 BREKKE, Norge",
+      "street": [
+        "c/o Sissel Anita Kvame",
+        "Sognefjordvegen 1104"
+      ],
+      "postcode": "5961",
+      "city": "BREKKE",
+      "municipality": "GULEN",
+      "country_code": "NO"
+    },
+    "municipality": {
+      "name": "GULEN",
+      "code": "4635"
+    },
+    "industry_codes": [
+      {
+        "code": "36.000",
+        "description": "Uttak fra kilde, rensing og distribusjon av vann"
+      }
+    ],
+    "purpose": "Å syta for vassforsyning til Takle ved utbygging og drift av vassverk. Føretaket skal drivast til sjølvkost. Føretaket kan samarbeida med andre føretak med liknande føremål om drifta av vassverket, om det skulle vera teneleg. Samarbeid med andre føretak krev årsmøtevedtak.",
+    "sector": {
+      "code": "2100",
+      "description": "Private aksjeselskaper mv."
+    },
+    "former_names": [
+      {
+        "name": "TAKLE VASSVERK",
+        "from": "1996-12-17",
+        "to": "2017-02-06"
+      }
+    ],
+    "bankrupt": false,
+    "under_liquidation": false,
+    "under_forced_dissolution": false,
+    "roles": [
+      {
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Sissel Anita Kvame",
+          "deceased": false
+        },
+        "group_last_changed": "2026-02-02"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Frode Asheim",
+          "deceased": false
+        },
+        "group_last_changed": "2026-02-02"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Tore Gunnar Asheim",
+          "deceased": false
+        },
+        "group_last_changed": "2026-02-02"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Cato Reknes",
+          "deceased": false
+        },
+        "group_last_changed": "2026-02-02"
+      },
+      {
+        "role_code": "MEDL",
+        "role": "Styremedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Anne Berit Takle",
+          "deceased": false
+        },
+        "group_last_changed": "2026-02-02"
+      },
+      {
+        "role_code": "VARA",
+        "role": "Varamedlem",
+        "group": "Styre",
+        "holder": {
+          "type": "person",
+          "name": "Klaus Nikolai Takle",
+          "deceased": false
+        },
+        "group_last_changed": "2026-02-02"
+      },
+      {
+        "role_code": "REGN",
+        "role": "Regnskapsfører",
+        "group": "Regnskapsfører",
+        "holder": {
+          "type": "organization",
+          "name": "SØRSIDA REKNESKAP AS",
+          "orgnr": "925063614",
+          "deleted": false
+        },
+        "group_last_changed": "2020-08-05"
+      }
+    ],
+    "board_chair": {
+      "type": "person",
+      "name": "Sissel Anita Kvame",
+      "deceased": false
+    },
+    "accountant": {
+      "type": "organization",
+      "name": "SØRSIDA REKNESKAP AS",
+      "orgnr": "925063614",
+      "deleted": false
+    },
+    "board_members": [
+      {
+        "type": "person",
+        "name": "Sissel Anita Kvame",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Frode Asheim",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Tore Gunnar Asheim",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Cato Reknes",
+        "deceased": false
+      },
+      {
+        "type": "person",
+        "name": "Anne Berit Takle",
+        "deceased": false
+      }
+    ],
+    "subunit_count": 1,
+    "subunits": [
+      {
+        "orgnr": "919012471",
+        "name": "TAKLE VASSVERK SA",
+        "address": "c/o Sissel Anita Kvame, Sognefjordvegen 1104, 5961 BREKKE, Norge",
+        "employees": null
+      }
+    ]
+  },
+  "facts": [
+    {
+      "field": "entity_type",
+      "value": "enhet",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977032660",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977032660"
+      },
+      "retrieved_at": "2026-09-29T10:32:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977032660",
+        "json_path": "respons_klasse"
+      },
+      "confidence": "high",
+      "label": "Register entry type",
+      "first_seen": "2026-09-29T10:32:01Z"
+    },
+    {
+      "field": "name",
+      "value": "TAKLE VASSVERK SA",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977032660",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977032660"
+      },
+      "retrieved_at": "2026-09-29T10:32:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977032660",
+        "json_path": "navn"
+      },
+      "confidence": "high",
+      "label": "Registered name",
+      "first_seen": "2026-09-29T10:32:01Z"
+    },
+    {
+      "field": "founded_date",
+      "value": "1993-10-01",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977032660",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977032660"
+      },
+      "retrieved_at": "2026-09-29T10:32:02Z",
+      "as_of": "1993-10-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "977032660",
+        "json_path": "stiftelsesdato"
+      },
+      "confidence": "high",
+      "label": "Founded (stiftelsesdato)",
+      "first_seen": "2026-09-29T10:32:01Z"
+    },
+    {
+      "field": "registered_date",
+      "value": "1996-12-17",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977032660",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977032660"
+      },
+      "retrieved_at": "2026-09-29T10:32:02Z",
+      "as_of": "1996-12-17",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "977032660",
+        "json_path": "registreringsdatoEnhetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Enhetsregisteret",
+      "first_seen": "2026-09-29T10:32:01Z"
+    },
+    {
+      "field": "business_register_date",
+      "value": "2017-02-06",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977032660",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977032660"
+      },
+      "retrieved_at": "2026-09-29T10:32:02Z",
+      "as_of": "2017-02-06",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "977032660",
+        "json_path": "registreringsdatoForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:32:01Z"
+    },
+    {
+      "field": "articles_date",
+      "value": "2016-12-15",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977032660",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977032660"
+      },
+      "retrieved_at": "2026-09-29T10:32:02Z",
+      "as_of": "2016-12-15",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "977032660",
+        "json_path": "vedtektsdato"
+      },
+      "confidence": "high",
+      "label": "Date of articles of association",
+      "first_seen": "2026-09-29T10:32:01Z"
+    },
+    {
+      "field": "email",
+      "value": "siss-kv@online.no",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977032660",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977032660"
+      },
+      "retrieved_at": "2026-09-29T10:32:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977032660",
+        "json_path": "epostadresse"
+      },
+      "confidence": "high",
+      "label": "Email",
+      "first_seen": "2026-09-29T10:32:01Z"
+    },
+    {
+      "field": "mobile",
+      "value": "900 24 805",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977032660",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977032660"
+      },
+      "retrieved_at": "2026-09-29T10:32:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977032660",
+        "json_path": "mobil"
+      },
+      "confidence": "high",
+      "label": "Mobile phone",
+      "first_seen": "2026-09-29T10:32:01Z"
+    },
+    {
+      "field": "in_corporate_group",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977032660",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977032660"
+      },
+      "retrieved_at": "2026-09-29T10:32:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977032660",
+        "json_path": "erIKonsern"
+      },
+      "confidence": "high",
+      "label": "Part of a corporate group",
+      "first_seen": "2026-09-29T10:32:01Z"
+    },
+    {
+      "field": "language_form",
+      "value": "Nynorsk",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977032660",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977032660"
+      },
+      "retrieved_at": "2026-09-29T10:32:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977032660",
+        "json_path": "maalform"
+      },
+      "confidence": "high",
+      "label": "Language form",
+      "first_seen": "2026-09-29T10:32:01Z"
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977032660",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977032660"
+      },
+      "retrieved_at": "2026-09-29T10:32:02Z",
+      "as_of": "2016-11-01",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "977032660",
+        "json_path": "registrertIMvaregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in the VAT register",
+      "first_seen": "2026-09-29T10:32:01Z"
+    },
+    {
+      "field": "in_business_register",
+      "value": true,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977032660",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977032660"
+      },
+      "retrieved_at": "2026-09-29T10:32:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977032660",
+        "json_path": "registrertIForetaksregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Foretaksregisteret",
+      "first_seen": "2026-09-29T10:32:01Z"
+    },
+    {
+      "field": "in_foundation_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977032660",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977032660"
+      },
+      "retrieved_at": "2026-09-29T10:32:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977032660",
+        "json_path": "registrertIStiftelsesregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Stiftelsesregisteret",
+      "first_seen": "2026-09-29T10:32:01Z"
+    },
+    {
+      "field": "in_voluntary_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977032660",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977032660"
+      },
+      "retrieved_at": "2026-09-29T10:32:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977032660",
+        "json_path": "registrertIFrivillighetsregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Frivillighetsregisteret",
+      "first_seen": "2026-09-29T10:32:01Z"
+    },
+    {
+      "field": "in_party_register",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977032660",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977032660"
+      },
+      "retrieved_at": "2026-09-29T10:32:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977032660",
+        "json_path": "registrertIPartiregisteret"
+      },
+      "confidence": "high",
+      "label": "Registered in Partiregisteret",
+      "first_seen": "2026-09-29T10:32:01Z"
+    },
+    {
+      "field": "organization_form",
+      "value": {
+        "code": "SA",
+        "description": "Samvirkeforetak",
+        "description_en": "cooperative"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977032660",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977032660"
+      },
+      "retrieved_at": "2026-09-29T10:32:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977032660",
+        "json_path": "organisasjonsform"
+      },
+      "confidence": "high",
+      "label": "Organisation form",
+      "first_seen": "2026-09-29T10:32:01Z"
+    },
+    {
+      "field": "business_address",
+      "value": {
+        "text": "c/o Sissel Anita Kvame, Sognefjordvegen 1104, 5961 BREKKE, Norge",
+        "street": [
+          "c/o Sissel Anita Kvame",
+          "Sognefjordvegen 1104"
+        ],
+        "postcode": "5961",
+        "city": "BREKKE",
+        "municipality": "GULEN",
+        "country_code": "NO"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977032660",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977032660"
+      },
+      "retrieved_at": "2026-09-29T10:32:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977032660",
+        "json_path": "forretningsadresse"
+      },
+      "confidence": "high",
+      "label": "Business address",
+      "first_seen": "2026-09-29T10:32:01Z"
+    },
+    {
+      "field": "municipality",
+      "value": {
+        "name": "GULEN",
+        "code": "4635"
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977032660",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977032660"
+      },
+      "retrieved_at": "2026-09-29T10:32:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977032660",
+        "json_path": "forretningsadresse.kommune"
+      },
+      "confidence": "high",
+      "label": "Municipality",
+      "first_seen": "2026-09-29T10:32:01Z"
+    },
+    {
+      "field": "industry_codes",
+      "value": [
+        {
+          "code": "36.000",
+          "description": "Uttak fra kilde, rensing og distribusjon av vann"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977032660",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977032660"
+      },
+      "retrieved_at": "2026-09-29T10:32:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977032660",
+        "json_path": "naeringskode1..3"
+      },
+      "confidence": "high",
+      "label": "Industry (NACE) codes",
+      "first_seen": "2026-09-29T10:32:01Z"
+    },
+    {
+      "field": "purpose",
+      "value": "Å syta for vassforsyning til Takle ved utbygging og drift av vassverk. Føretaket skal drivast til sjølvkost. Føretaket kan samarbeida med andre føretak med liknande føremål om drifta av vassverket, om det skulle vera teneleg. Samarbeid med andre føretak krev årsmøtevedtak.",
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977032660",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977032660"
+      },
+      "retrieved_at": "2026-09-29T10:32:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977032660",
+        "json_path": "vedtektsfestetFormaal"
+      },
+      "confidence": "high",
+      "label": "Stated purpose / activity",
+      "first_seen": "2026-09-29T10:32:01Z"
+    },
+    {
+      "field": "sector",
+      "value": {
+        "code": "2100",
+        "description": "Private aksjeselskaper mv."
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977032660",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977032660"
+      },
+      "retrieved_at": "2026-09-29T10:32:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977032660",
+        "json_path": "institusjonellSektorkode"
+      },
+      "confidence": "high",
+      "label": "Institutional sector",
+      "first_seen": "2026-09-29T10:32:01Z"
+    },
+    {
+      "field": "former_names",
+      "value": [
+        {
+          "name": "TAKLE VASSVERK",
+          "from": "1996-12-17",
+          "to": "2017-02-06"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977032660",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977032660"
+      },
+      "retrieved_at": "2026-09-29T10:32:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977032660",
+        "json_path": "historiskeNavn"
+      },
+      "confidence": "high",
+      "label": "Former names",
+      "first_seen": "2026-09-29T10:32:01Z"
+    },
+    {
+      "field": "bankrupt",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977032660",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977032660"
+      },
+      "retrieved_at": "2026-09-29T10:32:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977032660",
+        "json_path": "konkurs"
+      },
+      "confidence": "high",
+      "label": "Bankrupt",
+      "first_seen": "2026-09-29T10:32:01Z"
+    },
+    {
+      "field": "under_liquidation",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977032660",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977032660"
+      },
+      "retrieved_at": "2026-09-29T10:32:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977032660",
+        "json_path": "underAvvikling"
+      },
+      "confidence": "high",
+      "label": "Under voluntary liquidation",
+      "first_seen": "2026-09-29T10:32:01Z"
+    },
+    {
+      "field": "under_forced_dissolution",
+      "value": false,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977032660",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977032660"
+      },
+      "retrieved_at": "2026-09-29T10:32:02Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977032660",
+        "json_path": "underTvangsavviklingEllerTvangsopplosning"
+      },
+      "confidence": "high",
+      "label": "Under forced dissolution",
+      "first_seen": "2026-09-29T10:32:01Z"
+    },
+    {
+      "field": "roles",
+      "value": [
+        {
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Sissel Anita Kvame",
+            "deceased": false
+          },
+          "group_last_changed": "2026-02-02"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Frode Asheim",
+            "deceased": false
+          },
+          "group_last_changed": "2026-02-02"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Tore Gunnar Asheim",
+            "deceased": false
+          },
+          "group_last_changed": "2026-02-02"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Cato Reknes",
+            "deceased": false
+          },
+          "group_last_changed": "2026-02-02"
+        },
+        {
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Anne Berit Takle",
+            "deceased": false
+          },
+          "group_last_changed": "2026-02-02"
+        },
+        {
+          "role_code": "VARA",
+          "role": "Varamedlem",
+          "group": "Styre",
+          "holder": {
+            "type": "person",
+            "name": "Klaus Nikolai Takle",
+            "deceased": false
+          },
+          "group_last_changed": "2026-02-02"
+        },
+        {
+          "role_code": "REGN",
+          "role": "Regnskapsfører",
+          "group": "Regnskapsfører",
+          "holder": {
+            "type": "organization",
+            "name": "SØRSIDA REKNESKAP AS",
+            "orgnr": "925063614",
+            "deleted": false
+          },
+          "group_last_changed": "2020-08-05"
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977032660/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977032660"
+      },
+      "retrieved_at": "2026-09-29T10:32:03Z",
+      "as_of": "2026-02-02",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "977032660",
+        "json_path": "rollegrupper[].roller[]"
+      },
+      "confidence": "high",
+      "label": "Active roles",
+      "first_seen": "2026-09-29T10:32:01Z"
+    },
+    {
+      "field": "board_chair",
+      "value": {
+        "type": "person",
+        "name": "Sissel Anita Kvame",
+        "deceased": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977032660/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977032660"
+      },
+      "retrieved_at": "2026-09-29T10:32:03Z",
+      "as_of": "2026-02-02",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "977032660",
+        "json_path": "rollegrupper[type.kode=LEDE]"
+      },
+      "confidence": "high",
+      "label": "Chair of the board",
+      "first_seen": "2026-09-29T10:32:01Z"
+    },
+    {
+      "field": "accountant",
+      "value": {
+        "type": "organization",
+        "name": "SØRSIDA REKNESKAP AS",
+        "orgnr": "925063614",
+        "deleted": false
+      },
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977032660/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977032660"
+      },
+      "retrieved_at": "2026-09-29T10:32:03Z",
+      "as_of": "2020-08-05",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "977032660",
+        "json_path": "rollegrupper[type.kode=REGN]"
+      },
+      "confidence": "high",
+      "label": "Accountant",
+      "first_seen": "2026-09-29T10:32:01Z"
+    },
+    {
+      "field": "board_members",
+      "value": [
+        {
+          "type": "person",
+          "name": "Sissel Anita Kvame",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Frode Asheim",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Tore Gunnar Asheim",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Cato Reknes",
+          "deceased": false
+        },
+        {
+          "type": "person",
+          "name": "Anne Berit Takle",
+          "deceased": false
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret roller",
+        "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977032660/roller",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977032660"
+      },
+      "retrieved_at": "2026-09-29T10:32:03Z",
+      "as_of": "2026-02-02",
+      "as_of_basis": "source_field",
+      "evidence": {
+        "matched_orgnr": "977032660",
+        "json_path": "rollegrupper[type.kode=STYR]"
+      },
+      "confidence": "high",
+      "label": "Board members",
+      "first_seen": "2026-09-29T10:32:01Z"
+    },
+    {
+      "field": "subunit_count",
+      "value": 1,
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=977032660&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977032660"
+      },
+      "retrieved_at": "2026-09-29T10:32:06Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977032660",
+        "filter": "overordnetEnhet",
+        "json_path": "page.totalElements"
+      },
+      "confidence": "high",
+      "label": "Number of registered sub-units",
+      "first_seen": "2026-09-29T10:32:01Z"
+    },
+    {
+      "field": "subunits",
+      "value": [
+        {
+          "orgnr": "919012471",
+          "name": "TAKLE VASSVERK SA",
+          "address": "c/o Sissel Anita Kvame, Sognefjordvegen 1104, 5961 BREKKE, Norge",
+          "employees": null
+        }
+      ],
+      "source": {
+        "name": "Brønnøysundregistrene: Enhetsregisteret",
+        "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=977032660&size=5",
+        "human_url": "https://virksomhet.brreg.no/nb/oppslag/enheter/977032660"
+      },
+      "retrieved_at": "2026-09-29T10:32:06Z",
+      "as_of": "2026-09-29",
+      "as_of_basis": "retrieval_date",
+      "evidence": {
+        "matched_orgnr": "977032660",
+        "filter": "overordnetEnhet",
+        "json_path": "_embedded.underenheter"
+      },
+      "confidence": "high",
+      "label": "Sub-units (first 1)",
+      "first_seen": "2026-09-29T10:32:01Z"
+    }
+  ],
+  "sources_checked": [
+    {
+      "source": "Enhetsregisteret",
+      "checked_at": "2026-09-29T10:32:02Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977032660"
+    },
+    {
+      "source": "Enhetsregisteret roller",
+      "checked_at": "2026-09-29T10:32:03Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/977032660/roller"
+    },
+    {
+      "source": "Regnskapsregisteret",
+      "checked_at": "2026-09-29T10:32:04Z",
+      "http_status": 200,
+      "found_data": false,
+      "url": "https://data.brreg.no/regnskapsregisteret/regnskap/977032660"
+    },
+    {
+      "source": "Enhetsregisteret underenheter",
+      "checked_at": "2026-09-29T10:32:06Z",
+      "http_status": 200,
+      "found_data": true,
+      "url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=977032660&size=5"
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "summary": "TAKLE VASSVERK SA (977 032 660), a cooperative, is an active entity in Enhetsregisteret; founded 1993-10-01; address c/o Sissel Anita Kvame, Sognefjordvegen 1104, 5961 BREKKE, Norge. Main industry is 36.000 Uttak fra kilde, rensing og distribusjon av vann; 1 registered sub-unit(s). Board chair: Sissel Anita Kvame.",
+    "notes": [
+      "No annual accounts were found in Regnskapsregisteret (new company, late filing, or not obliged to file). No financial figures are shown."
+    ]
+  },
+  "first_checked_at": "2026-09-29T10:32:01Z",
+  "last_changed_at": "2026-09-29T10:32:01Z",
+  "revision": 1,
+  "changes_this_run": [],
+  "change_history": []
+}
