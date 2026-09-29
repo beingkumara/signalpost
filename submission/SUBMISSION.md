@@ -17,8 +17,8 @@ The daily test is 100 companies, with limits of 45 minutes, 2,000 outbound reque
 
 | Limit | Agent default | Measured on 100 companies |
 |---|---|---|
-| 45 minutes | Stops starting new source checks after 30 minutes (`SIGNALPOST_MAX_MINUTES`) | 5.1 minutes |
-| 2,000 outbound requests | Hard cap of 18 per company + 150 per run = 1,950 (`SIGNALPOST_REQUEST_BUDGET`) | 706 requests |
+| 45 minutes | Stops starting new source checks after 30 minutes (`SIGNALPOST_MAX_MINUTES`) | 4.7 minutes |
+| 2,000 outbound requests | Hard cap of 18 per company + 150 per run = 1,950 (`SIGNALPOST_REQUEST_BUDGET`) | 1,062 requests |
 | $10 external API cost | No paid APIs | $0.00 |
 
 Every input company returns exactly one result, even when a source is blocked or a limit is reached.
@@ -29,6 +29,6 @@ Every input company returns exactly one result, even when a source is blocked or
 |---|---|
 | Find useful information | Registry identity, accounts and filing history, roles, workplaces, verified website, contacts, social profiles, NAV job postings, and dated events |
 | Match it correctly with evidence | Exact org-number lookups only. Websites and jobs are published only after org-number proof. Every claim has a source URL, retrieval time, content hash and extraction method. |
-| Update correctly | Re-runs diff against the stored profile. Changes are typed and flagged as material, with evidence for both the old and new values. Identical data gives zero changes. |
+| Update correctly | Every profile lists the changes Brønnøysund recorded in the last 12 months, field by field and dated, even on a first run. Re-runs also diff against the stored profile: changes are typed and flagged as material, with evidence for both the old and new values. Identical data gives zero changes. |
 | Give useful explanations | A plain-English summary, plus key points that cite the claims they rest on, and a list of what was not found and why |
 | Make it easy to use | One command, no install step, and a searchable report page (`report.html`) that works on desktop and mobile |

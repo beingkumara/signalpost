@@ -53,7 +53,7 @@ Each envelope has five sections, and every expected field appears as a claim, fo
 | Annual accounts | period, revenue, operating profit, net profit, equity, assets, debt (company and group), filing history with links to official copies |
 | Leadership and workplaces | CEO, board chair, board members, auditor, accountant, all active roles, registered sub-units |
 | Website and profiles | verified official website, self-description, contact emails and phones, company-owned social profiles |
-| Hiring and activity | NAV job postings (employer org number verified), careers page, dated news on the company site, dated events in official records |
+| Hiring and activity | NAV job postings (employer org number verified), job postings and recruitment platforms on the company site, careers page, dated news, dated events in official records, and changes Brønnøysund recorded in the last 12 months (field by field) |
 
 Availability states are `available`, `not_available`, `blocked`, `not_applicable`, `ambiguous` and `failed`, each with a reason. Absence is never turned into zero. See [DATA_SCHEMA.md](DATA_SCHEMA.md).
 
@@ -61,7 +61,7 @@ Availability states are `available`, `not_available`, `blocked`, `not_applicable
 
 - Lookups use the exact organisation number. The agent never searches the registry by name.
 - Every registry, accounts and sub-unit response must echo the requested number, or it is discarded.
-- A website is published only if a crawled page shows the org number. The registered name is enough only when the registry itself links the site, through its website field or email domain; that case gets medium confidence.
+- A website is published only if a crawled page shows the org number. The registered name is enough only when the registry itself links the site, through its website field or email domain. The name must also be distinctive, appear in the site's title, site name, structured data or copyright line, and be tied to the company by the title or domain. That case gets medium confidence.
 - Job ads are published only when the ad's employer org number is the company or one of its registered sub-units.
 - Financial values are copied verbatim with currency and period. There is no language model and no estimation.
 
@@ -74,11 +74,11 @@ Details are in [AGENT.md](AGENT.md), [SOURCES.md](SOURCES.md), [REFRESH.md](REFR
 | Language models | None |
 | APIs | Brønnøysundregistrene open data (NLOD 2.0), NAV job vacancy feed (public token), company websites |
 | Third-party cost | $0.00 per run |
-| Requests | about 7 per company (measured 706 for 100 companies in 5.1 minutes) |
+| Requests | about 11 per company (measured 1,062 for 100 companies in 4.7 minutes) |
 
 ## Submitted profiles
 
-- `submission/profiles-1000/` holds 1,000 company profiles (`envelopes.jsonl.gz`) with their run report and input list. The run took 6,094 requests and 35.9 minutes, at $0.
+- `submission/profiles-1000/` holds 1,000 company profiles (`envelopes.jsonl.gz`) with their run report and input list. The run took 9,472 requests and 36.0 minutes, at $0.
 - `submission/smoke-100/` holds a 100-company run with a browsable `report.html`.
 
 The submission checklist is in [submission/SUBMISSION.md](submission/SUBMISSION.md).

@@ -57,6 +57,10 @@ One JSON object per input line in `envelopes.jsonl`.
 
 ## Evidence fields
 
+- Newer fields:
+  - `official_changes` lists dated change events from Brønnøysund's change feeds, with the changed fields and a `material` flag.
+  - `website_job_postings` and `careers_platform` come from verified company sites.
+  - `industry_codes[].description_en` gives the official English industry name.
 - `source_class` is one of `official_registry`, `official_roles`, `official_annual_accounts`, `official_annual_account_copies`, `company_owned` or `public_job_board`.
 - `content_sha256` is the SHA-256 of the exact response body. For batch registry lookups it is the hash of the canonical JSON record, and `retrieved_via` names the batch.
 - `extraction_method` is one of `json_path`, `html_title`, `meta_description`, `meta_og`, `mailto_links`, `tel_links`, `outbound_links`, `time_tags`, `identity_gate`, `embedded_json`, `link_classifier` or `derived_from_official_fields`.

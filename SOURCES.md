@@ -3,6 +3,8 @@
 | Source | Access | Rights and terms | Use |
 |---|---|---|---|
 | Brønnøysundregistrene Enhetsregisteret API | Open, no key | NLOD 2.0 | Identity, status, roles, sub-units, change feeds |
+| Enhetsregisteret change feeds (`/oppdateringer/enheter`, `/oppdateringer/roller`) | Open, no key | NLOD 2.0 | The last 12 months of recorded changes per company |
+| Statistics Norway KLASS (industry classification, English) | Bundled file, no request at run time | CC BY 4.0 | English industry names |
 | Regnskapsregisteret API | Open, no key | NLOD 2.0 | Latest accounts; filing-year index, paced to stay under about 30 requests per minute |
 | Company websites | Only the registry-listed site, the registry email domain, or candidates that pass the org-number gate | robots.txt checked per host before any page; at most 3 pages per site | Brand, description, contacts, social links, careers page, dated news |
 | NAV job vacancy feed (`pam-stilling-feed.nav.no`) | NAV's official feed API with the public token NAV publishes at `/api/publicToken` | Read once per run (ads changed in the last 45 days), paced at 4 requests per second; after HTTP 429 the feed is left alone for 10 minutes and jobs are reported `blocked` | Job postings, published only when the ad's employer org number matches |

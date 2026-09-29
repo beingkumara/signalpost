@@ -1,7 +1,7 @@
 {
-  "run_id": "smoke-003",
-  "started_at": "2026-09-29T13:00:29Z",
-  "completed_at": "2026-09-29T13:05:36Z",
+  "run_id": "smoke-004",
+  "started_at": "2026-09-29T14:31:58Z",
+  "completed_at": "2026-09-29T14:36:40Z",
   "agent_version": "2.0.0",
   "input_count": 100,
   "emitted_envelopes": 100,
@@ -55,9 +55,9 @@
     },
     "brand_name": {
       "not_available": 92,
-      "failed": 2,
       "available": 3,
-      "ambiguous": 3
+      "ambiguous": 4,
+      "failed": 1
     },
     "business_address": {
       "available": 100
@@ -67,8 +67,8 @@
     },
     "careers_page": {
       "not_available": 95,
-      "failed": 2,
-      "ambiguous": 3
+      "ambiguous": 4,
+      "failed": 1
     },
     "ceo": {
       "available": 65,
@@ -152,11 +152,14 @@
     "net_profit": {
       "available": 100
     },
+    "official_changes": {
+      "available": 100
+    },
     "official_website": {
       "available": 7,
       "not_available": 88,
-      "failed": 2,
-      "ambiguous": 3
+      "ambiguous": 4,
+      "failed": 1
     },
     "operating_expenses": {
       "available": 98
@@ -204,10 +207,10 @@
       "available": 91
     },
     "social_profiles": {
-      "not_available": 93,
-      "failed": 2,
-      "available": 2,
-      "ambiguous": 3
+      "not_available": 91,
+      "available": 4,
+      "ambiguous": 4,
+      "failed": 1
     },
     "subunit_count": {
       "available": 73
@@ -236,28 +239,32 @@
       "available": 7
     },
     "website_description": {
-      "available": 5,
-      "not_available": 90,
-      "failed": 2,
-      "ambiguous": 3
+      "available": 6,
+      "not_available": 89,
+      "ambiguous": 4,
+      "failed": 1
     },
     "website_emails": {
-      "not_available": 91,
-      "failed": 2,
-      "available": 4,
-      "ambiguous": 3
+      "not_available": 92,
+      "available": 3,
+      "ambiguous": 4,
+      "failed": 1
+    },
+    "website_job_postings": {
+      "not_available": 95,
+      "ambiguous": 4,
+      "failed": 1
     },
     "website_news": {
-      "not_available": 94,
-      "failed": 2,
-      "ambiguous": 3,
-      "available": 1
+      "not_available": 95,
+      "ambiguous": 4,
+      "failed": 1
     },
     "website_phones": {
       "not_available": 94,
-      "failed": 2,
-      "ambiguous": 3,
-      "available": 1
+      "ambiguous": 4,
+      "available": 1,
+      "failed": 1
     },
     "website_title": {
       "available": 7
@@ -265,14 +272,14 @@
   },
   "profiles_with_changes": 0,
   "operations": {
-    "requests": 706,
-    "bytes_received": 69032521,
-    "p50_ms": 1310,
-    "p95_ms": 3592,
-    "request_budget": 1900,
-    "runtime_seconds": 307.3,
-    "company_runtime_p50_ms": 5574,
-    "company_runtime_p95_ms": 36702,
+    "requests": 1062,
+    "bytes_received": 74432209,
+    "p50_ms": 1234,
+    "p95_ms": 3202,
+    "request_budget": 1950,
+    "runtime_seconds": 281.7,
+    "company_runtime_p50_ms": 8807,
+    "company_runtime_p95_ms": 102685,
     "third_party_cost_usd": 0.0
   }
 }

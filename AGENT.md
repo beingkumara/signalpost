@@ -3,7 +3,7 @@
 ## Order of work per company
 
 1. **Identity anchor.** Entity records are fetched 100 at a time with the registry's batch lookup (`organisasjonsnummer=a,b,...`). Numbers missing from the batch, such as deleted units and sub-units, fall back to a single lookup. The organisation number is the only key.
-2. **Core official sources.** Annual accounts and roles are fetched for every main unit. The request budget always reserves two requests per company not yet started, so core lookups are never starved by optional work.
+2. **Core official sources.** Annual accounts and roles are fetched for every main unit. Brønnøysund's change feeds are then read for the company's last 12 months of recorded changes, field by field. The request budget always reserves two requests per company not yet started, so core lookups are never starved by optional work.
 3. **Optional sources.** These run in priority order, each only if budget and time remain:
    1. Sub-units (registered workplaces).
    2. The website: the registry-listed site, or discovery when none is listed.
@@ -16,11 +16,11 @@
 | Claim type | Published when |
 |---|---|
 | Registry, roles, accounts, sub-units | The response echoes the requested org number |
-| Website from the registry's website field | A crawled page shows the org number (high confidence) or the registered name (medium) |
+| Website from the registry's website field | A crawled page shows the org number (high confidence). Otherwise the registered name must meet three conditions (medium confidence): it is distinctive, it appears in the title, site name, structured data or copyright line, and the site is tied to the company by that title or its domain. |
 | Website from the registry's email domain | Same as above: this is also an official registry link |
 | Website from a guessed domain or job-ad homepage | A crawled page (home, contact, about) shows the org number |
 | Job posting | The ad's embedded employer org number equals the company or one of its sub-units |
-| Social profiles, emails, phones, news | They sit on a verified company-owned website. Emails must be on the site's own domain. |
+| Social profiles, emails, phones, news, website job postings | They sit on a verified company-owned website. Emails must be on the site's own domain. Job postings come from the site's own schema.org JobPosting data. |
 
 When identity is uncertain the agent returns `ambiguous` or `not_available` and publishes nothing from that source. Search results and name similarity only generate candidates. They are never evidence.
 
