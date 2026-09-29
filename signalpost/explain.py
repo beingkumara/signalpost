@@ -60,7 +60,8 @@ def _industry(f: dict[str, Any]) -> str:
     parts = []
     codes = f.get("industry_codes") or []
     if codes:
-        parts.append(f"Main industry is {codes[0]['code']} {codes[0].get('description') or ''}".rstrip())
+        label = codes[0].get("description_en") or codes[0].get("description") or ""
+        parts.append(f"Main industry is {label} ({codes[0]['code']})")
     if f.get("employees") is not None:
         parts.append(f"{f['employees']:,} registered employees")
     if f.get("subunit_count"):

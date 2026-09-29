@@ -39,8 +39,10 @@ EXPECTED: dict[str, list[tuple[str, str, str]]] = {
     ],
     "hiring_and_activity": [
         ("job_postings", "jobs", "Active job postings"), ("careers_page", "website", "Careers page"),
+        ("website_job_postings", "website", "Job postings on company website"),
         ("website_news", "website", "Dated news on company website"),
         ("registry_events", "registry", "Dated events in official records"),
+        ("official_changes", "official_changes", "Changes recorded by Brønnøysund (last 12 months)"),
     ],
 }
 _SECTION_OF = {f: s for s, rows in EXPECTED.items() for f, _, _ in rows}
@@ -50,6 +52,7 @@ _SECTION_OF.update({"website": "legal_identity_and_brand", "email": "legal_ident
                     "roles": "leadership_and_workplaces", "accountant": "leadership_and_workplaces",
                     "owner": "leadership_and_workplaces", "contact_person": "leadership_and_workplaces",
                     "subunit_count": "leadership_and_workplaces", "hiring": "hiring_and_activity",
+                    "careers_platform": "hiring_and_activity",
                     "parent_orgnr": "leadership_and_workplaces", "parent_name": "leadership_and_workplaces"})
 _ACCOUNT_PREFIXES = ("revenue", "operating", "net_", "profit", "total_", "fixed_", "current_", "equity",
                      "short_", "long_", "accounts_period", "group_")
@@ -91,6 +94,8 @@ def build_envelope(profile: dict[str, Any], run: dict[str, Any]) -> dict[str, An
             "revision": profile.get("revision", 1),
             "material_changes": sum(1 for c in profile.get("changes_this_run", []) if c.get("material")),
             "prior_evidence_preserved": len(profile.get("change_history", [])),
+            "official_changes_last_365_days": len((profile.get("fields") or {}).get("official_changes") or []),
+            "latest_official_change": ((profile.get("fields") or {}).get("official_changes") or [{}])[0].get("date"),
         },
         "errors": profile.get("warnings", []),
         "operations": profile.get("operations", {"requests": 0, "runtime_ms": 0, "third_party_cost_usd": 0.0}),
@@ -194,8 +199,13 @@ def synthesis(profile: dict[str, Any], claims: list[dict[str, Any]]) -> list[dic
     elif "purpose" in by or "industry_codes" in by:
         industry = (by.get("industry_codes") or {}).get("value") or [{}]
         purpose = (by.get("purpose") or {}).get("value")
-        text = f"Registered industry {industry[0].get('code', '')} {industry[0].get('description', '')}".strip()
-        say("what_it_does", text + (f". Stated purpose: {purpose}" if purpose else "."), ["industry_codes", "purpose"])
+        label = industry[0].get("description_en") or industry[0].get("description") or ""
+        extra = [i.get("description_en") or i.get("description") for i in industry[1:] if i]
+        text = f"Works in {label.lower()} (industry code {industry[0].get('code', '?')})"
+        if extra:
+            text += "; also registered for " + "; ".join(e.lower() for e in extra if e)
+        say("what_it_does", text + (f". Stated purpose (Norwegian, from the register): {purpose}" if purpose else "."),
+            ["industry_codes", "purpose"])
     leaders = [f"{lbl}: {by[f]['value'].get('name')}" for f, lbl in (("ceo", "CEO"), ("board_chair", "Chair"))
                if f in by and isinstance(by[f]["value"], dict)]
     if leaders:
@@ -209,9 +219,23 @@ def synthesis(profile: dict[str, Any], claims: list[dict[str, Any]]) -> list[dic
         footprint.append("profiles on " + ", ".join(sorted(by["social_profiles"]["value"])))
     if "job_postings" in by:
         footprint.append(f"{len(by['job_postings']['value'])} active job posting(s) on NAV")
+    if "website_job_postings" in by:
+        footprint.append(f"{len(by['website_job_postings']['value'])} job posting(s) on its own website")
+    if "careers_platform" in by:
+        footprint.append("recruits through " + ", ".join(sorted(by["careers_platform"]["value"])))
     if footprint:
         say("public_footprint", "Public footprint: " + "; ".join(footprint) + ".",
-            ["official_website", "social_profiles", "job_postings"])
+            ["official_website", "social_profiles", "job_postings", "website_job_postings", "careers_platform"])
+    official = by.get("official_changes")
+    if official:
+        events = official["value"]
+        material = [e for e in events if e.get("material")]
+        latest = events[0]
+        what = ", ".join(latest.get("fields") or [latest.get("type", "update")])
+        text = (f"Brønnøysund recorded {len(events)} update(s) in the last 12 months"
+                f"{f', {len(material)} of them material' if material else ''}; most recent on {latest['date']} "
+                f"({what}).")
+        out.append({"topic": "official_changes", "text": text, "claim_ids": [official["id"]]})
     changes = profile.get("changes_this_run", [])
     if changes:
         ids = [by[c["field"]]["id"] for c in changes if c["field"] in by]

@@ -42,10 +42,29 @@ def test_discovered_site_without_orgnr_is_rejected():
 
 
 def test_registry_site_with_name_only_is_medium_confidence():
-    c = client({SITE: (200, "<title>Acme Bygg</title>")})
-    result = crawl_site(c, SITE, "923609016", "ACME BYGG AS", discovered=False, extra_pages=0)
+    c = client({SITE: (200, "<title>Fjordlys Bygg</title>")})
+    result = crawl_site(c, SITE, "923609016", "FJORDLYS BYGG AS", discovered=False, extra_pages=0)
     assert result.state == "available"
     assert result.facts[0].confidence == "medium"
+
+
+def test_registry_site_with_generic_name_only_is_ambiguous():
+    c = client({SITE: (200, "<title>Acme Bygg</title>")})
+    assert crawl_site(c, SITE, "923609016", "ACME BYGG AS", discovered=False, extra_pages=0).state == "ambiguous"
+
+
+def test_unreachable_www_falls_back_to_bare_domain():
+    c = client({"https://acme.no/": (200, HTML)})
+    c.fail.add(SITE)
+    result = crawl_site(c, SITE, "923609016", "ACME BYGG AS", discovered=False, extra_pages=0)
+    assert result.state == "available"
+
+
+def test_orgnr_found_via_guessed_contact_path():
+    home = "<title>Fjordlys</title><p>no links rendered without javascript</p>"
+    c = client({SITE: (200, home), "https://www.acme.no/kontakt": (200, "<p>Org.nr. 923 609 016</p>")})
+    result = crawl_site(c, SITE, "923609016", "FJORDLYS BYGG AS", discovered=True, extra_pages=2)
+    assert result.state == "available"
 
 
 def test_registry_site_unrelated_content_is_ambiguous():
@@ -62,8 +81,8 @@ def test_robots_disallow_blocks():
 
 
 def test_server_error_is_failed():
-    result = crawl_site(client({SITE: (503, b"")}), SITE, "923609016", "ACME BYGG AS", discovered=False,
-                        extra_pages=0)
+    routes = {u: (503, b"") for u in (SITE, "https://acme.no/", "http://www.acme.no/")}
+    result = crawl_site(client(routes), SITE, "923609016", "ACME BYGG AS", discovered=False, extra_pages=0)
     assert result.state == "failed"
 
 

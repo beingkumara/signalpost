@@ -17,10 +17,12 @@ from signalpost import config
 from signalpost.facts import COMPANY_OWNED, Fact, Source, make_fact
 from signalpost.http_client import BudgetExceeded, HttpClient, Response
 from signalpost.modules import AMBIGUOUS, AVAILABLE, BLOCKED, FAILED, NOT_AVAILABLE, ModuleResult
-from signalpost.webparse import (Page, classify_link, dated_items, emails, name_span, orgnr_span, parse_page,
-                                 phones, registrable_domain, same_site, social_links)
+from signalpost.webparse import (Page, careers_platforms, classify_link, dated_items, domain_matches_name, emails,
+                                 job_postings, name_in_title, name_span, orgnr_span, parse_page, phones,
+                                 registrable_domain, same_site, social_links)
 
-PAGE_PRIORITY = ("contact", "about", "careers", "news")
+PAGE_PRIORITY = ("contact", "about", "legal", "careers", "news")
+GUESSED_PATHS = ("/kontakt", "/om-oss")
 
 
 class RobotsCache:
@@ -92,16 +94,40 @@ def crawl_site(client: HttpClient, start_url: str, orgnr: str, name: str, *, dis
                         "registered name; website content not published", home_resp.final_url, home_resp.fetched_at)
 
 
+def url_variants(url: str) -> list[str]:
+    """The given URL, then the same site with/without www and over plain http, for flaky hosts."""
+    parsed = urlparse(url)
+    host = parsed.netloc
+    other = host[4:] if host.startswith("www.") else f"www.{host}"
+    path = parsed.path or "/"
+    variants = [url, f"{parsed.scheme}://{other}{path}", f"http://{host}{path}"]
+    return list(dict.fromkeys(variants))
+
+
+def _fetch_home(client: HttpClient, start_url: str) -> tuple[Page, Response] | None:
+    last: ConnectionError | None = None
+    for url in url_variants(start_url):
+        try:
+            return _fetch_page(client, url)
+        except ConnectionError as err:
+            last = err
+    raise last or ConnectionError(f"{start_url} unreachable")
+
+
 def _crawl(client: HttpClient, start_url: str, extra_pages: int, orgnr: str) -> _Crawl:
     crawl = _Crawl()
     if not ROBOTS.allowed(client, start_url):
         crawl.blocked.append(f"robots.txt disallows {start_url}")
         return crawl
-    home = _fetch_page(client, start_url)
+    home = _fetch_home(client, start_url)
     if home is None:
         return crawl
     crawl.pages.append(home)
-    targets = _pick_pages(home[0], extra_pages, orgnr_found=bool(orgnr_span(home[0], orgnr)))
+    proven = bool(orgnr_span(home[0], orgnr))
+    targets = _pick_pages(home[0], extra_pages, orgnr_found=proven)
+    if not proven and not targets and extra_pages:
+        base = home[1].final_url.rstrip("/")
+        targets = [base + p for p in GUESSED_PATHS][:extra_pages]
     for url in targets:
         if not ROBOTS.allowed(client, url):
             crawl.blocked.append(f"robots.txt disallows {url}")
@@ -136,7 +162,7 @@ def _pick_pages(home: Page, limit: int, *, orgnr_found: bool) -> list[str]:
         kind = classify_link(url, text)
         if kind and kind not in by_kind:
             by_kind[kind] = url.split("#")[0]
-    order = PAGE_PRIORITY if not orgnr_found else ("careers", "news", "contact", "about")
+    order = PAGE_PRIORITY if not orgnr_found else ("careers", "news", "contact", "about", "legal")
     return [by_kind[k] for k in order if k in by_kind][:limit]
 
 
@@ -146,9 +172,11 @@ def _identity(pages: list[tuple[Page, Response]], orgnr: str, name: str) -> dict
         if span:
             return {"level": "orgnr_on_page", "proof_url": resp.final_url, "claim_span": span,
                     "proof_sha256": resp.sha256}
+    # A name-only match must also tie the site to this company rather than a parent or partner:
+    # the name is in the site's title/site name, or the domain contains a distinctive word of the name.
     for page, resp in pages:
         span = name_span(page, name)
-        if span:
+        if span and (name_in_title(page, name) or domain_matches_name(resp.final_url, name)):
             return {"level": "name_on_page", "proof_url": resp.final_url, "claim_span": span,
                     "proof_sha256": resp.sha256}
     return {"level": "unverified"}
@@ -195,6 +223,9 @@ def _collect(out: list[Fact], pages: list[tuple[Page, Response]], fact: Any, hom
     social: dict[str, str] = {}
     news: list[dict[str, str]] = []
     careers_url: str | None = None
+    site_jobs: list[dict[str, Any]] = []
+    platforms: dict[str, str] = {}
+    jobs_resp = platform_resp = home_resp
     email_resp = phone_resp = social_resp = news_resp = home_resp
     for page, resp in pages:
         found = [e for e in emails(page, home_resp.final_url) if e not in all_emails]
@@ -209,6 +240,14 @@ def _collect(out: list[Fact], pages: list[tuple[Page, Response]], fact: Any, hom
         if links and not social:
             social_resp = resp
         social.update(links)
+        found_jobs = job_postings(page)
+        if found_jobs and not site_jobs:
+            jobs_resp = resp
+        site_jobs += found_jobs
+        found_platforms = {k: v for k, v in careers_platforms(page).items() if k not in platforms}
+        if found_platforms and not platforms:
+            platform_resp = resp
+        platforms.update(found_platforms)
         items = dated_items(page)
         if items and not news:
             news_resp = resp
@@ -229,6 +268,15 @@ def _collect(out: list[Fact], pages: list[tuple[Page, Response]], fact: Any, hom
     if careers_url:
         out.append(fact("careers_page", careers_url, home_resp, "Careers page on website", careers_url,
                         "link_classifier"))
+    if site_jobs:
+        unique_jobs = sorted({(j["title"], j["url"]): j for j in site_jobs}.values(),
+                             key=lambda j: (j["published"] or "", j["title"]), reverse=True)[:10]
+        out.append(fact("website_job_postings", unique_jobs, jobs_resp, "Job postings published on the company website",
+                        unique_jobs[0]["title"], "jsonld_jobposting"))
+    if platforms:
+        out.append(fact("careers_platform", dict(sorted(platforms.items())), platform_resp,
+                        "Recruitment platform linked from the website", " ".join(sorted(platforms.values())),
+                        "outbound_links"))
     if news:
         unique = {(i["date"], i["title"]): i for i in news}
         items = sorted(unique.values(), key=lambda i: i["date"], reverse=True)[:10]

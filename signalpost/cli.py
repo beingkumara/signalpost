@@ -75,7 +75,7 @@ def _budget_args(p: argparse.ArgumentParser) -> None:
                         f"+ {config.FIXED_RUN_REQUESTS})")
     p.add_argument("--max-minutes", type=float, default=_env_float(ENV_MINUTES, config.DEFAULT_MAX_MINUTES))
     p.add_argument("--workers", type=int, default=config.DEFAULT_WORKERS)
-    p.add_argument("--website-pages", type=int, default=2, help="extra same-site pages per website")
+    p.add_argument("--website-pages", type=int, default=4, help="extra same-site pages per website")
     p.add_argument("--no-website-discovery", action="store_true")
     p.add_argument("--no-jobs", action="store_true")
     p.add_argument("--no-history", action="store_true", help="skip the rate-limited filing-history lane")

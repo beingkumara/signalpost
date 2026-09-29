@@ -2,6 +2,10 @@
 
 from __future__ import annotations
 
+import json
+from functools import lru_cache
+from importlib import resources
+
 ORG_FORMS_EN = {
     "AS": "private limited company",
     "ASA": "public limited company",
@@ -55,3 +59,20 @@ def org_form_en(code: str | None, fallback: str | None = None) -> str | None:
 
 def with_article(noun: str) -> str:
     return ("an " if noun[:1].lower() in "aeiou" else "a ") + noun
+
+
+@lru_cache(maxsize=1)
+def _nace() -> dict[str, dict[str, str]]:
+    try:
+        text = resources.files("signalpost").joinpath("data/nace_en.json").read_text(encoding="utf-8")
+        return json.loads(text)["codes"]
+    except (OSError, ValueError, KeyError):
+        return {}
+
+
+def industry_en(code: str | None) -> str | None:
+    """Official English industry name from Statistics Norway (SN2025, falling back to SN2007)."""
+    if not code:
+        return None
+    entry = _nace().get(code)
+    return entry["name"] if entry else None

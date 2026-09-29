@@ -20,11 +20,12 @@ _MODULE_CLASSES = {
     "roles": "official_roles", "annual_accounts": "official_annual_accounts",
     "filing_history": "official_annual_account_copies", "website": "company_owned", "jobs": "public_job_board",
 }
-_MODULE_FIELDS = {"workplaces": {"subunit_count", "subunits"}}
+_MODULE_FIELDS = {"workplaces": {"subunit_count", "subunits"}, "official_changes": {"official_changes"}}
 MATERIAL_FIELDS = {
     "status", "name", "organization_form", "business_address", "ceo", "board_chair", "board_members", "auditor",
     "accounts_period", "revenue", "net_profit", "equity", "official_website", "bankrupt", "under_liquidation",
     "under_forced_dissolution", "deleted_date", "share_capital", "job_postings", "hiring", "subunit_count",
+    "official_changes",
 }
 _CHANGE_TYPES = {
     "roles": "role_change", "ceo": "role_change", "board_chair": "role_change", "board_members": "role_change",
@@ -34,6 +35,7 @@ _CHANGE_TYPES = {
     "business_address": "address_change", "website_description": "changed_description",
     "official_website": "website_change", "name": "name_change", "status": "status_change",
     "registry_events": "new_event", "website_news": "new_event", "social_profiles": "profile_change",
+    "official_changes": "registry_update",
 }
 
 

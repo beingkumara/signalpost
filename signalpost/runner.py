@@ -31,7 +31,7 @@ class RunOptions:
     workers: int = config.DEFAULT_WORKERS
     max_minutes: float = config.DEFAULT_MAX_MINUTES
     run_id: str = ""
-    website_pages: int = 2
+    website_pages: int = 4
     discovery: bool = True
     jobs: bool = True
     history: bool = True

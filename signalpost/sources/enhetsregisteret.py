@@ -11,7 +11,7 @@ import json
 from signalpost import config
 from signalpost.facts import OFFICIAL_REGISTRY, Fact, Source, is_present, make_fact
 from signalpost.http_client import HttpClient
-from signalpost.labels import org_form_en
+from signalpost.labels import industry_en, org_form_en
 
 BATCH_SIZE = 100
 
@@ -150,7 +150,8 @@ def _structured_facts(raw: dict[str, Any], fact: Any) -> list[Fact]:
                 out.append(fact("municipality", {"name": addr.get("kommune"), "code": addr.get("kommunenummer")},
                                 f"{key}.kommune", "Municipality"))
     industries = [
-        {"code": raw[k]["kode"], "description": raw[k].get("beskrivelse")}
+        {"code": raw[k]["kode"], "description": raw[k].get("beskrivelse"),
+         "description_en": industry_en(raw[k]["kode"])}
         for k in ("naeringskode1", "naeringskode2", "naeringskode3") if raw.get(k, {}).get("kode")
     ]
     if industries:

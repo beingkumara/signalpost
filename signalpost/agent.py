@@ -14,6 +14,7 @@ from signalpost.http_client import BudgetExceeded, HttpClient, Response, utc_now
 from signalpost.modules import (AVAILABLE, BLOCKED, FAILED, NOT_APPLICABLE, NOT_AVAILABLE, ModuleResult,
                                 skipped)
 from signalpost.sources.activity import registry_events
+from signalpost.sources.changes import fetch_official_changes
 from signalpost.sources.discovery import discover_website
 from signalpost.sources.enhetsregisteret import EntityResult, fetch_entity, fetch_parent_name
 from signalpost.sources.regnskap import fetch_accounts
@@ -33,7 +34,7 @@ class RunContext:
     client: HttpClient
     deadline: float
     companies_not_started: int
-    website_pages: int = 2
+    website_pages: int = 4
     discovery: bool = True
     jobs: bool = True
     _lock: threading.Lock = field(default_factory=threading.Lock)
@@ -106,11 +107,11 @@ def _run_modules(ctx: RunContext, client: CountingClient, entity: EntityResult) 
     raw = entity.raw or {}
     if entity.kind == "deleted":
         return [skipped(m, NOT_APPLICABLE, "entity deleted from the register")
-                for m in ("annual_accounts", "roles", "workplaces", "website")]
+                for m in ("annual_accounts", "roles", "workplaces", "website", "official_changes")]
     if entity.kind == "underenhet":
         parent = raw.get("overordnetEnhet")
         out = [skipped(m, NOT_APPLICABLE, "sub-unit: roles and accounts belong to the parent entity")
-               for m in ("annual_accounts", "roles", "workplaces")]
+               for m in ("annual_accounts", "roles", "workplaces", "official_changes")]
         if parent:
             out.append(_guard(ctx, "parent", 1, lambda: _as_result(
                 "parent", fetch_parent_name(client, parent, entity.orgnr), parent), core=True))
@@ -124,11 +125,12 @@ def _run_modules(ctx: RunContext, client: CountingClient, entity: EntityResult) 
                                 f"organisation form {form} is generally not obliged to file accounts",
                                 accounts.source_url, accounts.checked_at)
     roles = _guard(ctx, "roles", 1, lambda: fetch_roles(client, entity.orgnr), core=True)
+    changes = _guard(ctx, "official_changes", 3, lambda: fetch_official_changes(client, entity.orgnr))
     workplaces = _guard(ctx, "workplaces", 1, lambda: fetch_subunits(client, entity.orgnr))
     subunits = set(workplaces.extra.get("subunit_orgnrs", []))
     name = raw.get("navn", "")
     website = _website(ctx, client, entity, name, [])
-    return [accounts, roles, workplaces, website]
+    return [accounts, roles, changes, workplaces, website]
 
 
 def _website(ctx: RunContext, client: CountingClient, entity: EntityResult, name: str,
@@ -136,13 +138,13 @@ def _website(ctx: RunContext, client: CountingClient, entity: EntityResult, name
     registered = next((f.value for f in entity.facts if f.field == "website"), None)
     pages = ctx.website_pages
     if registered:
-        return _guard(ctx, "website", 2 + pages, lambda: crawl_site(
+        return _guard(ctx, "website", 4 + pages, lambda: crawl_site(
             client, registered, entity.orgnr, name, discovered=False, extra_pages=pages))
     if not ctx.discovery:
         return skipped("website", BLOCKED, "no registry website; discovery disabled for this run")
     email = next((f.value for f in entity.facts if f.field == "email"), None)
-    return _guard(ctx, "website", 6, lambda: discover_website(
-        client, entity.orgnr, name, extra_candidates=job_homepages, email=email, max_fetch=2, extra_pages=2))
+    return _guard(ctx, "website", 12, lambda: discover_website(
+        client, entity.orgnr, name, extra_candidates=job_homepages, email=email, max_fetch=3, extra_pages=3))
 
 
 def _guard(ctx: RunContext, module: str, cost: int, fn: Callable[[], ModuleResult], core: bool = False) -> ModuleResult:

@@ -19,6 +19,7 @@ _SKIP_TAGS = {"script", "style", "noscript", "template", "svg"}
 PAGE_KEYWORDS = {
     "contact": ("kontakt", "contact"),
     "about": ("om-oss", "om oss", "omoss", "about", "hvem-er-vi", "selskapet"),
+    "legal": ("personvern", "privacy", "vilkar", "vilkår", "terms", "salgsbetingelser", "cookie", "impressum"),
     "careers": ("karriere", "ledige-stillinger", "ledige stillinger", "jobb", "career", "jobs", "stillinger"),
     "news": ("nyheter", "news", "aktuelt", "presse", "press", "blogg", "blog"),
 }
@@ -170,16 +171,91 @@ def orgnr_span(page: Page, orgnr: str) -> str | None:
     return None
 
 
-def name_span(page: Page, name: str) -> str | None:
+GENERIC_NAME_WORDS = {"bygg", "eiendom", "holding", "invest", "service", "services", "consult", "consulting",
+                      "norge", "norway", "group", "gruppen", "transport", "handel", "drift", "utvikling", "regnskap",
+                      "elektro", "maskin", "design", "media", "data", "it", "tech", "solutions", "partner", "partners",
+                      "og", "and", "i", "the", "sameie", "borettslag", "eiendomsselskap", "nordic", "norden"}
+
+
+def distinctive_name(name: str) -> bool:
+    """Names that are too short or generic cannot prove identity on their own."""
+    tokens = [t for t in re.split(r"[^\wæøå]+", core_name(name).lower()) if t]
+    specific = [t for t in tokens if t not in GENERIC_NAME_WORDS and not t.isdigit()]
+    return bool(specific) and len("".join(specific)) >= 5
+
+
+def prominent_text(page: Page) -> str:
+    """Where a site names its owner: title, site name, structured-data names and copyright lines."""
+    parts = [page.title, page.site_name or ""]
+    parts += [str(o.get(k)) for o in page.jsonld for k in ("name", "legalName") if o.get(k)
+              and str(o.get("@type", "")) in ("Organization", "Corporation", "LocalBusiness", "WebSite")]
+    parts += [m.group(0) for m in re.finditer(r"(©|\(c\)|copyright)[^|.\n]{0,60}", page.text, flags=re.IGNORECASE)]
+    return " | ".join(p for p in parts if p)
+
+
+def ascii_tokens(text: str) -> list[str]:
+    lowered = text.lower()
+    for src, dst in (("æ", "ae"), ("ø", "o"), ("å", "a"), ("&", " og ")):
+        lowered = lowered.replace(src, dst)
+    return [t for t in re.split(r"[^a-z0-9]+", lowered) if t]
+
+
+def name_in_title(page: Page, name: str) -> bool:
     core = core_name(name)
-    if not core:
+    head = f"{page.title} | {page.site_name or ''}"
+    return bool(core) and re.search(r"(?<!\w)" + re.escape(core) + r"(?!\w)", head, flags=re.IGNORECASE) is not None
+
+
+def domain_matches_name(url: str, name: str) -> bool:
+    """True when the site's domain contains a distinctive word of the legal name (e.g. pellybutik.se for Pelly)."""
+    label = registrable_domain(urlparse(url).netloc).split(".")[0].replace("-", "")
+    return any(len(t) >= 4 and t not in GENERIC_NAME_WORDS and t in label for t in ascii_tokens(core_name(name)))
+
+
+def name_span(page: Page, name: str) -> str | None:
+    """The registered name in a prominent place on the page, for distinctive names only."""
+    core = core_name(name)
+    if not core or not distinctive_name(name):
         return None
-    haystack = f"{page.title} | {page.site_name or ''} | {page.text}"
-    match = re.search(re.escape(core), haystack, flags=re.IGNORECASE)
+    haystack = prominent_text(page)
+    match = re.search(r"(?<!\w)" + re.escape(core) + r"(?!\w)", haystack, flags=re.IGNORECASE)
     if not match:
         return None
     start = max(0, match.start() - 40)
     return haystack[start:match.end() + 40].strip()
+
+
+ATS_DOMAINS = {"teamtailor.com": "Teamtailor", "webcruiter.no": "Webcruiter", "webcruiter.com": "Webcruiter",
+               "jobbnorge.no": "Jobbnorge", "recman.no": "Recman", "recman.page": "Recman", "hrmanager.no": "HR Manager",
+               "easycruit.com": "EasyCruit", "reachmee.com": "ReachMee", "varbi.com": "Varbi",
+               "myworkdayjobs.com": "Workday", "smartrecruiters.com": "SmartRecruiters", "lever.co": "Lever",
+               "greenhouse.io": "Greenhouse", "finn.no": "FINN", "arbeidsplassen.nav.no": "NAV"}
+
+
+def careers_platforms(page: Page) -> dict[str, str]:
+    found: dict[str, str] = {}
+    for href, _ in page.links:
+        host = urlparse(href).netloc.lower().removeprefix("www.")
+        for domain, label in ATS_DOMAINS.items():
+            if (host == domain or host.endswith("." + domain)) and label not in found:
+                found[label] = href.split("#")[0]
+    return found
+
+
+def job_postings(page: Page) -> list[dict[str, Any]]:
+    """schema.org JobPosting objects embedded by the company."""
+    jobs: list[dict[str, Any]] = []
+    for obj in page.jsonld:
+        if str(obj.get("@type", "")) != "JobPosting" or not obj.get("title"):
+            continue
+        location = obj.get("jobLocation")
+        location = location[0] if isinstance(location, list) and location else location
+        address = (location or {}).get("address") if isinstance(location, dict) else None
+        city = address.get("addressLocality") if isinstance(address, dict) else None
+        jobs.append({"title": str(obj["title"])[:200], "published": _iso_date(str(obj.get("datePosted") or "")),
+                     "expires": _iso_date(str(obj.get("validThrough") or "")), "location": city,
+                     "url": str(obj.get("url") or page.url)})
+    return jobs
 
 
 def classify_link(url: str, text: str) -> str | None:

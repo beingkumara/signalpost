@@ -103,11 +103,11 @@ def test_email_domain_with_name_only_is_accepted_but_unrelated_site_is_not():
     conftest.RESOLVABLE.update({"acme-post.no", "adviser.no"})
     try:
         home, other = "https://acme-post.no/", "https://adviser.no/"
-        c = FakeClient({home: (200, "<title>Acme Bygg</title>"), other: (200, "<title>Adviser AS</title>")},
+        c = FakeClient({home: (200, "<title>Fjordlys Bygg</title>"), other: (200, "<title>Adviser AS</title>")},
                        content_types={home: "text/html", other: "text/html"})
-        ok = discovery.discover_website(c, "923609016", "ACME BYGG AS", email="post@acme-post.no")
+        ok = discovery.discover_website(c, "923609016", "FJORDLYS BYGG AS", email="post@acme-post.no")
         assert ok.state == "available" and ok.facts[0].confidence == "medium"
-        no = discovery.discover_website(c, "923609016", "ACME BYGG AS", email="me@adviser.no")
+        no = discovery.discover_website(c, "923609016", "FJORDLYS BYGG AS", email="me@adviser.no")
         assert no.state == "not_available"
     finally:
         conftest.RESOLVABLE.difference_update({"acme-post.no", "adviser.no"})

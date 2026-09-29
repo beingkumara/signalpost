@@ -59,10 +59,35 @@ def test_link_classification_and_domains():
 def test_name_helpers():
     assert wp.core_name("ACME BYGG AS") == "ACME BYGG"
     assert wp.core_name("AB AS") == ""
-    assert wp.name_span(page(), "ACME BYGG AS")
+    assert wp.name_span(page(), "ACME BYGG AS") is None  # "acme" alone is too short to prove identity
+    named = wp.parse_page("<title>Fjordlys Bygg | Hjem</title><p>body</p>", SITE)
+    assert wp.name_span(named, "FJORDLYS BYGG AS")
+    buried = wp.parse_page("<title>Velkommen</title><p>Vi samarbeider med Fjordlys Bygg AS.</p>", SITE)
+    assert wp.name_span(buried, "FJORDLYS BYGG AS") is None  # only prominent places count
+    footer = wp.parse_page("<title>Hjem</title><footer>© 2026 Fjordlys Bygg AS</footer>", SITE)
+    assert wp.name_span(footer, "FJORDLYS BYGG AS")
+    assert not wp.distinctive_name("BYGG OG EIENDOM AS") and wp.distinctive_name("FJORDLYS AS")
     assert wp.normalise_phone("0047 22 33 44 55") == "+4722334455"
     assert wp.normalise_phone("123") is None
 
 
 def test_malformed_html_does_not_crash():
     assert wp.parse_page("<html><a href='/x'>unterminated", SITE).links
+
+
+def test_job_postings_and_careers_platforms():
+    html = """<script type="application/ld+json">{"@type":"JobPosting","title":"Tømrer","datePosted":"2026-09-01",
+    "validThrough":"2026-10-01","jobLocation":{"address":{"addressLocality":"Bergen"}},"url":"https://acme.no/jobb/1"}</script>
+    <a href="https://acme.teamtailor.com/jobs">Ledige stillinger</a>"""
+    p = wp.parse_page(html, SITE)
+    assert wp.job_postings(p) == [{"title": "Tømrer", "published": "2026-09-01", "expires": "2026-10-01",
+                                   "location": "Bergen", "url": "https://acme.no/jobb/1"}]
+    assert wp.careers_platforms(p) == {"Teamtailor": "https://acme.teamtailor.com/jobs"}
+
+
+def test_parent_site_name_mention_does_not_tie_the_site():
+    parent = wp.parse_page("<title>Enata</title><footer>© Enata | Prosjekter Lilleeng Helsepark</footer>",
+                           "https://enata.no/")
+    assert not wp.name_in_title(parent, "LILLEENG AS")
+    assert not wp.domain_matches_name("https://enata.no/", "LILLEENG AS")
+    assert wp.domain_matches_name("https://pellybutik.se/no/", "PELLY BUTIKKINNREDNING AS")
