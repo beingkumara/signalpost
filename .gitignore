@@ -7,3 +7,6 @@ htmlcov/
 *.egg-info/
 build/
 out/
+state/
+data/*.gz
+data/batch-*.jsonl

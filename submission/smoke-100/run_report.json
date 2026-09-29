@@ -1,0 +1,278 @@
+{
+  "run_id": "smoke-003",
+  "started_at": "2026-09-29T13:00:29Z",
+  "completed_at": "2026-09-29T13:05:36Z",
+  "agent_version": "2.0.0",
+  "input_count": 100,
+  "emitted_envelopes": 100,
+  "validation": {
+    "passed": true,
+    "checks": {
+      "one_envelope_per_input": true,
+      "expected_count_matches": true,
+      "unique_organisation_numbers": true,
+      "all_claim_states_valid": true,
+      "all_runs_terminal": true
+    }
+  },
+  "company_status_counts": {
+    "active": 100
+  },
+  "section_coverage": {
+    "legal_identity_and_brand": 100,
+    "annual_accounts": 100,
+    "leadership_and_workplaces": 100,
+    "website_and_profiles": 7,
+    "hiring_and_activity": 100
+  },
+  "field_availability": {
+    "accountant": {
+      "available": 67
+    },
+    "accounts_period": {
+      "available": 100
+    },
+    "articles_date": {
+      "available": 99
+    },
+    "audit_opt_out": {
+      "available": 71
+    },
+    "auditor": {
+      "not_applicable": 71,
+      "available": 26,
+      "not_available": 3
+    },
+    "bankrupt": {
+      "available": 100
+    },
+    "board_chair": {
+      "available": 99,
+      "not_available": 1
+    },
+    "board_members": {
+      "available": 100
+    },
+    "brand_name": {
+      "not_available": 92,
+      "failed": 2,
+      "available": 3,
+      "ambiguous": 3
+    },
+    "business_address": {
+      "available": 100
+    },
+    "business_register_date": {
+      "available": 99
+    },
+    "careers_page": {
+      "not_available": 95,
+      "failed": 2,
+      "ambiguous": 3
+    },
+    "ceo": {
+      "available": 65,
+      "not_available": 35
+    },
+    "current_assets": {
+      "available": 97
+    },
+    "email": {
+      "available": 25
+    },
+    "employees": {
+      "not_available": 90,
+      "available": 10
+    },
+    "entity_type": {
+      "available": 100
+    },
+    "equity": {
+      "available": 98,
+      "not_available": 2
+    },
+    "filing_history": {
+      "available": 100
+    },
+    "fixed_assets": {
+      "available": 83
+    },
+    "former_names": {
+      "available": 18
+    },
+    "founded_date": {
+      "available": 100
+    },
+    "hiring": {
+      "available": 1
+    },
+    "in_business_register": {
+      "available": 100
+    },
+    "in_corporate_group": {
+      "available": 100
+    },
+    "in_foundation_register": {
+      "available": 100
+    },
+    "in_party_register": {
+      "available": 100
+    },
+    "in_voluntary_register": {
+      "available": 100
+    },
+    "industry_codes": {
+      "available": 100
+    },
+    "job_postings": {
+      "not_available": 99,
+      "available": 1
+    },
+    "language_form": {
+      "available": 100
+    },
+    "latest_annual_accounts_year": {
+      "available": 100
+    },
+    "long_term_debt": {
+      "available": 36
+    },
+    "mobile": {
+      "available": 19
+    },
+    "municipality": {
+      "available": 100
+    },
+    "name": {
+      "available": 100
+    },
+    "net_financial_items": {
+      "available": 92
+    },
+    "net_profit": {
+      "available": 100
+    },
+    "official_website": {
+      "available": 7,
+      "not_available": 88,
+      "failed": 2,
+      "ambiguous": 3
+    },
+    "operating_expenses": {
+      "available": 98
+    },
+    "operating_profit": {
+      "available": 98,
+      "not_available": 2
+    },
+    "organization_form": {
+      "available": 100
+    },
+    "phone": {
+      "available": 12
+    },
+    "postal_address": {
+      "available": 25
+    },
+    "profit_before_tax": {
+      "available": 95
+    },
+    "purpose": {
+      "available": 100
+    },
+    "registered_date": {
+      "available": 100
+    },
+    "registry_events": {
+      "available": 100
+    },
+    "revenue": {
+      "available": 73,
+      "not_available": 27
+    },
+    "roles": {
+      "available": 100
+    },
+    "sector": {
+      "available": 98
+    },
+    "share_capital": {
+      "available": 93,
+      "not_available": 7
+    },
+    "short_term_debt": {
+      "available": 91
+    },
+    "social_profiles": {
+      "not_available": 93,
+      "failed": 2,
+      "available": 2,
+      "ambiguous": 3
+    },
+    "subunit_count": {
+      "available": 73
+    },
+    "subunits": {
+      "available": 73,
+      "not_available": 27
+    },
+    "total_assets": {
+      "available": 100
+    },
+    "total_debt": {
+      "available": 91,
+      "not_available": 9
+    },
+    "under_forced_dissolution": {
+      "available": 100
+    },
+    "under_liquidation": {
+      "available": 100
+    },
+    "vat_registered": {
+      "available": 100
+    },
+    "website": {
+      "available": 7
+    },
+    "website_description": {
+      "available": 5,
+      "not_available": 90,
+      "failed": 2,
+      "ambiguous": 3
+    },
+    "website_emails": {
+      "not_available": 91,
+      "failed": 2,
+      "available": 4,
+      "ambiguous": 3
+    },
+    "website_news": {
+      "not_available": 94,
+      "failed": 2,
+      "ambiguous": 3,
+      "available": 1
+    },
+    "website_phones": {
+      "not_available": 94,
+      "failed": 2,
+      "ambiguous": 3,
+      "available": 1
+    },
+    "website_title": {
+      "available": 7
+    }
+  },
+  "profiles_with_changes": 0,
+  "operations": {
+    "requests": 706,
+    "bytes_received": 69032521,
+    "p50_ms": 1310,
+    "p95_ms": 3592,
+    "request_budget": 1900,
+    "runtime_seconds": 307.3,
+    "company_runtime_p50_ms": 5574,
+    "company_runtime_p95_ms": 36702,
+    "third_party_cost_usd": 0.0
+  }
+}

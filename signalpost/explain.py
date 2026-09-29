@@ -96,14 +96,19 @@ def _finance(f: dict[str, Any]) -> str:
 
 
 def _web(f: dict[str, Any]) -> str:
-    if not f.get("website"):
-        return ""
-    level = f.get("website_verification")
-    if level == "orgnr_on_page":
-        return f"Website {f['website']} is verified: the org number appears on the page."
-    if level == "name_on_page":
-        return f"Website {f['website']} shows the registered name."
-    return f"Registered website: {f['website']}."
+    parts = []
+    site = f.get("official_website")
+    if isinstance(site, dict):
+        proof = {"orgnr_on_page": "the org number appears on the site",
+                 "name_on_page": "the registry lists it and the site shows the registered name"}
+        parts.append(f"Official website {site.get('final_url')} is verified ({proof.get(site.get('verification'), '')})")
+    elif f.get("website"):
+        parts.append(f"The registry lists the website {f['website']}, but its content could not be verified")
+    if f.get("social_profiles"):
+        parts.append("company-owned profiles on " + ", ".join(sorted(f["social_profiles"])))
+    if f.get("job_postings"):
+        parts.append(f"{len(f['job_postings'])} active job posting(s) on arbeidsplassen.nav.no")
+    return ("; ".join(parts) + ".") if parts else ""
 
 
 def _notes(profile: dict[str, Any], f: dict[str, Any]) -> list[str]:
@@ -143,6 +148,9 @@ def change_notes(changes: list[dict[str, Any]]) -> list[str]:
     """Human-readable lines for changes detected on this refresh."""
     lines = []
     for change in changes:
+        if change.get("summary"):
+            lines.append(change["summary"])
+            continue
         kind = change.get("change")
         name = change.get("label") or change.get("field")
         if kind == "added":

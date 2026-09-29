@@ -52,3 +52,23 @@ def equinor_routes() -> dict[str, tuple[int, Any]]:
         f"{base}/enhetsregisteret/api/underenheter?overordnetEnhet={EQUINOR}&size=5":
             (200, load_fixture("underenheter_923609016.json")),
     }
+
+
+@pytest.fixture(autouse=True)
+def _fresh_robots_cache():
+    from signalpost.sources import website
+
+    website.ROBOTS._cache.clear()
+    yield
+    website.ROBOTS._cache.clear()
+
+
+@pytest.fixture(autouse=True)
+def _no_dns(monkeypatch):
+    """Tests never touch DNS: only names listed in RESOLVABLE resolve."""
+    from signalpost.sources import discovery
+
+    monkeypatch.setattr(discovery, "host_resolves", lambda host: host in RESOLVABLE)
+
+
+RESOLVABLE: set[str] = set()

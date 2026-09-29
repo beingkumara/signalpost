@@ -9,8 +9,12 @@ from __future__ import annotations
 from typing import Any
 
 from signalpost import config
-from signalpost.facts import Fact, Source, make_fact
+from signalpost.facts import OFFICIAL_ACCOUNT_COPIES, OFFICIAL_ACCOUNTS, Fact, Source, make_fact
 from signalpost.http_client import HttpClient
+from signalpost.modules import FAILED, ModuleResult, from_facts
+
+FILING_YEARS_URL = config.BRREG_BASE + "/regnskapsregisteret/regnskap/aarsregnskap/kopi/{orgnr}/aar"
+FILING_COPY_URL = config.BRREG_BASE + "/regnskapsregisteret/regnskap/aarsregnskap/kopi/{orgnr}/{year}"
 
 # (field, path through the accounts JSON, label)
 _FIGURES: tuple[tuple[str, tuple[str, ...], str], ...] = (
@@ -36,15 +40,37 @@ _FIGURES: tuple[tuple[str, tuple[str, ...], str], ...] = (
 )
 
 
-def fetch_accounts(client: HttpClient, orgnr: str) -> tuple[Fact, ...]:
+def fetch_accounts(client: HttpClient, orgnr: str) -> ModuleResult:
     url = config.REGNSKAP_URL.format(orgnr=orgnr)
     resp = client.get(url)
-    if resp.status in (404, 204) or not resp.body.strip():
-        return ()
+    if resp.status in (404, 204) or (resp.status == 200 and not resp.body.strip()):
+        return from_facts("annual_accounts", (), url, resp.fetched_at, "Regnskapsregisteret returned no accounts")
     if resp.status != 200:
-        raise ConnectionError(f"{url} returned HTTP {resp.status}")
-    human = f"https://virksomhet.brreg.no/nb/oppslag/enheter/{orgnr}"
-    return extract_account_facts(resp.json(), Source(config.SOURCE_REGNSKAP, url, human), resp.fetched_at, orgnr)
+        return ModuleResult("annual_accounts", FAILED, (), f"HTTP {resp.status}", url, resp.fetched_at)
+    human = config.HUMAN_ENHET_URL.format(orgnr=orgnr)
+    source = Source(config.SOURCE_REGNSKAP, url, human, OFFICIAL_ACCOUNTS, resp.sha256)
+    facts = extract_account_facts(resp.json(), source, resp.fetched_at, orgnr)
+    return from_facts("annual_accounts", facts, url, resp.fetched_at, "no accounts for this org number")
+
+
+def fetch_filing_years(client: HttpClient, orgnr: str) -> ModuleResult:
+    """Years with an official annual-account copy (history). Rate limited upstream to ~30/minute."""
+    url = FILING_YEARS_URL.format(orgnr=orgnr)
+    resp = client.get(url, retries=1)
+    if resp.status == 404:
+        return from_facts("filing_history", (), url, resp.fetched_at, "no filed account copies")
+    if resp.status != 200:
+        return ModuleResult("filing_history", FAILED, (), f"HTTP {resp.status}", url, resp.fetched_at)
+    years = sorted({str(y) for y in resp.json() if str(y).isdigit()}, reverse=True)
+    if not years:
+        return from_facts("filing_history", (), url, resp.fetched_at, "no filed account copies")
+    source = Source(config.SOURCE_REGNSKAP, url, config.HUMAN_ENHET_URL.format(orgnr=orgnr),
+                    OFFICIAL_ACCOUNT_COPIES, resp.sha256)
+    value = [{"year": y, "copy_url": FILING_COPY_URL.format(orgnr=orgnr, year=y)} for y in years]
+    fact = make_fact("filing_history", value, source, resp.fetched_at, json_path="$[*]", as_of=f"{years[0]}-12-31",
+                     as_of_basis="latest_filing_year", label="Filed annual accounts (years with official copies)",
+                     extra_evidence={"matched_orgnr": orgnr, "years": len(years)})
+    return from_facts("filing_history", (fact,), url, resp.fetched_at, "")
 
 
 def extract_account_facts(data: Any, source: Source, retrieved_at: str, orgnr: str) -> tuple[Fact, ...]:

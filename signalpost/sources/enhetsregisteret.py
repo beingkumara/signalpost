@@ -5,10 +5,15 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Any
 
+import hashlib
+import json
+
 from signalpost import config
-from signalpost.labels import org_form_en
-from signalpost.facts import Fact, Source, is_present, make_fact
+from signalpost.facts import OFFICIAL_REGISTRY, Fact, Source, is_present, make_fact
 from signalpost.http_client import HttpClient
+from signalpost.labels import org_form_en
+
+BATCH_SIZE = 100
 
 # (output field, json key, label, date key giving the as-of date)
 _SIMPLE_FIELDS: tuple[tuple[str, str, str, str | None], ...] = (
@@ -69,17 +74,46 @@ def fetch_entity(client: HttpClient, orgnr: str) -> EntityResult:
         if raw.get("organisasjonsnummer") != orgnr:
             # Identity guard: never publish a record for a different number.
             raise ValueError(f"{url} returned org number {raw.get('organisasjonsnummer')}, expected {orgnr}")
-        source = Source(config.SOURCE_ENHETSREGISTERET, url, human_tpl.format(orgnr=orgnr))
-        is_deleted = raw.get("respons_klasse", "").startswith("Slettet") or "slettedato" in raw
-        final_kind = "deleted" if is_deleted else kind
-        facts = extract_facts(raw, source, resp.fetched_at, final_kind)
-        return EntityResult(orgnr, final_kind, raw, facts, url, resp.fetched_at, resp.status)
+        return entity_from_raw(raw, kind, url, resp.fetched_at, resp.sha256)
     return EntityResult(orgnr, "not_found", None, (), config.ENHET_URL.format(orgnr=orgnr), "", 404)
 
 
-def extract_facts(raw: dict[str, Any], source: Source, retrieved_at: str, kind: str) -> tuple[Fact, ...]:
+def entity_from_raw(raw: dict[str, Any], kind: str, url: str, fetched_at: str, sha256: str,
+                    via: dict[str, Any] | None = None) -> EntityResult:
     orgnr = raw["organisasjonsnummer"]
-    guard = {"matched_orgnr": orgnr}
+    human_tpl = config.HUMAN_UNDERENHET_URL if kind == "underenhet" else config.HUMAN_ENHET_URL
+    source = Source(config.SOURCE_ENHETSREGISTERET, url, human_tpl.format(orgnr=orgnr), OFFICIAL_REGISTRY, sha256)
+    is_deleted = raw.get("respons_klasse", "").startswith("Slettet") or "slettedato" in raw
+    final_kind = "deleted" if is_deleted else kind
+    facts = extract_facts(raw, source, fetched_at, final_kind, via)
+    return EntityResult(orgnr, final_kind, raw, facts, url, fetched_at, 200)
+
+
+def fetch_entities_batch(client: HttpClient, orgnrs: list[str]) -> dict[str, EntityResult]:
+    """Look up to 100 main units per request. Missing numbers are left for single lookups."""
+    found: dict[str, EntityResult] = {}
+    for start in range(0, len(orgnrs), BATCH_SIZE):
+        chunk = orgnrs[start:start + BATCH_SIZE]
+        url = f"{config.ENHET_SEARCH_URL}?organisasjonsnummer={','.join(chunk)}&size={BATCH_SIZE}"
+        resp = client.get(url)
+        if resp.status != 200:
+            raise ConnectionError(f"batch entity lookup returned HTTP {resp.status}")
+        wanted = set(chunk)
+        for raw in (resp.json().get("_embedded") or {}).get("enheter") or []:
+            orgnr = raw.get("organisasjonsnummer")
+            if orgnr not in wanted:
+                continue  # identity guard: ignore anything we did not ask for
+            record_sha = hashlib.sha256(json.dumps(raw, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
+            via = {"retrieved_via": "batch_lookup", "batch_response_sha256": resp.sha256}
+            found[orgnr] = entity_from_raw(raw, "enhet", config.ENHET_URL.format(orgnr=orgnr), resp.fetched_at,
+                                           record_sha, via)
+    return found
+
+
+def extract_facts(raw: dict[str, Any], source: Source, retrieved_at: str, kind: str,
+                  via: dict[str, Any] | None = None) -> tuple[Fact, ...]:
+    orgnr = raw["organisasjonsnummer"]
+    guard = {"matched_orgnr": orgnr, **(via or {})}
 
     def fact(name: str, value: Any, path: str, label: str, as_of: str | None = None) -> Fact:
         return make_fact(name, value, source, retrieved_at, json_path=path, as_of=as_of,
@@ -193,7 +227,8 @@ def fetch_parent_name(client: HttpClient, parent_orgnr: str, retrieved_for: str)
     raw = resp.json()
     if raw.get("organisasjonsnummer") != parent_orgnr or not raw.get("navn"):
         return ()
-    source = Source(config.SOURCE_ENHETSREGISTERET, url, config.HUMAN_ENHET_URL.format(orgnr=parent_orgnr))
+    source = Source(config.SOURCE_ENHETSREGISTERET, url, config.HUMAN_ENHET_URL.format(orgnr=parent_orgnr),
+                    OFFICIAL_REGISTRY, resp.sha256)
     return (make_fact("parent_name", raw["navn"], source, resp.fetched_at, json_path="navn",
                       label="Parent unit name",
                       extra_evidence={"matched_orgnr": parent_orgnr, "child_orgnr": retrieved_for}),)

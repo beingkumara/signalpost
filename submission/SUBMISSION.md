@@ -1,21 +1,22 @@
 # Signalpost submission
 
-| Required item | Answer |
+| Field | Value |
 |---|---|
-| Company profiles | 1,000 profiles in `profiles/<orgnr>.json`, also bundled as `submission/profiles.jsonl.gz` |
-| Repository link | *(add after pushing)* |
-| Exact commit hash | *(the hash of the commit that contains this file, see `git log -1`)* |
-| One command to run it | `python3 -m signalpost run --input companies.txt --out out/` |
-| Model / API details | No language model. Public Brønnøysundregistrene open-data APIs (Enhetsregisteret, roles, Regnskapsregisteret, sub-units, change feeds) with no key, plus the company's own registered website after an identity check. |
-| Expected run costs | $0.00 in external API costs per daily run. |
+| Agent name | Signalpost evidence agent |
+| Repository URL | *(add after pushing)* |
+| Exact commit hash | *(the commit that contains this file: `git log -1 --format=%H`)* |
+| 100-company smoke-test result | `submission/smoke-100/`: `envelopes.jsonl`, `run_report.json`, `report.html` |
+| One-command run instruction | `python3 -m signalpost run --input companies.jsonl --out out/` |
+| Install step | None. Python 3.10+ standard library only; no third-party runtime packages. |
+| Models / APIs / licences | No language model. Brønnøysundregistrene open data (NLOD 2.0); NAV job vacancy feed via NAV's published public token; company-owned websites (robots.txt respected). Code is the builder's own. |
+| Expected cost per official run | $0.00 in third-party API costs |
+| Contact for results | *(add)* |
 
 ## Measured runs
 
-| Run | Companies | Outbound requests | Duration | Cost |
-|---|---|---|---|---|
-| Daily-test settings, 8 workers | 100 | 424 | 81 s | $0 |
-| Bulk build, 12 workers | 1,000 | 4,169 | 466 s | $0 |
+| Run | Companies | Envelopes | Requests | Runtime | Cost |
+|---|---|---|---|---|---|
+| Smoke test (universe sample, seed 20260823) | 100 | 100, validation passed | 706 | 5.1 min | $0 |
+| Local scale test (seed 20260825) | 1,000 | 1,000, validation passed | 6,018 | 36.8 min with filing history for all 1,000 (the default 30-minute budget caps this lane) | $0 |
 
-Daily limits are 2,000 requests, 45 minutes and $10. The agent stops scheduling new companies at a default budget of 1,900 requests or after 40 minutes.
-
-Requirements: Python 3.10 or newer, no third-party packages.
+Defaults are 19 requests per company, overridable with `SIGNALPOST_REQUEST_BUDGET`, and a 30-minute time budget, overridable with `SIGNALPOST_MAX_MINUTES`. Every input returns exactly one terminal envelope, even when a source is blocked or the budget runs out.

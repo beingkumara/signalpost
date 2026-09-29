@@ -1,6 +1,6 @@
 [project]
 name = "signalpost"
-version = "1.0.0"
+version = "2.0.0"
 description = "Agent that builds evidence-backed profiles of Norwegian companies from permitted public sources."
 readme = "README.md"
 requires-python = ">=3.10"

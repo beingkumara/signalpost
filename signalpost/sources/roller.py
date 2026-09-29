@@ -8,8 +8,9 @@ from __future__ import annotations
 from typing import Any
 
 from signalpost import config
-from signalpost.facts import Fact, Source, make_fact
+from signalpost.facts import OFFICIAL_ROLES, Fact, Source, make_fact
 from signalpost.http_client import HttpClient
+from signalpost.modules import FAILED, ModuleResult, from_facts
 
 # Summary fields for the most asked-for roles. Everything else lands in "roles".
 _KEY_ROLES = {
@@ -22,15 +23,16 @@ _KEY_ROLES = {
 }
 
 
-def fetch_roles(client: HttpClient, orgnr: str) -> tuple[Fact, ...]:
+def fetch_roles(client: HttpClient, orgnr: str) -> ModuleResult:
     url = config.ROLLER_URL.format(orgnr=orgnr)
     resp = client.get(url)
     if resp.status == 404:
-        return ()
+        return from_facts("roles", (), url, resp.fetched_at, "no roles registered")
     if resp.status != 200:
-        raise ConnectionError(f"{url} returned HTTP {resp.status}")
-    source = Source(config.SOURCE_ROLLER, url, config.HUMAN_ENHET_URL.format(orgnr=orgnr))
-    return extract_role_facts(resp.json(), source, resp.fetched_at, orgnr)
+        return ModuleResult("roles", FAILED, (), f"HTTP {resp.status}", url, resp.fetched_at)
+    source = Source(config.SOURCE_ROLLER, url, config.HUMAN_ENHET_URL.format(orgnr=orgnr), OFFICIAL_ROLES, resp.sha256)
+    facts = extract_role_facts(resp.json(), source, resp.fetched_at, orgnr)
+    return from_facts("roles", facts, url, resp.fetched_at, "no active roles registered")
 
 
 def extract_role_facts(data: dict[str, Any], source: Source, retrieved_at: str, orgnr: str) -> tuple[Fact, ...]:

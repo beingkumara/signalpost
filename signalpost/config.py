@@ -28,10 +28,19 @@ WEBSITE_MAX_BYTES = 1_500_000
 HTTP_RETRIES = 2
 RETRY_BACKOFF_SECONDS = 1.5
 
-# Daily evaluation limits are 2,000 outbound requests and 45 minutes.
+# Budgets. Override with --budget / SIGNALPOST_REQUEST_BUDGET and --max-minutes / SIGNALPOST_MAX_MINUTES.
+# The published daily limit was 2,000 requests for 100 companies, i.e. 20 per company.
+REQUESTS_PER_COMPANY = 19
 DEFAULT_REQUEST_BUDGET = 1900
-DEFAULT_WORKERS = 8
-SUBUNITS_LISTED = 5
+DEFAULT_MAX_MINUTES = 30.0
+DEFAULT_WORKERS = 16
+FILING_HISTORY_INTERVAL_SECONDS = 2.1  # Regnskapsregisteret copy index allows ~30 requests/minute
+SUBUNITS_LISTED = 20
 
 # Profiles older than this are refreshed in full by `update --stale-days`.
 DEFAULT_STALE_DAYS = 30
+
+# Per-host politeness: minimum seconds between requests, and a cool-down after HTTP 429.
+HOST_MIN_INTERVAL_SECONDS = {"pam-stilling-feed.nav.no": 0.25}
+HOST_COOLDOWN_SECONDS = {"pam-stilling-feed.nav.no": 600}
+JOBS_FEED_DAYS = 45  # NAV feed window for active ads

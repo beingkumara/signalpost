@@ -8,10 +8,14 @@ def fact(field, value, source=config.SOURCE_ENHETSREGISTERET):
             "retrieved_at": "2026-09-01T00:00:00Z", "as_of": "2026-09-01"}
 
 
-def profile(facts, checked_at="2026-09-01T00:00:00Z", status="active", sources=None):
+def fact_cls(field, value, source_class):
+    return {**fact(field, value), "source": {"name": "x", "url": "https://x", "source_class": source_class}}
+
+
+def profile(facts, checked_at="2026-09-01T00:00:00Z", status="active", modules=None):
     return {"orgnr": "923609016", "status": status, "checked_at": checked_at, "facts": facts,
             "fields": {f["field"]: f["value"] for f in facts}, "warnings": [],
-            "sources_checked": sources or [], "explanation": {"summary": "s", "notes": []}}
+            "modules": modules or [], "explanation": {"summary": "s", "notes": []}}
 
 
 def test_first_save_starts_history():
@@ -50,9 +54,9 @@ def test_status_change_is_logged():
 
 
 def test_failed_source_keeps_previous_facts_marked_stale():
-    first = store.merge(None, profile([fact("name", "A AS"), fact("revenue", 5, config.SOURCE_REGNSKAP)]))
-    failed = [{"source": "Regnskapsregisteret", "error": "timeout"}]
-    second = store.merge(first, profile([fact("name", "A AS")], checked_at="2026-09-10T00:00:00Z", sources=failed))
+    first = store.merge(None, profile([fact("name", "A AS"), fact_cls("revenue", 5, "official_annual_accounts")]))
+    failed = [{"module": "annual_accounts", "state": "failed"}]
+    second = store.merge(first, profile([fact("name", "A AS")], checked_at="2026-09-10T00:00:00Z", modules=failed))
     revenue = next(f for f in second["facts"] if f["field"] == "revenue")
     assert revenue["stale"] is True
     assert second["changes_this_run"] == []
@@ -79,3 +83,29 @@ def test_merge_does_not_mutate_inputs():
     snapshot = copy.deepcopy(first)
     store.merge(first, profile([fact("name", "B AS")], checked_at="2026-09-10T00:00:00Z"))
     assert first == snapshot
+
+
+def test_blocked_workplaces_keep_subunits():
+    first = store.merge(None, profile([fact("name", "A AS"), fact("subunit_count", 3)]))
+    second = store.merge(first, profile([fact("name", "A AS")], checked_at="2026-09-10T00:00:00Z",
+                                        modules=[{"module": "workplaces", "state": "blocked"}]))
+    assert any(f["field"] == "subunit_count" and f["stale"] for f in second["facts"])
+
+
+def test_changes_are_typed_and_keep_both_evidence_sides():
+    first = store.merge(None, profile([fact("ceo", {"name": "Old"})]))
+    second = store.merge(first, profile([fact("ceo", {"name": "New"})], checked_at="2026-09-10T00:00:00Z"))
+    change = second["changes_this_run"][0]
+    assert change["change_type"] == "role_change" and change["material"] is True
+    assert change["previous_evidence"]["source_url"] == "https://x"
+    assert change["current_evidence"]["source_url"] == "https://x"
+
+
+def test_from_envelope_roundtrip_is_idempotent():
+    from signalpost.envelope import build_envelope
+
+    first = store.merge(None, {**profile([fact("name", "A AS")]), "explanation": {"summary": "", "notes": []}})
+    env = build_envelope(first, {"run_id": "r"})
+    previous = store.from_envelope(env)
+    again = store.merge(previous, profile([fact("name", "A AS")], checked_at="2026-09-10T00:00:00Z"))
+    assert again["changes_this_run"] == []
