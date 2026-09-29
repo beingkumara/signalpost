@@ -76,9 +76,12 @@ Details are in [AGENT.md](AGENT.md), [SOURCES.md](SOURCES.md), [REFRESH.md](REFR
 | Third-party cost | $0.00 per run |
 | Requests | about 7 per company (measured 706 for 100 companies in 5.1 minutes) |
 
-## Smoke test
+## Submitted profiles
 
-`submission/smoke-100/` holds the 100-company smoke test: envelopes, run report and HTML report. The batch was drawn from the public universe with the starter kit's seed.
+- `submission/profiles-1000/` holds 1,000 company profiles (`envelopes.jsonl.gz`) with their run report and input list. The run took 6,094 requests and 35.9 minutes, at $0.
+- `submission/smoke-100/` holds a 100-company run with a browsable `report.html`.
+
+The submission checklist is in [submission/SUBMISSION.md](submission/SUBMISSION.md).
 
 ## Development
 

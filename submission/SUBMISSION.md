@@ -1,22 +1,34 @@
 # Signalpost submission
 
-| Field | Value |
+This follows the "What to Submit" list in the challenge statement.
+
+| Required item | Answer |
 |---|---|
-| Agent name | Signalpost evidence agent |
-| Repository URL | *(add after pushing)* |
+| At least 1,000 company profiles | `submission/profiles-1000/envelopes.jsonl.gz`: 1,000 profiles, one per company, from the public company list (seed 20260825). `submission/smoke-100/` adds a 100-company run with a browsable `report.html`. |
+| Your repository link | *(add after pushing)* |
 | Exact commit hash | *(the commit that contains this file: `git log -1 --format=%H`)* |
-| 100-company smoke-test result | `submission/smoke-100/`: `envelopes.jsonl`, `run_report.json`, `report.html` |
-| One-command run instruction | `python3 -m signalpost run --input companies.jsonl --out out/` |
-| Install step | None. Python 3.10+ standard library only; no third-party runtime packages. |
-| Models / APIs / licences | No language model. Brønnøysundregistrene open data (NLOD 2.0); NAV job vacancy feed via NAV's published public token; company-owned websites (robots.txt respected). Code is the builder's own. |
-| Expected cost per official run | $0.00 in third-party API costs |
-| Contact for results | *(add)* |
+| One command to run it | `python3 -m signalpost run --input companies.jsonl --out out/` |
+| Model/API details | No language model. Brønnøysundregistrene open data (Enhetsregisteret, roles, Regnskapsregisteret; NLOD 2.0), NAV's official job vacancy feed via NAV's published public token, and company-owned websites (robots.txt respected). No API keys or secrets. |
+| Expected run costs | $0.00 in external API costs per daily run |
 
-## Measured runs
+## Fit with the daily test limits
 
-| Run | Companies | Envelopes | Requests | Runtime | Cost |
-|---|---|---|---|---|---|
-| Smoke test (universe sample, seed 20260823) | 100 | 100, validation passed | 706 | 5.1 min | $0 |
-| Local scale test (seed 20260825) | 1,000 | 1,000, validation passed | 6,018 | 36.8 min with filing history for all 1,000 (the default 30-minute budget caps this lane) | $0 |
+The daily test is 100 companies, with limits of 45 minutes, 2,000 outbound requests and $10 in external API costs.
 
-Defaults are 18 requests per company plus 150 per run, overridable with `SIGNALPOST_REQUEST_BUDGET`, and a 30-minute time budget, overridable with `SIGNALPOST_MAX_MINUTES`. Every input returns exactly one terminal envelope, even when a source is blocked or the budget runs out.
+| Limit | Agent default | Measured on 100 companies |
+|---|---|---|
+| 45 minutes | Stops starting new source checks after 30 minutes (`SIGNALPOST_MAX_MINUTES`) | 5.1 minutes |
+| 2,000 outbound requests | Hard cap of 18 per company + 150 per run = 1,950 (`SIGNALPOST_REQUEST_BUDGET`) | 706 requests |
+| $10 external API cost | No paid APIs | $0.00 |
+
+Every input company returns exactly one result, even when a source is blocked or a limit is reached.
+
+## How the agent covers the scoring areas
+
+| Scoring area | What the agent does |
+|---|---|
+| Find useful information | Registry identity, accounts and filing history, roles, workplaces, verified website, contacts, social profiles, NAV job postings, and dated events |
+| Match it correctly with evidence | Exact org-number lookups only. Websites and jobs are published only after org-number proof. Every claim has a source URL, retrieval time, content hash and extraction method. |
+| Update correctly | Re-runs diff against the stored profile. Changes are typed and flagged as material, with evidence for both the old and new values. Identical data gives zero changes. |
+| Give useful explanations | A plain-English summary, plus key points that cite the claims they rest on, and a list of what was not found and why |
+| Make it easy to use | One command, no install step, and a searchable report page (`report.html`) that works on desktop and mobile |
