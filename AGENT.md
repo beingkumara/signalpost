@@ -28,7 +28,7 @@ When identity is uncertain the agent returns `ambiguous` or `not_available` and 
 
 | Budget | Default |
 |---|---|
-| Request budget | 19 per company (the published limit was 2,000 per 100 companies), or `SIGNALPOST_REQUEST_BUDGET` |
+| Request budget | 18 per company plus 150 per run for the NAV feed (1,950 for 100 companies, inside the published 2,000), or `SIGNALPOST_REQUEST_BUDGET` |
 | Time budget | 30 minutes, or `SIGNALPOST_MAX_MINUTES`. After the deadline no new source checks start. Unchecked sources are reported as `blocked` with the reason. |
 
 Every input still gets an envelope, whatever happens.

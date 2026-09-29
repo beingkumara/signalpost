@@ -30,7 +30,8 @@ RETRY_BACKOFF_SECONDS = 1.5
 
 # Budgets. Override with --budget / SIGNALPOST_REQUEST_BUDGET and --max-minutes / SIGNALPOST_MAX_MINUTES.
 # The published daily limit was 2,000 requests for 100 companies, i.e. 20 per company.
-REQUESTS_PER_COMPANY = 19
+REQUESTS_PER_COMPANY = 18
+FIXED_RUN_REQUESTS = 150  # NAV feed pages and batch lookups, independent of batch size
 DEFAULT_REQUEST_BUDGET = 1900
 DEFAULT_MAX_MINUTES = 30.0
 DEFAULT_WORKERS = 16

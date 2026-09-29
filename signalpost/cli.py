@@ -71,7 +71,8 @@ def _parser() -> argparse.ArgumentParser:
 
 def _budget_args(p: argparse.ArgumentParser) -> None:
     p.add_argument("--budget", type=int, default=_env_int(ENV_BUDGET),
-                   help=f"max outbound requests (default ${ENV_BUDGET} or {config.REQUESTS_PER_COMPANY} per company)")
+                   help=f"max outbound requests (default ${ENV_BUDGET}, else {config.REQUESTS_PER_COMPANY} per company "
+                        f"+ {config.FIXED_RUN_REQUESTS})")
     p.add_argument("--max-minutes", type=float, default=_env_float(ENV_MINUTES, config.DEFAULT_MAX_MINUTES))
     p.add_argument("--workers", type=int, default=config.DEFAULT_WORKERS)
     p.add_argument("--website-pages", type=int, default=2, help="extra same-site pages per website")
@@ -103,7 +104,7 @@ def _options(args: argparse.Namespace, out: Path, **extra) -> RunOptions:
 
 
 def _budget(args: argparse.Namespace, companies: int) -> int:
-    return args.budget or max(100, config.REQUESTS_PER_COMPANY * companies)
+    return args.budget or config.REQUESTS_PER_COMPANY * companies + config.FIXED_RUN_REQUESTS
 
 
 def _cmd_run(args: argparse.Namespace) -> int:

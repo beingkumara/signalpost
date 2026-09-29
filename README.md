@@ -22,7 +22,7 @@ python3 -m signalpost run --input companies.jsonl --out out/
 | Option | Default | Purpose |
 |---|---|---|
 | `--expected-count N` | none | Fail the run if the envelope count differs |
-| `--budget N` or `SIGNALPOST_REQUEST_BUDGET` | 19 per company | Hard cap on outbound requests |
+| `--budget N` or `SIGNALPOST_REQUEST_BUDGET` | 18 per company + 150 per run | Hard cap on outbound requests |
 | `--max-minutes M` or `SIGNALPOST_MAX_MINUTES` | 30 | Stop starting new source checks after M minutes. Envelopes are still written for everyone. |
 | `--previous old/envelopes.jsonl` | none | Diff against an earlier run's envelopes |
 | `--profiles-dir DIR` (before `run`) | `state/profiles` | Stored snapshots used for refresh diffs |

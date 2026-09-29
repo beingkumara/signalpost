@@ -19,4 +19,4 @@
 | Smoke test (universe sample, seed 20260823) | 100 | 100, validation passed | 706 | 5.1 min | $0 |
 | Local scale test (seed 20260825) | 1,000 | 1,000, validation passed | 6,018 | 36.8 min with filing history for all 1,000 (the default 30-minute budget caps this lane) | $0 |
 
-Defaults are 19 requests per company, overridable with `SIGNALPOST_REQUEST_BUDGET`, and a 30-minute time budget, overridable with `SIGNALPOST_MAX_MINUTES`. Every input returns exactly one terminal envelope, even when a source is blocked or the budget runs out.
+Defaults are 18 requests per company plus 150 per run, overridable with `SIGNALPOST_REQUEST_BUDGET`, and a 30-minute time budget, overridable with `SIGNALPOST_MAX_MINUTES`. Every input returns exactly one terminal envelope, even when a source is blocked or the budget runs out.
