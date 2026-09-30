@@ -25,6 +25,11 @@ class FakeClient(HttpClient):
         self.content_types = content_types or {}
         self.fail = fail or set()
         self.calls: list[str] = []
+        self.posts: list[tuple[str, Any, dict[str, str]]] = []
+
+    def post_json(self, url: str, payload: dict[str, Any], **kwargs: Any) -> Response:
+        self.posts.append((url, payload, kwargs.get("headers") or {}))
+        return self.get(url)
 
     def get(self, url: str, **kwargs: Any) -> Response:
         self._reserve()

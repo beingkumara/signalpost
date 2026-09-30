@@ -10,3 +10,5 @@ out/
 state/
 data/*.gz
 data/batch-*.jsonl
+everything-claude-code/
+.env

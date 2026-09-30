@@ -111,3 +111,15 @@ def test_jobs_lane_end_to_end(tmp_path, monkeypatch, equinor_routes):
     postings = next(c for c in env["claims"] if c["field"] == "job_postings")
     assert postings["availability"] == "available" and postings["value"][0]["title"] == "Ingeniør"
     assert env["sections"]["hiring_and_activity"]["state"] == "available"
+
+
+def test_env_file_loading(tmp_path, monkeypatch):
+    env = tmp_path / ".env"
+    env.write_text("# comment\nTAVILY_API_KEY=abc\nEXA_API_KEY=\nALREADY=new\n", encoding="utf-8")
+    monkeypatch.delenv("TAVILY_API_KEY", raising=False)
+    monkeypatch.setenv("ALREADY", "old")
+    assert cli.load_env_file(env) == ["TAVILY_API_KEY"]
+    import os
+    assert os.environ["TAVILY_API_KEY"] == "abc" and os.environ["ALREADY"] == "old"
+    monkeypatch.delenv("TAVILY_API_KEY")
+    assert cli.load_env_file(tmp_path / "missing") == []

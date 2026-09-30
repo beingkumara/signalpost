@@ -9,10 +9,12 @@ from __future__ import annotations
 
 import re
 import unicodedata
+from typing import Callable
 
 from signalpost.http_client import HttpClient
 from signalpost.modules import NOT_AVAILABLE, ModuleResult
 from signalpost.safe_url import host_resolves
+from signalpost.sources.search import candidate_sites
 from signalpost.sources.website import crawl_site
 from signalpost.webparse import core_name
 
@@ -75,7 +77,9 @@ def email_domain_candidate(email: str | None) -> str | None:
 
 
 def discover_website(client: HttpClient, orgnr: str, name: str, *, extra_candidates: list[str] | None = None,
-                     email: str | None = None, max_fetch: int = 2, extra_pages: int = 2) -> ModuleResult:
+                     email: str | None = None, max_fetch: int = 2, extra_pages: int = 2,
+                     search: Callable[[], tuple[list[str], str | None]] | None = None,
+                     postcode: str | None = None) -> ModuleResult:
     urls = [u for u in (extra_candidates or []) if u.startswith(("http://", "https://"))]
     mail_domain = email_domain_candidate(email)
     if mail_domain and host_resolves(mail_domain):
@@ -93,9 +97,21 @@ def discover_website(client: HttpClient, orgnr: str, name: str, *, extra_candida
         tried.append(url)
         if result.state == "available":
             return result
+    if search is not None:  # search runs last: it costs money and only proposes candidates
+        urls, provider = search()
+        for url in [u for u in candidate_sites(urls) if _key(u) not in {_key(t) for t in tried}][:2]:
+            result = crawl_site(client, url, orgnr, name, discovered=True, extra_pages=extra_pages,
+                                origin=f"search_candidate:{provider}", postcode=postcode)
+            tried.append(url)
+            if result.state == "available":
+                return result
     reason = ("no registry website; candidates checked without org-number proof: " + ", ".join(tried)) if tried \
         else "no registry website and no resolvable domain candidate"
     return ModuleResult("website", NOT_AVAILABLE, (), reason)
+
+
+def _key(url: str) -> str:
+    return re.sub(r"^https?://(www\.)?", "", url).rstrip("/").lower()
 
 
 def _dedupe(urls: list[str]) -> list[str]:

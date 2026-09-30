@@ -15,7 +15,14 @@ python3 -m signalpost run --input companies.jsonl --out out/
   - `report.html` is a self-contained viewer to search, compare and verify profiles on desktop and mobile.
 - Exit code 0 means every input produced a valid terminal envelope.
 
-**Install:** none. Python 3.10+ standard library only. There are no third-party runtime dependencies, API keys or secrets. `uv.lock` pins the dev and test tools.
+**Install:** none. Python 3.10+ standard library only, with no third-party runtime dependencies. `uv.lock` pins the dev and test tools.
+
+**Optional API keys** are read from environment variables only (see `.env.example`). Without them the agent uses free public sources and costs $0.
+
+| Variable | Adds | Cost per 100-company run |
+|---|---|---|
+| `TAVILY_API_KEY`, `EXA_API_KEY`, `LINKUP_API_KEY` or `FIRECRAWL_API_KEY` | Web search to find websites the registry does not list. Results are only candidates; a site is published only if the agent finds the org number on it. | ≤ $1.20 (at most 150 searches); $0 within free tiers |
+| `ANTHROPIC_API_KEY` | A short English overview per company, written by Claude Haiku from the sourced claims. Every sentence cites claim IDs, and any sentence with a number not in its cited claims is dropped. | ≤ $1.00 (hard cap) |
 
 **Useful options:**
 
@@ -71,9 +78,9 @@ Details are in [AGENT.md](AGENT.md), [SOURCES.md](SOURCES.md), [REFRESH.md](REFR
 
 | Item | Value |
 |---|---|
-| Language models | None |
-| APIs | Brønnøysundregistrene open data (NLOD 2.0), NAV job vacancy feed (public token), company websites |
-| Third-party cost | $0.00 per run |
+| Language models | Optional: Claude Haiku 4.5 (`claude-haiku-4-5-20251001`) for overviews, only when `ANTHROPIC_API_KEY` is set |
+| APIs | Brønnøysundregistrene open data (NLOD 2.0), NAV job vacancy feed (public token), company websites; optional Tavily, Exa, Linkup or Firecrawl search and the Anthropic API |
+| Third-party cost | $0.00 without keys; at most about $2.20 per 100-company run with search and overviews enabled |
 | Requests | about 11 per company (measured 1,062 for 100 companies in 4.7 minutes) |
 
 ## Submitted profiles

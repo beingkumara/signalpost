@@ -68,7 +68,7 @@ class _Crawl:
 
 
 def crawl_site(client: HttpClient, start_url: str, orgnr: str, name: str, *, discovered: bool,
-               extra_pages: int, origin: str = "registry") -> ModuleResult:
+               extra_pages: int, origin: str = "registry", postcode: str | None = None) -> ModuleResult:
     module = "website"
     try:
         crawl = _crawl(client, start_url, extra_pages, orgnr)
@@ -83,6 +83,15 @@ def crawl_site(client: HttpClient, start_url: str, orgnr: str, name: str, *, dis
 
     home_page, home_resp = crawl.pages[0]
     proof = _identity(crawl.pages, orgnr, name)
+    if origin.startswith("search_candidate") and proof["level"] == "orgnr_on_page":
+        # Anyone can print a public org number (spam, directories). A search result must also be tied to
+        # the company by its title, domain or registered postcode, and is capped at medium confidence.
+        tied = (name_in_title(home_page, name) or domain_matches_name(home_resp.final_url, name)
+                or bool(postcode and any(postcode in p.text for p, _ in crawl.pages)))
+        if not tied:
+            return ModuleResult(module, NOT_AVAILABLE, (), f"search candidate {start_url} shows the org number "
+                                "but is not tied to the company by title, domain or postcode", start_url)
+        proof = {**proof, "level": "orgnr_on_page", "search_tie": True}
     if proof["level"] == "orgnr_on_page" or (proof["level"] == "name_on_page" and not discovered):
         facts = _facts(crawl.pages, proof, orgnr, start_url, origin)
         return ModuleResult(module, AVAILABLE, facts, None, home_resp.final_url, home_resp.fetched_at,
@@ -184,7 +193,7 @@ def _identity(pages: list[tuple[Page, Response]], orgnr: str, name: str) -> dict
 
 def _facts(pages: list[tuple[Page, Response]], proof: dict[str, Any], orgnr: str, start_url: str,
            origin: str) -> tuple[Fact, ...]:
-    confidence = "high" if proof["level"] == "orgnr_on_page" else "medium"
+    confidence = "high" if proof["level"] == "orgnr_on_page" and not proof.get("search_tie") else "medium"
     guard = {"matched_orgnr": orgnr, "identity": proof["level"], "proof_url": proof["proof_url"],
              "website_origin": origin}
     home, home_resp = pages[0]

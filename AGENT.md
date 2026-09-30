@@ -18,7 +18,7 @@
 | Registry, roles, accounts, sub-units | The response echoes the requested org number |
 | Website from the registry's website field | A crawled page shows the org number (high confidence). Otherwise the registered name must meet three conditions (medium confidence): it is distinctive, it appears in the title, site name, structured data or copyright line, and the site is tied to the company by that title or its domain. |
 | Website from the registry's email domain | Same as above: this is also an official registry link |
-| Website from a guessed domain or job-ad homepage | A crawled page (home, contact, about) shows the org number |
+| Website from a guessed domain, job-ad homepage or web-search result | A crawled page (home, contact, about, privacy) shows the org number. Directories, registries, media and social platforms are never candidates. |
 | Job posting | The ad's embedded employer org number equals the company or one of its sub-units |
 | Social profiles, emails, phones, news, website job postings | They sit on a verified company-owned website. Emails must be on the site's own domain. Job postings come from the site's own schema.org JobPosting data. |
 
@@ -33,6 +33,12 @@ When identity is uncertain the agent returns `ambiguous` or `not_available` and 
 
 Every input still gets an envelope, whatever happens.
 
-## No language model
+## Language model (optional)
 
-Explanations are templates over sourced claims. Each synthesis statement lists the claim IDs it rests on.
+By default, explanations are templates over sourced claims, and each statement lists the claim IDs it rests on.
+
+With `ANTHROPIC_API_KEY` set, Claude Haiku also writes a 3 to 5 sentence overview from the available claims only. The output is validated before use:
+- every sentence must cite existing claims;
+- every number in a sentence must appear in the claims it cites.
+
+Failing sentences are dropped, and the model never decides identity. Spend is capped by `SIGNALPOST_LLM_MAX_USD`, $1 by default.

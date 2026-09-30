@@ -20,7 +20,9 @@ from signalpost.sources.enhetsregisteret import EntityResult, fetch_entity, fetc
 from signalpost.sources.regnskap import fetch_accounts
 from signalpost.sources.roller import fetch_roles
 from signalpost.sources.underenheter import fetch_subunits
+from signalpost.sources.search import SearchService
 from signalpost.sources.website import crawl_site
+from signalpost.webparse import core_name
 
 SCHEMA_VERSION = "2.0"
 CORE_COST = 2  # accounts + roles per company, reserved before optional work
@@ -37,6 +39,7 @@ class RunContext:
     website_pages: int = 4
     discovery: bool = True
     jobs: bool = True
+    search: SearchService | None = None
     _lock: threading.Lock = field(default_factory=threading.Lock)
 
     def start_company(self) -> None:
@@ -66,6 +69,10 @@ class CountingClient:
     def get(self, url: str, **kwargs: Any) -> Response:
         self.count += 1
         return self._inner.get(url, **kwargs)
+
+    def post_json(self, url: str, payload: dict[str, Any], **kwargs: Any) -> Response:
+        self.count += 1
+        return self._inner.post_json(url, payload, **kwargs)
 
 
 def research(ctx: RunContext, raw_input: str, entity: EntityResult | None = None) -> dict[str, Any]:
@@ -129,12 +136,34 @@ def _run_modules(ctx: RunContext, client: CountingClient, entity: EntityResult) 
     workplaces = _guard(ctx, "workplaces", 1, lambda: fetch_subunits(client, entity.orgnr))
     subunits = set(workplaces.extra.get("subunit_orgnrs", []))
     name = raw.get("navn", "")
-    website = _website(ctx, client, entity, name, [])
+    website = _website(ctx, client, entity, name, [], worth_searching(raw, accounts))
     return [accounts, roles, changes, workplaces, website]
 
 
+NO_SEARCH_FORMS = {"BRL", "ESEK", "SAM", "BBL", "KIRK", "PK"}
+SEARCH_MIN_REVENUE_NOK = 1_000_000
+
+
+SEARCH_MIN_REVENUE_OTHER = 100_000  # USD/EUR filers are large companies
+
+
+def worth_searching(raw: dict[str, Any], accounts: ModuleResult) -> bool:
+    """Spend a paid search only where a website is likely: staff or meaningful revenue, not housing co-ops."""
+    try:
+        if (raw.get("organisasjonsform") or {}).get("kode") in NO_SEARCH_FORMS:
+            return False
+        if raw.get("harRegistrertAntallAnsatte") and float(raw.get("antallAnsatte") or 0) > 0:
+            return True
+        revenue = next((f.value for f in accounts.facts if f.field == "revenue"), None) or {}
+        amount = float(revenue.get("amount") or 0)
+        threshold = SEARCH_MIN_REVENUE_NOK if revenue.get("currency") == "NOK" else SEARCH_MIN_REVENUE_OTHER
+        return amount >= threshold
+    except (TypeError, ValueError, AttributeError):
+        return False
+
+
 def _website(ctx: RunContext, client: CountingClient, entity: EntityResult, name: str,
-             job_homepages: list[str]) -> ModuleResult:
+             job_homepages: list[str], searchable: bool = False) -> ModuleResult:
     registered = next((f.value for f in entity.facts if f.field == "website"), None)
     pages = ctx.website_pages
     if registered:
@@ -143,8 +172,15 @@ def _website(ctx: RunContext, client: CountingClient, entity: EntityResult, name
     if not ctx.discovery:
         return skipped("website", BLOCKED, "no registry website; discovery disabled for this run")
     email = next((f.value for f in entity.facts if f.field == "email"), None)
-    return _guard(ctx, "website", 12, lambda: discover_website(
-        client, entity.orgnr, name, extra_candidates=job_homepages, email=email, max_fetch=3, extra_pages=3))
+    search = None
+    postcode = ((entity.raw or {}).get("forretningsadresse") or {}).get("postnummer")
+    if ctx.search is not None and ctx.search.enabled and searchable:
+        city = (((entity.raw or {}).get("forretningsadresse") or {}).get("poststed") or "").title()
+        query = f"{core_name(name) or name} {city}".strip()
+        search = lambda: ctx.search.search(client, query)  # noqa: E731
+    return _guard(ctx, "website", 14, lambda: discover_website(
+        client, entity.orgnr, name, extra_candidates=job_homepages, email=email, max_fetch=3, extra_pages=3,
+        search=search, postcode=postcode))
 
 
 def _guard(ctx: RunContext, module: str, cost: int, fn: Callable[[], ModuleResult], core: bool = False) -> ModuleResult:

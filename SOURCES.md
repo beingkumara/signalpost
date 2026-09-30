@@ -9,6 +9,9 @@
 | Company websites | Only the registry-listed site, the registry email domain, or candidates that pass the org-number gate | robots.txt checked per host before any page; at most 3 pages per site | Brand, description, contacts, social links, careers page, dated news |
 | NAV job vacancy feed (`pam-stilling-feed.nav.no`) | NAV's official feed API with the public token NAV publishes at `/api/publicToken` | Read once per run (ads changed in the last 45 days), paced at 4 requests per second; after HTTP 429 the feed is left alone for 10 minutes and jobs are reported `blocked` | Job postings, published only when the ad's employer org number matches |
 
+| Web search: Tavily, Exa, Linkup, Firecrawl (optional) | Official APIs with the operator's own key from environment variables | Provider terms. Results are kept in memory only and used as candidates; they are never stored or cited as evidence. | Candidate websites for companies with staff or meaningful revenue and no registry website |
+| Anthropic Messages API (optional) | `ANTHROPIC_API_KEY` | Anthropic commercial terms | English overview written only from the envelope's claims, then validated |
+
 **Not used:**
 - LinkedIn, Meta, Glassdoor, Indeed and Google are not scraped. Social profiles are only the links a verified company website publishes.
 - Brønnøysund announcement pages (`w2.brreg.no/kunngjoring`) are not used, because robots.txt disallows them.
@@ -16,7 +19,7 @@
 
 ## Secrets
 
-None are needed. The only token used is NAV's public feed token, fetched at run time from NAV's own endpoint. The agent reads no credentials and sends no personal data. Role holders' birth dates are dropped before storage.
+None are required. Optional API keys are read from environment variables only. They are never written to logs, envelopes or reports. NAV's public feed token is fetched at run time from NAV's own endpoint. Role holders' birth dates are never stored. Role holders' birth dates are dropped before storage.
 
 ## Safe URL handling
 

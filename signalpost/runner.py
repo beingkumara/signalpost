@@ -19,6 +19,7 @@ from signalpost.modules import BLOCKED, FAILED, NOT_APPLICABLE, STATES, ModuleRe
 from signalpost.sources.enhetsregisteret import EntityResult, fetch_entities_batch
 from signalpost.sources.jobs import FeedIndex, build_index, jobs_for_company, public_token
 from signalpost.sources.regnskap import fetch_filing_years
+from signalpost.sources.search import SearchService, from_env as search_from_env
 
 
 MAX_JOB_DETAILS = 6
@@ -36,6 +37,9 @@ class RunOptions:
     jobs: bool = True
     history: bool = True
     jobs_days: int = config.JOBS_FEED_DAYS
+    search: bool = True
+    search_max: int | None = None
+    narratives: bool = True
     previous: dict[str, dict[str, Any]] | None = None
     expected_count: int | None = None
     progress: Callable[[str], None] | None = None
@@ -48,7 +52,8 @@ def run_batch(client: HttpClient, inputs: list[str], opts: RunOptions) -> dict[s
     run_id = opts.run_id or f"signalpost-{started_at.replace(':', '').replace('-', '')}"
     valid = [o for o in (_parse(i) for i in inputs) if o]
     entities = _batch_entities(client, valid)
-    ctx = RunContext(client, deadline, len(inputs), opts.website_pages, opts.discovery, opts.jobs)
+    search = search_from_env(opts.search_max) if opts.search and opts.discovery else None
+    ctx = RunContext(client, deadline, len(inputs), opts.website_pages, opts.discovery, opts.jobs, search)
     history_ids = [o for o in dict.fromkeys(valid) if entities.get(o) is None or entities[o].kind == "enhet"]
     lane = _HistoryLane(ctx, history_ids) if opts.history else None
     if lane:
@@ -79,7 +84,8 @@ def run_batch(client: HttpClient, inputs: list[str], opts: RunOptions) -> dict[s
         profile = _with_jobs(profile, jobs, opts)
         profile = _refresh(profile, opts)
         envelopes.append(build_envelope(profile, run))
-    report = _report(envelopes, inputs, client, t0, run, opts)
+    narrator = _narrate(envelopes, client, deadline) if opts.narratives else None
+    report = _report(envelopes, inputs, client, t0, run, opts, search, narrator)
     _write(opts.out_dir, envelopes, report)
     return report
 
@@ -216,8 +222,22 @@ def _refresh(profile: dict[str, Any], opts: RunOptions) -> dict[str, Any]:
     return merged
 
 
+def _narrate(envelopes: list[dict[str, Any]], client: HttpClient, deadline: float) -> Any:
+    """Optional grounded summaries (ANTHROPIC_API_KEY). Replaces list slots with narrated envelopes."""
+    from signalpost.narrative import Narrator  # local import: only when enabled
+
+    narrator = Narrator.from_env(client)
+    if narrator is None:
+        return None
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        results = list(pool.map(lambda e: narrator.add_narrative(e, deadline), envelopes))
+    envelopes[:] = results
+    return narrator
+
+
 def _report(envelopes: list[dict[str, Any]], inputs: list[str], client: HttpClient, t0: float,
-            run: dict[str, Any], opts: RunOptions) -> dict[str, Any]:
+            run: dict[str, Any], opts: RunOptions, search: SearchService | None = None,
+            narrator: Any = None) -> dict[str, Any]:
     orgs = [e["organisation_number"] for e in envelopes]
     claim_states = [c["availability"] for e in envelopes for c in e["claims"]]
     checks = {
@@ -243,12 +263,15 @@ def _report(envelopes: list[dict[str, Any]], inputs: list[str], client: HttpClie
                              for s in (envelopes[0]["sections"] if envelopes else {})},
         "field_availability": {f: dict(c) for f, c in sorted(per_field.items())},
         "profiles_with_changes": sum(1 for e in envelopes if e["changes"]),
+        "search": search.summary() if search is not None else {"providers": [], "searches": 0},
+        "narratives": narrator.summary() if narrator is not None else {"enabled": False},
         "operations": {**client.metrics(), "request_budget": client.budget,
                        "runtime_seconds": round(time.monotonic() - t0, 1),
                        "company_runtime_p50_ms": runtimes[len(runtimes) // 2] if runtimes else None,
                        "company_runtime_p95_ms": runtimes[min(len(runtimes) - 1, int(len(runtimes) * 0.95))]
                        if runtimes else None,
-                       "third_party_cost_usd": 0.0},
+                       "third_party_cost_usd": round((search.cost_usd if search else 0.0)
+                                                     + (narrator.cost_usd if narrator else 0.0), 4)},
     }
 
 

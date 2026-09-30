@@ -80,7 +80,15 @@ class _SafeRedirects(urllib.request.HTTPRedirectHandler):
         return new
 
 
+class _NoRedirects(urllib.request.HTTPRedirectHandler):
+    """API calls carry keys: never follow a redirect (it could forward the key to another host)."""
+
+    def redirect_request(self, req, fp, code, msg, headers, newurl):  # noqa: ANN001
+        return None
+
+
 _OPENER = urllib.request.build_opener(_SafeRedirects())
+_API_OPENER = urllib.request.build_opener(_NoRedirects())
 
 
 class HttpClient:
@@ -206,12 +214,43 @@ class HttpClient:
                 time.sleep(config.RETRY_BACKOFF_SECONDS * (attempt + 1))
         raise ConnectionError(f"GET {url} failed after {retries + 1} attempts: {last_error}")
 
+    def post_json(self, url: str, payload: dict[str, Any], *, headers: dict[str, str] | None = None,
+                  timeout: float = config.HTTP_TIMEOUT_SECONDS, retries: int = 1) -> Response:
+        """POST a JSON body to a trusted API host. Counts against the budget like GET; 4xx are returned."""
+        body = json.dumps(payload).encode("utf-8")
+        last_error: Exception | None = None
+        for attempt in range(retries + 1):
+            self._reserve()
+            started = time.monotonic()
+            try:
+                resp = self._fetch_once(url, "application/json", timeout, None, False,
+                                        {"Content-Type": "application/json", **(headers or {})}, data=body,
+                                        opener=_API_OPENER)
+                self._record(started, len(resp.body))
+                return resp
+            except urllib.error.HTTPError as err:
+                err_body = err.read() if err.fp else b""
+                self._record(started, len(err_body))
+                if err.code >= 500 and attempt < retries:
+                    last_error = err
+                else:
+                    return Response(url, url, err.code, err_body, _lower(err.headers), utc_now_iso())
+            except (urllib.error.URLError, http.client.HTTPException, TimeoutError, ConnectionError, OSError,
+                    ValueError) as err:
+                self._record(started, 0)
+                last_error = err
+            if attempt < retries:
+                time.sleep(config.RETRY_BACKOFF_SECONDS * (attempt + 1))
+        raise ConnectionError(f"POST {url} failed after {retries + 1} attempts: {last_error}")
+
     def _fetch_once(self, url: str, accept: str, timeout: float, max_bytes: int | None, untrusted: bool,
-                    extra_headers: dict[str, str]) -> Response:
-        req = urllib.request.Request(url, headers={"User-Agent": config.USER_AGENT, "Accept": accept,
-                                                   "Accept-Language": "nb-NO,nb;q=0.9,en;q=0.8", **extra_headers})
+                    extra_headers: dict[str, str], data: bytes | None = None,
+                    opener: urllib.request.OpenerDirector | None = None) -> Response:
+        req = urllib.request.Request(url, data=data, headers={"User-Agent": config.USER_AGENT, "Accept": accept,
+                                                              "Accept-Language": "nb-NO,nb;q=0.9,en;q=0.8",
+                                                              **extra_headers})
         req.untrusted = untrusted  # type: ignore[attr-defined]
-        with _OPENER.open(req, timeout=timeout) as resp:
+        with (opener or _OPENER).open(req, timeout=timeout) as resp:
             body = resp.read(max_bytes) if max_bytes else resp.read()
             return Response(url, resp.geturl(), resp.status, body, _lower(resp.headers), utc_now_iso())
 

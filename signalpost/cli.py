@@ -22,8 +22,26 @@ ENV_BUDGET = "SIGNALPOST_REQUEST_BUDGET"
 ENV_MINUTES = "SIGNALPOST_MAX_MINUTES"
 
 
+def load_env_file(path: Path = Path(".env")) -> list[str]:
+    """Load KEY=VALUE lines from a local, git-ignored .env file. Existing environment values win."""
+    if not path.is_file():
+        return []
+    loaded = []
+    for line in path.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, value = line.split("=", 1)
+        key, value = key.strip(), value.strip().strip('"').strip("'")
+        if key and value and key not in os.environ:
+            os.environ[key] = value
+            loaded.append(key)
+    return loaded
+
+
 def main(argv: list[str] | None = None) -> int:
     args = _parser().parse_args(argv)
+    load_env_file()
     return args.handler(args)
 
 
@@ -79,6 +97,10 @@ def _budget_args(p: argparse.ArgumentParser) -> None:
     p.add_argument("--no-website-discovery", action="store_true")
     p.add_argument("--no-jobs", action="store_true")
     p.add_argument("--no-history", action="store_true", help="skip the rate-limited filing-history lane")
+    p.add_argument("--no-search", action="store_true", help="never call a paid search API even if a key is set")
+    p.add_argument("--search-max", type=int, default=None,
+                   help="max paid searches per run (default $SIGNALPOST_SEARCH_MAX or 150)")
+    p.add_argument("--no-llm", action="store_true", help="skip AI-written summaries even if ANTHROPIC_API_KEY is set")
     p.add_argument("--quiet", action="store_true")
 
 
@@ -100,6 +122,7 @@ def _options(args: argparse.Namespace, out: Path, **extra) -> RunOptions:
     progress = None if args.quiet else (lambda line: print(line, file=sys.stderr))
     return RunOptions(out, args.profiles_dir, args.workers, args.max_minutes, website_pages=args.website_pages,
                       discovery=not args.no_website_discovery, jobs=not args.no_jobs, history=not args.no_history,
+                      search=not args.no_search, search_max=args.search_max, narratives=not args.no_llm,
                       progress=progress, **extra)
 
 

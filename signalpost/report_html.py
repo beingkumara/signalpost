@@ -24,6 +24,7 @@ def _slim(envelope: dict[str, Any]) -> dict[str, Any]:
         "sections": {k: v["state"] for k, v in envelope.get("sections", {}).items()},
         "summary": envelope.get("summary", {}).get("summary"),
         "statements": envelope.get("summary", {}).get("statements", []),
+        "narrative": (envelope.get("summary", {}).get("narrative") or {}).get("sentences", []),
         "claims": [{k: c.get(k) for k in ("id", "field", "section", "label", "value", "availability", "reason",
                                           "evidence_ids", "as_of", "stale")} for c in envelope.get("claims", [])],
         "evidence": {e["id"]: {k: e.get(k) for k in ("source_url", "human_url", "source_class", "retrieved_at",
@@ -104,6 +105,7 @@ human?h("div",{},h("a",{href:human,target:"_blank",rel:"noopener noreferrer"},"O
 e.claim_span?h("div",{},"Span: “"+e.claim_span+"”"):null,e.json_path?h("div",{},"Field: "+e.json_path):null,h("div",{},"SHA-256 "+(e.content_sha256||"").slice(0,16)+"…"))}return out}
 function show(org){current=org;const d=DATA.find(x=>x.org===org);const p=$("#panel");p.replaceChildren();renderList();
 p.append(h("h2",{},d.name||d.org),h("div",{class:"meta"},d.org+" · "+(d.status||"")+" · checked "+(d.checked||"")),h("p",{class:"summary"},d.summary||""));
+if(d.narrative&&d.narrative.length){p.append(h("h3",{},"Overview"));p.append(h("p",{class:"summary"},d.narrative.map(s=>[s.text+" ",h("small",{},"["+s.claim_ids.join(", ")+"] ")])))}
 if(d.statements.length){p.append(h("h3",{},"Key points"));for(const s of d.statements)p.append(h("p",{class:"stmt"},s.text," ",h("small",{},s.claim_ids.length?"["+s.claim_ids.join(", ")+"]":"")))}
 if(d.changes.length){const sec=h("section",{},h("h3",{},"Changes since previous check"));for(const c of d.changes)sec.append(h("div",{class:"claim"},h("div",{class:"label"},(c.label||c.field)+" · "+c.change_type),h("div",{class:"value"},c.change==="added"?"New: "+fmt(c.new):c.change==="removed"?"Removed: "+fmt(c.old):fmt(c.old)+" → "+fmt(c.new))));p.append(sec)}
 for(const[s,title]of Object.entries(META.sections)){const sec=h("section",{},h("h3",{},title,h("span",{class:"badge b-"+d.sections[s]},d.sections[s])));
