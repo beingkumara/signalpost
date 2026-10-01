@@ -35,7 +35,7 @@ NOT_COMPANY_SITES = {
     "nav.no", "arbeidsplassen.nav.no", "e24.no", "dn.no", "nrk.no", "vg.no", "aftenposten.no", "tu.no",
     "finansavisen.no", "kapital.no", "mittanbud.no", "anbudstorget.no", "bygg.no", "legelisten.no", "hjemla.no",
     "eiendomspriser.no", "krak.dk", "hitta.se", "eniro.se", "ratsit.se", "roaring.io", "bisnode.no", "creditsafe.com",
-    "infotorg.no", "regnskapstall.com", "lovdata.no", "kunngjoringer.no", "doffin.no", "glassdoor.com",
+    "infotorg.no", "regnskapstall.com", "byndle.no", "riksadvokaten.no", "lovdata.no", "kunngjoringer.no", "doffin.no", "glassdoor.com",
     "indeed.com", "jobbnorge.no", "karrierestart.no", "webcruiter.no", "teamtailor.com", "amazon.com", "ebay.com",
 }
 
