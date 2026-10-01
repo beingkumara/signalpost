@@ -17,7 +17,7 @@ python3 -m signalpost run --input companies.jsonl --out out/
 
 **Install:** none. Python 3.10+ standard library only, with no third-party runtime dependencies. `uv.lock` pins the dev and test tools.
 
-**Optional API keys** are read from environment variables only (see `.env.example`). Without them the agent uses free public sources and costs $0.
+**Web search needs no key.** Tavily's keyless Search mode is used by default as a free, rate-limited fallback (turn it off with `SIGNALPOST_SEARCH_KEYLESS=0`). **Optional API keys** are read from environment variables or a git-ignored `.env` file (see `.env.example`). Without them the agent still costs $0.
 
 | Variable | Adds | Cost per 100-company run |
 |---|---|---|

@@ -77,3 +77,9 @@ def _no_dns(monkeypatch):
 
 
 RESOLVABLE: set[str] = set()
+
+
+@pytest.fixture(autouse=True)
+def _no_keyless_search(monkeypatch):
+    """Tests never reach a real search API unless they opt in."""
+    monkeypatch.setenv("SIGNALPOST_SEARCH_KEYLESS", "0")

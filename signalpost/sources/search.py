@@ -5,7 +5,8 @@ fetches the site itself and finds the exact org number (see sources/website.py).
 
 Providers are enabled by environment variables and tried in order until one answers:
 TAVILY_API_KEY, EXA_API_KEY, LINKUP_API_KEY, FIRECRAWL_API_KEY. The order can be set with
-SIGNALPOST_SEARCH_PROVIDERS (comma separated). With no key set, search is simply off.
+SIGNALPOST_SEARCH_PROVIDERS (comma separated). Tavily's keyless Search mode is the free last resort
+and needs no account; disable it with SIGNALPOST_SEARCH_KEYLESS=0.
 """
 
 from __future__ import annotations
@@ -42,7 +43,7 @@ NOT_COMPANY_SITES = {
 @dataclass(frozen=True)
 class Provider:
     name: str
-    env_key: str
+    env_key: str | None  # None: works without a key
     url: str
     usd_per_search: float  # list price after free credits, declared as external cost
     build: Callable[[str, str], tuple[dict[str, str], dict[str, Any]]]
@@ -52,6 +53,12 @@ class Provider:
 def _tavily(key: str, query: str) -> tuple[dict[str, str], dict[str, Any]]:
     return {"Authorization": f"Bearer {key}"}, {"query": query, "max_results": RESULTS, "search_depth": "basic",
                                                "country": "norway"}
+
+
+def _tavily_keyless(_key: str, query: str) -> tuple[dict[str, str], dict[str, Any]]:
+    # Tavily's documented keyless access mode for Search (rate limited, no account, no cost).
+    return {"X-Tavily-Access-Mode": "keyless"}, {"query": query, "max_results": RESULTS, "search_depth": "basic",
+                                                  "country": "norway"}
 
 
 def _exa(key: str, query: str) -> tuple[dict[str, str], dict[str, Any]]:
@@ -80,7 +87,10 @@ PROVIDERS: dict[str, Provider] = {
     "firecrawl": Provider("firecrawl", "FIRECRAWL_API_KEY", "https://api.firecrawl.dev/v2/search", 0.005, _firecrawl,
                           lambda d: _urls((d.get("data") or {}).get("web") if isinstance(d.get("data"), dict)
                                           else d.get("data"))),
+    "tavily_keyless": Provider("tavily_keyless", None, "https://api.tavily.com/search", 0.0, _tavily_keyless,
+                               lambda d: _urls(d.get("results"))),
 }
+ENV_KEYLESS = "SIGNALPOST_SEARCH_KEYLESS"
 
 
 @dataclass
@@ -147,8 +157,17 @@ class SearchService:
 def from_env(max_searches: int | None = None, environ: dict[str, str] | None = None) -> SearchService:
     env = os.environ if environ is None else environ
     order = [n.strip().lower() for n in (env.get(ENV_PROVIDERS) or ",".join(PROVIDERS)).split(",") if n.strip()]
-    chosen = [(PROVIDERS[n], env[PROVIDERS[n].env_key].strip()) for n in order
-              if n in PROVIDERS and env.get(PROVIDERS[n].env_key, "").strip()]
+    keyless_on = (env.get(ENV_KEYLESS) or "1").strip().lower() not in ("0", "false", "no", "off")
+    chosen: list[tuple[Provider, str]] = []
+    for name in order:
+        provider = PROVIDERS.get(name)
+        if provider is None:
+            continue
+        if provider.env_key is None:
+            if keyless_on:
+                chosen.append((provider, ""))
+        elif env.get(provider.env_key, "").strip():
+            chosen.append((provider, env[provider.env_key].strip()))
     try:
         cap = max_searches if max_searches is not None else int(env.get(ENV_MAX) or DEFAULT_MAX_SEARCHES)
     except ValueError:

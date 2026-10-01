@@ -15,13 +15,20 @@ EXA = search.PROVIDERS["exa"].url
 def test_from_env_selects_keyed_providers_in_order():
     svc = search.from_env(environ={"EXA_API_KEY": "e", "TAVILY_API_KEY": "t", "SIGNALPOST_SEARCH_PROVIDERS": "exa,tavily"})
     assert [p.name for p, _ in svc.providers] == ["exa", "tavily"]
-    assert not search.from_env(environ={}).enabled
-    assert search.from_env(environ={"LINKUP_API_KEY": " "}).providers == []
+    assert [p.name for p, _ in search.from_env(environ={}).providers] == ["tavily_keyless"]
+    assert not search.from_env(environ={"SIGNALPOST_SEARCH_KEYLESS": "0"}).enabled
+    assert [p.name for p, _ in search.from_env(environ={"LINKUP_API_KEY": " "}).providers] == ["tavily_keyless"]
+
+
+def test_keyless_provider_sends_no_key():
+    headers, payload = search.PROVIDERS["tavily_keyless"].build("", "Acme")
+    assert headers == {"X-Tavily-Access-Mode": "keyless"} and "api_key" not in payload
 
 
 def test_failover_cap_and_cost():
     client = FakeClient({TAVILY: (402, b""), EXA: (200, {"results": [{"url": "https://acme.no/about"}]})})
-    svc = search.from_env(max_searches=1, environ={"TAVILY_API_KEY": "t", "EXA_API_KEY": "e"})
+    svc = search.from_env(max_searches=1, environ={"TAVILY_API_KEY": "t", "EXA_API_KEY": "e",
+                                                   "SIGNALPOST_SEARCH_KEYLESS": "0"})
     urls, provider = svc.search(client, "Acme Bergen")
     assert urls == ["https://acme.no/about"] and provider == "exa"
     assert "tavily" in svc.disabled and svc.by_provider == {"exa": 1}
@@ -160,7 +167,7 @@ def test_narrator_never_raises_on_bad_reply():
 
 def test_search_disables_provider_on_bad_request_and_stops_when_none_left():
     client = FakeClient({TAVILY: (400, b"")})
-    svc = search.from_env(environ={"TAVILY_API_KEY": "t"})
+    svc = search.from_env(environ={"TAVILY_API_KEY": "t", "SIGNALPOST_SEARCH_KEYLESS": "0"})
     assert svc.search(client, "a") == ([], None) and svc.search(client, "b") == ([], None)
     assert svc.searches == 1 and len(client.posts) == 1
 

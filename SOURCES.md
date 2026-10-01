@@ -9,6 +9,7 @@
 | Company websites | Only the registry-listed site, the registry email domain, or candidates that pass the org-number gate | robots.txt checked per host before any page; at most 3 pages per site | Brand, description, contacts, social links, careers page, dated news |
 | NAV job vacancy feed (`pam-stilling-feed.nav.no`) | NAV's official feed API with the public token NAV publishes at `/api/publicToken` | Read once per run (ads changed in the last 45 days), paced at 4 requests per second; after HTTP 429 the feed is left alone for 10 minutes and jobs are reported `blocked` | Job postings, published only when the ad's employer org number matches |
 
+| Web search: Tavily keyless mode (default, no account) |  `X-Tavily-Access-Mode: keyless` header on `api.tavily.com/search`, as documented in Tavily's agent-setup guide | Tavily terms; rate limited. On HTTP 429 the provider is switched off for the run. | Same use as below, at no cost |
 | Web search: Tavily, Exa, Linkup, Firecrawl (optional) | Official APIs with the operator's own key from environment variables | Provider terms. Results are kept in memory only and used as candidates; they are never stored or cited as evidence. | Candidate websites for companies with staff or meaningful revenue and no registry website |
 | Anthropic Messages API (optional) | `ANTHROPIC_API_KEY` | Anthropic commercial terms | English overview written only from the envelope's claims, then validated |
 

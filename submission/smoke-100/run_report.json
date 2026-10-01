@@ -1,7 +1,7 @@
 {
-  "run_id": "smoke-005",
-  "started_at": "2026-09-30T15:22:00Z",
-  "completed_at": "2026-09-30T15:26:42Z",
+  "run_id": "smoke-search",
+  "started_at": "2026-10-01T11:23:26Z",
+  "completed_at": "2026-10-01T11:28:09Z",
   "agent_version": "2.0.0",
   "input_count": 100,
   "emitted_envelopes": 100,
@@ -22,7 +22,7 @@
     "legal_identity_and_brand": 100,
     "annual_accounts": 100,
     "leadership_and_workplaces": 100,
-    "website_and_profiles": 6,
+    "website_and_profiles": 7,
     "hiring_and_activity": 100
   },
   "field_availability": {
@@ -30,7 +30,7 @@
       "available": 67
     },
     "accounts_period": {
-      "available": 100
+      "available": 276
     },
     "articles_date": {
       "available": 99
@@ -55,9 +55,9 @@
     },
     "brand_name": {
       "not_available": 91,
-      "failed": 2,
+      "ambiguous": 5,
       "available": 3,
-      "ambiguous": 4
+      "failed": 1
     },
     "business_address": {
       "available": 100
@@ -66,16 +66,17 @@
       "available": 99
     },
     "careers_page": {
-      "not_available": 94,
-      "failed": 2,
-      "ambiguous": 4
+      "not_available": 93,
+      "ambiguous": 5,
+      "available": 1,
+      "failed": 1
     },
     "ceo": {
       "available": 65,
       "not_available": 35
     },
     "current_assets": {
-      "available": 97
+      "available": 273
     },
     "email": {
       "available": 25
@@ -88,20 +89,61 @@
       "available": 100
     },
     "equity": {
-      "available": 98,
-      "not_available": 2
+      "available": 274
     },
     "filing_history": {
       "available": 100
     },
     "fixed_assets": {
-      "available": 83
+      "available": 259
     },
     "former_names": {
       "available": 18
     },
     "founded_date": {
       "available": 100
+    },
+    "group_accounts_period": {
+      "available": 1
+    },
+    "group_current_assets": {
+      "available": 1
+    },
+    "group_equity": {
+      "available": 1
+    },
+    "group_fixed_assets": {
+      "available": 1
+    },
+    "group_long_term_debt": {
+      "available": 1
+    },
+    "group_net_financial_items": {
+      "available": 1
+    },
+    "group_net_profit": {
+      "available": 1
+    },
+    "group_operating_expenses": {
+      "available": 1
+    },
+    "group_operating_profit": {
+      "available": 1
+    },
+    "group_profit_before_tax": {
+      "available": 1
+    },
+    "group_revenue": {
+      "available": 1
+    },
+    "group_short_term_debt": {
+      "available": 1
+    },
+    "group_total_assets": {
+      "available": 1
+    },
+    "group_total_debt": {
+      "available": 1
     },
     "hiring": {
       "available": 1
@@ -135,7 +177,7 @@
       "available": 100
     },
     "long_term_debt": {
-      "available": 36
+      "available": 212
     },
     "mobile": {
       "available": 19
@@ -147,26 +189,25 @@
       "available": 100
     },
     "net_financial_items": {
-      "available": 92
+      "available": 258
     },
     "net_profit": {
-      "available": 100
+      "available": 276
     },
     "official_changes": {
       "available": 100
     },
     "official_website": {
-      "available": 6,
-      "not_available": 88,
-      "failed": 2,
-      "ambiguous": 4
+      "available": 7,
+      "not_available": 87,
+      "ambiguous": 5,
+      "failed": 1
     },
     "operating_expenses": {
-      "available": 98
+      "available": 271
     },
     "operating_profit": {
-      "available": 98,
-      "not_available": 2
+      "available": 271
     },
     "organization_form": {
       "available": 100
@@ -178,7 +219,7 @@
       "available": 25
     },
     "profit_before_tax": {
-      "available": 95
+      "available": 271
     },
     "purpose": {
       "available": 100
@@ -190,8 +231,8 @@
       "available": 100
     },
     "revenue": {
-      "available": 73,
-      "not_available": 27
+      "available": 200,
+      "not_available": 25
     },
     "roles": {
       "available": 100
@@ -204,13 +245,13 @@
       "not_available": 7
     },
     "short_term_debt": {
-      "available": 91
+      "available": 257
     },
     "social_profiles": {
       "not_available": 90,
-      "failed": 2,
+      "ambiguous": 5,
       "available": 4,
-      "ambiguous": 4
+      "failed": 1
     },
     "subunit_count": {
       "available": 73
@@ -220,11 +261,11 @@
       "not_available": 27
     },
     "total_assets": {
-      "available": 100
+      "available": 276
     },
     "total_debt": {
-      "available": 91,
-      "not_available": 9
+      "available": 267,
+      "not_available": 2
     },
     "under_forced_dissolution": {
       "available": 100
@@ -239,42 +280,46 @@
       "available": 7
     },
     "website_description": {
-      "available": 5,
-      "not_available": 89,
-      "failed": 2,
-      "ambiguous": 4
+      "available": 6,
+      "not_available": 88,
+      "ambiguous": 5,
+      "failed": 1
     },
     "website_emails": {
-      "not_available": 91,
-      "failed": 2,
-      "available": 3,
-      "ambiguous": 4
+      "not_available": 90,
+      "ambiguous": 5,
+      "available": 4,
+      "failed": 1
     },
     "website_job_postings": {
       "not_available": 94,
-      "failed": 2,
-      "ambiguous": 4
+      "ambiguous": 5,
+      "failed": 1
     },
     "website_news": {
       "not_available": 94,
-      "failed": 2,
-      "ambiguous": 4
+      "ambiguous": 5,
+      "failed": 1
     },
     "website_phones": {
       "not_available": 93,
-      "failed": 2,
-      "ambiguous": 4,
-      "available": 1
+      "ambiguous": 5,
+      "available": 1,
+      "failed": 1
     },
     "website_title": {
-      "available": 6
+      "available": 7
     }
   },
   "profiles_with_changes": 0,
   "search": {
-    "providers": [],
-    "searches": 0,
-    "by_provider": {},
+    "providers": [
+      "tavily_keyless"
+    ],
+    "searches": 24,
+    "by_provider": {
+      "tavily_keyless": 24
+    },
     "estimated_cost_usd": 0.0,
     "disabled": {},
     "max_searches": 150
@@ -283,14 +328,14 @@
     "enabled": false
   },
   "operations": {
-    "requests": 1066,
-    "bytes_received": 77146616,
-    "p50_ms": 1253,
-    "p95_ms": 3238,
+    "requests": 1257,
+    "bytes_received": 101952681,
+    "p50_ms": 1216,
+    "p95_ms": 3227,
     "request_budget": 1950,
-    "runtime_seconds": 282.6,
-    "company_runtime_p50_ms": 8982,
-    "company_runtime_p95_ms": 102885,
+    "runtime_seconds": 283.1,
+    "company_runtime_p50_ms": 11670,
+    "company_runtime_p95_ms": 102396,
     "third_party_cost_usd": 0.0
   }
 }
