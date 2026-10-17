@@ -5,7 +5,7 @@ This follows the "What to Submit" list in the challenge statement.
 | Required item | Answer |
 |---|---|
 | At least 1,000 company profiles | `submission/profiles-1000/envelopes.jsonl.gz`: 1,000 profiles, one per company, from the public company list (seed 20260825). `submission/smoke-100/` adds a 100-company run with a browsable `report.html`. |
-| Your repository link | *(add after pushing)* |
+| Your repository link | https://github.com/beingkumara/signalpost |
 | Exact commit hash | *(the commit that contains this file: `git log -1 --format=%H`)* |
 | One command to run it | `python3 -m signalpost run --input companies.jsonl --out out/` |
 | Model/API details | Free public sources by default: Brønnøysundregistrene open data (Enhetsregisteret, roles, change feeds, Regnskapsregisteret; NLOD 2.0), NAV's official job vacancy feed via NAV's published public token, and company-owned websites (robots.txt respected). Web search for website discovery through Tavily's keyless Search mode (no account, no cost). Optional, read from environment variables: keyed search via Tavily, Exa, Linkup or Firecrawl (`TAVILY_API_KEY` etc.), and Claude Haiku 4.5 (`ANTHROPIC_API_KEY`, model `claude-haiku-4-5-20251001`) for validated overviews. |
