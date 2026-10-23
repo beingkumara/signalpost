@@ -316,3 +316,14 @@ def test_discovered_brand_site_of_another_entity_says_why_it_was_rejected():
     c = FakeClient(routes, content_types={u: HTMLCT for u in routes})
     result = crawl_site(c, SITE, "923609016", "FJORDLYS BYGG AS", discovered=True, extra_pages=2)
     assert result.state == "not_available" and "brand site" in result.reason
+
+
+def test_handle_rule_matches_the_organisers_starter_kit():
+    # Starter kit identity.assess_social_identity: the whole name, a single-word name, or >= 75% of
+    # the name's words (at least two). One word of a longer name is not enough.
+    jo = ("JO HOLUM SPORTSERVICE AS", "joholum.no")
+    assert not wp.handle_matches("holumdombas", jo)
+    assert wp.handle_matches("joholumsportservice", jo)
+    assert not wp.handle_matches("acmegroup", ("ACME BYGG OSLO AS", "acmebyggoslo.no"))
+    assert wp.handle_matches("nordvikbyggtak", ("NORDVIK BYGG OG TAK AS", "nbt.no"))  # 3 of 3 words
+    assert wp.handle_matches("PellyButiksinredningar", ("PELLY BUTIKKINNREDNING AS", "pellybutik.se"))  # domain

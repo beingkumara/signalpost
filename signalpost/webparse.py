@@ -252,16 +252,6 @@ GENERIC_NAME_WORDS = {"bygg", "eiendom", "holding", "invest", "service", "servic
                       "og", "and", "i", "the", "sameie", "borettslag", "eiendomsselskap", "nordic", "norden"}
 
 
-# Places shared by many company names: on their own they do not identify one company's account.
-PLACE_NAMES = {"oslo", "bergen", "trondheim", "stavanger", "tromso", "drammen", "kristiansand", "fredrikstad",
-               "sandnes", "bodo", "alesund", "tonsberg", "moss", "hamar", "lillehammer", "gjovik", "molde", "harstad",
-               "larvik", "sandefjord", "arendal", "haugesund", "skien", "porsgrunn", "halden", "kongsberg", "asker",
-               "baerum", "lillestrom", "ski", "notodden", "narvik", "alta", "steinkjer", "levanger", "voss", "finnmark",
-               "nordland", "troms", "rogaland", "agder", "vestland", "viken", "innlandet", "telemark", "vestfold",
-               "trondelag", "hordaland", "sunnmore", "romerike", "follo", "ringerike", "hadeland", "valdres", "lofoten",
-               "vest", "ost", "nord", "sor", "nordic", "scandinavia", "skandinavia"}
-
-
 def distinctive_name(name: str) -> bool:
     """Names that are too short or generic cannot prove identity on their own."""
     tokens = [t for t in re.split(r"[^\wæøå]+", core_name(name).lower()) if t]
@@ -489,22 +479,29 @@ def _is_owner_org(obj: dict[str, Any], owners: Sequence[str]) -> bool:
 
 
 def handle_matches(handle: str, owners: Sequence[str]) -> bool:
-    """True when an account handle or employer name belongs to this company: it contains the company's
-    name, a distinctive word of it, or its verified domain label ('acmebyggas', 'uppigardnatadal')."""
+    """True when an account handle or employer name belongs to this company. Same rule as the organiser's
+    starter kit: the whole legal name, a single-word name, or at least 75% of the name's words (two or
+    more) appear in it; or it contains the verified site's domain label ('acmebyggas', 'uppigardnatadal')."""
     flat = "".join(ascii_tokens(handle))
-    if len(flat) < 3:
-        return False
-    return any(key in flat for owner in owners for key in _owner_keys(owner))
+    return len(flat) >= 3 and any(_owner_matches(flat, owner) for owner in owners)
 
 
-def _owner_keys(owner: str) -> list[str]:
-    if "." in owner and " " not in owner.strip():  # a domain such as acmebygg.no
+_NAME_CONNECTORS = {"og", "and", "the", "of", "i"}
+MIN_WORD_SHARE = 0.75
+
+
+def _owner_matches(flat: str, owner: str) -> bool:
+    if "." in owner and " " not in owner.strip():  # a verified domain such as acmebygg.no
         label = "".join(ascii_tokens(registrable_domain(_url(owner).netloc or owner).split(".")[0]))
-        return [label] if len(label) >= 4 else []
-    tokens = ascii_tokens(core_name(owner) or owner)
-    keys = ["".join(tokens)] if len("".join(tokens)) >= 4 else []
-    return keys + [t for t in tokens if len(t) >= 4 and t not in GENERIC_NAME_WORDS and t not in PLACE_NAMES
-                   and not t.isdigit()]
+        return len(label) >= 4 and label in flat
+    tokens = [t for t in ascii_tokens(core_name(owner) or owner) if len(t) > 1 and t not in _NAME_CONNECTORS]
+    joined = "".join(tokens)
+    if len(joined) >= 4 and joined in flat:
+        return True
+    if len(tokens) == 1:
+        return False  # the single word is the whole name, already checked
+    matched = {t for t in tokens if len(t) >= 3 and t in flat}
+    return len(matched) >= 2 and len(matched) / len(set(tokens)) >= MIN_WORD_SHARE
 
 
 _ORGNR_LABELLED = re.compile(r"(?:(?i:org(?:anisasjons)?\.?\s*-?\s*(?:nr|nummer|no)\b\.?|organisasjonsnummer|"
