@@ -10,7 +10,7 @@ HTML = """<html><head><title> Acme Bygg | Hjem </title>
 <body><a href="/kontakt">Kontakt oss</a><a href="/om-oss">Om oss</a><a href="/karriere">Jobb hos oss</a>
 <a href="mailto:post@acme.no">mail</a><a href="mailto:someone@gmail.com">x</a><a href="tel:+4791234567">ring</a>
 <a href="https://www.linkedin.com/company/acme/">in</a><a href="https://www.facebook.com/sharer.php?u=x">share</a>
-<article><time datetime="2026-09-01T10:00">Ny avtale med kommunen</time></article>
+<article><h2><a href="/nyheter/ny-avtale">Ny avtale med kommunen</a></h2><time datetime="2026-09-01T10:00">1. sep</time></article>
 <footer>Org.nr: 923 609 016</footer></body></html>"""
 
 
@@ -43,9 +43,10 @@ def test_contacts_social_and_news():
     p = page()
     assert wp.emails(p, SITE) == ["post@acme.no"]
     assert wp.phones(p) == ["+4791234567", "+4755123456"]
-    assert wp.social_links(p) == {"linkedin": "https://www.linkedin.com/company/acme",
+    assert wp.social_links(p, ("ACME BYGG AS", SITE)) == {"linkedin": "https://www.linkedin.com/company/acme",
                                   "facebook": "https://www.facebook.com/acmebygg"}
-    assert wp.dated_items(p)[0] == {"date": "2026-09-01", "title": "Ny avtale med kommunen", "url": SITE}
+    assert wp.dated_items(p, today="2026-10-23")[0] == {"date": "2026-09-01", "title": "Ny avtale med kommunen",
+                                                        "url": "https://www.acme.no/nyheter/ny-avtale"}
 
 
 def test_link_classification_and_domains():
@@ -80,9 +81,9 @@ def test_job_postings_and_careers_platforms():
     "validThrough":"2026-10-01","jobLocation":{"address":{"addressLocality":"Bergen"}},"url":"https://acme.no/jobb/1"}</script>
     <a href="https://acme.teamtailor.com/jobs">Ledige stillinger</a>"""
     p = wp.parse_page(html, SITE)
-    assert wp.job_postings(p) == [{"title": "Tømrer", "published": "2026-09-01", "expires": "2026-10-01",
+    assert wp.job_postings(p, ("ACME BYGG AS", SITE), today="2026-09-15") == [{"title": "Tømrer", "published": "2026-09-01", "expires": "2026-10-01",
                                    "location": "Bergen", "url": "https://acme.no/jobb/1"}]
-    assert wp.careers_platforms(p) == {"Teamtailor": "https://acme.teamtailor.com/jobs"}
+    assert wp.careers_platforms(p, ("ACME BYGG AS", SITE)) == {"Teamtailor": "https://acme.teamtailor.com/jobs"}
 
 
 def test_parent_site_name_mention_does_not_tie_the_site():

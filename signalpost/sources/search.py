@@ -18,27 +18,12 @@ from typing import Any, Callable
 from urllib.parse import urlparse
 
 from signalpost.http_client import BudgetExceeded, HttpClient
-from signalpost.webparse import registrable_domain
+from signalpost.webparse import NOT_COMPANY_SITES, registrable_domain
 
 ENV_PROVIDERS = "SIGNALPOST_SEARCH_PROVIDERS"
 ENV_MAX = "SIGNALPOST_SEARCH_MAX"
 DEFAULT_MAX_SEARCHES = 150
 RESULTS = 6
-
-# Directories, registries, media and platforms: never a company's own website.
-NOT_COMPANY_SITES = {
-    "proff.no", "proff.dk", "proff.se", "purehelp.no", "1881.no", "gulesider.no", "brreg.no", "forvalt.no",
-    "regnskapstall.no", "firmasok.no", "bizzdo.no", "finn.no", "enirogule.no", "allabolag.se", "northdata.com",
-    "northdata.de", "opencorporates.com", "dnb.com", "kompass.com", "infobel.com", "cylex.no", "bedriftsregisteret.no",
-    "linkedin.com", "facebook.com", "instagram.com", "x.com", "twitter.com", "youtube.com", "tiktok.com",
-    "wikipedia.org", "google.com", "bing.com", "yelp.com", "tripadvisor.com", "tripadvisor.no", "trustpilot.com",
-    "nav.no", "arbeidsplassen.nav.no", "e24.no", "dn.no", "nrk.no", "vg.no", "aftenposten.no", "tu.no",
-    "finansavisen.no", "kapital.no", "mittanbud.no", "anbudstorget.no", "bygg.no", "legelisten.no", "hjemla.no",
-    "eiendomspriser.no", "krak.dk", "hitta.se", "eniro.se", "ratsit.se", "roaring.io", "bisnode.no", "creditsafe.com",
-    "infotorg.no", "regnskapstall.com", "byndle.no", "riksadvokaten.no", "lovdata.no", "kunngjoringer.no", "doffin.no", "glassdoor.com",
-    "indeed.com", "jobbnorge.no", "karrierestart.no", "webcruiter.no", "teamtailor.com", "amazon.com", "ebay.com",
-}
-
 
 @dataclass(frozen=True)
 class Provider:

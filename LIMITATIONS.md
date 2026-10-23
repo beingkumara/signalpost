@@ -7,4 +7,5 @@
 - **Filing history** is capped by the upstream limit of about 30 requests per minute. In a very large batch, companies not reached before the time budget are reported as `blocked`.
 - **Accounts.** The open accounts API returns the latest filed year only. Earlier years are listed as official PDF copies, which are not parsed.
 - **No shareholder or beneficial-owner data.** Those registers are not openly available for automated use.
-- **No news or reviews from third-party platforms.** Only dated items on the company's own verified website and official registry events are included.
+- **No news or reviews from third-party platforms.** Only dated items on the company's own verified website and official registry events are included. News lists that are not marked up as `<article>` blocks or posts (and RSS/Atom feeds, whose "updated" date is not a publish date) are not read.
+- **Strict ownership rules cost some coverage.** A social account whose handle does not contain the company's name or domain (for example a founder's or a franchise chain's account), a YouTube channel ID without the company's own structured data, and a site hosted as a sub-page of a shared platform are all left out rather than risk a wrong-company claim.

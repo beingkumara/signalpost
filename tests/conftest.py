@@ -19,11 +19,13 @@ class FakeClient(HttpClient):
     """Serves canned responses by URL; unknown URLs return 404. Counts the budget like the real client."""
 
     def __init__(self, routes: dict[str, tuple[int, Any]], budget: int = 1000,
-                 content_types: dict[str, str] | None = None, fail: set[str] | None = None) -> None:
+                 content_types: dict[str, str] | None = None, fail: set[str] | None = None,
+                 redirects: dict[str, str] | None = None) -> None:
         super().__init__(budget)
         self.routes = routes
         self.content_types = content_types or {}
         self.fail = fail or set()
+        self.redirects = redirects or {}
         self.calls: list[str] = []
         self.posts: list[tuple[str, Any, dict[str, str]]] = []
 
@@ -36,12 +38,13 @@ class FakeClient(HttpClient):
         self.calls.append(url)
         if url in self.fail:
             raise ConnectionError(f"simulated failure for {url}")
-        status, body = self.routes.get(url, (404, b""))
+        final = self.redirects.get(url, url)
+        status, body = self.routes.get(final, (404, b""))
         if not isinstance(body, (bytes, str)):
             body = json.dumps(body)
         raw = body.encode("utf-8") if isinstance(body, str) else body
-        headers = {"content-type": self.content_types.get(url, "application/json")}
-        return Response(url, url, status, raw, headers, "2026-09-29T10:00:00Z")
+        headers = {"content-type": self.content_types.get(final, "application/json")}
+        return Response(url, final, status, raw, headers, "2026-09-29T10:00:00Z")
 
 
 EQUINOR = "923609016"

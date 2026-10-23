@@ -69,6 +69,8 @@ Availability states are `available`, `not_available`, `blocked`, `not_applicable
 - Lookups use the exact organisation number. The agent never searches the registry by name.
 - Every registry, accounts and sub-unit response must echo the requested number, or it is discarded.
 - A website is published only if a crawled page shows the org number. The registered name is enough only when the registry itself links the site, through its website field or email domain. The name must also be distinctive, appear in the site's title, site name, structured data or copyright line, and be tied to the company by the title or domain. That case gets medium confidence.
+- A registry, directory or social-network URL is never the website, a redirect must land on a site's home page, and a site that states another org number but not this one is treated as a parent group or brand site.
+- Social profiles are published only when the handle matches the company (not the parent group, web agency or theme). News must be real, dated posts. Careers pages, website job ads and recruitment platforms must belong to this company.
 - Job ads are published only when the ad's employer org number is the company or one of its registered sub-units.
 - Financial values are copied verbatim with currency and period. There is no language model and no estimation.
 

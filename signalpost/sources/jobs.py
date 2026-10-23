@@ -22,6 +22,7 @@ from signalpost.sources.discovery import name_tokens, slug_tokens
 FEED_BASE = "https://pam-stilling-feed.nav.no"
 TOKEN_URL = FEED_BASE + "/api/publicToken"
 FEED_URL = FEED_BASE + "/api/v1/feed"
+AD_URL_PREFIX = "https://arbeidsplassen.nav.no/stillinger/stilling/"
 SOURCE_NAME = "NAV job vacancy feed (pam-stilling-feed.nav.no)"
 MAX_ADS_PER_COMPANY = 3
 FEED_SCOPE = "active NAV feed ads changed in the last {days} days (Finn.no ads are not in the feed)"
@@ -144,11 +145,19 @@ def _posting(content: dict[str, Any], employer: dict[str, Any]) -> dict[str, Any
         "expires": (content.get("expires") or "")[:10] or None,
         "location": location.get("city") or location.get("municipal"),
         "positions": content.get("positioncount"),
-        "url": content.get("link") or content.get("sourceurl"),
+        "url": _ad_url(content),
         "employer_orgnr": employer.get("orgnr"),
         "employer_homepage": employer.get("homepage"),
         "ad_id": content.get("uuid"),
     }
+
+
+def _ad_url(content: dict[str, Any]) -> str | None:
+    """The single NAV ad. `sourceurl` can be the employer's careers landing page, so it is never used."""
+    link = content.get("link") or ""
+    if link.startswith(AD_URL_PREFIX):
+        return link
+    return AD_URL_PREFIX + content["uuid"] if content.get("uuid") else None
 
 
 def _facts(verified: list[tuple[dict[str, Any], Any]], orgnr: str) -> tuple[Fact, ...]:

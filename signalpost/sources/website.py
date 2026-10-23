@@ -3,6 +3,12 @@
 - Registry-listed site: publish when the org number (high) or registered name (medium) is on a crawled page.
 - Discovered site (guessed domain or job-ad homepage): publish only with the org number on a crawled page.
 Anything else is `ambiguous` (registry site) or rejected (discovered site). No content is published otherwise.
+
+Ownership checks run first: a directory, registry or social-network URL is never a company website, a
+redirect to another domain must land on a site's home page (not a listing on a shared platform), and a
+name-only match fails when the site states a different org number (a parent group or brand site).
+Social profiles, recruitment platforms and job ads are kept only when their handle or employer names
+this company.
 """
 
 from __future__ import annotations
@@ -16,10 +22,35 @@ from urllib.parse import urlparse
 from signalpost import config
 from signalpost.facts import COMPANY_OWNED, Fact, Source, make_fact
 from signalpost.http_client import BudgetExceeded, HttpClient, Response
-from signalpost.modules import AMBIGUOUS, AVAILABLE, BLOCKED, FAILED, NOT_AVAILABLE, ModuleResult
-from signalpost.webparse import (Page, careers_platforms, classify_link, dated_items, domain_matches_name, emails,
-                                 job_postings, name_in_title, name_span, orgnr_span, parse_page, phones,
-                                 registrable_domain, same_site, social_links)
+from signalpost.modules import (
+    AMBIGUOUS,
+    AVAILABLE,
+    BLOCKED,
+    FAILED,
+    NOT_AVAILABLE,
+    ModuleResult,
+)
+from signalpost.webparse import (
+    Page,
+    careers_platforms,
+    classify_link,
+    dated_items,
+    domain_matches_name,
+    emails,
+    handle_matches,
+    hosted_listing,
+    job_postings,
+    name_in_title,
+    name_span,
+    not_company_site,
+    orgnr_span,
+    orgnrs_on_page,
+    parse_page,
+    phones,
+    registrable_domain,
+    same_site,
+    social_links,
+)
 
 PAGE_PRIORITY = ("contact", "about", "legal", "careers", "news")
 GUESSED_PATHS = ("/kontakt", "/om-oss")
@@ -70,6 +101,9 @@ class _Crawl:
 def crawl_site(client: HttpClient, start_url: str, orgnr: str, name: str, *, discovered: bool,
                extra_pages: int, origin: str = "registry", postcode: str | None = None) -> ModuleResult:
     module = "website"
+    if not_company_site(start_url):
+        return ModuleResult(module, NOT_AVAILABLE, (), f"{start_url} is a directory, registry or social-network "
+                            "page, not a company website", start_url)
     try:
         crawl = _crawl(client, start_url, extra_pages, orgnr)
     except ConnectionError as err:
@@ -82,6 +116,11 @@ def crawl_site(client: HttpClient, start_url: str, orgnr: str, name: str, *, dis
         return ModuleResult(module, state, (), reason, start_url)
 
     home_page, home_resp = crawl.pages[0]
+    elsewhere = _foreign_landing(start_url, home_resp.final_url)
+    if elsewhere:
+        state = NOT_AVAILABLE if discovered else AMBIGUOUS
+        return ModuleResult(module, state, (), f"{start_url} redirects to {home_resp.final_url}, {elsewhere}; "
+                            "website content not published", home_resp.final_url, home_resp.fetched_at)
     proof = _identity(crawl.pages, orgnr, name)
     if origin.startswith("search_candidate") and proof["level"] == "orgnr_on_page":
         # Anyone can print a public org number (spam, directories). A search result must also be tied to
@@ -93,14 +132,32 @@ def crawl_site(client: HttpClient, start_url: str, orgnr: str, name: str, *, dis
                                 "but is not tied to the company by title, domain or postcode", start_url)
         proof = {**proof, "level": "orgnr_on_page", "search_tie": True}
     if proof["level"] == "orgnr_on_page" or (proof["level"] == "name_on_page" and not discovered):
-        facts = _facts(crawl.pages, proof, orgnr, start_url, origin)
+        facts = _facts(crawl.pages, proof, orgnr, name, start_url, origin)
         return ModuleResult(module, AVAILABLE, facts, None, home_resp.final_url, home_resp.fetched_at,
                             {"identity": proof, "pages": [p.url for p, _ in crawl.pages]})
+    if proof.get("other_orgnrs"):
+        numbers = ", ".join(proof["other_orgnrs"])
+        why = (f"lists {orgnr} among other org numbers ({numbers}) and its title and domain do not name this company"
+               if proof.get("listed_among_others") else f"states org number(s) {numbers} but not {orgnr}")
+        return ModuleResult(module, NOT_AVAILABLE if discovered else AMBIGUOUS, (),
+                            f"{home_resp.final_url} {why}: likely a parent group or brand site; website content "
+                            "not published", home_resp.final_url, home_resp.fetched_at)
     if discovered:
         return ModuleResult(module, NOT_AVAILABLE, (), f"candidate {start_url} rejected: org number not on site",
                             start_url, home_resp.fetched_at)
     return ModuleResult(module, AMBIGUOUS, (), f"{home_resp.final_url} shows neither the org number nor the "
                         "registered name; website content not published", home_resp.final_url, home_resp.fetched_at)
+
+
+def _foreign_landing(start_url: str, final_url: str) -> str | None:
+    """Why a cross-domain redirect does not land on a company's own site, or None when it does."""
+    if registrable_domain(urlparse(final_url).netloc) == registrable_domain(urlparse(start_url).netloc):
+        return None
+    if not_company_site(final_url):
+        return "a directory, registry or social-network page"
+    if hosted_listing(final_url):
+        return "a page on a shared platform rather than a site's home page"
+    return None
 
 
 def url_variants(url: str) -> list[str]:
@@ -176,11 +233,18 @@ def _pick_pages(home: Page, limit: int, *, orgnr_found: bool) -> list[str]:
 
 
 def _identity(pages: list[tuple[Page, Response]], orgnr: str, name: str) -> dict[str, Any]:
+    others = sorted(set().union(*(orgnrs_on_page(p) for p, _ in pages)) - {orgnr})
+    home, home_resp = pages[0]
+    tied = name_in_title(home, name) or domain_matches_name(home_resp.final_url, name)
     for page, resp in pages:
         span = orgnr_span(page, orgnr)
+        if span and others and not tied:  # our number listed among others: a group site ("Våre selskaper")
+            return {"level": "unverified", "other_orgnrs": others, "listed_among_others": True}
         if span:
             return {"level": "orgnr_on_page", "proof_url": resp.final_url, "claim_span": span,
-                    "proof_sha256": resp.sha256}
+                    "proof_sha256": resp.sha256, **({"other_orgnrs": others} if others else {})}
+    if others:  # the site states whose it is, and it is not this company
+        return {"level": "unverified", "other_orgnrs": others}
     # A name-only match must also tie the site to this company rather than a parent or partner:
     # the name is in the site's title/site name, or the domain contains a distinctive word of the name.
     for page, resp in pages:
@@ -191,7 +255,7 @@ def _identity(pages: list[tuple[Page, Response]], orgnr: str, name: str) -> dict
     return {"level": "unverified"}
 
 
-def _facts(pages: list[tuple[Page, Response]], proof: dict[str, Any], orgnr: str, start_url: str,
+def _facts(pages: list[tuple[Page, Response]], proof: dict[str, Any], orgnr: str, name: str, start_url: str,
            origin: str) -> tuple[Fact, ...]:
     confidence = "high" if proof["level"] == "orgnr_on_page" and not proof.get("search_tie") else "medium"
     guard = {"matched_orgnr": orgnr, "identity": proof["level"], "proof_url": proof["proof_url"],
@@ -215,18 +279,19 @@ def _facts(pages: list[tuple[Page, Response]], proof: dict[str, Any], orgnr: str
     brand = home.site_name or next((str(o["name"]) for o in home.jsonld
                                     if o.get("@type") in ("Organization", "Corporation", "LocalBusiness")
                                     and o.get("name")), None)
-    if brand:
+    if brand and handle_matches(brand, (name, home_resp.final_url)):  # not the web agency's or group's brand
         out.append(fact("brand_name", brand[:120], home_resp, "Public brand name on website", brand, "meta_og"))
     if home.title:
         out.append(fact("website_title", home.title[:300], home_resp, "Website title", home.title, "html_title"))
     if home.description:
         out.append(fact("website_description", home.description[:600], home_resp, "Self-description on website",
                         home.description[:300], "meta_description"))
-    _collect(out, pages, fact, home_resp)
+    _collect(out, pages, fact, home_resp, (name, home_resp.final_url))
     return tuple(out)
 
 
-def _collect(out: list[Fact], pages: list[tuple[Page, Response]], fact: Any, home_resp: Response) -> None:
+def _collect(out: list[Fact], pages: list[tuple[Page, Response]], fact: Any, home_resp: Response,
+             owners: tuple[str, str]) -> None:
     all_emails: list[str] = []
     all_phones: list[str] = []
     social: dict[str, str] = {}
@@ -245,15 +310,15 @@ def _collect(out: list[Fact], pages: list[tuple[Page, Response]], fact: Any, hom
         if numbers and not all_phones:
             phone_resp = resp
         all_phones += numbers
-        links = {k: v for k, v in social_links(page).items() if k not in social}
+        links = {k: v for k, v in social_links(page, owners).items() if k not in social}
         if links and not social:
             social_resp = resp
         social.update(links)
-        found_jobs = job_postings(page)
+        found_jobs = job_postings(page, owners)
         if found_jobs and not site_jobs:
             jobs_resp = resp
         site_jobs += found_jobs
-        found_platforms = {k: v for k, v in careers_platforms(page).items() if k not in platforms}
+        found_platforms = {k: v for k, v in careers_platforms(page, owners).items() if k not in platforms}
         if found_platforms and not platforms:
             platform_resp = resp
         platforms.update(found_platforms)
@@ -275,7 +340,7 @@ def _collect(out: list[Fact], pages: list[tuple[Page, Response]], fact: Any, hom
                         "Company-owned social profiles linked from the verified website",
                         " ".join(sorted(social.values())), "outbound_links"))
     if careers_url:
-        out.append(fact("careers_page", careers_url, home_resp, "Careers page on website", careers_url,
+        out.append(fact("careers_page", careers_url, home_resp, "Careers landing page on website (not a job ad)", careers_url,
                         "link_classifier"))
     if site_jobs:
         unique_jobs = sorted({(j["title"], j["url"]): j for j in site_jobs}.values(),
