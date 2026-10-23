@@ -83,11 +83,11 @@ Details are in [AGENT.md](AGENT.md), [SOURCES.md](SOURCES.md), [REFRESH.md](REFR
 | Language models | Optional: Claude Haiku 4.5 (`claude-haiku-4-5-20251001`) for overviews, only when `ANTHROPIC_API_KEY` is set |
 | APIs | Brønnøysundregistrene open data (NLOD 2.0), NAV job vacancy feed (public token), company websites; optional Tavily, Exa, Linkup or Firecrawl search and the Anthropic API |
 | Third-party cost | $0.00 without keys; at most about $2.20 per 100-company run with search and overviews enabled |
-| Requests | about 11 per company (measured 1,062 for 100 companies in 4.7 minutes) |
+| Requests | about 11 per company (measured 1,154 for 100 companies in 4.8 minutes) |
 
 ## Submitted profiles
 
-- `submission/profiles-1000/` holds 1,000 company profiles (`envelopes.jsonl.gz`) with their run report and input list. The run took 9,472 requests and 36.0 minutes, at $0.
+- `submission/profiles-1000/` holds 1,000 company profiles (`envelopes.jsonl.gz`) with their run report and input list. The run took 9,486 requests and 36.6 minutes, at $0.
 - `submission/smoke-100/` holds a 100-company run with a browsable `report.html`.
 
 The submission checklist is in [submission/SUBMISSION.md](submission/SUBMISSION.md).

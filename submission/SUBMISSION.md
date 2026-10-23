@@ -17,8 +17,8 @@ The daily test is 100 companies, with limits of 45 minutes, 2,000 outbound reque
 
 | Limit | Agent default | Measured on 100 companies |
 |---|---|---|
-| 45 minutes | Stops starting new source checks after 30 minutes (`SIGNALPOST_MAX_MINUTES`) | 4.7 minutes |
-| 2,000 outbound requests | Hard cap of 18 per company + 150 per run = 1,950 (`SIGNALPOST_REQUEST_BUDGET`) | 1,257 requests, including 24 keyless searches |
+| 45 minutes | Stops starting new source checks after 30 minutes (`SIGNALPOST_MAX_MINUTES`) | 4.8 minutes |
+| 2,000 outbound requests | Hard cap of 18 per company + 150 per run = 1,950 (`SIGNALPOST_REQUEST_BUDGET`) | 1,154 requests, including 10 keyless searches |
 | $10 external API cost | Search capped at 150 per run; overviews capped at $1 (`SIGNALPOST_LLM_MAX_USD`) | $0.00 without keys; ≤ $2.20 with keys |
 
 Every input company returns exactly one result, even when a source is blocked or a limit is reached.

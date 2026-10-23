@@ -1,7 +1,7 @@
 {
-  "run_id": "smoke-search",
-  "started_at": "2026-10-01T11:23:26Z",
-  "completed_at": "2026-10-01T11:28:09Z",
+  "run_id": "smoke-100",
+  "started_at": "2026-10-23T04:15:35Z",
+  "completed_at": "2026-10-23T04:20:25Z",
   "agent_version": "2.0.0",
   "input_count": 100,
   "emitted_envelopes": 100,
@@ -16,13 +16,14 @@
     }
   },
   "company_status_counts": {
-    "active": 100
+    "active": 99,
+    "under_liquidation": 1
   },
   "section_coverage": {
     "legal_identity_and_brand": 100,
     "annual_accounts": 100,
     "leadership_and_workplaces": 100,
-    "website_and_profiles": 7,
+    "website_and_profiles": 8,
     "hiring_and_activity": 100
   },
   "field_availability": {
@@ -54,9 +55,9 @@
       "available": 100
     },
     "brand_name": {
-      "not_available": 91,
-      "ambiguous": 5,
+      "not_available": 92,
       "available": 3,
+      "ambiguous": 4,
       "failed": 1
     },
     "business_address": {
@@ -66,20 +67,19 @@
       "available": 99
     },
     "careers_page": {
-      "not_available": 93,
-      "ambiguous": 5,
-      "available": 1,
+      "not_available": 95,
+      "ambiguous": 4,
       "failed": 1
     },
     "ceo": {
-      "available": 65,
-      "not_available": 35
+      "available": 64,
+      "not_available": 36
     },
     "current_assets": {
       "available": 273
     },
     "email": {
-      "available": 25
+      "available": 26
     },
     "employees": {
       "not_available": 90,
@@ -145,9 +145,6 @@
     "group_total_debt": {
       "available": 1
     },
-    "hiring": {
-      "available": 1
-    },
     "in_business_register": {
       "available": 100
     },
@@ -167,8 +164,7 @@
       "available": 100
     },
     "job_postings": {
-      "not_available": 99,
-      "available": 1
+      "not_available": 100
     },
     "language_form": {
       "available": 100
@@ -198,9 +194,9 @@
       "available": 100
     },
     "official_website": {
-      "available": 7,
+      "available": 8,
       "not_available": 87,
-      "ambiguous": 5,
+      "ambiguous": 4,
       "failed": 1
     },
     "operating_expenses": {
@@ -248,17 +244,17 @@
       "available": 257
     },
     "social_profiles": {
-      "not_available": 90,
-      "ambiguous": 5,
-      "available": 4,
+      "not_available": 92,
+      "available": 3,
+      "ambiguous": 4,
       "failed": 1
     },
     "subunit_count": {
-      "available": 73
+      "available": 74
     },
     "subunits": {
-      "available": 73,
-      "not_available": 27
+      "available": 74,
+      "not_available": 26
     },
     "total_assets": {
       "available": 276
@@ -280,35 +276,35 @@
       "available": 7
     },
     "website_description": {
-      "available": 6,
+      "available": 7,
       "not_available": 88,
-      "ambiguous": 5,
+      "ambiguous": 4,
       "failed": 1
     },
     "website_emails": {
       "not_available": 90,
-      "ambiguous": 5,
-      "available": 4,
+      "available": 5,
+      "ambiguous": 4,
       "failed": 1
     },
     "website_job_postings": {
-      "not_available": 94,
-      "ambiguous": 5,
+      "not_available": 95,
+      "ambiguous": 4,
       "failed": 1
     },
     "website_news": {
-      "not_available": 94,
-      "ambiguous": 5,
+      "not_available": 95,
+      "ambiguous": 4,
       "failed": 1
     },
     "website_phones": {
-      "not_available": 93,
-      "ambiguous": 5,
+      "not_available": 94,
+      "ambiguous": 4,
       "available": 1,
       "failed": 1
     },
     "website_title": {
-      "available": 7
+      "available": 8
     }
   },
   "profiles_with_changes": 0,
@@ -316,26 +312,28 @@
     "providers": [
       "tavily_keyless"
     ],
-    "searches": 24,
+    "searches": 10,
     "by_provider": {
-      "tavily_keyless": 24
+      "tavily_keyless": 9
     },
     "estimated_cost_usd": 0.0,
-    "disabled": {},
+    "disabled": {
+      "tavily_keyless": "HTTP 429"
+    },
     "max_searches": 150
   },
   "narratives": {
     "enabled": false
   },
   "operations": {
-    "requests": 1257,
-    "bytes_received": 101952681,
-    "p50_ms": 1216,
-    "p95_ms": 3227,
+    "requests": 1154,
+    "bytes_received": 80465640,
+    "p50_ms": 1241,
+    "p95_ms": 3405,
     "request_budget": 1950,
-    "runtime_seconds": 283.1,
-    "company_runtime_p50_ms": 11670,
-    "company_runtime_p95_ms": 102396,
+    "runtime_seconds": 289.9,
+    "company_runtime_p50_ms": 10059,
+    "company_runtime_p95_ms": 102339,
     "third_party_cost_usd": 0.0
   }
 }
