@@ -24,6 +24,7 @@ ENV_PROVIDERS = "SIGNALPOST_SEARCH_PROVIDERS"
 ENV_MAX = "SIGNALPOST_SEARCH_MAX"
 DEFAULT_MAX_SEARCHES = 150
 RESULTS = 6
+SEARCH_TIMEOUT_SECONDS = 15
 
 @dataclass(frozen=True)
 class Provider:
@@ -96,6 +97,7 @@ class SearchService:
 
     def summary(self) -> dict[str, Any]:
         return {"providers": [p.name for p, _ in self.providers], "searches": self.searches,
+                "available": self.enabled and any(p.name not in self.disabled for p, _ in self.providers),
                 "by_provider": dict(self.by_provider), "estimated_cost_usd": round(self.cost_usd, 4),
                 "disabled": dict(self.disabled), "max_searches": self.max_searches}
 
@@ -116,7 +118,9 @@ class SearchService:
                 continue
             headers, payload = provider.build(key, query)
             try:
-                resp = client.post_json(provider.url, payload, headers=headers, timeout=20)
+                # No retry: one failed call disables the provider for the run, so an outage costs one request.
+                resp = client.post_json(provider.url, payload, headers=headers, timeout=SEARCH_TIMEOUT_SECONDS,
+                                        retries=0)
             except BudgetExceeded:
                 return [], None
             except ConnectionError as err:

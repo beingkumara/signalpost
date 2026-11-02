@@ -45,3 +45,15 @@ DEFAULT_STALE_DAYS = 30
 HOST_MIN_INTERVAL_SECONDS = {"pam-stilling-feed.nav.no": 0.25}
 HOST_COOLDOWN_SECONDS = {"pam-stilling-feed.nav.no": 600}
 JOBS_FEED_DAYS = 45  # NAV feed window for active ads
+
+# Request accounting groups for the run report. Every outbound HTTP request is counted, search included.
+REQUEST_GROUPS = {
+    "data.brreg.no": "brreg_registry",
+    "pam-stilling-feed.nav.no": "nav_jobs_feed",
+    "api.tavily.com": "web_search",
+    "api.exa.ai": "web_search",
+    "api.linkup.so": "web_search",
+    "api.firecrawl.dev": "web_search",
+    "api.anthropic.com": "llm_overview",
+}
+OTHER_REQUEST_GROUP = "company_websites"

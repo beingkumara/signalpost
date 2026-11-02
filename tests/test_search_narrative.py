@@ -1,6 +1,8 @@
 import json
 import time
 
+import pytest
+
 import conftest
 from conftest import EQUINOR, FakeClient, load_fixture
 from signalpost import narrative
@@ -195,3 +197,47 @@ def test_search_candidate_needs_tie_beyond_orgnr():
 def test_http_client_post_does_not_follow_redirects():
     from signalpost.http_client import _API_OPENER, _NoRedirects
     assert any(isinstance(h, _NoRedirects) for h in _API_OPENER.handlers)
+
+
+def _search_run(tmp_path, monkeypatch, equinor_routes, extra_routes, fail=frozenset()):
+    """One company with no registry website, keyless search on, against a fake network."""
+    from signalpost import cli
+    raw = load_fixture("enhet_923609016.json")
+    raw = {k: v for k, v in raw.items() if k not in ("hjemmeside", "epostadresse")}
+    routes = {**equinor_routes, f"https://data.brreg.no/enhetsregisteret/api/enheter/{EQUINOR}": (200, raw),
+              **extra_routes}
+    monkeypatch.setenv("SIGNALPOST_SEARCH_KEYLESS", "1")  # keyed providers are blanked by conftest
+    monkeypatch.setattr(cli, "HttpClient", lambda budget: FakeClient(routes, budget=budget, fail=set(fail),
+                                                                     content_types={u: "text/html" for u in extra_routes}))
+    code = cli.main(["--profiles-dir", str(tmp_path / "p"), "run", EQUINOR, "--out", str(tmp_path / "o"),
+                     "--no-history", "--no-jobs", "--quiet"])
+    env = json.loads((tmp_path / "o" / "envelopes.jsonl").read_text().splitlines()[0])
+    return code, env, json.loads((tmp_path / "o" / "run_report.json").read_text())
+
+
+@pytest.mark.parametrize("outage", ["unreachable", "rate_limited"])
+def test_every_company_gets_a_result_when_search_is_down(tmp_path, monkeypatch, equinor_routes, outage):
+    extra = {} if outage == "unreachable" else {TAVILY: (429, {"detail": "rate limited"})}
+    fail = {TAVILY} if outage == "unreachable" else set()
+    code, env, report = _search_run(tmp_path, monkeypatch, equinor_routes, extra, fail)
+    assert code == 0 and env["state"] == "available" and report["validation"]["passed"]
+    website = next(c for c in env["claims"] if c["field"] == "official_website")
+    assert website["availability"] == "not_available"
+    assert report["search"]["available"] is False and "tavily_keyless" in report["search"]["disabled"]
+    # the failed search call is counted like every other outbound request, and only once (no retry)
+    assert report["operations"]["requests_by_group"]["web_search"] == 1
+    assert sum(report["operations"]["requests_by_group"].values()) == report["operations"]["requests"]
+
+
+def test_search_found_site_cites_the_company_site_not_the_search_or_a_directory(tmp_path, monkeypatch,
+                                                                                 equinor_routes):
+    site = "https://equinor-energy.no/"
+    extra = {TAVILY: (200, {"results": [{"url": "https://www.proff.no/selskap/equinor-asa/x"}, {"url": site}]}),
+             site: (200, "<title>Equinor</title><p>Equinor ASA org.nr. 923 609 016</p>")}
+    _, env, report = _search_run(tmp_path, monkeypatch, equinor_routes, extra)
+    website = next(c for c in env["claims"] if c["field"] == "official_website")
+    assert website["availability"] == "available" and website["value"]["origin"] == "search_candidate:tavily_keyless"
+    cited = {e["source_url"] for e in env["evidence"] if e["source_class"] == "company_owned"}
+    assert cited == {site}
+    assert not any("tavily" in u or "proff.no" in u for u in (e["source_url"] for e in env["evidence"]))
+    assert report["operations"]["requests_by_group"]["web_search"] == 1

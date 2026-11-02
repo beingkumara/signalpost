@@ -11,8 +11,14 @@ import json
 from conftest import FakeClient
 
 from signalpost import webparse as wp
+from signalpost.item_checks import assess_site_job
 from signalpost.sources.jobs import _posting
 from signalpost.sources.website import crawl_site
+
+
+def core_items(items):
+    """News items without the excerpt/kind kept for the per-item check."""
+    return [{k: i[k] for k in ("date", "title", "url")} for i in items]
 
 SITE = "https://www.acme.no/"
 HTMLCT = "text/html; charset=utf-8"
@@ -132,7 +138,7 @@ def test_crawled_site_publishes_only_matching_profiles():
 def test_article_block_with_headline_link_is_news():
     html = """<article><h2><a href="/nyheter/ny-avtale">Ny avtale med kommunen</a></h2>
     <time class="entry-date published" datetime="2026-09-01T10:00">1. september 2026</time></article>"""
-    assert wp.dated_items(page(html, "https://www.acme.no/nyheter"), today=TODAY) == [
+    assert core_items(wp.dated_items(page(html, "https://www.acme.no/nyheter"), today=TODAY)) == [
         {"date": "2026-09-01", "title": "Ny avtale med kommunen", "url": "https://www.acme.no/nyheter/ny-avtale"}]
 
 
@@ -140,20 +146,20 @@ def test_date_only_text_and_menu_labels_are_not_news():
     html = """<p><time datetime="2015-10-25">25. oktober 2015</time></p>
     <article><time datetime="2026-09-01">1. sep</time><a href="/nyheter">Se flere nyheter</a></article>
     <article><time datetime="2026-09-02">2. sep</time><a href="/kontakt">Kontakt oss</a></article>"""
-    assert wp.dated_items(page(html), today=TODAY) == []
+    assert core_items(wp.dated_items(page(html), today=TODAY)) == []
 
 
 def test_modified_dates_are_not_publish_dates():
     html = """<article><h2><a href="/nyheter/a">Vi har oppdatert prislisten</a></h2>
     <time class="updated" datetime="2026-09-03">3. sep</time></article>
     <meta property="article:modified_time" content="2026-09-04">"""
-    assert wp.dated_items(page(html), today=TODAY) == []
+    assert core_items(wp.dated_items(page(html), today=TODAY)) == []
 
 
 def test_single_post_page_with_published_time_is_news():
     html = """<meta property="og:type" content="article"><meta property="og:title" content="Vi åpner i Bergen">
     <meta property="article:published_time" content="2026-08-15T08:00:00+00:00"><title>Vi åpner i Bergen - Acme</title>"""
-    assert wp.dated_items(page(html, "https://www.acme.no/vi-apner-i-bergen/"), today=TODAY) == [
+    assert core_items(wp.dated_items(page(html, "https://www.acme.no/vi-apner-i-bergen/"), today=TODAY)) == [
         {"date": "2026-08-15", "title": "Vi åpner i Bergen", "url": "https://www.acme.no/vi-apner-i-bergen/"}]
 
 
@@ -162,7 +168,7 @@ def test_article_markup_on_service_privacy_or_home_pages_is_not_news():
     for url, headline in (("https://www.acme.no/behandlingsmetoder/", "Behandlingsmetoder i terapi"),
                           ("https://www.acme.no/personvern/", "Personvern i Acme"),
                           ("https://www.acme.no/", "Velkommen til Acme Bygg")):
-        assert wp.dated_items(page(ld % headline, url), today=TODAY) == [], url
+        assert core_items(wp.dated_items(page(ld % headline, url), today=TODAY)) == [], url
     news = page(ld % "Acme vinner pris for beste bygg", "https://www.acme.no/nyheter/acme-vinner-pris")
     assert wp.dated_items(news, today=TODAY)[0]["title"] == "Acme vinner pris for beste bygg"
 
@@ -170,7 +176,7 @@ def test_article_markup_on_service_privacy_or_home_pages_is_not_news():
 def test_future_dates_are_not_news():
     html = '<article><h2><a href="/nyheter/kurs">Kurs i sikkerhet for alle ansatte</a></h2>' \
            '<time datetime="2027-01-10">10. jan</time></article>'
-    assert wp.dated_items(page(html), today=TODAY) == []
+    assert core_items(wp.dated_items(page(html), today=TODAY)) == []
 
 
 # 4. Jobs ---------------------------------------------------------------------------------------------------
@@ -205,8 +211,10 @@ def _jobposting(**extra) -> str:
 def test_job_posting_for_another_employer_is_dropped():
     other = page(_jobposting(hiringOrganization={"@type": "Organization", "name": "Fjordlys Gruppen AS"}))
     own = page(_jobposting(hiringOrganization={"@type": "Organization", "name": "Acme Bygg AS"}))
-    assert wp.job_postings(other, OWNERS, today=TODAY) == []
-    assert wp.job_postings(own, OWNERS, today=TODAY)[0]["url"] == "https://www.acme.no/jobb/tomrer"
+    other_ad = wp.job_postings(other, OWNERS, today=TODAY)[0]
+    own_ad = wp.job_postings(own, OWNERS, today=TODAY)[0]
+    assert assess_site_job(other_ad, OWNERS, "high") is None  # the group's ad, not this company's
+    assert assess_site_job(own_ad, OWNERS, "high")["url"] == "https://www.acme.no/jobb/tomrer"
 
 
 def test_expired_job_posting_is_dropped():
@@ -259,10 +267,11 @@ def test_recruitment_platform_account_must_be_in_the_host():
     assert wp.careers_platforms(page(html), OWNERS) == {"Recman": "https://acmebygg.recman.page/"}
 
 
-def test_careers_page_label_says_it_is_not_a_job_ad():
+def test_careers_link_without_an_opening_is_cant_tell():
     html = "<title>Fjordlys Bygg</title><p>Org.nr 923 609 016</p><a href='/karriere'>Karriere</a>"
-    fact = {f.field: f for f in crawl({SITE: (200, html)}).facts}["careers_page"]
-    assert "not a job ad" in fact.label
+    result = crawl({SITE: (200, html)})
+    assert "careers_page" not in {f.field for f in result.facts}
+    assert "no opening" in result.extra["withheld"]["careers_page"]
 
 
 def test_malformed_urls_do_not_crash_parsing_or_filters():
@@ -298,7 +307,7 @@ def test_link_wrapping_the_heading_and_unclosed_tags():
 
 def test_impossible_dates_and_list_types():
     bad = '<article><h2><a href="/nyheter/a">En sak med ugyldig dato</a></h2><time datetime="2026-02-31">x</time></article>'
-    assert wp.dated_items(page(bad), today=TODAY) == []
+    assert core_items(wp.dated_items(page(bad), today=TODAY)) == []
     listed = page('<script type="application/ld+json">{"@type":["NewsArticle"],"url":"https://www.acme.no/nyheter/x",'
                   '"headline":"Acme vinner pris for bygg","datePublished":"2026-01-01"}</script>')
     assert wp.dated_items(listed, today=TODAY)

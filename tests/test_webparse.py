@@ -1,5 +1,10 @@
 from signalpost import webparse as wp
 
+
+def core_items(items):
+    """News items without the excerpt/kind kept for the per-item check."""
+    return [{k: i[k] for k in ("date", "title", "url")} for i in items]
+
 SITE = "https://www.acme.no/"
 HTML = """<html><head><title> Acme Bygg | Hjem </title>
 <meta name="description" content="Acme Bygg bygger hus i Bergen.">
@@ -45,7 +50,7 @@ def test_contacts_social_and_news():
     assert wp.phones(p) == ["+4791234567", "+4755123456"]
     assert wp.social_links(p, ("ACME BYGG AS", SITE)) == {"linkedin": "https://www.linkedin.com/company/acme",
                                   "facebook": "https://www.facebook.com/acmebygg"}
-    assert wp.dated_items(p, today="2026-10-23")[0] == {"date": "2026-09-01", "title": "Ny avtale med kommunen",
+    assert core_items(wp.dated_items(p, today="2026-10-23"))[0] == {"date": "2026-09-01", "title": "Ny avtale med kommunen",
                                                         "url": "https://www.acme.no/nyheter/ny-avtale"}
 
 
@@ -82,7 +87,8 @@ def test_job_postings_and_careers_platforms():
     <a href="https://acme.teamtailor.com/jobs">Ledige stillinger</a>"""
     p = wp.parse_page(html, SITE)
     assert wp.job_postings(p, ("ACME BYGG AS", SITE), today="2026-09-15") == [{"title": "Tømrer", "published": "2026-09-01", "expires": "2026-10-01",
-                                   "location": "Bergen", "url": "https://acme.no/jobb/1"}]
+                                   "location": "Bergen", "url": "https://acme.no/jobb/1",
+                                       "employer": None}]
     assert wp.careers_platforms(p, ("ACME BYGG AS", SITE)) == {"Teamtailor": "https://acme.teamtailor.com/jobs"}
 
 

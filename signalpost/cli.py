@@ -84,6 +84,20 @@ def _parser() -> argparse.ArgumentParser:
     smp.add_argument("--seed", type=int, default=20260823)
     smp.add_argument("--out", type=Path, default=Path("data/smoke-companies.jsonl"))
     smp.set_defaults(handler=_cmd_sample)
+
+    aus = sub.add_parser("audit-sample", help="write a hand-check sheet of published entries per source type")
+    aus.add_argument("--envelopes", type=Path, required=True)
+    aus.add_argument("--out", type=Path, default=Path("audit/sheet.csv"))
+    aus.add_argument("--per-type", type=int, default=20)
+    aus.add_argument("--seed", type=int, default=20261101)
+    aus.add_argument("--per-company", type=int, default=1, help="max entries from one company per source type")
+    aus.set_defaults(handler=_cmd_audit_sample)
+
+    asc = sub.add_parser("audit-score", help="publish how often each source type is right from a checked sheet")
+    asc.add_argument("--sheet", type=Path, required=True)
+    asc.add_argument("--out", type=Path, default=Path("ACCURACY.md"))
+    asc.add_argument("--label", default="a Signalpost run", help="which run the sample came from")
+    asc.set_defaults(handler=_cmd_audit_score)
     return parser
 
 
@@ -216,4 +230,36 @@ def _cmd_sample(args: argparse.Namespace) -> int:
     args.out.parent.mkdir(parents=True, exist_ok=True)
     args.out.write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in chosen), encoding="utf-8")
     print(f"Wrote {len(chosen)} companies to {args.out}", file=sys.stderr)
+    return 0
+
+
+def _cmd_audit_sample(args: argparse.Namespace) -> int:
+    from signalpost import audit
+
+    rows = audit.sample(args.envelopes, args.per_type, args.seed, args.per_company)
+    audit.write_sheet(rows, args.out)
+    print(f"wrote {len(rows)} entries to {args.out}; fill 'verdict' with right, wrong or unsure")
+    return 0
+
+
+def _cmd_audit_score(args: argparse.Namespace) -> int:
+    from signalpost import audit
+
+    try:
+        rows = audit.read_sheet(args.sheet)
+    except ValueError as err:
+        print(f"error: {err}", file=sys.stderr)
+        return 2
+    checked = sum(1 for r in rows if (r.get("verdict") or "").strip())
+    if not checked:
+        print(f"error: no verdicts in {args.sheet}: open each check_url and write right, wrong or unsure in the "
+              f"'verdict' column of all {len(rows)} rows, then run this again", file=sys.stderr)
+        return 2
+    if checked < len(rows):
+        print(f"note: {len(rows) - checked} of {len(rows)} rows have no verdict and are reported as unchecked",
+              file=sys.stderr)
+    scores = audit.score(rows)
+    args.out.write_text(audit.markdown(scores, rows, args.label), encoding="utf-8")
+    args.out.with_suffix(".json").write_text(json.dumps(scores, indent=2), encoding="utf-8")
+    print(f"wrote {args.out} and {args.out.with_suffix('.json')}")
     return 0

@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import ipaddress
 import socket
+import threading
 from urllib.parse import urlparse
 
 ALLOWED_SCHEMES = {"http", "https"}
@@ -49,7 +50,27 @@ def resolve_host(host: str) -> list[str]:
     return sorted({info[4][0] for info in infos})
 
 
+class _ProbeCounter:
+    """DNS-only probes for guessed domains. They are not HTTP requests, but are reported for transparency."""
+
+    def __init__(self) -> None:
+        self._lock = threading.Lock()
+        self.count = 0
+
+    def add(self) -> None:
+        with self._lock:
+            self.count += 1
+
+    def reset(self) -> None:
+        with self._lock:
+            self.count = 0
+
+
+DNS_PROBES = _ProbeCounter()
+
+
 def host_resolves(host: str) -> bool:
+    DNS_PROBES.add()
     try:
         return bool(resolve_host(host))
     except UnsafeUrl:

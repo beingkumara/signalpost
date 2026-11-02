@@ -20,7 +20,8 @@ def test_registry_site_with_orgnr_publishes_facts():
     assert fields["official_website"].confidence == "high"
     assert "923 609 016" in fields["official_website"].evidence["claim_span"]
     assert fields["website_emails"].value == ["post@acme.no"]
-    assert fields["careers_page"].value == "https://www.acme.no/karriere"
+    assert "careers_page" not in fields  # a careers link alone shows no opening for this company
+    assert "no opening" in result.extra["withheld"]["careers_page"]
     assert fields["social_profiles"].value["linkedin"].endswith("/company/acme")
     assert fields["brand_name"].value == "Acme"
     assert all(f.source.content_sha256 for f in result.facts)

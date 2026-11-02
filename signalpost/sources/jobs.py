@@ -12,10 +12,12 @@ import email.utils
 import time
 from collections import defaultdict
 from dataclasses import dataclass, field
+from datetime import date
 from typing import Any
 
 from signalpost.facts import PUBLIC_JOBS, Fact, Source, make_fact
 from signalpost.http_client import BudgetExceeded, HttpClient
+from signalpost.item_checks import nav_job_reason
 from signalpost.modules import AVAILABLE, BLOCKED, FAILED, NOT_AVAILABLE, ModuleResult
 from signalpost.sources.discovery import name_tokens, slug_tokens
 
@@ -126,8 +128,9 @@ def jobs_for_company(client: HttpClient, token: str, index: FeedIndex, orgnr: st
             continue
         content = (resp.json() or {}).get("ad_content") or {}
         employer = content.get("employer") or {}
-        if employer.get("orgnr") in wanted:
-            verified.append((_posting(content, employer), resp))
+        posting = _posting(content, employer)
+        if employer.get("orgnr") in wanted and not _expired(posting):
+            verified.append((posting, resp))
     if not verified:
         return ModuleResult("jobs", NOT_AVAILABLE, (), f"ads with a similar employer name in the {scope} "
                             "belong to other org numbers", FEED_URL)
@@ -152,6 +155,10 @@ def _posting(content: dict[str, Any], employer: dict[str, Any]) -> dict[str, Any
     }
 
 
+def _expired(posting: dict[str, Any], today: str | None = None) -> bool:
+    return bool(posting.get("expires")) and posting["expires"] < (today or date.today().isoformat())
+
+
 def _ad_url(content: dict[str, Any]) -> str | None:
     """The single NAV ad. `sourceurl` can be the employer's careers landing page, so it is never used."""
     link = content.get("link") or ""
@@ -167,7 +174,8 @@ def _facts(verified: list[tuple[dict[str, Any], Any]], orgnr: str) -> tuple[Fact
     evidence = {"matched_orgnr": orgnr, "identity": "employer_orgnr_on_ad",
                 "ads": [{"url": r.url, "content_sha256": r.sha256, "employer_orgnr": p["employer_orgnr"]}
                         for p, r in ordered]}
-    postings = [{k: v for k, v in p.items() if k != "employer_homepage"} for p, _ in ordered]
+    postings = [{**{k: v for k, v in p.items() if k != "employer_homepage"}, "confidence": "high",
+                 "reason": nav_job_reason(p, orgnr)} for p, _ in ordered]
     span = f"employer orgnr {first['employer_orgnr']}: {first['title']}"
     return (
         make_fact("job_postings", postings, source, first_resp.fetched_at, label="Active job postings (NAV)",

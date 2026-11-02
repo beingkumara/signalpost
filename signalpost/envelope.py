@@ -5,7 +5,8 @@ from __future__ import annotations
 from typing import Any
 
 from signalpost.explain import change_notes, money
-from signalpost.modules import AVAILABLE, FAILED, NOT_APPLICABLE, NOT_AVAILABLE
+from signalpost.item_checks import CANT_TELL
+from signalpost.modules import AMBIGUOUS, AVAILABLE, FAILED, NOT_APPLICABLE, NOT_AVAILABLE
 
 CONFIDENCE = {"high": 0.97, "medium": 0.8, "low": 0.5}
 
@@ -40,6 +41,7 @@ EXPECTED: dict[str, list[tuple[str, str, str]]] = {
     "hiring_and_activity": [
         ("job_postings", "jobs", "Active job postings"), ("careers_page", "website", "Careers page"),
         ("website_job_postings", "website", "Job postings on company website"),
+        ("careers_platform", "website", "Recruitment platform"),
         ("website_news", "website", "Dated news on company website"),
         ("registry_events", "registry", "Dated events in official records"),
         ("official_changes", "official_changes", "Changes recorded by Brønnøysund (last 12 months)"),
@@ -107,7 +109,16 @@ def _entity_state(status: str) -> str:
     return {"not_found": NOT_AVAILABLE, "invalid_input": FAILED, "lookup_failed": FAILED}.get(status, AVAILABLE)
 
 
+def _withheld(profile: dict[str, Any]) -> dict[str, str]:
+    """Fields (or some of their entries) left out as "can't tell", with the reason, across modules."""
+    out: dict[str, str] = {}
+    for module in profile.get("modules", []):
+        out.update(module.get("withheld") or {})
+    return out
+
+
 def _claims_and_evidence(profile: dict[str, Any]) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    withheld = _withheld(profile)
     evidence: list[dict[str, Any]] = []
     index: dict[tuple, str] = {}
     claims: list[dict[str, Any]] = []
@@ -135,6 +146,8 @@ def _claims_and_evidence(profile: dict[str, Any]) -> tuple[list[dict[str, Any]],
         period = ev.get("period")
         if period:
             claim["reporting_period"] = period
+        if fact["field"] in withheld:
+            claim["note"] = f"{CANT_TELL}: {withheld[fact['field']]}"
         if fact.get("stale"):
             claim["stale"] = True
             claim["stale_reason"] = fact.get("stale_reason")
@@ -166,6 +179,8 @@ def _missing_state(profile: dict[str, Any], module: dict[str, Any] | None, name:
         return NOT_APPLICABLE, "company has opted out of statutory audit"
     if module is None:
         return NOT_AVAILABLE, f"{name} source not checked for this entity type"
+    if field in (module.get("withheld") or {}):
+        return AMBIGUOUS, f"{CANT_TELL}: {module['withheld'][field]}"
     if module["state"] == AVAILABLE:
         return NOT_AVAILABLE, f"{name} source checked; this field was not present"
     return module["state"], module.get("reason") or module["state"]

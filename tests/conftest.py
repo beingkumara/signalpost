@@ -34,7 +34,7 @@ class FakeClient(HttpClient):
         return self.get(url)
 
     def get(self, url: str, **kwargs: Any) -> Response:
-        self._reserve()
+        self._reserve(url)
         self.calls.append(url)
         if url in self.fail:
             raise ConnectionError(f"simulated failure for {url}")
@@ -86,3 +86,10 @@ RESOLVABLE: set[str] = set()
 def _no_keyless_search(monkeypatch):
     """Tests never reach a real search API unless they opt in."""
     monkeypatch.setenv("SIGNALPOST_SEARCH_KEYLESS", "0")
+
+
+@pytest.fixture(autouse=True)
+def _no_local_keys(monkeypatch):
+    """The developer's git-ignored .env must not leak into tests: an empty value blocks loading it."""
+    for key in ("TAVILY_API_KEY", "EXA_API_KEY", "LINKUP_API_KEY", "FIRECRAWL_API_KEY", "ANTHROPIC_API_KEY"):
+        monkeypatch.setenv(key, "")

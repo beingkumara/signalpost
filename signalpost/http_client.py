@@ -9,6 +9,7 @@ import threading
 import time
 import urllib.error
 import urllib.request
+from collections import Counter
 from dataclasses import dataclass
 from typing import Any
 from urllib.parse import quote, urlparse, urlunparse
@@ -62,6 +63,17 @@ def normalise_url(url: str) -> str:
                        quote(parsed.query, safe=safe + "?"), ""))
 
 
+def request_group(url: str) -> str:
+    """The accounting group of a URL; unknown hosts are company websites (and their robots.txt)."""
+    try:
+        host = (urlparse(url).hostname or "").lower()
+    except ValueError:
+        host = ""
+    if not host:
+        return "unknown"
+    return config.REQUEST_GROUPS.get(host, config.OTHER_REQUEST_GROUP)
+
+
 def utc_now_iso() -> str:
     return time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
 
@@ -76,7 +88,11 @@ class _SafeRedirects(urllib.request.HTTPRedirectHandler):
             check_url(newurl)
         new = super().redirect_request(req, fp, code, msg, headers, newurl)
         if new is not None:
+            on_redirect = getattr(req, "on_redirect", None)
+            if on_redirect is not None:
+                on_redirect(newurl)  # each hop is another outbound request; may raise BudgetExceeded
             new.untrusted = getattr(req, "untrusted", False)
+            new.on_redirect = on_redirect
         return new
 
 
@@ -99,6 +115,7 @@ class HttpClient:
         self._used = 0
         self._bytes = 0
         self._latencies: list[int] = []
+        self._by_group: Counter[str] = Counter()
         self._lock = threading.Lock()
         self._host_next: dict[str, float] = {}
         self._host_cooldown: dict[str, float] = {}
@@ -124,13 +141,20 @@ class HttpClient:
             "bytes_received": self._bytes,
             "p50_ms": lat[len(lat) // 2] if lat else None,
             "p95_ms": lat[min(len(lat) - 1, int(len(lat) * 0.95))] if lat else None,
+            "requests_by_group": self.requests_by_group(),
         }
 
-    def _reserve(self) -> None:
+    def requests_by_group(self) -> dict[str, int]:
+        """Requests per source group (registry, NAV feed, web search, LLM, company websites)."""
+        with self._lock:
+            return dict(sorted(self._by_group.items()))
+
+    def _reserve(self, url: str = "") -> None:
         with self._lock:
             if self._used >= self._budget:
                 raise BudgetExceeded(f"request budget of {self._budget} exhausted")
             self._used += 1
+            self._by_group[request_group(url)] += 1
 
     def _host_gate(self, url: str) -> Response | None:
         """Pace polite hosts; return a synthetic 429 while a host is cooling down (no request made)."""
@@ -187,7 +211,7 @@ class HttpClient:
             gated = self._host_gate(url)
             if gated is not None:
                 return gated
-            self._reserve()
+            self._reserve(url)
             started = time.monotonic()
             try:
                 resp = self._fetch_once(url, accept, timeout, max_bytes, untrusted, headers or {})
@@ -220,7 +244,7 @@ class HttpClient:
         body = json.dumps(payload).encode("utf-8")
         last_error: Exception | None = None
         for attempt in range(retries + 1):
-            self._reserve()
+            self._reserve(url)
             started = time.monotonic()
             try:
                 resp = self._fetch_once(url, "application/json", timeout, None, False,
@@ -250,6 +274,7 @@ class HttpClient:
                                                               "Accept-Language": "nb-NO,nb;q=0.9,en;q=0.8",
                                                               **extra_headers})
         req.untrusted = untrusted  # type: ignore[attr-defined]
+        req.on_redirect = self._reserve  # type: ignore[attr-defined]
         with (opener or _OPENER).open(req, timeout=timeout) as resp:
             body = resp.read(max_bytes) if max_bytes else resp.read()
             return Response(url, resp.geturl(), resp.status, body, _lower(resp.headers), utc_now_iso())

@@ -26,7 +26,7 @@ def _slim(envelope: dict[str, Any]) -> dict[str, Any]:
         "statements": envelope.get("summary", {}).get("statements", []),
         "narrative": (envelope.get("summary", {}).get("narrative") or {}).get("sentences", []),
         "claims": [{k: c.get(k) for k in ("id", "field", "section", "label", "value", "availability", "reason",
-                                          "evidence_ids", "as_of", "stale")} for c in envelope.get("claims", [])],
+                                          "evidence_ids", "as_of", "stale", "note")} for c in envelope.get("claims", [])],
         "evidence": {e["id"]: {k: e.get(k) for k in ("source_url", "human_url", "source_class", "retrieved_at",
                                                       "content_sha256", "claim_span", "json_path")}
                      for e in envelope.get("evidence", [])},
@@ -78,6 +78,8 @@ details.ev{font-size:.8rem;color:var(--muted);margin-top:2px}details.ev a{color:
 .stmt{margin:.3rem 0}.stmt small{color:var(--muted)}
 table{border-collapse:collapse;width:100%;font-size:.85rem}td,th{border:1px solid var(--line);padding:6px;vertical-align:top;text-align:left;overflow-wrap:anywhere}
 .cmp{overflow:auto}.empty{color:var(--muted)}
+ul.entries{margin:4px 0;padding-left:18px}ul.entries li{margin:4px 0}.why{display:block;color:var(--muted);font-size:.8rem}
+.b-high{color:var(--ok)}.b-medium{color:var(--warn)}.note{display:block;color:var(--muted);font-size:.8rem}
 </style></head><body>
 <header><h1>Signalpost company profiles</h1><div class="meta" id="meta"></div>
 <div class="bar"><input id="q" type="search" placeholder="Search name or org number" aria-label="Search companies">
@@ -89,6 +91,12 @@ const DATA=__DATA__;const META=__META__;
 const $=s=>document.querySelector(s);
 function h(tag,attrs,...kids){const e=document.createElement(tag);for(const[k,v]of Object.entries(attrs||{})){if(k==="class")e.className=v;else if(k.startsWith("on"))e.addEventListener(k.slice(2),v);else e.setAttribute(k,v)}for(const k of kids.flat()){if(k==null)continue;e.append(k instanceof Node?k:document.createTextNode(String(k)))}return e}
 function fmt(v){if(v==null)return"";if(Array.isArray(v))return v.map(fmt).join("; ");if(typeof v==="object"){if("amount"in v&&"currency"in v)return v.currency+" "+Number(v.amount).toLocaleString("en")+(v.year?" ("+v.year+")":"");if(v.text)return v.text;if(v.name)return v.name+(v.role?" ("+v.role+")":"");if(v.final_url)return v.final_url+" · "+(v.verification||"");if(v.title)return(v.date||v.published||"")+" "+v.title;if(v.year&&v.copy_url)return v.year;if(v.description&&v.date)return v.date+" "+v.description;if(v.code)return v.code+" "+(v.description||"");return Object.entries(v).map(([k,x])=>k+": "+fmt(x)).join(", ")}return String(v)}
+function entries(v){return h("ul",{class:"entries"},v.map(i=>{const url=safeUrl(i.url);return h("li",{},
+url?h("a",{href:url,target:"_blank",rel:"noopener noreferrer"},i.title||i.url):(i.title||""),
+" ",i.date||i.published?h("span",{class:"meta"},"· "+(i.date||i.published)):null,
+h("span",{class:"badge b-"+i.confidence},i.confidence+" confidence"),h("span",{class:"why"},i.reason||""))}))}
+function hasEntries(v){return Array.isArray(v)&&v.length&&typeof v[0]==="object"&&v[0]&&"confidence"in v[0]}
+function stateBadge(c){const cant=(c.reason||"").startsWith("can't tell");return h("span",{class:"badge b-"+c.availability},cant?"can't tell":c.availability)}
 function safeUrl(u){try{const p=new URL(u);return p.protocol==="https:"||p.protocol==="http:"?p.href:null}catch(e){return null}}
 const selected=new Set();let current=null;
 $("#meta").textContent=`${META.companies} companies · run ${META.run_id||""} · completed ${META.completed_at||""} · ${META.requests||0} requests · every value links to its source`;
@@ -109,7 +117,7 @@ if(d.narrative&&d.narrative.length){p.append(h("h3",{},"Overview"));p.append(h("
 if(d.statements.length){p.append(h("h3",{},"Key points"));for(const s of d.statements)p.append(h("p",{class:"stmt"},s.text," ",h("small",{},s.claim_ids.length?"["+s.claim_ids.join(", ")+"]":"")))}
 if(d.changes.length){const sec=h("section",{},h("h3",{},"Changes since previous check"));for(const c of d.changes)sec.append(h("div",{class:"claim"},h("div",{class:"label"},(c.label||c.field)+" · "+c.change_type),h("div",{class:"value"},c.change==="added"?"New: "+fmt(c.new):c.change==="removed"?"Removed: "+fmt(c.old):fmt(c.old)+" → "+fmt(c.new))));p.append(sec)}
 for(const[s,title]of Object.entries(META.sections)){const sec=h("section",{},h("h3",{},title,h("span",{class:"badge b-"+d.sections[s]},d.sections[s])));
-for(const c of d.claims.filter(c=>c.section===s)){const val=c.availability==="available"?h("div",{class:"value",id:c.id},fmt(c.value),c.stale?h("span",{class:"badge b-ambiguous"},"stale"):null,evidence(d,c)):h("div",{class:"value empty"},h("span",{class:"badge b-"+c.availability},c.availability)," ",c.reason||"");
+for(const c of d.claims.filter(c=>c.section===s)){const val=c.availability==="available"?h("div",{class:"value",id:c.id},hasEntries(c.value)?entries(c.value):fmt(c.value),c.stale?h("span",{class:"badge b-ambiguous"},"stale"):null,c.note?h("span",{class:"note"},c.note):null,evidence(d,c)):h("div",{class:"value empty"},stateBadge(c)," ",(c.reason||"").replace(/^can't tell: /,""));
 sec.append(h("div",{class:"claim"},h("div",{class:"label"},(c.label||c.field)+" "+(c.as_of?"· "+c.as_of:"")),val))}p.append(sec)}}
 function compare(){const ids=[...selected].slice(0,4);if(ids.length<2){alert("Select at least two companies with the checkboxes.");return}
 const rows=DATA.filter(d=>ids.includes(d.org));const fields=["organization_form","business_address","industry_codes","employees","revenue","net_profit","equity","ceo","board_chair","official_website","social_profiles","job_postings"];

@@ -22,6 +22,7 @@ from urllib.parse import urlparse
 from signalpost import config
 from signalpost.facts import COMPANY_OWNED, Fact, Source, make_fact
 from signalpost.http_client import BudgetExceeded, HttpClient, Response
+from signalpost.item_checks import assess_news, assess_site_job, login_url, lowest, parent_group_accounts
 from signalpost.modules import (
     AMBIGUOUS,
     AVAILABLE,
@@ -49,6 +50,7 @@ from signalpost.webparse import (
     phones,
     registrable_domain,
     same_site,
+    social_account,
     social_links,
 )
 
@@ -132,9 +134,9 @@ def crawl_site(client: HttpClient, start_url: str, orgnr: str, name: str, *, dis
                                 "but is not tied to the company by title, domain or postcode", start_url)
         proof = {**proof, "level": "orgnr_on_page", "search_tie": True}
     if proof["level"] == "orgnr_on_page" or (proof["level"] == "name_on_page" and not discovered):
-        facts = _facts(crawl.pages, proof, orgnr, name, start_url, origin)
+        facts, withheld = _facts(crawl.pages, proof, orgnr, name, start_url, origin)
         return ModuleResult(module, AVAILABLE, facts, None, home_resp.final_url, home_resp.fetched_at,
-                            {"identity": proof, "pages": [p.url for p, _ in crawl.pages]})
+                            {"identity": proof, "pages": [p.url for p, _ in crawl.pages], "withheld": withheld})
     if proof.get("other_orgnrs"):
         numbers = ", ".join(proof["other_orgnrs"])
         why = (f"lists {orgnr} among other org numbers ({numbers}) and its title and domain do not name this company"
@@ -256,7 +258,8 @@ def _identity(pages: list[tuple[Page, Response]], orgnr: str, name: str) -> dict
 
 
 def _facts(pages: list[tuple[Page, Response]], proof: dict[str, Any], orgnr: str, name: str, start_url: str,
-           origin: str) -> tuple[Fact, ...]:
+           origin: str) -> tuple[tuple[Fact, ...], dict[str, str]]:
+    """Facts from a verified site, plus fields withheld as "can't tell" with the reason."""
     confidence = "high" if proof["level"] == "orgnr_on_page" and not proof.get("search_tie") else "medium"
     guard = {"matched_orgnr": orgnr, "identity": proof["level"], "proof_url": proof["proof_url"],
              "website_origin": origin}
@@ -279,28 +282,33 @@ def _facts(pages: list[tuple[Page, Response]], proof: dict[str, Any], orgnr: str
     brand = home.site_name or next((str(o["name"]) for o in home.jsonld
                                     if o.get("@type") in ("Organization", "Corporation", "LocalBusiness")
                                     and o.get("name")), None)
+    owners: tuple[str, ...] = (name, home_resp.final_url)
     if brand and handle_matches(brand, (name, home_resp.final_url)):  # not the web agency's or group's brand
         out.append(fact("brand_name", brand[:120], home_resp, "Public brand name on website", brand, "meta_og"))
+        owners = (name, brand, home_resp.final_url)
     if home.title:
         out.append(fact("website_title", home.title[:300], home_resp, "Website title", home.title, "html_title"))
     if home.description:
         out.append(fact("website_description", home.description[:600], home_resp, "Self-description on website",
                         home.description[:300], "meta_description"))
-    _collect(out, pages, fact, home_resp, (name, home_resp.final_url))
-    return tuple(out)
+    group_site = sorted(proof.get("other_orgnrs") or [])
+    withheld = _collect(out, pages, fact, home_resp, owners, confidence, group_site)
+    return tuple(out), withheld
 
 
 def _collect(out: list[Fact], pages: list[tuple[Page, Response]], fact: Any, home_resp: Response,
-             owners: tuple[str, str]) -> None:
+             owners: tuple[str, ...], site_confidence: str, group_site: list[str] | None = None) -> dict[str, str]:
     all_emails: list[str] = []
     all_phones: list[str] = []
     social: dict[str, str] = {}
     news: list[dict[str, str]] = []
     careers_url: str | None = None
+    login_links: list[str] = []
     site_jobs: list[dict[str, Any]] = []
     platforms: dict[str, str] = {}
     jobs_resp = platform_resp = home_resp
     email_resp = phone_resp = social_resp = news_resp = home_resp
+    handle_owners = (owners[0], owners[-1])  # legal name and verified site: the starter kit's handle rule
     for page, resp in pages:
         found = [e for e in emails(page, home_resp.final_url) if e not in all_emails]
         if found and not all_emails:
@@ -310,15 +318,15 @@ def _collect(out: list[Fact], pages: list[tuple[Page, Response]], fact: Any, hom
         if numbers and not all_phones:
             phone_resp = resp
         all_phones += numbers
-        links = {k: v for k, v in social_links(page, owners).items() if k not in social}
+        links = {k: v for k, v in social_links(page, handle_owners).items() if k not in social}
         if links and not social:
             social_resp = resp
         social.update(links)
-        found_jobs = job_postings(page, owners)
+        found_jobs = job_postings(page, handle_owners)
         if found_jobs and not site_jobs:
             jobs_resp = resp
         site_jobs += found_jobs
-        found_platforms = {k: v for k, v in careers_platforms(page, owners).items() if k not in platforms}
+        found_platforms = {k: v for k, v in careers_platforms(page, handle_owners).items() if k not in platforms}
         if found_platforms and not platforms:
             platform_resp = resp
         platforms.update(found_platforms)
@@ -328,31 +336,87 @@ def _collect(out: list[Fact], pages: list[tuple[Page, Response]], fact: Any, hom
         news += items
         for url, text in page.links:
             if careers_url is None and same_site(url, home_resp.final_url) and classify_link(url, text) == "careers":
-                careers_url = url.split("#")[0]
+                if login_url(url):
+                    login_links.append(url)
+                else:
+                    careers_url = url.split("#")[0]
     if all_emails:
         out.append(fact("website_emails", all_emails[:5], email_resp, "Contact emails on website",
                         ", ".join(all_emails[:5]), "mailto_links"))
     if all_phones:
         out.append(fact("website_phones", all_phones[:5], phone_resp, "Phone numbers on website",
                         ", ".join(all_phones[:5]), "tel_links"))
+    withheld: dict[str, str] = {}
+    social = _own_accounts(social, owners[0], group_site or [], withheld)
     if social:
         out.append(fact("social_profiles", dict(sorted(social.items())), social_resp,
                         "Company-owned social profiles linked from the verified website",
                         " ".join(sorted(social.values())), "outbound_links"))
-    if careers_url:
-        out.append(fact("careers_page", careers_url, home_resp, "Careers landing page on website (not a job ad)", careers_url,
-                        "link_classifier"))
-    if site_jobs:
-        unique_jobs = sorted({(j["title"], j["url"]): j for j in site_jobs}.values(),
-                             key=lambda j: (j["published"] or "", j["title"]), reverse=True)[:10]
-        out.append(fact("website_job_postings", unique_jobs, jobs_resp, "Job postings published on the company website",
-                        unique_jobs[0]["title"], "jsonld_jobposting"))
-    if platforms:
+    _publish_jobs(out, fact, site_jobs, jobs_resp, owners, site_confidence, withheld)
+    openings = next((f for f in out if f.field == "website_job_postings"), None)
+    if careers_url and openings:
+        out.append(fact("careers_page", careers_url, home_resp, "Careers page on website",
+                        careers_url, "link_classifier", conf="medium"))
+    elif careers_url or login_links:
+        withheld["careers_page"] = ("careers link found but no opening for this company was seen on the site"
+                                    if careers_url else "careers link is a sign-in page, which shows no public opening")
+    platforms = {k: v for k, v in platforms.items() if not login_url(v)}
+    if platforms and openings:
         out.append(fact("careers_platform", dict(sorted(platforms.items())), platform_resp,
                         "Recruitment platform linked from the website", " ".join(sorted(platforms.values())),
-                        "outbound_links"))
-    if news:
-        unique = {(i["date"], i["title"]): i for i in news}
-        items = sorted(unique.values(), key=lambda i: i["date"], reverse=True)[:10]
-        out.append(fact("website_news", items, news_resp, "Dated news and updates on the company website",
-                        f"{items[0]['date']} {items[0]['title']}", "time_tags"))
+                        "outbound_links", conf="medium"))
+    elif platforms:
+        withheld["careers_platform"] = ("the company's recruitment account is linked, but no opening for this "
+                                        "company was seen")
+    _publish_news(out, fact, news, news_resp, owners, site_confidence, withheld)
+    return withheld
+
+
+def _own_accounts(social: dict[str, str], name: str, group_site: list[str],
+                  withheld: dict[str, str]) -> dict[str, str]:
+    """Drop accounts that belong to a parent group, a sibling or a region rather than this company."""
+    if not social:
+        return social
+    if group_site:  # the site states several companies' org numbers: its accounts can't be tied to this one
+        withheld["social_profiles"] = (f"the website also states org number(s) {', '.join(group_site[:3])}, so its "
+                                       "social accounts may belong to a parent or sibling company")
+        return {}
+    handles = {net: (social_account(url) or ("", "", ""))[1] for net, url in social.items()}
+    dropped = parent_group_accounts(social, handles, name)
+    if dropped:
+        withheld["social_profiles"] = "; ".join(dropped[n] for n in sorted(dropped))
+    return {net: url for net, url in social.items() if net not in dropped}
+
+
+def _publish_jobs(out: list[Fact], fact: Any, site_jobs: list[dict[str, Any]], resp: Response,
+                  owners: tuple[str, ...], site_confidence: str, withheld: dict[str, str]) -> None:
+    unique = sorted({(j["title"], j["url"]): j for j in site_jobs}.values(),
+                    key=lambda j: (j["published"] or "", j["title"]), reverse=True)
+    assessed = [assess_site_job(j, owners, site_confidence) for j in unique]
+    kept = [a for a in assessed if a][:10]
+    dropped = sum(1 for a in assessed if a is None)
+    if not kept:
+        if unique:
+            withheld["website_job_postings"] = (f"{len(unique)} job ad(s) on the site do not name this company as "
+                                                "employer (could be another group company's opening)")
+        return
+    out.append(fact("website_job_postings", kept, resp, "Job postings published on the company website",
+                    kept[0]["title"], "jsonld_jobposting", conf=lowest([j["confidence"] for j in kept])))
+    if dropped:
+        withheld["website_job_postings"] = f"{dropped} other job ad(s) left out: they do not name this company"
+
+
+def _publish_news(out: list[Fact], fact: Any, news: list[dict[str, Any]], resp: Response,
+                  owners: tuple[str, ...], site_confidence: str, withheld: dict[str, str]) -> None:
+    unique = sorted({(i["date"], i["title"]): i for i in news}.values(), key=lambda i: i["date"], reverse=True)
+    assessed = [assess_news(i, owners, site_confidence) for i in unique]
+    kept = [a for a in assessed if a][:10]
+    dropped = sum(1 for a in assessed if a is None)
+    if not kept:
+        if unique:
+            withheld["website_news"] = f"{len(unique)} dated post(s) found, but none names the company"
+        return
+    out.append(fact("website_news", kept, resp, "Dated news and updates on the company website",
+                    f"{kept[0]['date']} {kept[0]['title']}", "time_tags", conf=lowest([i["confidence"] for i in kept])))
+    if dropped:
+        withheld["website_news"] = f"{dropped} other dated post(s) left out: they do not name the company"

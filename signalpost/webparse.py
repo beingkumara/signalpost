@@ -20,6 +20,7 @@ _SHARE_SEGMENTS = {"sharer", "sharer.php", "share", "share.php", "intent", "shar
 _EMAIL = re.compile(r"^[A-Za-z0-9._%+\-]+@[A-Za-z0-9.\-]+\.[A-Za-z]{2,}$")
 _SKIP_TAGS = {"script", "style", "noscript", "template", "svg"}
 _HEADINGS = {"h1", "h2", "h3", "h4"}
+ARTICLE_EXCERPT_CHARS = 600
 
 PAGE_KEYWORDS = {
     "contact": ("kontakt", "contact"),
@@ -38,7 +39,7 @@ class _Parser(HTMLParser):
     text_parts: list[str] = field(default_factory=list)
     jsonld: list[str] = field(default_factory=list)
     times: list[tuple[str, str]] = field(default_factory=list)
-    articles: list[tuple[str, str, str]] = field(default_factory=list)
+    articles: list[tuple[str, str, str, str]] = field(default_factory=list)
     _in_title: bool = False
     _skip: int = 0
     _in_jsonld: bool = False
@@ -60,6 +61,8 @@ class _Parser(HTMLParser):
             self._skip += 1
         elif tag == "title":
             self._in_title = True
+        elif tag == "body" and a.get("class"):
+            self.meta.setdefault("_body_class", a["class"])
         elif tag == "meta":
             key = (a.get("name") or a.get("property") or a.get("itemprop") or "").lower()
             if key and a.get("content"):
@@ -72,7 +75,7 @@ class _Parser(HTMLParser):
             self._pending_time = a["datetime"]
             self._article_date(a["datetime"])
         elif tag == "article":
-            self._open_articles.append({"date": None, "title": None, "href": None, "fallback": None})
+            self._open_articles.append({"date": None, "title": None, "href": None, "fallback": None, "text": []})
         elif tag in _HEADINGS and self._open_articles:
             self._heading = []
 
@@ -99,7 +102,8 @@ class _Parser(HTMLParser):
         title = article["title"] or fallback[0]
         href = article["href"] or fallback[1]
         if article["date"] and title and href:
-            self.articles.append((article["date"], title, href))
+            excerpt = " ".join(" ".join(article["text"]).split())[:ARTICLE_EXCERPT_CHARS]
+            self.articles.append((article["date"], title, href, excerpt))
 
     def handle_endtag(self, tag: str) -> None:
         if tag == "script" and self._in_jsonld:
@@ -127,6 +131,8 @@ class _Parser(HTMLParser):
             self.title += data
         elif not self._skip:
             self.text_parts.append(data)
+            if self._open_articles and sum(map(len, self._open_articles[-1]["text"])) < ARTICLE_EXCERPT_CHARS:
+                self._open_articles[-1]["text"].append(data)
             if self._anchor is not None:
                 self._anchor.append(data)
             if self._heading is not None:
@@ -145,7 +151,7 @@ class Page:
     links: tuple[tuple[str, str], ...]
     jsonld: tuple[dict[str, Any], ...]
     times: tuple[tuple[str, str], ...]
-    articles: tuple[tuple[str, str, str], ...] = ()
+    articles: tuple[tuple[str, str, str, str], ...] = ()  # (date, headline, url, text excerpt)
 
     @property
     def description(self) -> str | None:
@@ -169,7 +175,8 @@ def parse_page(html: str, url: str) -> Page:
         parser._close_article()
     absolute = tuple((joined, text) for href, text in parser.links if (joined := _join(url, href)))
     text = " ".join(" ".join(parser.text_parts).split())
-    articles = tuple((stamp, title, joined) for stamp, title, href in parser.articles if (joined := _join(url, href)))
+    articles = tuple((stamp, title, joined, excerpt) for stamp, title, href, excerpt in parser.articles
+                     if (joined := _join(url, href)))
     return Page(url, " ".join(parser.title.split()), dict(parser.meta), text, absolute,
                 tuple(_jsonld_objects(parser.jsonld)), tuple(parser.times), articles)
 
@@ -324,16 +331,14 @@ def careers_platforms(page: Page, owners: Sequence[str]) -> dict[str, str]:
 
 
 def job_postings(page: Page, owners: Sequence[str], today: str | None = None) -> list[dict[str, Any]]:
-    """schema.org JobPosting ads for this company: a single ad with its own URL (or the only ad on its page),
-    not expired, and not hiring for another organisation."""
+    """schema.org JobPosting ads: a single ad with its own URL (or the only ad on its page), not expired.
+    The stated employer is kept; item_checks.assess_site_job decides whether it is this company."""
     today = today or date.today().isoformat()
     ads = [o for o in page.jsonld if "JobPosting" in jsonld_types(o) and o.get("title")]
     jobs: list[dict[str, Any]] = []
     for obj in ads:
         hiring = obj.get("hiringOrganization")
         employer = hiring.get("name") if isinstance(hiring, dict) else hiring if isinstance(hiring, str) else None
-        if employer and not handle_matches(str(employer), owners):
-            continue
         expires = _iso_date(str(obj.get("validThrough") or ""))
         if expires and expires < today:
             continue
@@ -344,7 +349,8 @@ def job_postings(page: Page, owners: Sequence[str], today: str | None = None) ->
         address = (location or {}).get("address") if isinstance(location, dict) else None
         city = address.get("addressLocality") if isinstance(address, dict) else None
         jobs.append({"title": str(obj["title"])[:200], "published": _iso_date(str(obj.get("datePosted") or "")),
-                     "expires": expires, "location": city, "url": str(obj.get("url") or page.url)})
+                     "expires": expires, "location": city, "url": str(obj.get("url") or page.url),
+                     "employer": str(employer)[:120] if employer else None})
     return jobs
 
 
@@ -565,25 +571,61 @@ _MENU_WORDS = {"kontakt", "contact", "nyheter", "nyhet", "news", "aktuelt", "blo
 
 def dated_items(page: Page, limit: int = 10, today: str | None = None) -> list[dict[str, str]]:
     """Real, dated posts: an <article> with a headline linking to the post, a post page with
-    article:published_time, or NewsArticle/BlogPosting markup. Only publish dates count, never 'modified'."""
+    article:published_time, or NewsArticle/BlogPosting markup. Only publish dates count, never 'modified'.
+    Each item keeps an `excerpt` of its own text and its `kind`, for the per-item check in item_checks."""
     today = today or date.today().isoformat()
-    candidates = [(stamp, title, href) for stamp, title, href in page.articles]
-    if page.meta.get("og:type", "").lower() == "article" and page.meta.get("article:published_time"):
-        candidates.append((page.meta["article:published_time"], page.meta.get("og:title") or page.title, page.url))
+    candidates = [(stamp, title, href, excerpt, "article") for stamp, title, href, excerpt in page.articles]
+    # WordPress and similar tools mark every page og:type=article with a publish date, so a page the CMS
+    # itself calls a page (body class "page page-id-12", AboutPage/ContactPage markup) is never a post.
+    if (page.meta.get("og:type", "").lower() == "article" and page.meta.get("article:published_time")
+            and not cms_static_page(page)):
+        body = " ".join(filter(None, (page.meta.get("og:description"), page.meta.get("description"))))
+        candidates.append((page.meta["article:published_time"], page.meta.get("og:title") or page.title, page.url,
+                           body, "post page"))
     for obj in page.jsonld:
         kinds = jsonld_types(obj)
         url = str(obj.get("url") or page.url)
         is_post = kinds & {"NewsArticle", "BlogPosting"} or ("Article" in kinds and _news_path(url))
         if is_post and obj.get("datePublished"):
-            candidates.append((str(obj["datePublished"]), str(obj.get("headline") or ""), url))
+            body = " ".join(str(obj.get(k) or "") for k in ("description", "articleBody"))[:ARTICLE_EXCERPT_CHARS * 3]
+            candidates.append((str(obj["datePublished"]), str(obj.get("headline") or ""), url, body, "article"))
     items: list[dict[str, str]] = []
-    for stamp, title, url in candidates:
+    for stamp, title, url, excerpt, kind in candidates:
         day = _iso_date(stamp)
-        headline = " ".join(title.split())[:200]
+        headline = " ".join(strip_site_suffix(title, page.site_name or "").split())[:200]
         if day and day <= today and is_headline(headline) and _post_url(url, page.url):
-            items.append({"date": day, "title": headline, "url": url})
+            items.append({"date": day, "title": headline, "url": url, "excerpt": excerpt, "kind": kind})
     unique = {(i["date"], i["title"]): i for i in items}
     return sorted(unique.values(), key=lambda i: i["date"], reverse=True)[:limit]
+
+
+_TITLE_SEPARATOR = re.compile(r"\s+[›|»·\-–—]\s+")
+
+
+def strip_site_suffix(title: str, *names: str) -> str:
+    """'Headline › Den Norske Israelsmisjon' -> 'Headline'. Trailing title pieces made only of words from the
+    site's or company's name are removed (repeatedly, so 'Nytt kontor - Acme - Norge' loses both), so a name in
+    the page-title suffix is not mistaken for the article naming the company."""
+    vocab = [set(ascii_tokens(n)) for n in names if n and n.strip()]
+    text = title.strip()
+    while vocab:
+        pieces = _TITLE_SEPARATOR.split(text)
+        tail = set(ascii_tokens(pieces[-1]))
+        if len(pieces) < 2 or not tail or not any(tail <= words for words in vocab):
+            break
+        text = re.sub(r"\s+[›|»·\-–—]$", "", text[:text.rfind(pieces[-1])].rstrip())
+    return text
+
+
+_STATIC_PAGE_TYPES = {"AboutPage", "ContactPage", "FAQPage", "CheckoutPage", "ProfilePage", "CollectionPage"}
+
+
+def cms_static_page(page: Page) -> bool:
+    """True when the CMS marks this as a static page rather than a post (WordPress body class, page markup)."""
+    classes = set(page.meta.get("_body_class", "").lower().split())
+    if ("page" in classes or any(c.startswith("page-id-") for c in classes)) and "single-post" not in classes:
+        return True
+    return any(jsonld_types(o) & _STATIC_PAGE_TYPES for o in page.jsonld)
 
 
 def is_headline(text: str) -> bool:

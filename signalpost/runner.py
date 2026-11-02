@@ -6,21 +6,24 @@ import json
 import threading
 import time
 from collections import Counter
+from collections.abc import Callable
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, Callable
+from typing import Any
 
-from signalpost import __version__, config, orgnr as orgnr_mod, store
+from signalpost import __version__, config, store
+from signalpost import orgnr as orgnr_mod
 from signalpost.agent import RunContext, attach_module, research
 from signalpost.envelope import build_envelope
 from signalpost.http_client import BudgetExceeded, HttpClient, utc_now_iso
 from signalpost.modules import BLOCKED, FAILED, NOT_APPLICABLE, STATES, ModuleResult, skipped
+from signalpost.safe_url import DNS_PROBES
 from signalpost.sources.enhetsregisteret import EntityResult, fetch_entities_batch
 from signalpost.sources.jobs import FeedIndex, build_index, jobs_for_company, public_token
 from signalpost.sources.regnskap import fetch_filing_years
-from signalpost.sources.search import SearchService, from_env as search_from_env
-
+from signalpost.sources.search import SearchService
+from signalpost.sources.search import from_env as search_from_env
 
 MAX_JOB_DETAILS = 6
 
@@ -51,6 +54,7 @@ def run_batch(client: HttpClient, inputs: list[str], opts: RunOptions) -> dict[s
     deadline = t0 + opts.max_minutes * 60
     run_id = opts.run_id or f"signalpost-{started_at.replace(':', '').replace('-', '')}"
     valid = [o for o in (_parse(i) for i in inputs) if o]
+    DNS_PROBES.reset()
     entities = _batch_entities(client, valid)
     search = search_from_env(opts.search_max) if opts.search and opts.discovery else None
     ctx = RunContext(client, deadline, len(inputs), opts.website_pages, opts.discovery, opts.jobs, search)
@@ -266,6 +270,8 @@ def _report(envelopes: list[dict[str, Any]], inputs: list[str], client: HttpClie
         "search": search.summary() if search is not None else {"providers": [], "searches": 0},
         "narratives": narrator.summary() if narrator is not None else {"enabled": False},
         "operations": {**client.metrics(), "request_budget": client.budget,
+                       "requests_per_company": round(client.used / len(inputs), 1) if inputs else None,
+                       "dns_probes_without_http": DNS_PROBES.count,
                        "runtime_seconds": round(time.monotonic() - t0, 1),
                        "company_runtime_p50_ms": runtimes[len(runtimes) // 2] if runtimes else None,
                        "company_runtime_p95_ms": runtimes[min(len(runtimes) - 1, int(len(runtimes) * 0.95))]

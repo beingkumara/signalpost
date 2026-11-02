@@ -47,7 +47,7 @@ def _feed_item(uuid, name, status="ACTIVE"):
 
 def _detail(orgnr):
     return {"ad_content": {"uuid": UUID, "title": "Tømrer", "published": "2026-09-21T00:00:00+02:00",
-                           "expires": "2026-10-18T00:00:00+02:00", "link": f"https://arbeidsplassen.nav.no/stillinger/stilling/{UUID}",
+                           "expires": "2030-10-18T00:00:00+02:00", "link": f"https://arbeidsplassen.nav.no/stillinger/stilling/{UUID}",
                            "workLocations": [{"city": "BERGEN"}], "positioncount": 2,
                            "employer": {"orgnr": orgnr, "name": "Acme Bygg AS", "homepage": "https://acme.no/"}}}
 
@@ -81,6 +81,8 @@ def test_job_published_only_when_employer_orgnr_matches():
     assert fields["job_postings"].value[0]["location"] == "BERGEN"
     assert fields["job_postings"].source.human_url.endswith(UUID)
     assert fields["hiring"].value is True
+    posting = fields["job_postings"].value[0]
+    assert posting["confidence"] == "high" and "923609016 is this company" in posting["reason"]
 
 
 def test_job_from_subunit_counts_and_other_company_is_rejected():
@@ -111,3 +113,11 @@ def test_email_domain_with_name_only_is_accepted_but_unrelated_site_is_not():
         assert no.state == "not_available"
     finally:
         conftest.RESOLVABLE.difference_update({"acme-post.no", "adviser.no"})
+
+
+def test_expired_nav_ad_is_not_published():
+    from signalpost.sources.jobs import _expired
+
+    assert _expired({"expires": "2026-10-18"}, today="2026-11-01")
+    assert not _expired({"expires": "2026-11-01"}, today="2026-11-01")
+    assert not _expired({"expires": None}, today="2026-11-01")

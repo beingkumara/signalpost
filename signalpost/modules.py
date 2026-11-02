@@ -36,6 +36,8 @@ class ModuleResult:
             value = getattr(self, key)
             if value:
                 row[key] = value
+        if self.extra.get("withheld"):
+            row["withheld"] = dict(self.extra["withheld"])  # field -> why it is "can't tell"
         return row
 
 

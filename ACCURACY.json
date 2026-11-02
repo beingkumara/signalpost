@@ -1,0 +1,90 @@
+{
+  "official_website": {
+    "checked": 50,
+    "right": 50,
+    "wrong": 0,
+    "unsure": 0,
+    "unchecked": 0,
+    "precision": 1.0
+  },
+  "social_profile": {
+    "checked": 45,
+    "right": 42,
+    "wrong": 3,
+    "unsure": 0,
+    "unchecked": 0,
+    "precision": 0.933
+  },
+  "website_news": {
+    "checked": 7,
+    "right": 4,
+    "wrong": 3,
+    "unsure": 0,
+    "unchecked": 0,
+    "precision": 0.571
+  },
+  "nav_job": {
+    "checked": 5,
+    "right": 5,
+    "wrong": 0,
+    "unsure": 0,
+    "unchecked": 0,
+    "precision": 1.0
+  },
+  "official_website:high": {
+    "checked": 35,
+    "right": 35,
+    "wrong": 0,
+    "unsure": 0,
+    "unchecked": 0,
+    "precision": 1.0
+  },
+  "official_website:medium": {
+    "checked": 15,
+    "right": 15,
+    "wrong": 0,
+    "unsure": 0,
+    "unchecked": 0,
+    "precision": 1.0
+  },
+  "social_profile:high": {
+    "checked": 36,
+    "right": 34,
+    "wrong": 2,
+    "unsure": 0,
+    "unchecked": 0,
+    "precision": 0.944
+  },
+  "social_profile:medium": {
+    "checked": 9,
+    "right": 8,
+    "wrong": 1,
+    "unsure": 0,
+    "unchecked": 0,
+    "precision": 0.889
+  },
+  "website_news:high": {
+    "checked": 2,
+    "right": 0,
+    "wrong": 2,
+    "unsure": 0,
+    "unchecked": 0,
+    "precision": 0.0
+  },
+  "website_news:medium": {
+    "checked": 5,
+    "right": 4,
+    "wrong": 1,
+    "unsure": 0,
+    "unchecked": 0,
+    "precision": 0.8
+  },
+  "nav_job:high": {
+    "checked": 5,
+    "right": 5,
+    "wrong": 0,
+    "unsure": 0,
+    "unchecked": 0,
+    "precision": 1.0
+  }
+}
