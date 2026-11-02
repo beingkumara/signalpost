@@ -42,6 +42,8 @@ Other commands:
 python3 -m signalpost profile 923609016 --text          # one company, readable summary
 python3 -m signalpost sample --count 100 --out data/smoke-companies.jsonl   # needs the public universe file
 python3 -m signalpost update                             # refresh stored profiles changed upstream (Brønnøysund change feeds)
+python3 -m signalpost audit-sample --envelopes out/envelopes.jsonl --out audit/sheet.csv   # hand-check sheet, one entry per company per source type
+python3 -m signalpost audit-score --sheet audit/sheet.csv --out ACCURACY.md             # precision per source type from the filled sheet
 ```
 
 To build a local test batch, download the public universe first:
@@ -70,7 +72,9 @@ Availability states are `available`, `not_available`, `blocked`, `not_applicable
 - Every registry, accounts and sub-unit response must echo the requested number, or it is discarded.
 - A website is published only if a crawled page shows the org number. The registered name is enough only when the registry itself links the site, through its website field or email domain. The name must also be distinctive, appear in the site's title, site name, structured data or copyright line, and be tied to the company by the title or domain. That case gets medium confidence.
 - A registry, directory or social-network URL is never the website, a redirect must land on a site's home page, and a site that states another org number but not this one is treated as a parent group or brand site.
-- Social profiles are published only when the handle matches the company (not the parent group, web agency or theme). News must be real, dated posts. Careers pages, website job ads and recruitment platforms must belong to this company.
+- Social profiles are published only when the handle matches the company, never a parent group, sibling, regional or global account, web agency or theme.
+- News items must be dated articles that name the company; website job ads must name it as employer; careers pages are published only with an opening for this company. Each news and job entry carries a confidence level and a one-line reason. When the reason is weak the field shows "can't tell" with that reason instead.
+- How often each source type is right, from hand-checked samples, is in [ACCURACY.md](ACCURACY.md).
 - Job ads are published only when the ad's employer org number is the company or one of its registered sub-units.
 - Financial values are copied verbatim with currency and period. There is no language model and no estimation.
 
@@ -83,11 +87,11 @@ Details are in [AGENT.md](AGENT.md), [SOURCES.md](SOURCES.md), [REFRESH.md](REFR
 | Language models | Optional: Claude Haiku 4.5 (`claude-haiku-4-5-20251001`) for overviews, only when `ANTHROPIC_API_KEY` is set |
 | APIs | Brønnøysundregistrene open data (NLOD 2.0), NAV job vacancy feed (public token), company websites; optional Tavily, Exa, Linkup or Firecrawl search and the Anthropic API |
 | Third-party cost | $0.00 without keys; at most about $2.20 per 100-company run with search and overviews enabled |
-| Requests | about 11 per company (measured 1,154 for 100 companies in 4.8 minutes) |
+| Requests | about 14 per company, web searches and redirects included (measured 1,363 for 100 companies in 4.4 minutes) |
 
 ## Submitted profiles
 
-- `submission/profiles-1000/` holds 1,000 company profiles (`envelopes.jsonl.gz`) with their run report and input list. The run took 9,486 requests and 36.6 minutes, at $0.
+- `submission/profiles-1000/` holds 1,000 company profiles (`envelopes.jsonl.gz`) with their run report and input list. The run (version 2.1.0) took 9,959 requests and 30.0 minutes, at $0.
 - `submission/smoke-100/` holds a 100-company run with a browsable `report.html`.
 
 The submission checklist is in [submission/SUBMISSION.md](submission/SUBMISSION.md).
