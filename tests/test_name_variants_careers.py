@@ -87,3 +87,21 @@ def test_group_site_careers_page_is_not_published():
     routes = {SITE: (200, home), SITE + "kontakt/": (200, "<p>Kontakt</p>"), SITE + "jobb-med-oss/": (200, CAREERS)}
     result = _crawl(SITE, routes, "928041069", "AGILERA PHARMA AS")
     assert "careers_page" not in {f.field for f in result.facts}
+
+
+def test_job_board_listing_other_employers_openings_is_not_the_companys():
+    board = ("<h1>Karriere</h1><p>Ledige stillinger, karrieremesser og internships. Ledige stillinger 16 stillinger.</p>"
+             "<p>Leder for kundelivssyklus og lojalitet TV 2 Søknadsfrist 2. november 2030</p>")
+    routes = {SITE: (200, HOME.replace("/jobb-med-oss/", "/karriere")), SITE + "kontakt/": (200, "<p>Kontakt</p>"),
+              SITE + "karriere": (200, board)}
+    result = _crawl(SITE, routes, "928041069", "AGILERA PHARMA AS")
+    assert "careers_page" not in {f.field for f in result.facts}
+    assert "does not say they are the company's own" in result.extra["withheld"]["careers_page"]
+
+
+def test_own_opening_wording_on_a_plain_careers_url_counts():
+    own = "<p>Vi søker en produksjonsmedarbeider til Kjeller. Søknadsfrist: 2030-11-22</p>"
+    routes = {SITE: (200, HOME.replace("/jobb-med-oss/", "/karriere")), SITE + "kontakt/": (200, "<p>Kontakt</p>"),
+              SITE + "karriere": (200, own)}
+    fields = {f.field: f for f in _crawl(SITE, routes, "928041069", "AGILERA PHARMA AS").facts}
+    assert fields["careers_page"].value == SITE + "karriere"

@@ -420,7 +420,16 @@ def _listed_opening(pages: list[tuple[Page, Response]], careers_url: str | None,
                 f"{', '.join(group_site[:3])}, so they may be another group company's")
     if "holding" in ascii_tokens(name):
         return "the careers page of a holding company lists its group's openings, not necessarily this company's"
-    return f"opening with application deadline {found[0]['deadline']}: {found[0]['context']}", page_resp[1]
+    own = [o for o in found if _OWN_WORDS & set(ascii_tokens(o["context"]))]
+    if not own and not _OWN_WORDS & set(ascii_tokens(urlparse(careers_url).path)):
+        return ("the careers page lists openings but does not say they are the company's own (a job board can list "
+                "other employers' openings)")
+    pick = (own or found)[0]
+    return f"opening with application deadline {pick['deadline']}: {pick['context']}", page_resp[1]
+
+
+# First-person wording that marks an opening as the site owner's ("vi søker", "jobb hos oss", "join us").
+_OWN_WORDS = {"vi", "oss", "we", "us"}
 
 
 def _own_accounts(social: dict[str, str], name: str, group_site: list[str],
