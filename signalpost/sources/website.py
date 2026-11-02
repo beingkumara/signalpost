@@ -33,6 +33,7 @@ from signalpost.modules import (
 )
 from signalpost.webparse import (
     Page,
+    ascii_tokens,
     careers_platforms,
     classify_link,
     dated_items,
@@ -41,6 +42,7 @@ from signalpost.webparse import (
     handle_matches,
     hosted_listing,
     job_postings,
+    listed_openings,
     name_in_title,
     name_span,
     not_company_site,
@@ -134,6 +136,8 @@ def crawl_site(client: HttpClient, start_url: str, orgnr: str, name: str, *, dis
                                 "but is not tied to the company by title, domain or postcode", start_url)
         proof = {**proof, "level": "orgnr_on_page", "search_tie": True}
     if proof["level"] == "orgnr_on_page" or (proof["level"] == "name_on_page" and not discovered):
+        if not proof.get("other_orgnrs"):
+            _add_careers_page(client, crawl.pages)
         facts, withheld = _facts(crawl.pages, proof, orgnr, name, start_url, origin)
         return ModuleResult(module, AVAILABLE, facts, None, home_resp.final_url, home_resp.fetched_at,
                             {"identity": proof, "pages": [p.url for p, _ in crawl.pages], "withheld": withheld})
@@ -207,6 +211,29 @@ def _crawl(client: HttpClient, start_url: str, extra_pages: int, orgnr: str) -> 
         if page is not None:
             crawl.pages.append(page)
     return crawl
+
+
+def _careers_link(pages: list[tuple[Page, Response]], site_url: str) -> str | None:
+    for page, _ in pages:
+        for url, text in page.links:
+            if same_site(url, site_url) and classify_link(url, text) == "careers" and not login_url(url):
+                return url.split("#")[0]
+    return None
+
+
+def _add_careers_page(client: HttpClient, pages: list[tuple[Page, Response]]) -> None:
+    """Fetch the verified site's careers page when the crawl has not, so an opening listed there can be seen.
+    One extra request, only for sites that link a careers page."""
+    url = _careers_link(pages, pages[0][1].final_url)
+    seen = {u.rstrip("/") for p, r in pages for u in (p.url, r.final_url)}
+    if url is None or url.rstrip("/") in seen or not ROBOTS.allowed(client, url):
+        return
+    try:
+        page = _fetch_page(client, url)
+    except (ConnectionError, BudgetExceeded):
+        return  # the careers field then stays "can't tell": no opening was seen
+    if page is not None:
+        pages.append(page)
 
 
 def _fetch_page(client: HttpClient, url: str) -> tuple[Page, Response] | None:
@@ -354,11 +381,14 @@ def _collect(out: list[Fact], pages: list[tuple[Page, Response]], fact: Any, hom
                         " ".join(sorted(social.values())), "outbound_links"))
     _publish_jobs(out, fact, site_jobs, jobs_resp, owners, site_confidence, withheld)
     openings = next((f for f in out if f.field == "website_job_postings"), None)
-    if careers_url and openings:
-        out.append(fact("careers_page", careers_url, home_resp, "Careers page on website",
-                        careers_url, "link_classifier", conf="medium"))
+    listed = None if openings else _listed_opening(pages, careers_url, owners[0], group_site or [])
+    if careers_url and (openings or isinstance(listed, tuple)):
+        span, resp = listed if isinstance(listed, tuple) else (careers_url, home_resp)
+        out.append(fact("careers_page", careers_url, resp, "Careers page on website", span,
+                        "listed_opening" if isinstance(listed, tuple) else "link_classifier", conf="medium"))
     elif careers_url or login_links:
-        withheld["careers_page"] = ("careers link found but no opening for this company was seen on the site"
+        withheld["careers_page"] = (listed if isinstance(listed, str) else
+                                    "careers link found but no opening for this company was seen on the site"
                                     if careers_url else "careers link is a sign-in page, which shows no public opening")
     platforms = {k: v for k, v in platforms.items() if not login_url(v)}
     if platforms and openings:
@@ -370,6 +400,27 @@ def _collect(out: list[Fact], pages: list[tuple[Page, Response]], fact: Any, hom
                                         "company was seen")
     _publish_news(out, fact, news, news_resp, owners, site_confidence, withheld)
     return withheld
+
+
+def _listed_opening(pages: list[tuple[Page, Response]], careers_url: str | None, name: str,
+                    group_site: list[str]) -> tuple[str, Response] | str | None:
+    """(evidence span, response) when the careers page lists an opening with a future application deadline,
+    a reason string when one is listed but can't be tied to this company, or None when none is listed."""
+    if not careers_url:
+        return None
+    target = careers_url.rstrip("/")
+    page_resp = next(((p, r) for p, r in pages if target in (p.url.rstrip("/"), r.final_url.rstrip("/"))), None)
+    if page_resp is None:
+        return None
+    found = listed_openings(page_resp[0])
+    if not found:
+        return None
+    if group_site:
+        return (f"the careers page lists openings, but the site also states org number(s) "
+                f"{', '.join(group_site[:3])}, so they may be another group company's")
+    if "holding" in ascii_tokens(name):
+        return "the careers page of a holding company lists its group's openings, not necessarily this company's"
+    return f"opening with application deadline {found[0]['deadline']}: {found[0]['context']}", page_resp[1]
 
 
 def _own_accounts(social: dict[str, str], name: str, group_site: list[str],

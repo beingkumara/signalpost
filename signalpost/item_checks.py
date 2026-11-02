@@ -18,7 +18,8 @@ from __future__ import annotations
 from collections.abc import Sequence
 from typing import Any
 
-from signalpost.webparse import ascii_tokens, core_name, distinctive_name, registrable_domain, strip_site_suffix
+from signalpost.webparse import (ascii_tokens, core_name, distinctive_name, merge_initials, registrable_domain,
+                                 strip_site_suffix)
 
 CANT_TELL = "can't tell"
 _CONNECTORS = {"og", "and", "the", "of", "i"}
@@ -30,7 +31,7 @@ _RANK = {"high": 2, "medium": 1}
 
 
 def _name_tokens(owner: str) -> list[str]:
-    return [t for t in ascii_tokens(core_name(owner) or owner) if len(t) > 1 and t not in _CONNECTORS]
+    return [t for t in merge_initials(ascii_tokens(core_name(owner) or owner)) if len(t) > 1 and t not in _CONNECTORS]
 
 
 def _domain_label(owner: str) -> str:

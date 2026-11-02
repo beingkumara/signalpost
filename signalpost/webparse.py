@@ -13,7 +13,7 @@ from urllib.parse import ParseResult, urljoin, urlparse
 
 from signalpost.orgnr import checksum_ok
 
-LEGAL_SUFFIXES = {"AS", "ASA", "ANS", "DA", "SA", "ENK", "NUF", "BA", "KS", "SE", "IKS", "STIFTELSE", "SF", "KF"}
+LEGAL_SUFFIXES = {"AS", "ASA", "ANS", "DA", "SA", "ENK", "NUF", "BA", "KS", "SE", "IKS", "STIFTELSE", "STI", "SF", "KF"}
 SOCIAL_DOMAINS = {"linkedin.com": "linkedin", "facebook.com": "facebook", "instagram.com": "instagram",
                   "x.com": "x", "twitter.com": "x", "youtube.com": "youtube", "tiktok.com": "tiktok"}
 _SHARE_SEGMENTS = {"sharer", "sharer.php", "share", "share.php", "intent", "sharearticle", "dialog"}
@@ -282,10 +282,40 @@ def ascii_tokens(text: str) -> list[str]:
     return [t for t in re.split(r"[^a-z0-9]+", lowered) if t]
 
 
+def name_pattern(core: str) -> re.Pattern[str]:
+    """The registered name as a whole-word pattern. Spaced initials also match written together or dotted:
+    'S T DAHL' matches 'ST Dahl' and 'S.T. Dahl'."""
+    words = core.split()
+    parts = [re.escape(words[0])] if words else []
+    for prev, word in zip(words, words[1:]):
+        if len(prev) == 1 and len(word) == 1:
+            parts.append(r"[\s.]*")
+        elif len(prev) == 1:
+            parts.append(r"\.?\s*")
+        else:
+            parts.append(r"\s+")
+        parts.append(re.escape(word))
+    return re.compile(r"(?<!\w)" + "".join(parts) + r"(?!\w)", flags=re.IGNORECASE)
+
+
+def merge_initials(tokens: list[str]) -> list[str]:
+    """['s', 't', 'dahl'] -> ['st', 'dahl']: a run of single letters is one name word, not dropped noise."""
+    out: list[str] = []
+    in_run = False
+    for token in tokens:
+        single = len(token) == 1 and token.isalpha()
+        if single and in_run:
+            out[-1] += token
+        else:
+            out.append(token)
+        in_run = single
+    return out
+
+
 def name_in_title(page: Page, name: str) -> bool:
     core = core_name(name)
     head = f"{page.title} | {page.site_name or ''}"
-    return bool(core) and re.search(r"(?<!\w)" + re.escape(core) + r"(?!\w)", head, flags=re.IGNORECASE) is not None
+    return bool(core) and name_pattern(core).search(head) is not None
 
 
 def domain_matches_name(url: str, name: str) -> bool:
@@ -300,7 +330,7 @@ def name_span(page: Page, name: str) -> str | None:
     if not core or not distinctive_name(name):
         return None
     haystack = prominent_text(page)
-    match = re.search(r"(?<!\w)" + re.escape(core) + r"(?!\w)", haystack, flags=re.IGNORECASE)
+    match = name_pattern(core).search(haystack)
     if not match:
         return None
     start = max(0, match.start() - 40)
@@ -500,7 +530,8 @@ def _owner_matches(flat: str, owner: str) -> bool:
     if "." in owner and " " not in owner.strip():  # a verified domain such as acmebygg.no
         label = "".join(ascii_tokens(registrable_domain(_url(owner).netloc or owner).split(".")[0]))
         return len(label) >= 4 and label in flat
-    tokens = [t for t in ascii_tokens(core_name(owner) or owner) if len(t) > 1 and t not in _NAME_CONNECTORS]
+    tokens = [t for t in merge_initials(ascii_tokens(core_name(owner) or owner))
+              if len(t) > 1 and t not in _NAME_CONNECTORS]
     joined = "".join(tokens)
     if len(joined) >= 4 and joined in flat:
         return True
@@ -615,6 +646,48 @@ def strip_site_suffix(title: str, *names: str) -> str:
             break
         text = re.sub(r"\s+[›|»·\-–—]$", "", text[:text.rfind(pieces[-1])].rstrip())
     return text
+
+
+_DEADLINE = re.compile(r"(søknadsfrist|soknadsfrist|frist for søknad|application deadline|apply by)\s*[:\-–]?\s*"
+                       r"(\d{4}-\d{2}-\d{2}|\d{1,2}\.\s?\d{1,2}\.\s?\d{4}|\d{1,2}\.?\s+[a-zæøå]+\s+\d{4})",
+                       re.IGNORECASE)
+_MONTH_NUMBERS = {"januar": 1, "january": 1, "jan": 1, "februar": 2, "february": 2, "feb": 2, "mars": 3,
+                  "march": 3, "mar": 3, "april": 4, "apr": 4, "mai": 5, "may": 5, "juni": 6, "june": 6, "jun": 6,
+                  "juli": 7, "july": 7, "jul": 7, "august": 8, "aug": 8, "september": 9, "sep": 9, "sept": 9,
+                  "oktober": 10, "october": 10, "okt": 10, "oct": 10, "november": 11, "nov": 11, "desember": 12,
+                  "december": 12, "des": 12, "dec": 12}
+OPENING_CONTEXT_CHARS = 160
+
+
+def _deadline_date(text: str) -> str | None:
+    text = text.strip().lower()
+    iso = _iso_date(text)
+    if iso:
+        return iso
+    numeric = re.match(r"(\d{1,2})\.\s?(\d{1,2})\.\s?(\d{4})", text)
+    named = re.match(r"(\d{1,2})\.?\s+([a-zæøå]+)\s+(\d{4})", text)
+    try:
+        if numeric:
+            return date(int(numeric[3]), int(numeric[2]), int(numeric[1])).isoformat()
+        if named and named[2] in _MONTH_NUMBERS:
+            return date(int(named[3]), _MONTH_NUMBERS[named[2]], int(named[1])).isoformat()
+    except ValueError:
+        return None
+    return None
+
+
+def listed_openings(page: Page, today: str | None = None) -> list[dict[str, str]]:
+    """Openings a careers page lists in plain text, without JobPosting markup: each needs an application deadline
+    ("Søknadsfrist: 2026-11-22") that has not passed. 'Søknadsfrist: løpende' has no date and does not count."""
+    today = today or date.today().isoformat()
+    text = " ".join(page.text.split())
+    found: list[dict[str, str]] = []
+    for match in _DEADLINE.finditer(text):
+        day = _deadline_date(match.group(2))
+        if day and day >= today:
+            context = text[max(0, match.start() - OPENING_CONTEXT_CHARS):match.end()].strip()
+            found.append({"deadline": day, "context": context})
+    return found
 
 
 _STATIC_PAGE_TYPES = {"AboutPage", "ContactPage", "FAQPage", "CheckoutPage", "ProfilePage", "CollectionPage"}
