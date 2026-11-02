@@ -18,8 +18,8 @@ The daily test is 100 companies, with limits of 45 minutes, 2,000 outbound reque
 
 | Limit | Agent default | Measured on 100 companies |
 |---|---|---|
-| 45 minutes | Stops starting new source checks after 30 minutes (`SIGNALPOST_MAX_MINUTES`) | 4.4 minutes |
-| 2,000 outbound requests | Hard cap of 18 per company + 150 per run = 1,950 (`SIGNALPOST_REQUEST_BUDGET`) | 1,363 requests (registry 601, company websites 650, NAV feed 88, keyless web search 24) |
+| 45 minutes | Stops starting new source checks after 30 minutes (`SIGNALPOST_MAX_MINUTES`) | 4.6 minutes |
+| 2,000 outbound requests | Hard cap of 18 per company + 150 per run = 1,950 (`SIGNALPOST_REQUEST_BUDGET`) | 1,157 requests (registry 601, company websites 465, NAV feed 88, keyless web search 3 before Tavily's free tier returned HTTP 429). 1,363 in an earlier run the same day with search working throughout. |
 | $10 external API cost | Search capped at 150 per run; overviews capped at $1 (`SIGNALPOST_LLM_MAX_USD`) | $0.00 without keys; ≤ $2.20 with keys |
 
 Every outbound HTTP request counts, including keyless web searches and redirect hops; `run_report.json` lists them by source under `operations.requests_by_group`. Every input company returns exactly one result, even when a source is blocked, web search is unavailable, or a limit is reached.
