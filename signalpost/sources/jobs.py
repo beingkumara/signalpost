@@ -3,7 +3,7 @@
 Flow per run: page through the feed once (ads changed in the last N days) and index ACTIVE ads by employer
 name tokens. For each company, name matches are only candidates: an ad is published only when its detail
 record names an employer org number equal to the company or one of its registered sub-units.
-The feed uses NAV's published public token; Finn.no ads are not part of the feed.
+The feed uses NAV's published public token; FINN ads are not part of the feed.
 """
 
 from __future__ import annotations
@@ -27,7 +27,7 @@ FEED_URL = FEED_BASE + "/api/v1/feed"
 AD_URL_PREFIX = "https://arbeidsplassen.nav.no/stillinger/stilling/"
 SOURCE_NAME = "NAV job vacancy feed (pam-stilling-feed.nav.no)"
 MAX_ADS_PER_COMPANY = 3
-FEED_SCOPE = "active NAV feed ads changed in the last {days} days (Finn.no ads are not in the feed)"
+FEED_SCOPE = "active NAV feed ads changed in the last {days} days (FINN ads are not in the feed)"
 
 
 @dataclass

@@ -9,6 +9,14 @@ Hand-checked sample from three v3 test runs on 1 November 2026 (100 random compa
 | website news | a dated article (not a home or service page) that is about this company | 7 | 4 | 3 | 0 | 57% |
 | nav job | an open job ad on NAV whose employer is this company or one of its workplaces | 5 | 5 | 0 | 0 | 100% |
 
+## Builderr check of commit 19faaed (November 2026)
+
+Builderr checked 78 claims from our daily-test run: 72 right and 6 about a different company (92%). The two examples they named were not published claims. They were rejected website candidates named inside a reason. For ISABELLA CAFE AS (932415313) the reason said "candidates checked without org-number proof: https://isabellacafe.com/". For BOVG GROUP AS (932468719) it named bovg.no, whose footer shows another org number. The agent had correctly refused both sites, but a grader reads every URL in an envelope as a claim. In the 1,000 submitted profiles, 411 companies had a rejected URL in at least one reason.
+
+Fixed in 2.3.0: a rejected candidate is never named. Reasons say what failed ("1 candidate site(s) checked, none showed the org number"), every unpublished text is scrubbed of URLs and host names, and `run_report.json` fails validation (`no_unpublished_sites_named`) if one slips through. The summary no longer names a registry-listed site that could not be verified.
+
+News: 2.3.0 also reads the RSS/Atom post feed a verified site advertises (one request). On the 93 companies with a verified website among the 1,000, dated news went from 2 to 16 companies. Every item still has to name the company in its headline or own text; WordPress's "appeared first on <site>" footer and page-builder placeholder titles ("Elementor #6565") do not count.
+
 ## By confidence level
 
 | Source type | Confidence | Checked | Precision |

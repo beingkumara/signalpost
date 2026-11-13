@@ -104,11 +104,11 @@ def _web(f: dict[str, Any]) -> str:
                  "name_on_page": "the registry lists it and the site shows the registered name"}
         parts.append(f"Official website {site.get('final_url')} is verified ({proof.get(site.get('verification'), '')})")
     elif f.get("website"):
-        parts.append(f"The registry lists the website {f['website']}, but its content could not be verified")
+        parts.append("The registry lists a website, but the agent could not verify it belongs to this company")
     if f.get("social_profiles"):
         parts.append("company-owned profiles on " + ", ".join(sorted(f["social_profiles"])))
     if f.get("job_postings"):
-        parts.append(f"{len(f['job_postings'])} active job posting(s) on arbeidsplassen.nav.no")
+        parts.append(f"{len(f['job_postings'])} active job posting(s) on NAV's job board")
     return ("; ".join(parts) + ".") if parts else ""
 
 

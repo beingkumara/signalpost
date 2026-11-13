@@ -7,6 +7,7 @@ from typing import Any
 from signalpost.explain import change_notes, money
 from signalpost.item_checks import CANT_TELL
 from signalpost.modules import AMBIGUOUS, AVAILABLE, FAILED, NOT_APPLICABLE, NOT_AVAILABLE
+from signalpost.redact import redact_hosts
 
 CONFIDENCE = {"high": 0.97, "medium": 0.8, "low": 0.5}
 
@@ -74,6 +75,7 @@ def build_envelope(profile: dict[str, Any], run: dict[str, Any]) -> dict[str, An
     evidence, claims = _claims_and_evidence(profile)
     claims += _missing_claims(profile, {c["field"] for c in claims}, len(claims))
     sections = _sections(claims)
+    explanation = profile.get("explanation", {})
     envelope = {
         "organisation_number": profile["orgnr"],
         "name": profile.get("name"),
@@ -85,9 +87,10 @@ def build_envelope(profile: dict[str, Any], run: dict[str, Any]) -> dict[str, An
         "sections": sections,
         "claims": claims,
         "evidence": evidence,
-        "availability": {m["module"]: {k: v for k, v in m.items() if k in ("state", "reason")}
+        "availability": {m["module"]: {"state": m.get("state"), "reason": redact_hosts(m.get("reason"))}
                          for m in profile.get("modules", [])},
-        "summary": {**profile.get("explanation", {}), "statements": synthesis(profile, claims)},
+        "summary": {**explanation, "notes": [redact_hosts(n) for n in explanation.get("notes") or []],
+                    "statements": synthesis(profile, claims)},
         "changes": profile.get("changes_this_run", []),
         "refresh": {
             "checked_at": profile.get("checked_at"),
@@ -99,7 +102,7 @@ def build_envelope(profile: dict[str, Any], run: dict[str, Any]) -> dict[str, An
             "official_changes_last_365_days": len((profile.get("fields") or {}).get("official_changes") or []),
             "latest_official_change": ((profile.get("fields") or {}).get("official_changes") or [{}])[0].get("date"),
         },
-        "errors": profile.get("warnings", []),
+        "errors": [redact_hosts(w) for w in profile.get("warnings", [])],
         "operations": profile.get("operations", {"requests": 0, "runtime_ms": 0, "third_party_cost_usd": 0.0}),
     }
     return envelope
@@ -147,10 +150,10 @@ def _claims_and_evidence(profile: dict[str, Any]) -> tuple[list[dict[str, Any]],
         if period:
             claim["reporting_period"] = period
         if fact["field"] in withheld:
-            claim["note"] = f"{CANT_TELL}: {withheld[fact['field']]}"
+            claim["note"] = redact_hosts(f"{CANT_TELL}: {withheld[fact['field']]}")
         if fact.get("stale"):
             claim["stale"] = True
-            claim["stale_reason"] = fact.get("stale_reason")
+            claim["stale_reason"] = redact_hosts(fact.get("stale_reason"))
         claims.append(claim)
     return evidence, claims
 
@@ -165,7 +168,7 @@ def _missing_claims(profile: dict[str, Any], present: set[str], offset: int) -> 
                 continue
             state, reason = _missing_state(profile, modules.get(module), module, field, form)
             out.append({"id": f"c{offset + len(out) + 1}", "field": field, "section": section, "label": label,
-                        "value": None, "availability": state, "reason": reason, "evidence_ids": []})
+                        "value": None, "availability": state, "reason": redact_hosts(reason), "evidence_ids": []})
     return out
 
 

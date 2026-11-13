@@ -1,8 +1,8 @@
 {
-  "run_id": "smoke-100",
-  "started_at": "2026-11-02T09:29:16Z",
-  "completed_at": "2026-11-02T09:33:50Z",
-  "agent_version": "2.2.0",
+  "run_id": "signalpost-20261113T151732Z",
+  "started_at": "2026-11-13T15:17:32Z",
+  "completed_at": "2026-11-13T15:23:21Z",
+  "agent_version": "2.3.0",
   "input_count": 100,
   "emitted_envelopes": 100,
   "validation": {
@@ -12,7 +12,8 @@
       "expected_count_matches": true,
       "unique_organisation_numbers": true,
       "all_claim_states_valid": true,
-      "all_runs_terminal": true
+      "all_runs_terminal": true,
+      "no_unpublished_sites_named": true
     }
   },
   "company_status_counts": {
@@ -23,7 +24,7 @@
     "legal_identity_and_brand": 100,
     "annual_accounts": 100,
     "leadership_and_workplaces": 100,
-    "website_and_profiles": 6,
+    "website_and_profiles": 7,
     "hiring_and_activity": 100
   },
   "field_availability": {
@@ -56,9 +57,9 @@
     },
     "brand_name": {
       "not_available": 91,
-      "failed": 2,
+      "failed": 3,
       "available": 3,
-      "ambiguous": 4
+      "ambiguous": 3
     },
     "business_address": {
       "available": 100
@@ -68,13 +69,13 @@
     },
     "careers_page": {
       "not_available": 94,
-      "failed": 2,
-      "ambiguous": 4
+      "failed": 3,
+      "ambiguous": 3
     },
     "careers_platform": {
       "not_available": 94,
-      "failed": 2,
-      "ambiguous": 4
+      "failed": 3,
+      "ambiguous": 3
     },
     "ceo": {
       "available": 64,
@@ -199,10 +200,10 @@
       "available": 100
     },
     "official_website": {
-      "available": 6,
-      "not_available": 88,
-      "failed": 2,
-      "ambiguous": 4
+      "available": 7,
+      "not_available": 87,
+      "failed": 3,
+      "ambiguous": 3
     },
     "operating_expenses": {
       "available": 271
@@ -250,9 +251,9 @@
     },
     "social_profiles": {
       "not_available": 91,
-      "failed": 2,
+      "failed": 3,
       "available": 3,
-      "ambiguous": 4
+      "ambiguous": 3
     },
     "subunit_count": {
       "available": 74
@@ -281,45 +282,46 @@
       "available": 7
     },
     "website_description": {
-      "available": 5,
-      "not_available": 89,
-      "failed": 2,
-      "ambiguous": 4
+      "available": 6,
+      "not_available": 88,
+      "failed": 3,
+      "ambiguous": 3
     },
     "website_emails": {
       "not_available": 91,
-      "failed": 2,
+      "failed": 3,
       "available": 3,
-      "ambiguous": 4
+      "ambiguous": 3
     },
     "website_job_postings": {
       "not_available": 94,
-      "failed": 2,
-      "ambiguous": 4
+      "failed": 3,
+      "ambiguous": 3
     },
     "website_news": {
-      "not_available": 94,
-      "failed": 2,
-      "ambiguous": 4
+      "not_available": 91,
+      "failed": 3,
+      "ambiguous": 5,
+      "available": 1
     },
     "website_phones": {
       "not_available": 94,
-      "failed": 2,
-      "ambiguous": 4
+      "failed": 3,
+      "ambiguous": 3
     },
     "website_title": {
-      "available": 6
+      "available": 7
     }
   },
-  "profiles_with_changes": 0,
+  "profiles_with_changes": 14,
   "search": {
     "providers": [
       "tavily_keyless"
     ],
-    "searches": 3,
+    "searches": 19,
     "available": false,
     "by_provider": {
-      "tavily_keyless": 2
+      "tavily_keyless": 18
     },
     "estimated_cost_usd": 0.0,
     "disabled": {
@@ -331,22 +333,22 @@
     "enabled": false
   },
   "operations": {
-    "requests": 1157,
-    "bytes_received": 75990263,
-    "p50_ms": 909,
-    "p95_ms": 4599,
+    "requests": 1294,
+    "bytes_received": 89977589,
+    "p50_ms": 1393,
+    "p95_ms": 5145,
     "requests_by_group": {
       "brreg_registry": 601,
-      "company_websites": 465,
-      "nav_jobs_feed": 88,
-      "web_search": 3
+      "company_websites": 584,
+      "nav_jobs_feed": 90,
+      "web_search": 19
     },
     "request_budget": 1950,
-    "requests_per_company": 11.6,
+    "requests_per_company": 12.9,
     "dns_probes_without_http": 296,
-    "runtime_seconds": 274.1,
-    "company_runtime_p50_ms": 9438,
-    "company_runtime_p95_ms": 102094,
+    "runtime_seconds": 349.2,
+    "company_runtime_p50_ms": 12993,
+    "company_runtime_p95_ms": 103336,
     "third_party_cost_usd": 0.0
   }
 }

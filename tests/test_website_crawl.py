@@ -95,3 +95,28 @@ def test_non_html_is_not_available():
 def test_budget_exhaustion_is_blocked():
     c = FakeClient({SITE: (200, HTML)}, budget=0)
     assert crawl_site(c, SITE, "923609016", "X AS", discovered=False, extra_pages=0).state == "blocked"
+
+
+FEED_HOME = ("<html><head><title>Acme Bygg</title>"
+             "<link rel='alternate' type='application/rss+xml' href='/feed/'></head>"
+             "<body>Acme Bygg AS, org nr 923609016</body></html>")
+FEED = ("<rss version='2.0'><channel><item><title>Acme Bygg vinner kontrakt på ny skole</title>"
+        "<link>https://www.acme.no/2026/10/ny-skole/</link><pubDate>Tue, 20 Oct 2026 08:00:00 +0000</pubDate>"
+        "<description>Ny skole.</description></item></channel></rss>")
+
+
+def test_verified_site_feed_adds_dated_news_with_one_request():
+    c = client({SITE: (200, FEED_HOME), "https://www.acme.no/feed/": (200, FEED)})
+    result = crawl_site(c, SITE, "923609016", "ACME BYGG AS", discovered=False, extra_pages=0)
+    news = {f.field: f for f in result.facts}["website_news"]
+    assert news.value[0]["url"] == "https://www.acme.no/2026/10/ny-skole/"
+    assert news.value[0]["date"] == "2026-10-20" and news.value[0]["confidence"] == "high"
+    assert news.source.url == "https://www.acme.no/feed/"
+    assert c.calls.count("https://www.acme.no/feed/") == 1
+
+
+def test_unverified_site_feed_is_never_fetched():
+    home = FEED_HOME.replace("Acme Bygg AS, org nr 923609016", "Velkommen")
+    c = client({SITE: (200, home), "https://www.acme.no/feed/": (200, FEED)})
+    result = crawl_site(c, SITE, "923609016", "ACME BYGG AS", discovered=True, extra_pages=0)
+    assert result.state == "not_available" and "https://www.acme.no/feed/" not in c.calls

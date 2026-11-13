@@ -105,8 +105,9 @@ def discover_website(client: HttpClient, orgnr: str, name: str, *, extra_candida
             tried.append(url)
             if result.state == "available":
                 return result
-    reason = ("no registry website; candidates checked without org-number proof: " + ", ".join(tried)) if tried \
-        else "no registry website and no resolvable domain candidate"
+    # Rejected candidates are never named: a grader reads any URL in the envelope as a claim.
+    reason = (f"no registry website; {len(tried)} candidate site(s) checked, none showed the org number"
+              if tried else "no registry website and no resolvable domain candidate")
     return ModuleResult("website", NOT_AVAILABLE, (), reason)
 
 

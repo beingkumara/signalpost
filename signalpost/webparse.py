@@ -19,6 +19,7 @@ SOCIAL_DOMAINS = {"linkedin.com": "linkedin", "facebook.com": "facebook", "insta
 _SHARE_SEGMENTS = {"sharer", "sharer.php", "share", "share.php", "intent", "sharearticle", "dialog"}
 _EMAIL = re.compile(r"^[A-Za-z0-9._%+\-]+@[A-Za-z0-9.\-]+\.[A-Za-z]{2,}$")
 _SKIP_TAGS = {"script", "style", "noscript", "template", "svg"}
+_FEED_TYPES = {"application/rss+xml", "application/atom+xml"}
 _HEADINGS = {"h1", "h2", "h3", "h4"}
 ARTICLE_EXCERPT_CHARS = 600
 
@@ -61,6 +62,10 @@ class _Parser(HTMLParser):
             self._skip += 1
         elif tag == "title":
             self._in_title = True
+        elif tag == "link" and "alternate" in a.get("rel", "").lower().split() and a.get("href") \
+                and a.get("type", "").lower() in _FEED_TYPES:
+            feeds = self.meta.get("_feeds")
+            self.meta["_feeds"] = f"{feeds}\n{a['href'].strip()}" if feeds else a["href"].strip()
         elif tag == "body" and a.get("class"):
             self.meta.setdefault("_body_class", a["class"])
         elif tag == "meta":
@@ -230,7 +235,16 @@ def registrable_domain(host: str) -> str:
 
 
 def same_site(url: str, base: str) -> bool:
-    return registrable_domain(_url(url).netloc) == registrable_domain(_url(base).netloc)
+    """Both are web URLs on the same registrable domain. Uses the parsed host name, so userinfo tricks
+    ('http://acme.no:pw@evil.com/') and non-web schemes ('javascript://acme.no/') never match."""
+    a, b = _url(url), _url(base)
+    if a.scheme not in ("http", "https") or b.scheme not in ("http", "https"):
+        return False
+    try:
+        host_a, host_b = a.hostname or "", b.hostname or ""
+    except ValueError:
+        return False
+    return bool(host_a) and registrable_domain(host_a) == registrable_domain(host_b)
 
 
 def core_name(name: str) -> str:

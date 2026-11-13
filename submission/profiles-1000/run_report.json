@@ -1,8 +1,8 @@
 {
-  "run_id": "profiles-1000",
-  "started_at": "2026-11-02T08:43:36Z",
-  "completed_at": "2026-11-02T09:13:37Z",
-  "agent_version": "2.2.0",
+  "run_id": "signalpost-20261113T151732Z",
+  "started_at": "2026-11-13T15:17:32Z",
+  "completed_at": "2026-11-13T15:56:29Z",
+  "agent_version": "2.3.0",
   "input_count": 1000,
   "emitted_envelopes": 1000,
   "validation": {
@@ -12,18 +12,20 @@
       "expected_count_matches": true,
       "unique_organisation_numbers": true,
       "all_claim_states_valid": true,
-      "all_runs_terminal": true
+      "all_runs_terminal": true,
+      "no_unpublished_sites_named": true
     }
   },
   "company_status_counts": {
     "active": 987,
-    "under_liquidation": 13
+    "under_liquidation": 12,
+    "deleted": 1
   },
   "section_coverage": {
     "legal_identity_and_brand": 1000,
-    "annual_accounts": 1000,
-    "leadership_and_workplaces": 1000,
-    "website_and_profiles": 93,
+    "annual_accounts": 999,
+    "leadership_and_workplaces": 999,
+    "website_and_profiles": 94,
     "hiring_and_activity": 1000
   },
   "field_availability": {
@@ -31,98 +33,107 @@
       "available": 685
     },
     "accounts_period": {
-      "available": 2809,
-      "failed": 3
+      "available": 2806,
+      "failed": 3,
+      "not_applicable": 1
     },
     "articles_date": {
-      "available": 977
+      "available": 976
     },
     "audit_opt_out": {
-      "available": 594
+      "available": 592
     },
     "auditor": {
-      "not_applicable": 594,
-      "available": 387,
+      "not_applicable": 593,
+      "available": 388,
       "not_available": 19
     },
     "bankrupt": {
-      "available": 1000
+      "available": 999
     },
     "board_chair": {
-      "available": 992,
-      "not_applicable": 2,
+      "available": 991,
+      "not_applicable": 3,
       "not_available": 6
     },
     "board_members": {
-      "available": 993,
-      "not_applicable": 2,
+      "available": 992,
+      "not_applicable": 3,
       "not_available": 5
     },
     "brand_name": {
-      "failed": 15,
-      "not_available": 869,
-      "available": 58,
+      "failed": 14,
+      "not_available": 865,
+      "available": 61,
       "ambiguous": 55,
-      "blocked": 3
+      "blocked": 4,
+      "not_applicable": 1
     },
     "business_address": {
-      "available": 1000
+      "available": 999,
+      "not_available": 1
     },
     "business_register_date": {
-      "available": 982
+      "available": 981
     },
     "careers_page": {
-      "failed": 15,
-      "not_available": 912,
+      "failed": 14,
+      "not_available": 911,
       "ambiguous": 69,
-      "blocked": 3,
-      "available": 1
+      "blocked": 4,
+      "available": 1,
+      "not_applicable": 1
     },
     "careers_platform": {
-      "failed": 15,
-      "not_available": 927,
+      "failed": 14,
+      "not_available": 926,
       "ambiguous": 55,
-      "blocked": 3
+      "blocked": 4,
+      "not_applicable": 1
     },
     "ceo": {
       "available": 618,
-      "not_available": 380,
-      "not_applicable": 2
+      "not_available": 379,
+      "not_applicable": 3
     },
     "contact_person": {
       "available": 2
     },
     "current_assets": {
-      "available": 2789
+      "available": 2787
+    },
+    "deleted_date": {
+      "available": 1
     },
     "email": {
       "available": 228
     },
     "employees": {
-      "not_available": 833,
-      "available": 167
+      "not_available": 834,
+      "available": 166
     },
     "entity_type": {
       "available": 1000
     },
     "equity": {
-      "available": 2802,
+      "available": 2799,
       "failed": 3,
-      "not_available": 1
+      "not_available": 1,
+      "not_applicable": 1
     },
     "filing_history": {
-      "available": 839,
-      "blocked": 161
+      "available": 999,
+      "not_applicable": 1
     },
     "fixed_assets": {
-      "available": 2700
+      "available": 2697
     },
     "former_names": {
-      "available": 224
+      "available": 225
     },
     "founded_date": {
-      "available": 989,
-      "not_available": 11
+      "available": 988,
+      "not_available": 12
     },
     "group_accounts_period": {
       "available": 20
@@ -167,44 +178,46 @@
       "available": 20
     },
     "hiring": {
-      "available": 3
+      "available": 5
     },
     "in_business_register": {
-      "available": 1000
+      "available": 999
     },
     "in_corporate_group": {
-      "available": 1000
+      "available": 999
     },
     "in_foundation_register": {
-      "available": 1000
+      "available": 999
     },
     "in_party_register": {
-      "available": 1000
+      "available": 999
     },
     "in_voluntary_register": {
-      "available": 1000
+      "available": 999
     },
     "industry_codes": {
-      "available": 1000
+      "available": 999,
+      "not_available": 1
     },
     "job_postings": {
-      "not_available": 997,
-      "available": 3
+      "not_available": 994,
+      "available": 5,
+      "not_applicable": 1
     },
     "language_form": {
-      "available": 1000
+      "available": 999
     },
     "latest_annual_accounts_year": {
-      "available": 1000
+      "available": 999
     },
     "long_term_debt": {
-      "available": 2246
+      "available": 2244
     },
     "mobile": {
       "available": 184
     },
     "municipality": {
-      "available": 995
+      "available": 994
     },
     "name": {
       "available": 1000
@@ -213,26 +226,31 @@
       "available": 2558
     },
     "net_profit": {
-      "available": 2809,
-      "failed": 3
+      "available": 2806,
+      "failed": 3,
+      "not_applicable": 1
     },
     "official_changes": {
-      "available": 1000
+      "available": 997,
+      "not_available": 2,
+      "not_applicable": 1
     },
     "official_website": {
-      "failed": 15,
-      "not_available": 834,
-      "available": 93,
+      "failed": 14,
+      "not_available": 832,
+      "available": 94,
       "ambiguous": 55,
-      "blocked": 3
+      "blocked": 4,
+      "not_applicable": 1
     },
     "operating_expenses": {
       "available": 2741
     },
     "operating_profit": {
       "available": 2743,
-      "not_available": 10,
-      "failed": 3
+      "not_available": 9,
+      "failed": 3,
+      "not_applicable": 1
     },
     "organization_form": {
       "available": 1000
@@ -244,120 +262,131 @@
       "available": 204
     },
     "postal_address": {
-      "available": 238
+      "available": 237
     },
     "profit_before_tax": {
-      "available": 2766
+      "available": 2764
     },
     "purpose": {
-      "available": 1000
+      "available": 999,
+      "not_available": 1
     },
     "registered_date": {
-      "available": 1000
+      "available": 999
     },
     "registry_events": {
       "available": 1000
     },
     "revenue": {
       "available": 2198,
-      "not_available": 166,
-      "failed": 3
+      "not_available": 165,
+      "failed": 3,
+      "not_applicable": 1
     },
     "roles": {
-      "available": 1000
+      "available": 999
     },
     "sector": {
-      "available": 973
+      "available": 972
     },
     "share_capital": {
-      "available": 926,
-      "not_available": 74
+      "available": 925,
+      "not_available": 75
     },
     "short_term_debt": {
-      "available": 2622
+      "available": 2619
     },
     "social_profiles": {
-      "failed": 15,
-      "not_available": 877,
-      "available": 48,
+      "failed": 14,
+      "not_available": 872,
+      "available": 52,
       "ambiguous": 57,
-      "blocked": 3
+      "blocked": 4,
+      "not_applicable": 1
     },
     "subunit_count": {
       "available": 756
     },
     "subunits": {
       "available": 756,
-      "not_available": 244
+      "not_available": 243,
+      "not_applicable": 1
     },
     "total_assets": {
-      "available": 2809,
-      "failed": 3
+      "available": 2806,
+      "failed": 3,
+      "not_applicable": 1
     },
     "total_debt": {
-      "available": 2770,
+      "available": 2767,
       "not_available": 8,
-      "failed": 3
+      "failed": 3,
+      "not_applicable": 1
     },
     "under_forced_dissolution": {
-      "available": 1000
+      "available": 999
     },
     "under_liquidation": {
-      "available": 1000
+      "available": 999
     },
     "vat_registered": {
-      "available": 1000
+      "available": 999
     },
     "website": {
       "available": 117
     },
     "website_description": {
-      "failed": 15,
-      "not_available": 857,
-      "available": 70,
+      "failed": 14,
+      "not_available": 855,
+      "available": 71,
       "ambiguous": 55,
-      "blocked": 3
+      "blocked": 4,
+      "not_applicable": 1
     },
     "website_emails": {
-      "failed": 15,
-      "not_available": 867,
+      "failed": 14,
+      "not_available": 866,
       "available": 60,
       "ambiguous": 55,
-      "blocked": 3
+      "blocked": 4,
+      "not_applicable": 1
     },
     "website_job_postings": {
-      "failed": 15,
-      "not_available": 927,
+      "failed": 14,
+      "not_available": 926,
       "ambiguous": 55,
-      "blocked": 3
+      "blocked": 4,
+      "not_applicable": 1
     },
     "website_news": {
-      "failed": 15,
-      "not_available": 924,
-      "ambiguous": 56,
-      "blocked": 3,
-      "available": 2
+      "failed": 14,
+      "not_available": 899,
+      "ambiguous": 65,
+      "blocked": 4,
+      "available": 17,
+      "not_applicable": 1
     },
     "website_phones": {
-      "failed": 15,
-      "not_available": 878,
+      "failed": 14,
+      "not_available": 877,
       "ambiguous": 55,
-      "blocked": 3,
-      "available": 49
+      "blocked": 4,
+      "available": 49,
+      "not_applicable": 1
     },
     "website_title": {
-      "available": 93
+      "available": 94
     }
   },
-  "profiles_with_changes": 0,
+  "profiles_with_changes": 993,
   "search": {
     "providers": [
       "tavily_keyless"
     ],
-    "searches": 2,
+    "searches": 13,
     "available": false,
     "by_provider": {
-      "tavily_keyless": 1
+      "tavily_keyless": 12
     },
     "estimated_cost_usd": 0.0,
     "disabled": {
@@ -369,22 +398,22 @@
     "enabled": false
   },
   "operations": {
-    "requests": 9917,
-    "bytes_received": 287376435,
-    "p50_ms": 887,
-    "p95_ms": 3986,
+    "requests": 10145,
+    "bytes_received": 303925782,
+    "p50_ms": 1362,
+    "p95_ms": 5818,
     "requests_by_group": {
-      "brreg_registry": 5855,
-      "company_websites": 3961,
-      "nav_jobs_feed": 99,
-      "web_search": 2
+      "brreg_registry": 6015,
+      "company_websites": 4019,
+      "nav_jobs_feed": 98,
+      "web_search": 13
     },
     "request_budget": 18150,
-    "requests_per_company": 9.9,
-    "dns_probes_without_http": 2830,
-    "runtime_seconds": 1802.3,
-    "company_runtime_p50_ms": 7008,
-    "company_runtime_p95_ms": 53884,
+    "requests_per_company": 10.1,
+    "dns_probes_without_http": 2828,
+    "runtime_seconds": 2340.1,
+    "company_runtime_p50_ms": 11879,
+    "company_runtime_p95_ms": 57088,
     "third_party_cost_usd": 0.0
   }
 }

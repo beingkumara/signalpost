@@ -45,7 +45,7 @@ def test_registry_site_redirecting_to_the_business_register_is_not_published():
     html = "<title>Enhetsregisteret</title><p>Org.nr 923 609 016</p><a href='https://www.facebook.com/brreg'>f</a>"
     result = crawl({brreg: (200, html)}, redirects={SITE: brreg})
     assert result.state == "ambiguous" and result.facts == ()
-    assert "brreg.no" in result.reason
+    assert "directory" in result.reason and "brreg" not in result.reason  # targets are never named
 
 
 def test_registry_site_redirecting_to_a_listing_on_a_shared_platform_is_not_published():

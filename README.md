@@ -74,6 +74,7 @@ Availability states are `available`, `not_available`, `blocked`, `not_applicable
 - A registry, directory or social-network URL is never the website, a redirect must land on a site's home page, and a site that states another org number but not this one is treated as a parent group or brand site.
 - Social profiles are published only when the handle matches the company, never a parent group, sibling, regional or global account, web agency or theme.
 - News items must be dated articles that name the company; website job ads must name it as employer; careers pages are published only with an opening for this company. Each news and job entry carries a confidence level and a one-line reason. When the reason is weak the field shows "can't tell" with that reason instead.
+- A rejected website candidate is never named in a reason or note: only published claims carry URLs (checked by `no_unpublished_sites_named` in `run_report.json`).
 - How often each source type is right, from hand-checked samples, is in [ACCURACY.md](ACCURACY.md).
 - Job ads are published only when the ad's employer org number is the company or one of its registered sub-units.
 - Financial values are copied verbatim with currency and period. There is no language model and no estimation.
@@ -87,11 +88,11 @@ Details are in [AGENT.md](AGENT.md), [SOURCES.md](SOURCES.md), [REFRESH.md](REFR
 | Language models | Optional: Claude Haiku 4.5 (`claude-haiku-4-5-20251001`) for overviews, only when `ANTHROPIC_API_KEY` is set |
 | APIs | Brønnøysundregistrene open data (NLOD 2.0), NAV job vacancy feed (public token), company websites; optional Tavily, Exa, Linkup or Firecrawl search and the Anthropic API |
 | Third-party cost | $0.00 without keys; at most about $2.20 per 100-company run with search and overviews enabled |
-| Requests | 12 to 14 per company, web searches and redirects included (measured 1,363 for 100 companies with search working, 1,157 when Tavily's free tier rate-limits search; under 5 minutes) |
+| Requests | 12 to 14 per company, web searches and redirects included (measured 1,294 for 100 companies with version 2.3.0, including 19 keyless web searches before Tavily's free tier rate-limited search; under 6 minutes) |
 
 ## Submitted profiles
 
-- `submission/profiles-1000/` holds 1,000 company profiles (`envelopes.jsonl.gz`) with their run report and input list. The run (version 2.2.0) took 9,917 requests and 30.0 minutes, at $0.
+- `submission/profiles-1000/` holds 1,000 company profiles (`envelopes.jsonl.gz`) with their run report and input list. The run (version 2.3.0, keyless search only, 60-minute limit) took 10,145 requests and 39 minutes, at $0.
 - `submission/smoke-100/` holds a 100-company run with a browsable `report.html`.
 
 The submission checklist is in [submission/SUBMISSION.md](submission/SUBMISSION.md).

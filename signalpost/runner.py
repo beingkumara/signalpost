@@ -18,6 +18,7 @@ from signalpost.agent import RunContext, attach_module, research
 from signalpost.envelope import build_envelope
 from signalpost.http_client import BudgetExceeded, HttpClient, utc_now_iso
 from signalpost.modules import BLOCKED, FAILED, NOT_APPLICABLE, STATES, ModuleResult, skipped
+from signalpost.redact import find_unpublished_urls
 from signalpost.safe_url import DNS_PROBES
 from signalpost.sources.enhetsregisteret import EntityResult, fetch_entities_batch
 from signalpost.sources.jobs import FeedIndex, build_index, jobs_for_company, public_token
@@ -250,6 +251,7 @@ def _report(envelopes: list[dict[str, Any]], inputs: list[str], client: HttpClie
         "unique_organisation_numbers": len(orgs) == len(set(orgs)),
         "all_claim_states_valid": all(s in STATES for s in claim_states),
         "all_runs_terminal": all(e["run"]["terminal_status"] in ("completed", "failed") for e in envelopes),
+        "no_unpublished_sites_named": not any(find_unpublished_urls(e) for e in envelopes),
     }
     per_field: dict[str, Counter] = {}
     for e in envelopes:

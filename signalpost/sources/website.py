@@ -21,6 +21,7 @@ from urllib.parse import urlparse
 
 from signalpost import config
 from signalpost.facts import COMPANY_OWNED, Fact, Source, make_fact
+from signalpost.feeds import feed_url, parse_feed
 from signalpost.http_client import BudgetExceeded, HttpClient, Response
 from signalpost.item_checks import assess_news, assess_site_job, login_url, lowest, parent_group_accounts
 from signalpost.modules import (
@@ -106,12 +107,12 @@ def crawl_site(client: HttpClient, start_url: str, orgnr: str, name: str, *, dis
                extra_pages: int, origin: str = "registry", postcode: str | None = None) -> ModuleResult:
     module = "website"
     if not_company_site(start_url):
-        return ModuleResult(module, NOT_AVAILABLE, (), f"{start_url} is a directory, registry or social-network "
+        return ModuleResult(module, NOT_AVAILABLE, (), "the site is a directory, registry or social-network "
                             "page, not a company website", start_url)
     try:
         crawl = _crawl(client, start_url, extra_pages, orgnr)
     except ConnectionError as err:
-        return ModuleResult(module, FAILED, (), f"website unreachable: {err}"[:300], start_url)
+        return ModuleResult(module, FAILED, (), "website unreachable: " + _error_kind(err), start_url)
     except BudgetExceeded:
         return ModuleResult(module, BLOCKED, (), "run request budget exhausted", start_url)
     if not crawl.pages:
@@ -123,7 +124,7 @@ def crawl_site(client: HttpClient, start_url: str, orgnr: str, name: str, *, dis
     elsewhere = _foreign_landing(start_url, home_resp.final_url)
     if elsewhere:
         state = NOT_AVAILABLE if discovered else AMBIGUOUS
-        return ModuleResult(module, state, (), f"{start_url} redirects to {home_resp.final_url}, {elsewhere}; "
+        return ModuleResult(module, state, (), f"the site redirects to {elsewhere}; "
                             "website content not published", home_resp.final_url, home_resp.fetched_at)
     proof = _identity(crawl.pages, orgnr, name)
     if origin.startswith("search_candidate") and proof["level"] == "orgnr_on_page":
@@ -132,12 +133,13 @@ def crawl_site(client: HttpClient, start_url: str, orgnr: str, name: str, *, dis
         tied = (name_in_title(home_page, name) or domain_matches_name(home_resp.final_url, name)
                 or bool(postcode and any(postcode in p.text for p, _ in crawl.pages)))
         if not tied:
-            return ModuleResult(module, NOT_AVAILABLE, (), f"search candidate {start_url} shows the org number "
+            return ModuleResult(module, NOT_AVAILABLE, (), "a search candidate shows the org number "
                                 "but is not tied to the company by title, domain or postcode", start_url)
         proof = {**proof, "level": "orgnr_on_page", "search_tie": True}
     if proof["level"] == "orgnr_on_page" or (proof["level"] == "name_on_page" and not discovered):
         if not proof.get("other_orgnrs"):
             _add_careers_page(client, crawl.pages)
+            _add_feed(client, crawl.pages)
         facts, withheld = _facts(crawl.pages, proof, orgnr, name, start_url, origin)
         return ModuleResult(module, AVAILABLE, facts, None, home_resp.final_url, home_resp.fetched_at,
                             {"identity": proof, "pages": [p.url for p, _ in crawl.pages], "withheld": withheld})
@@ -146,13 +148,24 @@ def crawl_site(client: HttpClient, start_url: str, orgnr: str, name: str, *, dis
         why = (f"lists {orgnr} among other org numbers ({numbers}) and its title and domain do not name this company"
                if proof.get("listed_among_others") else f"states org number(s) {numbers} but not {orgnr}")
         return ModuleResult(module, NOT_AVAILABLE if discovered else AMBIGUOUS, (),
-                            f"{home_resp.final_url} {why}: likely a parent group or brand site; website content "
+                            f"the site {why}: likely a parent group or brand site; website content "
                             "not published", home_resp.final_url, home_resp.fetched_at)
     if discovered:
-        return ModuleResult(module, NOT_AVAILABLE, (), f"candidate {start_url} rejected: org number not on site",
+        return ModuleResult(module, NOT_AVAILABLE, (), "candidate rejected: org number not on site",
                             start_url, home_resp.fetched_at)
-    return ModuleResult(module, AMBIGUOUS, (), f"{home_resp.final_url} shows neither the org number nor the "
+    return ModuleResult(module, AMBIGUOUS, (), "the site shows neither the org number nor the "
                         "registered name; website content not published", home_resp.final_url, home_resp.fetched_at)
+
+
+def _error_kind(err: Exception) -> str:
+    """Why a site could not be fetched, without naming it (an unverified site is never named)."""
+    text = str(err).lower()
+    for marker, kind in (("does not resolve", "host does not resolve"), ("timed out", "timed out"),
+                         ("certificate", "TLS certificate error"), ("http 429", "rate limited (HTTP 429)"),
+                         ("refused", "connection refused"), ("closed connection", "connection closed")):
+        if marker in text:
+            return kind
+    return "connection failed"
 
 
 def _foreign_landing(start_url: str, final_url: str) -> str | None:
@@ -189,7 +202,7 @@ def _fetch_home(client: HttpClient, start_url: str) -> tuple[Page, Response] | N
 def _crawl(client: HttpClient, start_url: str, extra_pages: int, orgnr: str) -> _Crawl:
     crawl = _Crawl()
     if not ROBOTS.allowed(client, start_url):
-        crawl.blocked.append(f"robots.txt disallows {start_url}")
+        crawl.blocked.append("robots.txt disallows the site")
         return crawl
     home = _fetch_home(client, start_url)
     if home is None:
@@ -202,7 +215,7 @@ def _crawl(client: HttpClient, start_url: str, extra_pages: int, orgnr: str) -> 
         targets = [base + p for p in GUESSED_PATHS][:extra_pages]
     for url in targets:
         if not ROBOTS.allowed(client, url):
-            crawl.blocked.append(f"robots.txt disallows {url}")
+            crawl.blocked.append("robots.txt disallows a page on the site")
             continue
         try:
             page = _fetch_page(client, url)
@@ -234,6 +247,22 @@ def _add_careers_page(client: HttpClient, pages: list[tuple[Page, Response]]) ->
         return  # the careers field then stays "can't tell": no opening was seen
     if page is not None:
         pages.append(page)
+
+
+def _add_feed(client: HttpClient, pages: list[tuple[Page, Response]]) -> None:
+    """Fetch the post feed a verified site advertises when no crawled page had a dated post (one request).
+    Its items are checked like any other dated post: they must name the company to be published."""
+    url = feed_url(pages[0][0])
+    if url is None or any(dated_items(p) for p, _ in pages) or not ROBOTS.allowed(client, url):
+        return
+    try:
+        resp = client.get(url, accept="application/rss+xml,application/atom+xml,application/xml,text/xml",
+                          timeout=config.WEBSITE_TIMEOUT_SECONDS, max_bytes=config.WEBSITE_MAX_BYTES, retries=0,
+                          untrusted=True)
+    except (ConnectionError, BudgetExceeded):
+        return  # news then stays not found; nothing else depends on the feed
+    if resp.status == 200 and same_site(resp.final_url, pages[0][1].final_url):
+        pages.append((parse_feed(resp.text(), resp.final_url), resp))
 
 
 def _fetch_page(client: HttpClient, url: str) -> tuple[Page, Response] | None:
