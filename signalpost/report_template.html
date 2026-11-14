@@ -73,7 +73,7 @@ button:disabled{opacity:.5;cursor:not-allowed}
 .dir-tools{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px}
 .dir-tools select{width:100%;padding:8px;border:1px solid var(--line-2);border-radius:var(--r-sm);background:var(--card);min-width:0}
 .count{font-size:.78rem;color:var(--muted);margin:8px 0 0}
-.list{overflow:auto;padding:4px 0}
+.list{position:relative;overflow:auto;padding:4px 0}
 @media (max-width:900px){.list{max-height:60vh}}
 .row{display:grid;grid-template-columns:28px minmax(0,1fr);align-items:start;border-bottom:1px solid var(--line)}
 .row:last-child{border-bottom:0}
@@ -95,6 +95,9 @@ button:disabled{opacity:.5;cursor:not-allowed}
 .btn:hover{border-color:var(--accent);color:var(--accent)}
 .btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
 .btn.primary:hover:not(:disabled){filter:brightness(1.08);color:var(--accent-ink)}
+.btn{white-space:nowrap;flex:none}
+.btn:disabled,.btn.primary:disabled{background:var(--paper-2);border-color:var(--line-2);color:var(--muted);cursor:not-allowed}
+.cmpbar small{min-width:0;line-height:1.3}
 .btn.ghost{border-color:transparent;background:none;padding-left:0;color:var(--link)}
 
 /* profile */
@@ -148,6 +151,22 @@ button:disabled{opacity:.5;cursor:not-allowed}
 .secnav a:focus-visible{outline-offset:-3px}
 .secnav a:hover{color:var(--accent);border-bottom-color:var(--accent)}
 @media (max-width:640px){.secnav{top:108px}}
+.secnav-name{flex:none;align-self:center;max-width:22ch;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font:600 .95rem var(--serif);color:var(--ink);padding-right:12px;margin-right:4px;border-right:1px solid var(--line)}
+@media (max-width:640px){.secnav-name{max-width:14ch}}
+details.missing{margin-top:6px;border-bottom:1px solid var(--line)}
+details.missing>summary{cursor:pointer;list-style:none;display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 6px;padding:10px 0;font-size:.84rem;color:var(--muted)}
+details.missing>summary::-webkit-details-marker{display:none}
+details.missing>summary::before{content:"▸"/"";color:var(--accent);transition:transform var(--duration-fast,150ms) var(--ease)}
+details.missing[open]>summary::before{transform:rotate(90deg)}
+details.missing>summary:hover{color:var(--ink)}
+.mcount{font:600 .78rem var(--mono);padding:1px 7px;border-radius:999px;background:var(--na-soft);color:var(--na)}
+.mnames{flex-basis:100%;padding-left:16px;font-size:.76rem;color:var(--na);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+details.missing[open] .mnames{display:none}
+details.missing>ul{margin:0 0 6px;padding:0 0 0 16px;list-style:none}
+details.missing .claim{padding:6px 0;border-bottom:1px dashed var(--line)}
+details.missing .claim:last-child{border-bottom:0}
+.mreason{font-size:.8rem}
+@media (prefers-reduced-motion:reduce){details.missing>summary::before{transition:none}}
 .body{padding:8px clamp(16px,3vw,32px) 28px}
 .brief{display:grid;grid-template-columns:minmax(0,1fr);gap:2px;margin:12px 0 4px}
 .brief p{margin:0;padding:10px 0;border-bottom:1px dashed var(--line);display:grid;grid-template-columns:150px minmax(0,1fr);gap:12px}
@@ -167,6 +186,10 @@ section.sec>h2{font:600 1.35rem/1.2 var(--serif);margin:0 0 6px;display:flex;ali
 .label{color:var(--muted);font-size:.84rem}
 .label .asof{display:block;font-size:.72rem}
 .value{overflow-wrap:anywhere}
+/* found values: the source link sits beside the value and only takes its own line once opened */
+.claim>.value:not(.empty){display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 14px}
+.claim>.value>ul.entries,.claim>.value>.note,.claim>.value>details.ev[open]{flex-basis:100%}
+.claim>.value>details.ev{margin-top:0}
 .value.empty{color:var(--na);font-size:.88rem}
 details.ev{margin-top:4px;font-size:.78rem;color:var(--muted)}
 details.ev summary{cursor:pointer;color:var(--link);font-weight:600;list-style:none;display:inline-flex;gap:4px;align-items:center}
@@ -297,7 +320,7 @@ const TOPIC={what_it_does:"What it does",leadership:"Who runs it",financials:"Fi
 const cid=id=>"claim-"+id;
 function cites(ids){return ids&&ids.length?h("span",{class:"cite"}," [",ids.map((id,i)=>[i?", ":"",h("a",{href:"#"+cid(id),onclick:ev=>{ev.preventDefault();jump(cid(id))}},id)]),"]"):null}
 function focusOn(t,block){t.scrollIntoView({behavior:calm()?"auto":"smooth",block});if(!t.hasAttribute("tabindex"))t.tabIndex=-1;t.focus({preventScroll:true})}
-function jump(id){const t=document.getElementById(id);if(!t)return;const det=t.querySelector("details");if(det)det.open=true;focusOn(t,"center");t.classList.remove("flash");void t.offsetWidth;t.classList.add("flash")}
+function jump(id){const t=document.getElementById(id);if(!t)return;const fold=t.closest("details.missing");if(fold)fold.open=true;const det=t.querySelector("details");if(det)det.open=true;focusOn(t,"center");t.classList.remove("flash");void t.offsetWidth;t.classList.add("flash")}
 function busy(text){const p=$("#panel");p.replaceChildren(h("p",{class:"empty-state"},text));return p}
 function fail(p,err){p.replaceChildren(h("p",{class:"empty-state"},"Could not show this: "+(err&&err.message||err)))}
 function reveal(p){if(narrow())p.scrollIntoView({behavior:calm()?"auto":"smooth",block:"start"});p.focus({preventScroll:true})}
@@ -315,16 +338,23 @@ function claimRow(d,c){const ok=found(c);const cant=(c.reason||"").startsWith("c
 return h("div",{class:"claim",id:cid(c.id)},h("div",{class:"label"},c.label||c.field,c.as_of?h("span",{class:"asof"},"as of "+c.as_of):null),
 ok?h("div",{class:"value"},richValue(c),c.stale?h("span",{class:"badge ambiguous"},"stale"):null,c.note?h("span",{class:"note"},c.note):null,evidence(d,c))
 :h("div",{class:"value empty"},h("span",{class:"badge "+c.availability},cant?"can't tell":(c.availability||"not found").replace(/_/g," "))," ",(c.reason||"").replace(/^can't tell: /,"")))}
+/* fields that were checked but not found fold into one line so found facts stay scannable */
+function missing(d,miss,nHit){const n=miss.length;
+return h("details",{class:"missing"},h("summary",{},h("span",{class:"mcount"},n),(nHit?" more field":" field")+(n>1?"s":"")+" checked, not found",h("span",{class:"mnames"},miss.map(c=>c.label||c.field).join(" · "))),
+h("ul",{},miss.map(c=>{const cant=(c.reason||"").startsWith("can't tell");return h("li",{class:"claim",id:cid(c.id)},h("div",{class:"label"},c.label||c.field),
+h("div",{class:"value empty"},h("span",{class:"badge "+c.availability},cant?"can't tell":(c.availability||"not found").replace(/_/g," "))," ",c.reason?h("span",{class:"mreason"},short(c.reason)):null))})))}
 function profileBody(d){const body=h("div",{class:"body"});
 const brief=h("section",{class:"sec",id:"s-brief"},h("h2",{},"Company brief"),d.summary?h("p",{class:"value"},d.summary):null);
 const bl=h("div",{class:"brief"});for(const s of d.statements||[])bl.append(h("p",{},h("b",{},TOPIC[s.topic]||(s.topic||"").replace(/_/g," ")),h("span",{},s.text,cites(s.claim_ids))));
 if(d.narrative&&d.narrative.length)bl.prepend(h("p",{},h("b",{},"Overview"),h("span",{},d.narrative.map(s=>[s.text," ",cites(s.claim_ids)," "]))));
 brief.append(bl);body.append(brief);
 for(const s of SKEYS){const sec=h("section",{class:"sec",id:"s-"+s},h("h2",{},SECT[s],h("span",{class:"badge "+d.sections[s]},(d.sections[s]||"").replace(/_/g," "))));
-for(const c of d.claims.filter(c=>c.section===s))sec.append(claimRow(d,c));body.append(sec)}
+const cs=d.claims.filter(c=>c.section===s),hit=cs.filter(found),miss=cs.filter(c=>!found(c));
+for(const c of hit)sec.append(claimRow(d,c));
+if(miss.length)sec.append(missing(d,miss,hit.length));body.append(sec)}
 if(d.changes&&d.changes.length){const sec=h("section",{class:"sec",id:"s-changes"},h("h2",{},"Changes since previous check"));for(const c of d.changes)sec.append(h("div",{class:"claim"},h("div",{class:"label"},c.label||c.field,h("span",{class:"asof"},(c.change_type||"").replace(/_/g," "))),h("div",{class:"value"},c.note||fmt(c.new))));body.append(sec)}
 return body}
-function secnav(d){const nav=h("nav",{class:"secnav","aria-label":"Profile sections"},h("a",{href:"#s-brief"},"Brief"),SKEYS.map(s=>h("a",{href:"#s-"+s},SECT[s])),d.changes&&d.changes.length?h("a",{href:"#s-changes"},"Changes"):null);
+function secnav(d){const nav=h("nav",{class:"secnav","aria-label":"Profile sections"},h("span",{class:"secnav-name","aria-hidden":"true",title:d.name||d.org},d.name||d.org),h("a",{href:"#s-brief"},"Brief"),SKEYS.map(s=>h("a",{href:"#s-"+s},SECT[s])),d.changes&&d.changes.length?h("a",{href:"#s-changes"},"Changes"):null);
 nav.addEventListener("click",ev=>{const a=ev.target.closest("a");if(!a)return;ev.preventDefault();const t=document.getElementById(a.getAttribute("href").slice(1));if(t)focusOn(t,"start")});return nav}
 async function show(org,push=true,focus=true){const token=++navToken;current=org;markCurrent();const p=busy("Loading profile…");let d;
 try{d=await load(org)}catch(err){if(token===navToken)fail(p,err);return}

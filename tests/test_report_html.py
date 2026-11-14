@@ -92,3 +92,11 @@ def test_index_uses_the_newest_accounting_year(tmp_path):
     html = (tmp_path / "report.html").read_text(encoding="utf-8")
     assert '"rev":2025' in html
     assert "function claimOf(d,f){const all=d.claims.filter(c=>c.field===f)" in html
+
+
+def test_hidden_labels_in_the_scrolling_list_stay_inside_it():
+    # Absolutely positioned screen-reader labels escape an unpositioned scroll box and
+    # stretch the page far below its content; the list must be their containing block.
+    from signalpost.report_html import _TEMPLATE
+
+    assert ".list{position:relative;" in _TEMPLATE
