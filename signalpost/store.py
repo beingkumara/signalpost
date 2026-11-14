@@ -152,14 +152,37 @@ def diff_facts(old_facts: list[dict[str, Any]], new_facts: list[dict[str, Any]],
     changes: list[dict[str, Any]] = []
     for name, fact in new.items():
         before = old.get(name)
-        if before is None:
+        if name == "official_changes":
+            change = _official_change(before, fact, now)
+            if change:
+                changes.append(change)
+        elif before is None:
             changes.append(_change(fact, "added", None, fact, now))
         elif before.get("value") != fact.get("value"):
             changes.append(_change(fact, "changed", before, fact, now))
     for name, fact in old.items():
-        if name not in new:
+        if name not in new and name != "official_changes":  # an empty 12-month window is not a removal
             changes.append(_change(fact, "removed", fact, None, now))
     return changes
+
+
+def _event_key(event: dict[str, Any]) -> tuple:
+    return event.get("date"), event.get("type"), tuple(event.get("fields") or ())
+
+
+def _official_change(before: dict[str, Any] | None, fact: dict[str, Any], now: str) -> dict[str, Any] | None:
+    """Brønnøysund's change log is a rolling 12-month window, and NAV refreshes employee dates almost daily.
+    Events leaving the window and non-material refreshes are not changes to the company: only a material
+    event that was not in the previous log is reported, with just those new events as the new value."""
+    previous = (before or {}).get("value") or []
+    seen = {_event_key(e) for e in previous}
+    newest = max((str(e.get("date") or "") for e in previous), default="")
+    # An event older than the newest one already seen is the log resurfacing history, not news.
+    fresh = [e for e in fact.get("value") or []
+             if e.get("material") and _event_key(e) not in seen and str(e.get("date") or "") >= newest]
+    if not fresh or before is None:
+        return None  # first run: the log itself is the history, not a change since the last check
+    return {**_change(fact, "changed", before, fact, now), "old": None, "new": fresh}
 
 
 def _evidence_ref(fact: dict[str, Any] | None) -> dict[str, Any] | None:

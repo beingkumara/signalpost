@@ -4,10 +4,10 @@ from __future__ import annotations
 
 from typing import Any
 
-from signalpost.explain import change_notes, money
 from signalpost.item_checks import CANT_TELL
 from signalpost.modules import AMBIGUOUS, AVAILABLE, FAILED, NOT_APPLICABLE, NOT_AVAILABLE
 from signalpost.redact import redact_hosts
+from signalpost.synthesis import synthesis
 
 CONFIDENCE = {"high": 0.97, "medium": 0.8, "low": 0.5}
 
@@ -199,83 +199,3 @@ def _sections(claims: list[dict[str, Any]]) -> dict[str, Any]:
                         "available_claims": len(available), "unavailable_states": states,
                         "claim_ids": [c["id"] for c in rows]}
     return out
-
-
-def synthesis(profile: dict[str, Any], claims: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    """Short supported statements, each citing the claims it rests on."""
-    by = {c["field"]: c for c in claims if c["availability"] == AVAILABLE}
-    out: list[dict[str, Any]] = []
-
-    def say(topic: str, text: str, fields: list[str]) -> None:
-        ids = [by[f]["id"] for f in fields if f in by]
-        if ids:
-            out.append({"topic": topic, "text": text, "claim_ids": ids})
-
-    if "website_description" in by:
-        say("what_it_does", f"The company describes itself as: {by['website_description']['value']}",
-            ["website_description", "official_website"])
-    elif "purpose" in by or "industry_codes" in by:
-        industry = (by.get("industry_codes") or {}).get("value") or [{}]
-        purpose = (by.get("purpose") or {}).get("value")
-        label = industry[0].get("description_en") or industry[0].get("description") or ""
-        extra = [i.get("description_en") or i.get("description") for i in industry[1:] if i]
-        text = f"Works in {label.lower()} (industry code {industry[0].get('code', '?')})"
-        if extra:
-            text += "; also registered for " + "; ".join(e.lower() for e in extra if e)
-        say("what_it_does", text + (f". Stated purpose (Norwegian, from the register): {purpose}" if purpose else "."),
-            ["industry_codes", "purpose"])
-    leaders = [f"{lbl}: {by[f]['value'].get('name')}" for f, lbl in (("ceo", "CEO"), ("board_chair", "Chair"))
-               if f in by and isinstance(by[f]["value"], dict)]
-    if leaders:
-        say("leadership", "; ".join(leaders) + ".", ["ceo", "board_chair"])
-    if "revenue" in by or "net_profit" in by:
-        say("financials", _finance_text(by), ["accounts_period", "revenue", "net_profit", "equity"])
-    footprint = []
-    if "official_website" in by:
-        footprint.append(f"verified website {by['official_website']['value'].get('final_url')}")
-    if "social_profiles" in by:
-        footprint.append("profiles on " + ", ".join(sorted(by["social_profiles"]["value"])))
-    if "job_postings" in by:
-        footprint.append(f"{len(by['job_postings']['value'])} active job posting(s) on NAV")
-    if "website_job_postings" in by:
-        footprint.append(f"{len(by['website_job_postings']['value'])} job posting(s) on its own website")
-    if "careers_platform" in by:
-        footprint.append("recruits through " + ", ".join(sorted(by["careers_platform"]["value"])))
-    if footprint:
-        say("public_footprint", "Public footprint: " + "; ".join(footprint) + ".",
-            ["official_website", "social_profiles", "job_postings", "website_job_postings", "careers_platform"])
-    official = by.get("official_changes")
-    if official:
-        events = official["value"]
-        material = [e for e in events if e.get("material")]
-        latest = events[0]
-        what = ", ".join(latest.get("fields") or [latest.get("type", "update")])
-        text = (f"Brønnøysund recorded {len(events)} update(s) in the last 12 months"
-                f"{f', {len(material)} of them material' if material else ''}; most recent on {latest['date']} "
-                f"({what}).")
-        out.append({"topic": "official_changes", "text": text, "claim_ids": [official["id"]]})
-    changes = profile.get("changes_this_run", [])
-    if changes:
-        ids = [by[c["field"]]["id"] for c in changes if c["field"] in by]
-        out.append({"topic": "changes", "text": f"{len(changes)} change(s) since the previous check: "
-                    + " ".join(change_notes(changes[:5])), "claim_ids": ids[:10]})
-    unknown = sorted({c["label"] for c in claims if c["availability"] != AVAILABLE and c.get("label")})
-    if unknown:
-        out.append({"topic": "unknowns", "text": "Not found or not applicable: " + ", ".join(unknown[:12]) + ".",
-                    "claim_ids": [c["id"] for c in claims if c["availability"] != AVAILABLE][:12]})
-    return out
-
-
-def _finance_text(by: dict[str, dict[str, Any]]) -> str:
-    period = (by.get("accounts_period") or {}).get("value") or {}
-    parts = [f"{label} {money(by[f]['value']['amount'], by[f]['value']['currency'])}"
-             for f, label in (("revenue", "revenue"), ("net_profit", "net result"), ("equity", "equity"))
-             if f in by]
-    text = f"Filed accounts for {period.get('year', '?')}: " + ", ".join(parts) + "."
-    equity = (by.get("equity") or {}).get("value", {}).get("amount")
-    if isinstance(equity, (int, float)) and equity < 0:
-        text += " Equity is negative."
-    net = (by.get("net_profit") or {}).get("value", {}).get("amount")
-    if isinstance(net, (int, float)):
-        text += " The year ended with a loss." if net < 0 else " The year ended with a profit."
-    return text

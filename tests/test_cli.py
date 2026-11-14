@@ -22,11 +22,11 @@ def test_run_jsonl_batch_writes_one_envelope_per_input(tmp_path, fake_http):
                      + json.dumps({"organisation_number": "123456789"}) + "\n", encoding="utf-8")
     assert _run(tmp_path, "--input", str(batch), "--expected-count", "2") == 0
     lines = (tmp_path / "out" / "envelopes.jsonl").read_text().splitlines()
-    assert [json.loads(l)["organisation_number"] for l in lines] == [EQUINOR, "123456789"]
+    assert [json.loads(line)["organisation_number"] for line in lines] == [EQUINOR, "123456789"]
     report = json.loads((tmp_path / "out" / "run_report.json").read_text())
     assert report["validation"]["passed"] and report["operations"]["third_party_cost_usd"] == 0.0
     html = (tmp_path / "out" / "report.html").read_text()
-    assert "EQUINOR ASA" in html and "<\\/script>" not in html.split("const DATA=")[0]
+    assert "EQUINOR ASA" in html and "<\\/script>" not in html.split("const INDEX=")[0]
 
 
 def test_expected_count_mismatch_fails(tmp_path, fake_http):

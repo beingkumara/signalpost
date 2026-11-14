@@ -1,8 +1,8 @@
 {
-  "run_id": "signalpost-20261113T151732Z",
-  "started_at": "2026-11-13T15:17:32Z",
-  "completed_at": "2026-11-13T15:23:21Z",
-  "agent_version": "2.3.0",
+  "run_id": "signalpost-20261114T041801Z",
+  "started_at": "2026-11-14T04:18:01Z",
+  "completed_at": "2026-11-14T04:22:47Z",
+  "agent_version": "2.4.0",
   "input_count": 100,
   "emitted_envelopes": 100,
   "validation": {
@@ -24,7 +24,7 @@
     "legal_identity_and_brand": 100,
     "annual_accounts": 100,
     "leadership_and_workplaces": 100,
-    "website_and_profiles": 7,
+    "website_and_profiles": 6,
     "hiring_and_activity": 100
   },
   "field_availability": {
@@ -200,8 +200,8 @@
       "available": 100
     },
     "official_website": {
-      "available": 7,
-      "not_available": 87,
+      "available": 6,
+      "not_available": 88,
       "failed": 3,
       "ambiguous": 3
     },
@@ -282,15 +282,15 @@
       "available": 7
     },
     "website_description": {
-      "available": 6,
-      "not_available": 88,
+      "available": 5,
+      "not_available": 89,
       "failed": 3,
       "ambiguous": 3
     },
     "website_emails": {
-      "not_available": 91,
+      "not_available": 92,
       "failed": 3,
-      "available": 3,
+      "available": 2,
       "ambiguous": 3
     },
     "website_job_postings": {
@@ -310,22 +310,22 @@
       "ambiguous": 3
     },
     "website_title": {
-      "available": 7
+      "available": 6
     }
   },
-  "profiles_with_changes": 14,
+  "profiles_with_changes": 3,
   "search": {
     "providers": [
       "tavily_keyless"
     ],
-    "searches": 19,
+    "searches": 18,
     "available": false,
     "by_provider": {
-      "tavily_keyless": 18
+      "tavily_keyless": 17
     },
     "estimated_cost_usd": 0.0,
     "disabled": {
-      "tavily_keyless": "HTTP 429"
+      "tavily_keyless": "unreachable: POST https://api.tavily.com/search failed after 1 attempts: <urlopen error [Errno 8] nodename nor servname "
     },
     "max_searches": 150
   },
@@ -333,22 +333,22 @@
     "enabled": false
   },
   "operations": {
-    "requests": 1294,
-    "bytes_received": 89977589,
-    "p50_ms": 1393,
-    "p95_ms": 5145,
+    "requests": 1247,
+    "bytes_received": 90982271,
+    "p50_ms": 1057,
+    "p95_ms": 5298,
     "requests_by_group": {
       "brreg_registry": 601,
-      "company_websites": 584,
+      "company_websites": 538,
       "nav_jobs_feed": 90,
-      "web_search": 19
+      "web_search": 18
     },
     "request_budget": 1950,
-    "requests_per_company": 12.9,
+    "requests_per_company": 12.5,
     "dns_probes_without_http": 296,
-    "runtime_seconds": 349.2,
-    "company_runtime_p50_ms": 12993,
-    "company_runtime_p95_ms": 103336,
+    "runtime_seconds": 286.7,
+    "company_runtime_p50_ms": 14198,
+    "company_runtime_p95_ms": 103926,
     "third_party_cost_usd": 0.0
   }
 }

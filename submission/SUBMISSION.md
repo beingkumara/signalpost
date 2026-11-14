@@ -2,6 +2,8 @@
 
 This follows the "What to Submit" list in the challenge statement.
 
+**Browse the 1,000 submitted profiles:** [https://beingkumara.github.io/signalpost/report/](https://beingkumara.github.io/signalpost/report/). Open it on a laptop or a phone.
+
 | Required item | Answer |
 |---|---|
 | At least 1,000 company profiles | `submission/profiles-1000/envelopes.jsonl.gz`: 1,000 profiles, one per company, from the public company list (seed 20260825). `submission/smoke-100/` adds a 100-company run with a browsable `report.html`. |
@@ -18,8 +20,8 @@ The daily test is 100 companies, with limits of 45 minutes, 2,000 outbound reque
 
 | Limit | Agent default | Measured on 100 companies |
 |---|---|---|
-| 45 minutes | Stops starting new source checks after 30 minutes (`SIGNALPOST_MAX_MINUTES`) | 5.8 minutes |
-| 2,000 outbound requests | Hard cap of 18 per company + 150 per run = 1,950 (`SIGNALPOST_REQUEST_BUDGET`) | 1,294 requests (registry 601, company websites 584, NAV feed 90, keyless web search 19 before Tavily's free tier returned HTTP 429), version 2.3.0. |
+| 45 minutes | Stops starting new source checks after 30 minutes (`SIGNALPOST_MAX_MINUTES`) | 4.8 minutes |
+| 2,000 outbound requests | Hard cap of 18 per company + 150 per run = 1,950 (`SIGNALPOST_REQUEST_BUDGET`) | 1,247 requests (registry 601, company websites 538, NAV feed 90, keyless web search 18), version 2.4.0. |
 | $10 external API cost | Search capped at 150 per run; overviews capped at $1 (`SIGNALPOST_LLM_MAX_USD`) | $0.00 without keys; ≤ $2.20 with keys |
 
 Every outbound HTTP request counts, including keyless web searches and redirect hops; `run_report.json` lists them by source under `operations.requests_by_group`. Every input company returns exactly one result, even when a source is blocked, web search is unavailable, or a limit is reached.
@@ -30,6 +32,6 @@ Every outbound HTTP request counts, including keyless web searches and redirect 
 |---|---|
 | Find useful information | Registry identity, accounts and filing history, roles, workplaces, verified website, contacts, social profiles, NAV job postings, and dated events |
 | Match it correctly with evidence | Exact org-number lookups only. Websites and jobs are published only after org-number proof. Every claim has a source URL, retrieval time, content hash and extraction method. |
-| Update correctly | Every profile lists the changes Brønnøysund recorded in the last 12 months, field by field and dated, even on a first run. Re-runs also diff against the stored profile: changes are typed and flagged as material, with evidence for both the old and new values. Identical data gives zero changes. |
-| Give useful explanations | A plain-English summary, plus key points that cite the claims they rest on, and a list of what was not found and why |
-| Make it easy to use | One command, no install step, and a searchable report page (`report.html`) that works on desktop and mobile |
+| Update correctly | Every profile lists the changes Brønnøysund recorded in the last 12 months, field by field and dated, even on a first run. Re-runs also diff against the stored profile: changes are typed and flagged as material, with evidence for both the old and new values. Identical data gives zero changes. Brønnøysund's change log is a rolling 12-month window that NAV refreshes almost daily, so only a new material event in that log counts as a change; events ageing out of the window and routine employee-date refreshes do not. |
+| Give useful explanations | A plain-English summary plus key points that cite the claims they rest on: what the company does (registered industry and purpose, plus its own website description when that is a real sentence), leadership, financials (profit, loss or break-even), what Brønnøysund recorded as changed and who changed ("2026-10-31: accountant changed"), what changed since the last check, and what remains unknown and why |
+| Make it easy to use | **Live: [https://beingkumara.github.io/signalpost/report/](https://beingkumara.github.io/signalpost/report/)** (all 1,000 profiles). One command, no install step, and `report.html`: find by name, org number, place or industry, compare two to four companies with a source link in every cell, and "Verify source" under every value. Each profile opens with key figures (revenue, results, employees, website, social profiles, latest news, NAV job ads), each with a source link, and a cited company brief. It works on desktop and phone, meets WCAG 2.2 AA under axe in light and dark mode, and stays fast at 1,000+ companies (small index; each profile loads on demand from `report_files/`). Shareable links: `#<orgnr>` and `#compare=<orgnr>,<orgnr>`. |

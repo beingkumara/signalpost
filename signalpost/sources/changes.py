@@ -10,7 +10,7 @@ import time
 from typing import Any
 
 from signalpost import config
-from signalpost.facts import OFFICIAL_REGISTRY, Fact, Source, make_fact
+from signalpost.facts import OFFICIAL_REGISTRY, Source, make_fact
 from signalpost.http_client import HttpClient
 from signalpost.modules import FAILED, ModuleResult, from_facts
 

@@ -3,7 +3,6 @@ import time
 
 import pytest
 
-import conftest
 from conftest import EQUINOR, FakeClient, load_fixture
 from signalpost import narrative
 from signalpost.modules import ModuleResult

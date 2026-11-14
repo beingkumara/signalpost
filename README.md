@@ -1,5 +1,7 @@
 # Signalpost company research agent
 
+**Open the report:** [https://beingkumara.github.io/signalpost/report/](https://beingkumara.github.io/signalpost/report/) shows all 1,000 submitted profiles. Find a company, compare two to four side by side, and open "Verify source" under any value. It works on desktop and phone. The same page is in `out/report.html` after every run.
+
 Give it a batch of Norwegian organisation numbers. For each one it researches official registers, the company's own website and NAV's official job feed, and returns **exactly one terminal envelope**. Every claim in the envelope carries a source URL, retrieval time, content hash, reporting period where relevant, and an explicit availability state. Profiles are kept current: each run diffs against the previous snapshot and reports typed, material changes while preserving earlier evidence.
 
 ## Evaluator command
@@ -12,7 +14,7 @@ python3 -m signalpost run --input companies.jsonl --out out/
 - Output in `out/`:
   - `envelopes.jsonl` has one envelope per input, in input order.
   - `run_report.json` has validation checks, section and field coverage, requests, p50/p95 latency, runtime and cost.
-  - `report.html` is a self-contained viewer to search, compare and verify profiles on desktop and mobile.
+  - `report.html` (open it by double-clicking; no server needed) lets you find a company by name, org number, place or industry, compare two to four side by side, and open "Verify source" under any value. It works on desktop and phone. The page holds a small index only (about 440 KB for 1,000 companies). Each company's full profile is in `report_files/<orgnr>.js` and loads when opened, so the page stays fast at any batch size. Links: `report.html#923609016` opens a profile and `report.html#compare=<orgnr>,<orgnr>` a comparison.
 - Exit code 0 means every input produced a valid terminal envelope.
 
 **Install:** none. Python 3.10+ standard library only, with no third-party runtime dependencies. `uv.lock` pins the dev and test tools.
@@ -88,12 +90,12 @@ Details are in [AGENT.md](AGENT.md), [SOURCES.md](SOURCES.md), [REFRESH.md](REFR
 | Language models | Optional: Claude Haiku 4.5 (`claude-haiku-4-5-20251001`) for overviews, only when `ANTHROPIC_API_KEY` is set |
 | APIs | Brønnøysundregistrene open data (NLOD 2.0), NAV job vacancy feed (public token), company websites; optional Tavily, Exa, Linkup or Firecrawl search and the Anthropic API |
 | Third-party cost | $0.00 without keys; at most about $2.20 per 100-company run with search and overviews enabled |
-| Requests | 12 to 14 per company, web searches and redirects included (measured 1,294 for 100 companies with version 2.3.0, including 19 keyless web searches before Tavily's free tier rate-limited search; under 6 minutes) |
+| Requests | 12 to 14 per company, web searches and redirects included (measured 1,247 for 100 companies with version 2.4.0, including 18 keyless web searches; under 5 minutes) |
 
 ## Submitted profiles
 
-- `submission/profiles-1000/` holds 1,000 company profiles (`envelopes.jsonl.gz`) with their run report and input list. The run (version 2.3.0, keyless search only, 60-minute limit) took 10,145 requests and 39 minutes, at $0.
-- `submission/smoke-100/` holds a 100-company run with a browsable `report.html`.
+- `submission/profiles-1000/` holds 1,000 company profiles (`envelopes.jsonl.gz`) with their run report and input list. The run (version 2.4.0, keyless search only, 60-minute limit) took 10,086 requests and 37 minutes, at $0. They are also browsable at https://beingkumara.github.io/signalpost/report/.
+- `submission/smoke-100/` holds a 100-company run with a browsable `report.html` (keep it next to its `report_files/` folder).
 
 The submission checklist is in [submission/SUBMISSION.md](submission/SUBMISSION.md).
 

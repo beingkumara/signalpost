@@ -158,9 +158,35 @@ def change_notes(changes: list[dict[str, Any]]) -> list[str]:
             lines.append(f"New: {name}.")
         elif kind == "removed":
             lines.append(f"No longer present in the source: {name}.")
+        elif change.get("field") == "official_changes":
+            events = "; ".join(f"{e.get('date')} {', '.join(e.get('fields') or [])}" for e in change.get("new") or [])
+            lines.append(f"Brønnøysund recorded new material update(s): {events}.")
+        elif isinstance(change.get("old"), list) or isinstance(change.get("new"), list):
+            lines.append(_list_change(name, change.get("old") or [], change.get("new") or []))
         else:
             lines.append(f"Changed: {name} (was {_short(change.get('old'))}, now {_short(change.get('new'))}).")
     return lines
+
+
+def _item_name(item: Any) -> str:
+    if isinstance(item, dict):
+        for key in ("name", "title", "description", "year", "url", "code", "date"):
+            if item.get(key):
+                return str(item[key])
+        return ", ".join(f"{k} {v}" for k, v in sorted(item.items()) if isinstance(v, (str, int, float)))[:80]
+    return str(item)[:80]
+
+
+def _list_change(name: str, old: list[Any], new: list[Any]) -> str:
+    """'Registered workplaces: added REMA 1000 BYGDØY; updated REMA 1000 SEM.' Never a raw dict dump."""
+    before = {_item_name(i): i for i in old}
+    after = {_item_name(i): i for i in new}
+    added = [k for k in after if k not in before]
+    removed = [k for k in before if k not in after]
+    updated = [k for k in after if k in before and after[k] != before[k]]
+    parts = [f"{verb} {', '.join(items[:3])}{' and more' if len(items) > 3 else ''}"
+             for verb, items in (("added", added), ("removed", removed), ("updated", updated)) if items]
+    return f"{name}: {'; '.join(parts) or 'entries reordered'}."
 
 
 def _short(value: Any) -> str:

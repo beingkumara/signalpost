@@ -109,3 +109,29 @@ def test_from_envelope_roundtrip_is_idempotent():
     previous = store.from_envelope(env)
     again = store.merge(previous, profile([fact("name", "A AS")], checked_at="2026-09-10T00:00:00Z"))
     assert again["changes_this_run"] == []
+
+
+def _event(day, kind="updated", fields=("employees",), material=False):
+    return {"date": day, "type": kind, "fields": list(fields), "material": material}
+
+
+def test_official_change_log_window_and_noise_are_not_changes():
+    old = [_event("2026-11-12"), _event("2026-03-01", "roles_updated", ["roles"], True),
+           _event("2025-11-20", "updated", ["business address"], True)]
+    # next day: NAV refreshed the employee date again, and the oldest event left the 12-month window
+    new = [_event("2026-11-13"), _event("2026-03-01", "roles_updated", ["roles"], True)]
+    changes = store.diff_facts([fact("official_changes", old)], [fact("official_changes", new)], "now")
+    assert changes == []
+
+
+def test_new_material_official_event_is_a_change():
+    old = [_event("2026-03-01", "roles_updated", ["roles"], True)]
+    new = [_event("2026-11-13", "updated", ["business address"], True), *old]
+    changes = store.diff_facts([fact("official_changes", old)], [fact("official_changes", new)], "now")
+    assert len(changes) == 1 and changes[0]["material"] and changes[0]["new"] == [new[0]]
+
+
+def test_older_event_resurfacing_in_the_log_is_not_new():
+    old = [_event("2026-07-20", "updated", ["annual accounts filed"], True)]
+    new = [*old, _event("2026-01-13", "updated", ["share capital"], True)]
+    assert store.diff_facts([fact("official_changes", old)], [fact("official_changes", new)], "now") == []

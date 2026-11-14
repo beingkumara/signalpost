@@ -18,7 +18,7 @@ from dataclasses import dataclass, field
 from typing import Any
 
 from signalpost.explain import money
-from signalpost.http_client import BudgetExceeded, HttpClient
+from signalpost.http_client import HttpClient
 
 API_URL = "https://api.anthropic.com/v1/messages"
 DEFAULT_MODEL = "claude-haiku-4-5-20251001"

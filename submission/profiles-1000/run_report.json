@@ -1,8 +1,8 @@
 {
-  "run_id": "signalpost-20261113T151732Z",
-  "started_at": "2026-11-13T15:17:32Z",
-  "completed_at": "2026-11-13T15:56:29Z",
-  "agent_version": "2.3.0",
+  "run_id": "signalpost-20261114T041759Z",
+  "started_at": "2026-11-14T04:17:59Z",
+  "completed_at": "2026-11-14T04:54:31Z",
+  "agent_version": "2.4.0",
   "input_count": 1000,
   "emitted_envelopes": 1000,
   "validation": {
@@ -62,8 +62,8 @@
       "not_available": 5
     },
     "brand_name": {
-      "failed": 14,
-      "not_available": 865,
+      "failed": 13,
+      "not_available": 866,
       "available": 61,
       "ambiguous": 55,
       "blocked": 4,
@@ -77,16 +77,16 @@
       "available": 981
     },
     "careers_page": {
-      "failed": 14,
-      "not_available": 911,
+      "failed": 13,
+      "not_available": 912,
       "ambiguous": 69,
       "blocked": 4,
       "available": 1,
       "not_applicable": 1
     },
     "careers_platform": {
-      "failed": 14,
-      "not_available": 926,
+      "failed": 13,
+      "not_available": 927,
       "ambiguous": 55,
       "blocked": 4,
       "not_applicable": 1
@@ -236,8 +236,8 @@
       "not_applicable": 1
     },
     "official_website": {
-      "failed": 14,
-      "not_available": 832,
+      "failed": 13,
+      "not_available": 833,
       "available": 94,
       "ambiguous": 55,
       "blocked": 4,
@@ -297,8 +297,8 @@
       "available": 2619
     },
     "social_profiles": {
-      "failed": 14,
-      "not_available": 872,
+      "failed": 13,
+      "not_available": 873,
       "available": 52,
       "ambiguous": 57,
       "blocked": 4,
@@ -336,61 +336,61 @@
       "available": 117
     },
     "website_description": {
-      "failed": 14,
+      "failed": 13,
       "not_available": 855,
-      "available": 71,
+      "available": 72,
       "ambiguous": 55,
       "blocked": 4,
       "not_applicable": 1
     },
     "website_emails": {
-      "failed": 14,
+      "failed": 13,
       "not_available": 866,
-      "available": 60,
+      "available": 61,
       "ambiguous": 55,
       "blocked": 4,
       "not_applicable": 1
     },
     "website_job_postings": {
-      "failed": 14,
-      "not_available": 926,
+      "failed": 13,
+      "not_available": 927,
       "ambiguous": 55,
       "blocked": 4,
       "not_applicable": 1
     },
     "website_news": {
-      "failed": 14,
-      "not_available": 899,
+      "failed": 13,
+      "not_available": 900,
       "ambiguous": 65,
       "blocked": 4,
       "available": 17,
       "not_applicable": 1
     },
     "website_phones": {
-      "failed": 14,
-      "not_available": 877,
+      "failed": 13,
+      "not_available": 878,
       "ambiguous": 55,
-      "blocked": 4,
       "available": 49,
+      "blocked": 4,
       "not_applicable": 1
     },
     "website_title": {
       "available": 94
     }
   },
-  "profiles_with_changes": 993,
+  "profiles_with_changes": 38,
   "search": {
     "providers": [
       "tavily_keyless"
     ],
-    "searches": 13,
+    "searches": 9,
     "available": false,
     "by_provider": {
-      "tavily_keyless": 12
+      "tavily_keyless": 8
     },
     "estimated_cost_usd": 0.0,
     "disabled": {
-      "tavily_keyless": "HTTP 429"
+      "tavily_keyless": "unreachable: POST https://api.tavily.com/search failed after 1 attempts: <urlopen error [Errno 8] nodename nor servname "
     },
     "max_searches": 150
   },
@@ -398,22 +398,22 @@
     "enabled": false
   },
   "operations": {
-    "requests": 10145,
-    "bytes_received": 303925782,
-    "p50_ms": 1362,
-    "p95_ms": 5818,
+    "requests": 10086,
+    "bytes_received": 302126415,
+    "p50_ms": 887,
+    "p95_ms": 3540,
     "requests_by_group": {
-      "brreg_registry": 6015,
-      "company_websites": 4019,
+      "brreg_registry": 6012,
+      "company_websites": 3967,
       "nav_jobs_feed": 98,
-      "web_search": 13
+      "web_search": 9
     },
     "request_budget": 18150,
     "requests_per_company": 10.1,
     "dns_probes_without_http": 2828,
-    "runtime_seconds": 2340.1,
-    "company_runtime_p50_ms": 11879,
-    "company_runtime_p95_ms": 57088,
+    "runtime_seconds": 2194.1,
+    "company_runtime_p50_ms": 7450,
+    "company_runtime_p95_ms": 53726,
     "third_party_cost_usd": 0.0
   }
 }

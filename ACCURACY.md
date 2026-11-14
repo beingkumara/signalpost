@@ -15,7 +15,7 @@ Builderr checked 78 claims from our daily-test run: 72 right and 6 about a diffe
 
 Fixed in 2.3.0: a rejected candidate is never named. Reasons say what failed ("1 candidate site(s) checked, none showed the org number"), every unpublished text is scrubbed of URLs and host names, and `run_report.json` fails validation (`no_unpublished_sites_named`) if one slips through. The summary no longer names a registry-listed site that could not be verified.
 
-News: 2.3.0 also reads the RSS/Atom post feed a verified site advertises (one request). On the 93 companies with a verified website among the 1,000, dated news went from 2 to 16 companies. Every item still has to name the company in its headline or own text; WordPress's "appeared first on <site>" footer and page-builder placeholder titles ("Elementor #6565") do not count.
+News: 2.3.0 also reads the RSS/Atom post feed a verified site advertises (one request). On the 93 companies with a verified website among the 1,000, dated news went from 2 to 16 companies (17 of 94 in the final 2.4.0 run). Every item still has to name the company in its headline or own text; WordPress's "appeared first on <site>" footer and page-builder placeholder titles ("Elementor #6565") do not count.
 
 ## By confidence level
 

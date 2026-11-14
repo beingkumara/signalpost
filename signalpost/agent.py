@@ -134,7 +134,6 @@ def _run_modules(ctx: RunContext, client: CountingClient, entity: EntityResult) 
     roles = _guard(ctx, "roles", 1, lambda: fetch_roles(client, entity.orgnr), core=True)
     changes = _guard(ctx, "official_changes", 3, lambda: fetch_official_changes(client, entity.orgnr))
     workplaces = _guard(ctx, "workplaces", 1, lambda: fetch_subunits(client, entity.orgnr))
-    subunits = set(workplaces.extra.get("subunit_orgnrs", []))
     name = raw.get("navn", "")
     website = _website(ctx, client, entity, name, [], worth_searching(raw, accounts))
     return [accounts, roles, changes, workplaces, website]
